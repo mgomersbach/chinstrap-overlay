@@ -1,0 +1,22 @@
+diff -rupN avxsynth_org/avxsynth/Makefile.am avxsynth_new/avxsynth/Makefile.am
+--- avxsynth_org/avxsynth/Makefile.am	2013-09-27 16:26:52.252748497 +0200
++++ avxsynth_new/avxsynth/Makefile.am	2013-09-27 17:26:14.613601856 +0200
+@@ -135,5 +135,5 @@ pkginclude_HEADERS = core/src/core/avxsy
+ libavxsynth_la_LDFLAGS = -version-info 0:0:0 -export-dynamic $(AM_LDFLAGS)
+ 
+ # For some reason libtool refuses to run ldconfig
+-install-exec-hook:
+-	-ldconfig
++#install-exec-hook:
++#	-ldconfig
+diff -rupN avxsynth_org/avxutils/Makefile.am avxsynth_new/avxutils/Makefile.am
+--- avxsynth_org/avxutils/Makefile.am	2013-09-27 16:26:52.263748496 +0200
++++ avxsynth_new/avxutils/Makefile.am	2013-09-27 17:26:19.397601659 +0200
+@@ -22,5 +22,5 @@ libavxutils_la_CXXFLAGS = \
+ libavxutils_la_LDFLAGS = -version-info 0:0:0 $(AM_LDFLAGS)
+ 
+ # For some reason libtool refuses to run ldconfig
+-install-exec-hook:
+-	-ldconfig
++#install-exec-hook:
++#	-ldconfig
