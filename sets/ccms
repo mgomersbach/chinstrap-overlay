@@ -1,9 +1,5 @@
-dev-db/mariadb
-www-apps/drupal
-dev-lang/php
-www-servers/apache
-app-admin/webapp-config
-dev-php/pecl-uploadprogress
-dev-php/pecl-apcu
-app-admin/eselect-php
-
+@consolebase
+@server
+@encoding
+@cluster
+@desktop

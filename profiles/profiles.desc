@@ -1,0 +1,3 @@
+amd64           gomersbach/default/linux/amd64           stable
+amd64           gomersbach/default/linux/amd64/bleeding_edge     dev
+
