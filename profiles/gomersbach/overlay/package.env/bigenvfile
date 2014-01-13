@@ -1,0 +1,36 @@
+# -O3 cflags
+media-video/ffmpeg O3.conf
+dev-lang/python O3.conf
+dev-lang/php O3.conf
+dev-lang/ruby O3.conf nodistcc.conf
+www-servers/apache O3.conf
+dev-db/mariadb O3.conf
+dev-db/sqlite O3.conf
+media-libs/libvpx O3.conf
+sys-libs/talloc O3.conf
+
+# no distcc features
+dev-libs/klibc nodistcc.conf
+media-libs/libvpx nodistcc.conf
+sys-libs/talloc nodistcc.conf
+www-servers/apache nodistcc.conf
+media-video/ffmpeg nodistcc.conf
+dev-db/mariadb nodistcc.conf
+media-gfx/splashutils nodistcc.conf
+dev-python/numpy nodistcc.conf
+sys-apps/groff nodistcc.conf
+media-gfx/graphviz nodistcc.conf
+sys-devel/distcc nodistcc.conf
+
+# Limited concurrent jobs
+net-analyzer/net-snmp makeoptsj4.conf
+dev-python/pygtk makeoptsj4.conf
+dev-libs/boost makeoptsj4.conf
+sys-kernel/geek-sources makeoptsj4.conf
+
+# wno-error
+app-emulation/open-vm-tools wnoerror.conf
+app-emulation/open-vm-tools-kmod wnoerror.conf
+
+# no tmpfs portage
+app-office/libreoffice notmpfs.conf

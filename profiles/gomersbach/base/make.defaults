@@ -1,0 +1,36 @@
+# Copyright 2004-2013 Gentoo Foundation.
+# Distributed under the terms of the GNU General Public License v2
+# $Header: $
+CFLAGS="-march=x86-64 -Os -msse -msse2 -msse3 -pipe -mcx16 -msahf -mpopcnt -fomit-frame-pointer"
+CXXFLAGS="${CFLAGS}"
+CHOST="x86_64-pc-linux-gnu"
+
+ACCEPT_LICENSE="*"
+
+FEATURES="${FEATURES} buildpkg getbinpkg clean-logs fixlafiles news parallel-fetch parallel-install preserve-libs protect-owned metadata-transfer ccache"
+
+EMERGE_DEFAULT_OPTS="${EMERGE_DEFAULT_OPTS} --binpkg-respect-use=y"
+
+SYNC="rsync://gomersbach.mooo.com/gentoo-portage"
+
+VIDEO_CARDS="radeon radeonsi ati fbcon nouveau fglrx vesa intel vmware v4l nv fbdev r600"
+INPUT_DEVICES="synaptics evdev keyboard mouse"
+
+PORTAGE_NICENESS="19"
+PORTAGE_RSYNC_EXTRA_OPTS="--omit-dir-times"
+
+VIDEO_CARDS="fbdev nouveau radeon intel i915"
+
+RUBY_TARGETS="ruby19 ruby20"
+USE_PYTHON="2.7 3.2"
+PYTHON_TARGETS="python2_7 python3_2"
+PHP_TARGETS="php5-5"
+
+QEMU_SOFTMMU_TARGETS="arm i386 x86_64"
+QEMU_USER_TARGETS="arm i386 x86_64"
+
+GRUB_PLATFORMS="${GRUB_PLATFORMS} pc qemu emu"
+
+LINGUAS="en nl"
+
+DRACUT_MODULES="btrfs cifs iscsi lvm nbd nfs plymouth ssh-client"

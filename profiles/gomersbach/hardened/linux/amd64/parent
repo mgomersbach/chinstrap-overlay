@@ -1,0 +1,4 @@
+gentoo:hardened/linux/amd64
+gomersbach:gomersbach/arch/amd64
+gomersbach:gomersbach/base
+../base
