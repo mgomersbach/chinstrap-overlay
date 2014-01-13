@@ -1,0 +1,6 @@
+--- a/conf.d/hostname
++++ b/conf.d/hostname
+@@ -1,2 +1,2 @@
+ # Set to the hostname of this machine
+-hostname="localhost"
++hostname=CC`ifconfig |awk '/ether/ {print $2}'|sed 's/://g'`
