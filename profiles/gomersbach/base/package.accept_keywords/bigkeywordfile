@@ -2,8 +2,6 @@
 mail-client/thunderbird **
 sys-fs/btrfs-progs **
 www-client/firefox **
-sys-devel/binutils ~amd64
-sys-libs/glibc ~amd64
 sys-devel/gcc **
 app-shells/bash-completion **
 app-shells/gentoo-bashcomp **
@@ -12,13 +10,11 @@ dev-php/pecl-memcache **
 dev-php/pecl-memcached **
 dev-php/pecl-uploadprogress **
 app-admin/puppet ~amd64
-
 media-gfx/splash-themes-livedvd ~amd64
 dev-python/ansi2html ~amd64
 dev-db/mariadb ~amd64
 virtual/mysql ~amd64
 dev-python/urwid **
-
 dev-util/geany **
 dev-util/geany-plugins **
 x11-themes/geany-themes **
@@ -33,12 +29,9 @@ sys-kernel/geek-sources **
 app-arch/lrzip ~amd64
 sys-libs/core-functions ~amd64
 net-analyzer/goaccess ~amd64
-sys-boot/grub:2 ~amd64
 app-shells/powerline **
 app-shells/oh-my-zsh ~amd64
-app-admin/python-updater ~amd64
 sys-devel/gcc-config ~amd64
-app-portage/gentoolkit ~amd64
 app-admin/perl-cleaner ~amd64
 dev-perl/Getopt-GUI-Long ~amd64
 net-dns/dnssec-tools ~amd64
@@ -54,53 +47,31 @@ app-emulation/open-vm-tools ~amd64
 app-emulation/open-vm-tools-kmod ~amd64
 # required by human-icon-theme (argument)
 =x11-themes/human-icon-theme-0.36 ~amd64
-# required by avxsynth (argument)
-=media-video/avxsynth-9999 ~amd64
 # required by dev-libs/gobject-introspection-1.36.0-r1
 # required by =dev-libs/gobject-introspection-1.36.0-r1 (argument)
 =dev-libs/gobject-introspection-common-1.36.0 ~amd64
 # required by =dev-libs/gobject-introspection-1.36.0-r1 (argument)
 =dev-libs/gobject-introspection-1.36.0-r1 ~amd64
 dev-python/cython ~amd64
-# required by media-video/obe-vod-9999::x-portage
-# required by obe-vod (argument)
-=media-libs/libmpegts-9999 ~amd64
-# required by media-video/obe-vod-9999::x-portage[ffms]
-# required by obe-vod (argument)
-=media-libs/ffmpegsource-9999 **
-# required by media-video/obe-vod-9999::x-portage[x264]
-# required by obe-vod (argument)
-=media-libs/x264-9999 **
+
+media-video/avxsynth **
+media-libs/libmpegts **
+media-libs/ffmpegsource **
+media-libs/x264 **
 media-video/x264-encoder **
-# required by obe-vod (argument)
-=media-video/obe-vod-9999 ~amd64
-# required by media-video/gpac-0.4.5-r5[ffmpeg]
-# required by media-video/obe-vod-9999::x-portage[gpac]
-# required by obe-vod (argument)
-=virtual/ffmpeg-9 ~amd64
-media-video/ffmpeg ~amd64
-# required by media-video/ffmpeg-1.2.3[libsoxr]
-# required by @selected
-# required by @world (argument)
-=media-libs/soxr-0.1.1 ~amd64
-# required by smbnetfs (argument)
-=net-fs/smbnetfs-0.5.3 ~amd64
-# required by winetricks (argument)
-=app-emulation/winetricks-20130707 ~amd64
-# required by winexe (argument)
-=net-fs/winexe-9999 ~amd64
-# required by vapoursynth (argument)
-=media-video/vapoursynth-9999 ~amd64
-# required by handbrake (argument)
-=media-video/handbrake-0.9.9 ~amd64
-# required by media-libs/avidemux-plugins-2.6.5-r1
-=media-video/avidemux-2.6.5-r1 ~amd64
-# required by media-video/avidemux-2.6.5-r1
-# required by media-libs/avidemux-plugins-2.6.5-r1
-=media-libs/avidemux-core-2.6.5 ~amd64
-# required by media-video/avidemux-2.6.5-r1
-# required by avidemux (argument)
-=media-libs/avidemux-plugins-2.6.5-r1 ~amd64
+media-video/obe-vod **
+virtual/ffmpeg **
+media-video/ffmpeg **
+media-libs/soxr **
+media-video/vapoursynth **
+media-video/handbrake **
+media-video/avidemux **
+media-libs/avidemux-core **
+media-libs/avidemux-plugins **
+
+net-fs/winexe **
+net-fs/smbnetfs ~amd64
+app-emulation/winetricks ~amd64
 x11-misc/notification-daemon **
 # required by sys-kernel/geek-sources-3.11.5::init6[aufs]
 # required by @selected
@@ -194,3 +165,4 @@ sys-fs/aufs-headers ~amd64
 =sys-kernel/dracut-034-r1 ~amd64
 # required by kicktoo (argument)
 =sys-apps/kicktoo-9999 ~amd64
+net-fs/smbnetfs ~amd64

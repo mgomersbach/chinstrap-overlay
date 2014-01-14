@@ -1,0 +1,277 @@
+media-gfx/splashutils fbcondecor
+www-apps/gateone cssmin drach slimit
+app-arch/xz-utils static-libs
+sys-fs/ntfs3g static-libs ntfsprogs
+sys-power/pm-utils ntp
+sys-fs/xfsprogs static-libs
+media-libs/libpng static-libs apng
+media-libs/libjpeg-turbo static-libs
+media-libs/libmng static-libs
+sys-libs/zlib static-libs minizip
+media-plugins/kipi-plugins mjpeg
+media-video/transcode mjpeg postproc
+media-libs/libvpx postproc
+media-video/winki mjpeg
+app-admin/testdisk ntfs
+media-libs/lcms static-libs
+media-libs/freetype static-libs auto-hinter bzip2 infinality
+sys-libs/gpm static-libs
+app-arch/bzip2 static-libs
+virtual/jpeg static-libs
+sys-apps/util-linux static-libs
+dev-vcs/subversion -dso
+app-emulation/wine abi_x86_64 -mono prelink rar udisks
+x11-libs/libfm udisks
+app-leechcraft/lc-vrooby udisks
+kde-base/kdelibs udisks
+net-nntp/sabnzbd rar
+app-arch/p7zip rar
+net-misc/x2goserver sqlite
+sys-libs/glibc -gd
+app-portage/layman subversion bazaar cvs mercurial git
+dev-vcs/git cgi blksha1 highlight highlight
+www-servers/lighttpd memcache uploadprogress
+www-apps/drupal uploadprogress
+kde-base/kopete highlight
+dev-lang/php mysqli fileinfo fpm mysqlnd pdo xmlreader xmlwriter xslt
+sci-geosciences/mapserver xslt
+dev-lang/logtalk xslt
+dev-php/PEAR-HTTP_Request2 fileinfo
+app-admin/eselect-php fpm
+net-dns/avahi -utils -autoipd python howl-compat mdnsresponder-compat
+sys-process/lsof rpc
+dev-util/geany-plugins -multiterm
+gnome-base/gvfs udisks archive bluray afp -gdu
+xfce-extra/xfce4-powermanager udisks
+media-video/gpac -wxwidgets
+net-fs/samba -acl aio smbclient swat
+net-fs/cifs-utils -acl
+www-client/firefox system-cairo system-icu system-jpeg webm
+www-client/seamonkey system-cairo system-icu system-jpeg system-sqlite
+media-gfx/graphicsmagick fpx q32
+media-gfx/imagemagick fpx hdri lqr q32 q64 q8 q16
+x11-terms/rxvt-unicode 256-color blink fading-colors pixbuf
+virtual/ffmpeg vaapi
+media-video/x264-encoder avs ffmpegsource
+media-video/libav aac amr avx cdio cpudetection dirac faac fdk vaapi vpx rtmp
+x11-wm/xpra vpx
+media-video/ffmpeg aacplus avx amr bluray cdio cpudetection dirac faac fdk iec61883 libsoxr libv4l twolame vaapi vpx zvbi rtmp
+media-video/hwdecode-demos vaapi
+media-sound/darkice aacplus twolame
+gnome-extra/gnome-media twolame
+media-libs/libgnome twolame
+app-text/calibre udisks
+media-libs/libbluray aacs
+sys-cluster/ocfs aio
+sys-cluster/mvapich2 romio
+sys-cluster/mpich romio
+sys-cluster/openmpi romio
+virtual/mpi romio
+sys-cluster/mpich2 romio
+dev-util/strace aio
+app-benchmarks/sysbench aio
+www-servers/nginx aio rtmp
+net-misc/curl rtmp
+app-emulation/qemu aio alsa xfs
+media-sound/xwax alsa
+dev-java/icedtea alsa
+media-libs/avidemux-core amr system-ffmpeg vaapi
+mail-client/thunderbird system-cairo system-icu system-jpeg system-sqlite
+www-client/chromium system-sqlite
+media-sound/clementine system-sqlite
+dev-lang/spidermonkey system-icu
+media-libs/avidemux-plugins amr faac faad twolame vpx
+games-fps/eduke32 vpx
+media-video/arista faac
+media-libs/avidemux amr vaapi vpx
+media-video/avidemux amr vaapi vpx
+media-video/avxsynth avxedit
+app-emulation/winetricks rar
+media-libs/libsdl audio
+app-misc/recoll audio
+media-libs/libsdl2 audio
+net-libs/h323plus audio
+app-arch/rpm5 augeas
+app-admin/puppet augeas
+sci-libs/fftw avx
+media-libs/freeverb3 avx sse4
+app-emulation/bochs avx
+x11-wm/fluxbox bidi
+media-video/vdr bidi
+net-voip/ekiga shm
+net-libs/ptlib shmvideo wav audio
+media-sound/mpfc wav
+net-misc/asterisk-core-sounds wav
+net-misc/asterisk-extr-sounds wav
+net-misc/asterisk-moh-opsound wav
+media-libs/sdl-mixer wav
+media-libs/sdl2-mixer wav
+media-video/mplayer bl bluray cdio cpudetection faac faad live md5sum pnm rar shm twolame xvmc rtmp tga toolame
+media-video/chaplin transcode
+net-misc/rygel transcode
+www-apps/ampache transcode
+net-misc/ps3mediaserver transcode tsmuxer multiuser
+media-libs/mediastreamer amr
+media-video/mplayer2 bluray cdio cpudetection faad md5sum pnm postproc rar shm
+media-sound/mpd faad twolame cdio
+media-sound/cmus cdio
+media-video/mpv bluray cdio postproc shm vaapi
+media-tv/xbmc bluray gles rtmp
+kde-base/kwin gles
+www-plugins/lightspark gles rtmp
+media-libs/xine-lib bluray xvmc
+media-video/vlc bluray dc1394 dirac egl faad fbosd fdk live rtsp twolame vaapi vcdx vpx zvbi
+media-tv/xawtv zvbi
+media-libs/emotion vlc
+net-p2p/tribler vlc
+media-libs/phonon vlc
+app-office/libreoffice vlc
+razorqt-base/razorqt-panel volume
+sys-cluster/cinder volume
+net-libs/qxmpp vpx
+sys-apps/lm_sensors sensord
+sys-apps/busybox sep-usr
+media-video/vdr setup
+dev-db/phpmyadmin setup
+media-video/handbrake fdk
+media-tv/mythtv bluray egl
+media-libs/glfw egl
+dev-qt/qtgui egl
+dev-qt/qtopengl egl
+media-libs/evas bmp gles ppm tga
+net-analyzer/snort ppm
+app-forensics/aide prelink
+sys-kernel/geek-sources brand gentoo exfat pf optimization
+app-portage/eix optimization
+dev-utils/schroot btrfs
+sys-block/gparted btrfs fat hfs mdadm ntfs xfs
+app-backup/amanda xfs
+app-cdr/cdrkit hfs
+sys-fs/dosfstools fat
+sys-apps/gnome-disk-utility fat
+x11-libs/libXfont bzip2
+dev-libs/libpcre bzip2
+app-arch/libarchive bzip2
+app-arch/unzip -natspec
+app-arch/zip -natspec
+app-shells/bash net
+games-board/freedoko net
+net-fs/nfs-utils nfsv3 nfsv4 nfsidmap nfsdcld
+games-arcade/slimevolley net
+games-fps/lsdldoom net
+mail-client/nail net
+dev-util/metro ccache
+dev-util/catalyst ccache
+dev-lang/swig ccache
+dev-libs/libburn cdio
+dev-libs/libisoburn cdio
+games-emulation/pcsxr cdio
+mail-filter/clamassassin clamd
+app-antivirus/clamav clamdtop
+dev-python/rarfile compressed
+gnome-base/gdm consolekit
+xfce-base/xfce4-session consolekit
+x11-apps/xdm consolekit
+sys-auth/pambase consolekit
+app-emulation/spice-vdagent consolekit
+sys-auth/ykpers consolekit
+kde-base/kdm consolekit
+app-misc/networkmanager consolekit
+lxde-base/lxdm consolekit
+net-ftp/proftpd copy deflate diskuse memcache
+sys-cluster/gearmand memcache
+sys-cluster/swift memcache
+dev-db/drizzle memcache
+mail-filter/opendkim memcached
+mail-mta/postfix memcached
+net-mail/automx memcached
+dev-db/pgpool2 memcached
+net-analyzer/munin memcached
+rox-extra/archive cpio rar
+media-sound/jack-audio-connection-kit cpudetection
+sys-block/parted device-mapper
+sys-boot/grub device-mapper
+sys-boot/lilo device-mapper
+app-emulation/docker device-mapper
+sys-kernel/dracut device-mapper net
+app-misc/screen nethack multiuser
+x11-misc/compton drm
+x11-libs/libva drm egl
+x11-libs/libva-intel-driver drm
+dev-util/apitrace egl
+media-libs/gst-plugins-bad egl
+media-libs/gst-plugins-meta vpx
+media-libs/waffle egl gbm
+www-plugins/gnash egl vaapi
+media-libs/mesa egl g3dvl gallium gbm gles gles1 gles2 llvm llvm-shared-libs r600-llvm-compiler shared-dricore shared-glapi xa xorg xvmc
+x11-base/xorg-server xorg xvfb
+x11-misc/fbpager xrender
+sci-electronics/pcb xrender
+app-office/calligra xslt
+net-p2p/transmission xfs
+x11-apps/mesa-progs egl gles gles1 gles2
+sys-appd/kmscon drm fbdev gles2 optimizations
+dev-libs/weston drm egl fbdev gles2
+x11-libs/cairo drm gallium gles2
+net-libs/webkit-gtk egl -geoloc gles2
+dev-libs/DirectFB bmp egl gles2 mpeg2 mpeg3 pnm swfdec
+dev-games/ogre gles2
+media-libs/cogl gles2
+games-strategy/liquidwar6 gles2
+x11-libs/gtk+ egl
+sys-power/suspend fbsplash
+sys-apps/tuxonice-userui fbsplash
+app-misc/geoclue geonames
+net-im/empathy -geoloc
+x11-drivers/xf86-video-ati glamor
+x11-drivers/xf86-video-intel glamor sna xvmc
+net-misc/bfgminer sse2_4way sse4
+media-video/dvdrip subtitles
+dev-python/translate-toolkit subtitles
+x11-libs/glamor gles
+dev-libs/ecore gles
+media-libs/libsdl2 gles
+virtual/udev gudev hwdb keymap
+sys-fs/udev gudev hwdb keymap openrc
+sys-apps/systemd gudev keymap openrc
+sys-apps/kmod openrc
+sys-fs/eudev gudev hwdb keymap openrc
+sys-fs/aufs3 hfs
+app-text/asciidoc highlight
+dev-util/gtk-doc highlight
+www-apps/cgit highlight
+dev-util/meld highlight
+dev-ruby/maruku highlight
+media-sound/rubyripper wav cdrdao
+app-cdr/disc-cover cdrom
+net-libs/opal wav
+app-text/webgen highlight
+mail-client/evolution highlight
+x11-themes/redhat-artwork icons
+x11-themes/gentoo-artwork icons
+x11-misc/openbox-menu icons
+net-misc/openvpn iproute2
+sys-apps/iproute2 iptables
+dev-lang/perl ithreads
+x11-libs/libdrm libkms
+sys-boot/plymouth libkms
+media-sound/audacity libsoxr twolame
+sys-devel/sparse llvm
+dev-lang/ghc llvm
+dev-lang/rubinius llvm
+net-firewall/pglinux logrotate
+mail-filter/spamassassin-fuzzyocr logrotate
+net-misc/icecast logrotate
+net-p2p/bitcoind logrotate
+net-p2p/datacoind-hp logrotate
+net-p2p/litecoind logrotate
+net-p2p/ppcoind logrotate
+net-p2p/primecoind logrotate
+net-proxy/squid logrotate
+app-admin/syslogd logrotate
+net-proxy/dansguardian logrotate
+dev-lang/io md5sum
+media-libs/mlt melt swfdec
+xfce-base/xfdesktop thunar
+dev-vcs/rabbitvcs thunar
+media-sound/sox twolame amr

@@ -1,13 +1,14 @@
 # Copyright 2004-2013 Gentoo Foundation.
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
-CFLAGS="-march=x86-64 -Os -msse -msse2 -msse3 -pipe -mcx16 -msahf -mpopcnt -fomit-frame-pointer"
+
+CFLAGS="-march=x86-64 -mtune=generic -O2 -msse -msse2 -msse3 -pipe"
 CXXFLAGS="${CFLAGS}"
 CHOST="x86_64-pc-linux-gnu"
 
 ACCEPT_LICENSE="*"
 
-FEATURES="${FEATURES} buildpkg getbinpkg clean-logs fixlafiles news parallel-fetch parallel-install preserve-libs protect-owned metadata-transfer ccache"
+FEATURES="${FEATURES} buildpkg getbinpkg parallel-fetch parallel-install metadata-transfer ccache distcc distcc-pump"
 
 EMERGE_DEFAULT_OPTS="${EMERGE_DEFAULT_OPTS} --binpkg-respect-use=y"
 
