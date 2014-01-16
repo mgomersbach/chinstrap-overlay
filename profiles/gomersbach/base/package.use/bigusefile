@@ -156,7 +156,7 @@ app-arch/unzip -natspec
 app-arch/zip -natspec
 app-shells/bash net
 games-board/freedoko net
-net-fs/nfs-utils nfsv3 nfsv4 nfsidmap nfsdcld
+net-fs/nfs-utils nfsv3 nfsv4 nfsv41 nfsidmap nfsdcld
 games-arcade/slimevolley net
 games-fps/lsdldoom net
 mail-client/nail net
