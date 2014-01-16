@@ -15,8 +15,8 @@ EGIT_REPO_URI="https://github.com/vapoursynth/vapoursynth.git"
 
 EBUILD_SUPPORTS_SHAREDEXT=1
 
-USE_PYTHON="3::3.2 3::3.3"
-PYTHON_ABIS="3.2 3.3"
+USE_PYTHON="3::3.2"
+PYTHON_ABIS="3.2"
 
 LICENSE="LGPL-2.1"
 SLOT="0"

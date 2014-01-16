@@ -64,7 +64,7 @@ virtual/ffmpeg **
 media-video/ffmpeg **
 media-libs/soxr **
 media-video/vapoursynth **
-media-video/handbrake **
+media-video/handbrake ~amd64
 media-video/avidemux **
 media-libs/avidemux-core **
 media-libs/avidemux-plugins **
