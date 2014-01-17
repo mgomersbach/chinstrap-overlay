@@ -1,2 +1,9 @@
 app-emulation/wine mono
 sys-libs/glibc gd
+
+# pulls gudev useflag on udev
+media-libs/elementary dbus
+dev-libs/e_dbus udev
+
+# pulls in zenity
+app-emulation/winetricks gtk

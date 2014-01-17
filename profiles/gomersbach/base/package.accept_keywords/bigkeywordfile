@@ -1,4 +1,6 @@
 #required by ... me
+x11-terms/terminology ~amd64
+media-libs/elementary ~amd64
 sys-apps/kmscon **
 sys-apps/libtsm **
 sys-apps/kmscon **
@@ -170,3 +172,15 @@ sys-fs/aufs-headers ~amd64
 =sys-apps/kicktoo-9999 ~amd64
 net-fs/smbnetfs ~amd64
 app-i18n/fbterm ~amd64
+
+dev-libs/e_dbus **
+dev-libs/eet **
+dev-libs/ecore **
+dev-libs/embryo **
+media-libs/emotion **
+dev-libs/eina **
+dev-libs/eeze **
+dev-libs/efreet **
+media-libs/evas **
+media-libs/ethumb **
+media-libs/edje **
