@@ -1,4 +1,7 @@
 #required by ... me
+sys-apps/kmscon **
+sys-apps/libtsm **
+sys-apps/kmscon **
 mail-client/thunderbird **
 sys-fs/btrfs-progs **
 www-client/firefox **
@@ -166,3 +169,4 @@ sys-fs/aufs-headers ~amd64
 # required by kicktoo (argument)
 =sys-apps/kicktoo-9999 ~amd64
 net-fs/smbnetfs ~amd64
+app-i18n/fbterm ~amd64
