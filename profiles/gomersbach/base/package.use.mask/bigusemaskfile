@@ -7,3 +7,7 @@ dev-libs/e_dbus udev
 
 # pulls in zenity
 app-emulation/winetricks gtk
+
+# needs sqlite with secure-delete *not an excuse
+mail-client/thunderbird system-sqlite
+www-client/firefox system-sqlite
