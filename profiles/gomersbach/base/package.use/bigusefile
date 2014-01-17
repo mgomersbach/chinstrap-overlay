@@ -1,3 +1,4 @@
+app-emulation/emul-linux-x86-qtlibs gtkstyle
 media-gfx/splashutils fbcondecor
 www-apps/gateone cssmin drach slimit
 app-arch/xz-utils static-libs
@@ -136,7 +137,7 @@ dev-db/phpmyadmin setup
 media-video/handbrake fdk
 media-tv/mythtv bluray egl
 media-libs/glfw egl
-dev-qt/qtgui egl
+dev-qt/qtgui egl gtkstyle
 dev-qt/qtopengl egl
 media-libs/evas bmp gles ppm tga
 net-analyzer/snort ppm
