@@ -34,7 +34,7 @@ dev-vcs/git cgi blksha1 highlight highlight
 www-servers/lighttpd memcache uploadprogress
 www-apps/drupal uploadprogress
 kde-base/kopete highlight
-dev-lang/php mysqli fileinfo fpm mysqlnd pdo xmlreader xmlwriter xslt
+dev-lang/php mysqli fileinfo fpm mysqlnd pdo xmlreader xmlwriter xslt pcntl
 sci-geosciences/mapserver xslt
 dev-lang/logtalk xslt
 dev-php/PEAR-HTTP_Request2 fileinfo

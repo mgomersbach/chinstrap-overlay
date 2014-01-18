@@ -1,4 +1,5 @@
 #required by ... me
+app-benchmarks/phoronix-test-suite ~amd64
 x11-terms/terminology ~amd64
 media-libs/elementary ~amd64
 sys-apps/kmscon **
