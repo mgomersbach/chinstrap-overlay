@@ -1,20 +1,20 @@
-app-admin/keepass ~amd64
-app-admin/perl-cleaner ~amd64
-app-admin/puppet ~amd64
-app-admin/webmin ~amd64
-app-arch/lrzip ~amd64
-app-benchmarks/phoronix-test-suite ~amd64
-app-emulation/open-vm-tools ~amd64
-app-emulation/open-vm-tools-kmod ~amd64
-app-emulation/winetricks ~amd64
-app-i18n/fbterm ~amd64
+app-admin/keepass
+app-admin/perl-cleaner
+app-admin/puppet
+app-admin/webmin
+app-arch/lrzip
+app-benchmarks/phoronix-test-suite
+app-emulation/open-vm-tools
+app-emulation/open-vm-tools-kmod
+app-emulation/winetricks
+app-i18n/fbterm
 app-shells/bash-completion **
 app-shells/gentoo-bashcomp **
-app-shells/oh-my-zsh ~amd64
+app-shells/oh-my-zsh
 app-shells/powerline **
 app-shells/zsh-completion **
-dev-db/mariadb ~amd64
-dev-db/mtop ~amd64
+dev-db/mariadb
+dev-db/mtop
 dev-libs/e_dbus **
 dev-libs/ecore **
 dev-libs/eet **
@@ -22,100 +22,100 @@ dev-libs/eeze **
 dev-libs/efreet **
 dev-libs/eina **
 dev-libs/embryo **
-dev-libs/glib ~amd64
-dev-libs/gobject-introspection ~amd64
-dev-libs/gobject-introspection-common ~amd64
-dev-libs/nspr ~amd64
-dev-libs/nss ~amd64
-dev-perl/Authen-Libwrap ~amd64
-dev-perl/Getopt-GUI-Long ~amd64
-dev-php/PEAR-PHP_Beautifier ~amd64
-dev-php/PEAR-PHP_CodeSniffer ~amd64
+dev-libs/glib
+dev-libs/gobject-introspection
+dev-libs/gobject-introspection-common
+dev-libs/nspr
+dev-libs/nss
+dev-perl/Authen-Libwrap
+dev-perl/Getopt-GUI-Long
+dev-php/PEAR-PHP_Beautifier
+dev-php/PEAR-PHP_CodeSniffer
 dev-php/pecl-apc **
 dev-php/pecl-memcache **
 dev-php/pecl-memcached **
 dev-php/pecl-uploadprogress **
-dev-python/ansi2html ~amd64
-dev-python/cssmin ~amd64
-dev-python/cython ~amd64
-dev-python/futures ~amd64
-dev-python/g-pypi ~amd64
-dev-python/python-pam ~amd64
-dev-python/slimit ~amd64
-dev-python/sphinxcontrib-googleanalytics ~amd64
+dev-python/ansi2html
+dev-python/cssmin
+dev-python/cython
+dev-python/futures
+dev-python/g-pypi
+dev-python/python-pam
+dev-python/slimit
+dev-python/sphinxcontrib-googleanalytics
 dev-python/urwid **
-dev-python/yolk ~amd64
-dev-python/yolk-portage ~amd64
-dev-ruby/hiera ~amd64
-dev-util/gdbus-codegen ~amd64
+dev-python/yolk
+dev-python/yolk-portage
+dev-ruby/hiera
+dev-util/gdbus-codegen
 dev-util/geany **
 dev-util/geany-plugins **
-dev-util/gource ~amd64
-ev-php/pecl-uploadprogress ~amd64
-gnome-base/gvfs ~amd64
+dev-util/gource
+ev-php/pecl-uploadprogress
+gnome-base/gvfs
 mail-client/thunderbird **
-media-gfx/splash-themes-livedvd ~amd64
+media-gfx/splash-themes-livedvd
 media-gfx/tetradraw **
 media-libs/avidemux-core **
 media-libs/avidemux-plugins **
 media-libs/edje **
-media-libs/elementary ~amd64
+media-libs/elementary
 media-libs/emotion **
 media-libs/ethumb **
 media-libs/evas **
 media-libs/ffmpegsource **
-media-libs/glm ~amd64
+media-libs/glm
 media-libs/libmpegts **
 media-libs/soxr **
 media-libs/x264 **
 media-video/avidemux **
 media-video/avxsynth **
 media-video/ffmpeg **
-media-video/handbrake ~amd64
+media-video/handbrake
 media-video/obe-vod **
 media-video/vapoursynth **
-media-video/vapoursynthviewer ~amd64
+media-video/vapoursynthviewer
 media-video/x264-encoder **
-net-analyzer/goaccess ~amd64
-net-analyzer/snort ~amd64
-net-dns/dnssec-tools ~amd64
-net-fs/cvmfs ~amd64
-net-fs/smbnetfs ~amd64
+net-analyzer/goaccess
+net-analyzer/snort
+net-dns/dnssec-tools
+net-fs/cvmfs
+net-fs/smbnetfs
 net-fs/winexe **
-net-im/skype ~amd64
-net-misc/miniupnpd ~amd64
-net-misc/tigervnc ~amd64
+net-im/skype
+net-misc/miniupnpd
+net-misc/tigervnc
 net-misc/xrdp **
-sys-apps/hwdata-redhat ~amd64
-sys-apps/kicktoo ~amd64
+sys-apps/hwdata-redhat
+sys-apps/kicktoo
 sys-apps/kmscon **
-sys-apps/kudzu ~amd64
+sys-apps/kudzu
 sys-apps/libtsm **
-sys-block/partclone ~amd64
-sys-block/zram-init ~amd64
+sys-block/partclone
+sys-block/zram-init
 sys-devel/gcc **
-sys-devel/gcc-config ~amd64
-sys-fs/aufs-headers ~amd64
-sys-fs/aufs-util ~amd64
+sys-devel/gcc-config
+sys-fs/aufs-headers
+sys-fs/aufs-util
 sys-fs/btrfs-progs **
-sys-kernel/dracut ~amd64
+sys-kernel/dracut
 sys-kernel/geek-sources **
-sys-libs/core-functions ~amd64
+sys-libs/core-functions
 virtual/ffmpeg **
-virtual/mysql ~amd64
-virtual/python-futures ~amd64
-www-apache/mod_fastcgi_handler ~amd64
-www-apache/mod_pagespeed ~amd64
-www-apps/drupal ~amd64
-www-apps/drupal:6 ~amd64
-www-apps/drupal:7 ~amd64
-www-apps/gateone ~amd64
+virtual/mysql
+virtual/python-futures
+www-apache/mod_fastcgi_handler
+www-apache/mod_pagespeed
+www-apps/drupal
+www-apps/drupal:6
+www-apps/drupal:7
+www-apps/gateone
 www-client/firefox **
-www-servers/tornado ~amd64
-x11-libs/libfm ~amd64
-x11-misc/cdm ~amd64
+www-servers/tornado
+x11-libs/libfm
+x11-misc/cdm
 x11-misc/notification-daemon **
-x11-misc/pcmanfm ~amd64
-x11-terms/terminology ~amd64
+x11-misc/pcmanfm
+x11-terms/terminology
 x11-themes/geany-themes **
-x11-themes/human-icon-theme ~amd64
+x11-themes/human-icon-theme
