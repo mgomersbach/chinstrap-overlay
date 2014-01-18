@@ -23,8 +23,8 @@ dev-libs/efreet **
 dev-libs/eina **
 dev-libs/embryo **
 dev-libs/glib ~amd64
-dev-libs/gobject-introspection-1.36.0-r1 ~amd64
-dev-libs/gobject-introspection-common-1.36.0 ~amd64
+dev-libs/gobject-introspection ~amd64
+dev-libs/gobject-introspection-common ~amd64
 dev-libs/nspr ~amd64
 dev-libs/nss ~amd64
 dev-perl/Authen-Libwrap ~amd64
