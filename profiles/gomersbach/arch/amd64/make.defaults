@@ -1,4 +1,0 @@
-CFLAGS="-Os -mtune=x86-64 -pipe"
-CXXFLAGS="${CFLAGS}"
-FFLAGS="${CFLAGS}"
-FCFLAGS="${CFLAGS}"

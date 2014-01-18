@@ -1,6 +1,0 @@
-CFLAGS="-Os -march=i686 -mtune=generic -pipe -fomit-frame-pointer"
-CXXFLAGS="${CFLAGS}"
-FFLAGS="${CFLAGS}"
-FCFLAGS="${CFLAGS}"
-
-USE="${USE} sse sse2 mmx"

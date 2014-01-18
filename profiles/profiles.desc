@@ -1,5 +1,7 @@
 amd64           gomersbach/default/linux/amd64           stable
+amd64           gomersbach/default/linux/amd64/desktop           stable
 amd64           gomersbach/hardened/linux/amd64          stable
 
 x86             gomersbach/default/linux/x86             stable
+x86             gomersbach/default/linux/x86/desktop             stable
 x86             gomersbach/hardened/linux/x86            stable
