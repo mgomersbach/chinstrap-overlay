@@ -1,14 +1,1 @@
-app-emulation/wine mono
-sys-libs/glibc gd
 
-# pulls gudev useflag on udev
-media-libs/elementary dbus
-dev-libs/e_dbus udev
-gnome-base/gvfs gdu
-
-# pulls in zenity
-app-emulation/winetricks gtk
-
-# needs sqlite with secure-delete *not an excuse
-mail-client/thunderbird system-sqlite
-www-client/firefox system-sqlite

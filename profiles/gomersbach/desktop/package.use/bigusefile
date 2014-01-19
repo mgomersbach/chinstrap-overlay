@@ -1,0 +1,80 @@
+app-office/calligra xslt
+app-office/libreoffice vlc
+dev-qt/qtgui egl gtkstyle
+dev-qt/qtopengl egl
+dev-util/geany-plugins multiterm debugger devhelp enchant gpg gtkspell markdown scope soup
+dev-util/gtk-doc highlight
+dev-util/meld highlight
+dev-libs/weston drm egl fbdev gles2
+dev-libs/ecore gles
+games-arcade/slimevolley net
+games-board/freedoko net
+games-emulation/pcsxr cdio
+games-fps/eduke32 vpx
+games-fps/lsdldoom net
+games-strategy/liquidwar6 gles2
+gnome-base/gdm consolekit
+gnome-base/gvfs udisks archive bluray afp
+gnome-extra/gnome-boxes usbredir
+gnome-extra/gnome-media twolame
+kde-base/kdelibs udisks
+kde-base/kdm consolekit
+kde-base/kopete highlight
+kde-base/kwin gles
+lxde-base/lxdm consolekit
+mail-client/evolution highlight
+mail-client/thunderbird system-cairo system-icu system-jpeg system-sqlite
+media-libs/avidemux amr vpx
+media-libs/avidemux-core amr system-ffmpeg
+media-libs/avidemux-plugins amr faac faad twolame vpx
+media-libs/phonon vlc
+media-libs/xine-lib bluray xvmc
+media-tv/mythtv bluray egl
+media-tv/xawtv zvbi
+media-tv/xbmc bluray rtmp
+media-video/avidemux amr vpx
+media-video/dvdrip subtitles
+media-video/handbrake fdk
+media-video/vdr bidi setup
+net-misc/spice-gtk usbredir
+razorqt-base/razorqt-panel volume
+rox-extra/archive cpio rar
+sys-block/gparted btrfs fat hfs mdadm ntfs xfs
+www-client/chromium system-sqlite
+www-client/firefox system-cairo system-icu system-jpeg webm
+www-client/seamonkey system-cairo system-icu system-jpeg system-sqlite
+x11-apps/mesa-progs egl gles gles1 gles2
+x11-apps/xdm consolekit
+x11-base/xorg-server xorg xvfb
+x11-drivers/xf86-video-ati glamor
+x11-drivers/xf86-video-intel glamor sna xvmc
+x11-libs/cairo drm gallium gles2
+x11-libs/glamor gles
+x11-libs/gtk+ egl
+x11-libs/libXfont bzip2
+x11-libs/libdrm libkms
+x11-libs/libfm udisks
+x11-libs/libva drm egl
+x11-libs/libva-intel-driver drm
+x11-misc/compton drm
+x11-misc/fbpager xrender
+x11-misc/openbox-menu icons
+x11-terms/rxvt-unicode 256-color blink fading-colors pixbuf
+x11-themes/gentoo-artwork icons
+x11-themes/redhat-artwork icons
+x11-wm/fluxbox bidi
+x11-wm/xpra vpx
+xfce-base/xfce4-session consolekit
+xfce-base/xfdesktop thunar
+xfce-extra/xfce4-powermanager udisks
+
+
+
+
+
+
+
+
+
+
+

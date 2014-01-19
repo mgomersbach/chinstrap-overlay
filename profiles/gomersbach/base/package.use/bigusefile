@@ -27,8 +27,6 @@ app-misc/geoclue geonames
 app-misc/networkmanager consolekit
 app-misc/recoll audio
 app-misc/screen nethack multiuser
-app-office/calligra xslt
-app-office/libreoffice vlc
 app-portage/eix optimization
 app-portage/layman subversion bazaar cvs mercurial git
 app-shells/bash net
@@ -49,46 +47,22 @@ dev-lang/rubinius llvm
 dev-lang/spidermonkey system-icu
 dev-lang/swig ccache
 dev-libs/DirectFB bmp egl gles2 mpeg2 mpeg3 pnm swfdec
-dev-libs/ecore gles
 dev-libs/libburn cdio
 dev-libs/libisoburn cdio
 dev-libs/libpcre bzip2
-dev-libs/weston drm egl fbdev gles2
 dev-php/PEAR-HTTP_Request2 fileinfo
 dev-python/rarfile compressed
 dev-python/translate-toolkit subtitles
-dev-qt/qtgui egl gtkstyle
-dev-qt/qtopengl egl
 dev-ruby/maruku highlight
 dev-util/apitrace egl
 dev-util/catalyst ccache
-dev-util/geany-plugins multiterm debugger devhelp enchant gpg gtkspell markdown scope soup
-dev-util/gtk-doc highlight
-dev-util/meld highlight
 dev-util/metro ccache
 dev-util/strace aio
 dev-utils/schroot btrfs
 dev-vcs/git cgi blksha1 highlight highlight
 dev-vcs/rabbitvcs thunar
 dev-vcs/subversion -dso
-games-arcade/slimevolley net
-games-board/freedoko net
-games-emulation/pcsxr cdio
-games-fps/eduke32 vpx
-games-fps/lsdldoom net
-games-strategy/liquidwar6 gles2
-gnome-base/gdm consolekit
-gnome-base/gvfs udisks archive bluray afp
-gnome-extra/gnome-boxes usbredir
-gnome-extra/gnome-media twolame
-kde-base/kdelibs udisks
-kde-base/kdm consolekit
-kde-base/kopete highlight
-kde-base/kwin gles
-lxde-base/lxdm consolekit
-mail-client/evolution highlight
 mail-client/nail net
-mail-client/thunderbird system-cairo system-icu system-jpeg system-sqlite
 mail-filter/clamassassin clamd
 mail-filter/opendkim memcached
 mail-filter/spamassassin-fuzzyocr logrotate
@@ -96,9 +70,6 @@ mail-mta/postfix memcached
 media-gfx/graphicsmagick fpx q32
 media-gfx/imagemagick fpx hdri lqr q32 q64 q8 q16
 media-gfx/splashutils fbcondecor
-media-libs/avidemux amr vpx
-media-libs/avidemux-core amr system-ffmpeg
-media-libs/avidemux-plugins amr faac faad twolame vpx
 media-libs/cogl gles2
 media-libs/emotion vlc
 media-libs/evas bmp gles ppm tga
@@ -119,11 +90,9 @@ media-libs/libvpx postproc
 media-libs/mediastreamer amr
 media-libs/mesa egl g3dvl gallium gbm gles gles1 gles2 llvm llvm-shared-libs r600-llvm-compiler shared-dricore shared-glapi xa xorg xvmc
 media-libs/mlt melt swfdec
-media-libs/phonon vlc
 media-libs/sdl-mixer wav
 media-libs/sdl2-mixer wav
 media-libs/waffle egl gbm
-media-libs/xine-lib bluray xvmc
 media-plugins/kipi-plugins mjpeg
 media-sound/audacity libsoxr twolame
 media-sound/clementine system-sqlite
@@ -135,25 +104,16 @@ media-sound/mpfc wav
 media-sound/rubyripper wav cdrdao
 media-sound/sox twolame amr
 media-sound/xwax alsa
-media-tv/mythtv bluray egl
-media-tv/xawtv zvbi
-media-tv/xbmc bluray gles rtmp
 media-video/arista faac
-media-video/avidemux amr vpx
 media-video/avxsynth avxedit
 media-video/chaplin transcode
-media-video/dvdrip subtitles
-media-video/ffmpeg aacplus avx amr bluray cdio cpudetection dirac faac fdk iec61883 libsoxr libv4l twolame vpx zvbi rtmp
+media-video/ffmpeg aacplus avx amr bluray cdio cpudetection dirac faac fdk iec61883 libsoxr libv4l twolame vpx zvbi rtmp css pvr webserver
 media-video/gpac -wxwidgets
-media-video/handbrake fdk
-media-video/hwdecode-demos
 media-video/libav aac amr avx cdio cpudetection dirac faac fdk vpx rtmp
 media-video/mplayer bl bluray cdio cpudetection faac faad live md5sum pnm rar shm twolame xvmc rtmp tga toolame
 media-video/mplayer2 bluray cdio cpudetection faad md5sum pnm postproc rar shm
 media-video/mpv bluray cdio postproc shm
 media-video/transcode mjpeg postproc
-media-video/vdr bidi
-media-video/vdr setup
 media-video/vlc bluray dc1394 dirac egl faad fbosd fdk live rtsp twolame vcdx vpx zvbi
 media-video/winki mjpeg
 media-video/x264-encoder avs ffmpegsource
@@ -181,7 +141,6 @@ net-misc/icecast logrotate
 net-misc/openvpn iproute2
 net-misc/ps3mediaserver transcode tsmuxer multiuser
 net-misc/rygel transcode
-net-misc/spice-gtk usbredir
 net-misc/x2goserver sqlite
 net-nntp/sabnzbd rar
 net-p2p/bitcoind logrotate
@@ -194,12 +153,10 @@ net-p2p/tribler vlc
 net-proxy/dansguardian logrotate
 net-proxy/squid logrotate
 net-voip/ekiga shm
-razorqt-base/razorqt-panel volume
-rox-extra/archive cpio rar
 sci-electronics/pcb xrender
 sci-geosciences/mapserver xslt
 sci-libs/fftw avx
-sys-appd/kmscon drm fbdev gles2 optimizations
+sys-apps/kmscon drm fbdev gles2 optimizations
 sys-apps/busybox sep-usr
 sys-apps/gnome-disk-utility fat
 sys-apps/iproute2 iptables
@@ -210,7 +167,6 @@ sys-apps/tuxonice-userui fbsplash
 sys-apps/util-linux static-libs
 sys-auth/pambase consolekit
 sys-auth/ykpers consolekit
-sys-block/gparted btrfs fat hfs mdadm ntfs xfs
 sys-block/parted device-mapper
 sys-boot/grub device-mapper
 sys-boot/lilo device-mapper
@@ -246,34 +202,7 @@ www-apps/ampache transcode
 www-apps/cgit highlight
 www-apps/drupal uploadprogress
 www-apps/gateone cssmin drach slimit
-www-client/chromium system-sqlite
-www-client/firefox system-cairo system-icu system-jpeg webm
-www-client/seamonkey system-cairo system-icu system-jpeg system-sqlite
 www-plugins/gnash egl
 www-plugins/lightspark gles rtmp
 www-servers/lighttpd memcache uploadprogress
 www-servers/nginx aio rtmp
-x11-apps/mesa-progs egl gles gles1 gles2
-x11-apps/xdm consolekit
-x11-base/xorg-server xorg xvfb
-x11-drivers/xf86-video-ati glamor
-x11-drivers/xf86-video-intel glamor sna xvmc
-x11-libs/cairo drm gallium gles2
-x11-libs/glamor gles
-x11-libs/gtk+ egl
-x11-libs/libXfont bzip2
-x11-libs/libdrm libkms
-x11-libs/libfm udisks
-x11-libs/libva drm egl
-x11-libs/libva-intel-driver drm
-x11-misc/compton drm
-x11-misc/fbpager xrender
-x11-misc/openbox-menu icons
-x11-terms/rxvt-unicode 256-color blink fading-colors pixbuf
-x11-themes/gentoo-artwork icons
-x11-themes/redhat-artwork icons
-x11-wm/fluxbox bidi
-x11-wm/xpra vpx
-xfce-base/xfce4-session consolekit
-xfce-base/xfdesktop thunar
-xfce-extra/xfce4-powermanager udisks

@@ -1,4 +1,3 @@
-app-admin/keepass
 app-admin/perl-cleaner
 app-admin/puppet
 app-admin/webmin
@@ -6,7 +5,6 @@ app-arch/lrzip
 app-benchmarks/phoronix-test-suite
 app-emulation/open-vm-tools
 app-emulation/open-vm-tools-kmod
-app-emulation/winetricks
 app-i18n/fbterm
 app-shells/bash-completion **
 app-shells/gentoo-bashcomp **
@@ -51,13 +49,10 @@ dev-util/gdbus-codegen
 dev-util/geany **
 dev-util/geany-plugins **
 dev-util/gource
-ev-php/pecl-uploadprogress
+dev-php/pecl-uploadprogress
 gnome-base/gvfs
-mail-client/thunderbird **
 media-gfx/splash-themes-livedvd
 media-gfx/tetradraw **
-media-libs/avidemux-core **
-media-libs/avidemux-plugins **
 media-libs/edje **
 media-libs/elementary
 media-libs/emotion **
@@ -68,10 +63,8 @@ media-libs/glm
 media-libs/libmpegts **
 media-libs/soxr **
 media-libs/x264 **
-media-video/avidemux **
 media-video/avxsynth **
 media-video/ffmpeg **
-media-video/handbrake
 media-video/obe-vod **
 media-video/vapoursynth **
 media-video/vapoursynthviewer
@@ -82,7 +75,6 @@ net-dns/dnssec-tools
 net-fs/cvmfs
 net-fs/smbnetfs
 net-fs/winexe **
-net-im/skype
 net-misc/miniupnpd
 net-misc/tigervnc
 net-misc/xrdp **
@@ -110,12 +102,9 @@ www-apps/drupal
 www-apps/drupal:6
 www-apps/drupal:7
 www-apps/gateone
-www-client/firefox **
 www-servers/tornado
 x11-libs/libfm
 x11-misc/cdm
 x11-misc/notification-daemon **
 x11-misc/pcmanfm
 x11-terms/terminology
-x11-themes/geany-themes **
-x11-themes/human-icon-theme
