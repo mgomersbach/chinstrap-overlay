@@ -1,37 +1,59 @@
 # Copyright 2004-2013 Gentoo Foundation.
 # Distributed under the terms of the GNU General Public License v2
-# $Header: $
+# $Header:
 
 CFLAGS="-march=x86-64 -mtune=generic -O2 -msse -msse2 -msse3 -pipe"
 CXXFLAGS="${CFLAGS}"
 CHOST="x86_64-pc-linux-gnu"
+#ABI_X86="64" # not picked up!
 
 ACCEPT_LICENSE="*"
 
-FEATURES="${FEATURES} buildpkg getbinpkg parallel-fetch parallel-install metadata-transfer ccache distcc distcc-pump"
+USE="3dnow 3dnowext X a52 aac aalib alsa apache2 archive audiofile avahi avx
+     bash-completion bidi boost branding bzip2 cairo cdda cddb cdparanoia
+     clamav curl dbus directfb dts dv dvb dvd egl encode exif fbcon
+     ffmpeg fftw flac fontconfig ftp fuse gd gif git gmp gpm gsm gstreamer gtk
+     gtk3 gzip icu ieee1394 imagemagick imap inotify jbig joystick jpeg jpeg2k
+     ladspa lame lcms libass libcaca libsamplerate lm_sensors lzma lzo mad
+     maildir matroska mbox mhash mmap mms mmx mmxext mng mono mp3 mp4 mpeg mpi
+     mplayer mtp musepack mysql mysqli ncurses network nfs nis nls ogg openal
+     opencl openexr opengl openssl orc pango pdf perl php png policykit
+     portaudio postscript python qt3support qt4 qt5 quicktime raw samba sdl
+     sensord sep-usr setup sftp shadow smp snmp soap sockets sox speex sse
+     sse2 sse3 sse4 sse4_1 ssse3 svg symlink syslog theora threads tiff
+     truetype udev upnp upnp-av usb utils vaapi v4l vcd vdpau vhosts vnc vorbis
+     webkit webp wxwidgets x264 xattr xcb xcomposite xft xml xmlrpc xpm xrandr
+     xsl xv xvid zeroconf zip zlib zsh-completion zvbi -bindist -cups -debug -extras
+     -fam -gnome -gold -graphite -introspection -iso14755 -kde -lto
+     -pulseaudio -systemd -zoran"
 
-EMERGE_DEFAULT_OPTS="${EMERGE_DEFAULT_OPTS} --binpkg-respect-use=y"
+FEATURES="buildpkg parallel-fetch parallel-install metadata-transfer ccache distcc distcc-pump"
 
-SYNC="rsync://gomersbach.mooo.com/gentoo-portage"
+PORTAGE_BINHOST="http://gomersbach.mooo.com/binhost/ccmsbackup_sse3"
+SYNC="rsync://gomersbach.mooo.com/gentoo-portage" # not picked up!
 
-VIDEO_CARDS="radeon radeonsi ati fbcon nouveau fglrx vesa intel vmware v4l nv fbdev r600"
-INPUT_DEVICES="synaptics evdev keyboard mouse"
+EMERGE_DEFAULT_OPTS="--binpkg-respect-use=y"
+
+VIDEO_CARDS="radeon radeonsi ati fbcon nouveau fglrx vesa intel vmware v4l nv fbdev r600" # not picked up!
+INPUT_DEVICES="synaptics evdev keyboard mouse vmmouse"
 
 PORTAGE_NICENESS="19"
 PORTAGE_RSYNC_EXTRA_OPTS="--omit-dir-times"
 
-VIDEO_CARDS="fbdev nouveau radeon intel i915"
-
-RUBY_TARGETS="ruby19 ruby20"
-USE_PYTHON="2.7 3.2"
-PYTHON_TARGETS="python2_7 python3_2"
-PHP_TARGETS="php5-5"
+RUBY_TARGETS="ruby19 ruby20" # not picked up!
+USE_PYTHON="2.7 3.2" # not picked up!
+PYTHON_TARGETS="python2_7 python3_2" # not picked up!
+PHP_TARGETS="php5-5 php5-4" # not picked up!
 
 QEMU_SOFTMMU_TARGETS="arm i386 x86_64"
 QEMU_USER_TARGETS="arm i386 x86_64"
 
-GRUB_PLATFORMS="${GRUB_PLATFORMS} pc qemu emu"
+GRUB_PLATFORMS="pc qemu emu"
 
-LINGUAS="en nl"
+#LINGUAS="en nl" # not picked up!
 
 DRACUT_MODULES="btrfs cifs iscsi lvm nbd nfs plymouth ssh-client"
+
+DISTDIR="/media/distfiles"
+PKGDIR="/media/packages"
+
