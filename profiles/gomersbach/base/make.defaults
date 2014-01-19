@@ -5,7 +5,7 @@
 CFLAGS="-march=x86-64 -mtune=generic -O2 -msse -msse2 -msse3 -pipe"
 CXXFLAGS="${CFLAGS}"
 CHOST="x86_64-pc-linux-gnu"
-#ABI_X86="64" # not picked up!
+ABI_X86="64" # not picked up!
 
 ACCEPT_LICENSE="*"
 
@@ -14,11 +14,11 @@ USE="3dnow 3dnowext X a52 aac aalib alsa apache2 archive audiofile avahi avx
      clamav curl dbus directfb dts dv dvb dvd egl encode exif fbcon
      ffmpeg fftw flac fontconfig ftp fuse gd gif git gmp gpm gsm gstreamer gtk
      gtk3 gzip icu ieee1394 imagemagick imap inotify jbig joystick jpeg jpeg2k
-     ladspa lame lcms libass libcaca libsamplerate lm_sensors lzma lzo mad
+     ladspa lame lcms ldap libass libcaca libsamplerate lm_sensors lzma lzo mad
      maildir matroska mbox mhash mmap mms mmx mmxext mng mono mp3 mp4 mpeg mpi
      mplayer mtp musepack mysql mysqli ncurses network nfs nis nls ogg openal
      opencl openexr opengl openssl orc pango pdf perl php png policykit
-     portaudio postscript python qt3support qt4 qt5 quicktime raw samba sdl
+     portaudio postscript python qt3support qt4 qt5 quicktime raw sasl samba sdl
      sensord sep-usr setup sftp shadow smp snmp soap sockets sox speex sse
      sse2 sse3 sse4 sse4_1 ssse3 svg symlink syslog theora threads tiff
      truetype udev upnp upnp-av usb utils vaapi v4l vcd vdpau vhosts vnc vorbis
@@ -32,7 +32,7 @@ FEATURES="buildpkg parallel-fetch parallel-install metadata-transfer ccache dist
 PORTAGE_BINHOST="http://gomersbach.mooo.com/binhost/ccmsbackup_sse3"
 SYNC="rsync://gomersbach.mooo.com/gentoo-portage" # not picked up!
 
-EMERGE_DEFAULT_OPTS="--binpkg-respect-use=y"
+EMERGE_DEFAULT_OPTS="--binpkg-respect-use=y --tree"
 
 VIDEO_CARDS="radeon radeonsi ati fbcon nouveau fglrx vesa intel vmware v4l nv fbdev r600" # not picked up!
 INPUT_DEVICES="synaptics evdev keyboard mouse vmmouse"

@@ -16,17 +16,26 @@ app-cdr/cdrkit hfs
 app-cdr/disc-cover cdrom
 app-emulation/bochs avx
 app-emulation/docker device-mapper
+app-emulation/ganeti lxc kvm 
 app-emulation/emul-linux-x86-qtlibs gtkstyle
-app-emulation/qemu aio alsa xfs usbredir
+app-emulation/libvirt iscsi qemu lxc openvz lvm parted pcap virtualbox
+app-emulation/qemu aio alsa xfs usbredir iscsi spice vde tls virtfs
+app-emulation/spice gui sasl
 app-emulation/spice-vdagent consolekit
+app-emulation/virt-manager spice
+app-emulation/virt-viewer spice
+app-emulation/virtualbox extensions
 app-emulation/wine abi_x86_64 -mono prelink rar udisks
 app-emulation/winetricks rar
+app-emulation/xen-tools qemu screen
 app-forensics/aide prelink
 app-leechcraft/lc-vrooby udisks
+app-misc/byubu screen
 app-misc/geoclue geonames
 app-misc/networkmanager consolekit
 app-misc/recoll audio
 app-misc/screen nethack multiuser
+app-pda/barry gui
 app-portage/eix optimization
 app-portage/layman subversion bazaar cvs mercurial git
 app-shells/bash net
@@ -51,14 +60,16 @@ dev-libs/libburn cdio
 dev-libs/libisoburn cdio
 dev-libs/libpcre bzip2
 dev-php/PEAR-HTTP_Request2 fileinfo
+dev-python/kaa-base tls
 dev-python/rarfile compressed
 dev-python/translate-toolkit subtitles
 dev-ruby/maruku highlight
 dev-util/apitrace egl
 dev-util/catalyst ccache
 dev-util/metro ccache
+dev-util/scanmem gui
 dev-util/strace aio
-dev-utils/schroot btrfs
+dev-utils/schroot btrfs lvm
 dev-vcs/git cgi blksha1 highlight highlight
 dev-vcs/rabbitvcs thunar
 dev-vcs/subversion -dso
@@ -66,6 +77,7 @@ mail-client/nail net
 mail-filter/clamassassin clamd
 mail-filter/opendkim memcached
 mail-filter/spamassassin-fuzzyocr logrotate
+mail-filter/spamdyke tls
 mail-mta/postfix memcached
 media-gfx/graphicsmagick fpx q32
 media-gfx/imagemagick fpx hdri lqr q32 q64 q8 q16
@@ -119,8 +131,10 @@ media-video/winki mjpeg
 media-video/x264-encoder avs ffmpegsource
 net-analyzer/munin memcached
 net-analyzer/snort ppm
+net-analyzer/metasploit gui
 net-dns/avahi -utils -autoipd python howl-compat mdnsresponder-compat
 net-firewall/pglinux logrotate
+net-firewall/firewalld gui
 net-fs/cifs-utils -acl
 net-fs/nfs-utils nfsv3 nfsv4 nfsv41 nfsidmap nfsdcld
 net-fs/samba -acl aio smbclient swat
@@ -132,6 +146,7 @@ net-libs/ptlib shmvideo wav audio
 net-libs/qxmpp vpx
 net-libs/webkit-gtk egl -geoloc gles2
 net-mail/automx memcached
+net-mail/mu gui
 net-misc/asterisk-core-sounds wav
 net-misc/asterisk-extr-sounds wav
 net-misc/asterisk-moh-opsound wav
@@ -139,8 +154,10 @@ net-misc/bfgminer sse2_4way sse4
 net-misc/curl rtmp
 net-misc/icecast logrotate
 net-misc/openvpn iproute2
+net-misc/tinc vde
 net-misc/ps3mediaserver transcode tsmuxer multiuser
 net-misc/rygel transcode
+net-misc/vinagre spice
 net-misc/x2goserver sqlite
 net-nntp/sabnzbd rar
 net-p2p/bitcoind logrotate
@@ -164,6 +181,7 @@ sys-apps/kmod openrc
 sys-apps/lm_sensors sensord
 sys-apps/systemd gudev keymap openrc
 sys-apps/tuxonice-userui fbsplash
+sys-apps/ucspi-ssl tls
 sys-apps/util-linux static-libs
 sys-auth/pambase consolekit
 sys-auth/ykpers consolekit
@@ -176,6 +194,7 @@ sys-cluster/gearmand memcache
 sys-cluster/mpich romio
 sys-cluster/mpich2 romio
 sys-cluster/mvapich2 romio
+sys-cluster/nova kvm
 sys-cluster/ocfs aio
 sys-cluster/openmpi romio
 sys-cluster/swift memcache
@@ -188,12 +207,14 @@ sys-fs/udev gudev hwdb keymap openrc
 sys-fs/xfsprogs static-libs
 sys-kernel/dracut device-mapper net
 sys-kernel/geek-sources brand gentoo exfat pf optimization
+sys-kernel/genkernel-next iscsi
 sys-libs/glibc -gd
 sys-libs/gpm static-libs
 sys-libs/zlib static-libs minizip
 sys-power/pm-utils ntp
 sys-power/suspend fbsplash
 sys-process/lsof rpc
+sys-process/htop openvz
 virtual/ffmpeg
 virtual/jpeg static-libs
 virtual/mpi romio

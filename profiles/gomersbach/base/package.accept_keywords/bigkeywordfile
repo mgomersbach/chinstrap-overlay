@@ -5,6 +5,7 @@ app-arch/lrzip
 app-benchmarks/phoronix-test-suite
 app-emulation/open-vm-tools
 app-emulation/open-vm-tools-kmod
+app-emulation/lxc
 app-i18n/fbterm
 app-shells/bash-completion **
 app-shells/gentoo-bashcomp **
