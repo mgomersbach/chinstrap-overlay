@@ -18,7 +18,7 @@ app-emulation/bochs avx
 app-emulation/docker device-mapper
 app-emulation/ganeti lxc kvm 
 app-emulation/emul-linux-x86-qtlibs gtkstyle
-app-emulation/libvirt iscsi qemu lxc openvz lvm parted pcap virtualbox
+app-emulation/libvirt iscsi qemu lxc lvm parted pcap virtualbox
 app-emulation/qemu aio alsa xfs usbredir iscsi spice vde tls virtfs
 app-emulation/spice gui sasl
 app-emulation/spice-vdagent consolekit
@@ -214,7 +214,6 @@ sys-libs/zlib static-libs minizip
 sys-power/pm-utils ntp
 sys-power/suspend fbsplash
 sys-process/lsof rpc
-sys-process/htop openvz
 virtual/ffmpeg
 virtual/jpeg static-libs
 virtual/mpi romio
