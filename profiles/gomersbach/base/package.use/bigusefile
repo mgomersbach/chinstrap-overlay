@@ -62,7 +62,7 @@ dev-qt/qtopengl egl
 dev-ruby/maruku highlight
 dev-util/apitrace egl
 dev-util/catalyst ccache
-dev-util/geany-plugins -multiterm
+dev-util/geany-plugins multiterm debugger devhelp enchant gpg gtkspell markdown scope soup
 dev-util/gtk-doc highlight
 dev-util/meld highlight
 dev-util/metro ccache
@@ -78,7 +78,7 @@ games-fps/eduke32 vpx
 games-fps/lsdldoom net
 games-strategy/liquidwar6 gles2
 gnome-base/gdm consolekit
-gnome-base/gvfs udisks archive bluray afp -gdu
+gnome-base/gvfs udisks archive bluray afp
 gnome-extra/gnome-boxes usbredir
 gnome-extra/gnome-media twolame
 kde-base/kdelibs udisks
