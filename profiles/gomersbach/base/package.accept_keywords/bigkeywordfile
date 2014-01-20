@@ -17,6 +17,7 @@ app-shells/powerline **
 app-shells/zsh-completion **
 dev-db/mariadb
 dev-db/mtop
+dev-lang/go
 dev-libs/e_dbus **
 dev-libs/ecore **
 dev-libs/eet **
