@@ -61,11 +61,13 @@ media-libs/ethumb **
 media-libs/evas **
 media-libs/ffmpegsource **
 media-libs/glm
+media-libs/libcaca
 media-libs/libmpegts **
 media-libs/soxr **
 media-libs/x264 **
 media-video/avxsynth **
 media-video/ffmpeg **
+media-video/mpv
 media-video/obe-vod **
 media-video/vapoursynth **
 media-video/vapoursynthviewer
