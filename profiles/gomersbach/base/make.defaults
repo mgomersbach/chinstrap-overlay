@@ -16,7 +16,7 @@ USE="3dnow 3dnowext X a52 aac aalib alsa apache2 archive audiofile avahi avx
      gtk3 gzip icu ieee1394 imagemagick imap inotify jbig joystick jpeg jpeg2k
      ladspa lame lcms ldap libass libcaca libsamplerate lm_sensors lzma lzo mad
      maildir matroska mbox mhash mmap mms mmx mmxext mng mono mp3 mp4 mpeg mpi
-     mplayer mtp musepack mysql mysqli ncurses network nfs nis nls ogg openal
+     mplayer mtp musepack mysql mysqli ncurses network nfs nis nls offensive ogg openal
      opencl openexr opengl openssl orc pango pdf perl php png policykit
      portaudio postscript python qt3support qt4 qt5 quicktime raw sasl samba sdl
      sensord sep-usr setup sftp shadow smp snmp soap sockets sox speex sse
