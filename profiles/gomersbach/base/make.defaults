@@ -9,7 +9,7 @@ ABI_X86="64" # not picked up!
 
 ACCEPT_LICENSE="*"
 
-USE="3dnow 3dnowext X a52 aac aalib alsa apache2 archive audiofile avahi avx
+USE="3dnow 3dnowext X a52 aac aalib alsa apache2 archive audiofile aufs avahi avx
      bash-completion bidi boost branding bzip2 cairo cdda cddb cdparanoia
      clamav curl dbus directfb dts dv dvb dvd egl encode exif fbcon
      ffmpeg fftw flac fontconfig ftp fuse gd gif git gmp gpm gsm gstreamer gtk
