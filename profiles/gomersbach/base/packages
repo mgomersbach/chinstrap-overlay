@@ -42,7 +42,7 @@
 *net-analyzer/goaccess
 *net-analyzer/iftop
 *net-analyzer/mtr
-*net-analyzer/netcat
+*net-analyzer/netcat6
 *net-firewall/iptables
 *net-irc/irssi
 *net-misc/telnet-bsd
