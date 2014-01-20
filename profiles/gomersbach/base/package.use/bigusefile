@@ -1,209 +1,104 @@
-app-admin/eselect-php fpm
-app-admin/puppet augeas
-app-admin/syslogd logrotate
+#base
 app-admin/testdisk ntfs
-app-antivirus/clamav clamdtop
 app-arch/bzip2 static-libs
 app-arch/libarchive bzip2
 app-arch/p7zip rar
-app-arch/rpm5 augeas
 app-arch/unzip -natspec
 app-arch/xz-utils static-libs
 app-arch/zip -natspec
 app-backup/amanda xfs
 app-benchmarks/sysbench aio
 app-cdr/cdrkit hfs
-app-cdr/disc-cover cdrom
 app-emulation/bochs avx
-app-emulation/docker device-mapper
-app-emulation/ganeti lxc kvm 
-app-emulation/emul-linux-x86-qtlibs gtkstyle
-app-emulation/libvirt iscsi qemu lxc lvm parted pcap virtualbox
-app-emulation/qemu aio alsa xfs usbredir iscsi spice vde tls virtfs
-app-emulation/spice gui sasl
-app-emulation/spice-vdagent consolekit
-app-emulation/virt-manager spice
-app-emulation/virt-viewer spice
-app-emulation/virtualbox extensions
-app-emulation/wine abi_x86_64 -mono prelink rar udisks
-app-emulation/winetricks rar
-app-emulation/xen-tools qemu screen
 app-forensics/aide prelink
 app-leechcraft/lc-vrooby udisks
 app-misc/byubu screen
 app-misc/geoclue geonames
-app-misc/networkmanager consolekit
-app-misc/recoll audio
-app-misc/screen nethack multiuser
-app-pda/barry gui
+app-office/calligra xslt
 app-portage/eix optimization
 app-portage/layman subversion bazaar cvs mercurial git
 app-shells/bash net
 app-text/asciidoc highlight
 app-text/calibre udisks
 app-text/webgen highlight
-dev-db/drizzle memcache
-dev-db/pgpool2 memcached
-dev-db/phpmyadmin setup
-dev-games/ogre gles2
-dev-java/icedtea alsa
 dev-lang/ghc llvm
 dev-lang/io md5sum
 dev-lang/logtalk xslt
 dev-lang/perl ithreads
-dev-lang/php mysqli fileinfo fpm mysqlnd pdo xmlreader xmlwriter xslt pcntl
 dev-lang/rubinius llvm
 dev-lang/spidermonkey system-icu
 dev-lang/swig ccache
-dev-libs/DirectFB bmp egl gles2 mpeg2 mpeg3 pnm swfdec
-dev-libs/libburn cdio
-dev-libs/libisoburn cdio
 dev-libs/libpcre bzip2
-dev-php/PEAR-HTTP_Request2 fileinfo
-dev-python/kaa-base tls
 dev-python/rarfile compressed
-dev-python/translate-toolkit subtitles
 dev-ruby/maruku highlight
-dev-util/apitrace egl
 dev-util/catalyst ccache
+dev-util/geany-plugins multiterm debugger devhelp enchant gpg markdown scope soup
+dev-util/gtk-doc highlight
+dev-util/meld highlight
 dev-util/metro ccache
-dev-util/scanmem gui
 dev-util/strace aio
 dev-utils/schroot btrfs lvm
 dev-vcs/git cgi blksha1 highlight highlight
-dev-vcs/rabbitvcs thunar
 dev-vcs/subversion -dso
+games-arcade/slimevolley net
+games-board/freedoko net
+games-fps/lsdldoom net
+gnome-base/gvfs archive bluray afp
+kde-base/kdelibs
+kde-base/kopete highlight
+mail-client/evolution highlight
 mail-client/nail net
+mail-client/thunderbird system-icu system-sqlite
 mail-filter/clamassassin clamd
-mail-filter/opendkim memcached
-mail-filter/spamassassin-fuzzyocr logrotate
-mail-filter/spamdyke tls
-mail-mta/postfix memcached
-media-gfx/graphicsmagick fpx q32
-media-gfx/imagemagick fpx hdri lqr q32 q64 q8 q16
-media-gfx/splashutils fbcondecor
-media-libs/cogl gles2
-media-libs/emotion vlc
-media-libs/evas bmp gles ppm tga
-media-libs/freetype static-libs auto-hinter bzip2 infinality
+media-libs/freetype static-libs bzip2
 media-libs/freeverb3 avx sse4
-media-libs/glfw egl
-media-libs/gst-plugins-bad egl
-media-libs/gst-plugins-meta vpx
-media-libs/lcms static-libs
-media-libs/libbluray aacs
-media-libs/libgnome twolame
 media-libs/libjpeg-turbo static-libs
 media-libs/libmng static-libs
-media-libs/libpng static-libs apng
-media-libs/libsdl audio
-media-libs/libsdl2 audio gles
-media-libs/libvpx postproc
-media-libs/mediastreamer amr
-media-libs/mesa egl g3dvl gallium gbm gles gles1 gles2 llvm llvm-shared-libs r600-llvm-compiler shared-dricore shared-glapi xa xorg xvmc
-media-libs/mlt melt swfdec
-media-libs/sdl-mixer wav
-media-libs/sdl2-mixer wav
-media-libs/waffle egl gbm
-media-plugins/kipi-plugins mjpeg
-media-sound/audacity libsoxr twolame
+media-libs/libpng static-libs
 media-sound/clementine system-sqlite
-media-sound/cmus cdio
-media-sound/darkice aacplus twolame
-media-sound/jack-audio-connection-kit cpudetection
-media-sound/mpd faad twolame cdio
-media-sound/mpfc wav
-media-sound/rubyripper wav cdrdao
-media-sound/sox twolame amr
-media-sound/xwax alsa
-media-video/arista faac
-media-video/avxsynth avxedit
-media-video/chaplin transcode
-media-video/ffmpeg aacplus avx amr bluray cdio cpudetection dirac faac fdk iec61883 libsoxr libv4l twolame vpx zvbi rtmp css pvr webserver
-media-video/gpac -wxwidgets
-media-video/libav aac amr avx cdio cpudetection dirac faac fdk vpx rtmp
-media-video/mplayer bl bluray cdio cpudetection faac faad live md5sum pnm rar shm twolame xvmc rtmp tga toolame
-media-video/mplayer2 bluray cdio cpudetection faad md5sum pnm postproc rar shm
-media-video/mpv bluray cdio postproc shm
-media-video/transcode mjpeg postproc
-media-video/vlc bluray dc1394 dirac egl faad fbosd fdk live rtsp twolame vcdx vpx zvbi
-media-video/winki mjpeg
-media-video/x264-encoder avs ffmpegsource
-net-analyzer/munin memcached
-net-analyzer/snort ppm
-net-analyzer/metasploit gui
+media-video/libav cpudetection
+media-video/mplayer cpudetection md5sum rar shm
+media-video/mplayer2 cpudetection md5sum rar shm
+media-video/mpv shm
+media-video/vdr bidi setup
 net-dns/avahi -utils -autoipd python howl-compat mdnsresponder-compat
-net-firewall/pglinux logrotate
-net-firewall/firewalld gui
 net-fs/cifs-utils -acl
 net-fs/nfs-utils nfsv3 nfsv4 nfsv41 nfsidmap nfsdcld
-net-fs/samba -acl aio smbclient swat
-net-ftp/proftpd copy deflate diskuse memcache
 net-im/empathy -geoloc
-net-libs/h323plus audio
-net-libs/opal wav
-net-libs/ptlib shmvideo wav audio
-net-libs/qxmpp vpx
-net-libs/webkit-gtk egl -geoloc gles2
-net-mail/automx memcached
-net-mail/mu gui
-net-misc/asterisk-core-sounds wav
-net-misc/asterisk-extr-sounds wav
-net-misc/asterisk-moh-opsound wav
+net-libs/webkit-gtk -geoloc
 net-misc/bfgminer sse2_4way sse4
-net-misc/curl rtmp
-net-misc/icecast logrotate
 net-misc/openvpn iproute2
-net-misc/tinc vde
-net-misc/ps3mediaserver transcode tsmuxer multiuser
-net-misc/rygel transcode
-net-misc/vinagre spice
 net-misc/x2goserver sqlite
 net-nntp/sabnzbd rar
-net-p2p/bitcoind logrotate
-net-p2p/datacoind-hp logrotate
-net-p2p/litecoind logrotate
-net-p2p/ppcoind logrotate
-net-p2p/primecoind logrotate
 net-p2p/transmission xfs
-net-p2p/tribler vlc
-net-proxy/dansguardian logrotate
-net-proxy/squid logrotate
 net-voip/ekiga shm
-sci-electronics/pcb xrender
+rox-extra/archive cpio rar
 sci-geosciences/mapserver xslt
 sci-libs/fftw avx
-sys-apps/kmscon drm fbdev gles2 optimizations
 sys-apps/busybox sep-usr
 sys-apps/gnome-disk-utility fat
 sys-apps/iproute2 iptables
 sys-apps/kmod openrc
-sys-apps/lm_sensors sensord
-sys-apps/systemd gudev keymap openrc
-sys-apps/tuxonice-userui fbsplash
-sys-apps/ucspi-ssl tls
+sys-apps/kmscon optimizations
+sys-apps/systemd keymap openrc
 sys-apps/util-linux static-libs
-sys-auth/pambase consolekit
-sys-auth/ykpers consolekit
+sys-block/gparted btrfs fat hfs mdadm ntfs xfs
 sys-block/parted device-mapper
 sys-boot/grub device-mapper
 sys-boot/lilo device-mapper
 sys-boot/plymouth libkms
-sys-cluster/cinder volume
-sys-cluster/gearmand memcache
 sys-cluster/mpich romio
 sys-cluster/mpich2 romio
 sys-cluster/mvapich2 romio
-sys-cluster/nova kvm
 sys-cluster/ocfs aio
 sys-cluster/openmpi romio
 sys-cluster/swift memcache
 sys-devel/sparse llvm
 sys-fs/aufs3 hfs
 sys-fs/dosfstools fat
-sys-fs/eudev gudev hwdb keymap openrc
+sys-fs/eudev hwdb keymap openrc
 sys-fs/ntfs3g static-libs ntfsprogs
-sys-fs/udev gudev hwdb keymap openrc
+sys-fs/udev hwdb keymap openrc
 sys-fs/xfsprogs static-libs
 sys-kernel/dracut device-mapper net
 sys-kernel/geek-sources brand gentoo exfat pf optimization
@@ -212,17 +107,14 @@ sys-libs/glibc -gd
 sys-libs/gpm static-libs
 sys-libs/zlib static-libs minizip
 sys-power/pm-utils ntp
-sys-power/suspend fbsplash
 sys-process/lsof rpc
-virtual/ffmpeg
 virtual/jpeg static-libs
 virtual/mpi romio
-virtual/udev gudev hwdb keymap
-www-apps/ampache transcode
-www-apps/cgit highlight
-www-apps/drupal uploadprogress
-www-apps/gateone cssmin drach slimit
-www-plugins/gnash egl
-www-plugins/lightspark gles rtmp
-www-servers/lighttpd memcache uploadprogress
-www-servers/nginx aio rtmp
+virtual/udev hwdb keymap
+www-client/chromium system-sqlite
+www-client/firefox system-icu
+www-client/seamonkey system-icu system-sqlite
+x11-libs/libXfont bzip2
+x11-libs/libdrm libkms
+x11-terms/rxvt-unicode 256-color blink fading-colors
+x11-wm/fluxbox bidi

@@ -1,0 +1,107 @@
+#Media
+app-cdr/disc-cover cdrom
+app-misc/recoll audio
+app-office/libreoffice vlc
+dev-games/ogre gles2
+dev-java/icedtea alsa
+dev-libs/DirectFB bmp egl gles2 mpeg2 mpeg3 pnm swfdec
+dev-libs/ecore gles
+dev-libs/libburn cdio
+dev-libs/libisoburn cdio
+dev-libs/weston egl fbdev gles2
+dev-python/translate-toolkit subtitles
+dev-qt/qtgui egl
+dev-qt/qtopengl egl
+dev-util/apitrace egl
+games-emulation/pcsxr cdio
+games-fps/eduke32 vpx
+games-strategy/liquidwar6 gles2
+gnome-extra/gnome-media twolame
+kde-base/kwin gles
+mail-client/thunderbird system-jpeg
+media-gfx/graphicsmagick fpx q32
+media-gfx/imagemagick fpx hdri lqr q32 q64 q8 q16
+media-gfx/splashutils fbcondecor
+media-libs/avidemux amr vpx
+media-libs/avidemux-core amr system-ffmpeg
+media-libs/avidemux-plugins amr faac faad twolame vpx
+media-libs/cogl gles2
+media-libs/emotion vlc
+media-libs/evas bmp gles ppm tga
+media-libs/freetype auto-hinter infinality
+media-libs/glfw egl
+media-libs/gst-plugins-bad egl
+media-libs/gst-plugins-meta vpx
+media-libs/lcms static-libs
+media-libs/libbluray aacs
+media-libs/libgnome twolame
+media-libs/libpng apng
+media-libs/libsdl audio
+media-libs/libsdl2 audio gles
+media-libs/libvpx postproc
+media-libs/mediastreamer amr
+media-libs/mesa egl g3dvl gallium gbm gles gles1 gles2 llvm llvm-shared-libs r600-llvm-compiler shared-glapi xa xvmc
+media-libs/mlt melt swfdec
+media-libs/phonon vlc
+media-libs/sdl-mixer wav
+media-libs/sdl2-mixer wav
+media-libs/waffle egl gbm
+media-libs/xine-lib bluray xvmc
+media-plugins/kipi-plugins mjpeg
+media-sound/audacity libsoxr twolame
+media-sound/cmus cdio
+media-sound/darkice aacplus twolame
+media-sound/jack-audio-connection-kit cpudetection
+media-sound/mpd faad twolame cdio
+media-sound/mpfc wav
+media-sound/rubyripper wav cdrdao
+media-sound/sox twolame amr
+media-sound/xwax alsa
+media-tv/mythtv bluray egl
+media-tv/xawtv zvbi
+media-tv/xbmc bluray rtmp
+media-video/arista faac
+media-video/avidemux amr vpx
+media-video/avxsynth avxedit
+media-video/chaplin transcode
+media-video/dvdrip subtitles
+media-video/ffmpeg aacplus avx amr bluray cdio cpudetection dirac faac fdk iec61883 libsoxr libv4l twolame vpx zvbi rtmp css pvr webserver
+media-video/handbrake fdk
+media-video/libav aac amr avx cdio cpudetection dirac faac fdk vpx rtmp
+media-video/mplayer bl bluray cdio cpudetection faac faad live pnm twolame xvmc rtmp tga toolame
+media-video/mplayer2 bluray cdio cpudetection faad pnm postproc
+media-video/mpv bluray cdio postproc
+media-video/transcode mjpeg postproc
+media-video/vlc bluray dc1394 dirac egl faad fbosd fdk live rtsp twolame vcdx vpx zvbi
+media-video/winki mjpeg
+media-video/x264-encoder avs ffmpegsource
+net-analyzer/snort ppm
+net-libs/h323plus audio
+net-libs/opal wav
+net-libs/ptlib shmvideo wav audio
+net-libs/qxmpp vpx
+net-libs/webkit-gtk egl gles2
+net-misc/asterisk-core-sounds wav
+net-misc/asterisk-extr-sounds wav
+net-misc/asterisk-moh-opsound wav
+net-misc/curl rtmp
+net-misc/ps3mediaserver transcode tsmuxer multiuser
+net-misc/rygel transcode
+net-p2p/tribler vlc
+sys-apps/kmscon fbdev gles2
+sys-apps/tuxonice-userui fbsplash
+sys-cluster/cinder volume
+sys-power/suspend fbsplash
+www-apps/ampache transcode
+www-client/firefox system-jpeg webm
+www-client/seamonkey system-jpeg
+www-plugins/gnash egl
+www-plugins/lightspark gles rtmp
+www-servers/nginx rtmp
+x11-apps/mesa-progs egl gles gles1 gles2
+x11-libs/cairo gallium gles2
+x11-libs/glamor gles
+x11-libs/gtk+ egl
+x11-libs/libva egl
+x11-terms/rxvt-unicode pixbuf
+x11-wm/xpra vpx

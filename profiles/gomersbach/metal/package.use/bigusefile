@@ -1,0 +1,14 @@
+#Metal
+app-emulation/docker device-mapper
+app-emulation/ganeti lxc kvm 
+app-emulation/libvirt iscsi qemu lxc lvm parted pcap virtualbox
+app-emulation/qemu aio alsa xfs usbredir iscsi spice vde virtfs
+app-emulation/virtualbox extensions
+app-emulation/wine abi_x86_64 -mono prelink rar udisks
+app-emulation/winetricks rar
+app-emulation/xen-tools qemu screen
+gnome-extra/gnome-boxes usbredir
+net-misc/spice-gtk usbredir
+net-misc/tinc vde
+sys-apps/lm_sensors sensord
+sys-cluster/nova kvm
