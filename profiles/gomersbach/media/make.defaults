@@ -1,0 +1,10 @@
+# Copyright 2004-2014 Gentoo Foundation.
+# Distributed under the terms of the GNU General Public License v2
+# $Header:
+
+USE="a52 aac alsa aalib audiofile cdda cddb cdparanoia dts dv dvb dvd exif
+          ffmpeg flac gd gif gsm gstreamer ieee1394 imagemagick jbig jpeg jpeg2k
+          ladspa lame lcms fftw libass libcaca libsamplerate matroska mng mp3 mp4
+          mpeg mplayer musepack ogg openal opengl png portaudio quicktime raw sdl
+          sox speex truetype upnp-av tiff svg theora vorbis x264 vcd webkit webp
+          xvid zvbi xpm xft postscript openexr smpeg mad"

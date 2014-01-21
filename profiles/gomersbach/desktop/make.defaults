@@ -1,0 +1,6 @@
+# Copyright 2004-2014 Gentoo Foundation.
+# Distributed under the terms of the GNU General Public License v2
+# $Header:
+
+USE="X cairo dbus egl gtk gtk3 joystick pango qt3support qt4 qt5 vaapi
+        xcomposite vdpau xcb xrandr xv wxwidgets"
