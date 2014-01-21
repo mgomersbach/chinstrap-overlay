@@ -9,11 +9,11 @@ ABI_X86="64" # not picked up!
 
 ACCEPT_LICENSE="*"
 
-DESKTOPUSE="X cairo dbus egl gtk gtk3 joystick pango qt3support qt4 qt5 vaapi 
+DESKTOPUSE="X cairo dbus egl gtk gtk3 joystick pango qt3support qt4 qt5 vaapi
 		    xcomposite vdpau xcb xrandr xv wxwidgets"
-MEDIAUSE="a52 aac alsa aalib audiofile cdda cddb cdparanoia dts dv dvb dvd exif 
+MEDIAUSE="a52 aac alsa aalib audiofile cdda cddb cdparanoia dts dv dvb dvd exif
           ffmpeg flac gd gif gsm gstreamer ieee1394 imagemagick jbig jpeg jpeg2k
-		  ladspa lame lcms fftw libass libcaca libsamplerate matroska mng mp3 mp4 
+		  ladspa lame lcms fftw libass libcaca libsamplerate matroska mng mp3 mp4
 		  mpeg mplayer musepack ogg openal opengl png portaudio quicktime raw sdl
 		  sox speex truetype upnp-av tiff svg theora vorbis x264 vcd webkit webp
 		  xvid zvbi xpm xft postscript openexr smpeg mad"
@@ -25,11 +25,11 @@ METALUSE="lm_sensors usb sensord"
 
 USE="${DESKTOPUSE} ${MEDIAUSE} ${SERVERUSE} ${SECUSE} ${METALUSE}
 	 3dnow 3dnowext archive aufs avx bash-completion bidi boost branding bzip2
-     directfb encode fbcon fontconfig fuse git gmp gpm gzip icu inotify lzma lzo 
-     mms mmx mmxext mono mtp mysql mysqli ncurses offensive opencl orc pdf perl 
-	 php python sep-usr smp sse sse2 sse3 sse4 sse4_1 ssse3  symlink syslog threads 
+     directfb encode fbcon fontconfig fuse git gmp gpm gzip icu inotify lzma lzo
+     mms mmx mmxext mono mtp mysql mysqli ncurses offensive opencl orc pdf perl
+	 php python sep-usr smp sse sse2 sse3 sse4 sse4_1 ssse3  symlink syslog threads
      udev utils upnp v4l xattr zip zlib zsh-completion -bindist -cups -debug -extras
-     -fam -gnome -gold -graphite -introspection -iso14755 -kde -lto -pulseaudio 
+     -fam -gnome -gold -graphite -introspection -iso14755 -kde -lto -pulseaudio
 	 -systemd -zoran"
 
 FEATURES="buildpkg parallel-fetch parallel-install metadata-transfer ccache distcc distcc-pump"

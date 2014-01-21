@@ -20,6 +20,7 @@ razorqt-base/razorqt-panel volume
 sci-electronics/pcb xrender
 sys-apps/kmscon drm
 sys-apps/systemd gudev
+sys-devel/llvm clang
 sys-fs/eudev gudev
 sys-fs/udev gudev
 virtual/udev gudev
