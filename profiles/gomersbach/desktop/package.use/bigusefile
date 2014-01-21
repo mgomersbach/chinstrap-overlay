@@ -27,8 +27,7 @@ www-client/firefox system-cairo
 www-client/seamonkey system-cairo
 x11-base/xorg-server xorg xvfb
 x11-drivers/xf86-video-ati glamor
-x11-drivers/xf86-video-intel glamor
-x11-drivers/xf86-video-intel sna xvmc
+x11-drivers/xf86-video-intel glamor sna xvmc uxa
 x11-libs/cairo drm
 x11-libs/libva drm
 x11-libs/libva-intel-driver drm
