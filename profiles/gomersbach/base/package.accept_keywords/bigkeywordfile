@@ -58,6 +58,7 @@ dev-util/geany **
 dev-util/geany-plugins **
 dev-util/gource
 dev-util/metro
+dev-util/catalyst **
 dev-php/pecl-uploadprogress
 gnome-base/gvfs
 media-gfx/splash-themes-livedvd
