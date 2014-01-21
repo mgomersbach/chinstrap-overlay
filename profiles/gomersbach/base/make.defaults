@@ -22,7 +22,7 @@ FEATURES="buildpkg parallel-fetch parallel-install metadata-transfer ccache dist
 PORTAGE_BINHOST="http://gomersbach.mooo.com/binhost/ccmsbackup_sse3"
 SYNC="rsync://gomersbach.mooo.com/gentoo-portage" # not picked up!
 
-EMERGE_DEFAULT_OPTS="--binpkg-respect-use=y --tree"
+EMERGE_DEFAULT_OPTS="-g --binpkg-respect-use=y --tree"
 
 VIDEO_CARDS="radeon radeonsi ati fbcon nouveau fglrx vesa intel vmware v4l nv fbdev r600" # not picked up!
 INPUT_DEVICES="synaptics evdev keyboard mouse vmmouse"

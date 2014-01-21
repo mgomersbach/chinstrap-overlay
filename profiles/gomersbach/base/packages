@@ -3,7 +3,6 @@
 
 *app-admin/logrotate
 *app-admin/sudo
-*app-admin/webmin
 *app-arch/arj
 *app-arch/lha
 *app-arch/lzop
