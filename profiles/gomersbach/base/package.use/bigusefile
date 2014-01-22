@@ -55,6 +55,7 @@ media-libs/freeverb3 avx sse4
 media-libs/libjpeg-turbo static-libs
 media-libs/libmng static-libs
 media-libs/libpng static-libs
+media-libs/gd jpeg png truetype
 media-sound/clementine system-sqlite
 media-video/libav cpudetection
 media-video/mplayer cpudetection md5sum rar shm
