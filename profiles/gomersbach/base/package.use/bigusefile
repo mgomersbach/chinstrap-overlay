@@ -84,7 +84,7 @@ sys-apps/systemd keymap openrc
 sys-apps/util-linux static-libs
 sys-block/gparted btrfs fat hfs mdadm ntfs xfs
 sys-block/parted device-mapper
-sys-boot/grub device-mapper
+sys-boot/grub device-mapper truetype
 sys-boot/lilo device-mapper
 sys-boot/plymouth libkms
 sys-cluster/mpich romio
