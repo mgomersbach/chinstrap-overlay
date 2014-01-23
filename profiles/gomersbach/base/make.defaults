@@ -19,7 +19,7 @@ USE="3dnow 3dnowext archive aufs avx bash-completion bidi boost branding bzip2
 
 FEATURES="buildpkg parallel-fetch parallel-install metadata-transfer ccache distcc distcc-pump"
 
-PORTAGE_BINHOST="http://gomersbach.mooo.com/binhost/ccmsbackup_sse3"
+PORTAGE_BINHOST="http://gomersbach.mooo.com/binhost/x86-64/generic/base"
 SYNC="rsync://gomersbach.mooo.com/gentoo-portage" # not picked up!
 
 EMERGE_DEFAULT_OPTS="-g --binpkg-respect-use=y --tree"
