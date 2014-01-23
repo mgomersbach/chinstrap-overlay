@@ -1,4 +1,4 @@
 gentoo:hardened/linux/amd64
-gomersbach:gomersbach/arch/amd64
-gomersbach:gomersbach/base
+../../../arch/amd64
+../../../base
 ../base

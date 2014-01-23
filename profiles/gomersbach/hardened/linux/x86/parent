@@ -1,5 +1,5 @@
 gentoo:hardened/linux/x86
 gentoo:targets/desktop
-gomersbach:gomersbach/arch/x86
-gomersbach:gomersbach/base
+../../../arch/x86
+../../../base
 ../base
