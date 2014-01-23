@@ -38,7 +38,7 @@ PHP_TARGETS="php5-5 php5-4" # not picked up!
 QEMU_SOFTMMU_TARGETS="arm i386 x86_64"
 QEMU_USER_TARGETS="arm i386 x86_64"
 
-GRUB_PLATFORMS="pc qemu emu"
+GRUB_PLATFORMS="pc emu"
 
 #LINGUAS="en nl" # not picked up!
 
