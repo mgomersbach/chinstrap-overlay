@@ -1,6 +1,7 @@
-# Copyright 1999-2012 Gentoo Foundation
+# Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: $
+# $Header:
+
 EAPI=5
 
 EGIT_REPO_URI="https://github.com/liftoff/GateOne.git"
