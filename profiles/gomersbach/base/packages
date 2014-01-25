@@ -18,7 +18,6 @@
 *app-misc/mc
 *app-misc/screen
 *app-misc/tmux
-*app-misc/vifm
 *app-portage/eix
 *app-portage/genlop
 *app-portage/ufed
@@ -38,7 +37,6 @@
 *media-sound/ncmpcpp
 *net-analyzer/bwm-ng
 *net-analyzer/goaccess
-*net-analyzer/iftop
 *net-analyzer/mtr
 *net-analyzer/netcat6
 *net-firewall/iptables
