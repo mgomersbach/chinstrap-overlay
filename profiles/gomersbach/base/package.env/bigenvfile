@@ -22,10 +22,12 @@ sys-apps/groff nodistcc.conf
 media-gfx/graphviz nodistcc.conf
 sys-devel/distcc nodistcc.conf
 
+# No concurrent jobs
+net-analyzer/net-snmp makeoptsj1.conf
+dev-libs/boost makeoptsj1.conf
+
 # Limited concurrent jobs
-net-analyzer/net-snmp makeoptsj4.conf
 dev-python/pygtk makeoptsj4.conf
-dev-libs/boost makeoptsj4.conf
 sys-kernel/geek-sources makeoptsj4.conf
 
 # wno-error
