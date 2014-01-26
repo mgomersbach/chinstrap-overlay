@@ -43,6 +43,7 @@ dev-python/cssmin
 dev-python/cython
 dev-python/futures
 dev-python/g-pypi
+dev-python/numpy
 dev-python/python-pam
 dev-python/slimit
 dev-python/sphinxcontrib-googleanalytics
