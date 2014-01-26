@@ -9,6 +9,7 @@ dev-libs/ecore gles
 dev-libs/libburn cdio
 dev-libs/libisoburn cdio
 dev-libs/weston egl fbdev gles2
+dev-libs/efl -xcb
 dev-python/translate-toolkit subtitles
 dev-qt/qtgui egl
 dev-qt/qtopengl egl

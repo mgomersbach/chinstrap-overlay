@@ -3,4 +3,4 @@
 # $Header:
 
 USE="X cairo dbus egl gtk gtk3 joystick pango qt3support qt4 qt5 vaapi
-        xcomposite vdpau xcb xrandr xv wxwidgets"
+       xcomposite vdpau xcb xrandr xv wxwidgets"
