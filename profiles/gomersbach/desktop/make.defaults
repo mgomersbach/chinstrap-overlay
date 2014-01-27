@@ -4,3 +4,4 @@
 
 USE="X cairo dbus egl gtk gtk3 joystick pango qt3support qt4 qt5 vaapi
        xcomposite vdpau xcb xrandr xv wxwidgets"
+VIDEO_CARDS="radeon radeonsi ati fbcon nouveau fglrx vesa intel vmware v4l nv fbdev r600" #not picked up!
