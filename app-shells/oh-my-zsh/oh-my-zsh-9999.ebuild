@@ -34,6 +34,7 @@ src_prepare() {
 	sed -i -e 's!~/.oh-my-zsh!'"${ZSH_EDEST}"'!' \
 		"${S}/plugins/dirpersist/dirpersist.plugin.zsh"
 	sed -i -e '/zstyle.*cache/d' "${S}/lib/completion.zsh"
+	epatch "${FILESDIR}"/ysasdefault.patch
 	epatch_user
 }
 
