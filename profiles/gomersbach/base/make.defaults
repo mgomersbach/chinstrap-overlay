@@ -12,7 +12,7 @@ ACCEPT_LICENSE="*"
 USE="3dnow 3dnowext archive aufs avx bash-completion bidi boost branding bzip2
      directfb encode fbcon fontconfig fuse git gmp gpm gzip icu inotify lzma lzo machost
      mms mmx mmxext mono mtp mysql mysqli ncurses offensive opencl orc pdf perl
-	   php python sep-usr smp sse sse2 sse3 sse4 sse4_1 ssse3 symlink syslog threads
+	   php python sep-usr smp sse sse2 sse3 sse4 sse4_1 ssse3 symlink syslog sqlite threads
      udev utils upnp v4l xattr zip zlib zsh-completion -bindist -cups -debug -extras
      -fam -gnome -gold -graphite -introspection -iso14755 -kde -lto -pulseaudio
 	   -systemd -zoran"
