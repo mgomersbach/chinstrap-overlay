@@ -1,8 +1,6 @@
 # This file extends the base packages file for the default profile that all
 # architectures will enjoy.
 
-*app-admin/logrotate
-*app-admin/sudo
 *app-arch/arj
 *app-arch/lha
 *app-arch/lzop
@@ -15,36 +13,22 @@
 *app-doc/zsh-lovers
 *app-editors/nano
 *app-editors/vim
-*app-misc/mc
-*app-misc/screen
-*app-misc/tmux
-*app-portage/eix
-*app-portage/genlop
-*app-portage/ufed
+*app-admin/sudo
 *app-shells/bash-completion
 *app-shells/gentoo-bashcomp
 *app-shells/oh-my-zsh
 *app-shells/zsh
 *app-shells/zsh-completion
-*app-text/multitail
 *app-vim/gentoo-syntax
 *dev-lang/python:2.7
-*dev-util/ctags
 *dev-util/dialog
 *dev-util/strace
 *mail-client/mutt
-*media-gfx/graphviz
-*media-sound/ncmpcpp
-*net-analyzer/bwm-ng
-*net-analyzer/goaccess
-*net-analyzer/mtr
 *net-analyzer/netcat6
-*net-firewall/iptables
 *net-irc/irssi
 *net-misc/telnet-bsd
 *sys-apps/dstat
 *sys-apps/lm_sensors
-*sys-apps/logwatch
 *sys-apps/mlocate
 *sys-apps/pciutils
 *sys-apps/pv
@@ -54,8 +38,6 @@
 *sys-devel/m4
 *sys-fs/ncdu
 *sys-libs/gpm
-*sys-process/htop
-*sys-process/iotop
 *sys-process/lsof
 *sys-process/vixie-cron
 *net-fs/nfs-utils

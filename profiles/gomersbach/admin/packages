@@ -1,1 +1,14 @@
 *app-admin/webmin
+*sys-apps/logwatch
+*app-admin/logrotate
+*app-misc/mc
+*app-misc/screen
+*app-misc/tmux
+*app-portage/eix
+*app-portage/genlop
+*app-portage/ufed
+*app-text/multitail
+*net-analyzer/bwm-ng
+*net-analyzer/mtr
+*sys-process/htop
+*sys-process/iotop
