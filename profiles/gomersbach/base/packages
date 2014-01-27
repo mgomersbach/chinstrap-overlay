@@ -58,3 +58,4 @@
 *sys-process/iotop
 *sys-process/lsof
 *sys-process/vixie-cron
+*net-fs/nfs-utils
