@@ -10,3 +10,4 @@ www-client/firefox **
 x11-themes/geany-themes **
 x11-themes/human-icon-theme
 dev-libs/efl
+www-client/midori
