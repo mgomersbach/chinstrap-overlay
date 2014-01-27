@@ -37,6 +37,8 @@
 *sys-boot/grub
 *sys-devel/m4
 *sys-fs/ncdu
+*sys-fs/xfsprogs
+*sys-fs/btrfs-progs
 *sys-libs/gpm
 *sys-process/lsof
 *sys-process/vixie-cron
