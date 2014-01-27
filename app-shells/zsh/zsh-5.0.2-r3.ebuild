@@ -137,6 +137,8 @@ src_install() {
 
 	insinto /etc/zsh
 	doins "${T}"/zprofile
+
+	insinto /etc/skel
 	doins "${T}"/zshrc
 
 	keepdir /usr/share/zsh/site-functions
