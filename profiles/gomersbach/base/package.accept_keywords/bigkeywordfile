@@ -25,7 +25,7 @@ dev-libs/eeze **
 dev-libs/efreet **
 dev-libs/eina **
 dev-libs/embryo **
-dev-libs/glib
+dev-libs/glib ~amd64
 dev-libs/gobject-introspection
 dev-libs/gobject-introspection-common
 dev-libs/nspr
@@ -54,7 +54,7 @@ dev-ruby/hiera
 dev-ruby/net-scp
 dev-ruby/net-ssh
 dev-ruby/i18n
-dev-util/gdbus-codegen
+dev-util/gdbus-codegen ~amd64
 dev-util/geany **
 dev-util/geany-plugins **
 dev-util/gource

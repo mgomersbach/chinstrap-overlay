@@ -16,4 +16,4 @@ www-apps/cgit highlight
 www-apps/drupal uploadprogress
 www-apps/gateone cssmin drach slimit
 www-servers/lighttpd memcache uploadprogress
-www-servers/nginx aio 
+www-servers/nginx aio
