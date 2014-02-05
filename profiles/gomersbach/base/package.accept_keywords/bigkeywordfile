@@ -1,23 +1,23 @@
-app-admin/perl-cleaner
-app-admin/puppet
-app-admin/webmin
-app-arch/lrzip
+app-admin/perl-cleaner ~amd64
+app-admin/puppet ~amd64
+app-admin/webmin ~amd64
+app-arch/lrzip ~amd64
 app-benchmarks/phoronix-test-suite
 app-emulation/open-vm-tools
 app-emulation/open-vm-tools-kmod
-app-emulation/lxc
-app-emulation/vagrant
-app-emulation/vmware-view-open-client
-app-emulation/docker
-app-i18n/fbterm
+app-emulation/lxc ~amd64
+app-emulation/vagrant ~amd64
+app-emulation/vmware-view-open-client ~amd64
+app-emulation/docker ~amd64
+app-i18n/fbterm ~amd64
 app-shells/bash-completion **
 app-shells/gentoo-bashcomp **
 app-shells/oh-my-zsh
 app-shells/powerline **
 app-shells/zsh-completion **
-dev-db/mariadb
-dev-db/mtop
-dev-lang/go
+dev-db/mariadb ~amd64
+dev-db/mtop ~amd64
+dev-lang/go ~amd64
 dev-libs/e_dbus **
 dev-libs/ecore **
 dev-libs/eet **
@@ -26,30 +26,30 @@ dev-libs/efreet **
 dev-libs/eina **
 dev-libs/embryo **
 dev-libs/glib ~amd64
-dev-libs/gobject-introspection
-dev-libs/gobject-introspection-common
-dev-libs/nspr
-dev-libs/nss
-dev-perl/Authen-Libwrap
-dev-perl/Getopt-GUI-Long
-dev-php/PEAR-PHP_Beautifier
-dev-php/PEAR-PHP_CodeSniffer
+dev-libs/gobject-introspection ~amd64
+dev-libs/gobject-introspection-common ~amd64
+dev-libs/nspr ~amd64
+dev-libs/nss ~amd64
+dev-perl/Authen-Libwrap ~amd64
+dev-perl/Getopt-GUI-Long ~amd64
+dev-php/PEAR-PHP_Beautifier **
+dev-php/PEAR-PHP_CodeSniffer **
 dev-php/pecl-apc **
 dev-php/pecl-memcache **
 dev-php/pecl-memcached **
 dev-php/pecl-uploadprogress **
-dev-python/ansi2html
-dev-python/cssmin
-dev-python/cython
-dev-python/futures
-dev-python/g-pypi
-dev-python/numpy
-dev-python/python-pam
-dev-python/slimit
-dev-python/sphinxcontrib-googleanalytics
+dev-python/ansi2html ~amd64
+dev-python/cssmin ~amd64
+dev-python/cython ~amd64
+dev-python/futures ~amd64
+dev-python/g-pypi ~amd64
+dev-python/numpy ~amd64
+dev-python/python-pam ~amd64
+dev-python/slimit ~amd64
+dev-python/sphinxcontrib-googleanalytics ~amd64
 dev-python/urwid **
-dev-python/yolk
-dev-python/yolk-portage
+dev-python/yolk ~amd64
+dev-python/yolk-portag ~amd64e
 dev-ruby/hiera
 dev-ruby/net-scp
 dev-ruby/net-ssh
@@ -58,10 +58,10 @@ dev-util/gdbus-codegen ~amd64
 dev-util/geany **
 dev-util/geany-plugins **
 dev-util/gource
-dev-util/metro
+dev-util/metro ~amd64
 dev-util/catalyst **
 dev-php/pecl-uploadprogress
-gnome-base/gvfs
+gnome-base/gvfs ~amd64
 media-gfx/splash-themes-livedvd
 media-gfx/tetradraw **
 media-libs/edje **
@@ -70,8 +70,8 @@ media-libs/emotion **
 media-libs/ethumb **
 media-libs/evas **
 media-libs/ffmpegsource **
-media-libs/glm
-media-libs/libcaca
+media-libs/glm ~amd64
+media-libs/libcaca ~amd64
 media-libs/libmpegts **
 media-libs/soxr **
 media-libs/x264 **
@@ -88,8 +88,8 @@ net-dns/dnssec-tools
 net-fs/cvmfs
 net-fs/smbnetfs
 net-fs/winexe **
-net-misc/miniupnpd
-net-misc/tigervnc
+net-misc/miniupnpd ~amd64
+net-misc/tigervnc ~amd64
 net-misc/xrdp **
 sys-apps/hwdata-redhat
 sys-apps/kicktoo
@@ -99,12 +99,12 @@ sys-apps/libtsm **
 sys-block/partclone
 sys-block/zram-init
 sys-devel/gcc **
-sys-devel/gcc-config
+sys-devel/gcc-config ~amd64
 sys-fs/aufs-headers
 sys-fs/aufs-util
 sys-fs/btrfs-progs **
 sys-kernel/dracut
-sys-kernel/geek-sources
+sys-kernel/geek-sources ~amd64
 sys-libs/core-functions
 virtual/ffmpeg **
 virtual/mysql
