@@ -8,5 +8,6 @@ media-video/handbrake
 net-im/skype
 www-client/firefox **
 x11-themes/human-icon-theme
-dev-libs/efl
-www-client/midori
+dev-libs/efl ~amd64
+www-client/midori ~amd64
+x11-wm/enlightenment ~amd64
