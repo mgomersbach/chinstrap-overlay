@@ -121,3 +121,4 @@ x11-misc/cdm
 x11-misc/notification-daemon **
 x11-misc/pcmanfm
 x11-terms/terminology
+app-portage/update
