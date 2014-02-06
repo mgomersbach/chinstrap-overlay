@@ -9,7 +9,7 @@ ABI_X86="64" # not picked up!
 
 ACCEPT_LICENSE="*"
 
-USE="3dnow 3dnowext archive aufs avx bash-completion bidi boost branding bzip2
+USE="3dnow 3dnowext acl archive aufs avx bash-completion bidi boost branding bzip2 cxx
      directfb encode fbcon fontconfig fuse git gmp gpm gzip icu inotify lzma lzo machost
      mms mmx mmxext mono mtp mysql mysqli ncurses offensive opencl orc pdf perl
 	   php python sep-usr smp sse sse2 sse3 sse4 sse4_1 ssse3 symlink syslog sqlite threads

@@ -2,5 +2,5 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header:
 
-USE="clamav sasl openssl shadow policykit"
+USE="clamav sasl openssl shadow policykit acl"
 

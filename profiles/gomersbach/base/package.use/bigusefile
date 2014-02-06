@@ -62,8 +62,7 @@ media-video/mplayer cpudetection md5sum rar shm
 media-video/mplayer2 cpudetection md5sum rar shm
 media-video/mpv shm
 media-video/vdr bidi setup
-net-dns/avahi -utils -autoipd python howl-compat mdnsresponder-compat
-net-fs/cifs-utils -acl
+net-dns/avahi -autoipd python howl-compat mdnsresponder-compat
 net-fs/nfs-utils nfsv3 nfsv4 nfsv41 nfsidmap nfsdcld
 net-im/empathy -geoloc
 net-libs/webkit-gtk -geoloc
