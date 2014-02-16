@@ -64,6 +64,7 @@ dev-php/pecl-uploadprogress
 gnome-base/gvfs ~amd64
 media-gfx/splash-themes-livedvd
 media-gfx/tetradraw **
+media-gfx/psftools ~amd64
 media-libs/edje **
 media-libs/elementary
 media-libs/emotion **
