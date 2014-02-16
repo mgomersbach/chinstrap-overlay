@@ -5,6 +5,7 @@ app-crypt/xca bindist
 app-text/ghostscript-gpl bindist
 dev-db/libdbi-drivers bindist
 dev-db/opendbx bindist
+dev-lang/python berkdb
 dev-libs/botan bindist
 dev-libs/gf2x bindist
 dev-libs/openssl bindist
