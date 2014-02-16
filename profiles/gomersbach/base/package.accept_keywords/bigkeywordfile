@@ -105,7 +105,7 @@ sys-fs/aufs-headers
 sys-fs/aufs-util
 sys-fs/btrfs-progs **
 sys-kernel/dracut
-sys-kernel/geek-sources ~amd64
+#sys-kernel/geek-sources ~amd64
 sys-libs/core-functions
 virtual/ffmpeg **
 virtual/mysql

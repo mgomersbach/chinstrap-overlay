@@ -4,4 +4,4 @@
  # Set to the hostname of this machine
 -hostname="localhost"
 +#hostname="localhost"
-+hostname=CC`ifconfig |awk '/ether/ {print $2}'|sed 's/://g;1q'`
++hostname=CC$(ifconfig |awk '/ether/ {print $2}'|sed 's/://g;1q')
