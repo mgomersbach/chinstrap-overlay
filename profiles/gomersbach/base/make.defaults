@@ -14,7 +14,7 @@ USE="3dnow 3dnowext acl archive aufs avx bash-completion bidi boost branding bzi
      mms mmx mmxext mono mtp mysql mysqli ncurses offensive opencl orc pdf perl
 	   php python sep-usr smp sse sse2 sse3 sse4 sse4_1 ssse3 symlink syslog sqlite threads
      udev utils upnp v4l xattr zip zlib zsh-completion -bindist -cups -debug -extras
-     -fam -gnome -gold -graphite -introspection -iso14755 -kde -lto -pulseaudio
+     -fam -gnome -gold -graphite -iso14755 -kde -lto -pulseaudio
 	   -systemd -zoran"
 
 FEATURES="buildpkg parallel-fetch parallel-install metadata-transfer ccache distcc distcc-pump"
