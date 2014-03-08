@@ -1,7 +1,7 @@
-diff -rupN rr232x-linux-src-v1.10/inc/linux/Makefile.def rr232x-linux-src-v1.10_up/inc/linux/Makefile.def
---- rr232x-linux-src-v1.10/inc/linux/Makefile.def	2009-07-16 03:28:28.000000000 +0200
-+++ rr232x-linux-src-v1.10_up/inc/linux/Makefile.def	2013-09-24 15:25:10.034941536 +0200
-@@ -74,19 +74,25 @@ ifndef KERNELDIR
+diff -ruN rr232x_org/rr232x-linux-src-v1.10/inc/linux/Makefile.def rr232x_new/rr232x-linux-src-v1.10/inc/linux/Makefile.def
+--- rr232x_org/rr232x-linux-src-v1.10/inc/linux/Makefile.def	2009-07-16 03:28:28.000000000 +0200
++++ rr232x_new/rr232x-linux-src-v1.10/inc/linux/Makefile.def	2014-03-08 17:33:33.274680855 +0100
+@@ -74,19 +74,31 @@
  KERNELDIR := /lib/modules/$(shell uname -r)/build
  endif
  
@@ -21,7 +21,13 @@ diff -rupN rr232x-linux-src-v1.10/inc/linux/Makefile.def rr232x-linux-src-v1.10_
 +ifneq ($(KERNEL_VER), 3.8)
 +ifneq ($(KERNEL_VER), 3.10)
 +ifneq ($(KERNEL_VER), 3.11)
-+$(error Only kernel 3.4/3.6/3.8/3.10/3.11 is supported but you use $(KERNEL_VER))
++ifneq ($(KERNEL_VER), 3.13)
++ifneq ($(KERNEL_VER), 3.14)
++ifneq ($(KERNEL_VER), 3.15)
++$(error Only kernel 3.4/3.6/3.8/3.10/3.11/3.13/3.13/3.14/3.15 is supported but you use $(KERNEL_VER))
++endif
++endif
++endif
 +endif
 +endif
 +endif
@@ -29,14 +35,14 @@ diff -rupN rr232x-linux-src-v1.10/inc/linux/Makefile.def rr232x-linux-src-v1.10_
  endif
  
 -ifeq ($(KERNEL_VER), 2.6)
-+ifeq ($(KERNEL_VER), $(filter $(KERNEL_VER),3.4 3.6 3.8 3.10 3.11))
++ifeq ($(KERNEL_VER), $(filter $(KERNEL_VER),3.4 3.6 3.8 3.10 3.11 3.13 3.14 3.15))
  
  TARGET := $(TARGETNAME).ko
  
-diff -rupN rr232x-linux-src-v1.10/osm/linux/install.sh rr232x-linux-src-v1.10_up/osm/linux/install.sh
---- rr232x-linux-src-v1.10/osm/linux/install.sh	2009-07-16 03:28:28.000000000 +0200
-+++ rr232x-linux-src-v1.10_up/osm/linux/install.sh	2013-09-24 13:58:41.343611258 +0200
-@@ -6,11 +6,19 @@ if test "${TARGETNAME-set}" = set; then
+diff -ruN rr232x_org/rr232x-linux-src-v1.10/osm/linux/install.sh rr232x_new/rr232x-linux-src-v1.10/osm/linux/install.sh
+--- rr232x_org/rr232x-linux-src-v1.10/osm/linux/install.sh	2009-07-16 03:28:28.000000000 +0200
++++ rr232x_new/rr232x-linux-src-v1.10/osm/linux/install.sh	2014-03-08 17:36:41.690487903 +0100
+@@ -6,11 +6,35 @@
  PWD=`pwd`
  
  case ${KERNEL_VER} in
@@ -54,16 +60,32 @@ diff -rupN rr232x-linux-src-v1.10/osm/linux/install.sh rr232x-linux-src-v1.10_up
 +	3.8 )
 +	OBJ=ko
 +	MODVER=`modinfo -F vermagic ${PWD}/${TARGETNAME}.${OBJ} | cut -d' ' -f1`
++	;;
++	3.10 )
++	OBJ=ko
++	MODVER=`modinfo -F vermagic ${PWD}/${TARGETNAME}.${OBJ} | cut -d' ' -f1`
++	;;
++	3.11 )
++	OBJ=ko
++	MODVER=`modinfo -F vermagic ${PWD}/${TARGETNAME}.${OBJ} | cut -d' ' -f1`
++	;;
++	3.13 )
++	OBJ=ko
++	MODVER=`modinfo -F vermagic ${PWD}/${TARGETNAME}.${OBJ} | cut -d' ' -f1`
++	;;
++	3.14 )
++	OBJ=ko
++	MODVER=`modinfo -F vermagic ${PWD}/${TARGETNAME}.${OBJ} | cut -d' ' -f1`
  	;;
 -	2.6 )
-+	3.10 )
++	3.15 )
  	OBJ=ko
  	MODVER=`modinfo -F vermagic ${PWD}/${TARGETNAME}.${OBJ} | cut -d' ' -f1`
  	;;
-diff -rupN rr232x-linux-src-v1.10/osm/linux/os_linux.c rr232x-linux-src-v1.10_up/osm/linux/os_linux.c
---- rr232x-linux-src-v1.10/osm/linux/os_linux.c	2009-07-16 03:28:28.000000000 +0200
-+++ rr232x-linux-src-v1.10_up/osm/linux/os_linux.c	2013-09-24 15:36:55.741901325 +0200
-@@ -198,7 +198,7 @@ void *os_kmap_sgptr(PSG psg)
+diff -ruN rr232x_org/rr232x-linux-src-v1.10/osm/linux/os_linux.c rr232x_new/rr232x-linux-src-v1.10/osm/linux/os_linux.c
+--- rr232x_org/rr232x-linux-src-v1.10/osm/linux/os_linux.c	2009-07-16 03:28:28.000000000 +0200
++++ rr232x_new/rr232x-linux-src-v1.10/osm/linux/os_linux.c	2014-03-08 17:31:12.688332528 +0100
+@@ -198,7 +198,7 @@
  
  	if (page)
  		return (PageHighMem(page)?
@@ -72,7 +94,7 @@ diff -rupN rr232x-linux-src-v1.10/osm/linux/os_linux.c rr232x-linux-src-v1.10_up
  				(char *)page_address(page))
  			+ (psg->addr.bus & 0xffffffff);
  	else
-@@ -208,7 +208,7 @@ void *os_kmap_sgptr(PSG psg)
+@@ -208,7 +208,7 @@
  void os_kunmap_sgptr(void *ptr)
  {
  	if ((HPT_UPTR)ptr >= (HPT_UPTR)high_memory)
@@ -81,7 +103,7 @@ diff -rupN rr232x-linux-src-v1.10/osm/linux/os_linux.c rr232x-linux-src-v1.10_up
  }
  #else 
  void *os_kmap_sgptr(PSG psg) { return psg->addr._logical; }
-@@ -260,7 +260,7 @@ void refresh_sd_flags(PVBUS_EXT vbus_ext
+@@ -260,7 +260,7 @@
  					struct block_device *bdev = bdget(MKDEV(major[i], minor));
  					if (bdev &&
  #if LINUX_VERSION_CODE >= KERNEL_VERSION(2,6,28)
@@ -90,10 +112,10 @@ diff -rupN rr232x-linux-src-v1.10/osm/linux/os_linux.c rr232x-linux-src-v1.10_up
  #else 
  						blkdev_get(bdev, FMODE_READ, 0 __BDEV_RAW)
  #endif
-diff -rupN rr232x-linux-src-v1.10/osm/linux/osm_linux.c rr232x-linux-src-v1.10_up/osm/linux/osm_linux.c
---- rr232x-linux-src-v1.10/osm/linux/osm_linux.c	2009-07-16 03:28:28.000000000 +0200
-+++ rr232x-linux-src-v1.10_up/osm/linux/osm_linux.c	2013-09-24 16:32:31.549711251 +0200
-@@ -446,17 +446,17 @@ static int scsicmd_buf_get(Scsi_Cmnd *cm
+diff -ruN rr232x_org/rr232x-linux-src-v1.10/osm/linux/osm_linux.c rr232x_new/rr232x-linux-src-v1.10/osm/linux/osm_linux.c
+--- rr232x_org/rr232x-linux-src-v1.10/osm/linux/osm_linux.c	2009-07-16 03:28:28.000000000 +0200
++++ rr232x_new/rr232x-linux-src-v1.10/osm/linux/osm_linux.c	2014-03-08 17:31:12.689332537 +0100
+@@ -446,17 +446,17 @@
  #if LINUX_VERSION_CODE >= KERNEL_VERSION(2,6,23)
  	struct scatterlist *sg;
  	sg = scsi_sglist(cmd);
@@ -114,7 +136,7 @@ diff -rupN rr232x-linux-src-v1.10/osm/linux/osm_linux.c rr232x-linux-src-v1.10_u
  		*pbuf = sg->address;
  #else 
  		*pbuf = sg->address;
-@@ -476,16 +476,16 @@ static inline void scsicmd_buf_put(struc
+@@ -476,16 +476,16 @@
  #if LINUX_VERSION_CODE >= KERNEL_VERSION(2,6,23)
  	struct scatterlist *sg;
  	sg = scsi_sglist(cmd);
@@ -134,7 +156,7 @@ diff -rupN rr232x-linux-src-v1.10/osm/linux/osm_linux.c rr232x-linux-src-v1.10_u
  #endif
  	}
  
-@@ -874,7 +874,7 @@ static void hpt_scsi_start_stop_done(PCO
+@@ -874,7 +874,7 @@
  	}
  }
  
@@ -143,7 +165,7 @@ diff -rupN rr232x-linux-src-v1.10/osm/linux/osm_linux.c rr232x-linux-src-v1.10_u
  {
  	struct Scsi_Host *phost = sc_host(SCpnt);
  	PVBUS_EXT vbus_ext = get_vbus_ext(phost);
-@@ -1408,6 +1408,13 @@ cmd_done:
+@@ -1408,6 +1408,13 @@
  	return 0;
  }
  
@@ -157,7 +179,7 @@ diff -rupN rr232x-linux-src-v1.10/osm/linux/osm_linux.c rr232x-linux-src-v1.10_u
  static int hpt_reset (Scsi_Cmnd *SCpnt)
  {
  	PVBUS_EXT vbus_ext = get_vbus_ext(sc_host(SCpnt));
-@@ -2089,7 +2096,7 @@ static Scsi_Host_Template driver_templat
+@@ -2089,7 +2096,7 @@
  #if LINUX_VERSION_CODE < KERNEL_VERSION(2,5,0) /* 2.4.x */
  	use_new_eh_code:         1,
  	proc_name:               driver_name,
@@ -166,7 +188,7 @@ diff -rupN rr232x-linux-src-v1.10/osm/linux/osm_linux.c rr232x-linux-src-v1.10_u
  	select_queue_depths:     NULL,
  	max_sectors:             128,
  
-@@ -2098,7 +2105,7 @@ static Scsi_Host_Template driver_templat
+@@ -2098,7 +2105,7 @@
  	#endif
  #else /* 2.6.x */
  	proc_name:               driver_name,
@@ -175,9 +197,9 @@ diff -rupN rr232x-linux-src-v1.10/osm/linux/osm_linux.c rr232x-linux-src-v1.10_u
  	max_sectors:             128,
  #endif
  	this_id:                 -1
-diff -rupN rr232x-linux-src-v1.10/osm/linux/osm_linux.h rr232x-linux-src-v1.10_up/osm/linux/osm_linux.h
---- rr232x-linux-src-v1.10/osm/linux/osm_linux.h	2009-07-16 03:28:28.000000000 +0200
-+++ rr232x-linux-src-v1.10_up/osm/linux/osm_linux.h	2013-09-24 16:06:12.280801238 +0200
+diff -ruN rr232x_org/rr232x-linux-src-v1.10/osm/linux/osm_linux.h rr232x_new/rr232x-linux-src-v1.10/osm/linux/osm_linux.h
+--- rr232x_org/rr232x-linux-src-v1.10/osm/linux/osm_linux.h	2009-07-16 03:28:28.000000000 +0200
++++ rr232x_new/rr232x-linux-src-v1.10/osm/linux/osm_linux.h	2014-03-08 17:31:12.690332547 +0100
 @@ -8,11 +8,7 @@
  
  /* system headers */
@@ -191,7 +213,7 @@ diff -rupN rr232x-linux-src-v1.10/osm/linux/osm_linux.h rr232x-linux-src-v1.10_u
  
  #if (LINUX_VERSION_CODE < KERNEL_VERSION(2,5,0)) && defined(MODVERSIONS)
  #include <linux/modversions.h>
-@@ -174,10 +170,8 @@ typedef void irqreturn_t;
+@@ -174,10 +170,8 @@
  #endif
  
  #if LINUX_VERSION_CODE >= KERNEL_VERSION(2,5,0)
@@ -202,10 +224,10 @@ diff -rupN rr232x-linux-src-v1.10/osm/linux/osm_linux.h rr232x-linux-src-v1.10_u
  #define HPT_FIND_PCI_DEVICE pci_find_device
  #endif
  
-diff -rupN rr232x-linux-src-v1.10/osm/linux/patch.sh rr232x-linux-src-v1.10_up/osm/linux/patch.sh
---- rr232x-linux-src-v1.10/osm/linux/patch.sh	2009-07-16 03:28:28.000000000 +0200
-+++ rr232x-linux-src-v1.10_up/osm/linux/patch.sh	2013-09-24 14:13:09.545561788 +0200
-@@ -7,12 +7,6 @@ if test "${TARGETNAME-set}" = set; then
+diff -ruN rr232x_org/rr232x-linux-src-v1.10/osm/linux/patch.sh rr232x_new/rr232x-linux-src-v1.10/osm/linux/patch.sh
+--- rr232x_org/rr232x-linux-src-v1.10/osm/linux/patch.sh	2009-07-16 03:28:28.000000000 +0200
++++ rr232x_new/rr232x-linux-src-v1.10/osm/linux/patch.sh	2014-03-08 17:31:12.690332547 +0100
+@@ -7,12 +7,6 @@
  if test "${TARGETMODS-set}" = set; then echo "TARGETMODS is not set"; exit 1; fi
  if test "${TARGETOBJS-set}" = set; then echo "TARGETOBJS is not set"; exit 1; fi
  
@@ -218,9 +240,9 @@ diff -rupN rr232x-linux-src-v1.10/osm/linux/patch.sh rr232x-linux-src-v1.10_up/o
  ARCH=$( uname -m )
  PRODUCTNAME=$( ( cd .. ; pwd ) | sed "s/\//\n/g" | tail -n1 )
  UTARGETNAME=$( echo $TARGETNAME | tr "[:lower:]" "[:upper:]" )
-diff -rupN rr232x-linux-src-v1.10/product/rr232x/linux/.build/Makefile rr232x-linux-src-v1.10_up/product/rr232x/linux/.build/Makefile
---- rr232x-linux-src-v1.10/product/rr232x/linux/.build/Makefile	1970-01-01 01:00:00.000000000 +0100
-+++ rr232x-linux-src-v1.10_up/product/rr232x/linux/.build/Makefile	2013-09-24 14:13:18.297561289 +0200
+diff -ruN rr232x_org/rr232x-linux-src-v1.10/product/rr232x/linux/.build/Makefile rr232x_new/rr232x-linux-src-v1.10/product/rr232x/linux/.build/Makefile
+--- rr232x_org/rr232x-linux-src-v1.10/product/rr232x/linux/.build/Makefile	1970-01-01 01:00:00.000000000 +0100
++++ rr232x_new/rr232x-linux-src-v1.10/product/rr232x/linux/.build/Makefile	2014-03-08 17:31:12.691332556 +0100
 @@ -0,0 +1,21 @@
 +# auto generated makefile
 +HPT_ROOT := /root/sources/rr232x-linux-src-v1.10_up
