@@ -1,3 +1,16 @@
+app-emulation/virt-manager **
+app-emulation/qemu **
+app-emulation/libvirt **
+dev-java/icedtea-bin **
+dev-java/icedtea **
+dev-java/icedtea-web **
+virtual/jre **
+virtual/jdk **
+app-admin/eselect-java **
+dev-java/java-config **
+net-misc/npapi-sdk **
+sys-apps/baselayout-java **
+dev-util/jenkins-bin **
 app-admin/perl-cleaner ~amd64
 app-admin/puppet ~amd64
 app-admin/webmin ~amd64
