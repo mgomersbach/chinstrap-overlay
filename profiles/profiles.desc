@@ -1,7 +1,9 @@
 amd64           gomersbach/default/linux/amd64           stable
+amd64           gomersbach/default/linux/amd64/markws           stable
 amd64           gomersbach/default/linux/amd64/ccmsdev           stable
 amd64           gomersbach/hardened/linux/amd64          stable
 
 x86             gomersbach/default/linux/x86             stable
+x86             gomersbach/default/linux/x86/markws             stable
 x86             gomersbach/default/linux/x86/ccmsdev             stable
 x86             gomersbach/hardened/linux/x86            stable
