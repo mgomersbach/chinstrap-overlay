@@ -25,8 +25,7 @@ IUSE="${IUSE_VIDEO_CARDS} libkms"
 RESTRICT="test" # see bug #236845
 
 RDEPEND="dev-libs/libpthread-stubs[${MULTILIB_USEDEP}]
-  video_cards_intel? ( >=x11-libs/libpciaccess-0.10[${MULTILIB_USEDEP}] )
-  abi_x86_32? ( !app-emulation/emul-linux-x86-opengl[-abi_x86_32(-)] )"
+  video_cards_intel? ( >=x11-libs/libpciaccess-0.10[${MULTILIB_USEDEP}] )"
 DEPEND="${RDEPEND}"
 
 PATCHES=(
