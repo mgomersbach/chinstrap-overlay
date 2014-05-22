@@ -1,0 +1,6 @@
+sys-libs/libosinfo
+app-emulation/virt-manager
+app-emulation/qemu
+app-emulation/libvirt
+app-emulation/lxc
+

@@ -1,0 +1,14 @@
+dev-db/mariadb ~amd64
+dev-python/snakeoil ~amd64
+virtual/mysql ~amd64
+www-apache/mod_fastcgi_handler
+www-apache/mod_pagespeed
+www-apps/drupal
+www-apps/drupal:6
+www-apps/drupal:7
+www-apps/gateone
+www-servers/tornado
+dev-php/pecl-apc **
+dev-php/pecl-memcache **
+dev-php/pecl-memcached **
+dev-php/pecl-uploadprogress **

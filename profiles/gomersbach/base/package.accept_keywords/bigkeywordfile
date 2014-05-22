@@ -1,56 +1,32 @@
-app-emulation/virt-manager **
-app-emulation/qemu **
-app-emulation/libvirt **
-dev-java/icedtea-bin **
-dev-java/icedtea **
-dev-java/icedtea-web **
-virtual/jre **
-virtual/jdk **
 app-admin/eselect-java **
-dev-java/java-config **
-net-misc/npapi-sdk **
-sys-apps/baselayout-java **
-dev-util/jenkins-bin **
 app-admin/perl-cleaner ~amd64
-app-admin/puppet ~amd64
-app-admin/webmin ~amd64
+app-arch/bzip2   ~amd64
 app-arch/lrzip ~amd64
-app-benchmarks/phoronix-test-suite
-app-emulation/open-vm-tools
-app-emulation/open-vm-tools-kmod
-app-emulation/lxc ~amd64
-app-emulation/vagrant ~amd64
-app-emulation/vmware-view-open-client ~amd64
-app-emulation/docker ~amd64
+app-arch/xz-utils            ~amd64
 app-i18n/fbterm ~amd64
+app-portage/gentoolkit ~amd64
+app-portage/update ~amd64
 app-shells/bash-completion **
 app-shells/gentoo-bashcomp **
-app-shells/oh-my-zsh
+app-shells/oh-my-zsh ~amd64
 app-shells/powerline **
 app-shells/zsh-completion **
-dev-db/mariadb ~amd64
 dev-db/mtop ~amd64
+dev-java/icedtea **
+dev-java/icedtea-bin **
+dev-java/icedtea-web **
+dev-java/java-config **
 dev-lang/go ~amd64
-dev-libs/e_dbus **
-dev-libs/ecore **
-dev-libs/eet **
-dev-libs/eeze **
-dev-libs/efreet **
-dev-libs/eina **
-dev-libs/embryo **
+dev-libs/boost ~amd64
+dev-libs/elfutils ~amd64
+dev-libs/expat               ~amd64
 dev-libs/glib ~amd64
-dev-libs/gobject-introspection ~amd64
-dev-libs/gobject-introspection-common ~amd64
 dev-libs/nspr ~amd64
 dev-libs/nss ~amd64
 dev-perl/Authen-Libwrap ~amd64
 dev-perl/Getopt-GUI-Long ~amd64
 dev-php/PEAR-PHP_Beautifier **
 dev-php/PEAR-PHP_CodeSniffer **
-dev-php/pecl-apc **
-dev-php/pecl-memcache **
-dev-php/pecl-memcached **
-dev-php/pecl-uploadprogress **
 dev-python/ansi2html ~amd64
 dev-python/cssmin ~amd64
 dev-python/cython ~amd64
@@ -64,75 +40,52 @@ dev-python/urwid **
 dev-python/yolk ~amd64
 dev-python/yolk-portag ~amd64e
 dev-ruby/hiera
+dev-ruby/i18n
 dev-ruby/net-scp
 dev-ruby/net-ssh
-dev-ruby/i18n
-dev-util/gdbus-codegen ~amd64
-dev-util/geany **
-dev-util/geany-plugins **
-dev-util/gource
-dev-util/metro ~amd64
+dev-util/boost-build ~amd64
 dev-util/catalyst **
-dev-php/pecl-uploadprogress
-gnome-base/gvfs ~amd64
+dev-util/gource
+dev-util/jenkins-bin **
+dev-util/metro ~amd64
 media-gfx/splash-themes-livedvd
-media-gfx/tetradraw **
-media-gfx/psftools ~amd64
-media-libs/edje **
-media-libs/elementary
-media-libs/emotion **
-media-libs/ethumb **
-media-libs/evas **
-media-libs/ffmpegsource **
-media-libs/glm ~amd64
-media-libs/libcaca ~amd64
-media-libs/libmpegts **
-media-libs/soxr **
-media-libs/x264 **
-media-video/avxsynth **
-media-video/ffmpeg **
-media-video/mpv
-media-video/obe-vod **
-media-video/vapoursynth **
-media-video/vapoursynthviewer
-media-video/x264-encoder **
 net-analyzer/goaccess
 net-analyzer/snort
 net-dns/dnssec-tools
 net-fs/cvmfs
 net-fs/smbnetfs
-net-fs/winexe **
 net-misc/miniupnpd ~amd64
-net-misc/tigervnc ~amd64
-net-misc/xrdp **
+net-misc/netifrc            ~amd64
+net-misc/npapi-sdk **
+sys-apps/baselayout-java **
 sys-apps/hwdata-redhat
-sys-apps/kicktoo
 sys-apps/kmscon **
 sys-apps/kudzu
 sys-apps/libtsm **
+sys-apps/openrc               ~amd64
 sys-block/partclone
 sys-block/zram-init
-sys-devel/gcc **
+sys-boot/grub:2 ~amd64
+sys-devel/binutils ~amd64
+sys-devel/clang ~amd64
+sys-devel/crossdev **
+sys-devel/gcc ~amd64
 sys-devel/gcc-config ~amd64
-sys-fs/aufs-headers
-sys-fs/aufs-util
+sys-fs/aufs-headers ~amd64
+sys-fs/aufs-util ~amd64
 sys-fs/btrfs-progs **
+sys-fs/e2fsprogs            ~amd64
+sys-fs/udev               ~amd64
+sys-fs/udev-init-scripts ~amd64
+sys-fs/xfsprogs ~amd64
 sys-kernel/dracut
-#sys-kernel/geek-sources ~amd64
-sys-libs/core-functions
-virtual/ffmpeg **
-virtual/mysql
+sys-libs/core-functions ~amd64
+sys-libs/e2fsprogs-libs            ~amd64
+sys-libs/glibc ~amd64
+sys-libs/gpm               ~amd64
+sys-libs/ncurses            ~amd64
+sys-libs/zlib               ~amd64
+virtual/jdk **
+virtual/jre **
 virtual/python-futures
-www-apache/mod_fastcgi_handler
-www-apache/mod_pagespeed
-www-apps/drupal
-www-apps/drupal:6
-www-apps/drupal:7
-www-apps/gateone
-www-servers/tornado
-x11-libs/libfm
-x11-misc/cdm
-x11-misc/notification-daemon **
-x11-misc/pcmanfm
-x11-terms/terminology
-app-portage/update
+virtual/udev               ~amd64

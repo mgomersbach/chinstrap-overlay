@@ -1,2 +1,4 @@
 *media-video/mpv
 *media-sound/ncmpcpp
+*media-libs/libsdl2
+*media-libs/fdk-aac

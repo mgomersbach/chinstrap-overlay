@@ -1,2 +1,4 @@
 *net-analyzer/goaccess
 *net-firewall/iptables
+*net-firewall/ufw
+*net-firewall/ufw-frontends

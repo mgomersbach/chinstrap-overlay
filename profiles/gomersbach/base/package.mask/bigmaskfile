@@ -1,4 +1,1 @@
->=sys-kernel/geek-sources-3.13
-#>=dev-util/gdbus-codegen-2.38
-#>=dev-libs/glib-2.38
->=gnome-base/gvfs-1.18
+>=sys-kernel/geek-sources-3.14
