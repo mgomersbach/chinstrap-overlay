@@ -21,18 +21,21 @@ dev-python/numpy nodistcc.conf
 sys-apps/groff nodistcc.conf
 media-gfx/graphviz nodistcc.conf
 sys-devel/distcc nodistcc.conf
+mail-filter/procmail nodistcc.conf
+dev-util/ctags nodistcc.conf
+games-emulation/sdlmess nodistcc.conf
+www-client/firefox nodistcc.conf
+sys-block/thin-provisioning-tools nodistcc.conf
+app-emulation/wine nodistcc.conf
 
-# No concurrent jobs
-net-analyzer/net-snmp makeoptsj1.conf
-dev-libs/boost makeoptsj1.conf
-
-# Limited concurrent jobs
-dev-python/pygtk makeoptsj4.conf
-sys-kernel/geek-sources makeoptsj4.conf
+# native cflags
+sys-cluster/openmpi nativecflags.conf
+games-emulation/fceux nativecflags.conf
 
 # wno-error
 app-emulation/open-vm-tools wnoerror.conf
 app-emulation/open-vm-tools-kmod wnoerror.conf
 
-# no tmpfs portage
-app-office/libreoffice notmpfs.conf
+# No parallel
+net-print/cups-filters makeoptsj1.conf
+
