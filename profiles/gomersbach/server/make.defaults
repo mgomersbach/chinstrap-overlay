@@ -3,6 +3,8 @@
 # $Header:
 
 
-USE="apache2 avahi curl ftp samba network nfs nis nls vnc zeroconf ldap imap
-     xml xmlrpc vhosts setup sftp snmp soap sockets maildir mbox mhash mmap
-     mpi xsl"
+USE="apache2 avahi curl ftp samba network nfs nis nls vnc zeroconf ldap 
+     imap xml xmlrpc vhosts setup sftp snmp soap sockets maildir mbox 
+     mhash mmap mpi xsl fpm nginx mdnsresponder-compat memcache 
+     memcached mysqlnd pdo sensord swat uploadprogress xmlreader 
+     xmlwriter xvfb"

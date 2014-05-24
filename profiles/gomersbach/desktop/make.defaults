@@ -2,6 +2,12 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header:
 
-USE="X cairo dbus egl gtk gtk3 joystick pango qt3support qt4 qt5 vaapi
-       xcomposite vdpau xcb xrandr xv wxwidgets drm pixman"
-VIDEO_CARDS="radeon radeonsi ati fbcon nouveau fglrx vesa intel vmware v4l nv fbdev r600" #not picked up!
+USE="X cairo dbus egl gtk gtk3 joystick pango qt3support qt4 qt5 vaapi 
+     glamor-gles2 gtkstyle icons infinality llvm llvm-shared-libs 
+     xcomposite vdpau xcb xrandr xv wxwidgets drm pixman dri3 emerald 
+     g3dvl gallium openvg osmesa pixbuf nsplugin r600-llvm-compiler 
+     shmvideo sna spell system-cairo 
+     system-icu system-jpeg system-sqlite systemtap thunar vlc volume 
+     xorg xrender xvmc -gphoto2 -kde -xinerama -xscreensaver"
+VIDEO_CARDS="radeon radeonsi ati fbcon nouveau fglrx vesa intel vmware 
+             v4l nv fbdev r600" #not picked up!

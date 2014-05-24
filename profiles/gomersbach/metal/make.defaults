@@ -2,4 +2,5 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header:
 
-METALUSE="lm_sensors usb sensord"
+USE="lm_sensors usb sensord hwdb iscsi lxc mdadm parted spice usbredir 
+     vde virtfs -virt-network"

@@ -9,22 +9,28 @@ ABI_X86="64" # not picked up!
 
 ACCEPT_LICENSE="*"
 
-USE="3dnow 3dnowext acl archive aufs avx bash-completion bidi boost branding bzip2 cxx
-     directfb encode fbcon fontconfig fuse git gmp gpm gzip icu inotify lzma lzo machost
-     mms mmx mmxext mono mtp mysql mysqli ncurses offensive opencl orc pdf perl
-	   php python sep-usr smp sse sse2 sse3 sse4 sse4_1 ssse3 symlink syslog sqlite threads
-     udev utils upnp v4l xattr zip zlib zsh-completion -bindist -cups -debug -extras
-     -fam -gnome -gold -graphite -iso14755 -kde -lto -pulseaudio
-	   -systemd -zoran"
+USE="256-color 3dnow 3dnowext acl acpi archive aufs avx bash-completion 
+     bidi nfs4 nfsdcld nfsidmap nfsv4 nfsv41 boost branding bzip2 cxx 
+     directfb encode fbcon fontconfig fuse git prelink shm sse2_4way 
+     sse4.1 sse4.2 sse4a sse4b sse5 gmp gpm gzip icu inotify lzma lzo 
+     machost mms mmx mmxext mono mtp avx128fma avx256 vim-syntax mysql 
+     mysqli ncurses offensive opencl orc pdf perl php python 
+     fading-colors logrotate sep-usr smp sse sse2 sse3 sse4 sse4_1 ssse3 
+     symlink syslog sqlite device-mapper threads udev utils upnp v4l 
+     xattr zip zlib zsh-completion -bindist -cups -debug -extras -fam 
+     -gnome -gold -graphite -iso14755 -kde -lto -pulseaudio -systemd 
+     -zoran -networkmanager -reiser4"
 
-FEATURES="buildpkg parallel-fetch parallel-install metadata-transfer ccache distcc distcc-pump"
+FEATURES="buildpkg parallel-fetch parallel-install metadata-transfer 
+          ccache distcc distcc-pump"
 
 PORTAGE_BINHOST="http://gomersbach.mooo.com/binhost/x86-64/generic/base"
 SYNC="rsync://gomersbach.mooo.com/gentoo-portage" # not picked up!
 
 EMERGE_DEFAULT_OPTS="-g --binpkg-respect-use=y --tree"
 
-VIDEO_CARDS="radeon radeonsi ati fbcon nouveau fglrx vesa intel vmware v4l nv fbdev r600" # not picked up!
+VIDEO_CARDS="radeon radeonsi ati fbcon nouveau fglrx vesa intel vmware 
+             v4l nv fbdev r600" # not picked up!
 INPUT_DEVICES="synaptics evdev keyboard mouse vmmouse"
 
 PORTAGE_NICENESS="19"
