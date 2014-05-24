@@ -40,9 +40,6 @@ dev-util/strace aio
 dev-utils/schroot btrfs lvm
 dev-vcs/git cgi blksha1 highlight highlight
 dev-vcs/subversion -dso
-games-arcade/slimevolley net
-games-board/freedoko net
-games-fps/lsdldoom net
 gnome-base/gvfs archive bluray afp
 kde-base/kdelibs
 kde-base/kopete highlight

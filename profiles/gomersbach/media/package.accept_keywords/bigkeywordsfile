@@ -103,5 +103,10 @@ media-video/ffmpeg:0            ~amd64
 media-video/ffmpeg ~amd64
 media-video/vlc ~amd64
 media-video/x264-encoder **
-
-
+virtual/ffmpeg ~amd64
+virtual/glu                ~amd64
+virtual/jpeg               ~amd64
+virtual/libiconv            ~amd64
+virtual/opengl                ~amd64
+sys-libs/libavc1394            ~amd64
+sys-libs/libraw1394            ~amd64

@@ -1,0 +1,16 @@
+dev-games/netradiant **
+games-arcade/commandergenius ~amd64
+games-emulation/desmume ~amd64
+games-emulation/dolphin **
+games-emulation/mupen64plus **
+games-emulation/qmc2 ~amd64
+games-emulation/vbam ~amd64
+games-fps/doomsday **
+games-simulation/openttd ~amd64
+games-fps/doom3-gpl **
+games-sports/stuntrally **
+games-sports/stuntrally-tracks **
+games-strategy/0ad ~amd64
+games-strategy/glest ~amd64
+games-util/steam-launcher ~amd64
+app-emulation/wine **

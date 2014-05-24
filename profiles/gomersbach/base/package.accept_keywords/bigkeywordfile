@@ -63,6 +63,9 @@ sys-apps/kmscon **
 sys-apps/kudzu
 sys-apps/libtsm **
 sys-apps/openrc               ~amd64
+sys-apps/hwids               ~amd64
+sys-apps/kmod               ~amd64
+sys-apps/yum ~amd64
 sys-block/partclone
 sys-block/zram-init
 sys-boot/grub:2 ~amd64
@@ -71,6 +74,7 @@ sys-devel/clang ~amd64
 sys-devel/crossdev **
 sys-devel/gcc ~amd64
 sys-devel/gcc-config ~amd64
+sys-devel/prelink ~amd64
 sys-fs/aufs-headers ~amd64
 sys-fs/aufs-util ~amd64
 sys-fs/btrfs-progs **

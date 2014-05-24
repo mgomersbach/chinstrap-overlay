@@ -17,6 +17,9 @@ dev-util/apitrace egl
 games-emulation/pcsxr cdio
 games-fps/eduke32 vpx
 games-strategy/liquidwar6 gles2
+games-arcade/slimevolley net
+games-board/freedoko net
+games-fps/lsdldoom net
 gnome-extra/gnome-media twolame
 kde-base/kwin gles
 mail-client/thunderbird system-jpeg
