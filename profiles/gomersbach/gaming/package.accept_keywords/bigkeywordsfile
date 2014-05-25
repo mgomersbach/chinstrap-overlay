@@ -13,4 +13,4 @@ games-sports/stuntrally-tracks **
 games-strategy/0ad ~amd64
 games-strategy/glest ~amd64
 games-util/steam-launcher ~amd64
-app-emulation/wine **
+app-emulation/wine ~amd64
