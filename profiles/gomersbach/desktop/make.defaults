@@ -8,6 +8,6 @@ USE="X cairo dbus egl gtk gtk3 joystick pango qt3support qt4 qt5 vaapi
      g3dvl gallium openvg osmesa pixbuf nsplugin r600-llvm-compiler 
      shmvideo sna spell system-cairo 
      system-icu system-jpeg system-sqlite systemtap thunar vlc volume 
-     xorg xrender xvmc -gphoto2 -kde -xinerama -xscreensaver"
+     xorg xrender xvmc -gphoto2 -kde -xinerama xscreensaver"
 VIDEO_CARDS="radeon radeonsi ati fbcon nouveau fglrx vesa intel vmware 
              v4l nv fbdev r600" #not picked up!
