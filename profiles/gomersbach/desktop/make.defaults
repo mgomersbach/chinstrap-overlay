@@ -2,8 +2,8 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header:
 
-USE="X cairo dbus egl gtk gtk3 joystick pango qt3support qt4 qt5 vaapi 
-     glamor-gles2 gtkstyle icons infinality llvm llvm-shared-libs 
+USE="X egl cairo dbus gtk gtk3 joystick pango qt3support qt4 qt5 vaapi 
+     gtkstyle icons infinality llvm llvm-shared-libs 
      xcomposite vdpau xcb xrandr xv wxwidgets drm pixman dri3 emerald 
      g3dvl gallium openvg osmesa pixbuf nsplugin r600-llvm-compiler 
      shmvideo sna spell system-cairo 

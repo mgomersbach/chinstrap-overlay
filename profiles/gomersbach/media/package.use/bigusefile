@@ -2,13 +2,11 @@
 app-cdr/disc-cover cdrom
 app-misc/recoll audio
 app-office/libreoffice vlc
-dev-games/ogre gles2
 dev-java/icedtea alsa
-dev-libs/DirectFB bmp egl gles2 mpeg2 mpeg3 pnm swfdec
-dev-libs/ecore gles
+dev-libs/DirectFB bmp egl mpeg2 mpeg3 pnm swfdec
 dev-libs/libburn cdio
 dev-libs/libisoburn cdio
-dev-libs/weston egl fbdev gles2
+dev-libs/weston egl fbdev
 dev-libs/efl -xcb
 dev-python/translate-toolkit subtitles
 dev-qt/qtgui egl
@@ -16,12 +14,12 @@ dev-qt/qtopengl egl
 dev-util/apitrace egl
 games-emulation/pcsxr cdio
 games-fps/eduke32 vpx
-games-strategy/liquidwar6 gles2
+games-strategy/liquidwar6
 games-arcade/slimevolley net
 games-board/freedoko net
 games-fps/lsdldoom net
 gnome-extra/gnome-media twolame
-kde-base/kwin gles
+kde-base/kwin
 mail-client/thunderbird system-jpeg
 media-gfx/graphicsmagick fpx q32
 media-gfx/imagemagick fpx hdri lqr q32 q64 q8 q16
@@ -29,9 +27,8 @@ media-gfx/splashutils fbcondecor
 media-libs/avidemux amr vpx
 media-libs/avidemux-core amr system-ffmpeg
 media-libs/avidemux-plugins amr faac faad twolame vpx
-media-libs/cogl gles2
 media-libs/emotion vlc
-media-libs/evas bmp gles ppm tga
+media-libs/evas bmp ppm tga
 media-libs/freetype auto-hinter infinality
 media-libs/glfw egl
 media-libs/gst-plugins-bad egl
@@ -42,10 +39,10 @@ media-libs/libbluray aacs
 media-libs/libgnome twolame
 media-libs/libpng apng
 media-libs/libsdl audio
-media-libs/libsdl2 audio gles
+media-libs/libsdl2 audio
 media-libs/libvpx postproc
 media-libs/mediastreamer amr
-media-libs/mesa egl g3dvl gallium gbm gles gles1 gles2 llvm llvm-shared-libs r600-llvm-compiler shared-glapi xa xvmc
+media-libs/mesa egl g3dvl gallium gbm llvm llvm-shared-libs r600-llvm-compiler shared-glapi xa xvmc
 media-libs/mlt melt swfdec
 media-libs/phonon vlc
 media-libs/sdl-mixer wav
@@ -85,7 +82,7 @@ net-libs/h323plus audio
 net-libs/opal wav
 net-libs/ptlib shmvideo wav audio
 net-libs/qxmpp vpx
-net-libs/webkit-gtk egl gles2
+net-libs/webkit-gtk egl
 net-misc/asterisk-core-sounds wav
 net-misc/asterisk-extr-sounds wav
 net-misc/asterisk-moh-opsound wav
@@ -93,7 +90,7 @@ net-misc/curl rtmp
 net-misc/ps3mediaserver transcode tsmuxer multiuser
 net-misc/rygel transcode
 net-p2p/tribler vlc
-sys-apps/kmscon fbdev gles2
+sys-apps/kmscon fbdev
 sys-apps/tuxonice-userui fbsplash
 sys-cluster/cinder volume
 sys-power/suspend fbsplash
@@ -101,11 +98,10 @@ www-apps/ampache transcode
 www-client/firefox system-jpeg webm
 www-client/seamonkey system-jpeg
 www-plugins/gnash egl
-www-plugins/lightspark gles rtmp
+www-plugins/lightspark rtmp
 www-servers/nginx rtmp
-x11-apps/mesa-progs egl gles gles1 gles2
-x11-libs/cairo gallium gles2
-x11-libs/glamor gles
+x11-apps/mesa-progs egl
+x11-libs/cairo gallium
 x11-libs/gtk+ egl
 x11-libs/libva egl
 x11-terms/rxvt-unicode pixbuf
