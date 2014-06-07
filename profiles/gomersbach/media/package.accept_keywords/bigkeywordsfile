@@ -1,5 +1,4 @@
 media-gfx/blender ~amd64
-virtual/ffmpeg **
 media-gfx/cairosvg ~amd64
 media-gfx/exact-image ~amd64
 media-gfx/k3d ~amd64
@@ -20,7 +19,6 @@ media-libs/libmpegts **
 media-libs/soxr **
 media-libs/x264 **
 media-video/avxsynth **
-media-video/ffmpeg **
 media-video/mpv
 media-video/obe-vod **
 media-video/vapoursynth **
