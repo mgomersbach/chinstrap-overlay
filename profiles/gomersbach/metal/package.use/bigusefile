@@ -4,7 +4,7 @@ app-emulation/ganeti lxc kvm
 app-emulation/libvirt iscsi qemu lxc lvm parted pcap virtualbox
 app-emulation/qemu aio alsa xfs usbredir iscsi spice vde virtfs
 app-emulation/virtualbox extensions
-app-emulation/wine abi_x86_64 -mono prelink rar udisks
+app-emulation/wine -mono prelink rar
 app-emulation/winetricks rar
 app-emulation/xen-tools qemu screen
 gnome-extra/gnome-boxes usbredir
