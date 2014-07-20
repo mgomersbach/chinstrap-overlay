@@ -22,7 +22,7 @@ USE="256-color 3dnow 3dnowext acl acpi archive aufs avx bash-completion
      -zoran -networkmanager -reiser4"
 
 FEATURES="buildpkg parallel-fetch parallel-install metadata-transfer 
-          ccache distcc distcc-pump"
+          ccache"
 
 PORTAGE_BINHOST="http://gomersbach.mooo.com/binhost/x86-64/generic/base"
 SYNC="rsync://gomersbach.mooo.com/gentoo-portage" # not picked up!
