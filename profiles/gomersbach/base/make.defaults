@@ -2,11 +2,6 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header:
 
-CFLAGS="-march=x86-64 -mtune=generic -O2 -msse -msse2 -msse3 -pipe"
-CXXFLAGS="${CFLAGS}"
-CHOST="x86_64-pc-linux-gnu"
-ABI_X86="64 x32" # not picked up!
-
 ACCEPT_LICENSE="*"
 
 USE="256-color 3dnow 3dnowext acl acpi archive aufs avx bash-completion 
