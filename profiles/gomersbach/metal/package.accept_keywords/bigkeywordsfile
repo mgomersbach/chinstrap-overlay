@@ -7,11 +7,11 @@ app-emulation/docker **
 app-emulation/libvirt **
 app-emulation/open-vm-tools
 app-emulation/open-vm-tools-kmod
-app-emulation/vagrant ~amd64
+app-emulation/vagrant ~*
 app-emulation/virt-manager **
-app-emulation/vmware-view-open-client ~amd64
-sys-block/thin-provisioning-tools ~amd64
-sys-fs/aufs-headers ~amd64
-sys-fs/aufs-util ~amd64
+app-emulation/vmware-view-open-client ~*
+sys-block/thin-provisioning-tools ~*
+sys-fs/aufs-headers ~*
+sys-fs/aufs-util ~*
 sys-fs/btrfs-progs **
 

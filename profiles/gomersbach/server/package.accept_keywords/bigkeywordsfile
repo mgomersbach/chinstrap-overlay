@@ -1,6 +1,6 @@
-dev-db/mariadb ~amd64
-dev-python/snakeoil ~amd64
-virtual/mysql ~amd64
+dev-db/mariadb ~*
+dev-python/snakeoil ~*
+virtual/mysql ~*
 www-apache/mod_fastcgi_handler
 www-apache/mod_pagespeed
 www-apps/drupal

@@ -2,9 +2,8 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header:
 
-
 USE="apache2 avahi curl ftp samba network nfs nis nls vnc zeroconf ldap 
-     imap xml xmlrpc vhosts setup sftp snmp soap sockets maildir mbox 
-     mhash mmap mpi xsl fpm nginx mdnsresponder-compat memcache 
-     memcached mysqlnd pdo sensord swat uploadprogress xmlreader 
-     xmlwriter xvfb"
+     imap xml sasl xmlrpc vhosts setup sftp snmp soap sockets maildir mbox 
+     mhash mmap mpi xsl fpm nginx mdnsresponder-compat memcache ldap cups
+     memcached mysqlnd pdo sensord swat uploadprogress xmlreader sqlite
+     xmlwriter xvfb mysql mysqli extraengine"

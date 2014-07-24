@@ -38,3 +38,4 @@ x11-misc/openbox-menu icons
 x11-themes/gentoo-artwork icons
 x11-themes/redhat-artwork icons
 xfce-base/xfdesktop thunar
+app-portage/layman subversion bazaar cvs mercurial git

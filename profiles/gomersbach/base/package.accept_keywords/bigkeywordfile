@@ -1,95 +1,98 @@
 app-admin/eselect-java **
-app-admin/perl-cleaner ~amd64
-app-arch/bzip2   ~amd64
-app-arch/lrzip ~amd64
-app-arch/xz-utils            ~amd64
-app-i18n/fbterm ~amd64
-app-portage/gentoolkit ~amd64
-app-portage/update ~amd64
+app-admin/perl-cleaner ~*
+app-arch/bzip2   ~*
+app-arch/lrzip ~*
+app-arch/xz-utils            ~*
+app-i18n/fbterm ~*
+app-portage/gentoolkit ~*
+app-portage/update ~*
 app-shells/bash-completion **
 app-shells/gentoo-bashcomp **
-app-shells/oh-my-zsh ~amd64
+app-shells/oh-my-zsh ~*
 app-shells/powerline **
 app-shells/zsh-completion **
-dev-db/mtop ~amd64
+dev-db/mtop ~*
 dev-java/icedtea **
 dev-java/icedtea-bin **
 dev-java/icedtea-web **
 dev-java/java-config **
-dev-lang/go ~amd64
-dev-libs/boost ~amd64
-dev-libs/elfutils ~amd64
-dev-libs/expat               ~amd64
-dev-libs/glib ~amd64
-dev-libs/nspr ~amd64
-dev-libs/nss ~amd64
-dev-perl/Authen-Libwrap ~amd64
-dev-perl/Getopt-GUI-Long ~amd64
+dev-lang/go ~*
+dev-libs/boost ~*
+dev-libs/elfutils ~*
+dev-libs/expat               ~*
+dev-libs/glib ~*
+dev-libs/nspr ~*
+dev-libs/nss ~*
+dev-perl/Authen-Libwrap ~*
+dev-perl/Getopt-GUI-Long ~*
 dev-php/PEAR-PHP_Beautifier **
 dev-php/PEAR-PHP_CodeSniffer **
-dev-python/ansi2html ~amd64
-dev-python/cssmin ~amd64
-dev-python/cython ~amd64
-dev-python/futures ~amd64
-dev-python/g-pypi ~amd64
-dev-python/numpy ~amd64
-dev-python/python-pam ~amd64
-dev-python/slimit ~amd64
-dev-python/sphinxcontrib-googleanalytics ~amd64
+dev-python/ansi2html ~*
+dev-python/cssmin ~*
+dev-python/cython ~*
+dev-python/futures ~*
+dev-python/g-pypi ~*
+dev-python/numpy ~*
+dev-python/python-pam ~*
+dev-python/slimit ~*
+dev-python/sphinxcontrib-googleanalytics ~*
 dev-python/urwid **
-dev-python/yolk ~amd64
-dev-python/yolk-portag ~amd64e
+dev-python/yolk ~*
+dev-python/yolk-portag ~*e
 dev-ruby/hiera
 dev-ruby/i18n
 dev-ruby/net-scp
 dev-ruby/net-ssh
-dev-util/boost-build ~amd64
+dev-util/boost-build ~*
 dev-util/catalyst **
 dev-util/gource
 dev-util/jenkins-bin **
-dev-util/metro ~amd64
+dev-util/metro ~*
 media-gfx/splash-themes-livedvd
 net-analyzer/goaccess
 net-analyzer/snort
 net-dns/dnssec-tools
 net-fs/cvmfs
 net-fs/smbnetfs
-net-misc/miniupnpd ~amd64
-net-misc/netifrc            ~amd64
+net-misc/miniupnpd ~*
+net-misc/netifrc            ~*
 net-misc/npapi-sdk **
 sys-apps/baselayout-java **
 sys-apps/hwdata-redhat
 sys-apps/kmscon **
 sys-apps/kudzu
 sys-apps/libtsm **
-sys-apps/openrc               ~amd64
-sys-apps/hwids               ~amd64
-sys-apps/kmod               ~amd64
-sys-apps/yum ~amd64
+sys-apps/openrc               ~*
+sys-apps/hwids               ~*
+sys-apps/kmod               ~*
+sys-apps/yum ~*
 sys-block/partclone
 sys-block/zram-init
-sys-boot/grub:2 ~amd64
-sys-devel/binutils ~amd64
-sys-devel/clang ~amd64
+sys-boot/grub:2 ~*
+sys-devel/binutils ~*
+sys-devel/clang ~*
 sys-devel/crossdev **
-sys-devel/gcc ~amd64
-sys-devel/gcc-config ~amd64
-sys-devel/prelink ~amd64
-sys-fs/aufs-headers ~amd64
-sys-fs/aufs-util ~amd64
+sys-devel/gcc ~*
+sys-devel/gcc-config ~*
+sys-devel/prelink ~*
+sys-fs/aufs-headers ~*
+sys-fs/aufs-util ~*
 sys-fs/btrfs-progs **
-sys-fs/e2fsprogs            ~amd64
-sys-fs/udev               ~amd64
-sys-fs/udev-init-scripts ~amd64
-sys-fs/xfsprogs ~amd64
+sys-fs/e2fsprogs            ~*
+sys-fs/udev               ~*
+sys-fs/udev-init-scripts ~*
+sys-fs/xfsprogs ~*
 sys-kernel/dracut
-sys-libs/core-functions ~amd64
-sys-libs/e2fsprogs-libs            ~amd64
-sys-libs/glibc ~amd64
-sys-libs/gpm               ~amd64
-sys-libs/ncurses            ~amd64
-sys-libs/zlib               ~amd64
+sys-libs/core-functions ~*
+sys-libs/e2fsprogs-libs            ~*
+sys-libs/glibc ~*
+sys-libs/gpm               ~*
+sys-libs/ncurses            ~*
+sys-libs/zlib               ~*
 virtual/jdk **
 virtual/jre **
 virtual/python-futures
-virtual/udev               ~amd64
+virtual/udev               ~*
+sys-block/thin-provisioning-tools ~*
+dev-libs/gobject-introspection ~*
+dev-libs/gobject-introspection-common ~*

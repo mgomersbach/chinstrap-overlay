@@ -4,29 +4,36 @@
 
 ACCEPT_LICENSE="*"
 
-USE="256-color 3dnow 3dnowext acl acpi archive aufs avx bash-completion 
+NODESKTOPUSE="-X -egl -cairo -dbus -gtk -gtk3 -joystick -pango -qt3support -qt4 -qt5 -vaapi
+     -gtkstyle -icons -infinality -llvm -llvm-shared-libs
+     -xcomposite -vdpau -xcb -xrandr -xv -wxwidgets -drm -pixman -dri3 -emerald  
+     -g3dvl -gallium -openvg -osmesa -pixbuf -nsplugin -r600-llvm-compiler
+     -shmvideo -sna -system-cairo -v4l -v4l2 -firefox
+     -thunar -vlc -volume -directfb -dri -fbcon
+     -xorg -xrender -xvmc -xscreensaver" 
+
+NOMEDIAUSE="-a523 -aac -alsa -bidi -bluetooth -cdda -cdr -dts -dvd -dvdr -encode -exif
+            -flac -gif -jpeg -lcms -mad -mms -mng -mp3 -mp4 -mpeg -ogg -opengl -opencl 
+            -orc -pdf -png -ppds -sdl -svg -tiff -truetype -vorbis -x264 -xvid"
+
+USE="256-color acl acpi archive aufs bash-completion 
      bidi nfs4 nfsdcld nfsidmap nfsv4 nfsv41 boost branding bzip2 cxx 
-     directfb encode fbcon fontconfig fuse git prelink shm sse2_4way 
-     sse4.1 sse4.2 sse4a sse4b sse5 gmp gpm gzip icu inotify lzma lzo 
-     machost mms mmx mmxext mono mtp avx128fma avx256 vim-syntax mysql 
-     mysqli ncurses offensive opencl orc pdf perl php python 
-     fading-colors logrotate sep-usr smp sse sse2 sse3 sse4 sse4_1 ssse3 
-     symlink syslog sqlite device-mapper threads udev utils upnp v4l 
+     directfb encode fbcon fontconfig fuse git prelink shm
+     gmp gpm gzip icu inotify lzma lzo 
+     machost mms mono mtp vim-syntax
+     ncurses offensive opencl orc pdf perl php python 
+     fading-colors logrotate sep-usr smp 
+     symlink syslog sqlite device-mapper threads udev utils upnp
      xattr zip zlib zsh-completion -bindist -cups -debug -extras -fam 
-     -gnome -gold -graphite -iso14755 -kde -lto -pulseaudio -systemd 
-     -zoran -networkmanager -reiser4"
+     -gnome -gold -graphite -iso14755 -kde -lto -pulseaudio -systemd -mono
+     -zoran -networkmanager -reiser4 -ldap ${NODESKTOPUSE} ${NOMEDIAUSE}"
 
 FEATURES="buildpkg parallel-fetch parallel-install metadata-transfer 
           ccache"
 
-PORTAGE_BINHOST="http://gomersbach.mooo.com/binhost/x86-64/generic/base"
 SYNC="rsync://gomersbach.mooo.com/gentoo-portage" # not picked up!
 
 EMERGE_DEFAULT_OPTS="-g --binpkg-respect-use=y --tree"
-
-VIDEO_CARDS="radeon radeonsi ati fbcon nouveau fglrx vesa intel vmware 
-             v4l nv fbdev r600" # not picked up!
-INPUT_DEVICES="synaptics evdev keyboard mouse vmmouse"
 
 PORTAGE_NICENESS="19"
 PORTAGE_RSYNC_EXTRA_OPTS="--omit-dir-times"
@@ -36,15 +43,14 @@ USE_PYTHON="2.7 3.3" # not picked up!
 PYTHON_TARGETS="python2_7 python3_3" # not picked up!
 PHP_TARGETS="php5-5 php5-4" # not picked up!
 
-QEMU_SOFTMMU_TARGETS="arm i386 x86_64"
-QEMU_USER_TARGETS="arm i386 x86_64"
-
 GRUB_PLATFORMS="pc emu"
 
-#LINGUAS="en nl" # not picked up!
+LINGUAS="en nl" # not picked up!
 
 DRACUT_MODULES="btrfs cifs iscsi lvm nbd nfs plymouth ssh-client"
 
 DISTDIR="/media/distfiles"
 PKGDIR="/media/packages"
+
+VIDEO_CARDS=""
 

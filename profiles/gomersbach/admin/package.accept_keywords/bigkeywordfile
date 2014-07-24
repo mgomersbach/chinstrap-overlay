@@ -1,10 +1,10 @@
 app-portage/update
-app-admin/perl-cleaner ~amd64
-app-admin/python-updater ~amd64
-app-admin/eselect-cdparanoia ~amd64
-dev-db/mtop ~amd64
-sys-block/partclone ~amd64
-app-admin/puppet ~amd64
-app-admin/webmin ~amd64
+app-admin/perl-cleaner ~*
+app-admin/python-updater ~*
+app-admin/eselect-cdparanoia ~*
+dev-db/mtop ~*
+sys-block/partclone ~*
+app-admin/puppet ~*
+app-admin/webmin ~*
 sys-apps/kicktoo
 sys-block/partclone

@@ -1,2 +1,2 @@
-net-firewall/ufw ~amd64
-net-firewall/ufw-frontends ~amd64
+net-firewall/ufw ~*
+net-firewall/ufw-frontends ~*
