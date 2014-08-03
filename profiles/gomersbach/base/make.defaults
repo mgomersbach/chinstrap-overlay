@@ -16,13 +16,13 @@ NOMEDIAUSE="-a523 -aac -alsa -bidi -bluetooth -cdda -cdr -dts -dvd -dvdr -encode
             -flac -gif -jpeg -lcms -mad -mms -mng -mp3 -mp4 -mpeg -ogg -opengl -opencl 
             -orc -pdf -png -ppds -sdl -svg -tiff -truetype -vorbis -x264 -xvid"
 
-USE="256-color acl acpi archive aufs bash-completion btrfs
-     bidi nfs4 nfsdcld nfsidmap nfsv4 nfsv41 boost branding bzip2 cxx 
-     directfb encode fbcon fontconfig fuse git prelink shm
+USE="acl acpi archive aufs bash-completion btrfs pam fileinfo
+     bidi nfs4 nfsdcld nfsidmap nfsv4 nfs nfsv41 boost branding bzip2 cxx 
+     directfb encode fbcon fontconfig fuse git prelink shm smtp
      gmp gpm gzip icu inotify lzma lzo hpn ntfs ntfs-progs ntp ntpd
-     mms mono mtp vim-syntax highlight rar ssh xfs openrc
-     ncurses offensive opencl orc pdf perl php python 
-     fading-colors logrotate sep-usr smp 
+     mms mono mtp vim-syntax highlight rar ssh xfs openrc hfs lz4 snappy
+     ncurses offensive opencl orc pdf perl php python pch aio asm
+     fading-colors logrotate sep-usr smp mpi sendmail logwatch
      symlink syslog sqlite device-mapper threads udev utils upnp
      xattr zip zlib zsh-completion -bindist -cups -debug -extras -fam 
      -gold -graphite -iso14755 -lto -pulseaudio -systemd -mono

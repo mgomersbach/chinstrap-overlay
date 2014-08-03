@@ -1,4 +1,3 @@
-app-emulation/wine mono
 sys-libs/glibc gd
 
 # pulls gudev useflag on udev
@@ -14,3 +13,4 @@ mail-client/thunderbird system-sqlite
 www-client/firefox system-sqlite
 
 dev-libs/efl xcb egl audio
+

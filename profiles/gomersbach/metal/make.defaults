@@ -2,5 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header:
 
-USE="lm_sensors usb sensord hwdb iscsi lxc mdadm parted spice usbredir 
-     vde virtfs fbcondecor fbdev fbosd fbsplash systemtap -virt-network"
+USE="lm_sensors usb sensord hwdb iscsi lxc mdadm parted vnc extensions
+     spice usbredir netapi system-qemu system-seabios
+     vde virtfs fbcondecor fbdev fbosd fbsplash systemtap -virt-network
+     pm-utils"

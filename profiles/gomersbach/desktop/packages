@@ -1,3 +1,8 @@
 *x11-terms/rxvt-unicode
 *xfce-base/xfce4-meta
 *x11-themes/human-icon-theme
+*xfce-extra/xfce4-mixer
+*xfce-extra/xfce4-taskmanager
+*app-crypt/seahorse
+*www-client/firefox
+*mail-client/thunderbird

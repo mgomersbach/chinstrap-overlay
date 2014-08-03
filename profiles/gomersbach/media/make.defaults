@@ -9,7 +9,7 @@ USE="a52 aac apng asf amr alsa aalib audio audiofile alsa cdda cddb bluray
      mng mp3 mp4 cpudetection dc1394 subtitle subtitles mpeg mplayer opencl
      musepack ogg openal opengl png portaudio quicktime raw sdl dirac 
      mjpeg mpeg2 pnm swfdec tga libsoxr sox soxr sound speex truetype 
-     upnp-av tiff svg
+     upnp-av tiff svg graphicsmagick jp2k psd
      theora vorbis x264 vcd webkit webp iec61883 libv4l melt midi xvid 
      zvbi xpm xft postscript openexr smpeg mad tslib postproc ppm q32 
      q64 q8 rtmp rtsp timidity toolame transcode tsmuxer twolame vcdx 

@@ -3,13 +3,15 @@
 # $Header:
 
 USE="X glamor libkms opengl egl cairo dbus gtk gtk3 joystick pango qt3support 
-     qt4 qt5 vaapi xa auto-hinter tk tcl udisks gudev
+     qt4 qt5 vaapi xa auto-hinter tk tcl udisks gudev gksu mozilla blink
      gtkstyle icons infinality llvm llvm-shared-libs libnotify rdp mtp
      xcomposite vdpau xcb xrandr xv wxwidgets drm pixman dri3 emerald ldap
      g3dvl gallium openvg osmesa pixbuf nsplugin r600-llvm-compiler 
-     shmvideo sna spell system-cairo v4l v4l2 fbcon directfb mono
+     shmvideo sna spell system-cairo v4l v4l2 fbcon directfb mono voice
      system-icu system-jpeg system-sqlite systemtap thunar vlc volume 
-     xorg xrender xvmc -gphoto2 -kde -xinerama xscreensaver"
+     xorg xrender xvmc -gphoto2 -kde -xinerama xscreensaver session
+     256-color webcam thunderbird drmkms ico xim resize-optimization
+     screen-sharing tablet wayland-compositor x11 xwayland razor"
 
 VIDEO_CARDS="radeon radeonsi ati fbcon nouveau fglrx vesa intel vmware 
              v4l nv fbdev r600 i915 i965" #not picked up!
