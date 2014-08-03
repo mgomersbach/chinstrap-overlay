@@ -5,7 +5,7 @@
 ACCEPT_LICENSE="*"
 
 NODESKTOPUSE="-X -egl -cairo -dbus -gtk -gtk3 -joystick -pango -qt3support -qt4 -qt5 -vaapi
-     -gtkstyle -icons -infinality -llvm -llvm-shared-libs
+     -gtkstyle -icons -infinality -llvm -llvm-shared-libs -gnome -kde
      -xcomposite -vdpau -xcb -xrandr -xv -wxwidgets -drm -pixman -dri3 -emerald  
      -g3dvl -gallium -openvg -osmesa -pixbuf -nsplugin -r600-llvm-compiler
      -shmvideo -sna -system-cairo -v4l -v4l2 -firefox
@@ -20,12 +20,12 @@ USE="256-color acl acpi archive aufs bash-completion
      bidi nfs4 nfsdcld nfsidmap nfsv4 nfsv41 boost branding bzip2 cxx 
      directfb encode fbcon fontconfig fuse git prelink shm
      gmp gpm gzip icu inotify lzma lzo 
-     machost mms mono mtp vim-syntax
+     mms mono mtp vim-syntax highlight
      ncurses offensive opencl orc pdf perl php python 
      fading-colors logrotate sep-usr smp 
      symlink syslog sqlite device-mapper threads udev utils upnp
      xattr zip zlib zsh-completion -bindist -cups -debug -extras -fam 
-     -gnome -gold -graphite -iso14755 -kde -lto -pulseaudio -systemd -mono
+     -gold -graphite -iso14755 -lto -pulseaudio -systemd -mono
      -zoran -networkmanager -reiser4 -ldap ${NODESKTOPUSE} ${NOMEDIAUSE}"
 
 FEATURES="buildpkg parallel-fetch parallel-install metadata-transfer 
