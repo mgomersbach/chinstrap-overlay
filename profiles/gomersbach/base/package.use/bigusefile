@@ -47,11 +47,13 @@ mail-client/evolution highlight
 mail-client/nail net
 mail-client/thunderbird system-icu system-sqlite
 mail-filter/clamassassin clamd
-media-libs/freetype static-libs bzip2
+media-libs/freetype:2 static-libs
+media-libs/freetype bzip2
 media-libs/freeverb3 avx sse4
 media-libs/libjpeg-turbo static-libs
 media-libs/libmng static-libs
-media-libs/libpng static-libs
+>=media-libs/libpng-1.4.3 static-libs
+media-libs/lcms:0 static-libs
 media-libs/gd jpeg png truetype
 media-sound/clementine system-sqlite
 media-video/libav cpudetection
@@ -105,7 +107,7 @@ sys-libs/gpm static-libs
 sys-libs/zlib static-libs minizip
 sys-power/pm-utils ntp
 sys-process/lsof rpc
-virtual/jpeg static-libs
+virtual/jpeg:0 static-libs
 virtual/mpi romio
 virtual/udev hwdb keymap
 www-client/chromium system-sqlite
