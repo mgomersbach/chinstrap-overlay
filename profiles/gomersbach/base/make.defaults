@@ -16,11 +16,11 @@ NOMEDIAUSE="-a523 -aac -alsa -bidi -bluetooth -cdda -cdr -dts -dvd -dvdr -encode
             -flac -gif -jpeg -lcms -mad -mms -mng -mp3 -mp4 -mpeg -ogg -opengl -opencl 
             -orc -pdf -png -ppds -sdl -svg -tiff -truetype -vorbis -x264 -xvid"
 
-USE="256-color acl acpi archive aufs bash-completion 
+USE="256-color acl acpi archive aufs bash-completion btrfs
      bidi nfs4 nfsdcld nfsidmap nfsv4 nfsv41 boost branding bzip2 cxx 
      directfb encode fbcon fontconfig fuse git prelink shm
-     gmp gpm gzip icu inotify lzma lzo 
-     mms mono mtp vim-syntax highlight
+     gmp gpm gzip icu inotify lzma lzo hpn ntfs ntfs-progs ntp ntpd
+     mms mono mtp vim-syntax highlight rar ssh xfs openrc
      ncurses offensive opencl orc pdf perl php python 
      fading-colors logrotate sep-usr smp 
      symlink syslog sqlite device-mapper threads udev utils upnp

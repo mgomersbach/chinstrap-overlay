@@ -3,4 +3,4 @@
 # $Header:
 
 USE="lm_sensors usb sensord hwdb iscsi lxc mdadm parted spice usbredir 
-     vde virtfs -virt-network"
+     vde virtfs fbcondecor fbdev fbosd fbsplash systemtap -virt-network"

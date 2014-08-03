@@ -3,7 +3,7 @@
 # $Header:
 
 USE="X glamor libkms opengl egl cairo dbus gtk gtk3 joystick pango qt3support 
-     qt4 qt5 vaapi xa
+     qt4 qt5 vaapi xa auto-hinter tk tcl udisks gudev
      gtkstyle icons infinality llvm llvm-shared-libs libnotify rdp mtp
      xcomposite vdpau xcb xrandr xv wxwidgets drm pixman dri3 emerald ldap
      g3dvl gallium openvg osmesa pixbuf nsplugin r600-llvm-compiler 
