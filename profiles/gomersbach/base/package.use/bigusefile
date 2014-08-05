@@ -93,7 +93,7 @@ sys-cluster/ocfs aio
 sys-cluster/openmpi romio
 sys-cluster/swift memcache
 sys-devel/sparse llvm
-sys-fs/aufs3 hfs
+sys-fs/aufs3 hfs kernel-patch
 sys-fs/dosfstools fat
 sys-fs/eudev hwdb keymap openrc
 sys-fs/ntfs3g static-libs ntfsprogs
