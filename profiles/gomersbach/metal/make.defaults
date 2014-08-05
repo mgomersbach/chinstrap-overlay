@@ -3,6 +3,6 @@
 # $Header:
 
 USE="lm_sensors usb sensord hwdb iscsi lxc mdadm parted vnc extensions
-     spice usbredir netapi system-qemu system-seabios
+     spice usbredir netapi system-qemu system-seabios libvirt libcloud
      vde virtfs fbcondecor fbdev fbosd fbsplash systemtap -virt-network
-     pm-utils"
+     pm-utils timelib mako"

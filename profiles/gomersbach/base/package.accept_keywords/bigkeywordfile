@@ -96,3 +96,10 @@ virtual/udev               ~*
 sys-block/thin-provisioning-tools ~*
 dev-libs/gobject-introspection ~*
 dev-libs/gobject-introspection-common ~*
+dev-python/python-ldap ~*
+dev-python/pycryptopp ~*
+app-admin/salt ~*
+dev-python/msgpack ~*
+dev-python/libcloud ~*
+dev-python/timelib ~*
+
