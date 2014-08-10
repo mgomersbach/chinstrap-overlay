@@ -12,5 +12,5 @@ app-emulation/winetricks gtk
 mail-client/thunderbird system-sqlite
 www-client/firefox system-sqlite
 
-dev-libs/efl xcb egl audio
+dev-libs/efl xcb egl
 

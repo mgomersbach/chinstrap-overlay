@@ -1,0 +1,11 @@
+# Copyright 1999-2014 Gentoo Foundation
+# Distributed under the terms of the GNU General Public License v2
+# $Header: $
+
+media-video/avxsynth:autoscrop - Adds avisynth autocrop plugin
+media-video/avxsynth:avxedit - Adds avisynth script editor
+gateone/gateone:ccsmin - Add ccs minifiying
+gateone/gateone:dtach - Add screen detachment
+gateone/gateone:mutagen - Add support for tagging library mutagen
+gateone/gateone:slimit - Add support for js minifier/parser slimit
+media-video/avxsynth:subititle - Adds avisynth subtitle plugin

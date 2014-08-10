@@ -4,7 +4,7 @@
 
 USE="apache2 avahi curl ftp samba network nfs nis nls vnc zeroconf ldap 
      imap xml sasl xmlrpc vhosts setup sftp snmp soap sockets maildir mbox 
-     mhash mmap mpi xsl fpm nginx mdnsresponder-compat memcache ldap cups
+     mhash mmap mpi xsl fpm mdnsresponder-compat memcache ldap cups
      memcached mysqlnd phar pdo sensord swat uploadprogress xmlreader sqlite
      xmlwriter xvfb mysql mysqli extraengine fcgi community mms-agent
      memcached gd opcache mongodb redis"

@@ -1,6 +1,5 @@
 #Media
 app-cdr/disc-cover cdrom
-app-misc/recoll audio
 app-office/libreoffice vlc
 dev-java/icedtea alsa
 dev-libs/DirectFB bmp egl mpeg2 mpeg3 pnm swfdec
@@ -38,8 +37,6 @@ media-libs/lcms static-libs
 media-libs/libbluray aacs
 media-libs/libgnome twolame
 media-libs/libpng apng
-media-libs/libsdl audio
-media-libs/libsdl2 audio
 media-libs/libvpx postproc
 media-libs/mediastreamer amr
 media-libs/mesa egl g3dvl gallium gbm llvm llvm-shared-libs r600-llvm-compiler shared-glapi xa xvmc
@@ -78,9 +75,8 @@ media-video/vlc bluray dc1394 dirac egl faad fbosd fdk live rtsp twolame vcdx vp
 media-video/winki mjpeg
 media-video/x264-encoder avs ffmpegsource
 net-analyzer/snort ppm
-net-libs/h323plus audio
 net-libs/opal wav
-net-libs/ptlib shmvideo wav audio
+net-libs/ptlib shmvideo wav
 net-libs/qxmpp vpx
 net-libs/webkit-gtk egl
 net-misc/asterisk-core-sounds wav

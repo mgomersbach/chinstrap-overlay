@@ -6,29 +6,29 @@ ACCEPT_LICENSE="*"
 
 NODESKTOPUSE="-X -egl -cairo -dbus -gtk -gtk3 -joystick -pango -qt3support -qt4 -qt5 -vaapi
      -gtkstyle -icons -infinality -llvm -llvm-shared-libs -gnome -kde
-     -xcomposite -vdpau -xcb -xrandr -xv -wxwidgets -drm -pixman -dri3 -emerald  
+     -xcomposite -vdpau -xcb -xrandr -xv -wxwidgets -drm -pixman -dri3 -emerald
      -g3dvl -gallium -openvg -osmesa -pixbuf -nsplugin -r600-llvm-compiler
      -shmvideo -sna -system-cairo -v4l -v4l2 -firefox
      -thunar -vlc -volume -directfb -dri -fbcon
-     -xorg -xrender -xvmc -xscreensaver" 
+     -xorg -xrender -xvmc -xscreensaver"
 
-NOMEDIAUSE="-a523 -aac -alsa -bidi -bluetooth -cdda -cdr -dts -dvd -dvdr -encode -exif
-            -flac -gif -jpeg -lcms -mad -mms -mng -mp3 -mp4 -mpeg -ogg -opengl -opencl 
+NOMEDIAUSE="-a52 -aac -alsa -bidi -bluetooth -cdda -cdr -dts -dvd -dvdr -encode -exif
+            -flac -gif -jpeg -lcms -mad -mms -mng -mp3 -mp4 -mpeg -ogg -opengl -opencl
             -orc -pdf -png -ppds -sdl -svg -tiff -truetype -vorbis -x264 -xvid"
 
 USE="acl acpi archive aufs bash-completion btrfs pam fileinfo
-     bidi nfs4 nfsdcld nfsidmap nfsv4 nfs nfsv41 boost branding bzip2 cxx 
+     bidi nfsdcld nfsidmap nfsv4 nfs nfsv41 boost branding bzip2 cxx
      directfb encode fbcon fontconfig fuse git prelink shm smtp
-     gmp gpm gzip icu inotify lzma lzo hpn ntfs ntfs-progs ntp ntpd
+     gmp gpm gzip icu inotify lzma lzo hpn ntfs ntfsprogs ntp
      mms mono mtp vim-syntax highlight rar ssh xfs openrc hfs lz4 snappy
      ncurses offensive opencl orc pdf perl php python pch aio asm
      fading-colors logrotate sep-usr smp mpi sendmail logwatch
      symlink syslog sqlite device-mapper threads udev utils upnp
-     xattr zip zlib zsh-completion -bindist -cups -debug -extras -fam 
+     xattr zip zlib zsh-completion -bindist -cups -debug -extras -fam
      -gold -graphite -iso14755 -lto -pulseaudio -systemd -mono
      -zoran -networkmanager -reiser4 -ldap ${NODESKTOPUSE} ${NOMEDIAUSE}"
 
-FEATURES="buildpkg parallel-fetch parallel-install metadata-transfer 
+FEATURES="buildpkg parallel-fetch parallel-install metadata-transfer
           ccache"
 
 SYNC="rsync://gomersbach.mooo.com/gentoo-portage" # not picked up!
