@@ -1,6 +1,6 @@
-# Copyright 1999-2014 Gentoo Foundation
+# Copyright 1999-2013 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header:
+# $Header: /var/cvsroot/gentoo-x86/media-gfx/splashutils/splashutils-1.5.4.4-r4.ebuild,v 1.1 2013/10/14 13:50:25 pinkbyte Exp $
 
 EAPI=5
 inherit autotools eutils multilib toolchain-funcs
@@ -88,12 +88,13 @@ src_prepare() {
 	if use truetype ; then
 		cd "${SM}"
 		epatch "${FILESDIR}/splashutils-1.5.4.4-freetype-bz2.patch"
-    if has_version ">=media-libs/freetype-2.5.1" ; then
-      cd "${SM}"
-      epatch "${FILESDIR}/splashutils-1.5.4.4-freetype251.patch"
-      cd "${S}"
-      epatch "${FILESDIR}/splashutils-1.5.4.4-freetype251-splashutils.patch"
-    fi
+	fi
+
+	if has_version ">=media-libs/freetype-2.5.1" ; then
+		cd "${SM}"
+		epatch "${FILESDIR}/splashutils-1.5.4.4-freetype251.patch"
+		cd "${S}"
+		epatch "${FILESDIR}/splashutils-1.5.4.4-freetype251-splashutils.patch"
 	fi
 
 	cd "${S}"
@@ -101,6 +102,7 @@ src_prepare() {
 
 	epatch "${FILESDIR}/${P}-bzip2.patch"
 	epatch "${FILESDIR}/${P}-multi-keyboard.patch"
+	epatch "${FILESDIR}/splashutils-1.5.4.4-libmng2-lcms2.patch"
 
 	if ! tc-is-cross-compiler && \
 	   has_version "sys-devel/gcc:$(gcc-version)[vanilla]" ; then
