@@ -9,3 +9,9 @@
 *app-admin/keepass
 *app-crypt/seahorse
 *net-misc/vinagre
+*x11-plugins/purple-plugin_pack
+*x11-plugins/purple-libnotify-plus
+*net-im/purple-events
+*net-im/pidgin
+*x11-plugins/pidgin-libnotify
+*x11-plugins/pidgin-led-notification
