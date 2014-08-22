@@ -26,4 +26,5 @@ net-misc/vpnc bindist
 sci-visualization/qtiplot bindist
 www-client/chromium bindist
 www-client/firefox bindist
-
+dev-python/pip zsh-completion
+app-emulation/docker zsh-completion

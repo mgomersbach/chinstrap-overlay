@@ -1,4 +1,5 @@
 #base
+dev-python/pip -zsh-completion
 app-admin/testdisk ntfs
 app-arch/bzip2 static-libs
 app-arch/libarchive bzip2
