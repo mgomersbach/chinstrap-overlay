@@ -24,13 +24,10 @@ done
 IUSE="${IUSE_VIDEO_CARDS} libkms"
 RESTRICT="test" # see bug #236845
 
-RDEPEND="dev-libs/libpthread-stubs[${MULTILIB_USEDEP}]
-  video_cards_intel? ( >=x11-libs/libpciaccess-0.10[${MULTILIB_USEDEP}] )"
+RDEPEND=">=dev-libs/libpthread-stubs-0.3-r1:=[${MULTILIB_USEDEP}]
+  video_cards_intel? ( >=x11-libs/libpciaccess-0.13.1-r1:=[${MULTILIB_USEDEP}] )
+  abi_x86_32? ( !app-emulation/emul-linux-x86-opengl[-abi_x86_32(-)] )"
 DEPEND="${RDEPEND}"
-
-PATCHES=(
-  "${FILESDIR}"/${PN}-2.4.28-solaris.patch
-)
 
 src_prepare() {
   if [[ ${PV} = 9999* ]]; then
@@ -54,4 +51,3 @@ src_configure() {
   )
   xorg-2_src_configure
 }
-
