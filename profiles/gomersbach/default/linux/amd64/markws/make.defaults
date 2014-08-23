@@ -2,4 +2,4 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header:
 
-PORTAGE_BINHOST="http://gomersbach.mooo.com/binhost/x86-64/generic/ccmsdev"
+PORTAGE_BINHOST="http://gomersbach.mooo.com/binhost/x86-64/generic/markws"
