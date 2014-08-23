@@ -1,0 +1,28 @@
+diff -Naur tuxonice-userui~/fbsplash/ttf.c tuxonice-userui/fbsplash/ttf.c
+--- tuxonice-userui~/fbsplash/ttf.c	2011-12-18 06:53:50.000000000 +0100
++++ tuxonice-userui/fbsplash/ttf.c	2014-08-05 20:41:17.598312108 +0200
+@@ -27,8 +27,8 @@
+ #include <assert.h>
+ 
+ #include <ft2build.h>
+-#include <freetype/ftoutln.h>
+-#include <freetype/ttnameid.h>
++#include <freetype2/ftoutln.h>
++#include <freetype2/ttnameid.h>
+ 
+ #include "splash.h"
+ 
+diff -Naur tuxonice-userui~/fbsplash/ttf.h tuxonice-userui/fbsplash/ttf.h
+--- tuxonice-userui~/fbsplash/ttf.h	2011-12-18 06:53:50.000000000 +0100
++++ tuxonice-userui/fbsplash/ttf.h	2014-08-05 20:41:28.338312235 +0200
+@@ -1,8 +1,8 @@
+ #ifndef _TTF_H
+ #define _TTF_H
+ #include <ft2build.h>
+-#include <freetype/ftoutln.h>
+-#include <freetype/ttnameid.h>
++#include <freetype2/ftoutln.h>
++#include <freetype2/ttnameid.h>
+ 
+ #define CACHED_METRICS  0x10
+ #define CACHED_BITMAP   0x01
