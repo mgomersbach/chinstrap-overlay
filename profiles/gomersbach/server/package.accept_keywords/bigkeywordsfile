@@ -1,4 +1,5 @@
 dev-db/mariadb ~*
+sys-process/procps ~*
 dev-python/snakeoil ~*
 virtual/mysql ~*
 www-apache/mod_fastcgi_handler
