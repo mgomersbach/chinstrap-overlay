@@ -34,7 +34,7 @@ src_unpack() {
 
 src_install() {
 	java-pkg_dojar "${S}/${P}"/${PN}.jar
-	java-pkg_dojar "${S}/${P}"/vectorgraphics.jar
+	java-pkg_dojar "${S}/${P}"/lib/vectorgraphics.jar
 	java-pkg_dolauncher ${PN} --jar ${PN}.jar
 	make_desktop_entry ${PN} yEd
 	dodoc "${S}/${P}"/license.html
