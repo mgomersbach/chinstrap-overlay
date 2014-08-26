@@ -12,6 +12,7 @@ app-shells/oh-my-zsh ~*
 app-shells/powerline **
 app-shells/zsh-completion **
 dev-db/mtop ~*
+dev-dotnet/libgdiplus ~*
 dev-java/icedtea **
 dev-java/icedtea-bin **
 dev-java/icedtea-web **
@@ -103,4 +104,4 @@ app-admin/salt ~*
 dev-python/msgpack ~*
 dev-python/libcloud ~*
 dev-python/timelib ~*
-
+x11-libs/cairo ~*
