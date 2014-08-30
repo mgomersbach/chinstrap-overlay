@@ -1,0 +1,6 @@
+sys-libs/libosinfo
+media-libs/mesa
+x11-libs/libdrm
+x11-drivers/xf86-input-wacom
+games-fps/unreal-tournament-goty
+<sys-kernel/geek-sources-3.16

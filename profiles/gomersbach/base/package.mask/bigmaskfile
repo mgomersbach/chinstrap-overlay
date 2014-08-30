@@ -1,1 +1,3 @@
->=sys-kernel/geek-sources-3.14
+>=sys-kernel/geek-sources-3.16
+app-portage/gentoolkit::init6
+app-admin/python-updater::init6
