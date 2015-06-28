@@ -1,0 +1,16 @@
+*app-admin/keepass
+*app-crypt/seahorse
+*media-fonts/fira-sans
+*media-fonts/fira-mono
+*net-im/pidgin
+*net-im/purple-events
+*net-misc/vinagre
+*x11-plugins/pidgin-led-notification
+*x11-plugins/pidgin-libnotify
+*x11-plugins/purple-libnotify-plus
+*x11-plugins/purple-plugin_pack
+*x11-terms/rxvt-unicode
+*x11-themes/human-icon-theme
+*xfce-base/xfce4-meta
+*xfce-extra/xfce4-mixer
+*xfce-extra/xfce4-taskmanager

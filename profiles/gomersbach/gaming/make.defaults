@@ -1,5 +1,0 @@
-# Copyright 2004-2014 Gentoo Foundation.
-# Distributed under the terms of the GNU General Public License v2
-# $Header:
-
-USE="joystick S3TC darkplaces haptic midi quake3 s3tc sdlmess"

@@ -1,0 +1,8 @@
+# This file describes the packages needed to build a stage1 based on this
+# profile.  Packages in this file are built in order.
+
+app-arch/lbzip2
+app-arch/xz-utils
+sys-apps/which
+dev-lang/python:2.7
+sys-apps/sandbox

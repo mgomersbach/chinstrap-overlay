@@ -4,17 +4,17 @@
 # $Header: /var/cvsroot/gentoo-x86/games-simulation/openttd/files/openttd.initd,v 1.1 2005/01/25 13:55:04 dholm Exp $
 
 depend() {
-	need net
+  need net
 }
 
 start() {
-	ebegin "Starting OpenTTD dedicated server"
-	start-stop-daemon --start -q --exec /usr/games/bin/openttd -- -D -f > /dev/null
-	eend $?
+  ebegin "Starting OpenTTD dedicated server"
+  start-stop-daemon --start -q --exec /usr/games/bin/openttd -- -D -f > /dev/null
+  eend $?
 }
 
 stop() {
-	ebegin "Stopping OpenTTD dedicated server"
-	start-stop-daemon --stop -q -n openttd
-	eend $?
+  ebegin "Stopping OpenTTD dedicated server"
+  start-stop-daemon --stop -q -n openttd
+  eend $?
 }

@@ -1,0 +1,56 @@
+# Copyright 2004-2014 Gentoo Foundation.
+# Distributed under the terms of the GNU General Public License v2
+# $Header:
+
+# Portage stuff
+ACCEPT_LICENSE="*"
+NODESKTOPUSE="-X -egl -cairo -dbus -gtk -gtk3 -joystick -pango -qt3support -qt4 -qt5 -vaapi
+     -gtkstyle -icons -infinality -llvm -llvm-shared-libs -gnome -kde
+     -xcomposite -vdpau -xcb -xrandr -xv -wxwidgets -drm -pixman -dri3 -emerald
+     -g3dvl -gallium -openvg -osmesa -pixbuf -nsplugin -r600-llvm-compiler
+     -shmvideo -sna -system-cairo -v4l -v4l2 -firefox
+     -thunar -vlc -volume -directfb -dri -fbcon -introspection -cups -tcpd -pcre -berkdb
+     -xorg -xrender -xvmc -xscreensaver -zeroconf -openmp"
+NOMEDIAUSE="-a52 -aac -alsa -bidi -bluetooth -cdda -cdr -dts -dvd -dvdr -encode -exif
+            -flac -gif -jpeg -lcms -mad -mms -mng -mp3 -mp4 -mpeg -ogg -opengl -opencl
+            -orc -pdf -png -ppds -sdl -svg -tiff -truetype -vorbis -x264 -xvid"
+USE="acl acpi archive aufs bash-completion btrfs crossdev pam fileinfo
+     bidi nfsdcld nfsidmap nfsv4 nfs nfsv41 boost branding bzip2 cxx
+     directfb encode fbcon fontconfig fuse git prelink shm smtp
+     gmp gpm gzip icu inotify lzma lzo hpn ntfs ntfsprogs ntp
+     mms mono mtp vim-syntax highlight rar ssh xfs openrc hfs lz4 snappy
+     ncurses offensive opencl orc pdf perl pch aio asm
+     fading-colors logrotate sep-usr smp mpi sendmail logwatch lto
+     symlink syslog sqlite device-mapper threads udev utils upnp
+     xattr zip zlib zsh-completion -bindist -debug -extras -fam
+     gold -iso14755 -pulseaudio -systemd -mono
+     -zoran -networkmanager -reiser4 -ldap ${NODESKTOPUSE} ${NOMEDIAUSE}"
+FEATURES="buildpkg clean-logs compressdebug parallel-fetch parallel-install 
+          metadata-transfer ccache splitdebug userfetch userpriv usersandbox 
+          ipc-sandbox network-sandbox -merge-sync"
+SYNC="rsync://gomersbach.mooo.com/gentoo-portage" # not picked up!
+EMERGE_DEFAULT_OPTS="--getbinpkg --usepkgonly --tree"
+PORTAGE_NICENESS="19"
+PORTAGE_RSYNC_EXTRA_OPTS="--omit-dir-times"
+DISTDIR="/media/distfiles"
+PKGDIR="/media/packages"
+PORTAGE_BZIP2_COMMAND="lbzip2"
+PORTAGE_BUNZIP2_COMMAND="lbunzip2"
+ABI_X86="64 32"
+
+# Misc stuff
+RUBY_TARGETS="ruby19 ruby20" # not picked up!
+USE_PYTHON="2.7 3.3" # not picked up!
+PYTHON_TARGETS="python2_7 python3_3" # not picked up!
+PHP_TARGETS="php5-5 php5-4" # not picked up!
+GRUB_PLATFORMS="pc emu efi-64 xen"
+LINGUAS="en nl" # not picked up!
+DRACUT_MODULES="btrfs cifs iscsi lvm nbd nfs plymouth ssh-client"
+VIDEO_CARDS=""
+FETCHCOMMAND="/usr/bin/curl --connect-timeout 15 -# -o \${DISTDIR}/\${FILE} \${URI}" 
+RESUMECOMMAND="/usr/bin/curl --connect-timeout 15 -# -C - -o \${DISTDIR}/\${FILE}\${URI}"
+QEMU_SOFTMMU_TARGETS="x86_64 i386 aarch64 arm"
+QEMU_USER_TARGETS="aarch64 arm i386 x86_64"
+DONT_MOUNT_BOOT=1
+NGINX_MODULES_HTTP="access auth_basic autoindex browser charset empty_gif fastcgi geo gzip limit_conn limit_req map memcached proxy referer rewrite scgi split_clients ssi upstream_ip_hash userid uwsgi mp4"
+

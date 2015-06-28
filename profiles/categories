@@ -1,4 +1,5 @@
 app-admin
+app-cdr
 app-emulation
 app-misc
 app-portage
@@ -7,15 +8,17 @@ dev-db
 dev-libs
 dev-php
 dev-python
+dev-ruby
 dev-util
+games-emulation
 games-simulation
 media-gfx
 media-libs
 media-sound
 media-video
-metadata
 net-analyzer
 net-firewall
+net-im
 net-misc
 net-p2p
 sys-apps
@@ -28,4 +31,3 @@ x11-apps
 x11-drivers
 x11-libs
 x11-misc
-

@@ -29,7 +29,7 @@ net-misc/telnet-bsd
 sys-apps/smartmontools
 sys-apps/usbutils
 sys-apps/pciutils
-app-shells/zsh-completion
+app-shells/zsh-completions
 net-analyzer/mtr
 app-text/multitail
 net-irc/irssi

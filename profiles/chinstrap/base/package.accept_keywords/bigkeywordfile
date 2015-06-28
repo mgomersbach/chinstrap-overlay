@@ -1,0 +1,108 @@
+app-emulation/lxc ~*
+app-admin/eselect-java **
+app-admin/perl-cleaner ~*
+app-arch/bzip2 ~*
+app-arch/lrzip ~*
+app-arch/xz-utils ~*
+app-i18n/fbterm ~*
+app-portage/gentoolkit ~*
+app-portage/update ~*
+app-shells/bash-completion **
+app-shells/gentoo-bashcomp **
+app-shells/oh-my-zsh ~*
+app-shells/powerline **
+app-shells/zsh-completion **
+dev-db/mtop ~*
+dev-dotnet/libgdiplus ~*
+dev-java/icedtea **
+dev-java/icedtea-bin **
+dev-java/icedtea-web **
+dev-java/java-config **
+dev-lang/go ~*
+dev-libs/boost ~*
+dev-libs/elfutils ~*
+dev-libs/expat ~*
+dev-libs/glib ~*
+dev-libs/nspr ~*
+dev-libs/nss ~*
+dev-perl/Authen-Libwrap ~*
+dev-perl/Getopt-GUI-Long ~*
+dev-php/PEAR-PHP_Beautifier **
+dev-php/PEAR-PHP_CodeSniffer **
+dev-python/ansi2html ~*
+dev-python/cssmin ~*
+dev-python/cython ~*
+dev-python/futures ~*
+dev-python/g-pypi ~*
+dev-python/numpy ~*
+dev-python/python-pam ~*
+dev-python/slimit ~*
+dev-python/sphinxcontrib-googleanalytics ~*
+dev-python/urwid **
+dev-python/yolk ~*
+dev-python/yolk-portag ~*e
+dev-ruby/hiera
+dev-ruby/i18n
+dev-ruby/net-scp
+dev-ruby/net-ssh
+dev-util/boost-build ~*
+dev-util/catalyst **
+dev-util/gource
+dev-util/jenkins-bin **
+dev-util/metro ~*
+media-gfx/splash-themes-livedvd
+net-analyzer/goaccess
+net-analyzer/snort
+net-dns/dnssec-tools
+net-fs/cvmfs
+net-fs/smbnetfs
+net-misc/miniupnpd ~*
+net-misc/netifrc ~*
+net-misc/npapi-sdk **
+sys-apps/baselayout-java **
+sys-apps/hwdata-redhat
+sys-apps/kmscon **
+sys-apps/kudzu
+sys-apps/libtsm **
+sys-apps/openrc ~*
+sys-apps/hwids ~*
+sys-apps/kmod ~*
+sys-apps/yum ~*
+sys-block/partclone
+sys-block/zram-init
+sys-boot/grub:2 ~*
+sys-devel/binutils ~*
+sys-devel/clang ~*
+sys-devel/crossdev **
+sys-devel/gcc ~*
+sys-devel/gcc-config ~*
+sys-devel/prelink ~*
+sys-fs/aufs-headers ~*
+sys-fs/aufs-util ~*
+sys-fs/aufs3 ~*
+sys-fs/btrfs-progs **
+sys-fs/e2fsprogs ~*
+sys-fs/udev ~*
+sys-fs/udev-init-scripts ~*
+sys-fs/xfsprogs ~*
+sys-kernel/dracut
+sys-libs/core-functions ~*
+sys-libs/e2fsprogs-libs ~*
+sys-libs/glibc ~*
+sys-libs/gpm ~*
+sys-libs/ncurses ~*
+sys-libs/zlib ~*
+virtual/jdk **
+virtual/jre **
+virtual/python-futures
+virtual/udev ~*
+sys-block/thin-provisioning-tools ~*
+dev-libs/gobject-introspection ~*
+dev-libs/gobject-introspection-common ~*
+dev-python/python-ldap ~*
+dev-python/pycryptopp ~*
+app-admin/salt ~*
+dev-python/msgpack ~*
+dev-python/libcloud ~*
+dev-python/timelib ~*
+x11-libs/cairo ~*
