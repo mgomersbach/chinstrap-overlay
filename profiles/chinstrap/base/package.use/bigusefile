@@ -33,7 +33,7 @@ dev-lang/rubinius llvm
 dev-lang/spidermonkey system-icu
 dev-lang/swig ccache
 dev-libs/libpcre bzip2
-dev-libs/elfutils -utils
+dev-libs/elfutils -utils static-libs
 dev-libs/openssl pkcs11
 dev-libs/nss -utils
 dev-python/rarfile compressed
