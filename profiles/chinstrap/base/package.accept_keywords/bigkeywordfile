@@ -12,6 +12,7 @@ app-shells/gentoo-bashcomp **
 app-shells/oh-my-zsh ~*
 app-shells/powerline **
 app-shells/zsh-completion **
+app-shells/zsh-completions ~*
 dev-db/mtop ~*
 dev-dotnet/libgdiplus ~*
 dev-java/icedtea **
@@ -46,6 +47,7 @@ dev-ruby/i18n
 dev-ruby/net-scp
 dev-ruby/net-ssh
 dev-util/boost-build ~*
+dev-util/gdbus-codegen ~*
 dev-util/catalyst **
 dev-util/gource
 dev-util/jenkins-bin **
