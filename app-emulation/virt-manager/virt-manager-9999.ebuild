@@ -52,8 +52,6 @@ DEPEND="${RDEPEND}
 DOCS=( README NEWS )
 
 src_prepare() {
-	epatch "${FILESDIR}"/${P}-optional_avahi.patch
-
 	distutils-r1_src_prepare
 }
 
