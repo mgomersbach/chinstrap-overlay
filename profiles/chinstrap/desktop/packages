@@ -2,6 +2,7 @@
 *app-crypt/seahorse
 *media-fonts/fira-sans
 *media-fonts/fira-mono
+*net-firewall/ufw-frontends
 *net-im/pidgin
 *net-im/purple-events
 *net-misc/vinagre

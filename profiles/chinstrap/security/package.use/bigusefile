@@ -1,15 +1,6 @@
 #Sec
 app-emulation/qemu tls
 app-emulation/spice sasl
-app-emulation/spice-vdagent consolekit
-app-misc/networkmanager consolekit
 dev-python/kaa-base tls
-gnome-base/gdm consolekit
-kde-base/kdm consolekit
-lxde-base/lxdm consolekit
 mail-filter/spamdyke tls
 sys-apps/ucspi-ssl tls
-sys-auth/pambase consolekit
-sys-auth/ykpers consolekit
-x11-apps/xdm consolekit
-xfce-base/xfce4-session consolekit

@@ -54,3 +54,4 @@ QEMU_USER_TARGETS="aarch64 arm i386 x86_64"
 DONT_MOUNT_BOOT=1
 NGINX_MODULES_HTTP="access auth_basic autoindex browser charset empty_gif fastcgi geo gzip limit_conn limit_req map memcached proxy referer rewrite scgi split_clients ssi upstream_ip_hash userid uwsgi mp4"
 
+PORTAGE_BINHOST="http://gomersbach.mooo.com/binhost/x86-64/generic/chinstrap"

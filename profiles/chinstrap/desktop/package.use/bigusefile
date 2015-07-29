@@ -1,14 +1,19 @@
 #Desktop
 app-emulation/emul-linux-x86-qtlibs gtkstyle
 app-emulation/spice gui
+app-emulation/spice-vdagent consolekit
 app-emulation/virt-manager spice
 app-emulation/virt-viewer spice
+app-misc/networkmanager consolekit
 app-pda/barry gui
 dev-libs/weston drm
 dev-qt/qtgui gtkstyle
 dev-util/geany-plugins gtkspell
 dev-util/scanmem gui
 dev-vcs/rabbitvcs thunar
+gnome-base/gdm consolekit
+kde-base/kdm consolekit
+lxde-base/lxdm consolekit
 mail-client/thunderbird system-cairo
 media-libs/mesa xorg shared-dricore
 media-video/gpac -wxwidgets
@@ -18,6 +23,8 @@ net-mail/mu gui
 net-misc/vinagre spice
 razorqt-base/razorqt-panel volume
 sci-electronics/pcb xrender
+sys-auth/pambase consolekit
+sys-auth/ykpers consolekit
 sys-apps/kmscon drm
 sys-apps/systemd gudev
 sys-devel/llvm clang -ncurses
@@ -26,6 +33,7 @@ sys-fs/udev gudev
 virtual/udev gudev
 www-client/firefox system-cairo
 www-client/seamonkey system-cairo
+x11-apps/xdm consolekit
 x11-base/xorg-server xorg xvfb
 x11-drivers/xf86-video-ati glamor
 x11-drivers/xf86-video-intel glamor sna xvmc uxa
@@ -37,5 +45,6 @@ x11-misc/fbpager xrender
 x11-misc/openbox-menu icons
 x11-themes/gentoo-artwork icons
 x11-themes/redhat-artwork icons
+xfce-base/xfce4-session consolekit
 xfce-base/xfdesktop thunar
 app-portage/layman subversion bazaar cvs mercurial git
