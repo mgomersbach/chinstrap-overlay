@@ -1,3 +1,5 @@
 gentoo:default/linux/amd64/13.0
 ../../../base
 ../../../arch/amd64
+../../../admin
+../../../security
