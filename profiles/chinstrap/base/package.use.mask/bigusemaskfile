@@ -26,6 +26,7 @@ net-libs/gnutls bindist
 net-libs/liboauth bindist
 net-misc/openssh bindist
 net-misc/vpnc bindist
+net-dns/avahi utils
 sci-visualization/qtiplot bindist
 www-client/chromium bindist
 www-client/firefox bindist

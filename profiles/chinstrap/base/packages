@@ -22,6 +22,7 @@
 *app-shells/zsh-completions
 *app-vim/gentoo-syntax
 *dev-lang/python:2.7
+*dev-util/ccache
 *dev-util/dialog
 *dev-util/strace
 *mail-client/mutt
@@ -31,6 +32,7 @@
 *sys-apps/dstat
 *sys-apps/mlocate
 *sys-apps/pv
+*sys-devel/distcc
 *sys-devel/m4
 *sys-fs/ncdu
 *sys-fs/xfsprogs

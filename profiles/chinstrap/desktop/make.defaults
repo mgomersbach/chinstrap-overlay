@@ -4,12 +4,12 @@
 
 USE="X glamor libkms opengl egl cairo dbus gtk gtk3 joystick pango qt3support
      qt4 qt5 vaapi xa auto-hinter tk tcl udisks gudev gksu mozilla blink
-     gtkstyle icons infinality llvm llvm-shared-libs libnotify rdp mtp
+     gtkstyle icons infinality llvm llvm-shared-libs libnotify rdp mtp consolekit
      xcomposite vdpau xcb xrandr xv wxwidgets drm pixman dri dri3 emerald ldap
-     g3dvl gallium openvg osmesa pixbuf nsplugin r600-llvm-compiler
+     g3dvl gallium openvg osmesa pixbuf nsplugin r600-llvm-compiler introspection
      shmvideo sna spell system-cairo v4l v4l2 fbcon directfb mono voice
      system-icu system-jpeg system-sqlite systemtap thunar vlc volume cpuload
-     xorg xrender xvmc -gphoto2 -kde -xinerama xscreensaver session
+     xorg xrender xvmc -gphoto2 -kde -xinerama xscreensaver session policykit
      256-color webcam thunderbird drmkms ico xim resize-optimization
      screen-sharing tablet wayland-compositor x11 xwayland razor"
 

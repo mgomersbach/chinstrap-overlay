@@ -32,6 +32,7 @@ dev-lang/python -berkdb gdbm
 dev-lang/rubinius llvm
 dev-lang/spidermonkey system-icu
 dev-lang/swig ccache
+dev-libs/glib utils
 dev-libs/libpcre bzip2
 dev-libs/elfutils -utils static-libs
 dev-libs/openssl pkcs11
@@ -55,8 +56,8 @@ mail-client/evolution highlight
 mail-client/nail net
 mail-client/thunderbird system-icu system-sqlite
 mail-filter/clamassassin clamd
-media-libs/freetype:2 static-libs
-media-libs/freetype bzip2
+media-libs/freetype:2 static-libs utils
+media-libs/freetype bzip2 utils
 media-libs/freeverb3 avx sse4
 media-libs/libjpeg-turbo static-libs
 media-libs/libmng static-libs
@@ -69,7 +70,7 @@ media-video/mplayer cpudetection md5sum rar shm
 media-video/mplayer2 cpudetection md5sum rar shm
 media-video/mpv shm
 media-video/vdr bidi setup
-net-dns/avahi autoipd python howl-compat mdnsresponder-compat
+net-dns/avahi -python howl-compat mdnsresponder-compat -utils dbus
 net-fs/nfs-utils nfsv3 nfsv4 nfsv41 nfsidmap nfsdcld
 net-analyzer/tcpdump -chroot
 net-im/empathy -geoloc
@@ -105,6 +106,7 @@ sys-cluster/mvapich2 romio
 sys-cluster/ocfs aio
 sys-cluster/openmpi romio
 sys-cluster/swift memcache
+sys-devel/distcc avahi
 sys-devel/sparse llvm
 sys-fs/aufs3 hfs kernel-patch
 sys-fs/dosfstools fat
@@ -120,6 +122,7 @@ sys-libs/glibc -gd
 sys-libs/gpm static-libs
 sys-libs/pam -berkdb
 sys-libs/gdbm berkdb
+sys-libs/readline utils
 sys-libs/zlib static-libs minizip
 sys-power/pm-utils ntp
 sys-process/lsof rpc
