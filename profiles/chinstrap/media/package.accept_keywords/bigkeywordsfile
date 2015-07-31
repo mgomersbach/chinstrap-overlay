@@ -17,7 +17,7 @@ media-libs/glm ~*
 media-libs/libcaca ~*
 media-libs/libmpegts **
 media-libs/soxr **
-media-libs/x264 **
+media-libs/x264 ~*
 media-video/avxsynth **
 media-video/mpv
 media-video/obe-vod **
@@ -83,7 +83,6 @@ media-libs/speex            ~*
 media-libs/tiff               ~*
 media-libs/vo-aacenc             ~*
 media-libs/webrtc-audio-processing       ~*
-media-libs/x264               ~*
 media-libs/xvid               ~*
 media-plugins/alsaequal          ~*
 media-plugins/caps-plugins         ~*
@@ -100,7 +99,6 @@ media-video/ffmpeg:0.10            ~*
 media-video/ffmpeg:0            ~*
 media-video/ffmpeg ~*
 media-video/vlc ~*
-media-video/x264-encoder **
 virtual/ffmpeg ~*
 virtual/glu                ~*
 virtual/jpeg               ~*
