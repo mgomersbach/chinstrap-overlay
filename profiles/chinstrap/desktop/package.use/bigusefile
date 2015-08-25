@@ -6,6 +6,7 @@ app-emulation/virt-manager spice
 app-emulation/virt-viewer spice
 app-misc/networkmanager consolekit
 app-pda/barry gui
+app-portage/layman subversion bazaar cvs mercurial git
 dev-libs/weston drm
 dev-qt/qtgui gtkstyle
 dev-util/geany-plugins gtkspell
@@ -23,11 +24,11 @@ net-mail/mu gui
 net-misc/vinagre spice
 razorqt-base/razorqt-panel volume
 sci-electronics/pcb xrender
-sys-auth/pambase consolekit
-sys-auth/ykpers consolekit
 sys-apps/kmscon drm
 sys-apps/systemd gudev
-sys-devel/llvm clang -ncurses
+sys-auth/pambase consolekit
+sys-auth/ykpers consolekit
+sys-devel/llvm clang
 sys-fs/eudev gudev
 sys-fs/udev gudev
 virtual/udev gudev
@@ -48,4 +49,3 @@ x11-themes/redhat-artwork icons
 xfce-base/xfce4-session consolekit
 xfce-base/xfdesktop thunar
 xfce-extra/xfce4-taskmanager -gksu
-app-portage/layman subversion bazaar cvs mercurial git

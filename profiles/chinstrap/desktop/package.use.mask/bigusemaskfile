@@ -1,9 +1,9 @@
 sys-libs/glibc gd
 
 # pulls gudev useflag on udev
-media-libs/elementary dbus
 dev-libs/e_dbus udev
 gnome-base/gvfs gdu
+media-libs/elementary dbus
 
 # pulls in zenity
 app-emulation/winetricks gtk

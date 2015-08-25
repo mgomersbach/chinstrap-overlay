@@ -5,4 +5,4 @@
 USE="lm_sensors usb sensord hwdb iscsi lxc mdadm parted vnc extensions
      spice usbredir netapi system-qemu system-seabios libvirt libcloud
      vde virtfs fbcondecor fbdev fbosd fbsplash systemtap -virt-network
-     pm-utils timelib mako"
+     pm-utils timelib mako usb spice"

@@ -1,8 +1,8 @@
 *app-emulation/qemu
-*sys-power/powertop
 *sys-apps/lm_sensors
 *sys-apps/pciutils
 *sys-apps/smartmontools
 *sys-apps/usbutils
 *sys-boot/grub
 *sys-libs/gpm
+*sys-power/powertop

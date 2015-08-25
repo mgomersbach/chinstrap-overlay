@@ -1,10 +1,9 @@
-app-portage/update
-app-admin/perl-cleaner ~*
-app-admin/python-updater ~*
 app-admin/eselect-cdparanoia ~*
-dev-db/mtop ~*
-sys-block/partclone ~*
+app-admin/perl-cleaner ~*
 app-admin/puppet ~*
+app-admin/python-updater ~*
 app-admin/webmin ~*
+app-portage/update
+dev-db/mtop ~*
 sys-apps/kicktoo
-sys-block/partclone
+sys-block/partclone ~*

@@ -9,11 +9,6 @@ kde-base/kdelibs udisks
 mail-filter/spamassassin-fuzzyocr logrotate
 net-firewall/pglinux logrotate
 net-misc/icecast logrotate
-net-p2p/bitcoind logrotate
-net-p2p/datacoind-hp logrotate
-net-p2p/litecoind logrotate
-net-p2p/ppcoind logrotate
-net-p2p/primecoind logrotate
 net-proxy/dansguardian logrotate
 net-proxy/squid logrotate
 x11-libs/libfm udisks

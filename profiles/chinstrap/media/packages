@@ -1,3 +1,4 @@
-*media-sound/ncmpcpp
-*media-libs/libsdl2
 *media-libs/fdk-aac
+*media-libs/libsdl2
+*media-sound/ncmpcpp
+

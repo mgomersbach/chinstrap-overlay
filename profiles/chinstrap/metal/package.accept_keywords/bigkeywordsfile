@@ -1,17 +1,16 @@
+app-emulation/docker **
 app-emulation/libvirt **
 app-emulation/lxc **
 app-emulation/lxc-gentoo **
-app-emulation/qemu **
-app-emulation/virt-manager **
-app-emulation/docker **
-app-emulation/libvirt **
 app-emulation/open-vm-tools
 app-emulation/open-vm-tools-kmod
+app-emulation/qemu **
 app-emulation/vagrant ~*
 app-emulation/virt-manager **
 app-emulation/vmware-view-open-client ~*
+dev-python/libvirt-python **
 sys-block/thin-provisioning-tools ~*
 sys-fs/aufs-headers ~*
 sys-fs/aufs-util ~*
 sys-fs/btrfs-progs **
-dev-python/libvirt-python **
+virtual/libusb ~*

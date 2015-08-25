@@ -1,7 +1,7 @@
 *app-admin/keepass
 *app-crypt/seahorse
-*media-fonts/fira-sans
 *media-fonts/fira-mono
+*media-fonts/fira-sans
 *net-firewall/ufw-frontends
 *net-im/pidgin
 *net-im/purple-events

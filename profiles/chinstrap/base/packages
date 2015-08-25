@@ -1,6 +1,4 @@
-# This file extends the base packages file for the default profile that all
-# architectures will enjoy.
-
+*app-admin/sudo
 *app-arch/arj
 *app-arch/lbzip2
 *app-arch/lha
@@ -14,7 +12,7 @@
 *app-doc/zsh-lovers
 *app-editors/nano
 *app-editors/vim
-*app-admin/sudo
+*app-misc/resolve-march-native
 *app-shells/bash-completion
 *app-shells/gentoo-bashcomp
 *app-shells/oh-my-zsh
@@ -27,6 +25,7 @@
 *dev-util/strace
 *mail-client/mutt
 *net-analyzer/netcat6
+*net-fs/nfs-utils
 *net-irc/irssi
 *net-misc/telnet-bsd
 *sys-apps/dstat
@@ -34,9 +33,8 @@
 *sys-apps/pv
 *sys-devel/distcc
 *sys-devel/m4
+*sys-fs/btrfs-progs
 *sys-fs/ncdu
 *sys-fs/xfsprogs
-*sys-fs/btrfs-progs
 *sys-process/lsof
 *sys-process/vixie-cron
-*net-fs/nfs-utils

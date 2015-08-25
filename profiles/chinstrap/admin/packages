@@ -1,4 +1,3 @@
-*sys-apps/logwatch
 *app-admin/logrotate
 *app-misc/mc
 *app-misc/screen
@@ -6,9 +5,11 @@
 *app-portage/eix
 *app-portage/genlop
 *app-portage/ufed
+*app-portage/update
 *app-text/multitail
 *net-analyzer/bwm-ng
 *net-analyzer/mtr
+*sys-apps/logwatch
 *sys-process/htop
 *sys-process/iotop
-*app-portage/update
+

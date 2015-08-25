@@ -1,6 +1,10 @@
 dev-db/mariadb ~*
-sys-process/procps ~*
+dev-php/pecl-apc **
+dev-php/pecl-memcache **
+dev-php/pecl-memcached **
+dev-php/pecl-uploadprogress **
 dev-python/snakeoil ~*
+sys-process/procps ~*
 virtual/mysql ~*
 www-apache/mod_fastcgi_handler
 www-apache/mod_pagespeed
@@ -9,7 +13,3 @@ www-apps/drupal:6
 www-apps/drupal:7
 www-apps/gateone
 www-servers/tornado
-dev-php/pecl-apc **
-dev-php/pecl-memcache **
-dev-php/pecl-memcached **
-dev-php/pecl-uploadprogress **

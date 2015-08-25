@@ -1,10 +1,12 @@
-app-emulation/lxc ~*
 app-admin/eselect-java **
 app-admin/perl-cleaner ~*
+app-admin/salt ~*
 app-arch/bzip2 ~*
 app-arch/lrzip ~*
 app-arch/xz-utils ~*
+app-emulation/lxc ~*
 app-i18n/fbterm ~*
+app-misc/resolve-march-native ~*
 app-portage/gentoolkit ~*
 app-portage/update ~*
 app-shells/bash-completion **
@@ -24,6 +26,8 @@ dev-libs/boost ~*
 dev-libs/elfutils ~*
 dev-libs/expat ~*
 dev-libs/glib ~*
+dev-libs/gobject-introspection ~*
+dev-libs/gobject-introspection-common ~*
 dev-libs/nspr ~*
 dev-libs/nss ~*
 dev-perl/Authen-Libwrap ~*
@@ -35,10 +39,15 @@ dev-python/cssmin ~*
 dev-python/cython ~*
 dev-python/futures ~*
 dev-python/g-pypi ~*
+dev-python/libcloud ~*
+dev-python/msgpack ~*
 dev-python/numpy ~*
+dev-python/pycryptopp ~*
+dev-python/python-ldap ~*
 dev-python/python-pam ~*
 dev-python/slimit ~*
 dev-python/sphinxcontrib-googleanalytics ~*
+dev-python/timelib ~*
 dev-python/urwid **
 dev-python/yolk ~*
 dev-python/yolk-portag ~*e
@@ -47,8 +56,8 @@ dev-ruby/i18n
 dev-ruby/net-scp
 dev-ruby/net-ssh
 dev-util/boost-build ~*
-dev-util/gdbus-codegen ~*
 dev-util/catalyst **
+dev-util/gdbus-codegen ~*
 dev-util/gource
 dev-util/jenkins-bin **
 dev-util/metro ~*
@@ -61,16 +70,18 @@ net-fs/smbnetfs
 net-misc/miniupnpd ~*
 net-misc/netifrc ~*
 net-misc/npapi-sdk **
+net-wireless/broadcom-sta ~*
 sys-apps/baselayout-java **
 sys-apps/hwdata-redhat
+sys-apps/hwids ~*
+sys-apps/kmod ~*
 sys-apps/kmscon **
 sys-apps/kudzu
 sys-apps/libtsm **
 sys-apps/openrc ~*
-sys-apps/hwids ~*
-sys-apps/kmod ~*
 sys-apps/yum ~*
 sys-block/partclone
+sys-block/thin-provisioning-tools ~*
 sys-block/zram-init
 sys-boot/grub:2 ~*
 sys-devel/binutils ~*
@@ -80,14 +91,16 @@ sys-devel/distcc **
 sys-devel/gcc ~*
 sys-devel/gcc-config ~*
 sys-devel/prelink ~*
+sys-firmware/b43-firmware ~*
+sys-fs/aufs3 ~*
 sys-fs/aufs-headers ~*
 sys-fs/aufs-util ~*
-sys-fs/aufs3 ~*
 sys-fs/btrfs-progs **
 sys-fs/e2fsprogs ~*
 sys-fs/udev ~*
 sys-fs/udev-init-scripts ~*
 sys-fs/xfsprogs ~*
+sys-kernel/gentoo-sources ~*
 sys-kernel/dracut
 sys-libs/core-functions ~*
 sys-libs/e2fsprogs-libs ~*
@@ -99,13 +112,4 @@ virtual/jdk **
 virtual/jre **
 virtual/python-futures
 virtual/udev ~*
-sys-block/thin-provisioning-tools ~*
-dev-libs/gobject-introspection ~*
-dev-libs/gobject-introspection-common ~*
-dev-python/python-ldap ~*
-dev-python/pycryptopp ~*
-app-admin/salt ~*
-dev-python/msgpack ~*
-dev-python/libcloud ~*
-dev-python/timelib ~*
 x11-libs/cairo ~*

@@ -1,7 +1,5 @@
-#base
-dev-python/pip -zsh-completion
-app-admin/testdisk ntfs
 app-admin/rsyslog -ssl
+app-admin/testdisk ntfs
 app-arch/bzip2 static-libs
 app-arch/libarchive bzip2
 app-arch/p7zip rar
@@ -32,11 +30,12 @@ dev-lang/python -berkdb gdbm
 dev-lang/rubinius llvm
 dev-lang/spidermonkey system-icu
 dev-lang/swig ccache
+dev-libs/elfutils -utils static-libs
 dev-libs/glib utils
 dev-libs/libpcre bzip2
-dev-libs/elfutils -utils static-libs
-dev-libs/openssl pkcs11
 dev-libs/nss -utils
+dev-libs/openssl pkcs11
+dev-python/pip -zsh-completion
 dev-python/rarfile compressed
 dev-ruby/maruku highlight
 dev-util/catalyst ccache
@@ -45,8 +44,8 @@ dev-util/gtk-doc highlight
 dev-util/meld highlight
 dev-util/metro ccache
 #dev-util/pkgconfig internal-glib
-dev-util/strace aio
 dev-utils/schroot btrfs lvm
+dev-util/strace aio
 dev-vcs/git blksha1 highlight
 dev-vcs/subversion -dso
 gnome-base/gvfs archive bluray afp
@@ -59,20 +58,20 @@ mail-filter/clamassassin clamd
 media-libs/freetype:2 static-libs utils
 media-libs/freetype bzip2 utils
 media-libs/freeverb3 avx sse4
+media-libs/gd jpeg png truetype
+media-libs/lcms:0 static-libs
 media-libs/libjpeg-turbo static-libs
 media-libs/libmng static-libs
 >=media-libs/libpng-1.4.3 static-libs
-media-libs/lcms:0 static-libs
-media-libs/gd jpeg png truetype
 media-sound/clementine system-sqlite
 media-video/libav cpudetection
-media-video/mplayer cpudetection md5sum rar shm
 media-video/mplayer2 cpudetection md5sum rar shm
+media-video/mplayer cpudetection md5sum rar shm
 media-video/mpv shm
 media-video/vdr bidi setup
+net-analyzer/tcpdump -chroot
 net-dns/avahi -python howl-compat mdnsresponder-compat -utils dbus
 net-fs/nfs-utils nfsv3 nfsv4 nfsv41 nfsidmap nfsdcld
-net-analyzer/tcpdump -chroot
 net-im/empathy -geoloc
 net-libs/webkit-gtk -geoloc
 net-misc/bfgminer sse2_4way sse4
@@ -100,8 +99,8 @@ sys-boot/grub device-mapper truetype
 sys-boot/lilo device-mapper
 sys-boot/plymouth libkms
 sys-boot/syslinux -custom-cflags
-sys-cluster/mpich romio
 sys-cluster/mpich2 romio
+sys-cluster/mpich romio
 sys-cluster/mvapich2 romio
 sys-cluster/ocfs aio
 sys-cluster/openmpi romio
@@ -111,17 +110,17 @@ sys-devel/sparse llvm
 sys-fs/aufs3 hfs kernel-patch
 sys-fs/dosfstools fat
 sys-fs/eudev hwdb keymap openrc
-sys-fs/lvm2 -lvm1 -readline
+sys-fs/lvm2 -lvm1
 sys-fs/ntfs3g static-libs ntfsprogs
 sys-fs/udev hwdb keymap openrc
 sys-fs/xfsprogs static-libs
 sys-kernel/dracut device-mapper net
 sys-kernel/geek-sources brand gentoo exfat pf optimization symlink
 sys-kernel/genkernel-next iscsi
+sys-libs/gdbm berkdb
 sys-libs/glibc -gd
 sys-libs/gpm static-libs
 sys-libs/pam -berkdb
-sys-libs/gdbm berkdb
 sys-libs/readline utils
 sys-libs/zlib static-libs minizip
 sys-power/pm-utils ntp
@@ -132,7 +131,7 @@ virtual/udev hwdb keymap
 www-client/chromium system-sqlite
 www-client/firefox system-icu
 www-client/seamonkey system-icu system-sqlite
-x11-libs/libXfont bzip2
 x11-libs/libdrm libkms
+x11-libs/libXfont bzip2
 x11-terms/rxvt-unicode 256-color blink fading-colors
 x11-wm/fluxbox bidi

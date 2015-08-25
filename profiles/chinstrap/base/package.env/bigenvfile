@@ -1,36 +1,38 @@
 # -O3 cflags
-media-video/ffmpeg O3.conf
-dev-lang/python O3.conf
-dev-lang/php O3.conf
-dev-lang/ruby O3.conf nodistcc.conf
-www-servers/apache O3.conf
 dev-db/mariadb O3.conf
 dev-db/sqlite O3.conf
+dev-lang/php O3.conf
+dev-lang/python O3.conf
+dev-lang/ruby O3.conf nodistcc.conf
 media-libs/libvpx O3.conf
+media-video/ffmpeg O3.conf
 sys-libs/talloc O3.conf
+www-servers/apache O3.conf
+
 
 # no distcc features
-dev-libs/klibc nodistcc.conf
-media-libs/libvpx nodistcc.conf
-sys-libs/talloc nodistcc.conf
-www-servers/apache nodistcc.conf
-media-video/ffmpeg nodistcc.conf
+app-emulation/wine nodistcc.conf
 dev-db/mariadb nodistcc.conf
-media-gfx/splashutils nodistcc.conf
+dev-libs/klibc nodistcc.conf
 dev-python/numpy nodistcc.conf
-sys-apps/groff nodistcc.conf
-media-gfx/graphviz nodistcc.conf
-sys-devel/distcc nodistcc.conf
-mail-filter/procmail nodistcc.conf
 dev-util/ctags nodistcc.conf
 games-emulation/sdlmess nodistcc.conf
-www-client/firefox nodistcc.conf
+mail-filter/procmail nodistcc.conf
+media-gfx/graphviz nodistcc.conf
+media-gfx/splashutils nodistcc.conf
+media-libs/libvpx nodistcc.conf
+media-video/ffmpeg nodistcc.conf
+sys-apps/groff nodistcc.conf
 sys-block/thin-provisioning-tools nodistcc.conf
-app-emulation/wine nodistcc.conf
+sys-devel/distcc nodistcc.conf
+sys-libs/talloc nodistcc.conf
+www-client/firefox nodistcc.conf
+www-servers/apache nodistcc.conf
+
 
 # native cflags
-sys-cluster/openmpi nativecflags.conf
 games-emulation/fceux nativecflags.conf
+sys-cluster/openmpi nativecflags.conf
 
 # wno-error
 app-emulation/open-vm-tools wnoerror.conf
@@ -40,8 +42,9 @@ app-emulation/open-vm-tools-kmod wnoerror.conf
 net-print/cups-filters makeoptsj1.conf
 
 # No memory tmpfs
+app-office/libreoffice notmpfs.conf
 dev-java/icedtea notmpfs.conf
 games-emulation/sdlmame notmpfs.conf
 games-emulation/sdlmess notmpfs.conf
 mail-client/thunderbird notmpfs.conf
-app-office/libreoffice notmpfs.conf
+

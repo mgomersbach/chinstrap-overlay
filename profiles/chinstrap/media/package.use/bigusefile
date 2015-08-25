@@ -3,20 +3,20 @@ app-cdr/disc-cover cdrom
 app-office/libreoffice vlc
 dev-java/icedtea alsa
 dev-libs/DirectFB bmp egl mpeg2 mpeg3 pnm swfdec
+dev-libs/efl -xcb
 dev-libs/libburn cdio
 dev-libs/libisoburn cdio
 dev-libs/weston egl fbdev
-dev-libs/efl -xcb
 dev-python/translate-toolkit subtitles
 dev-qt/qtgui egl
 dev-qt/qtopengl egl
 dev-util/apitrace egl
-games-emulation/pcsxr cdio
-games-fps/eduke32 vpx
-games-strategy/liquidwar6
 games-arcade/slimevolley net
 games-board/freedoko net
+games-emulation/pcsxr cdio
+games-fps/eduke32 vpx
 games-fps/lsdldoom net
+games-strategy/liquidwar6
 gnome-extra/gnome-media twolame
 kde-base/kwin
 mail-client/thunderbird system-jpeg
@@ -42,8 +42,8 @@ media-libs/mediastreamer amr
 media-libs/mesa egl g3dvl gallium gbm llvm llvm-shared-libs r600-llvm-compiler shared-glapi xa xvmc
 media-libs/mlt melt swfdec
 media-libs/phonon vlc
-media-libs/sdl-mixer wav
 media-libs/sdl2-mixer wav
+media-libs/sdl-mixer wav
 media-libs/waffle egl gbm
 media-libs/xine-lib bluray xvmc
 media-plugins/kipi-plugins mjpeg
@@ -67,8 +67,8 @@ media-video/dvdrip subtitles
 media-video/ffmpeg aacplus avx amr -bindist bluray cdio cpudetection dirac faac fdk iec61883 libsoxr libv4l twolame vpx zvbi rtmp css pvr webserver
 media-video/handbrake fdk
 media-video/libav aac amr avx cdio cpudetection dirac faac fdk vpx rtmp
-media-video/mplayer bl bluray cdio cpudetection faac faad live pnm twolame xvmc rtmp tga toolame
 media-video/mplayer2 bluray cdio cpudetection faad pnm postproc
+media-video/mplayer bl bluray cdio cpudetection faac faad live pnm twolame xvmc rtmp tga toolame
 media-video/mpv bluray cdio postproc
 media-video/transcode mjpeg postproc
 media-video/vlc bluray dc1394 dirac egl faad fbosd fdk live rtsp twolame vcdx vpx zvbi

@@ -1,6 +1,7 @@
 amd64           chinstrap/default/linux/amd64           stable
 amd64           chinstrap/default/linux/amd64/desktop          stable
 amd64           chinstrap/default/linux/amd64/markws           stable
+amd64           chinstrap/default/linux/amd64/markflaptop           stable
 amd64           chinstrap/default/linux/amd64/miniws           stable
 amd64           chinstrap/default/linux/amd64/ccmsdev           stable
 amd64           chinstrap/hardened/linux/amd64          stable
