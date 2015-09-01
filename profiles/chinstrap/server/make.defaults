@@ -7,7 +7,7 @@ USE="apache2 avahi curl ftp samba network nfs nis nls vnc zeroconf ldap
      mhash mmap mpi xsl fpm mdnsresponder-compat memcache ldap cups
      memcached mysqlnd phar pdo sensord swat uploadprogress xmlreader sqlite
      xmlwriter xvfb mysql mysqli extraengine fcgi community mms-agent
-     memcached gd opcache mongodb redis courier"
+     memcached gd opcache mongodb redis courier client-libs"
 
 APACHE2_MODULES="actions alias auth_basic auth_digest authn_anon authn_dbd 
                  authn_dbm authn_default authn_file authz_dbm authz_default
