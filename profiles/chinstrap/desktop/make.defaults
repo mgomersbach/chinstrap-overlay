@@ -9,8 +9,8 @@ USE="X glamor libkms opengl egl cairo dbus gtk gtk3 joystick pango qt3support bl
      g3dvl gallium openvg osmesa pixbuf nsplugin r600-llvm-compiler introspection
      shmvideo sna spell system-cairo v4l v4l2 fbcon directfb mono voice growl
      system-icu system-jpeg system-sqlite systemtap thunar vlc volume cpuload
-     xorg xrender xvmc -gphoto2 -kde -xinerama xscreensaver session policykit
-     256-color webcam thunderbird drmkms ico xim resize-optimization iconv
+     xorg xrender xvmc -gphoto2 -kde -xinerama xscreensaver session policykit cups
+     256-color webcam thunderbird drmkms ico xim resize-optimization iconv xkb
      screen-sharing tablet wayland-compositor x11 xwayland razor zeroconf vnc uvm samba"
 
 VIDEO_CARDS="radeon radeonsi fbcon nouveau vesa intel vmware
