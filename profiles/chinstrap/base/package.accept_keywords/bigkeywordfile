@@ -45,6 +45,7 @@ dev-python/pycryptopp ~*
 dev-python/python-ldap ~*
 dev-python/python-pam ~*
 dev-python/slimit ~*
+dev-python/snakeoil ~*
 dev-python/sphinxcontrib-googleanalytics ~*
 dev-python/timelib ~*
 dev-python/urwid **
