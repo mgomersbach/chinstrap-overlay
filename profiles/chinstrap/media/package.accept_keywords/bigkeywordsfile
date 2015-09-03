@@ -1,3 +1,6 @@
+dev-libs/crossguid ~*
+dev-libs/libcec ~*
+dev-libs/libplatform ~*
 media-gfx/blender ~*
 media-gfx/cairosvg ~*
 media-gfx/exact-image ~*
@@ -90,6 +93,7 @@ media-sound/mpg123 ~*
 media-sound/musepack-tools ~*
 media-sound/twolame ~*
 media-sound/wavpack ~*
+media-tv/kodi ~*
 media-video/avxsynth **
 media-video/ffmpeg ~*
 media-video/ffmpeg:0 ~*
