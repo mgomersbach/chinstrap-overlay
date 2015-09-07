@@ -8,6 +8,7 @@ app-emulation/lxc ~*
 app-i18n/fbterm ~*
 app-misc/resolve-march-native ~*
 app-portage/gentoolkit ~*
+app-portage/layman ~*
 app-portage/update ~*
 app-shells/bash-completion **
 app-shells/gentoo-bashcomp **
