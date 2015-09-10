@@ -95,7 +95,7 @@ sys-firmware/b43-firmware ~*
 sys-fs/aufs3 ~*
 sys-fs/aufs-headers ~*
 sys-fs/aufs-util ~*
-sys-fs/btrfs-progs **
+sys-fs/btrfs-progs ~*
 sys-fs/e2fsprogs ~*
 sys-fs/udev ~*
 sys-fs/udev-init-scripts ~*
