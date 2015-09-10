@@ -4,7 +4,7 @@
 
 EAPI=5
 
-EGIT_REPO_URI="git://github.com/robbyrussell/${PN}.git"
+EGIT_REPO_URI="https://github.com/robbyrussell/${PN}.git"
 [ -n "${EVCS_OFFLINE}" ] || EGIT_REPACK=true
 inherit eutils git-2
 
