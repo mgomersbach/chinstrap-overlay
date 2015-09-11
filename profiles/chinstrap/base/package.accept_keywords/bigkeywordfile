@@ -51,12 +51,13 @@ dev-python/sphinxcontrib-googleanalytics ~*
 dev-python/timelib ~*
 dev-python/urwid **
 dev-python/yolk ~*
-dev-python/yolk-portag ~*e
+dev-python/yolk-portage ~*
 dev-ruby/hiera
 dev-ruby/i18n
 dev-ruby/net-scp
 dev-ruby/net-ssh
-dev-util/catalyst **
+dev-util/boost-build ~*
+dev-util/catalyst ~*
 dev-util/gdbus-codegen ~*
 dev-util/gource
 dev-util/jenkins-bin **
@@ -86,7 +87,7 @@ sys-block/zram-init
 sys-boot/grub:2 ~*
 sys-devel/binutils ~*
 sys-devel/clang ~*
-sys-devel/crossdev **
+sys-devel/crossdev ~*
 sys-devel/distcc **
 sys-devel/gcc ~*
 sys-devel/gcc-config ~*
