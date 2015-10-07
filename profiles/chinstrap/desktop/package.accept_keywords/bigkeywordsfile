@@ -45,12 +45,6 @@ x11-apps/radeontop ~*
 x11-apps/radeontray ~*
 x11-base/xorg-drivers ~*
 x11-base/xorg-server ~*
-x11-drivers/xf86-input-keyboard ~*
-x11-drivers/xf86-input-evdev ~*
-x11-drivers/xf86-input-synaptics ~*
-x11-drivers/xf86-video-intel ~*
-x11-drivers/nvidia-drivers **
-x11-drivers/radeon-ucode **
 x11-libs/compiz-bcop
 x11-libs/compizconfig-backend-gconf
 x11-libs/glamor ~*
@@ -93,6 +87,3 @@ x11-wm/compiz-fusion
 x11-wm/emerald
 x11-wm/enlightenment ~*
 xfce-extra/xfce4-gvfs-mount ~*
-
-x11-drivers/* ~*
-dev-qt/*:5 ~*
