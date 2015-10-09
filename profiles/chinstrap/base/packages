@@ -15,6 +15,7 @@
 *app-misc/resolve-march-native
 *app-shells/bash-completion
 *app-shells/gentoo-bashcomp
+*app-shells/gentoo-zsh-completions
 *app-shells/oh-my-zsh
 *app-shells/zsh
 *app-shells/zsh-completions
