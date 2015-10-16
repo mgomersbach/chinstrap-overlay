@@ -8,9 +8,13 @@ app-emulation/qemu **
 app-emulation/vagrant ~*
 app-emulation/virt-manager **
 app-emulation/vmware-view-open-client ~*
+dev-go/blackfriday ~*
+dev-go/go-md2man ~*
+dev-go/sanitized-anchor-name ~*
 dev-python/libvirt-python **
 sys-block/thin-provisioning-tools ~*
 sys-fs/aufs-headers ~*
 sys-fs/aufs-util ~*
 sys-fs/btrfs-progs **
+sys-process/criu ~*
 virtual/libusb ~*
