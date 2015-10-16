@@ -28,7 +28,7 @@ USE="acl acpi archive aufs bash-completion btrfs cli crossdev pam fileinfo
 FEATURES="buildpkg clean-logs compressdebug parallel-fetch parallel-install 
           metadata-transfer ccache distcc distcc-pump splitdebug userfetch 
           userpriv usersandbox ipc-sandbox network-sandbox -merge-sync"
-SYNC="rsync://gomersbach.mooo.com/gentoo-portage" # not picked up!
+
 EMERGE_DEFAULT_OPTS="--getbinpkg --tree"
 PORTAGE_NICENESS="19"
 PORTAGE_RSYNC_EXTRA_OPTS="--omit-dir-times"
@@ -49,4 +49,3 @@ QEMU_USER_TARGETS="aarch64 arm i386 x86_64"
 DONT_MOUNT_BOOT=1
 NGINX_MODULES_HTTP="access auth_basic autoindex browser charset empty_gif fastcgi geo gzip limit_conn limit_req map memcached proxy referer rewrite scgi split_clients ssi upstream_ip_hash userid uwsgi mp4"
 
-PORTAGE_BINHOST="http://gomersbach.mooo.com/binhost/x86-64/generic/chinstrap"
