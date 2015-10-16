@@ -10,5 +10,4 @@ app-emulation/xen-tools qemu screen
 gnome-extra/gnome-boxes usbredir
 net-misc/spice-gtk usbredir
 net-misc/tinc vde
-sys-apps/lm_sensors sensord
 sys-cluster/nova kvm
