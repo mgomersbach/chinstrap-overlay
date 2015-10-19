@@ -6,10 +6,11 @@ dev-php/pecl-uploadprogress **
 dev-python/snakeoil ~*
 sys-process/procps ~*
 virtual/mysql ~*
-www-apache/mod_fastcgi_handler
-www-apache/mod_pagespeed
-www-apps/drupal
-www-apps/drupal:6
-www-apps/drupal:7
-www-apps/gateone
-www-servers/tornado
+www-apache/mod_fastcgi_handler ~*
+www-apache/mod_pagespeed ~*
+www-apps/drupal ~*
+www-apps/drupal:6 ~*
+www-apps/drupal:7 ~*
+www-apps/gateone ~*
+www-servers/tornado ~*
+www-servers/apache ~*
