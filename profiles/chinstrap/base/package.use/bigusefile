@@ -9,7 +9,6 @@ app-arch/zip -natspec
 app-backup/amanda xfs
 app-benchmarks/sysbench aio
 app-cdr/cdrkit hfs
-app-editors/vim minimal
 app-emulation/bochs avx
 app-forensics/aide prelink
 app-leechcraft/lc-vrooby udisks
