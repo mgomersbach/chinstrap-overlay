@@ -31,6 +31,7 @@ media-libs/mesa ~*
 media-video/avidemux **
 media-video/handbrake
 net-im/skype ~*
+net-misc/dropbox ~*
 net-misc/remmina ~*
 net-misc/tigervnc ~*
 net-misc/xrdp **
