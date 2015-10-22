@@ -22,7 +22,6 @@ dev-java/icedtea-bin **
 dev-java/icedtea-web **
 dev-java/java-config **
 dev-lang/go ~*
-dev-libs/boost ~*
 dev-libs/elfutils ~*
 dev-libs/expat ~*
 dev-libs/glib ~*
@@ -55,7 +54,6 @@ dev-ruby/hiera
 dev-ruby/i18n
 dev-ruby/net-scp
 dev-ruby/net-ssh
-dev-util/boost-build ~*
 dev-util/catalyst **
 dev-util/gdbus-codegen ~*
 dev-util/gource
