@@ -3,13 +3,13 @@
 # $Header:
 
 USE="vte doc jde prelink developer stubgen tools dot debugger emacs xemacs plugins development 
-	devtools sdk libopts cvs git test-programs pch pcre perl python php 
-	prelude cxx mono ocaml ruby vala java latex lua lua-cairo lua-imlib erlang api 
-	unicode_collation designer declarative doxysearch help script scripttools 
-	sql xmlpatterns network qml graph ctypes-python swig pyside ada octave
-	devhelp atahpt atavia bitbang_spi buspirate_spi dediprog drkaiser dummy 
-	ft2232_spi gfxnvidia internal internal_dmi it8212 linux_spi mstarddc_spi 
-	nic3com nicintel nicintel_eeprom nicintel_spi nicnatsemi nicrealtek 
-	ogp_spi pickit2_spi pony_spi rayer_spi satamv satasii serprog tools 
-	usbblaster usbblaster_spi regression-test test client gold
-	lto static-analyzer udis86 llvm introspection vim xetex jadetex"
+    devtools sdk libopts cvs git test-programs pch pcre perl python php 
+    prelude cxx mono ocaml ruby vala java latex lua lua-cairo lua-imlib erlang api 
+    unicode_collation designer declarative doxysearch help script scripttools 
+    sql xmlpatterns network qml graph ctypes-python swig pyside ada octave
+    devhelp atahpt atavia bitbang_spi buspirate_spi dediprog drkaiser dummy 
+    ft2232_spi gfxnvidia internal internal_dmi it8212 linux_spi mstarddc_spi 
+    nic3com nicintel nicintel_eeprom nicintel_spi nicnatsemi nicrealtek 
+    ogp_spi pickit2_spi pony_spi rayer_spi satamv satasii serprog tools 
+    usbblaster usbblaster_spi test client gold
+    lto static-analyzer udis86 llvm introspection vim xetex jadetex"
