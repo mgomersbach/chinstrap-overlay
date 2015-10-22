@@ -23,6 +23,7 @@ dev-util/geany-plugins **
 gnome-base/dconf ~*
 gnome-base/gvfs ~*
 mail-client/thunderbird **
+media-fonts/fira-mono ~*
 media-gfx/yed ~*
 media-libs/avidemux-core **
 media-libs/avidemux-plugins **
@@ -39,6 +40,7 @@ www-client/chromium ~*
 www-client/firefox **
 www-client/midori ~*
 www-plugins/chrome-binary-plugins ~*
+www-plugins/pipelight ~*
 x11-apps/ccsm ~*
 x11-apps/fusion-icon ~*
 x11-apps/radeontop ~*

@@ -1,3 +1,4 @@
+app-admin/eselect ~*
 app-admin/eselect-java **
 app-admin/perl-cleaner ~*
 app-admin/salt ~*
@@ -85,6 +86,7 @@ sys-block/partclone
 sys-block/thin-provisioning-tools ~*
 sys-block/zram-init
 sys-boot/grub:2 ~*
+sys-cluster/openmpi ~*
 sys-devel/binutils ~*
 sys-devel/clang ~*
 sys-devel/crossdev ~*
