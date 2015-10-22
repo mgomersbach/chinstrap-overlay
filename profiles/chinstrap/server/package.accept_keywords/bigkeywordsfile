@@ -1,3 +1,4 @@
+app-admin/apache-tools ~*
 dev-db/mariadb ~*
 dev-php/pecl-apc **
 dev-php/pecl-memcache **

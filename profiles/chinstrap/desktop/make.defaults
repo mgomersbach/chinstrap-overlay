@@ -2,8 +2,8 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header:
 
-USE="X glamor libkms opengl egl cairo dbus gtk gtk3 joystick pango qt3support bluetooth
-     qt4 qt5 vaapi xa auto-hinter tk tcl udisks gudev gksu mozilla blink dri evdev gles2
+USE="X glamor libkms opengl egl cairo corefonts djvu dbus gtk gtk3 joystick pango qt3support bluetooth
+     qt4 qt5 vaapi xa auto-hinter tk tcl udisks gimp gudev gksu mozilla blink dri evdev gles2
      gtkstyle icons infinality llvm llvm-shared-libs libnotify rdp mtp consolekit
      xcomposite vdpau xcb xrandr xv wxwidgets drm pixman dri dri3 emerald ldap nls
      g3dvl gallium openvg osmesa pixbuf nsplugin r600-llvm-compiler introspection
