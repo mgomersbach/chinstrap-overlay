@@ -1,9 +1,9 @@
 app-emulation/docker ~*
-app-emulation/libvirt **
+app-emulation/libvirt ~*
 app-emulation/lxc **
 app-emulation/lxc-gentoo **
-app-emulation/open-vm-tools
-app-emulation/open-vm-tools-kmod
+app-emulation/open-vm-tools ~*
+app-emulation/open-vm-tools-kmod ~*
 app-emulation/qemu ~*
 app-emulation/vagrant ~*
 app-emulation/virt-manager **
@@ -11,7 +11,7 @@ app-emulation/vmware-view-open-client ~*
 dev-go/blackfriday ~*
 dev-go/go-md2man ~*
 dev-go/sanitized-anchor-name ~*
-dev-python/libvirt-python **
+dev-python/libvirt-python !*
 sys-block/thin-provisioning-tools ~*
 sys-fs/aufs-headers ~*
 sys-fs/aufs-util ~*
