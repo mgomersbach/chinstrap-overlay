@@ -1,3 +1,4 @@
+app-text/pdfsandwich ~*
 dev-libs/crossguid ~*
 dev-libs/libcec ~*
 dev-libs/libplatform ~*

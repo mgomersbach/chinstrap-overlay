@@ -1,5 +1,7 @@
 app-emulation/docker ~*
 app-emulation/libvirt ~*
+dev-python/libvirt-python ~*
+app-emulation/libvirt-glib ~*
 app-emulation/lxc **
 app-emulation/lxc-gentoo **
 app-emulation/open-vm-tools ~*
@@ -11,7 +13,6 @@ app-emulation/vmware-view-open-client ~*
 dev-go/blackfriday ~*
 dev-go/go-md2man ~*
 dev-go/sanitized-anchor-name ~*
-dev-python/libvirt-python !*
 sys-block/thin-provisioning-tools ~*
 sys-fs/aufs-headers ~*
 sys-fs/aufs-util ~*
