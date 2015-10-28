@@ -1,4 +1,5 @@
 #Media
+media-libs/libcaca -doc
 app-cdr/disc-cover cdrom
 app-office/libreoffice vlc
 dev-java/icedtea alsa
