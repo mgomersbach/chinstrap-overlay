@@ -1,2 +1,3 @@
 #Developer
 app-text/texlive extra
+dev-ml/findlib -tk

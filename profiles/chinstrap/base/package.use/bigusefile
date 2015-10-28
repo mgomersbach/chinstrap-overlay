@@ -1,3 +1,6 @@
+sys-cluster/openmpi -fortran
+virtual/mpi -fortran
+sys-kernel/gentoo-sources experimental
 app-admin/rsyslog -ssl
 app-admin/testdisk ntfs
 app-arch/bzip2 static-libs
