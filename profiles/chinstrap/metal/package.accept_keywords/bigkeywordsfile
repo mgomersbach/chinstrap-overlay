@@ -1,3 +1,4 @@
+app-admin/cgmanager ~*
 app-emulation/docker ~*
 app-emulation/libvirt ~*
 dev-python/libvirt-python ~*
@@ -13,9 +14,33 @@ app-emulation/vmware-view-open-client ~*
 dev-go/blackfriday ~*
 dev-go/go-md2man ~*
 dev-go/sanitized-anchor-name ~*
+dev-lang/go-bootstrap ~*
 sys-block/thin-provisioning-tools ~*
 sys-fs/aufs-headers ~*
 sys-fs/aufs-util ~*
 sys-fs/btrfs-progs **
+sys-libs/libnih ~*
 sys-process/criu ~*
 virtual/libusb ~*
+
+
+# required by dev-python/docker-py-1.3.1::gentoo
+# required by app-emulation/docker-compose-1.4.0::gentoo
+# required by app-emulation/docker-compose (argument)
+=dev-python/websocket-client-0.34.0 ~*
+# required by app-emulation/docker-compose-1.4.0::gentoo
+# required by app-emulation/docker-compose (argument)
+=dev-python/texttable-0.8.2 ~*
+# required by app-emulation/docker-machine (argument)
+=app-emulation/docker-machine-0.4.1 ~*
+# required by app-emulation/docker-compose-1.4.0::gentoo
+# required by app-emulation/docker-compose (argument)
+=dev-python/docker-py-1.3.1 ~*
+# required by app-emulation/docker-compose-1.4.0::gentoo
+# required by app-emulation/docker-compose (argument)
+=dev-python/dockerpty-0.3.4 ~*
+# required by app-emulation/docker-swarm (argument)
+=app-emulation/docker-swarm-0.4.0 ~*
+# required by app-emulation/docker-compose (argument)
+=app-emulation/docker-compose-1.4.0 ~*
+
