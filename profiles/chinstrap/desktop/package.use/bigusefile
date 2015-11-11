@@ -1,5 +1,4 @@
 #Desktop
-app-emulation/emul-linux-x86-qtlibs gtkstyle
 app-emulation/spice gui
 app-emulation/spice-vdagent consolekit
 app-emulation/virt-manager spice
