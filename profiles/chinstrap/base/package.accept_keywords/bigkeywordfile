@@ -116,3 +116,12 @@ virtual/jre **
 virtual/python-futures
 virtual/udev ~*
 x11-libs/cairo ~*
+
+# Salt
+# required by www-servers/tornado-4.3::gentoo
+# required by app-admin/salt-2015.8.1::gentoo
+=dev-python/backports-abc-0.4 ~*
+# required by www-servers/tornado-4.3::gentoo
+# required by app-admin/salt-2015.8.1::gentoo
+=virtual/python-backports_abc-0 ~*
+
