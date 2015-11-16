@@ -26,6 +26,7 @@
 *dev-util/strace
 *mail-client/mutt
 *net-analyzer/netcat6
+*net-dns/bind-tools
 *net-fs/nfs-utils
 *net-irc/irssi
 *net-misc/telnet-bsd
