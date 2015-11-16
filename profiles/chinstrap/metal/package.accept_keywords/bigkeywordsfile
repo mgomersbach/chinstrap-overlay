@@ -8,6 +8,7 @@ app-emulation/lxc-gentoo **
 app-emulation/open-vm-tools ~*
 app-emulation/open-vm-tools-kmod ~*
 app-emulation/qemu ~*
+app-emulation/spice-protocol ~*
 app-emulation/vagrant ~*
 app-emulation/virt-manager **
 app-emulation/vmware-view-open-client ~*
