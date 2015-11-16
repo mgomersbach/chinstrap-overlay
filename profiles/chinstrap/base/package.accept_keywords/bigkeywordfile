@@ -24,11 +24,13 @@ dev-java/icedtea-bin **
 dev-java/icedtea-web **
 dev-java/java-config **
 dev-lang/go ~*
+dev-lang/mono ~*
 dev-libs/elfutils ~*
 dev-libs/expat ~*
 dev-libs/glib ~*
 dev-libs/gobject-introspection ~*
 dev-libs/gobject-introspection-common ~*
+dev-libs/lzo ~*
 dev-libs/nspr ~*
 dev-libs/nss ~*
 dev-perl/Authen-Libwrap ~*
@@ -36,6 +38,7 @@ dev-perl/Getopt-GUI-Long ~*
 dev-php/PEAR-PHP_Beautifier **
 dev-php/PEAR-PHP_CodeSniffer **
 dev-python/ansi2html ~*
+dev-python/cffi ~*
 dev-python/cssmin ~*
 dev-python/cython ~*
 dev-python/futures ~*

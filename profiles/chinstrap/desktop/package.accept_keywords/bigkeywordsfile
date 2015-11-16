@@ -1,6 +1,8 @@
 app-admin/keepass
 app-emulation/winetricks
 app-eselect/eselect-opengl ~*
+app-text/calibre ~*
+dev-lang/tk ~*
 dev-libs/atk ~*
 dev-libs/ecore **
 dev-libs/e_dbus **
@@ -90,3 +92,18 @@ x11-wm/compiz-fusion
 x11-wm/emerald
 x11-wm/enlightenment ~*
 xfce-extra/xfce4-gvfs-mount ~*
+
+# required by xfce-base/xfwm4-4.12.3::gentoo
+# required by @selected
+# required by @world (argument)
+x11-libs/libXrandr ~*
+# required by x11-libs/libXrandr-1.5.0::gentoo
+# required by app-office/libreoffice-5.0.3.2::gentoo
+# required by @selected
+# required by @world (argument)
+x11-proto/randrproto ~*
+# required by www-client/chromium-47.0.2526.58::gentoo
+# required by @selected
+# required by @world (argument)
+x11-libs/pango ~*
+

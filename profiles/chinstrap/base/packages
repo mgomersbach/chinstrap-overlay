@@ -35,6 +35,7 @@
 *sys-apps/pv
 *sys-devel/distcc
 *sys-devel/m4
+*sys-devel/prelink
 *sys-fs/btrfs-progs
 *sys-fs/ncdu
 *sys-fs/xfsprogs

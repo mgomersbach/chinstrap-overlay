@@ -103,3 +103,13 @@ x11-libs/gtk+ egl
 x11-libs/libva egl
 x11-terms/rxvt-unicode pixbuf
 x11-wm/xpra vpx
+
+
+# for libbluray
+# required by media-libs/libaacs-0.7.1::gentoo
+# required by media-libs/libaacs (argument)
+dev-libs/libgpg-error abi_x86_32
+# required by media-libs/libaacs-0.7.1::gentoo
+# required by media-libs/libaacs (argument)
+dev-libs/libgcrypt abi_x86_32
+
