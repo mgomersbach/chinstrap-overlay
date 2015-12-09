@@ -35,10 +35,12 @@ media-libs/mesa ~*
 media-video/avidemux **
 media-video/handbrake
 net-im/skype ~*
+net-libs/rb_libtorrent ~*
 net-misc/dropbox ~*
 net-misc/remmina ~*
 net-misc/tigervnc ~*
 net-misc/xrdp **
+net-p2p/qbittorrent ~*
 sys-devel/clang ~*
 sys-devel/llvm ~*
 www-client/chromium ~*
