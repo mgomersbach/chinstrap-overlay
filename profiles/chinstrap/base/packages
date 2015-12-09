@@ -24,6 +24,7 @@
 *dev-util/ccache
 *dev-util/dialog
 *dev-util/strace
+*dev-python/pip
 *mail-client/mutt
 *net-analyzer/netcat6
 *net-dns/bind-tools
