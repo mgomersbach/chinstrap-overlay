@@ -6,6 +6,7 @@ games-emulation/dolphin **
 games-emulation/mupen64plus **
 games-emulation/qmc2 ~*
 games-emulation/vbam ~*
+games-fps/darkplaces ~*
 games-fps/doom3-gpl **
 games-fps/doomsday **
 games-fps/warsow ~*
