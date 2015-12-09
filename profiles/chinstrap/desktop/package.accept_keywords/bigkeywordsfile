@@ -1,5 +1,6 @@
-app-admin/keepass
-app-emulation/winetricks
+app-admin/keepass ~*
+dev-dotnet/libgdiplus ~*
+app-emulation/winetricks ~*
 app-eselect/eselect-opengl ~*
 app-text/calibre ~*
 dev-lang/tk ~*
