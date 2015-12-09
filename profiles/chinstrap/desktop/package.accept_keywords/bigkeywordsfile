@@ -4,6 +4,7 @@ app-emulation/winetricks ~*
 app-eselect/eselect-opengl ~*
 app-text/calibre ~*
 dev-lang/tk ~*
+dev-lang/tcl ~*
 dev-libs/atk ~*
 dev-libs/ecore **
 dev-libs/e_dbus **
