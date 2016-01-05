@@ -115,8 +115,6 @@ sys-libs/glibc ~*
 sys-libs/gpm ~*
 sys-libs/ncurses ~*
 sys-libs/zlib ~*
-virtual/jdk **
-virtual/jre **
 virtual/python-futures
 virtual/udev ~*
 x11-libs/cairo ~*
