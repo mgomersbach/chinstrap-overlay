@@ -40,5 +40,5 @@
 *sys-fs/btrfs-progs
 *sys-fs/ncdu
 *sys-fs/xfsprogs
+*sys-process/cronie
 *sys-process/lsof
-*sys-process/vixie-cron
