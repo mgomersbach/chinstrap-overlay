@@ -4,7 +4,6 @@ amd64           chinstrap/default/linux/amd64/desktop          stable
 amd64           chinstrap/default/linux/amd64/markws           stable
 amd64           chinstrap/default/linux/amd64/markflaptop           stable
 amd64           chinstrap/default/linux/amd64/miniws           stable
-amd64           chinstrap/hardened/linux/amd64          stable
 
 x86             chinstrap/default/linux/x86             stable
 x86             chinstrap/default/linux/x86/buildhelper      stable
@@ -12,4 +11,4 @@ x86             chinstrap/default/linux/x86/desktop             stable
 x86             chinstrap/default/linux/x86/markws             stable
 x86             chinstrap/default/linux/x86/markflaptop           stable
 x86             chinstrap/default/linux/x86/miniws             stable
-x86             chinstrap/hardened/linux/x86            stable
+

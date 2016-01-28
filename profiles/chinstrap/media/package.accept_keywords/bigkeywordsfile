@@ -2,6 +2,7 @@ app-text/pdfsandwich ~*
 dev-libs/crossguid ~*
 dev-libs/libcec ~*
 dev-libs/libplatform ~*
+dev-python/pytesseract ~*
 media-gfx/blender ~*
 media-gfx/cairosvg ~*
 media-gfx/exact-image ~*

@@ -1,4 +1,3 @@
-#Metal
 app-emulation/docker device-mapper
 app-emulation/ganeti lxc kvm
 app-emulation/libvirt iscsi qemu lxc lvm parted pcap

@@ -1,4 +1,3 @@
-#Admin
 app-admin/puppet augeas
 app-admin/syslogd logrotate
 app-antivirus/clamav clamdtop

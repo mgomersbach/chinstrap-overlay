@@ -1,4 +1,3 @@
-#Server
 app-admin/eselect-php fpm
 dev-db/drizzle memcache
 dev-db/pgpool2 memcached

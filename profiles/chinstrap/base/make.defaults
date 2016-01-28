@@ -1,33 +1,36 @@
-# Copyright 2004-2014 Gentoo Foundation.
+# Copyright 2004-2016 Gentoo Foundation.
 # Distributed under the terms of the GNU General Public License v2
 # $Header:
 
 # Portage stuff
 ACCEPT_LICENSE="*"
-NODESKTOPUSE="-X -egl -cairo -dbus -gtk -gtk3 -joystick -pango -qt3support -qt4 -qt5 -vaapi
-     -gtkstyle -icons -infinality -llvm -llvm-shared-libs -gnome -kde
-     -xcomposite -vdpau -xcb -xrandr -xv -wxwidgets -drm -pixman -dri3 -emerald
-     -g3dvl -gallium -openvg -osmesa -pixbuf -nsplugin -r600-llvm-compiler
-     -shmvideo -sna -system-cairo -v4l -v4l2 -firefox
-     -thunar -vlc -volume -directfb -dri -fbcon -introspection -cups -tcpd -pcre -berkdb
-     -xorg -xrender -xvmc -xscreensaver -zeroconf -openmp"
-NOMEDIAUSE="-a52 -aac -alsa -bidi -bluetooth -cdda -cdr -dts -dvd -dvdr -encode -exif
-            -flac -gif -jpeg -lcms -mad -mms -mng -mp3 -mp4 -mpeg -ogg -opengl -opencl
-            -orc -pdf -png -ppds -sdl -svg -tiff -truetype -vorbis -x264 -xvid"
-USE="acl acpi archive aufs bash-completion btrfs cli crossdev pam fileinfo
-     bidi nfsdcld nfsidmap nfsv4 nfs nfsv41 boost branding bzip2 cxx
-     directfb encode fbcon fontconfig fuse git prelink sftp shm smtp
-     gmp gpm gzip icu inotify lzma lzo hpn ntfs ntfsprogs ntp
-     mms mono mtp vim-syntax highlight rar ssh xfs openrc hfs lz4 snappy
-     ncurses offensive opencl orc pdf perl pch readline aio asm ipv6
-     fading-colors logrotate sep-usr smp mpi ssl sendmail logwatch lto
-     symlink syslog sqlite device-mapper threads tinfo udev upnp
-     xattr zip zlib zsh-completion -bindist -debug -extras -fam
-     gold -iso14755 -pulseaudio -systemd -mono
-     -zoran -networkmanager -reiser4 -ldap ${NODESKTOPUSE} ${NOMEDIAUSE}"
-FEATURES="buildpkg clean-logs compressdebug parallel-fetch parallel-install 
-          metadata-transfer ccache distcc distcc-pump splitdebug userfetch 
-          userpriv usersandbox ipc-sandbox network-sandbox -merge-sync"
+NODESKTOPUSE="-berkdb -cairo -cups -dbus -directfb -dri -dri3 -drm -egl
+-emerald -fbcon -firefox -g3dvl -gallium -gnome -gtk -gtk3 -gtkstyle
+-icons -infinality -introspection -joystick -kde -llvm -llvm-shared-libs
+-nsplugin -openmp -openvg -osmesa -pango -pcre -pixbuf -pixman
+-qt3support -qt4 -qt5 -r600-llvm-compiler -shmvideo -sna -system-cairo
+-tcpd -thunar -v4l -v4l2 -vaapi -vdpau -vlc -volume -wxwidgets -X -xcb
+-xcomposite -xorg -xrandr -xrender -xscreensaver -xv -xvmc -zeroconf"
+
+NOMEDIAUSE="-a52 -aac -alsa -bidi -bluetooth -cdda -cdr -dts -dvd -dvdr
+-encode -exif -flac -gif -jpeg -lcms -mad -mms -mng -mp3 -mp4 -mpeg -ogg
+-opencl -opengl -orc -pdf -png -ppds -sdl -svg -tiff -truetype -vorbis
+-x264 -xvid"
+
+USE="acl acpi aio archive asm aufs bash-completion bidi -bindist boost
+branding btrfs bzip2 cli crossdev cxx -debug device-mapper directfb
+encode -extras fading-colors -fam fbcon fileinfo fontconfig fuse git gmp
+gold gpm gzip hfs highlight hpn icu inotify ipv6 -iso14755 -ldap
+logrotate logwatch lto lz4 lzma lzo mms mono -mono mpi mtp ncurses
+-networkmanager nfs nfsdcld nfsidmap nfsv4 nfsv41 ntfs ntfsprogs ntp
+offensive openrc orc pam pch pdf perl prelink -pulseaudio rar
+readline -reiser4 sendmail sep-usr sftp shm smp smtp snappy sqlite ssh
+ssl symlink syslog -systemd threads tinfo udev upnp vim-syntax xattr xfs
+zip zlib -zoran zsh-completion ${NODESKTOPUSE} ${NOMEDIAUSE}"
+
+FEATURES="buildpkg ccache clean-logs compressdebug distcc distcc-pump
+ipc-sandbox -merge-sync metadata-transfer network-sandbox parallel-fetch
+parallel-install splitdebug userfetch userpriv usersandbox"
 
 EMERGE_DEFAULT_OPTS="--getbinpkg --tree"
 PORTAGE_NICENESS="19"
@@ -47,5 +50,7 @@ RESUMECOMMAND="/usr/bin/curl --connect-timeout 15 -# -C - -o \${DISTDIR}/\${FILE
 QEMU_SOFTMMU_TARGETS="x86_64 i386 aarch64 arm"
 QEMU_USER_TARGETS="aarch64 arm i386 x86_64"
 DONT_MOUNT_BOOT=1
-NGINX_MODULES_HTTP="access auth_basic autoindex browser charset empty_gif fastcgi geo gzip limit_conn limit_req map memcached proxy referer rewrite scgi split_clients ssi upstream_ip_hash userid uwsgi mp4"
+NGINX_MODULES_HTTP="access auth_basic autoindex browser charset
+empty_gif fastcgi geo gzip limit_conn limit_req map memcached mp4 proxy
+referer rewrite scgi split_clients ssi upstream_ip_hash userid uwsgi"
 

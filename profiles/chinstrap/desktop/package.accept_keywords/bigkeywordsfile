@@ -1,10 +1,10 @@
 app-admin/keepass ~*
-dev-dotnet/libgdiplus ~*
 app-emulation/winetricks ~*
 app-eselect/eselect-opengl ~*
 app-text/calibre ~*
-dev-lang/tk ~*
+dev-dotnet/libgdiplus ~*
 dev-lang/tcl ~*
+dev-lang/tk ~*
 dev-libs/atk ~*
 dev-libs/ecore **
 dev-libs/e_dbus **
@@ -37,6 +37,7 @@ media-video/handbrake
 net-im/skype ~*
 net-libs/rb_libtorrent ~*
 net-misc/dropbox ~*
+net-misc/logmein-hamachi  ~*
 net-misc/remmina ~*
 net-misc/tigervnc ~*
 net-misc/xrdp **

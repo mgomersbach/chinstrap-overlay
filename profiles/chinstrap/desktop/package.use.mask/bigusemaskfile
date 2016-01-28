@@ -1,3 +1,4 @@
+dev-libs/efl xcb egl
 sys-libs/glibc gd
 
 # pulls gudev useflag on udev
@@ -11,6 +12,3 @@ app-emulation/winetricks gtk
 # needs sqlite with secure-delete *not an excuse
 mail-client/thunderbird system-sqlite
 www-client/firefox system-sqlite
-
-dev-libs/efl xcb egl
-

@@ -1,5 +1,3 @@
-#Media
-media-libs/libcaca -doc
 app-cdr/disc-cover cdrom
 app-office/libreoffice vlc
 dev-java/icedtea alsa
@@ -36,9 +34,11 @@ media-libs/gst-plugins-ffmpeg -bindist
 media-libs/gst-plugins-meta vpx
 media-libs/lcms static-libs
 media-libs/libbluray aacs
+media-libs/libcaca -doc
 media-libs/libgnome twolame
 media-libs/libpng apng
 media-libs/libvpx postproc
+media-libs/libwebp abi_x86_32
 media-libs/mediastreamer amr
 media-libs/mesa egl g3dvl gallium gbm llvm llvm-shared-libs r600-llvm-compiler shared-glapi xa xvmc
 media-libs/mlt melt swfdec
@@ -103,7 +103,6 @@ x11-libs/gtk+ egl
 x11-libs/libva egl
 x11-terms/rxvt-unicode pixbuf
 x11-wm/xpra vpx
-
 
 # for libbluray
 # required by media-libs/libaacs-0.7.1::gentoo

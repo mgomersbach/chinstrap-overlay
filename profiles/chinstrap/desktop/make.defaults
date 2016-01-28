@@ -1,19 +1,21 @@
-# Copyright 2004-2015 Gentoo Foundation.
+# Copyright 2004-2016 Gentoo Foundation.
 # Distributed under the terms of the GNU General Public License v2
 # $Header:
 
-USE="X glamor libkms opengl egl cairo corefonts djvu dbus gtk gtk3 joystick pango qt3support bluetooth
-     qt4 qt5 vaapi xa auto-hinter tk tcl udisks gimp gudev gksu mozilla blink dri evdev gles2
-     gtkstyle icons infinality llvm llvm-shared-libs libnotify rdp mtp consolekit
-     xcomposite vdpau xcb xrandr xv wxwidgets drm pixman dri dri3 emerald ldap nls
-     g3dvl gallium openvg osmesa pixbuf nsplugin r600-llvm-compiler introspection
-     shmvideo sna spell system-cairo v4l v4l2 fbcon directfb mono voice growl
-     system-icu system-jpeg system-sqlite systemtap thunar vlc volume cpuload
-     xorg xrender xvmc -gphoto2 -kde -xinerama xscreensaver session policykit cups
-     256-color webcam thunderbird drmkms ico xim resize-optimization iconv xkb
-     screen-sharing tablet wayland-compositor x11 xwayland razor zeroconf vnc uvm samba"
+USE="256-color auto-hinter blink bluetooth cairo consolekit corefonts
+cpuload cups dbus directfb djvu dri dri dri3 drm drmkms egl emerald
+evdev fbcon g3dvl gallium gimp gksu glamor gles2 -gphoto2 growl gtk gtk3
+gtkstyle gudev ico icons iconv infinality introspection joystick -kde
+ldap libkms libnotify llvm llvm-shared-libs mono mozilla mtp nls
+nsplugin opengl openvg osmesa pango pixbuf pixman policykit qt3support
+qt4 qt5 r600-llvm-compiler razor rdp resize-optimization samba
+screen-sharing session shmvideo sna spell system-cairo system-icu
+system-jpeg system-sqlite systemtap tablet tcl thunar thunderbird tk
+udisks uvm v4l v4l2 vaapi vdpau vlc vnc voice volume wayland-compositor
+webcam wxwidgets X x11 xa xcb xcomposite xim -xinerama xkb xorg xrandr
+xrender xscreensaver xv xvmc xwayland zeroconf"
 
-VIDEO_CARDS="radeon radeonsi fbcon nouveau vesa intel vmware
-             fbdev r600 i915 i965"
+VIDEO_CARDS="fbcon fbdev i915 i965 intel nouveau r600 radeon radeonsi
+vesa vmware"
 
-INPUT_DEVICES="synaptics evdev keyboard mouse vmmouse"
+INPUT_DEVICES="evdev keyboard mouse synaptics vmmouse"

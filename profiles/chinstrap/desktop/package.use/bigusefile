@@ -1,4 +1,3 @@
-#Desktop
 app-emulation/spice gui
 app-emulation/spice-vdagent consolekit
 app-emulation/virt-manager spice
@@ -18,11 +17,11 @@ lxde-base/lxdm consolekit
 mail-client/thunderbird system-cairo
 media-libs/mesa xorg shared-dricore
 media-video/gpac -wxwidgets
+media-video/vlc -qt4
 net-analyzer/metasploit gui
 net-firewall/firewalld gui
 net-mail/mu gui
 net-misc/vinagre spice
-media-video/vlc -qt4
 razorqt-base/razorqt-panel volume
 sci-electronics/pcb xrender
 sys-apps/kmscon drm

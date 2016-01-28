@@ -4,6 +4,8 @@ app-admin/perl-cleaner ~*
 app-admin/salt ~*
 app-arch/bzip2 ~*
 app-arch/lrzip ~*
+app-arch/lzlib ~*
+app-arch/plzip ~*
 app-arch/xz-utils ~*
 app-emulation/lxc ~*
 app-i18n/fbterm ~*
@@ -46,6 +48,7 @@ dev-python/futures ~*
 dev-python/g-pypi ~*
 dev-python/libcloud ~*
 dev-python/msgpack ~*
+dev-python/nagiosplugin ~*
 dev-python/numpy ~*
 dev-python/pycryptopp ~*
 dev-python/python-ldap ~*
@@ -107,8 +110,8 @@ sys-fs/e2fsprogs ~*
 sys-fs/udev ~*
 sys-fs/udev-init-scripts ~*
 sys-fs/xfsprogs ~*
-sys-kernel/gentoo-sources ~*
 sys-kernel/dracut
+sys-kernel/gentoo-sources ~*
 sys-libs/core-functions ~*
 sys-libs/e2fsprogs-libs ~*
 sys-libs/glibc ~*
@@ -126,4 +129,3 @@ x11-libs/cairo ~*
 # required by www-servers/tornado-4.3::gentoo
 # required by app-admin/salt-2015.8.1::gentoo
 =virtual/python-backports_abc-0 ~*
-

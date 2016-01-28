@@ -13,6 +13,7 @@
 *app-editors/nano
 *app-editors/vim
 *app-misc/resolve-march-native
+*app-portage/gentoolkit
 *app-shells/bash-completion
 *app-shells/gentoo-bashcomp
 *app-shells/gentoo-zsh-completions
@@ -21,10 +22,10 @@
 *app-shells/zsh-completions
 *app-vim/gentoo-syntax
 *dev-lang/python:2.7
+*dev-python/pip
 *dev-util/ccache
 *dev-util/dialog
 *dev-util/strace
-*dev-python/pip
 *mail-client/mutt
 *net-analyzer/netcat6
 *net-dns/bind-tools

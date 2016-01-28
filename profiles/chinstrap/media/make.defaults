@@ -1,16 +1,16 @@
-# Copyright 2004-2014 Gentoo Foundation.
+# Copyright 2004-2016 Gentoo Foundation.
 # Distributed under the terms of the GNU General Public License v2
 # $Header:
 
-USE="a52 aac apng asf amr alsa aalib audiofile airplay alsa bmp cdda cddb cec 
-     bluray cdparanoia corefont dts dv dvb dvd exif ffmpeg flac faac faad fpx 
-     hdri gd gif gsm gstreamer ieee1394 imagemagick jbig jpeg jpeg2k cdio cdrdao
-     cdrom ladspa lame lcms fftw libass libcaca libsamplerate matroska
-     mng mp3 mp4 cpudetection dc1394 subtitle subtitles mpeg mplayer opencl
-     musepack ogg openal opengl opus png portaudio quicktime raw sdl dirac
-     mjpeg mpeg2 pnm swfdec tga libsoxr sox sound speex truetype
-     upnp-av tiff svg graphicsmagick jp2k psd system-libvpx css
-     theora vorbis x264 x265 vcd webkit webp iec61883 libv4l melt midi xvid
-     zvbi xpm xft postscript openexr smpeg mad tslib postproc ppm q32
-     q64 q8 rtmp rtsp timidity toolame transcode tsmuxer twolame vcdx
-     vpx wav webm -radio pdf mms bidi encode orc ffmpegsource"
+USE="a52 aac aalib airplay alsa alsa amr apng asf audiofile bidi bluray
+bmp cdda cddb cdio cdparanoia cdrdao cdrom cec corefont cpudetection css
+dc1394 dirac dts dv dvb dvd encode exif faac faad ffmpeg ffmpegsource
+fftw flac fpx gd gif graphicsmagick gsm gstreamer hdri iec61883 ieee1394
+imagemagick jbig jp2k jpeg jpeg2k ladspa lame lcms libass libcaca
+libsamplerate libsoxr libv4l mad matroska melt midi mjpeg mms mng mp3
+mp4 mpeg mpeg2 mplayer musepack ogg openal openexr opengl opus
+orc pdf png pnm portaudio postproc postscript ppm psd q32 q64 q8
+quicktime -radio raw rtmp rtsp sdl smpeg sound sox speex subtitle
+subtitles svg swfdec system-libvpx tga theora tiff timidity toolame
+transcode truetype tslib tsmuxer twolame upnp-av vcd vcdx vorbis vpx wav
+webkit webm webp x264 x265 xft xpm xvid zvbi"

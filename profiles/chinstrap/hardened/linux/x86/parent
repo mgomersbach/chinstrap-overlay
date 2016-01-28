@@ -1,5 +1,0 @@
-gentoo:hardened/linux/x86
-gentoo:targets/desktop
-../../../arch/x86
-../../../base
-../base

@@ -1,12 +1,13 @@
-*app-vim/vimpython
-*app-vim/vimoutliner
-*app-vim/vimcommander
-*app-vim/vimcalc
-*app-vim/vimbuddy
-*app-vim/vim-spell-nl
-*app-vim/vim-misc
-*app-vim/vim-latex
-*app-editors/nano
 *app-editors/emacs
+*app-editors/nano
 *app-editors/wxhexeditor
+*app-vim/vimbuddy
+*app-vim/vimcalc
+*app-vim/vimcommander
+*app-vim/vim-latex
+*app-vim/vim-misc
+*app-vim/vimoutliner
+*app-vim/vimpython
+*app-vim/vim-spell-nl
+
 

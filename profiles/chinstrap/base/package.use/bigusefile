@@ -1,6 +1,3 @@
-sys-cluster/openmpi -fortran
-virtual/mpi -fortran
-sys-kernel/gentoo-sources experimental
 app-admin/rsyslog -ssl
 app-admin/testdisk ntfs
 app-arch/bzip2 static-libs
@@ -106,6 +103,7 @@ sys-cluster/mpich2 romio
 sys-cluster/mpich romio
 sys-cluster/mvapich2 romio
 sys-cluster/ocfs aio
+sys-cluster/openmpi -fortran
 sys-cluster/openmpi romio
 sys-cluster/swift memcache
 sys-devel/distcc avahi
@@ -120,6 +118,7 @@ sys-fs/xfsprogs static-libs
 sys-kernel/dracut device-mapper net
 sys-kernel/geek-sources brand gentoo exfat pf optimization symlink
 sys-kernel/genkernel-next iscsi
+sys-kernel/gentoo-sources experimental
 sys-libs/gdbm berkdb
 sys-libs/glibc -gd
 sys-libs/gpm static-libs
@@ -129,6 +128,7 @@ sys-libs/zlib static-libs minizip
 sys-power/pm-utils ntp
 sys-process/lsof rpc
 virtual/jpeg:0 static-libs
+virtual/mpi -fortran
 virtual/mpi romio
 virtual/udev hwdb keymap
 www-client/chromium system-sqlite

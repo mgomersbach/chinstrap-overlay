@@ -1,5 +1,5 @@
 app-editors/wxhexeditor ~*
 dev-lang/ocaml ~*
+dev-ml/findlib ~*
 dev-ml/ocaml-ctypes ~*
 sys-devel/gdb ~*
-dev-ml/findlib ~*
