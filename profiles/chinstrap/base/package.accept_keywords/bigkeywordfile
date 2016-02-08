@@ -129,3 +129,6 @@ x11-libs/cairo ~*
 # required by www-servers/tornado-4.3::gentoo
 # required by app-admin/salt-2015.8.1::gentoo
 =virtual/python-backports_abc-0 ~*
+
+# ~* catalyst
+dev-python/pydecomp ~*
