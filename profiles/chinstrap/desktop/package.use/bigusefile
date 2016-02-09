@@ -2,6 +2,7 @@ app-emulation/spice gui
 app-emulation/spice-vdagent consolekit
 app-emulation/virt-manager spice
 app-emulation/virt-viewer spice
+app-crypt/pinentry gnome-keyring
 app-misc/networkmanager consolekit
 app-pda/barry gui
 app-portage/layman subversion bazaar cvs mercurial git
