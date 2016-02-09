@@ -16,6 +16,6 @@ webcam wxwidgets X x11 xa xcb xcomposite xim -xinerama xkb xorg xrandr
 xrender xscreensaver xv xvmc xwayland zeroconf"
 
 VIDEO_CARDS="fbcon fbdev i915 i965 intel nouveau r600 radeon radeonsi
-vesa vmware"
+vesa vmware amdgpu"
 
 INPUT_DEVICES="evdev keyboard mouse synaptics vmmouse"

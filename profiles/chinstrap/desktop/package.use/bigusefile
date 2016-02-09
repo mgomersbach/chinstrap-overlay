@@ -6,6 +6,7 @@ app-misc/networkmanager consolekit
 app-pda/barry gui
 app-portage/layman subversion bazaar cvs mercurial git
 app-text/qpdfview -qt4
+dev-libs/pcre pcre16
 dev-libs/weston drm
 dev-qt/qtgui gtkstyle
 dev-util/geany-plugins gtkspell

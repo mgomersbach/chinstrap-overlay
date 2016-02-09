@@ -6,6 +6,7 @@ dev-dotnet/libgdiplus ~*
 dev-lang/tcl ~*
 dev-lang/tk ~*
 dev-libs/atk ~*
+deb-libs/binutils-libs ~*
 dev-libs/ecore **
 dev-libs/e_dbus **
 dev-libs/eet **
@@ -42,6 +43,7 @@ net-misc/remmina ~*
 net-misc/tigervnc ~*
 net-misc/xrdp **
 net-p2p/qbittorrent ~*
+sys-devel/binutils-config ~*
 sys-devel/clang ~*
 sys-devel/llvm ~*
 www-client/chromium ~*
