@@ -4,6 +4,7 @@
 *media-fonts/fira-mono
 *media-fonts/fira-sans
 *media-gfx/geeqie
+*media-libs/libtxc_dxtn
 *net-firewall/ufw-frontends
 *net-im/pidgin
 *net-im/purple-events
