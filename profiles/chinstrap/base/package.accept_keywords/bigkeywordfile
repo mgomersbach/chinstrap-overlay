@@ -89,6 +89,7 @@ sys-apps/kmscon **
 sys-apps/kudzu
 sys-apps/libtsm **
 sys-apps/openrc ~*
+sys-apps/util-linux ~*
 sys-apps/yum ~*
 sys-block/partclone
 sys-block/thin-provisioning-tools ~*
