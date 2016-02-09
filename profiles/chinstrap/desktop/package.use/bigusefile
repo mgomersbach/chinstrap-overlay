@@ -23,6 +23,7 @@ media-video/gpac -wxwidgets
 media-video/vlc -qt4
 net-analyzer/metasploit gui
 net-firewall/firewalld gui
+net-libs/webkit-gtk -gles2
 net-mail/mu gui
 net-misc/vinagre spice
 razorqt-base/razorqt-panel volume
