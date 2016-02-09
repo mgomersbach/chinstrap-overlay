@@ -71,6 +71,7 @@ dev-util/gource
 dev-util/jenkins-bin **
 dev-util/metro ~*
 media-gfx/splash-themes-livedvd
+net-analyzer/bwm-ng ~*
 net-analyzer/goaccess
 net-analyzer/snort
 net-dns/dnssec-tools
