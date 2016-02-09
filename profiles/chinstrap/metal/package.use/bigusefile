@@ -5,7 +5,6 @@ app-emulation/qemu aio alsa xfs usbredir iscsi spice vde virtfs
 app-emulation/virtualbox extensions
 app-emulation/wine -mono prelink rar
 app-emulation/winetricks rar
-app-emulation/xen-tools qemu screen
 gnome-extra/gnome-boxes usbredir
 net-misc/spice-gtk usbredir
 net-misc/tinc vde
