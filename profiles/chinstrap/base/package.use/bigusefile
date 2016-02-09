@@ -75,6 +75,7 @@ net-im/empathy -geoloc
 net-libs/webkit-gtk -geoloc
 net-misc/bfgminer sse2_4way sse4
 net-misc/dhcp -server
+net-misc/iputils -caps -filecaps
 net-misc/ntp caps
 net-misc/openvpn iproute2
 net-misc/x2goserver sqlite
