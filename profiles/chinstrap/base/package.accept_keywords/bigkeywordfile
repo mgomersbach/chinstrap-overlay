@@ -1,5 +1,4 @@
 app-admin/eselect ~*
-app-admin/eselect-java **
 app-admin/perl-cleaner ~*
 app-admin/salt ~*
 app-arch/bzip2 ~*
@@ -8,6 +7,7 @@ app-arch/lzlib ~*
 app-arch/plzip ~*
 app-arch/xz-utils ~*
 app-emulation/lxc ~*
+app-eselect/eselect-java ~*
 app-i18n/fbterm ~*
 app-misc/resolve-march-native ~*
 app-portage/gentoolkit ~*
