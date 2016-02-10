@@ -1,4 +1,5 @@
 *app-admin/sudo
+*app-admin/rsyslog
 *app-arch/arj
 *app-arch/lbzip2
 *app-arch/lha
@@ -31,6 +32,7 @@
 *net-dns/bind-tools
 *net-fs/nfs-utils
 *net-irc/irssi
+*net-misc/dhcpcd
 *net-misc/telnet-bsd
 *sys-apps/dstat
 *sys-apps/mlocate

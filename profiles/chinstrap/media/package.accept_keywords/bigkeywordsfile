@@ -71,6 +71,7 @@ media-libs/libv4l ~*
 media-libs/libvisual ~*
 media-libs/libvorbis ~*
 media-libs/libvpx ~*
+media-libs/libwebp ~*
 media-libs/mesa ~*
 media-libs/openjpeg ~*
 media-libs/portaudio ~*
