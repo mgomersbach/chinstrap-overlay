@@ -6,6 +6,7 @@ app-arch/lrzip ~*
 app-arch/lzlib ~*
 app-arch/plzip ~*
 app-arch/xz-utils ~*
+app-emulation/docker ~*
 app-emulation/lxc ~*
 app-eselect/eselect-java ~*
 app-i18n/fbterm ~*
