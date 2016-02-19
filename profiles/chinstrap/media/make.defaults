@@ -7,7 +7,7 @@ bmp cdda cddb cdio cdparanoia cdrdao cdrom cec corefont cpudetection css
 dc1394 dirac dts dv dvb dvd encode exif faac faad ffmpeg ffmpegsource
 fftw flac fpx gd gif graphicsmagick gsm gstreamer hdri iec61883 ieee1394
 imagemagick jbig jp2k jpeg jpeg2k ladspa lame lcms libass libcaca
-libsamplerate libsoxr libv4l mad matroska melt midi mjpeg mms mng mp3
+libsamplerate libsoxr mad matroska melt midi mjpeg mms mng mp3
 mp4 mpeg mpeg2 mplayer musepack ogg openal openexr opengl opus
 orc pdf png pnm portaudio postproc postscript ppm psd q32 q64 q8
 quicktime -radio raw rtmp rtsp sdl sdl2 smpeg sound sox speex subtitle
