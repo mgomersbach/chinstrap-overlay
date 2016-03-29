@@ -19,3 +19,5 @@ VIDEO_CARDS="fbcon fbdev i915 i965 intel nouveau r600 radeon radeonsi
 vesa vmware amdgpu"
 
 INPUT_DEVICES="evdev keyboard mouse synaptics vmmouse"
+
+XFCE_PLUGINS="battery brightness clock multiload-nandhp power trash xmonad"
