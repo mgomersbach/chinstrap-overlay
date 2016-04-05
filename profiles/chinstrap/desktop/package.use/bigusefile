@@ -53,3 +53,20 @@ x11-themes/redhat-artwork icons
 xfce-base/xfce4-session consolekit
 xfce-base/xfdesktop thunar
 xfce-extra/xfce4-taskmanager -gksu
+
+# one of gstreamer gstreamer010 multimedia
+dev-qt/qtwebkit -gstreamer
+
+# one of
+net-analyzer/wireshark qt4 -qt5
+net-misc/dhcpcd-ui -gtk -qt4
+
+# ?
+dev-python/PyQt5 printsupport
+
+# nocaps
+net-misc/iputils -caps -filecaps
+
+# one, prefer opengl
+media-libs/gst-plugins-bad -egl -gles2
+
