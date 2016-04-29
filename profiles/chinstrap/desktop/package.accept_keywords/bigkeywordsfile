@@ -2,6 +2,7 @@ app-admin/keepass ~*
 app-emulation/winetricks ~*
 app-eselect/eselect-opengl ~*
 app-text/calibre ~*
+app-text/libwps ~*
 dev-dotnet/libgdiplus ~*
 dev-lang/tcl ~*
 dev-lang/tk ~*

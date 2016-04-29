@@ -33,6 +33,7 @@ media-libs/glew ~*
 media-libs/glm ~*
 media-libs/glm ~*
 media-libs/glu ~*
+media-libs/imlib2 ~*
 media-libs/jbigkit ~*
 media-libs/jpeg ~*
 media-libs/ladspa-sdk ~*

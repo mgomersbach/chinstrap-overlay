@@ -25,16 +25,18 @@ sys-process/criu ~*
 virtual/libusb ~*
 
 
-# required by app-emulation/docker-compose
-=dev-python/websocket-client-0.34.0 ~*
-=dev-python/texttable-0.8.2 ~*
-=dev-python/docker-py-1.3.1 ~*
-=dev-python/dockerpty-0.3.4 ~*
-=app-emulation/docker-compose-1.4.0 ~*
-# required by app-emulation/docker-machine
-=app-emulation/docker-machine-0.4.1 ~*
-# required by app-emulation/docker-swarm (argument)
-=app-emulation/docker-swarm-0.4.0 ~*
+dev-python/websocket-client ~*
+dev-python/texttable ~*
+dev-python/docker-py ~*
+dev-python/dockerpty ~*
+app-emulation/docker-compose ~*
+app-emulation/docker-machine ~*
+sys-libs/libseccomp ~*
+app-emulation/docker-swarm ~*
+dev-python/mkdocs ~*
 
-
+dev-python/cached-property ~*
+dev-python/py2-ipaddress ~*
+app-emulation/containerd ~*
+app-emulation/runc ~*
 
