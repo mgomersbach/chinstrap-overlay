@@ -15,4 +15,6 @@ www-apps/drupal:6 ~*
 www-apps/drupal:7 ~*
 www-apps/gateone ~*
 www-servers/apache ~*
+# http2
+www-servers/nginx ~*
 www-servers/tornado ~*
