@@ -11,6 +11,6 @@ libsamplerate libsoxr mad matroska melt midi mjpeg mms mng mp3
 mp4 mpeg mpeg2 mplayer musepack ogg openal openexr opengl opus
 orc pdf png pnm portaudio postproc postscript ppm psd q32 q64 q8
 quicktime -radio raw rtmp rtsp sdl sdl2 smpeg sound sox speex subtitle
-subtitles svg swfdec system-libvpx tga theora tiff timidity toolame
+subtitles svc svg swfdec system-libvpx tga theora tiff timidity toolame
 transcode truetype tslib tsmuxer twolame upnp-av vcd vcdx vorbis vpx wav
 webkit webm webp x264 x265 xft xpm xvid zvbi"
