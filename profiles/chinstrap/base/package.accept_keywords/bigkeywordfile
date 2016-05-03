@@ -57,6 +57,8 @@ dev-python/python-pam ~*
 dev-python/slimit ~*
 dev-python/snakeoil ~*
 dev-python/sphinxcontrib-googleanalytics ~*
+# required by app-portage/layman-2.4.0::gentoo
+dev-python/ssl-fetch ~*
 dev-python/timelib ~*
 dev-python/urwid **
 dev-python/yolk ~*
