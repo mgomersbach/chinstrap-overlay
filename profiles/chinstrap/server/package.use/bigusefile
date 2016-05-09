@@ -17,3 +17,9 @@ www-apps/drupal uploadprogress
 www-apps/gateone cssmin drach slimit
 www-servers/lighttpd memcache uploadprogress
 www-servers/nginx aio luajit pcre pcre-jit
+
+#samba
+>=sys-libs/ntdb-1.0-r1 python
+>=sys-libs/tevent-0.9.28 python
+>=sys-libs/tdb-1.3.9 python
+
