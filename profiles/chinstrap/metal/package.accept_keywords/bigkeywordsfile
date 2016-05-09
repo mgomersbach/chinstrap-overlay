@@ -19,7 +19,6 @@ dev-lang/go-bootstrap ~*
 sys-block/thin-provisioning-tools ~*
 sys-fs/aufs-headers ~*
 sys-fs/aufs-util ~*
-sys-fs/btrfs-progs **
 sys-libs/libnih ~*
 sys-process/criu ~*
 virtual/libusb ~*
