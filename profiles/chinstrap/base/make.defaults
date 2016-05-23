@@ -29,8 +29,7 @@ ssl symlink syslog -systemd threads tinfo udev upnp vim-syntax xattr xfs
 zip zlib -zoran zsh-completion ${NODESKTOPUSE} ${NOMEDIAUSE}"
 
 FEATURES="buildpkg ccache clean-logs compressdebug distcc distcc-pump
-ipc-sandbox -merge-sync metadata-transfer network-sandbox parallel-fetch
-parallel-install splitdebug userfetch userpriv usersandbox"
+parallel-fetch parallel-install"
 
 EMERGE_DEFAULT_OPTS="--getbinpkg --tree"
 PORTAGE_NICENESS="19"
