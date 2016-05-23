@@ -29,6 +29,7 @@ sys-devel/distcc nodistcc.conf
 sys-libs/talloc nodistcc.conf
 www-client/firefox nodistcc.conf
 www-servers/apache nodistcc.conf
+app-backup/fsarchiver nodistcc.conf
 
 # native cflags
 games-emulation/fceux nativecflags.conf
