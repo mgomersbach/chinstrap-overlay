@@ -1,2 +1,3 @@
 app-text/texlive extra
 dev-ml/findlib -tk
+sys-devel/prelink -doc
