@@ -8,6 +8,7 @@ app-arch/plzip ~*
 app-arch/xz-utils ~*
 app-emulation/docker ~*
 app-emulation/lxc ~*
+app-emulation/open-vm-tools ~*
 app-eselect/eselect-java ~*
 app-i18n/fbterm ~*
 app-misc/resolve-march-native ~*
