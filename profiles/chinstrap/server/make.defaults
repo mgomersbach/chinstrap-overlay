@@ -2,24 +2,13 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header:
 
-USE="apache2 avahi cgi client-libs community courier curl enchant
+USE="avahi cgi client-libs community courier curl enchant
 extraengine fcgi fpm ftp gd imap ldap ldap maildir mbox
 mdnsresponder-compat memcache memcached memcached mhash mmap mms-agent
 mongodb mpi mysql mysqli mysqlnd network nfs nis nls opcache pdo phar
 redis samba sasl setup sftp snmp soap sockets sqlite swat tidy
 uploadprogress vhosts vnc xml xmlreader xmlrpc xmlwriter xsl xvfb
 zeroconf "
-
-APACHE2_MPMS="event"
-
-APACHE2_MODULES="actions alias auth_basic auth_digest authn_anon
-authn_dbd authn_dbm authn_default authn_file authz_dbm authz_default
-authz_groupfile authz_host authz_owner authz_user autoindex cache
-cache_disk dav dav_fs dav_lock dbd deflate dir disk_cache env expires
-ext_filter file_cache filter headers http2 ident imagemap include info
-log_config logio mem_cache mime mime_magic negotiation proxy proxy_ajp
-proxy_balancer proxy_connect proxy_fcgi proxy_http rewrite setenvif
-slotmem_shm speling status unique_id userdir usertrack vhost_alias"
 
 NGINX_MODULES_HTTP="access auth_basic autoindex browser charset
 empty_gif fastcgi flv geo geoip gunzip gzip headers_more limit_conn

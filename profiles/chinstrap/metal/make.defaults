@@ -3,6 +3,6 @@
 # $Header:
 
 USE="extensions fbcondecor fbdev fbosd fbsplash hwdb iscsi libcloud
-libvirt lm_sensors lxc mako mdadm netapi openmp parted pm-utils spice
-system-qemu system-seabios systemtap timelib usb usb usbredir vde virtfs
--virt-network vnc"
+libvirt lm_sensors lxc mako mdadm netapi openmp overlay parted pm-utils 
+spice system-qemu system-seabios systemtap timelib usb usb usbredir vde 
+virtfs -virt-network vnc"

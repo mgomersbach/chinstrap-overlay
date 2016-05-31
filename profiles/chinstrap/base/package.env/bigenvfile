@@ -7,7 +7,6 @@ dev-lang/ruby O3.conf nodistcc.conf
 media-libs/libvpx O3.conf
 media-video/ffmpeg O3.conf
 sys-libs/talloc O3.conf
-www-servers/apache O3.conf
 
 # no distcc features
 app-emulation/wine nodistcc.conf
@@ -28,7 +27,6 @@ sys-block/thin-provisioning-tools nodistcc.conf
 sys-devel/distcc nodistcc.conf
 sys-libs/talloc nodistcc.conf
 www-client/firefox nodistcc.conf
-www-servers/apache nodistcc.conf
 app-backup/fsarchiver nodistcc.conf
 
 # native cflags
