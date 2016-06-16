@@ -16,7 +16,7 @@ www-apps/cgit highlight
 www-apps/drupal uploadprogress
 www-apps/gateone cssmin drach slimit
 www-servers/lighttpd memcache uploadprogress
-www-servers/nginx aio luajit pcre pcre-jit
+www-servers/nginx aio luajit pcre pcre-jit -rtmp
 
 #samba
 >=sys-libs/ntdb-1.0-r1 python
