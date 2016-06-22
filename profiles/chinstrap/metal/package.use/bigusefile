@@ -1,6 +1,6 @@
 app-emulation/docker device-mapper
-app-emulation/ganeti lxc kvm
-app-emulation/libvirt iscsi qemu lxc lvm parted pcap
+app-emulation/ganeti kvm
+app-emulation/libvirt iscsi qemu lvm parted pcap
 app-emulation/qemu aio alsa xfs usbredir iscsi spice vde virtfs
 app-emulation/virtualbox extensions
 app-emulation/wine -mono prelink rar

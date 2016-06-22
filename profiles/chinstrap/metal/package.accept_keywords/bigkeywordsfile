@@ -1,10 +1,7 @@
 app-admin/cgmanager ~*
-app-emulation/docker ~*
 app-emulation/libvirt ~*
 dev-python/libvirt-python ~*
 app-emulation/libvirt-glib ~*
-app-emulation/lxc **
-app-emulation/lxc-gentoo **
 app-emulation/open-vm-tools ~*
 app-emulation/open-vm-tools-kmod ~*
 app-emulation/qemu ~*
@@ -12,30 +9,5 @@ app-emulation/spice-protocol ~*
 app-emulation/vagrant ~*
 app-emulation/virt-manager **
 app-emulation/vmware-view-open-client ~*
-dev-go/blackfriday ~*
-dev-go/go-md2man ~*
-dev-go/sanitized-anchor-name ~*
-dev-lang/go-bootstrap ~*
 sys-block/thin-provisioning-tools ~*
-sys-fs/aufs-headers ~*
-sys-fs/aufs-util ~*
-sys-libs/libnih ~*
-sys-process/criu ~*
 virtual/libusb ~*
-
-
-dev-python/websocket-client ~*
-dev-python/texttable ~*
-dev-python/docker-py ~*
-dev-python/dockerpty ~*
-app-emulation/docker-compose ~*
-app-emulation/docker-machine ~*
-sys-libs/libseccomp ~*
-app-emulation/docker-swarm ~*
-dev-python/mkdocs ~*
-
-dev-python/cached-property ~*
-dev-python/py2-ipaddress ~*
-app-emulation/containerd ~*
-app-emulation/runc ~*
-

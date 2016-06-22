@@ -1,0 +1,27 @@
+app-emulation/docker ~*
+app-emulation/lxc **
+app-emulation/lxc-gentoo **
+dev-go/blackfriday ~*
+dev-go/go-md2man ~*
+dev-go/sanitized-anchor-name ~*
+dev-lang/go-bootstrap ~*
+sys-fs/aufs-headers ~*
+sys-fs/aufs-util ~*
+sys-libs/libnih ~*
+sys-process/criu ~*
+dev-python/websocket-client ~*
+dev-python/texttable ~*
+dev-python/docker-py ~*
+dev-python/dockerpty ~*
+app-emulation/docker-compose ~*
+app-emulation/docker-machine ~*
+sys-libs/libseccomp ~*
+app-emulation/docker-swarm ~*
+dev-python/mkdocs ~*
+dev-python/cached-property ~*
+dev-python/py2-ipaddress ~*
+app-emulation/containerd ~*
+app-emulation/runc ~*
+dev-python/backports-ssl-match-hostname ~*
+dev-python/ipaddress ~*
+
