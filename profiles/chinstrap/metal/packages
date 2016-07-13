@@ -1,8 +1,11 @@
+*app-emulation/libvirt
 *app-emulation/qemu
 *sys-apps/lm_sensors
+*sys-apps/microcode-ctl
 *sys-apps/pciutils
 *sys-apps/smartmontools
 *sys-apps/usbutils
 *sys-boot/grub
 *sys-libs/gpm
+*sys-power/acpid
 *sys-power/powertop
