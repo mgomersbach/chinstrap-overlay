@@ -53,6 +53,7 @@
 *sys-fs/ncdu
 *sys-fs/xfsprogs
 *sys-kernel/genkernel-next
+*sys-kernel/gentoo-sources
 *sys-process/cronie
 *sys-process/lsof
 *www-client/links
