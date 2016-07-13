@@ -75,7 +75,8 @@ x11-libs/libxshmfence ~*
 x11-libs/wxGTK ~*
 x11-libs/xpyb ~*
 x11-libs/xtrans ~*
-x11-misc/cdm
+x11-misc/ccsm ~*
+x11-misc/cdm ~*
 x11-misc/compton ~*
 x11-misc/notification-daemon ~*
 x11-misc/notification-daemon **
