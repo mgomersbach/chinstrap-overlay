@@ -1,5 +1,6 @@
+app-emulation/wine staging
 dev-libs/iniparser abi_x86_32
-net-fs/samba abi_x86_32
+net-fs/samba abi_x86_32 winbind
 sys-devel/flex abi_x86_32
 sys-libs/cracklib abi_x86_32
 sys-libs/pam abi_x86_32
