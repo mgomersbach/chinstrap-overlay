@@ -50,6 +50,7 @@
 *sys-devel/m4
 *sys-devel/prelink
 *sys-fs/btrfs-progs
+*sys-fs/cachefilesd
 *sys-fs/ncdu
 *sys-fs/xfsprogs
 *sys-kernel/genkernel-next

@@ -4,11 +4,11 @@
 
 # Portage stuff
 ACCEPT_LICENSE="*"
-NODESKTOPUSE="-berkdb -cairo -cups -dbus -directfb -dri -dri3 -drm -egl
--emerald -fbcon -firefox -g3dvl -gallium -gnome -gtk -gtk3 -gtkstyle
--icons -infinality -introspection -joystick -kde -llvm -llvm-shared-libs
+NODESKTOPUSE="-berkdb -cairo -cups -dbus -dri -dri3 
+-emerald -firefox -g3dvl -gnome -gtk -gtk3 -gtkstyle
+-icons -infinality -introspection -joystick -kde
 -nsplugin -openmp -openvg -osmesa -pango -pcre -pixbuf -pixman
--qt3support -qt4 -qt5 -r600-llvm-compiler -shmvideo -sna -system-cairo
+-qt3support -qt4 -qt5 -sna -system-cairo
 -tcpd -thunar -v4l -v4l2 -vaapi -vdpau -vlc -volume -wxwidgets -X -xcb
 -xcomposite -xorg -xrandr -xrender -xscreensaver -xv -xvmc -zeroconf"
 
@@ -43,13 +43,13 @@ ABI_X86="64 32"
 # Misc stuff
 GRUB_PLATFORMS="pc emu efi-64"
 DRACUT_MODULES="btrfs cifs iscsi lvm nbd nfs plymouth ssh-client"
-VIDEO_CARDS=""
+VIDEO_CARDS="fbcon fbdev"
 FETCHCOMMAND="/usr/bin/curl --connect-timeout 15 -# -o \${DISTDIR}/\${FILE} \${URI}" 
 RESUMECOMMAND="/usr/bin/curl --connect-timeout 15 -# -C - -o \${DISTDIR}/\${FILE}\${URI}"
 QEMU_SOFTMMU_TARGETS="x86_64 i386 aarch64 arm"
 QEMU_USER_TARGETS="aarch64 arm i386 x86_64"
 DONT_MOUNT_BOOT=1
 NGINX_MODULES_HTTP="access auth_basic autoindex browser charset
-empty_gif fastcgi geo gzip limit_conn limit_req map memcached mp4 proxy
-referer rewrite scgi split_clients ssi upstream_ip_hash userid uwsgi"
+  empty_gif fastcgi geo gzip limit_conn limit_req map memcached mp4 proxy
+  referer rewrite scgi split_clients ssi upstream_ip_hash userid uwsgi"
 
