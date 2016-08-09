@@ -1,0 +1,7 @@
+# required by app-emulation/virt-manager-9999::gentoo[gtk]
+# required by virt-manager (argument)
+net-libs/gtk-vnc python
+# required by app-emulation/virt-manager-9999::gentoo
+# required by virt-manager (argument)
+app-emulation/libvirt-glib python
+
