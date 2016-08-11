@@ -1,0 +1,15 @@
+*app-admin/keepass
+*app-emulation/virt-manager
+*app-office/libreoffice
+*app-portage/porthole
+*app-text/qpdfview
+*media-gfx/geeqie
+*net-firewall/ufw-frontends
+*net-im/pidgin
+*net-im/purple-events
+*net-misc/x11-ssh-askpass
+*net-misc/vinagre
+*sci-calculators/galculator
+*sys-apps/gsmartcontrol
+*x11-misc/synergy
+*x11-terms/guake
