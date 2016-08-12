@@ -1,9 +1,3 @@
 ..
-../../../../metal
-../../../../dockerhost
-../../../../security
-../../../../admin
-../../../../media
-../../../../desktop
+../markws
 ../../../../laptop
-../../../../gaming
