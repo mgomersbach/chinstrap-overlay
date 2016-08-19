@@ -6,7 +6,7 @@ USE="256-color auto-hinter blink bluetooth cairo consolekit corefonts
 cups dbus directfb djvu dri dri dri3 drm drmkms egl emerald
 evdev fbcon g3dvl gallium gimp gles2 gksu glamor -gphoto2 growl gtk gtk3
 gtkstyle gudev ico icons iconv infinality introspection joystick -kde
-ldap libkms libnotify llvm llvm-shared-libs mono mozilla mtp nls
+ldap libinput libkms libnotify llvm llvm-shared-libs mono mozilla mtp nls
 nsplugin opengl openvg osmesa pango pixbuf pixman policykit qt3support
 qt4 qt5 r600-llvm-compiler razor rdp resize-optimization samba
 screen-sharing session shmvideo sna spell system-cairo system-icu
@@ -14,11 +14,11 @@ system-jpeg system-sqlite systemtap tablet tcl thunar tk
 udisks uvm v4l v4l2 vaapi vdpau vlc vnc voice volume
 widgets declarative designer gui multimedia network
 webcam wxwidgets X x11 xa xcb xcomposite xim -xinerama xkb xorg xrandr
-xrender xscreensaver xv xvmc xwayland zeroconf"
+xrender xscreensaver xv xvmc zeroconf"
 
 VIDEO_CARDS="fbcon fbdev i915 i965 intel nouveau r600 radeon radeonsi
 vesa vmware amdgpu"
 
-INPUT_DEVICES="evdev keyboard mouse synaptics vmmouse"
+INPUT_DEVICES="evdev libinput keyboard mouse synaptics vmmouse"
 
 XFCE_PLUGINS="battery brightness clock multiload-nandhp power trash xmonad"
