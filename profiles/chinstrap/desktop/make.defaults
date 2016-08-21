@@ -10,7 +10,7 @@ ldap libinput libkms libnotify llvm llvm-shared-libs mono mozilla mtp nls
 nsplugin opengl openvg osmesa pango pixbuf pixman policykit qt3support
 qt4 qt5 r600-llvm-compiler razor rdp resize-optimization samba
 screen-sharing session shmvideo sna spell system-cairo system-icu
-system-jpeg system-sqlite systemtap tablet tcl thunar tk
+system-jpeg system-sqlite systemtap tablet tcl thunar
 udisks uvm v4l v4l2 vaapi vdpau vlc vnc voice volume
 widgets declarative designer gui multimedia network
 webcam wxwidgets X x11 xa xcb xcomposite xim -xinerama xkb xorg xrandr
