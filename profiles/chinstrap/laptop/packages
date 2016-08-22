@@ -1,4 +1,4 @@
-*app-laptop/laptop-mode-tools
 *net-wireless/rfkill
+*net-wireless/wireless-tools
 *net-wireless/wpa_supplicant
 *xfce-extra/xfce4-battery-plugin
