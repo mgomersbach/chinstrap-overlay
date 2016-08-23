@@ -1,10 +1,7 @@
 app-editors/atom ~*
 app-editors/wxhexeditor ~*
 app-vim/vimbuddy ~*
-dev-lang/ocaml ~*
 dev-libs/libuv ~*
-dev-ml/findlib ~*
-dev-ml/ocaml-ctypes ~*
 dev-python/mkdocs-bootstrap ~*
 dev-python/mkdocs-bootswatch ~*
 dev-python/yapf ~*

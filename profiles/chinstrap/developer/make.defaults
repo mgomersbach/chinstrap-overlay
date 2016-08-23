@@ -8,7 +8,7 @@ devhelp devtools doc dot doxysearch drkaiser dummy emacs erlang
 ft2232_spi gfxnvidia git gold graph help internal internal_dmi
 introspection it8212 jadetex java jde latex libopts linux_spi llvm lto
 lua lua-cairo lua-imlib mono mstarddc_spi network nic3com nicintel
-nicintel_eeprom nicintel_spi nicnatsemi nicrealtek ocaml octave ogp_spi
+nicintel_eeprom nicintel_spi nicnatsemi nicrealtek octave ogp_spi
 pch pcre perl php pickit2_spi plugins pony_spi prelink prelude pyside
 python qml rayer_spi ruby satamv satasii script scripttools sdk serprog
 sql static-analyzer stubgen swig test test-programs tools tools udis86
