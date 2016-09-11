@@ -27,7 +27,7 @@ media-libs/avidemux-core amr system-ffmpeg
 media-libs/avidemux-plugins amr faac faad twolame vpx
 media-libs/emotion vlc
 media-libs/evas bmp ppm tga
-media-libs/freetype auto-hinter infinality
+media-libs/freetype auto-hinter
 media-libs/glfw egl
 media-libs/gst-plugins-bad egl
 media-libs/gst-plugins-ffmpeg -bindist
