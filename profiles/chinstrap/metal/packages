@@ -8,4 +8,5 @@
 *sys-boot/grub
 *sys-libs/gpm
 *sys-power/acpid
+*sys-power/pm-utils
 *sys-power/powertop
