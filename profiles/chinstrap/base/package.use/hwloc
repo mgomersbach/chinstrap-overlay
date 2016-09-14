@@ -1,0 +1,2 @@
+# prevent nvidia-drivers pull
+sys-apps/hwloc -gl
