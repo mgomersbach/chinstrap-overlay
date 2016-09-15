@@ -4,7 +4,7 @@
 
 USE="256-color auto-hinter blink bluetooth cairo consolekit corefonts
 cups dbus directfb djvu dri dri dri3 drm drmkms egl emerald
-evdev fbcon g3dvl gallium gimp gles2 gksu glamor -gphoto2 growl gtk gtk3
+evdev fbcon g3dvl gallium gconf gimp gles2 gksu glamor -gphoto2 growl gtk gtk3
 gtkstyle gudev ico icons iconv introspection joystick -kde
 ldap libinput libkms libnotify llvm llvm-shared-libs mono mozilla mtp nls
 nsplugin opengl openvg osmesa pango pixbuf pixman policykit qt3support
