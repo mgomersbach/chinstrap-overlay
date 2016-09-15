@@ -8,7 +8,7 @@ mdnsresponder-compat memcache memcached memcached mhash mmap mms-agent
 mongodb mpi mysql mysqli mysqlnd network nfs nis nls opcache pdo phar
 redis samba sasl setup sftp snmp soap sockets sqlite swat tidy
 uploadprogress vhosts vnc xml xmlreader xmlrpc xmlwriter xsl xvfb
-zeroconf "
+zeroconf -apache2"
 
 NGINX_MODULES_HTTP="access auth_basic autoindex browser charset
 empty_gif fastcgi flv geo geoip gunzip gzip headers_more limit_conn
