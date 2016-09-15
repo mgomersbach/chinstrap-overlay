@@ -4,7 +4,7 @@
 
 USE="ada api atahpt atavia bitbang_spi buspirate_spi client ctypes-python
 cvs cxx debugger declarative dediprog designer developer development
-devhelp devtools doc dot doxysearch drkaiser dummy emacs erlang
+devhelp devtools dot doxysearch drkaiser dummy emacs erlang
 ft2232_spi gfxnvidia git gold graph help internal internal_dmi
 introspection it8212 jadetex java jde latex libopts linux_spi llvm lto
 lua lua-cairo lua-imlib mono mstarddc_spi network nic3com nicintel
