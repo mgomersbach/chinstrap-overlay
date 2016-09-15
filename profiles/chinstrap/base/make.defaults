@@ -9,7 +9,7 @@ NODESKTOPUSE="-berkdb -cairo -cups -dbus -dri -dri3
 -icons -infinality -introspection -joystick -kde
 -nsplugin -openmp -openvg -osmesa -pango -pcre -pixbuf -pixman
 -qt3support -qt4 -qt5 -sna -system-cairo
--tcpd -thunar -v4l -v4l2 -vaapi -vdpau -vlc -volume -wxwidgets -X -xcb
+-thunar -v4l -v4l2 -vaapi -vdpau -vlc -volume -wxwidgets -X -xcb
 -xcomposite -xorg -xrandr -xrender -xscreensaver -xv -xvmc -zeroconf"
 
 NOMEDIAUSE="-a52 -aac -alsa -bidi -bluetooth -cdda -cdr -dts -dvd -dvdr
