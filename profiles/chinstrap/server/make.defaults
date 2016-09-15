@@ -2,8 +2,8 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header:
 
-USE="avahi ban cgi client-libs community courier curl dedicated enchant
-extraengine fcgi fpm ftp gd imap ldap ldap maildir mbox
+USE="avahi ban cgi client-libs community copy courier curl ctrls daemon
+dedicated deflate diskuse dlz enchant extraengine fcgi fpm ftp gd imap ldap ldap maildir mbox
 mdnsresponder-compat memcache memcached memcached mhash mmap mms-agent
 mongodb mpi mysql mysqli mysqlnd network nfs nis nls opcache pdo phar
 redis samba sasl server setup sftp snmp soap sockets sqlite swat tidy

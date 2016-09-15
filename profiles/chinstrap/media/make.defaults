@@ -3,7 +3,7 @@
 # $Header:
 
 USE="a52 aac aacplus aalib airplay alsa alsa amr apng asf audiofile bidi bluray
-bmp cdda cddb cdio cdparanoia cdrdao cdrom cec corefont cpudetection css
+bmp cdda cddb cdio cdparanoia cdrdao cdrom cec corefonts cpudetection css
 dc1394 dirac dts dv dvb dvd encode exif faac faad ffmpeg ffmpegsource
 fftw flac fpx gd gif graphicsmagick gsm gstreamer hdri iec61883 ieee1394
 imagemagick jbig jp2k jpeg jpeg2k ladspa lame lcms libass libcaca
