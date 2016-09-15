@@ -1,4 +1,4 @@
 # Copyright 2004-2016 Gentoo Foundation.
 # Distributed under the terms of the GNU General Public License v2
 
-USE="games haptic joystick midi quake3 s3tc S3TC sdl2 sdlmess"
+USE="ao games haptic joystick midi quake3 s3tc S3TC sdl2 sdlmess"
