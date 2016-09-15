@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header:
 
-USE="256-color auto-hinter blink bluetooth cairo consolekit corefonts
+USE="256-color auto-hinter blink bluetooth cairo cairo-qt consolekit corefonts
 cups dbus directfb djvu dri dri dri3 drm drmkms egl emerald
 evdev fbcon g3dvl gallium gconf gimp gles2 gksu glamor -gphoto2 growl gtk gtk3
 gtkstyle gudev hidpi ico icons iconv introspection joystick -kde
