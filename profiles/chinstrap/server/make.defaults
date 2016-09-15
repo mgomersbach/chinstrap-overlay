@@ -2,11 +2,11 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header:
 
-USE="avahi cgi client-libs community courier curl enchant
+USE="avahi cgi client-libs community courier curl dedicated enchant
 extraengine fcgi fpm ftp gd imap ldap ldap maildir mbox
 mdnsresponder-compat memcache memcached memcached mhash mmap mms-agent
 mongodb mpi mysql mysqli mysqlnd network nfs nis nls opcache pdo phar
-redis samba sasl setup sftp snmp soap sockets sqlite swat tidy
+redis samba sasl server setup sftp snmp soap sockets sqlite swat tidy
 uploadprogress vhosts vnc xml xmlreader xmlrpc xmlwriter xsl xvfb
 zeroconf -apache2"
 
