@@ -2,7 +2,7 @@ app-admin/eselect-php fpm
 dev-db/drizzle memcache
 dev-db/pgpool2 memcached
 dev-db/phpmyadmin setup
-dev-lang/php mysqli fileinfo fpm mysqlnd pdo xmlreader xmlwriter xslt pcntl
+dev-lang/php mysqli fileinfo fpm mysqlnd pdo xmlreader xmlwriter xslt pcntl -recode
 dev-php/PEAR-HTTP_Request2 fileinfo
 dev-php/pecl-memcached -sasl
 mail-filter/opendkim memcached
