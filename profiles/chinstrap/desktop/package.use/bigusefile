@@ -64,9 +64,6 @@ net-misc/dhcpcd-ui -gtk -qt4
 # ?
 dev-python/PyQt5 printsupport
 
-# nocaps
-net-misc/iputils -caps -filecaps
-
 # one, prefer opengl
 media-libs/gst-plugins-bad -egl -gles2
 
