@@ -55,7 +55,7 @@ xfce-base/xfdesktop thunar
 xfce-extra/xfce4-taskmanager -gksu
 
 # one of gstreamer gstreamer010 multimedia
-dev-qt/qtwebkit -gstreamer
+dev-qt/qtwebkit:5 -gstreamer
 
 # one of
 net-analyzer/wireshark qt4 -qt5
