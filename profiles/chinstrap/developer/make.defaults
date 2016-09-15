@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header:
 
-USE="ada api atahpt atavia bitbang_spi buspirate_spi client ctypes-python
+USE="ada api atahpt atavia bash bitbang_spi buspirate_spi client ctypes-python
 cvs cxx debugger declarative dediprog designer developer development
 devhelp devtools dot doxysearch drkaiser dummy emacs erlang
 ft2232_spi gfxnvidia git gitchangebar gold graph help internal internal_dmi
