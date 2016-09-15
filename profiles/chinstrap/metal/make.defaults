@@ -5,4 +5,4 @@
 USE="extensions fbcondecor fbdev fbosd fbsplash hwdb iscsi libcloud
 libvirt lm_sensors mdadm openmp parted pm-utils acpi cgmanager
 spice system-qemu system-seabios systemtap timelib usb usbredir vde 
-virtfs -virt-network vnc"
+virtfs virgl -virt-network vnc"
