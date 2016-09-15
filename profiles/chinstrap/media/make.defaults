@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header:
 
-USE="a52 aac aalib airplay alsa alsa amr apng asf audiofile bidi bluray
+USE="a52 aac aacplus aalib airplay alsa alsa amr apng asf audiofile bidi bluray
 bmp cdda cddb cdio cdparanoia cdrdao cdrom cec corefont cpudetection css
 dc1394 dirac dts dv dvb dvd encode exif faac faad ffmpeg ffmpegsource
 fftw flac fpx gd gif graphicsmagick gsm gstreamer hdri iec61883 ieee1394
