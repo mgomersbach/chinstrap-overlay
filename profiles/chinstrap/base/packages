@@ -35,6 +35,7 @@
 *net-dns/bind-tools
 *net-fs/davfs2
 *net-fs/nfs-utils
+*net-ftp/lftp
 *net-irc/irssi
 *net-misc/bridge-utils
 *net-misc/dhcpcd
