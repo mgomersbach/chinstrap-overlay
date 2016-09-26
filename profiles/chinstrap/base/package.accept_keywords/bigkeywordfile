@@ -116,7 +116,8 @@ sys-fs/e2fsprogs ~*
 sys-fs/udev ~*
 sys-fs/udev-init-scripts ~*
 sys-fs/xfsprogs ~*
-sys-kernel/dracut
+sys-kernel/dracut ~*
+sys-kernel/linux-firmware ~*
 sys-kernel/gentoo-sources ~*
 sys-libs/core-functions ~*
 sys-libs/e2fsprogs-libs ~*
