@@ -12,6 +12,7 @@ sys-process/criu ~*
 dev-python/websocket-client ~*
 dev-python/texttable ~*
 dev-python/docker-py ~*
+dev-python/docker-pycreds ~*
 dev-python/dockerpty ~*
 app-emulation/docker-compose ~*
 app-emulation/docker-machine ~*
