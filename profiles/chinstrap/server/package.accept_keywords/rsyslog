@@ -1,0 +1,2 @@
+# otherwise conflict with newer zeromq needed for saltstack 
+net-libs/czmq ~*
