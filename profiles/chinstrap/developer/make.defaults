@@ -12,5 +12,5 @@ nicintel_eeprom nicintel_spi nicnatsemi nicrealtek octave ogp_spi
 pch pcre perl php pickit2_spi plugins pony_spi prelink prelude pyside
 python qml rayer_spi ruby satamv satasii script scripttools sdk serprog
 sql static-analyzer stubgen swig test test-programs tools tools udis86
-unicode_collation usbblaster usbblaster_spi vala vim vte xemacs xetex
+unicode_collation usbblaster usbblaster_spi vala vim vte xetex
 xmlpatterns"
