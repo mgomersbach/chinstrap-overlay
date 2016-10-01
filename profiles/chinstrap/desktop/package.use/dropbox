@@ -1,0 +1,2 @@
+# PyQt5 needed for dropbox for X without X useflag
+>=dev-qt/qtwebkit-5.6.1 printsupport
