@@ -20,12 +20,13 @@ EGIT_REPO_URI="git://github.com/geany/${PN}.git"
 LICENSE="GPL-2+ HPND"
 SLOT="0"
 KEYWORDS="alpha amd64 arm ia64 ppc ppc64 sparc x86 ~x86-fbsd ~amd64-linux ~x86-linux"
-IUSE="+vte"
+IUSE="+vte doc"
 
 RDEPEND=">=x11-libs/gtk+-2.16:2
 	>=dev-libs/glib-2.20:2
 	vte? ( x11-libs/vte:0 )"
 DEPEND="${RDEPEND}
+        dev-python/docutils
 	virtual/pkgconfig
 	dev-util/intltool
 	sys-devel/gettext"
