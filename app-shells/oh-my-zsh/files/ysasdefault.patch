@@ -1,11 +1,12 @@
 --- templates_org/zshrc.zsh-template	2014-01-27 19:54:35.358861717 +0100
 +++ templates/zshrc.zsh-template	2014-01-27 19:52:35.749764597 +0100
 @@ -5,7 +5,7 @@
- # Look in ~/.oh-my-zsh/themes/
- # Optionally, if you set this to "random", it'll load a random theme each
- # time that oh-my-zsh is loaded.
+ # Set name of the theme to load. Optionally, if you set this to "random"
+ # it'll load a random theme each time that oh-my-zsh is loaded.
+ # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 -ZSH_THEME="robbyrussell"
 +ZSH_THEME="ys"
- 
- # Example aliases
- # alias zshconfig="mate ~/.zshrc"
+
+ # Uncomment the following line to use case-sensitive completion.
+ # CASE_SENSITIVE="true"
+
