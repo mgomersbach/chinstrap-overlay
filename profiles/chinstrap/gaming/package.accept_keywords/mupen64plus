@@ -1,0 +1,22 @@
+# required by games-emulation/mupen64plus-2.5::gentoo[video-glide64mk2]
+# required by mupen64plus (argument)
+games-emulation/mupen64plus-video-glide64mk2 ~*
+# required by games-emulation/mupen64plus-2.5::gentoo[ui-console]
+# required by mupen64plus (argument)
+games-emulation/mupen64plus-ui-console ~*
+# required by games-emulation/mupen64plus-2.5::gentoo[input-sdl]
+# required by mupen64plus (argument)
+games-emulation/mupen64plus-input-sdl ~*
+# required by games-emulation/mupen64plus-ui-console-2.5::gentoo
+# required by games-emulation/mupen64plus-2.5::gentoo[ui-console]
+# required by mupen64plus (argument)
+games-emulation/mupen64plus-core ~*
+# required by games-emulation/mupen64plus-2.5::gentoo[video-rice]
+# required by mupen64plus (argument)
+games-emulation/mupen64plus-video-rice ~*
+# required by games-emulation/mupen64plus-2.5::gentoo[rsp-hle]
+# required by mupen64plus (argument)
+games-emulation/mupen64plus-rsp-hle ~*
+# required by games-emulation/mupen64plus-2.5::gentoo[audio-sdl]
+# required by mupen64plus (argument)
+games-emulation/mupen64plus-audio-sdl ~*
