@@ -1,0 +1,2 @@
+# doenst resolve nicely in portage so hardmasked to avoid false messages.
+>=dev-python/requests-2.8
