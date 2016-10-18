@@ -25,8 +25,8 @@ logrotate logwatch lto lz4 lzma lzo mms mono -mono mpi mtp ncurses
 -networkmanager nfs nfsdcld nfsidmap nfsv4 nfsv41 ntfs ntfsprogs ntp
 offensive openrc orc pam pch pci pdf perl prelink -pulseaudio rar
 readline -reiser4 sendmail sep-usr sftp shm smp smtp snappy sqlite ssh
-ssl symlink syslog -systemd threads tinfo udev upnp vim-syntax xattr xfs
-zip zlib -zoran zsh-completion ${NODESKTOPUSE} ${NOMEDIAUSE}"
+ssl symlink sync-plugin-portage syslog -systemd threads tinfo udev upnp vim-syntax 
+xattr xfs zip zlib -zoran zsh-completion ${NODESKTOPUSE} ${NOMEDIAUSE}"
 
 FEATURES="buildpkg ccache clean-logs compressdebug distcc distcc-pump
 parallel-fetch parallel-install"
