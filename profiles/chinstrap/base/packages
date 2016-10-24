@@ -39,7 +39,7 @@
 *net-irc/irssi
 *net-misc/bridge-utils
 *net-misc/dhcpcd
-*net-misc/openntpd
+*net-misc/ntp
 *net-misc/telnet-bsd
 *sys-apps/dmidecode
 *sys-apps/dstat

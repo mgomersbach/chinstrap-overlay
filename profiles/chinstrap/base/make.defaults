@@ -23,7 +23,7 @@ encode -extras experimental fading-colors fat -fam fbcon fileinfo fontconfig fus
 git gmp gold -gnutls gpm gzip hfs highlight icu inotify ipv6 -iso14755 -ldap
 logrotate logwatch lto lz4 lzma lzo mms mono -mono mpi mtp ncurses
 -networkmanager nfs nfsdcld nfsidmap nfsv4 nfsv41 ntfs ntfsprogs ntp
-offensive openrc orc pam pch pci pdf perl prelink -pulseaudio rar
+offensive openntpd openrc orc pam pch pci pdf perl prelink -pulseaudio rar
 readline -reiser4 sendmail sep-usr sftp shm smp smtp snappy sqlite ssh
 ssl symlink sync-plugin-portage syslog -systemd threads tinfo udev upnp vim-syntax 
 xattr xfs zip zlib -zoran zsh-completion ${NODESKTOPUSE} ${NOMEDIAUSE}"
