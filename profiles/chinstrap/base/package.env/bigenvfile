@@ -49,13 +49,13 @@ games-emulation/sdlmess notmpfs.conf
 mail-client/thunderbird notmpfs.conf
 
 # No gcc5, instead oldgcc4.9.4
-sys-fs/mdadm oldgcc
-net-libs/libiscsi oldgcc
-sys-process/audit oldgcc
-net-fs/nfs-utils oldgcc
-media-sound/timidity++ oldgcc
-net-analyzer/bwm-ng oldgcc
-media-libs/libaacplus oldgcc
-media-libs/gegl oldgcc
-media-gfx/exiv2 oldgcc
+sys-fs/mdadm oldgcc.conf
+net-libs/libiscsi oldgcc.conf
+sys-process/audit oldgcc.conf
+net-fs/nfs-utils oldgcc.conf
+media-sound/timidity++ oldgcc.conf
+net-analyzer/bwm-ng oldgcc.conf
+media-libs/libaacplus oldgcc.conf
+media-libs/gegl oldgcc.conf
+media-gfx/exiv2 oldgcc.conf
 
