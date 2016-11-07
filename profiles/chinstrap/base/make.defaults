@@ -25,7 +25,7 @@ logrotate logwatch lto lz4 lzma lzo mms mono -mono mpi mtp ncurses
 -networkmanager nfs nfsdcld nfsidmap nfsv4 nfsv41 ntfs ntfsprogs ntp
 offensive openntpd openrc orc pam pch pci pcre16 pcre32 pdf perl prelink -pulseaudio rar
 readline -reiser4 sendmail sep-usr sftp shm smp smtp snappy sqlite ssh
-ssl symlink sync-plugin-portage syslog -systemd threads tinfo udev upnp vim-syntax 
+ssl symlink sync-plugin-portage syslog -systemd threads tinfo udev unconfined upnp vim-syntax 
 xattr xfs zip zlib -zoran zsh-completion ${NODESKTOPUSE} ${NOMEDIAUSE}"
 
 FEATURES="buildpkg ccache clean-logs compressdebug distcc distcc-pump
@@ -53,3 +53,4 @@ NGINX_MODULES_HTTP="access auth_basic autoindex browser charset
   empty_gif fastcgi geo gzip limit_conn limit_req map memcached mp4 proxy
   referer rewrite scgi split_clients ssi upstream_ip_hash userid uwsgi"
 
+POLICY_TYPES="targeted"
