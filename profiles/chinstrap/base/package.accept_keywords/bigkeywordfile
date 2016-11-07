@@ -13,7 +13,6 @@ app-eselect/eselect-java ~*
 app-i18n/fbterm ~*
 app-misc/resolve-march-native ~*
 app-portage/gentoolkit ~*
-app-portage/layman ~*
 app-portage/ufed ~*
 app-portage/update ~*
 app-shells/bash-completion **
@@ -58,8 +57,6 @@ dev-python/python-pam ~*
 dev-python/slimit ~*
 dev-python/snakeoil ~*
 dev-python/sphinxcontrib-googleanalytics ~*
-# required by app-portage/layman-2.4.0::gentoo
-dev-python/ssl-fetch ~*
 dev-python/timelib ~*
 dev-python/urwid **
 dev-python/yolk ~*

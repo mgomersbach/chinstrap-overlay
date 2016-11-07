@@ -1,0 +1,4 @@
+media-libs/mesa **
+dev-util/cmake ~*
+sys-devel/llvm **
+
