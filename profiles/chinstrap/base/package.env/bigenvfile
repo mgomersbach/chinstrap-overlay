@@ -48,14 +48,16 @@ games-emulation/sdlmame notmpfs.conf
 games-emulation/sdlmess notmpfs.conf
 mail-client/thunderbird notmpfs.conf
 
-# No gcc5, instead oldgcc4.9.4
-sys-fs/mdadm oldgcc.conf
-net-libs/libiscsi oldgcc.conf
-sys-process/audit oldgcc.conf
-net-fs/nfs-utils oldgcc.conf
-media-sound/timidity++ oldgcc.conf
-net-analyzer/bwm-ng oldgcc.conf
-media-libs/libaacplus oldgcc.conf
-media-libs/gegl oldgcc.conf
-media-gfx/exiv2 oldgcc.conf
-
+# No inline for gcc5
+net-libs/libiscsi noinline.conf
+net-analyzer/bwm-ng noinline.conf
+sys-fs/mdadm noinline.conf
+games-emulation/pcsxr noinline.conf
+media-sound/timidity++ noinline.conf
+media-libs/libaacplus noinline.conf
+games-emulation/pcsx2 noinline.conf
+games-emulation/mednafen noinline.conf
+net-fs/nfs-utils noinline.conf
+sys-process/audit noinline.conf
+media-gfx/exiv2 noinline.conf
+media-libs/gegl noinline.conf
