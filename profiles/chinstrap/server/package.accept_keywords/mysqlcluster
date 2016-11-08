@@ -1,0 +1,14 @@
+# required by dev-db/xtrabackup-bin-2.4.4::gentoo
+# required by dev-db/mariadb-10.1.19::gentoo[sst-xtrabackup,galera]
+# required by mariadb (argument)
+dev-libs/libgcrypt ~*
+# required by dev-db/mariadb-10.1.19::gentoo[sst-xtrabackup,galera]
+# required by mariadb (argument)
+dev-db/xtrabackup-bin ~*
+# required by dev-db/mariadb-10.1.19::gentoo[galera]
+# required by mariadb (argument)
+sys-cluster/galera ~*
+# required by sys-cluster/galera-25.3.17::gentoo
+# required by dev-db/mariadb-10.1.19::gentoo[galera]
+# required by mariadb (argument)
+dev-cpp/asio ~*

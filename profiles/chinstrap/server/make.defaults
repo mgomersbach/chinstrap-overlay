@@ -3,12 +3,13 @@
 # $Header:
 
 USE="avahi ban cgi client-libs community copy courier curl ctrls daemon
-dedicated deflate diskuse dlz enchant extraengine fcgi fpm ftp gd gssapi howl-compat
-http2 ident imap irc ldap ldap maildir mbox mdnsresponder-compat memcache memcached memcached 
+dedicated deflate diskuse dlz enchant extraengine fcgi fpm ftp gd gssapi galera 
+howl-compat http2 ident imap irc innodb-lz4 innodb-lzo innodb-snappy ldap 
+ldap maildir mbox mdnsresponder-compat memcache memcached memcached 
 mhash mmap mms-agent mongodb mpi mysql mysqli mysqlnd network nfs nis nls 
 opcache pdo phar redis samba sasl server setup sftp snmp soap sockets sqlite 
-swat recode tidy uploadprogress vhosts vnc xml xmlreader xmlrpc xmlwriter xsl xslt xvfb
-zeroconf -apache2"
+sst-sync sst-xtrabackup swat recode tidy uploadprogress vhosts vnc xml 
+xmlreader xmlrpc xmlwriter xsl xslt xvfb zeroconf -apache2"
 
 NGINX_MODULES_HTTP="access auth_basic autoindex browser charset
 empty_gif fastcgi flv geo geoip gunzip gzip headers_more limit_conn
