@@ -1,4 +1,5 @@
 app-emulation/docker ~*
+app-emulation/docker-proxy ~*
 app-emulation/lxc **
 app-emulation/lxc-gentoo **
 dev-go/blackfriday ~*
