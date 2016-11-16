@@ -66,13 +66,15 @@ www-client/chromium notmpfs.conf
 net-libs/libiscsi noinline.conf
 net-analyzer/bwm-ng noinline.conf
 sys-fs/mdadm noinline.conf
-games-emulation/pcsxr noinline.conf
 media-sound/timidity++ noinline.conf
 media-libs/libaacplus noinline.conf
-games-emulation/pcsx2 noinline.conf
-games-emulation/mednafen noinline.conf
 net-fs/nfs-utils noinline.conf
 sys-process/audit noinline.conf
-media-gfx/exiv2 noinline.conf
-media-libs/gegl noinline.conf
-sys-apps/smartmontools noinline.conf
+net-analyzer/net-snmp noinline.conf
+
+games-emulation/pcsxr noinlinef.conf
+games-emulation/pcsx2 noinlinef.conf
+games-emulation/mednafen noinlinef.conf
+media-gfx/exiv2 noinlinef.conf
+media-libs/gegl noinlinef.conf
+sys-apps/smartmontools noinlinef.conf
