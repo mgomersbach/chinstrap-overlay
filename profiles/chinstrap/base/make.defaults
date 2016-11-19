@@ -3,6 +3,8 @@
 # $Header:
 
 # Portage stuff
+CFLAGS="${CFLAGS} -frecord-gcc-switches"
+CXXFLAGS="${CFLAGS} -frecord-gcc-switches"
 ACCEPT_LICENSE="*"
 NODESKTOPUSE="-berkdb -cairo -cups -dbus -dri -dri3 
 -emerald -firefox -g3dvl -gnome -gtk -gtk3 -gtkstyle
