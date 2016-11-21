@@ -2,4 +2,5 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header:
 
-USE="cpuload thunderbird"
+USE="cpuload ocr scanner thunderbird"
+SANE_BACKENDS="lexmark canon epson hp pnm sharp xerox_mfp"
