@@ -2,10 +2,6 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-gateone/gateone:ccsmin - Add ccs minifiying
-gateone/gateone:dtach - Add screen detachment
-gateone/gateone:mutagen - Add support for tagging library mutagen
-gateone/gateone:slimit - Add support for js minifier/parser slimit
 media-video/avxsynth:autoscrop - Adds avisynth autocrop plugin
 media-video/avxsynth:avxedit - Adds avisynth script editor
 media-video/avxsynth:subititle - Adds avisynth subtitle plugin

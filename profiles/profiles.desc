@@ -3,5 +3,3 @@ amd64           chinstrap/default/linux/amd64/buildhelper      stable
 amd64           chinstrap/default/linux/amd64/server      stable
 amd64           chinstrap/default/linux/amd64/desktop          stable
 amd64           chinstrap/default/linux/amd64/markws           stable
-amd64           chinstrap/default/linux/amd64/markflaptop           stable
-amd64           chinstrap/default/linux/amd64/miniws           stable
