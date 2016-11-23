@@ -1,0 +1,2 @@
+# needs gtk useflag and we don't want that
+net-dns/avahi -utils
