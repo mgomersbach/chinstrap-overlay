@@ -6,7 +6,7 @@ dev-lang/php mysqli fileinfo fpm mysqlnd pdo xmlreader xmlwriter xslt pcntl -rec
 dev-php/PEAR-HTTP_Request2 fileinfo
 dev-php/pecl-memcached -sasl
 mail-filter/opendkim memcached
-mail-mta/postfix memcached
+mail-mta/postfix memcached berkdb
 net-analyzer/munin memcached
 net-fs/samba aio smbclient swat
 net-ftp/proftpd copy deflate diskuse memcache
