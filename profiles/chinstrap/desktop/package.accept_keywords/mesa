@@ -1,4 +1,5 @@
 media-libs/mesa **
 dev-util/cmake ~*
 sys-devel/llvm **
-
+sys-devel/clang-runtime ~*
+sys-libs/libomp ~*
