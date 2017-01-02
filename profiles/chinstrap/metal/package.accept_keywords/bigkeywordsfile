@@ -10,4 +10,5 @@ app-emulation/vagrant ~*
 app-emulation/virt-manager **
 app-emulation/vmware-view-open-client ~*
 sys-block/thin-provisioning-tools ~*
+sys-firmware/seabios ~*
 virtual/libusb ~*
