@@ -32,7 +32,6 @@ media-fonts/fira-mono ~*
 media-gfx/yed ~*
 media-libs/avidemux-core **
 media-libs/avidemux-plugins **
-media-libs/mesa ~*
 media-video/avidemux **
 media-video/handbrake
 net-im/skype ~*
