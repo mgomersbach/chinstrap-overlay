@@ -22,6 +22,7 @@ media-gfx/splashutils nodistcc.conf
 media-libs/libvpx nodistcc.conf
 media-tv/xawtv nodistcc.conf nativecflags.conf
 media-video/ffmpeg nodistcc.conf
+net-libs/libproxy nodistcc.conf
 sys-apps/groff nodistcc.conf
 sys-block/thin-provisioning-tools nodistcc.conf
 sys-devel/distcc nodistcc.conf
