@@ -1,13 +1,17 @@
 *app-crypt/seahorse
 *dev-python/compizconfig-python
+*media-fonts/inconsolata
 *media-fonts/fira-mono
 *media-fonts/fira-sans
 *media-libs/libtxc_dxtn
+*media-sound/pavucontrol
 *lxde-base/lxdm
 *lxde-base/lxrandr
 *x11-apps/fusion-icon
 *x11-apps/xdm
 *x11-apps/xrandr
+*x11-base/xorg-drivers
+*x11-base/xorg-x11
 *x11-misc/ccsm
 *x11-misc/wmctrl
 *x11-misc/xdotool
@@ -20,6 +24,7 @@
 *x11-terms/root-tail
 *x11-terms/rxvt-unicode
 *x11-terms/xfce4-terminal
+*x11-themes/gtk-chtheme
 *x11-themes/human-icon-theme
 *x11-themes/emerald-themes
 *x11-wm/compiz
