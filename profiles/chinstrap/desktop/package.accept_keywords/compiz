@@ -1,0 +1,6 @@
+# required by x11-base/xorg-server-1.19.1::gentoo
+# required by x11-wm/compiz-0.8.8-r3::gentoo
+# required by @system
+# required by @world (argument)
+x11-libs/libXfont2 ~*
+

@@ -8,3 +8,8 @@ media-libs/libass ~*
 # required by @world (argument)
 media-libs/taglib ~*
 
+# required by media-tv/kodi-17.0_rc3-r3::gentoo[airplay]
+# required by @selected
+# required by @world (argument)
+net-libs/shairplay ~*
+
