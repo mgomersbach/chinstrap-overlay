@@ -72,7 +72,7 @@ media-video/mplayer2 bluray cdio cpudetection faad pnm postproc
 media-video/mplayer bl bluray cdio cpudetection faac faad live pnm twolame xvmc rtmp tga toolame
 media-video/mpv bluray cdio postproc
 media-video/transcode mjpeg postproc
-media-video/vlc bluray dc1394 dirac egl faad fbosd fdk live rtsp twolame vcdx vpx zvbi
+media-video/vlc bluray dc1394 dirac egl faad fbosd fdk live rtsp twolame vcdx vpx zvbi -rdp
 media-video/winki mjpeg
 media-video/x264-encoder avs ffmpegsource
 net-analyzer/snort ppm
