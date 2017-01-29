@@ -20,7 +20,6 @@ lxde-base/lxdm consolekit
 mail-client/thunderbird system-cairo
 media-libs/mesa xorg shared-dricore
 media-video/gpac -wxwidgets
-media-video/vlc -qt4
 net-analyzer/metasploit gui
 net-firewall/firewalld gui
 net-libs/webkit-gtk -gles2

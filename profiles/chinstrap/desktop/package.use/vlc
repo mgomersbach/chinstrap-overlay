@@ -1,2 +1,6 @@
 # pulls in old freerdp and causes circ dep
-media-video/vlc -freerdp
+media-video/vlc -freerdp -rdp
+
+# one-of
+media-video/vlc -qt4
+
