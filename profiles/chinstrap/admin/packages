@@ -8,6 +8,7 @@
 *app-text/multitail
 *net-analyzer/bwm-ng
 *net-analyzer/mtr
+*net-analyzer/nmap
 *sys-apps/logwatch
 *sys-process/htop
 *sys-process/iotop
