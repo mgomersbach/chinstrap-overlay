@@ -2,3 +2,4 @@
 *app-emulation/docker-compose
 *app-emulation/docker-machine
 *app-emulation/docker-swarm
+*app-emulation/lxc

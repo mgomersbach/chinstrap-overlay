@@ -2,5 +2,5 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header:
 
-USE="acl cacert clamav clamd clamdtop iptables openssl sasl
+USE="acl cacert clamav clamd clamdtop iptables ldap openssl sasl
 secure-messaging shadow tpm"

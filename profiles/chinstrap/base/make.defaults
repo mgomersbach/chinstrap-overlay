@@ -19,16 +19,16 @@ NOMEDIAUSE="-a52 -aac -alsa -bidi -bluetooth -cdda -cdr -dts -dvd -dvdr
 -opencl -opengl -orc -pdf -png -ppds -sdl -svg -tiff -truetype -vorbis
 -x264 -xvid"
 
-USE="acl acpi aio archive asm audit aufs bash-completion bidi -bindist boost
-branding btrfs bzip2 caps cli client crossdev cxx -debug device-mapper
-encode -extras experimental fading-colors fat -fam fbcon fileinfo fontconfig fuse
--geoloc -geolocation git gmp gold -gnutls gpm gzip hfs highlight icu inotify ipv6 
--iso14755 -ldap logrotate logwatch lto lz4 lzma lzo mms mono -mono mpi mtp ncurses
--networkmanager nfs nfsdcld nfsidmap nfsv4 nfsv41 ntfs ntfsprogs ntp
-offensive openrc orc pam pch pci pcre16 pcre32 pdf perl prelink -pulseaudio rar
-readline -reiser4 sendmail sep-usr sftp shm smp smtp snappy sqlite ssh
-ssl symlink sync-plugin-portage syslog -systemd threads tinfo udev unconfined upnp vim-syntax 
-xattr xfs zip zlib -zoran zsh-completion ${NODESKTOPUSE} ${NOMEDIAUSE}"
+USE="acl acpi aio asm audit bash-completion bidi -bindist
+bzip2 caps cli client cxx -debug device-mapper
+-extras experimental -fam fbcon fontconfig fuse
+-geoloc -geolocation git gmp gold -gnutls gpm gzip highlight icu iconv inotify 
+ipv6 -iso14755 -ldap lz4 lzma lzo ncurses
+-networkmanager nfs nfsdcld nfsidmap nfsv4 nfsv41
+offensive openrc pam pci pcre16 pcre32 perl prelink -pulseaudio
+readline -reiser4 sendmail sep-usr sftp shm smtp snappy sqlite ssh
+ssl symlink syslog -systemd threads tinfo udev unconfined vim-syntax 
+xattr zip zlib -zoran zsh-completion ${NODESKTOPUSE} ${NOMEDIAUSE}"
 
 FEATURES="buildpkg ccache clean-logs compressdebug distcc distcc-pump
 parallel-fetch parallel-install"
@@ -44,15 +44,6 @@ ABI_X86="64 32"
 
 # Misc stuff
 GRUB_PLATFORMS="pc emu efi-64"
-DRACUT_MODULES="btrfs cifs iscsi lvm nbd nfs plymouth ssh-client"
 VIDEO_CARDS="fbcon fbdev"
-#FETCHCOMMAND="/usr/bin/curl --connect-timeout 15 -# -o \${DISTDIR}/\${FILE} \${URI}" 
-#RESUMECOMMAND="/usr/bin/curl --connect-timeout 15 -# -C - -o \${DISTDIR}/\${FILE}\${URI}"
-QEMU_SOFTMMU_TARGETS="x86_64 i386 aarch64 arm"
-QEMU_USER_TARGETS="aarch64 arm i386 x86_64"
-DONT_MOUNT_BOOT=1
-NGINX_MODULES_HTTP="access auth_basic autoindex browser charset
-  empty_gif fastcgi geo gzip limit_conn limit_req map memcached mp4 proxy
-  referer rewrite scgi split_clients ssi upstream_ip_hash userid uwsgi"
 
 POLICY_TYPES="targeted"

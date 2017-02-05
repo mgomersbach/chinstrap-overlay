@@ -18,4 +18,3 @@ split_clients ssi stub_status upload_progress upstream_ip_hash userid
 uwsgi lua metrics perl upstream_check"
 
 NGINX_MODULES_MAIL="imap pop3 smtp"
-

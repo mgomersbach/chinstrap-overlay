@@ -2,19 +2,19 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header:
 
-USE="256-color auto-hinter blink bluetooth cairo cairo-qt consolekit corefonts
-cups dbus djvu dri dri dri3 drm drmkms egl emerald
-evdev fbcon g3dvl gallium gconf gimp gles2 gksu glamor gphoto2 growl gtk gtk3
-gtkstyle gudev hidpi ico icons iconv introspection joystick -kde
-ldap libinput libkms libnotify llvm llvm-shared-libs mono mozilla mtp nls
-nsplugin opengl openvg osmesa pango pipelight pixbuf pixman policykit qt3support
-qt5 r600-llvm-compiler razor rdp resize-optimization samba
-screen-sharing session shmvideo sna spell system-cairo system-icu
-system-jpeg system-libvpx system-sqlite systemtap tablet tcl thunar
-udisks uvm v4l v4l2 vaapi vdpau vlc vnc voice volume
-widgets declarative designer gui multimedia network
-webcam wxwidgets X x11 xa xcb xcomposite xim -xinerama xkb xorg xrandr
-xrender xscreensaver xv xvmc zeroconf"
+USE="256-color bluetooth boost cairo consolekit
+cups dbus djvu dri dri3 drm egl
+evdev gallium gconf gimp gles2 glamor gphoto2 growl gtk gtk3
+gtkstyle introspection joystick -kde
+libinput libkms libnotify llvm llvm-shared-libs mono mtp nls
+nsplugin opengl osmesa pixbuf pixman policykit
+qt5 rdp samba smp
+sna spell system-cairo system-icu
+system-jpeg system-libvpx system-sqlite systemtap upnp tcl thunar
+udisks v4l v4l2 vaapi vdpau vlc vnc
+widgets gui multimedia network
+wxwidgets X x11 xcb xcomposite -xinerama xkb xorg
+xscreensaver xv xvmc zeroconf"
 
 VIDEO_CARDS="fbcon fbdev i915 i965 intel nouveau r600 radeon radeonsi
 vesa vmware amdgpu"

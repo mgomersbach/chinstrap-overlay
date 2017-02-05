@@ -29,7 +29,6 @@
 *app-shells/zsh-completions
 *app-text/wgetpaste
 *app-vim/gentoo-syntax
-*dev-lang/python:2.7
 *dev-python/pip
 *dev-util/ccache
 *dev-util/strace
@@ -39,8 +38,6 @@
 *net-analyzer/traceroute
 *net-dns/bind-tools
 *net-firewall/ufw
-*net-fs/autofs
-*net-fs/davfs2
 *net-fs/nfs-utils
 *net-ftp/lftp
 *net-irc/irssi
