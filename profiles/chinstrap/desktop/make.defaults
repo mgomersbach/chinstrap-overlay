@@ -8,7 +8,7 @@ evdev fbcon g3dvl gallium gconf gimp gles2 gksu glamor gphoto2 growl gtk gtk3
 gtkstyle gudev hidpi ico icons iconv introspection joystick -kde
 ldap libinput libkms libnotify llvm llvm-shared-libs mono mozilla mtp nls
 nsplugin opengl openvg osmesa pango pipelight pixbuf pixman policykit qt3support
-qt4 qt5 r600-llvm-compiler razor rdp resize-optimization samba
+qt5 r600-llvm-compiler razor rdp resize-optimization samba
 screen-sharing session shmvideo sna spell system-cairo system-icu
 system-jpeg system-libvpx system-sqlite systemtap tablet tcl thunar
 udisks uvm v4l v4l2 vaapi vdpau vlc vnc voice volume

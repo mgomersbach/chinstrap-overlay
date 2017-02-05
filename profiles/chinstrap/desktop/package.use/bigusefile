@@ -57,7 +57,7 @@ xfce-extra/xfce4-taskmanager -gksu
 dev-qt/qtwebkit:5 -gstreamer
 
 # one of
-net-analyzer/wireshark qt4 -qt5
+net-analyzer/wireshark -qt4 qt5
 net-misc/dhcpcd-ui -gtk -qt4
 
 # ?

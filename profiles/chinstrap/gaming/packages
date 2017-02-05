@@ -2,11 +2,5 @@
 *app-emulation/winetricks
 *media-sound/fluidsynth
 *media-sound/timidity++
-*games-emulation/dgen-sdl
-*games-emulation/dosbox
-*games-emulation/higan
-*games-emulation/mednafen
-*games-emulation/vgba
-*games-emulation/zsnes
 *games-util/qjoypad
 
