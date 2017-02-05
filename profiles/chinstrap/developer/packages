@@ -8,5 +8,7 @@
 *app-vim/vimoutliner
 *app-vim/vimpython
 *app-vim/vim-spell-nl
-
-
+*dev-util/geany
+*dev-util/geany-plugins
+*dev-vcs/tig
+*sys-devel/gdb
