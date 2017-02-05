@@ -1,4 +1,4 @@
-app-arch/file-roller
+*app-arch/file-roller
 *app-crypt/seahorse
 *dev-python/compizconfig-python
 *media-fonts/inconsolata
