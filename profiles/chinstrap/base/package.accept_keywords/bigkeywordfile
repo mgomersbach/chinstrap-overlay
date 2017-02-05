@@ -61,11 +61,6 @@ dev-python/timelib ~*
 dev-python/urwid **
 dev-python/yolk ~*
 dev-python/yolk-portage ~*
-dev-ruby/hiera
-dev-ruby/i18n
-dev-ruby/net-scp
-dev-ruby/net-ssh
-dev-util/boost-build ~*
 dev-util/catalyst ~*
 dev-util/gdbus-codegen ~*
 dev-util/gource

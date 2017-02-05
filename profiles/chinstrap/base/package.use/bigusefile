@@ -36,7 +36,6 @@ dev-libs/nss -utils
 dev-libs/openssl pkcs11
 dev-python/pip -zsh-completion
 dev-python/rarfile compressed
-dev-ruby/maruku highlight
 dev-util/catalyst ccache
 dev-util/geany-plugins multiterm debugger devhelp enchant gpg markdown scope soup
 dev-util/gtk-doc highlight
