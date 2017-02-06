@@ -3,7 +3,7 @@
 # $Header:
 
 USE="crossdev extensions fbcondecor fbdev fbosd fbsplash hwdb iscsi libcloud
-libvirt lm_sensors mdadm ntp openmp parted pm-utils acpi cgmanager sdl2 sensors
+libvirt lm_sensors mdadm ntp openmp parted pm-utils acpi cgmanager sensors
 spice system-qemu system-seabios systemtap timelib usb usbredir vde 
 virtfs virgl -virt-network vnc xfs"
 

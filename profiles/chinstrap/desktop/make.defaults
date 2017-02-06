@@ -8,7 +8,7 @@ evdev gallium gconf gimp gles2 glamor gphoto2 growl gtk gtk3
 gtkstyle introspection joystick -kde
 libinput libkms libnotify llvm llvm-shared-libs mono mtp nls
 nsplugin opengl osmesa pixbuf pixman policykit
-qt5 rdp samba smp
+qt5 rdp samba sdl sdl2 smp
 sna spell system-cairo system-icu
 system-jpeg system-libvpx system-sqlite systemtap upnp tcl thunar
 udisks v4l v4l2 vaapi vdpau vlc vnc
