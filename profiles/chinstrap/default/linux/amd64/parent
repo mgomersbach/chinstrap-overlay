@@ -1,5 +1,5 @@
 gentoo:default/linux/amd64/13.0/selinux
-../../../base
 ../../../arch/amd64
+../../../base
 ../../../admin
 ../../../security
