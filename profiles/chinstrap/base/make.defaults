@@ -44,6 +44,6 @@ ABI_X86="64 32"
 
 # Misc stuff
 GRUB_PLATFORMS="pc emu efi-64"
-VIDEO_CARDS="fbcon fbdev"
+VIDEO_CARDS="modesetting vesa"
 
 POLICY_TYPES="targeted"
