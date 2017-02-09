@@ -1,6 +1,6 @@
-# Copyright 1999-2015 Gentoo Foundation
+# Copyright 1999-2017 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: This ebuild is from mva overlay; $
+# $Header:
 
 EAPI="5"
 
@@ -9,7 +9,7 @@ inherit eutils autotools systemd flag-o-matic git-r3
 DESCRIPTION="KMS/DRM based virtual Console Emulator"
 HOMEPAGE="http://www.freedesktop.org/wiki/Software/kmscon"
 
-EGIT_REPO_URI="git://people.freedesktop.org/~dvdhrm/${PN}"
+EGIT_REPO_URI="git://github.com/dvdhrm/${PN}.git"
 SRC_URI=""
 KEYWORDS=""
 
