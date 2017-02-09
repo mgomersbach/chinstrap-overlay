@@ -1,0 +1,4 @@
+# required by x11-misc/xdg-utils-1.1.1-r1::gentoo
+# required by x11-misc/xdg-utils (argument)
+>=app-text/xmlto-0.0.26-r1 text
+

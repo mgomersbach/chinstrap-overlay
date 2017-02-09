@@ -1,7 +1,7 @@
-# required by x11-drivers/xf86-input-libinput-0.22.0::gentoo
-# required by xfce-base/xfce4-settings-4.12.0::gentoo[libinput]
-# required by xfce-base/xfce4-meta-4.12::gentoo
+# required by x11-drivers/xf86-input-libinput
+# required by xfce-base/xfce4-settings
+# required by xfce-base/xfce4-meta
 # required by @system
 # required by @world (argument)
-=dev-libs/libinput-1.5.0 ~*
+dev-libs/libinput ~*
 
