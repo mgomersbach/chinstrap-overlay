@@ -1,3 +1,4 @@
+dev-libs/libwacom ~*
 x11-drivers/afb-ucode ~*
 x11-drivers/ati-drivers ~*
 x11-drivers/nvidia-drivers ~*
