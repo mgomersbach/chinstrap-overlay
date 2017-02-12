@@ -1,6 +1,9 @@
 *app-emulation/libvirt
 *app-emulation/qemu
 *app-laptop/laptop-mode-tools
+*sys-apps/dmidecode
+*sys-apps/hdparm
+*sys-apps/sdparm
 *sys-apps/hwinfo
 *sys-apps/lm_sensors
 *sys-apps/microcode-ctl

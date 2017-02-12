@@ -4,11 +4,13 @@
 *app-misc/tmux
 *app-portage/eix
 *app-portage/genlop
+*app-portage/gentoolkit
 *app-portage/ufed
 *app-text/multitail
 *net-analyzer/bwm-ng
 *net-analyzer/mtr
 *net-analyzer/nmap
 *sys-apps/logwatch
+*sys-fs/ncdu
 *sys-process/htop
 *sys-process/iotop
