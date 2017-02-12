@@ -6,6 +6,8 @@
 *media-fonts/fira-sans
 *media-libs/libtxc_dxtn
 *media-sound/pavucontrol
+*net-fs/autofs
+*net-fs/davfs2
 *lxde-base/lxdm
 *lxde-base/lxrandr
 *x11-apps/xdm
