@@ -1,11 +1,6 @@
-app-admin
-app-cdr
-app-misc
 app-portage
 app-shells
-dev-db
 dev-libs
-dev-php
 dev-python
 dev-util
 media-gfx
@@ -14,7 +9,5 @@ media-video
 net-misc
 sys-apps
 sys-block
-www-apps
-x11-apps
 x11-drivers
 x11-misc

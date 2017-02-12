@@ -1,3 +1,0 @@
-# Copyright 2009-2017 Mark Gomersbach <mark@gomersbach.nl>
-# Distributed under the terms of the GNU General Public License v2
-# $Header: $
