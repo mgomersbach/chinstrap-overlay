@@ -1,20 +1,17 @@
-# Copyright 2004-2016 Gentoo Foundation.
+# Copyright 2004-2017 Gentoo Foundation.
 # Distributed under the terms of the GNU General Public License v2
 # $Header:
 
-USE="256-color bluetooth boost cairo consolekit
-cups dbus djvu dri dri3 drm egl
-evdev gallium gconf gimp gles2 glamor gphoto2 growl gtk gtk3
-gtkstyle introspection joystick -kde
-libinput libkms libnotify llvm llvm-shared-libs mono mtp nls
-nsplugin opengl osmesa pixbuf pixman policykit
-qt5 rdp samba sdl sdl2 smp
-sna spell system-cairo system-icu
-system-jpeg system-libvpx system-sqlite systemtap upnp tcl thunar
-udisks v4l v4l2 vaapi vdpau vlc vnc
-widgets gui multimedia network
-wxwidgets X x11 xcb xcomposite -xinerama xkb xorg
-xscreensaver xv xvmc zeroconf"
+USE="256-color bluetooth boost cairo consolekit cups dbus djvu dri 
+dri3 drm egl evdev gallium gconf gimp gles2 glamor gphoto2 growl 
+gtk gtk3 gtkstyle introspection joystick -kde libinput libkms  
+libnotify llvm llvm-shared-libs mono mtp nls nsplugin opengl 
+osmesa pixbuf pixman policykit qt5 rdp samba sdl sdl2 smp sna 
+spell system-cairo system-icu system-jpeg system-libvpx 
+system-sqlite systemtap upnp tcl thunar udisks v4l v4l2 vaapi 
+vdpau vlc vnc widgets gui multimedia network wxwidgets X x11 
+xcb xcomposite -xinerama xkb xorg xscreensaver xv xvmc 
+zeroconf"
 
 VIDEO_CARDS="fbcon fbdev i915 i965 intel nouveau r600 radeon radeonsi
 vesa vmware amdgpu"
@@ -22,3 +19,7 @@ vesa vmware amdgpu"
 INPUT_DEVICES="evdev libinput keyboard mouse synaptics vmmouse"
 
 XFCE_PLUGINS="battery brightness clock multiload-nandhp power trash xmonad"
+
+CAMERAS="ptp2 net"
+
+SANE_BACKENDS="lexmark canon epson hp net pixma pnm"
