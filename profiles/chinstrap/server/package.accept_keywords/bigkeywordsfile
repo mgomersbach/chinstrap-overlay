@@ -1,4 +1,5 @@
 dev-db/mariadb ~*
+dev-db/mysqltuner ~*
 dev-php/pecl-apc **
 dev-php/pecl-memcache **
 dev-php/pecl-memcached **
@@ -7,10 +8,6 @@ dev-python/snakeoil ~*
 net-misc/apt-cacher-ng ~*
 sys-process/procps ~*
 virtual/mysql ~*
-www-apps/drupal ~*
-www-apps/drupal:6 ~*
-www-apps/drupal:7 ~*
-www-apps/gateone ~*
 # http2
 www-servers/nginx ~*
 www-servers/tornado ~*
