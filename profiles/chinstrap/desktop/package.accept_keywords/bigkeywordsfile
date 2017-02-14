@@ -20,7 +20,6 @@ dev-libs/gobject-introspection ~*
 dev-libs/gobject-introspection-common ~*
 dev-libs/libclc ~*
 dev-libs/libevdev ~*
-dev-python/compizconfig-python
 dev-util/bless ~*
 dev-util/gdbus-codegen ~*
 dev-util/geany **
@@ -57,11 +56,8 @@ x11-apps/radeontop ~*
 x11-apps/radeontray ~*
 x11-base/xorg-drivers ~*
 x11-base/xorg-server ~*
-x11-libs/compiz-bcop
-x11-libs/compizconfig-backend-gconf
 x11-libs/glamor ~*
 x11-libs/gtk+ ~*
-x11-libs/libcompizconfig
 x11-libs/libdrm **
 x11-libs/libfm
 x11-libs/libva-vdpau-driver ~*
@@ -74,16 +70,12 @@ x11-libs/libxshmfence ~*
 x11-libs/wxGTK ~*
 x11-libs/xpyb ~*
 x11-libs/xtrans ~*
-x11-misc/ccsm ~*
 x11-misc/cdm ~*
 x11-misc/compton ~*
 x11-misc/notification-daemon ~*
 x11-misc/notification-daemon **
 x11-misc/pcmanfm
 x11-misc/xwinwrap ~*
-x11-plugins/compiz-plugins-extra
-x11-plugins/compiz-plugins-main
-x11-plugins/compiz-plugins-unsupported
 x11-plugins/pidgin-led-notification ~*
 x11-proto/dri2proto ~*
 x11-proto/dri3proto ~*
@@ -93,11 +85,7 @@ x11-proto/xcb-proto ~*
 x11-proto/xextproto ~*
 x11-proto/xf86driproto ~*
 x11-terms/terminology
-x11-themes/emerald-themes
 x11-themes/human-icon-theme
-x11-wm/compiz
-x11-wm/compiz-fusion
-x11-wm/emerald
 x11-wm/enlightenment ~*
 xfce-extra/xfce4-gvfs-mount ~*
 
@@ -114,4 +102,3 @@ x11-proto/randrproto ~*
 # required by @selected
 # required by @world (argument)
 x11-libs/pango ~*
-

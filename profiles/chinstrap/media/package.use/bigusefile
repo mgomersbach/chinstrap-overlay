@@ -1,5 +1,4 @@
 app-cdr/disc-cover cdrom
-app-office/libreoffice vlc
 dev-java/icedtea alsa
 dev-libs/DirectFB bmp egl mpeg2 mpeg3 pnm swfdec
 dev-libs/efl -xcb
@@ -25,7 +24,6 @@ media-gfx/splashutils fbcondecor
 media-libs/avidemux amr vpx
 media-libs/avidemux-core amr system-ffmpeg
 media-libs/avidemux-plugins amr faac faad twolame vpx
-media-libs/emotion vlc
 media-libs/evas bmp ppm tga
 media-libs/freetype auto-hinter
 media-libs/glfw egl
@@ -42,7 +40,6 @@ media-libs/libwebp abi_x86_32
 media-libs/mediastreamer amr
 media-libs/mesa egl g3dvl gallium gbm llvm llvm-shared-libs r600-llvm-compiler shared-glapi xa xvmc
 media-libs/mlt melt swfdec
-media-libs/phonon vlc
 media-libs/sdl2-mixer wav
 media-libs/sdl-mixer wav
 media-libs/waffle egl gbm
@@ -86,7 +83,6 @@ net-misc/asterisk-moh-opsound wav
 net-misc/curl rtmp
 net-misc/ps3mediaserver transcode tsmuxer multiuser
 net-misc/rygel transcode
-net-p2p/tribler vlc
 sys-apps/kmscon fbdev
 sys-apps/tuxonice-userui fbsplash
 sys-cluster/cinder volume
