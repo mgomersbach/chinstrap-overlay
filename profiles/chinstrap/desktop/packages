@@ -2,8 +2,6 @@
 *app-crypt/seahorse
 *gnome-extra/gucharmap
 *media-fonts/inconsolata
-*media-fonts/fira-mono
-*media-fonts/fira-sans
 *media-libs/libtxc_dxtn
 *media-sound/pavucontrol
 *net-fs/autofs

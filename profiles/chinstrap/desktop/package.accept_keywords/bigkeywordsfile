@@ -27,7 +27,6 @@ dev-util/geany-plugins **
 gnome-base/dconf ~*
 gnome-base/gvfs ~*
 mail-client/thunderbird **
-media-fonts/fira-mono ~*
 media-gfx/yed ~*
 media-libs/avidemux-core **
 media-libs/avidemux-plugins **
