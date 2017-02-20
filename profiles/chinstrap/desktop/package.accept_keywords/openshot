@@ -1,0 +1,14 @@
+# required by media-libs/libopenshot-0.1.3::gentoo
+# required by media-video/openshot-2.2.0::gentoo
+# required by openshot (argument)
+net-libs/cppzmq ~*
+# required by media-video/openshot-2.2.0::gentoo
+# required by openshot (argument)
+media-libs/libopenshot ~*
+# required by media-libs/libopenshot-0.1.3::gentoo
+# required by media-video/openshot-2.2.0::gentoo
+# required by openshot (argument)
+media-libs/libopenshot-audio ~*
+# required by openshot (argument)
+media-video/openshot ~*
+

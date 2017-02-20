@@ -1,0 +1,12 @@
+# too high libevent requirement block tmux
+net-fs/nfs-utils ~*
+# required by net-nds/rpcbind-0.2.4::gentoo
+# required by net-fs/nfs-utils-2.1.1::gentoo
+# required by @system
+# required by @world (argument)
+net-libs/libtirpc ~*
+# required by net-fs/nfs-utils-2.1.1::gentoo
+# required by @system
+# required by @world (argument)
+net-nds/rpcbind ~*
+
