@@ -1,5 +1,6 @@
 *app-emulation/wine
 *app-emulation/winetricks
+*games-emulation/dosbox
 *media-sound/fluidsynth
 *media-sound/timidity++
 *games-util/qjoypad
