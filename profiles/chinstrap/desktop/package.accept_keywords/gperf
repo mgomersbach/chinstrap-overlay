@@ -1,0 +1,9 @@
+#desktop profile needs higher version
+
+# required by sys-fs/eudev-3.2.1-r1::gentoo
+# required by virtual/udev-217::gentoo[-systemd]
+# required by www-client/chromium-57.0.2987.54::gentoo
+# required by @selected
+# required by @world (argument)
+dev-util/gperf ~*
+
