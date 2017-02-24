@@ -6,6 +6,7 @@ app-emulation/docker-proxy ~*
 app-emulation/docker-swarm ~*
 app-emulation/lxc **
 app-emulation/runc ~*
+app-emulation/docker-runc ~*
 dev-go/blackfriday ~*
 dev-go/go-md2man ~*
 dev-go/sanitized-anchor-name ~*
