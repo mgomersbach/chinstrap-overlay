@@ -5,6 +5,7 @@ app-emulation/docker-machine ~*
 app-emulation/docker-proxy ~*
 app-emulation/docker-swarm ~*
 app-emulation/lxc **
+app-emulation/docker-runc ~*
 app-emulation/runc ~*
 app-emulation/docker-runc ~*
 dev-go/blackfriday ~*
