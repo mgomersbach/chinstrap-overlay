@@ -20,7 +20,7 @@ NOMEDIAUSE="-a52 -aac -alsa -bluetooth -cdda -cdr -dts -dvd -dvdr
 -x264 -xvid"
 
 USE="${NODESKTOPUSE} ${NOMEDIAUSE} acl aio asm audit bash-completion bidi -bindist
-bzip2 caps -debug device-mapper -extras -fam fontconfig fuse
+bzip2 caps -debug device-mapper -extras -fam fuse
 -geoloc -geolocation git gmp gold -gnutls gpm gzip highlight icu iconv inotify 
 ipv6 -iso14755 -ldap lz4 lzma lzo ncurses
 -networkmanager nfs nfsdcld nfsidmap nfsv4 nfsv41
