@@ -10,6 +10,7 @@
 *net-analyzer/bwm-ng
 *net-analyzer/mtr
 *net-analyzer/nmap
+*sys-apps/dstat
 *sys-apps/logwatch
 *sys-fs/ncdu
 *sys-process/htop
