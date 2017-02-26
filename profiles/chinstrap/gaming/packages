@@ -1,3 +1,5 @@
+*app-arch/rar
+*app-arch/unrar
 *app-emulation/wine
 *app-emulation/winetricks
 *games-emulation/dosbox
