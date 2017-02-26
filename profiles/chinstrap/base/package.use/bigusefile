@@ -116,9 +116,7 @@ sys-fs/ntfs3g static-libs ntfsprogs
 sys-fs/udev hwdb keymap openrc
 sys-fs/xfsprogs static-libs
 sys-kernel/dracut device-mapper net
-sys-kernel/geek-sources brand gentoo exfat pf optimization symlink
 sys-kernel/genkernel-next iscsi
-sys-kernel/gentoo-sources experimental
 sys-libs/gdbm berkdb
 sys-libs/glibc -gd
 sys-libs/gpm static-libs
