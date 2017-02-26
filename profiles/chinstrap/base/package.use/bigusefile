@@ -69,7 +69,6 @@ media-video/mpv shm
 media-video/vdr bidi setup
 net-analyzer/tcpdump -chroot
 net-dns/avahi -python howl-compat mdnsresponder-compat -utils dbus
-net-fs/nfs-utils nfsv3 nfsv4 nfsv41 nfsidmap nfsdcld
 net-im/empathy -geoloc
 net-libs/webkit-gtk -geoloc
 net-misc/bfgminer sse2_4way sse4
