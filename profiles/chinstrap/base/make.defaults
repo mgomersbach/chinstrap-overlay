@@ -23,8 +23,7 @@ USE="${NODESKTOPUSE} ${NOMEDIAUSE} acl aio asm audit bash-completion bidi -bindi
 bzip2 caps -debug device-mapper -extras -fam fuse
 -geoloc -geolocation gmp -gnutls gpm gzip highlight icu iconv inotify 
 ipv6 -iso14755 -ldap lz4 lzma lzo ncurses
--networkmanager nfsdcld nfsidmap nfsv4 nfsv41
-offensive openrc pam pci pcre16 pcre32 perl prelink -pulseaudio
+-networkmanager openrc pam pci pcre16 pcre32 perl prelink -pulseaudio
 readline -reiser4 sendmail sep-usr sftp shm smtp snappy sqlite ssh
 ssl symlink syslog -systemd threads tinfo udev unconfined vim-syntax 
 zip zlib -zoran zsh-completion"
