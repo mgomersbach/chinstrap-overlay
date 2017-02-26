@@ -20,7 +20,7 @@ NOMEDIAUSE="-a52 -aac -alsa -bidi -bluetooth -cdda -cdr -dts -dvd -dvdr
 -x264 -xvid"
 
 USE="acl acpi aio asm audit bash-completion bidi -bindist
-bzip2 caps cli client cxx -debug device-mapper
+bzip2 caps cli client -debug device-mapper
 -extras experimental -fam fbcon fontconfig fuse
 -geoloc -geolocation git gmp gold -gnutls gpm gzip highlight icu iconv inotify 
 ipv6 -iso14755 -ldap lz4 lzma lzo ncurses
@@ -28,7 +28,7 @@ ipv6 -iso14755 -ldap lz4 lzma lzo ncurses
 offensive openrc pam pci pcre16 pcre32 perl prelink -pulseaudio
 readline -reiser4 sendmail sep-usr sftp shm smtp snappy sqlite ssh
 ssl symlink syslog -systemd threads tinfo udev unconfined vim-syntax 
-xattr zip zlib -zoran zsh-completion ${NODESKTOPUSE} ${NOMEDIAUSE}"
+zip zlib -zoran zsh-completion ${NODESKTOPUSE} ${NOMEDIAUSE}"
 
 FEATURES="buildpkg ccache clean-logs compressdebug distcc distcc-pump
 parallel-fetch parallel-install"

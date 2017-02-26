@@ -1,4 +1,3 @@
-app-emulation/spice gui
 app-emulation/spice-vdagent consolekit
 app-emulation/virt-manager spice
 app-emulation/virt-viewer spice
