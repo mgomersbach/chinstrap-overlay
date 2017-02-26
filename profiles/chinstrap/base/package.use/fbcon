@@ -1,0 +1,5 @@
+# images
+www-client/links fbcon
+
+# grub
+media-libs/libsdl fbcon
