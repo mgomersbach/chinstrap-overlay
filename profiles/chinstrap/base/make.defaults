@@ -19,7 +19,7 @@ NOMEDIAUSE="-a52 -aac -alsa -bluetooth -cdda -cdr -dts -dvd -dvdr
 -opencl -opengl -orc -pdf -png -ppds -sdl -svg -tiff -truetype -vorbis
 -x264 -xvid"
 
-USE="acl acpi aio asm audit bash-completion bidi -bindist
+USE="acl aio asm audit bash-completion bidi -bindist
 bzip2 caps client -debug device-mapper
 -extras experimental -fam fbcon fontconfig fuse
 -geoloc -geolocation git gmp gold -gnutls gpm gzip highlight icu iconv inotify 
