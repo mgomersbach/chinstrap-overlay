@@ -3,4 +3,4 @@
 # $Header:
 
 USE="acl cacert clamav clamd clamdtop iptables ldap openssl sasl
-secure-messaging shadow tpm"
+secure-messaging shadow tpm unconfined"

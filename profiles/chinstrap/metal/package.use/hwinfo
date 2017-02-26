@@ -1,0 +1,4 @@
+# Add pci information
+net-analyzer/net-snmp pci
+sys-apps/hwids pci
+sys-apps/hwloc pci

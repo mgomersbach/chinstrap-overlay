@@ -6,8 +6,11 @@
 CFLAGS="${CFLAGS} -frecord-gcc-switches"
 CXXFLAGS="${CFLAGS} -frecord-gcc-switches"
 ACCEPT_LICENSE="*"
+
+NOSYSTEMD="-gnome -networkmanager -pulseaudio -systemd"
+
 NODESKTOPUSE="-berkdb -cairo -cups -dbus -dri -dri3 
--emerald -firefox -g3dvl -gnome -gtk -gtk3 -gtkstyle
+-emerald -firefox -g3dvl -gtk -gtk3 -gtkstyle
 -icons -infinality -introspection -joystick -kde
 -nsplugin -openmp -openvg -osmesa -pango -pcre -pixbuf -pixman
 -qt3support -qt4 -qt5 -sna -system-cairo
@@ -19,25 +22,17 @@ NOMEDIAUSE="-a52 -aac -alsa -bluetooth -cdda -cdr -dts -dvd -dvdr
 -opencl -opengl -orc -pdf -png -ppds -sdl -svg -tiff -truetype -vorbis
 -x264 -xvid"
 
-USE="${NODESKTOPUSE} ${NOMEDIAUSE} acl aio asm audit bash-completion bidi -bindist
-bzip2 caps -debug device-mapper -extras -fam fuse
--geoloc -geolocation gmp -gnutls gpm gzip highlight icu iconv inotify 
-ipv6 -iso14755 -ldap lz4 lzma lzo ncurses
--networkmanager openrc pam pci pcre16 pcre32 perl prelink -pulseaudio
-readline -reiser4 sendmail sep-usr sftp shm smtp snappy sqlite ssh
-ssl symlink syslog -systemd threads tinfo udev unconfined vim-syntax 
-zip zlib -zoran zsh-completion"
+USE="${NOSYSTEMD} ${NODESKTOPUSE} ${NOMEDIAUSE} acl aio asm audit bash-completion 
+bidi -bindist bzip2 caps -debug device-mapper fuse -geolocation gmp -gnutls gpm 
+gzip highlight icu iconv inotify ipv6 lz4 lzma lzo ncurses pam perl readline 
+sqlite ssh ssl syslog threads udev zlib zsh-completion"
 
 FEATURES="buildpkg ccache clean-logs compressdebug distcc distcc-pump
 parallel-fetch parallel-install"
 
 EMERGE_DEFAULT_OPTS="--getbinpkg --tree"
-PORTAGE_NICENESS="19"
-PORTAGE_RSYNC_EXTRA_OPTS="--omit-dir-times"
 DISTDIR="/media/distfiles"
 PKGDIR="/media/packages"
-PORTAGE_BZIP2_COMMAND="lbzip2"
-PORTAGE_BUNZIP2_COMMAND="lbunzip2"
 ABI_X86="64 32"
 
 # Misc stuff

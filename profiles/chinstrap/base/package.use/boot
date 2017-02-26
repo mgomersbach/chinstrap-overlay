@@ -1,0 +1,2 @@
+# static for rescue so no pam
+sys-apps/busybox sep-usr static -pam
