@@ -14,7 +14,7 @@ NODESKTOPUSE="-berkdb -cairo -cups -dbus -dri -dri3
 -thunar -v4l -v4l2 -vaapi -vdpau -vlc -volume -wxwidgets -X -xcb
 -xcomposite -xorg -xrandr -xrender -xscreensaver -xv -xvmc -zeroconf"
 
-NOMEDIAUSE="-a52 -aac -alsa -bidi -bluetooth -cdda -cdr -dts -dvd -dvdr
+NOMEDIAUSE="-a52 -aac -alsa -bluetooth -cdda -cdr -dts -dvd -dvdr
 -encode -exif -flac -gif -jpeg -lcms -mad -mms -mng -mp3 -mp4 -mpeg -ogg
 -opencl -opengl -orc -pdf -png -ppds -sdl -svg -tiff -truetype -vorbis
 -x264 -xvid"
