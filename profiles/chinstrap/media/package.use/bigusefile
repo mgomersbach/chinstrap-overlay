@@ -36,7 +36,7 @@ media-libs/libcaca -doc
 media-libs/libgnome twolame
 media-libs/libpng apng
 media-libs/libvpx postproc
-media-libs/libwebp abi_x86_32
+media-libs/libwebp experimental
 media-libs/mediastreamer amr
 media-libs/mesa egl g3dvl gallium gbm llvm llvm-shared-libs r600-llvm-compiler shared-glapi xa xvmc
 media-libs/mlt melt swfdec
