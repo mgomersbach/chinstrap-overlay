@@ -1,2 +1,17 @@
 # static for rescue so no pam
 sys-apps/busybox sep-usr static -pam
+
+# splashutils
+app-arch/xz-utils static-libs
+media-libs/libmng static-libs
+virtual/jpeg:0 static-libs
+media-libs/libjpeg-turbo static-libs
+app-arch/bzip2 static-libs
+sys-libs/zlib static-libs minizip
+media-libs/libpng static-libs
+sys-libs/gpm static-libs
+media-libs/freetype static-libs
+
+# prelink
+dev-libs/elfutils static-libs
+
