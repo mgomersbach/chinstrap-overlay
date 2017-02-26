@@ -1,2 +1,5 @@
 # one of
 net-wireless/bluez python_single_target_python3_4
+
+# compat
+net-wireless/bluez experimental
