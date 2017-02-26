@@ -7,7 +7,7 @@ CFLAGS="${CFLAGS} -frecord-gcc-switches"
 CXXFLAGS="${CFLAGS} -frecord-gcc-switches"
 ACCEPT_LICENSE="*"
 
-NOSYSTEMD="-gnome -networkmanager -pulseaudio -systemd"
+NOSYSTEMD="-gnome -networkmanager -pulseaudio -systemd -geoloc"
 
 NODESKTOPUSE="-berkdb -cairo -cups -dbus -dri -dri3 
 -emerald -firefox -g3dvl -gtk -gtk3 -gtkstyle
