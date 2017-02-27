@@ -9,7 +9,7 @@ ACCEPT_LICENSE="*"
 
 NOSYSTEMD="-gnome -networkmanager -pulseaudio -systemd -geoloc"
 
-NODESKTOPUSE="-berkdb -cairo -cups -dbus -dri -dri3 
+NODESKTOPUSE="-cairo -cups -dbus -dri -dri3 
 -emerald -firefox -g3dvl -gtk -gtk3 -gtkstyle
 -icons -infinality -introspection -joystick -kde
 -nsplugin -openmp -openvg -osmesa -pango -pcre -pixbuf -pixman
