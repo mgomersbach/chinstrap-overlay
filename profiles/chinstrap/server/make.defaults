@@ -2,13 +2,13 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header:
 
-USE="avahi ban cgi client-libs community copy courier curl ctrls daemon
-dedicated deflate diskuse dlz enchant extraengine fcgi fpm ftp gd gssapi galera 
-howl-compat http2 ident imap irc innodb-lz4 innodb-lzo innodb-snappy ldap 
+USE="avahi ban cgi client-libs community copy corefonts courier curl ctrls daemon
+dedicated deflate diskuse dlz enchant extraengine fcgi fpm ftp graphviz gd gif gssapi galera 
+howl-compat http2 ident imap irc innodb-lz4 innodb-lzo innodb-snappy jpeg ldap 
 ldap maildir mbox mdnsresponder-compat memcache memcached memcached 
 mhash mmap mms-agent mongodb mpi mysql mysqli mysqlnd network nfs nis nls 
-opcache pdo phar redis samba sasl server setup sftp snmp soap sockets sqlite 
-sst-sync sst-xtrabackup swat recode tidy uploadprogress vhosts vnc xml 
+opcache pdo png postscript phar redis samba sasl server setup sftp snmp soap sockets sqlite 
+sst-sync sst-xtrabackup svg swat raw recode tidy tiff uploadprogress vhosts vnc webp wmf xml 
 xmlreader xmlrpc xmlwriter xsl xslt xvfb zeroconf -apache2"
 
 NGINX_MODULES_HTTP="access auth_basic autoindex browser charset
