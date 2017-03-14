@@ -1,0 +1,25 @@
+# required by sys-devel/llvm-4.0.0::gentoo[gold]
+# required by sys-libs/compiler-rt-4.0.0::gentoo
+# required by sys-devel/clang-runtime-4.0.0::gentoo[compiler-rt]
+# required by sys-devel/clang-4.0.0::gentoo
+# required by @selected
+# required by @world (argument)
+sys-devel/llvmgold ~*
+# required by sys-devel/clang-runtime-4.0.0::gentoo[compiler-rt,sanitize]
+# required by sys-devel/clang-4.0.0::gentoo
+# required by @selected
+# required by @world (argument)
+sys-libs/compiler-rt-sanitizers ~*
+# required by sys-devel/llvm-4.0.0::gentoo
+# required by sys-libs/compiler-rt-4.0.0::gentoo
+# required by sys-devel/clang-runtime-4.0.0::gentoo[compiler-rt]
+# required by sys-devel/clang-4.0.0::gentoo
+# required by @selected
+# required by @world (argument)
+app-vim/llvm-vim ~*
+# required by sys-devel/clang-runtime-4.0.0::gentoo[compiler-rt]
+# required by sys-devel/clang-4.0.0::gentoo
+# required by @selected
+# required by @world (argument)
+sys-libs/compiler-rt ~*
+
