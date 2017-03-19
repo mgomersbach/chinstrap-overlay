@@ -1,8 +1,6 @@
 *app-arch/file-roller
 *app-crypt/seahorse
 *gnome-extra/gucharmap
-*media-fonts/inconsolata
-*media-libs/libtxc_dxtn
 *media-sound/pavucontrol
 *net-fs/autofs
 *net-fs/davfs2
@@ -16,13 +14,15 @@
 *x11-misc/xdotool
 *x11-plugins/pidgin-led-notification
 *x11-plugins/pidgin-libnotify
+*media-fonts/fira-code
 *media-video/parole
 *x11-plugins/purple-libnotify-plus
 *x11-plugins/purple-plugin_pack
 *x11-terms/root-tail
 *x11-terms/rxvt-unicode
 *x11-themes/gtk-chtheme
-*x11-themes/faenza-icon-theme
+*x11-themes/clarity-icon-theme
+*x11-themes/numix-solarized
 *xfce-base/thunar
 *xfce-base/xfce4-meta
 *xfce-extra/thunar-archive-plugin

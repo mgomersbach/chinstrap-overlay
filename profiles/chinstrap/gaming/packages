@@ -3,7 +3,7 @@
 *app-emulation/wine
 *app-emulation/winetricks
 *games-emulation/dosbox
+*media-libs/libtxc_dxtn
 *media-sound/fluidsynth
 *media-sound/timidity++
 *games-util/qjoypad
-

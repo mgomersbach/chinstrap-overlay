@@ -1,4 +1,6 @@
+dev-libs/double-conversion ~*
 dev-qt/assistant ~*
+dev-qt/qtbluetooth ~*
 dev-qt/designer ~*
 dev-qt/linguist ~*
 dev-qt/linguist-tools ~*
