@@ -24,8 +24,8 @@
 *net-ftp/lftp
 *net-irc/irssi
 *net-misc/bridge-utils
+*net-misc/chrony
 *net-misc/dhcpcd
-*net-misc/ntp
 *media-gfx/splashutils
 *sys-apps/kmscon
 *sys-apps/mlocate
