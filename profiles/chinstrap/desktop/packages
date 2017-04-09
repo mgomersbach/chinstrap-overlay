@@ -16,6 +16,7 @@
 *x11-plugins/pidgin-libnotify
 *media-fonts/fira-code
 *media-video/parole
+*x11-libs/gksu
 *x11-plugins/purple-libnotify-plus
 *x11-plugins/purple-plugin_pack
 *x11-terms/root-tail
