@@ -18,11 +18,9 @@
 *app-shells/zsh-completions
 *app-text/wgetpaste
 *dev-util/ccache
-*mail-client/mutt
 *net-firewall/ufw
 *net-fs/nfs-utils
 *net-ftp/lftp
-*net-irc/irssi
 *net-misc/bridge-utils
 *net-misc/chrony
 *net-misc/dhcpcd
