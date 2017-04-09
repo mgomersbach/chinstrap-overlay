@@ -3,7 +3,9 @@
 *app-emulation/wine
 *app-emulation/winetricks
 *games-emulation/dosbox
+*games-emulation/mupen64plus
+*games-util/qjoypad
 *media-libs/libtxc_dxtn
 *media-sound/fluidsynth
 *media-sound/timidity++
-*games-util/qjoypad
+*x11-apps/mesa-progs
