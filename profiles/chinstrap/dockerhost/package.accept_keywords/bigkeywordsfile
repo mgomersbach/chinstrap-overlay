@@ -22,4 +22,5 @@ dev-python/websocket-client ~*
 sys-libs/libnih ~*
 sys-libs/libseccomp ~*
 sys-process/criu ~*
+sys-process/ctop ~*
 sys-process/tini ~*
