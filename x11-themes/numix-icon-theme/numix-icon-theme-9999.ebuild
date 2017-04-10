@@ -28,10 +28,9 @@ src_prepare(){
 }
 
 src_install(){
-	dodir /usr/share/icons/Numix
-	cp -R "${S}/Numix" "${D}/Numix" || die "Install failed!"
-	dodir /usr/share/icons/Numix-Light
-	cp -R "${S}/Numix" "${D}/Numix-Light" || die "Install failed!"
+	insinto /usr/share/icons
+	doins -r Numix || die "Install failed!"
+	doins -r Numix-Light || die "Install failed!"
 	dodoc readme.md
 }
 
