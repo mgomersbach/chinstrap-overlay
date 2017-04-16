@@ -4,7 +4,6 @@
 *media-sound/pavucontrol
 *net-fs/autofs
 *net-fs/davfs2
-*lxde-base/lxdm
 *lxde-base/lxrandr
 *x11-apps/xdm
 *x11-apps/xrandr
@@ -16,6 +15,7 @@
 *x11-plugins/pidgin-libnotify
 *media-fonts/fira-code
 *media-video/parole
+*x11-misc/sddm
 *x11-libs/gksu
 *x11-plugins/purple-libnotify-plus
 *x11-plugins/purple-plugin_pack
