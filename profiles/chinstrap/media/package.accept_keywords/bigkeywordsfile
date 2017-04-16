@@ -80,6 +80,7 @@ media-libs/sdl2-image ~*
 media-libs/soxr ~*
 media-libs/soxr **
 media-libs/speex ~*
+media-libs/speexdsp ~*
 media-libs/tiff ~*
 media-libs/vo-aacenc ~*
 media-libs/webrtc-audio-processing ~*
