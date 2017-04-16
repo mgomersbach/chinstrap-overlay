@@ -1,0 +1,7 @@
+--- udev-init-scripts-27/init.d/udev 2014-08-08 18:14:52.000000000 +0200
++++ /tmp/udev   2016-11-25 14:08:05.000000000 +0100
+@@ -1,4 +1,4 @@
+-#!/sbin/runscript
++#!/sbin/openrc-run
+ # Copyright 1999-2013 Gentoo Foundation
+ # Distributed under the terms of the GNU General Public License v2
