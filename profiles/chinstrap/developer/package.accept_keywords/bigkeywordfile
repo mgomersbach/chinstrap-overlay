@@ -1,4 +1,5 @@
 app-editors/atom ~*
+app-eselect/eselect-electron ~*
 app-editors/wxhexeditor ~*
 app-vim/vimbuddy ~*
 dev-libs/libuv ~*
