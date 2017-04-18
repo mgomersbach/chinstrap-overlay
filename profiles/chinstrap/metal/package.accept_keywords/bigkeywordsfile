@@ -1,5 +1,6 @@
 app-admin/cgmanager ~*
 app-emulation/libvirt ~*
+app-emulation/spice ~*
 dev-python/libvirt-python ~*
 app-emulation/libvirt-glib ~*
 app-emulation/open-vm-tools ~*
