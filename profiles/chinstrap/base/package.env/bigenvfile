@@ -62,6 +62,7 @@ x11-libs/wxGTK notmpfs.conf
 dev-qt/qtwebkit notmpfs.conf
 dev-lang/mono notmpfs.conf
 www-client/chromium notmpfs.conf
+www-client/firefox notmpfs.conf
 
 # No inline for gcc5
 net-libs/libiscsi noinline.conf
