@@ -51,6 +51,7 @@ app-emulation/open-vm-tools-kmod wnoerror.conf
 
 # No parallel
 net-print/cups-filters makeoptsj1.conf
+mail-filter/razor makeoptsj1.conf
 
 # No memory tmpfs
 app-office/libreoffice notmpfs.conf
