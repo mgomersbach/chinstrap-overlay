@@ -11,7 +11,7 @@ sys-libs/talloc O3.conf
 # no distcc features
 app-emulation/wine nodistcc.conf
 dev-db/mariadb nodistcc.conf
-dev-libs/klibc nodistcc.conf
+dev-libs/klibc nodistcc.conf nativecflags.conf
 dev-libs/protobuf nodistcc.conf
 dev-python/numpy nodistcc.conf
 dev-util/ctags nodistcc.conf
