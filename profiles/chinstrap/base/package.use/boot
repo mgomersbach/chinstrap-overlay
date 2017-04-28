@@ -11,6 +11,7 @@ sys-libs/zlib static-libs minizip
 media-libs/libpng static-libs
 sys-libs/gpm static-libs
 media-libs/freetype static-libs
+sys-fs/eudev static-libs
 
 # prelink
 dev-libs/elfutils static-libs
