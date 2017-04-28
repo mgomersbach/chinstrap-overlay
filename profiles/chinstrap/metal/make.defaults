@@ -4,8 +4,8 @@
 
 USE="acpi crossdev dbus extensions fbcondecor fbdev fbosd fbsplash hwdb iscsi 
 libcloud libvirt lm_sensors mdadm ntp openmp parted pm-utils acpi cgmanager 
-sensors spice system-qemu system-seabios systemtap timelib usb usbredir vde 
-virtfs virgl -virt-network vnc xfs"
+sensors sensord spice system-qemu system-seabios systemtap timelib usb usbredir 
+vde virtfs virgl -virt-network vnc xfs"
 
 QEMU_SOFTMMU_TARGETS="x86_64 i386 aarch64 arm"
 QEMU_USER_TARGETS="aarch64 arm i386 x86_64"
