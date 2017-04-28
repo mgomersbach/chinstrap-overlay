@@ -1,1 +1,1 @@
-net-wireless/bluez -python_single_target_python3_5
+net-wireless/bluez -python_single_target_python3_5 extra-tools
