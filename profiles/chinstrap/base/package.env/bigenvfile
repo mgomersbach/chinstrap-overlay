@@ -81,3 +81,6 @@ games-emulation/mednafen noinlinef.conf
 media-gfx/exiv2 noinlinef.conf
 media-libs/gegl noinlinef.conf
 sys-apps/smartmontools noinlinef.conf
+
+# doesnt add them by itself
+dev-libs/libcec libtinfo.conf
