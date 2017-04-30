@@ -15,7 +15,7 @@
 *x11-plugins/pidgin-libnotify
 *media-fonts/fira-code
 *media-video/parole
-*x11-misc/sddm
+*x11-misc/lightdm
 *x11-libs/gksu
 *x11-plugins/purple-libnotify-plus
 *x11-plugins/purple-plugin_pack
@@ -25,7 +25,6 @@
 *x11-themes/numix-icon-theme
 *x11-themes/numix-solarized
 *x11-themes/qtcurve
-*x11-themes/solarized-sddm-theme
 *xfce-base/thunar
 *xfce-base/xfce4-meta
 *xfce-extra/thunar-archive-plugin
