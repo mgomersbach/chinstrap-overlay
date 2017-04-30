@@ -3,9 +3,9 @@
 
 EAPI=6
 
-inherit eutils autotools
+inherit eutils
 
-DESCRIPTION=""
+DESCRIPTION="GTK3.20-compatible version of bitterologist's Numix Solarized"
 HOMEPAGE="https://github.com/Ferdi265/numix-solarized-gtk-theme"
 if [[ ${PV} == *9999* ]];then
 	inherit git-r3
@@ -18,14 +18,13 @@ else
 	RESTRICT="mirror"
 fi
 
-LICENSE="LGPL-3.0"
+LICENSE="LGPL-3"
 SLOT="0"
 IUSE=""
 
-DEPEND="dev-ruby/sass x11-themes/gtk-engines-murrine"
+DEPEND="dev-ruby/sass:3.4 x11-themes/gtk-engines-murrine"
 RDEPEND="${DEPEND}"
 
 src_prepare(){
 	eapply_user
 }
-

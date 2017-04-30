@@ -16,7 +16,7 @@ else
 	RESTRICT="mirror"
 fi
 
-LICENSE="GPL-3.0+"
+LICENSE="GPL-3+"
 SLOT="0"
 IUSE=""
 
@@ -33,4 +33,3 @@ src_install(){
 	doins -r Numix-Light || die "Install failed!"
 	dodoc readme.md
 }
-

@@ -55,8 +55,6 @@ media-libs/libmimic ~*
 media-libs/libmms ~*
 media-libs/libmodplug ~*
 media-libs/libmpeg2 ~*
-media-libs/libmpegts ~*
-media-libs/libmpegts **
 media-libs/libogg ~*
 media-libs/libpng ~*
 media-libs/libreplaygain ~*
@@ -99,14 +97,8 @@ media-sound/musepack-tools ~*
 media-sound/twolame ~*
 media-sound/wavpack ~*
 media-tv/kodi ~*
-media-video/avxsynth **
 media-video/ffmpeg ~*
-media-video/ffmpeg:0 ~*
-media-video/ffmpeg:0.10 ~*
 media-video/mpv
-media-video/obe-vod **
-media-video/vapoursynth **
-media-video/vapoursynthviewer
 media-video/vlc ~*
 media-video/x264-encoder **
 sys-libs/libavc1394 ~*

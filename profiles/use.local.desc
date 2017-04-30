@@ -1,8 +1,0 @@
-# Copyright 1999-2017 Gentoo Foundation
-# Distributed under the terms of the GNU General Public License v2
-# $Header: $
-
-media-video/avxsynth:autoscrop - Adds avisynth autocrop plugin
-media-video/avxsynth:avxedit - Adds avisynth script editor
-media-video/avxsynth:subititle - Adds avisynth subtitle plugin
-
