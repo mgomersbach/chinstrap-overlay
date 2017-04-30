@@ -1,4 +1,0 @@
-# Weird gles2 masks and it has a gui even without X useflag??
-net-misc/dropbox -X
-# PyQt5 needed for dropbox for X without X useflag
->=dev-qt/qtwebkit-5.6.1 printsupport

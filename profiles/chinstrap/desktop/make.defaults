@@ -3,7 +3,7 @@
 # $Header:
 
 USE="256-color bluetooth boost cairo consolekit cups dbus djvu dri 
-dri3 drm egl evdev fontconfig gallium gconf gimp gles2 glamor gphoto2 growl 
+dri3 drm egl evdev fontconfig gallium gconf gimp glamor gphoto2 growl 
 gtk gtk3 gtkstyle introspection joystick -kde libinput libkms  
 libnotify llvm llvm-shared-libs mono mtp nls nsplugin opengl 
 osmesa pixbuf pixman policykit qt5 rdp samba sdl sdl2 smp sna 

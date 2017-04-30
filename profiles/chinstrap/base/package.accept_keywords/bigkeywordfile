@@ -81,7 +81,6 @@ sys-apps/baselayout-java **
 sys-apps/hwdata-redhat
 sys-apps/hwids ~*
 sys-apps/kmod ~*
-sys-apps/kmscon **
 sys-apps/kudzu
 sys-apps/libtsm **
 sys-apps/openrc ~*

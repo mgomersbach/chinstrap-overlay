@@ -26,7 +26,6 @@
 *net-misc/chrony
 *net-misc/dhcpcd
 *media-gfx/splashutils
-*sys-apps/kmscon
 *sys-apps/mlocate
 *sys-apps/progress
 *sys-apps/pv

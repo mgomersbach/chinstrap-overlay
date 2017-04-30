@@ -1,5 +1,3 @@
-# incompatible gles2 useflag (sdl not build with gles2?)
-games-emulation/mupen64plus-core -debugger -gles2 osd
-games-emulation/mupen64plus-video-rice -gles2
-games-emulation/mupen64plus-video-glide64mk2 -gles2 hires
+games-emulation/mupen64plus-core -debugger osd
+games-emulation/mupen64plus-video-glide64mk2 hires
 
