@@ -5,6 +5,7 @@
 *app-portage/eix
 *app-portage/genlop
 *app-portage/gentoolkit
+*app-portage/repoman
 *app-portage/ufed
 *app-text/multitail
 *net-analyzer/bwm-ng
