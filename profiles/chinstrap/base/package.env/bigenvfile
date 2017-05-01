@@ -73,8 +73,8 @@ media-sound/timidity++ noinline.conf
 media-libs/libaacplus noinline.conf
 net-fs/nfs-utils noinline.conf
 sys-process/audit noinline.conf
-net-analyzer/net-snmp noinline.conf
 
+net-analyzer/net-snmp noinlinef.conf
 games-emulation/pcsxr noinlinef.conf
 games-emulation/pcsx2 noinlinef.conf
 games-emulation/mednafen noinlinef.conf
