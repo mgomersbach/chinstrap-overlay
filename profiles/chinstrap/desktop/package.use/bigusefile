@@ -10,7 +10,7 @@ dev-libs/libpcre pcre16
 dev-libs/libxml2 python
 dev-libs/weston drm
 dev-qt/qtgui gtkstyle
-dev-util/geany-plugins gtkspell
+dev-util/geany-plugins gtkspell -gtk3
 dev-util/scanmem gui
 dev-vcs/rabbitvcs thunar
 gnome-base/gdm consolekit
