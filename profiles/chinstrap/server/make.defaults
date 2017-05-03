@@ -7,7 +7,7 @@ dedicated deflate diskuse dlz enchant extraengine fcgi fpm ftp graphviz gd gif g
 howl-compat http2 ident imap irc innodb-lz4 innodb-lzo innodb-snappy jpeg ldap 
 ldap maildir mbox mdnsresponder-compat memcache memcached memcached 
 mhash mmap mms-agent mongodb mpi mysql mysqli mysqlnd network nfs nis nls 
-opcache pdo png postscript phar redis samba sasl server setup sftp snmp soap sockets sqlite 
+opcache pdo png postscript phar redis samba sasl setup sftp snmp soap sockets sqlite 
 sst-sync sst-xtrabackup svg swat raw recode tidy tiff tokyocabinet uploadprogress 
 vhosts vnc webp wmf xml xmlreader xmlrpc xmlwriter xsl xslt xvfb zeroconf -apache2"
 
