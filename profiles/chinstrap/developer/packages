@@ -10,6 +10,7 @@
 *app-vim/vim-spell-nl
 *dev-util/strace
 *dev-python/pip
+*dev-ruby/sass
 *dev-vcs/tig
 *net-analyzer/iftop
 *net-analyzer/netcat6
@@ -18,3 +19,4 @@
 *net-misc/telnet-bsd
 *sys-devel/gdb
 *sys-process/lsof
+*x11-themes/geany-themes

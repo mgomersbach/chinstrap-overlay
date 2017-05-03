@@ -5,6 +5,7 @@
 *games-emulation/dosbox
 *games-emulation/mupen64plus
 *games-util/qjoypad
+*net-analyzer/goaccess
 *media-libs/libtxc_dxtn
 *media-sound/fluidsynth
 *media-sound/timidity++

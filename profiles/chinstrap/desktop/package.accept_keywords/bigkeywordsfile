@@ -4,61 +4,30 @@ app-eselect/eselect-opengl ~*
 app-text/calibre ~*
 app-text/libwps ~*
 dev-dotnet/libgdiplus ~*
+dev-lang/mono ~*
 dev-lang/tcl ~*
-dev-lang/tk ~*
 dev-libs/atk ~*
-dev-libs/ecore **
-dev-libs/e_dbus **
-dev-libs/eet **
-dev-libs/eeze **
-dev-libs/efl ~*
-dev-libs/efreet **
-dev-libs/eina **
-dev-libs/embryo **
 dev-libs/glib ~*
 dev-libs/gobject-introspection ~*
 dev-libs/gobject-introspection-common ~*
 dev-libs/libclc ~*
 dev-libs/libevdev ~*
-dev-util/bless ~*
 dev-util/gdbus-codegen ~*
-dev-util/geany **
-dev-util/geany-plugins **
+dev-util/geany ~*
+dev-util/geany-plugins ~*
 gnome-base/dconf ~*
 gnome-base/gvfs ~*
 mail-client/thunderbird **
-media-gfx/yed ~*
-media-libs/avidemux-core **
-media-libs/avidemux-plugins **
-media-video/avidemux **
-media-video/handbrake
-net-im/skype ~*
-net-libs/rb_libtorrent ~*
-net-misc/dropbox ~*
-net-misc/logmein-hamachi  ~*
-net-misc/remmina ~*
-net-misc/tigervnc ~*
-net-misc/xrdp **
 net-p2p/qbittorrent ~*
-sys-devel/binutils-config ~*
 sys-devel/clang ~*
 sys-devel/llvm ~*
-sys-libs/binutils-libs ~*
 www-client/chromium ~*
 www-client/firefox **
-www-client/midori ~*
 www-plugins/chrome-binary-plugins ~*
-www-plugins/pipelight ~*
-x11-apps/ccsm ~*
-x11-apps/fusion-icon ~*
-x11-apps/radeontop ~*
-x11-apps/radeontray ~*
 x11-base/xorg-drivers ~*
 x11-base/xorg-server ~*
-x11-libs/glamor ~*
 x11-libs/gtk+ ~*
 x11-libs/libdrm **
-x11-libs/libfm
 x11-libs/libva-vdpau-driver ~*
 x11-libs/libvdpau ~*
 x11-libs/libxcb ~*
@@ -69,12 +38,7 @@ x11-libs/libxshmfence ~*
 x11-libs/wxGTK ~*
 x11-libs/xpyb ~*
 x11-libs/xtrans ~*
-x11-misc/cdm ~*
-x11-misc/compton ~*
 x11-misc/notification-daemon ~*
-x11-misc/notification-daemon **
-x11-misc/pcmanfm
-x11-misc/xwinwrap ~*
 x11-plugins/pidgin-led-notification ~*
 x11-proto/dri2proto ~*
 x11-proto/dri3proto ~*
@@ -83,9 +47,7 @@ x11-proto/presentproto ~*
 x11-proto/xcb-proto ~*
 x11-proto/xextproto ~*
 x11-proto/xf86driproto ~*
-x11-terms/terminology
-x11-themes/human-icon-theme
-x11-wm/enlightenment ~*
+x11-themes/geany-themes ~*
 xfce-extra/xfce4-gvfs-mount ~*
 
 # required by xfce-base/xfwm4-4.12.3::gentoo

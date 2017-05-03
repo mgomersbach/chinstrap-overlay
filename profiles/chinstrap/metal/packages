@@ -11,6 +11,8 @@
 *sys-apps/smartmontools
 *sys-apps/usbutils
 *sys-boot/grub
+*sys-firmware/intel-microcode
+*sys-kernel/linux-firmware
 *sys-libs/gpm
 *sys-power/acpid
 *sys-power/pm-utils

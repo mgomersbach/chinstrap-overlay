@@ -10,25 +10,16 @@ app-emulation/docker ~*
 app-emulation/lxc ~*
 app-emulation/open-vm-tools ~*
 app-eselect/eselect-java ~*
-app-i18n/fbterm ~*
 app-misc/resolve-march-native ~*
 app-portage/gentoolkit ~*
 app-portage/ufed ~*
-app-portage/update ~*
 app-shells/bash-completion **
 app-shells/gentoo-bashcomp **
 app-shells/oh-my-zsh ~*
-app-shells/powerline **
-app-shells/zsh-completion **
 app-shells/zsh-completions ~*
-dev-db/mtop ~*
 dev-dotnet/libgdiplus ~*
-dev-java/icedtea **
-dev-java/icedtea-bin **
-dev-java/icedtea-web **
-dev-java/java-config **
+dev-java/java-config ~*
 dev-lang/go ~*
-dev-lang/mono ~*
 dev-libs/elfutils ~*
 dev-libs/expat ~*
 dev-libs/glib ~*
@@ -37,96 +28,49 @@ dev-libs/gobject-introspection-common ~*
 dev-libs/lzo ~*
 dev-libs/nspr ~*
 dev-libs/nss ~*
-dev-perl/Authen-Libwrap ~*
-dev-perl/Getopt-GUI-Long ~*
 dev-php/PEAR-PHP_Beautifier **
 dev-php/PEAR-PHP_CodeSniffer **
-dev-python/ansi2html ~*
 dev-python/cffi ~*
 dev-python/cssmin ~*
 dev-python/cython ~*
-dev-python/futures ~*
-dev-python/g-pypi ~*
-dev-python/libcloud ~*
-dev-python/msgpack ~*
-dev-python/nagiosplugin ~*
 dev-python/numpy ~*
-dev-python/pycryptopp ~*
-dev-python/python-ldap ~*
-dev-python/python-pam ~*
-dev-python/slimit ~*
-dev-python/snakeoil ~*
-dev-python/sphinxcontrib-googleanalytics ~*
-dev-python/timelib ~*
-dev-python/urwid **
-dev-python/yolk ~*
-dev-python/yolk-portage ~*
 dev-util/catalyst ~*
 dev-util/gdbus-codegen ~*
-dev-util/gource
-dev-util/jenkins-bin **
+dev-util/gource ~*
 dev-util/metro ~*
-media-gfx/splash-themes-livedvd
+media-gfx/splash-themes-livedvd ~*
 net-analyzer/bwm-ng ~*
-net-analyzer/goaccess
-net-analyzer/snort
-net-dns/dnssec-tools
-net-fs/cvmfs
-net-fs/smbnetfs
-net-misc/miniupnpd ~*
+net-analyzer/goaccess ~*
 net-misc/netifrc ~*
-net-misc/npapi-sdk **
-net-wireless/broadcom-sta ~*
-sys-apps/baselayout-java **
-sys-apps/hwdata-redhat
+ys-apps/baselayout-java ~*
 sys-apps/hwids ~*
 sys-apps/kmod ~*
-sys-apps/kudzu
-sys-apps/libtsm **
 sys-apps/openrc ~*
 sys-apps/util-linux ~*
-sys-apps/yum ~*
-sys-block/partclone
 sys-block/thin-provisioning-tools ~*
-sys-block/zram-init
+sys-block/zram-init ~*
 sys-boot/grub:2 ~*
 sys-cluster/openmpi ~*
 sys-devel/binutils ~*
+sys-devel/binutils-config ~*
 sys-devel/clang ~*
 sys-devel/crossdev ~*
 sys-devel/distcc **
 sys-devel/gcc ~*
 sys-devel/gcc-config ~*
 sys-devel/prelink ~*
-sys-firmware/b43-firmware ~*
-sys-fs/aufs3 ~*
-sys-fs/aufs-headers ~*
-sys-fs/aufs-util ~*
 sys-fs/btrfs-progs ~*
 sys-fs/e2fsprogs ~*
-sys-fs/udev ~*
 sys-fs/udev-init-scripts ~*
 sys-fs/xfsprogs ~*
-sys-kernel/dracut ~*
 sys-kernel/linux-firmware ~*
 sys-kernel/gentoo-sources ~*
+sys-libs/binutils-libs ~*
 sys-libs/core-functions ~*
 sys-libs/e2fsprogs-libs ~*
 sys-libs/glibc ~*
 sys-libs/gpm ~*
 sys-libs/ncurses ~*
 sys-libs/zlib ~*
-virtual/python-futures
 virtual/udev ~*
 x11-libs/cairo ~*
-
-# Salt
-# required by www-servers/tornado-4.3::gentoo
-# required by app-admin/salt-2015.8.1::gentoo
-=dev-python/backports-abc-0.4 ~*
-# required by www-servers/tornado-4.3::gentoo
-# required by app-admin/salt-2015.8.1::gentoo
-=virtual/python-backports_abc-0 ~*
-
-# ~* catalyst
-dev-python/pydecomp ~*
