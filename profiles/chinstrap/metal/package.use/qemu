@@ -6,3 +6,6 @@
 # required by @system
 # required by @world (argument)
 >=sys-process/audit-2.6.4 python
+
+# pulls in mesa egl otherwise
+app-emulation/qemu -virgl
