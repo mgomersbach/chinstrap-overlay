@@ -30,7 +30,8 @@ sqlite ssh ssl syslog threads udev zlib zsh-completion"
 FEATURES="buildpkg ccache clean-logs compressdebug distcc distcc-pump
 parallel-fetch parallel-install"
 
-EMERGE_DEFAULT_OPTS="--getbinpkg --tree"
+EMERGE_DEFAULT_OPTS="--keep-going --getbinpkg=y --binpkg-respect-use=y --tree
+ --with-bdeps=y --rebuilt-binaries=y --unordered-display --usepkg=y"
 DISTDIR="/media/distfiles"
 PKGDIR="/media/packages"
 ABI_X86="64 32"
