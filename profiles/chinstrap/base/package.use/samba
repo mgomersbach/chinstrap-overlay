@@ -1,0 +1,4 @@
+# python exts
+sys-libs/ntdb python
+sys-libs/tevent python
+sys-libs/tdb python
