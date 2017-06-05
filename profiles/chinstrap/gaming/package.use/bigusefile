@@ -1,4 +1,4 @@
-app-emulation/wine staging
+app-emulation/wine-any staging
 dev-libs/iniparser abi_x86_32
 net-fs/samba abi_x86_32 winbind
 sys-devel/flex abi_x86_32

@@ -1,6 +1,6 @@
 *app-arch/rar
 *app-arch/unrar
-*app-emulation/wine
+*app-emulation/wine-any
 *app-emulation/winetricks
 *games-emulation/dosbox
 *games-emulation/mupen64plus

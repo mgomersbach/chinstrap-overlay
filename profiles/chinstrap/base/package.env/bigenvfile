@@ -9,7 +9,7 @@ media-video/ffmpeg O3.conf
 sys-libs/talloc O3.conf
 
 # no distcc features
-app-emulation/wine nodistcc.conf
+app-emulation/wine-any nodistcc.conf
 dev-db/mariadb nodistcc.conf
 dev-libs/klibc nodistcc.conf nativecflags.conf
 dev-libs/protobuf nodistcc.conf
