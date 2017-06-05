@@ -17,6 +17,7 @@
 *x11-plugins/pidgin-led-notification
 *x11-plugins/pidgin-libnotify
 *x11-misc/lightdm
+*x11-misc/qt5ct
 *x11-libs/gksu
 *x11-plugins/purple-libnotify-plus
 *x11-plugins/purple-plugin_pack
