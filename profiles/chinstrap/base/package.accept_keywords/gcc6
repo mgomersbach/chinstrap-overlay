@@ -3,3 +3,4 @@ sys-devel/gcc ~*
 dev-util/systemtap ~*
 dev-util/ragel ~*
 dev-util/colm ~*
+=sys-libs/libcap-2.25 ~*
