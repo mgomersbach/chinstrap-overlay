@@ -1,3 +1,3 @@
 media-libs/mesa d3d9
-app-emulation/wine-any prelink
+app-emulation/wine-any prelink d3d9 staging
 virtual/wine d3d9 staging
