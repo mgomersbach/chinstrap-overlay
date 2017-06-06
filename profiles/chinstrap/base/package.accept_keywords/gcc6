@@ -1,0 +1,5 @@
+sys-devel/gcc-config ~*
+sys-devel/gcc ~*
+dev-util/systemtap ~*
+dev-util/ragel ~*
+dev-util/colm ~*
