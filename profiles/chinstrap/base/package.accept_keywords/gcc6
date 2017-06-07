@@ -4,3 +4,6 @@ dev-util/systemtap ~*
 dev-util/ragel ~*
 dev-util/colm ~*
 =sys-libs/libcap-2.25 ~*
+=app-text/djvu-3.5.27 ~*
+=media-gfx/geeqie-1.3 ~*
+
