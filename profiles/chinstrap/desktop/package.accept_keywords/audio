@@ -1,0 +1,3 @@
+# required by asoundconf (argument)
+=media-sound/asoundconf-1.2 ~amd64
+

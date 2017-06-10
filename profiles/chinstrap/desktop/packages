@@ -3,6 +3,7 @@
 *dev-java/oracle-jdk-bin
 *gnome-extra/gucharmap
 *media-fonts/fira-code
+*media-sound/asoundconf
 *media-video/parole
 *net-fs/autofs
 *net-fs/davfs2
