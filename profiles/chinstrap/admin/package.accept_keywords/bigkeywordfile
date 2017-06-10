@@ -1,9 +1,0 @@
-app-admin/eselect-cdparanoia ~*
-app-admin/perl-cleaner ~*
-app-admin/puppet ~*
-app-admin/python-updater ~*
-app-admin/webmin ~*
-app-portage/update
-dev-db/mtop ~*
-sys-apps/kicktoo
-sys-block/partclone ~*

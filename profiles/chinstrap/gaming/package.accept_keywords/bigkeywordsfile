@@ -1,7 +1,5 @@
 app-emulation/wine-any ~*
 app-emulation/winetricks **
-dev-games/netradiant **
-dev-python/autopy ~*
 games-arcade/commandergenius ~*
 games-emulation/desmume ~*
 games-emulation/dolphin ~*
@@ -10,16 +8,11 @@ games-emulation/mgba ~*
 games-emulation/mupen64plus **
 games-emulation/pcsx2 ~*
 games-emulation/pcsxr ~*
-games-emulation/qmc2 ~*
 games-emulation/vbam ~*
 games-emulation/vgba **
 games-fps/darkplaces ~*
-games-fps/doom3-gpl **
 games-fps/doomsday **
 games-fps/warsow ~*
 games-simulation/openttd ~*
-games-sports/stuntrally **
-games-sports/stuntrally-tracks **
 games-strategy/0ad ~*
-games-strategy/glest ~*
 games-util/steam-launcher ~*

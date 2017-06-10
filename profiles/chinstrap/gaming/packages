@@ -1,12 +1,8 @@
-*app-arch/rar
-*app-arch/unrar
 *app-emulation/wine-any
 *app-emulation/winetricks
 *games-emulation/dosbox
-*games-emulation/mupen64plus
 *games-util/qjoypad
 *games-util/steam-launcher
-*net-analyzer/goaccess
 *media-libs/libtxc_dxtn
 *media-sound/fluidsynth
 *media-sound/timidity++

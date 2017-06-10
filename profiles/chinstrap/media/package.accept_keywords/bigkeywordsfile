@@ -2,7 +2,6 @@ app-text/pdfsandwich ~*
 dev-libs/crossguid ~*
 dev-libs/libcec ~*
 dev-libs/libplatform ~*
-dev-python/pytesseract ~*
 media-gfx/blender ~*
 media-gfx/cairosvg ~*
 media-gfx/exact-image ~*
@@ -11,16 +10,9 @@ media-gfx/nomacs ~*
 media-gfx/psftools ~*
 media-gfx/splash-themes-livedvd ~*
 media-gfx/splashutils ~*
-media-gfx/tetradraw **
-media-gfx/yed ~*
 media-libs/a52dec ~*
 media-libs/alsa-lib ~*
 media-libs/audiofile ~*
-media-libs/edje **
-media-libs/elementary
-media-libs/emotion **
-media-libs/ethumb **
-media-libs/evas **
 media-libs/faac ~*
 media-libs/faad2 ~*
 media-libs/fdk-aac ~*
@@ -30,7 +22,6 @@ media-libs/freeglut ~*
 media-libs/freetype ~*
 media-libs/giflib ~*
 media-libs/glew ~*
-media-libs/glm ~*
 media-libs/glm ~*
 media-libs/glu ~*
 media-libs/imlib2 ~*
@@ -51,7 +42,6 @@ media-libs/libiec61883 ~*
 media-libs/libjpeg-turbo ~*
 media-libs/libmad ~*
 media-libs/libmikmod ~*
-media-libs/libmimic ~*
 media-libs/libmms ~*
 media-libs/libmodplug ~*
 media-libs/libmpeg2 ~*
@@ -62,7 +52,6 @@ media-libs/libsamplerate ~*
 media-libs/libsdl2 ~*
 media-libs/libsfml ~*
 media-libs/libshout ~*
-media-libs/libsidplay ~*
 media-libs/libsidplay ~*
 media-libs/libsndfile ~*
 media-libs/libtheora ~*

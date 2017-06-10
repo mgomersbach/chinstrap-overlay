@@ -4,12 +4,10 @@ app-emulation/spice ~*
 dev-python/libvirt-python ~*
 app-emulation/libvirt-glib ~*
 app-emulation/open-vm-tools ~*
-app-emulation/open-vm-tools-kmod ~*
 app-emulation/qemu ~*
 app-emulation/spice-protocol ~*
 app-emulation/vagrant ~*
 app-emulation/virt-manager **
-app-emulation/vmware-view-open-client ~*
 sys-block/thin-provisioning-tools ~*
 sys-firmware/seabios ~*
 sys-firmware/edk2-ovmf ~*

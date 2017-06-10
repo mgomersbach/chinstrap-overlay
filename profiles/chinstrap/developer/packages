@@ -1,12 +1,10 @@
 *app-editors/nano
+*app-portage/repoman
 *dev-util/strace
+*dev-php/PHP_CodeSniffer
+*dev-php/PEAR-PHP_Beautifier
 *dev-python/pip
 *dev-ruby/sass
 *dev-vcs/tig
-*net-analyzer/iftop
-*net-analyzer/netcat6
-*net-analyzer/traceroute
-*net-dns/bind-tools
-*net-misc/telnet-bsd
 *sys-devel/gdb
 *sys-process/lsof

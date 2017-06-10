@@ -5,7 +5,6 @@ app-vim/vimbuddy ~*
 dev-libs/libuv ~*
 dev-python/mkdocs-bootstrap ~*
 dev-python/mkdocs-bootswatch ~*
-dev-python/yapf ~*
 dev-util/electron ~*
 dev-util/sysdig ~*
 net-libs/nodejs ~*

@@ -1,6 +1,5 @@
 dev-db/mariadb ~*
 dev-db/mysqltuner ~*
-dev-php/pecl-apc **
 dev-php/pecl-memcache **
 dev-php/pecl-memcached **
 dev-php/pecl-uploadprogress **
@@ -11,4 +10,5 @@ sys-process/procps ~*
 virtual/mysql ~*
 # http2
 www-servers/nginx ~*
+
 www-servers/tornado ~*

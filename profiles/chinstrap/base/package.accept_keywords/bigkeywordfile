@@ -28,17 +28,12 @@ dev-libs/gobject-introspection-common ~*
 dev-libs/lzo ~*
 dev-libs/nspr ~*
 dev-libs/nss ~*
-dev-php/PEAR-PHP_Beautifier **
-dev-php/PEAR-PHP_CodeSniffer **
 dev-python/cffi ~*
-dev-python/cssmin ~*
 dev-python/cython ~*
 dev-python/numpy ~*
 dev-util/catalyst ~*
 dev-util/gdbus-codegen ~*
 dev-util/gource ~*
-dev-util/metro ~*
-media-gfx/splash-themes-livedvd ~*
 net-analyzer/bwm-ng ~*
 net-analyzer/goaccess ~*
 net-misc/netifrc ~*
@@ -65,7 +60,6 @@ sys-fs/xfsprogs ~*
 sys-kernel/linux-firmware ~*
 sys-kernel/gentoo-sources ~*
 sys-libs/binutils-libs ~*
-sys-libs/core-functions ~*
 sys-libs/e2fsprogs-libs ~*
 sys-libs/glibc ~*
 sys-libs/gpm ~*
