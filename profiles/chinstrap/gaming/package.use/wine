@@ -1,3 +1,6 @@
 media-libs/mesa d3d9
 app-emulation/wine-any prelink d3d9 staging
 virtual/wine d3d9 staging
+
+# required by app-emulation/wine-any-2.9
+>=net-fs/samba-3.0.25 winbind
