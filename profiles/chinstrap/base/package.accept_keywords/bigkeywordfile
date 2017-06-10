@@ -42,7 +42,8 @@ media-gfx/splash-themes-livedvd ~*
 net-analyzer/bwm-ng ~*
 net-analyzer/goaccess ~*
 net-misc/netifrc ~*
-ys-apps/baselayout-java ~*
+sys-apps/baselayout-java ~*
+sys-apps/baselayout **
 sys-apps/hwids ~*
 sys-apps/kmod ~*
 sys-apps/openrc ~*
