@@ -1,2 +1,5 @@
 # https://github.com/anyc/steam-overlay/issues/178
 media-libs/mesa -openssl nettle
+
+# as it is needed just for its libs not its func
+net-misc/networkmanager -wifi -wext -dhclient -ppp

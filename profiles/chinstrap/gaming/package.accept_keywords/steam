@@ -1,1 +1,6 @@
 sys-libs/libudev-compat **
+# required by games-util/steam-launcher-1.0.0.54::chinstrap[-steamruntime]
+# required by @system
+# required by @world (argument)
+=games-util/steam-client-meta-0-r20161126 ~*
+
