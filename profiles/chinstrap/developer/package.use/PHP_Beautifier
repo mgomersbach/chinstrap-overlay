@@ -1,0 +1,2 @@
+# prevent php56 pull
+dev-php/PEAR-MDB2 -mysql -mysqli
