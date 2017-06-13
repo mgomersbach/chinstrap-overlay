@@ -6,7 +6,6 @@
 *app-portage/genlop
 *app-portage/gentoolkit
 *app-portage/ufed
-*net-analyzer/goaccess
 *net-analyzer/iftop
 *net-analyzer/mtr
 *net-analyzer/nmap
