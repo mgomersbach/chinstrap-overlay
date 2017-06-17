@@ -1,1 +1,10 @@
 media-gfx/graphite2 ~*
+
+# required by dev-util/cargo-0.17.0::gentoo
+=dev-lang/rust-1.16.0 ~*
+# required by dev-lang/rust-1.16.0::gentoo
+# required by www-client/firefox-54.0::gentoo
+# required by @selected
+# required by @world (argument)
+=dev-util/cargo-0.17.0 ~*
+
