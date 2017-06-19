@@ -134,24 +134,15 @@ pkg_preinst() {
 	rm -f "${ED}"/usr/share/${PN}/Makefile
 }
 
-src_prepare() {
-	default
-	if use prefix; then
-		sed -i -r\
-			-e "/PATH=/!s:/(etc|usr/bin|bin):\"${EPREFIX}\"/\1:g" \
-			-e "/PATH=/s|([:\"])/|\1${EPREFIX}/|g" \
-			-e "/PATH=.*\/sbin/s|\"$|:/usr/sbin:/sbin\"|" \
-			-e "/PATH=.*\/bin/s|\"$|:/usr/bin:/bin\"|" \
-			etc/profile || die
-		sed -i -r \
-			-e "s:/(etc/env.d|opt|usr):${EPREFIX}/\1:g" \
-			-e "/^PATH=/s|\"$|:${EPREFIX}/usr/sbin:${EPREFIX}/sbin\"|" \
-			etc/env.d/50baselayout || die
-		sed -i "s:/bin:${EPREFIX}/bin:" etc/shells || die
-		sed -i -r \
-			-e "s,:/(root|bin|sbin|var|),:${EPREFIX}/\1,g" \
-			share.Linux/passwd || die
-	fi
+src_install() {
+	emake \
+		OS=$(usex kernel_FreeBSD BSD Linux) \
+		DESTDIR="${D}" \
+		install || die
+
+	# need the makefile in pkg_preinst
+	insinto /usr/share/${PN}
+	doins Makefile || die
 
 	# handle multilib paths.  do it here because we want this behavior
 	# regardless of the C library that you're using.  we do explicitly
