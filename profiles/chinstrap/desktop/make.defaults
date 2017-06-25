@@ -12,8 +12,7 @@ vdpau vnc widgets gui multimedia network wxwidgets X x11
 xcb xcomposite -xinerama xkb xorg xscreensaver xv xvmc 
 zeroconf"
 
-VIDEO_CARDS="fbcon fbdev i915 i965 intel nouveau r600 radeon radeonsi
-vesa vmware amdgpu"
+VIDEO_CARDS="fbcon fbdev i915 i965 intel vesa vmware"
 
 INPUT_DEVICES="evdev libinput keyboard mouse synaptics vmmouse"
 
