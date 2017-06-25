@@ -38,6 +38,6 @@ ABI_X86="64 32"
 
 # Misc stuff
 GRUB_PLATFORMS="pc emu efi-64"
-VIDEO_CARDS="fbdev qxl vesa virtualbox vmware"
+VIDEO_CARDS="fbdev qxl vesa vmware"
 
 POLICY_TYPES="targeted"
