@@ -9,7 +9,7 @@ inherit mercurial python-r1
 DESCRIPTION="Allows you to select the default ALSA sound card"
 HOMEPAGE="https://bitbucket.org/stativ/asoundconf"
 EHG_REPO_URI="https://bitbucket.org/stativ/asoundconf"
-LICENSE="GPL"
+LICENSE="GPL-2"
 
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
