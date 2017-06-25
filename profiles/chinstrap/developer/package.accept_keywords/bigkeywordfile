@@ -1,10 +1,7 @@
 app-editors/atom ~*
 app-eselect/eselect-electron ~*
 app-editors/wxhexeditor ~*
-app-vim/vimbuddy ~*
 dev-libs/libuv ~*
-dev-python/mkdocs-bootstrap ~*
-dev-python/mkdocs-bootswatch ~*
 dev-util/electron ~*
 dev-util/sysdig ~*
 net-libs/nodejs ~*
