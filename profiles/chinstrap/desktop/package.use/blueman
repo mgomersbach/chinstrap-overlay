@@ -1,0 +1,3 @@
+# prevent avahi autoipd useflag
+net-wireless/blueman -network
+

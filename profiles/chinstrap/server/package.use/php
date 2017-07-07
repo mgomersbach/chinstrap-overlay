@@ -1,1 +1,1 @@
-dev-lang/php gd fpm intl exif bcmath spell recode -imap -mysqli
+dev-lang/php gd fpm intl exif bcmath spell -recode imap mysqli zip
