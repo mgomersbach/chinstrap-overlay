@@ -1,4 +1,5 @@
 *app-admin/logrotate
+*app-emulation/virt-what
 *app-forensics/chkrootkit
 *app-misc/mc
 *app-misc/screen
