@@ -6,7 +6,7 @@ EAPI=5
 PYTHON_COMPAT=( python{2_6,2_7} )
 EGIT_REPO_URI="https://github.com/ulfalizer/Kconfiglib.git"
 [ -n "${EVCS_OFFLINE}" ] || EGIT_REPACK=true
-inherit eutils git-2 confutils distutils-r1
+inherit eutils git-r3 distutils-r1
 
 DESCRIPTION="A flexible Python Kconfig parser and library"
 HOMEPAGE="https://github.com/ulfalizer/Kconfiglib"
