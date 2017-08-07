@@ -22,5 +22,4 @@ src_compile() {
 src_install() {
 	doman  zsh-lovers.1
 	dohtml zsh-lovers.html
-	dodoc README
 }
