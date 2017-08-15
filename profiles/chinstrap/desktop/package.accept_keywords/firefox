@@ -8,3 +8,19 @@ media-gfx/graphite2 ~*
 # required by @world (argument)
 =dev-util/cargo-0.17.0 ~*
 
+# required by dev-lang/rust-1.19.0::gentoo
+# required by virtual/rust-1.19.0::gentoo
+# required by www-client/firefox-55.0::gentoo
+# required by @selected
+# required by @world (argument)
+=dev-util/cargo-0.20.0 ~*
+# required by www-client/firefox-55.0::gentoo
+# required by @selected
+# required by @world (argument)
+=virtual/rust-1.19.0 ~*
+# required by virtual/rust-1.19.0::gentoo
+# required by www-client/firefox-55.0::gentoo
+# required by @selected
+# required by @world (argument)
+=dev-lang/rust-1.19.0 ~*
+
