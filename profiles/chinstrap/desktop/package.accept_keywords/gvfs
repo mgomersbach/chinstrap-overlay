@@ -1,0 +1,6 @@
+# required by gnome-base/gvfs-1.32.1::gentoo[nfs]
+# required by xfce-base/thunar-1.6.10-r1::gentoo[udisks]
+# required by @system
+# required by @world (argument)
+=net-fs/libnfs-2.0.0 ~*
+
