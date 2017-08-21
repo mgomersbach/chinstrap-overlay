@@ -1,9 +1,8 @@
 app-emulation/docker device-mapper
 app-emulation/ganeti kvm
 app-emulation/libvirt iscsi qemu lvm parted pcap
-app-emulation/qemu aio alsa xfs usbredir iscsi spice vde virtfs
+app-emulation/qemu aio alsa xfs usbredir iscsi spice virtfs
 app-emulation/virtualbox extensions
 gnome-extra/gnome-boxes usbredir
 net-misc/spice-gtk usbredir
-net-misc/tinc vde
 sys-cluster/nova kvm
