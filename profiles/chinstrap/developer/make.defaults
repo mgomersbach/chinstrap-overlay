@@ -5,5 +5,5 @@ USE="api bash client ctypes-python cvs debugger declarative dediprog
 designer developer development devhelp devtools dot doxysearch git
 gitchangebar graph introspection java jde libopts llvm
 mono pch pcre perl php plugins python qml ruby script
-scripttools sdk sql static-analyzer stubgen swig test-programs tools
+scripttools sdk sql static-analyzer stubgen swig tools
 udis86 vte xmlpatterns"
