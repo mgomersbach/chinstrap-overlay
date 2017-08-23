@@ -1,0 +1,2 @@
+# stable doesnt want to build because of "missing" gstreamer bug
+net-misc/freerdp ~*
