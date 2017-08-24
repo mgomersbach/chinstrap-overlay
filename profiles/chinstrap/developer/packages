@@ -4,6 +4,7 @@
 *dev-php/PHP_CodeSniffer
 *dev-php/PEAR-PHP_Beautifier
 *dev-python/pip
+*dev-python/virtualenv
 *dev-ruby/sass
 *dev-vcs/tig
 *sys-devel/gdb
