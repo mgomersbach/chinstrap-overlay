@@ -66,13 +66,15 @@ RDEPEND="sys-apps/pciutils
 	vim-syntax? ( app-vim/salt-vim )"
 DEPEND="dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (
+		dev-python/pytest-salt[${PYTHON_USEDEP}]
 		dev-python/psutil[${PYTHON_USEDEP}]
+		dev-python/pytest[${PYTHON_USEDEP}]
 		dev-python/pip[${PYTHON_USEDEP}]
 		dev-python/virtualenv[${PYTHON_USEDEP}]
 		dev-python/mock[${PYTHON_USEDEP}]
 		dev-python/timelib[${PYTHON_USEDEP}]
 		>=dev-python/boto-2.32.1[${PYTHON_USEDEP}]
-		!x86? ( dev-python/boto3[${PYTHON_USEDEP}] )
+		!x86? ( >=dev-python/boto3-1.2.1[${PYTHON_USEDEP}] )
 		>=dev-python/moto-0.3.6[${PYTHON_USEDEP}]
 		>=dev-python/SaltTesting-2016.5.11[${PYTHON_USEDEP}]
 		>=dev-python/libcloud-0.14.0[${PYTHON_USEDEP}]
@@ -85,26 +87,11 @@ REQUIRED_USE="|| ( raet zeromq )"
 RESTRICT="x86? ( test )"
 
 PATCHES=(
-	"${FILESDIR}/${PN}-2016.11.0-tmpdir.patch"
-	"${FILESDIR}/${PN}-2016.3.1-dont-realpath-tmpdir.patch"
-	"${FILESDIR}/${PN}-2016.3.4-test-nonexist-dirs.patch"
-	"${FILESDIR}/${PN}-2016.11.0-remove-file-tree-test.patch"
-	"${FILESDIR}/${PN}-2016.11.0-broken-tests.patch"
+	"${FILESDIR}/${PN}-2017.7.0-dont-realpath-tmpdir.patch"
 )
 
 python_prepare() {
-	# this test fails because it trys to "pip install distribute"
-	rm tests/unit/{modules,states}/zcbuildout_test.py \
-		tests/unit/modules/{rh_ip,win_network,random_org}_test.py || die
-
-	# https://github.com/saltstack/salt/issues/39095
-	rm tests/unit/utils/parsers_test.py
-
-	# apparently libcloud does not know about this?
-	rm tests/unit/cloud/clouds/dimensiondata_test.py || die
-
-	# seriously? "ValueError: Missing (or not readable) key file: '/home/dany/PRIVKEY.pem'"
-	rm tests/unit/cloud/clouds/gce_test.py || die
+	rm tests/unit/{test_zypp_plugins.py,utils/test_extend.py}
 }
 
 python_install_all() {
@@ -127,11 +114,16 @@ python_test() {
 	ulimit -n 3072 || die
 
 	# ${T} is too long a path for the tests to work
-	tempdir="$(mktemp -dup /tmp salt-XXX)"
+	tempdir="$(mktemp -du --tmpdir=/tmp salt-XXX)"
 	mkdir "${T}/$(basename "${tempdir}")"
+	mkdir "${BUILD_DIR}"/../{templates,conf/cloud.{providers,profiles,maps}.d} || die
 
 	(
-		cleanup() { rm -f "${tempdir}"; }
+		cleanup() {
+			rm -f "${tempdir}"
+			rmdir "${BUILD_DIR}"/../{templates,conf/cloud.{providers,profiles,maps}.d} || die
+		}
+
 		trap cleanup EXIT
 
 		addwrite "${tempdir}"
