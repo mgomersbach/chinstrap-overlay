@@ -1,0 +1,2 @@
+# for qemu and libvirt
+=dev-libs/libusb-1.0.21 ~*
