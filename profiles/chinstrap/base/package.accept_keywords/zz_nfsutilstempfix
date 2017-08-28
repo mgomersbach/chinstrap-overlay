@@ -1,0 +1,2 @@
+# stable nfs-utils cant build with glibc 2.25-r4 as of changed headers
+net-fs/nfs-utils **
