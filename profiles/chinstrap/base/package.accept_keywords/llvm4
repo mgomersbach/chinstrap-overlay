@@ -23,3 +23,5 @@ app-vim/llvm-vim ~*
 # required by @world (argument)
 sys-libs/compiler-rt ~*
 
+# dont pull in old llvm
+dev-python/numba ~*
