@@ -1,0 +1,2 @@
+# net-misc/vinagre-3.22.0-r1 did not build so we fetch r2 instead
+net-misc/vinagre ~*
