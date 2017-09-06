@@ -1,0 +1,4 @@
+# stable did not want to build anymore
+media-libs/gegl ~*
+media-libs/babl ~*
+
