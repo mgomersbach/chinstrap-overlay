@@ -1,0 +1,2 @@
+# doenst compile with mysql, add perl for mail-filter/amavisd-new
+net-analyzer/net-snmp -mysql perl
