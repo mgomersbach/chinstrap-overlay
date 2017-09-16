@@ -1,0 +1,2 @@
+# add geoclue for redshift as it's harmless
+x11-misc/redshift geoclue
