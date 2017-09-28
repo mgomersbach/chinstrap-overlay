@@ -1,1 +1,2 @@
-sys-libs/ncurses tinfo
+# remove gpm in base to prevent circular dep
+sys-libs/ncurses tinfo -gpm
