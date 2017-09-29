@@ -3,9 +3,10 @@
 # required by app-emulation/wine-any-2.9::gentoo
 # required by wine-any (argument)
 =app-eselect/eselect-wine-1.1 ~*
-# required by app-emulation/wine-any-2.9::gentoo[mono]
-# required by wine-any (argument)
-=app-emulation/wine-mono-4.7.0 ~*
+# Required by > wine-9999
+app-emulation/wine-mono ~*
+
+
 # required by app-emulation/wine-any-2.9::gentoo[gecko]
 # required by wine-any (argument)
 =app-emulation/wine-gecko-2.47-r1 ~*
