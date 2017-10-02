@@ -1,17 +1,21 @@
 # required by wine-any (argument)
-=app-emulation/wine-any-2.9 ~*
-# required by app-emulation/wine-any-2.9::gentoo
+app-emulation/wine-any ~*
+# required by app-emulation/wine-any
 # required by wine-any (argument)
-=app-eselect/eselect-wine-1.1 ~*
-# Required by > wine-9999
+app-eselect/eselect-wine ~*
+# required by app-emulation/wine-any
 app-emulation/wine-mono ~*
 
+# required by app-emulation/wine-any
+# required by wine-any (argument)
+app-emulation/wine-gecko ~*
+# required by app-emulation/wine-any
+# required by wine-any (argument)
+app-emulation/wine-desktop-common ~*
 
-# required by app-emulation/wine-any-2.9::gentoo[gecko]
-# required by wine-any (argument)
-=app-emulation/wine-gecko-2.47-r1 ~*
-# required by app-emulation/wine-any-2.9::gentoo
-# required by wine-any (argument)
-=app-emulation/wine-desktop-common-20150204 ~*
+# required by app-emulation/wine-any
+# required by @selected
+# required by @world (argument)
+dev-util/patchbin ~*
 
 virtual/wine ~*
