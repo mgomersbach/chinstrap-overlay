@@ -6,4 +6,4 @@ dev-python/python-dateutil ~*
 dev-python/PyQt5 ~*
 app-text/podofo ~*
 dev-python/dbus-python ~*
-
+dev-python/html5-parser ~*
