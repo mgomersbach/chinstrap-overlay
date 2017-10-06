@@ -1,3 +1,5 @@
 # required by asoundconf (argument)
 =media-sound/asoundconf-1.2 ~amd64
 
+# replacement for xfce4-mixer
+xfce-extra/xfce4-alsa-plugin ~*
