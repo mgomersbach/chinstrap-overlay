@@ -1,2 +1,3 @@
 virtual/tmpfiles ~*
 sys-apps/opentmpfiles ~*
+sys-apps/init-system-helpers ~*
