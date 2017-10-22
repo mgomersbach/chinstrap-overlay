@@ -1,4 +1,4 @@
-# -O3 cflags
+# -O3 CFLAGS
 dev-db/mariadb O3.conf
 dev-db/sqlite O3.conf
 dev-lang/php O3.conf
@@ -8,7 +8,8 @@ media-libs/libvpx O3.conf
 media-video/ffmpeg O3.conf
 sys-libs/talloc O3.conf
 
-# no distcc features
+# no distcc FEATURES
+sys-boot/syslinux nodistcc.conf
 app-emulation/wine-any nodistcc.conf
 dev-db/mariadb nodistcc.conf
 dev-libs/klibc nodistcc.conf nativecflags.conf
@@ -29,17 +30,18 @@ sys-devel/distcc nodistcc.conf
 sys-libs/talloc nodistcc.conf
 www-client/firefox nodistcc.conf
 dev-python/numpy nodistcc.conf
-# waf-utils broke down with distcc
-sys-libs/tdb nodistcc.conf
-sys-libs/tevent nodistcc.conf
-sys-libs/ntdb nodistcc.conf
 sys-libs/ldb nodistcc.conf
 app-emulation/qemu nodistcc.conf
 media-libs/openal nodistcc.conf
 net-libs/socket_wrapper nodistcc.conf
-net-fs/samba nodistcc.conf
 dev-cpp/clucene nodistcc.conf
 net-misc/freerdp nodistcc.conf
+
+# waf-utils broke down with distcc
+net-fs/samba nodistcc.conf
+sys-libs/tdb nodistcc.conf
+sys-libs/tevent nodistcc.conf
+sys-libs/ntdb nodistcc.conf
 
 # native cflags
 games-emulation/fceux nativecflags.conf
