@@ -1,2 +1,11 @@
 # for qemu and libvirt
 =dev-libs/libusb-1.0.21 ~*
+
+# required by app-emulation/qemu-2.10.0-r1::gentoo[-static,fdt]
+# required by app-emulation/libvirt-3.8.0-r1::gentoo[qemu]
+# required by dev-python/libvirt-python-3.8.0::gentoo
+# required by app-emulation/virt-manager-9999::gentoo
+# required by @system
+# required by @world (argument)
+=sys-apps/dtc-1.4.4 ~*
+
