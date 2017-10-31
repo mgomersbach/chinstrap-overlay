@@ -44,6 +44,7 @@ sys-libs/tevent nodistcc.conf
 sys-libs/ntdb nodistcc.conf
 
 # native cflags
+app-emulation/spice nativecflags.conf
 games-emulation/fceux nativecflags.conf
 sys-cluster/openmpi nativecflags.conf noinlinef.conf
 
