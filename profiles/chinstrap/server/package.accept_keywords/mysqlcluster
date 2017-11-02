@@ -12,3 +12,10 @@ sys-cluster/galera ~*
 # required by dev-db/mariadb-10.1.19::gentoo[galera]
 # required by mariadb (argument)
 dev-cpp/asio ~*
+# required by dev-db/mariadb-10.2.10::gentoo
+# required by virtual/mysql-5.6-r9::gentoo
+# required by media-tv/kodi-17.5-r1::gentoo
+# required by @selected
+# required by @world (argument)
+dev-libs/libpcre ~*
+
