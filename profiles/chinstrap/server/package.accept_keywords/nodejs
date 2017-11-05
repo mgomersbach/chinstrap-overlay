@@ -1,0 +1,7 @@
+# required by net-libs/nodejs-8.9.0::gentoo
+# required by nodejs (argument)
+=net-libs/http-parser-2.7.1 ~*
+# required by net-libs/nodejs-8.9.0::gentoo
+# required by nodejs (argument)
+=net-libs/nghttp2-1.27.0 ~*
+
