@@ -6,7 +6,7 @@
 *media-sound/asoundconf
 *media-sound/volumeicon
 *media-sound/qastools
-*media-video/parole
+*media-video/mpv
 *net-firewall/ufw-frontends
 *net-fs/autofs
 *lxde-base/lxrandr
