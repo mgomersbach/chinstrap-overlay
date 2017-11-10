@@ -1,0 +1,2 @@
+# provide "Run as root" option in the application's menu
+xfce-extra/xfce4-taskmanager gksu -gtk3
