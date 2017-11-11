@@ -31,8 +31,8 @@ zsh-completion"
 FEATURES="buildpkg ccache clean-logs compressdebug distcc distcc-pump
 parallel-fetch parallel-install"
 
-EMERGE_DEFAULT_OPTS="--keep-going --getbinpkg=y --binpkg-respect-use=y --tree
- --with-bdeps=y --rebuilt-binaries=y --unordered-display --usepkg=y"
+EMERGE_DEFAULT_OPTS="--keep-going -bg --binpkg-respect-use=y 
+--binpkg-changed-deps=y --with-bdeps=y"
 DISTDIR="/media/distfiles"
 PKGDIR="/media/packages"
 ABI_X86="64 32"
