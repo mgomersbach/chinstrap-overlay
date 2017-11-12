@@ -25,6 +25,7 @@
 *net-misc/dhcpcd
 *sys-apps/mlocate
 *sys-apps/pv
+*sys-apps/updateworld
 *sys-devel/distcc
 *sys-devel/prelink
 *sys-fs/btrfs-progs
