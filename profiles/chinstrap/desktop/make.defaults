@@ -8,7 +8,7 @@ libnotify llvm llvm-shared-libs mono mtp nls nsplugin opengl
 osmesa pixbuf pixman policykit qt5 rdp samba sdl sdl2 smp sna 
 spell system-cairo system-icu system-jpeg system-libvpx 
 system-sqlite upnp tcl thunar udisks v4l v4l2
-vdpau vnc widgets gui multimedia network wxwidgets X x11 
+vdpau vnc widgets gui multimedia network X x11 
 xcb xcomposite -xinerama xkb xorg xscreensaver xv xvmc 
 zeroconf"
 

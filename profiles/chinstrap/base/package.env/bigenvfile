@@ -62,7 +62,6 @@ dev-java/icedtea notmpfs.conf
 games-emulation/sdlmame notmpfs.conf
 games-emulation/sdlmess notmpfs.conf
 mail-client/thunderbird notmpfs.conf
-x11-libs/wxGTK notmpfs.conf
 dev-qt/qtwebkit notmpfs.conf
 dev-lang/mono notmpfs.conf
 www-client/chromium notmpfs.conf

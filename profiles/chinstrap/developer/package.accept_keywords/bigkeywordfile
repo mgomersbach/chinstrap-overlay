@@ -1,6 +1,5 @@
 app-editors/atom ~*
 app-eselect/eselect-electron ~*
-app-editors/wxhexeditor ~*
 dev-libs/libuv ~*
 dev-util/electron ~*
 dev-util/sysdig ~*

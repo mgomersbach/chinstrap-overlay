@@ -1,2 +1,0 @@
-# Prevent old webkit
-x11-libs/wxGTK -webkit
