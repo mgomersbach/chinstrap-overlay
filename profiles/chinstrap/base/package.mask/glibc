@@ -1,0 +1,2 @@
+>=sys-libs/glibc-2.26
+>=app-emulation/libvirt-3.9.0

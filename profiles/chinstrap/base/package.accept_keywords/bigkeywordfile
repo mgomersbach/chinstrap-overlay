@@ -61,7 +61,6 @@ sys-kernel/linux-firmware ~*
 sys-kernel/gentoo-sources ~*
 sys-libs/binutils-libs ~*
 sys-libs/e2fsprogs-libs ~*
-sys-libs/glibc ~*
 sys-libs/gpm ~*
 sys-libs/ncurses ~*
 sys-libs/zlib ~*
