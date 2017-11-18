@@ -1,1 +1,5 @@
 sys-libs/glibc ~*
+#pulls in old glibc
+net-libs/libnsl ~*
+#wont build with old glibc
+dev-util/strace ~*
