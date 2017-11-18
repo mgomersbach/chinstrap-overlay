@@ -1,0 +1,2 @@
+# stable wouldnt build "tc_core.c:189:29: error: ‘UINT16_MAX’ undeclared (first use in this function)"
+sys-apps/iproute2 ~*
