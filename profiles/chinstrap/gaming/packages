@@ -1,7 +1,6 @@
 *app-emulation/wine-any
 *app-emulation/winetricks
 *games-emulation/dosbox
-*games-util/qjoypad
 *games-util/steam-launcher
 *media-libs/libtxc_dxtn
 *media-sound/fluidsynth
