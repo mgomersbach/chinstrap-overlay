@@ -2,8 +2,10 @@
 # Distributed under the terms of the GNU General Public License v2
 
 # Portage stuff
-CFLAGS="-march=x86-64 -mtune=generic -O2 -pipe ${CFLAGS} -frecord-gcc-switches"
-CXXFLAGS="${CFLAGS} -frecord-gcc-switches"
+CFLAGS="-march=x86-64 -mtune=generic -O2 -msse -msse2 -msse3 -mcx16 -msahf -mpopcnt -mfxsr -pipe -frecord-gcc-switches"
+CXXFLAGS="${CFLAGS}"
+
+CPU_FLAGS_X86="mmx mmxext popcnt sse sse2 sse3"
 
 ACCEPT_LICENSE="*"
 
@@ -25,8 +27,8 @@ NOMEDIAUSE="-a52 -aac -alsa -bluetooth -cdda -cdr -dts -dvd -dvdr
 USE="${NOSYSTEMD} ${NODESKTOPUSE} ${NOMEDIAUSE} acl aio asm audit bash-completion
 -berkdb bidi -bindist bzip2 caps -debug device-mapper fuse -geolocation gmp -gnutls
 gold gpm graphite gzip icu iconv inotify ipv6 lto lz4 lzma lzo ncurses
-pam pgo prelink readline sqlite ssh ssl syslog systemtap threads udev zlib 
-zsh-completion"
+pam pgo prelink readline sqlite ssh ssl sync-plugin-portage syslog systemtap threads 
+udev zlib zsh-completion"
 
 FEATURES="buildpkg ccache clean-logs compressdebug distcc distcc-pump
 parallel-fetch parallel-install"
