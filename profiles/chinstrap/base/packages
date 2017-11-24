@@ -23,6 +23,7 @@
 *net-misc/bridge-utils
 *net-misc/chrony
 *net-misc/dhcpcd
+*sys-apps/ifplugd
 *sys-apps/mlocate
 *sys-apps/pv
 *sys-apps/updateworld
