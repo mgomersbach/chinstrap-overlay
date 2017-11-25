@@ -3,3 +3,5 @@ sys-libs/glibc ~*
 net-libs/libnsl ~*
 #wont build with old glibc
 dev-util/strace ~*
+dev-lang/python:2.7 ~*
+dev-lang/python:3.4 ~*
