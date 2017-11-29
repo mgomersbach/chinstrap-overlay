@@ -1,7 +1,10 @@
 sys-libs/glibc ~*
 #pulls in old glibc
 net-libs/libnsl ~*
-#wont build with old glibc
+
+#wont build with new toolchain
 dev-util/strace ~*
 dev-lang/python:2.7 ~*
 dev-lang/python:3.5 ~*
+media-gfx/ufraw ~*
+=app-text/aspell-0.60.7_rc1 ~*
