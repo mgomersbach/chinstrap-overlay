@@ -1,0 +1,2 @@
+# required by mail-client/thunderbird-52.5.0::gentoo[crypt]
+>=x11-plugins/enigmail-1.9.8.3-r1 ~*
