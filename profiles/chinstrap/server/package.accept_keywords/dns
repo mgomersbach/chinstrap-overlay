@@ -1,0 +1,6 @@
+# required by dnssec-tools (argument)
+=net-dns/dnssec-tools-2.2 ~*
+# required by net-dns/dnssec-tools-2.2::gentoo
+# required by dnssec-tools (argument)
+=dev-perl/Getopt-GUI-Long-0.930.0-r2 ~*
+
