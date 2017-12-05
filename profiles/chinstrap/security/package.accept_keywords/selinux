@@ -1,0 +1,9 @@
+# required by dev-python/setuptools-34.0.2-r1::gentoo
+# required by dev-python/enum34-1.1.6::gentoo
+# required by virtual/python-enum34-1::gentoo[python_targets_python2_7]
+# required by app-admin/setools-4.1.1::gentoo
+# required by sys-apps/policycoreutils-2.7::gentoo
+# required by @system
+# required by @world (argument)
+=dev-python/certifi-2017.11.5 ~*
+
