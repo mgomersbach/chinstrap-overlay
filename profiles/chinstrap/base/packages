@@ -29,6 +29,7 @@
 *sys-devel/distcc
 *sys-devel/prelink
 *sys-fs/btrfs-progs
+*sys-fs/dosfstools
 *sys-fs/xfsprogs
 *sys-kernel/genkernel-next
 *sys-kernel/gentoo-sources
