@@ -16,7 +16,6 @@
 *app-shells/oh-my-zsh
 *app-shells/zsh
 *app-shells/zsh-completions
-*dev-util/ccache
 *dev-util/systemtap
 *net-firewall/ufw
 *net-fs/nfs-utils

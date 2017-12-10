@@ -30,7 +30,7 @@ gold gpm graphite gzip icu iconv inotify ipv6 lto lz4 lzma lzo netifrc ncurses
 pam pgo prelink readline sqlite ssh ssl syslog systemtap threads udev zlib 
 zsh-completion"
 
-FEATURES="buildpkg ccache clean-logs compressdebug distcc distcc-pump
+FEATURES="buildpkg clean-logs compressdebug distcc distcc-pump
 parallel-fetch parallel-install"
 
 EMERGE_DEFAULT_OPTS="--keep-going -bg --binpkg-respect-use=y 
