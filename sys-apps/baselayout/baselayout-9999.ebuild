@@ -3,15 +3,15 @@
 
 EAPI=6
 
-inherit eutils git-r3 multilib versionator
+inherit eutils multilib versionator prefix
 
 DESCRIPTION="Filesystem baselayout and init scripts"
 HOMEPAGE="https://www.gentoo.org/"
-EGIT_REPO_URI="http://git.gomersbach.nl/mgomersbach/baselayout.git"
+EGIT_REPO_URI="https://git.gomersbach.nl/mgomersbach/baselayout.git"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="~alpha ~amd64 ~arm ~arm64 ~hppa ~ia64 ~m68k ~mips ~ppc ~ppc64 ~s390 ~sh ~sparc ~x86 ~amd64-fbsd ~sparc-fbsd ~x86-fbsd"
+KEYWORDS="alpha amd64 arm ~arm64 hppa ia64 ~m68k ~mips ppc ppc64 ~s390 ~sh ~sparc x86 ~amd64-fbsd ~sparc-fbsd ~x86-fbsd"
 IUSE="build kernel_linux"
 
 pkg_setup() {
@@ -93,7 +93,7 @@ multilib_layout() {
 				case ${CHOST} in
 				*-gentoo-freebsd*) ;; # We want it the other way on fbsd.
 				i?86*|x86_64*|powerpc*|sparc*|s390*)
-					if [ -d "${prefix}lib32" ] ; then
+					if [[ -d ${prefix}lib32 && ! -h ${prefix}lib32 ]] ; then
 						rm -f "${prefix}lib32"/.keep
 						if ! rmdir "${prefix}lib32" 2>/dev/null ; then
 							ewarn "You need to merge ${prefix}lib32 into ${prefix}lib"
@@ -134,15 +134,14 @@ pkg_preinst() {
 	rm -f "${ED}"/usr/share/${PN}/Makefile
 }
 
-src_install() {
-	emake \
-		OS=$(usex kernel_FreeBSD BSD Linux) \
-		DESTDIR="${D}" \
-		install || die
-
-	# need the makefile in pkg_preinst
-	insinto /usr/share/${PN}
-	doins Makefile || die
+src_prepare() {
+	default
+	if use prefix; then
+		hprefixify -e "/EUID/s,0,${EUID}," -q '"' etc/profile
+		hprefixify etc/{env.d/50baselayout,shells} share.Linux/passwd
+		echo PATH=/usr/bin:/bin >> etc/env.d/99host
+		echo ROOTPATH=/usr/sbin:/sbin:/usr/bin:/bin >> etc/env.d/99host
+	fi
 
 	# handle multilib paths.  do it here because we want this behavior
 	# regardless of the C library that you're using.  we do explicitly
@@ -225,10 +224,25 @@ pkg_postinst() {
 	if use kernel_linux; then
 		mkdir -p "${EROOT}"run
 
-		if ! grep -qs "^tmpfs.*/run " "${ROOT}"proc/mounts ; then
-			echo
-			ewarn "You should reboot the system now to get /run mounted with tmpfs!"
+		local found fstype mountpoint
+		while read -r _ mountpoint fstype _; do
+		[[ ${mountpoint} = /run ]] && [[ ${fstype} = tmpfs ]] && found=1
+		done < "${ROOT}"proc/mounts
+		[[ -z ${found} ]] &&
+			ewarn "You should reboot now to get /run mounted with tmpfs!"
+	fi
+
+	for x in ${REPLACING_VERSIONS}; do
+		if ! version_is_at_least 2.4 ${v}; then
+			ewarn "After updating ${EROOT}etc/profile, please run"
+			ewarn "env-update and . /etc/profile"
+			break
 		fi
+	done
+
+	if [[ -e "${EROOT}"etc/env.d/00basic ]]; then
+		ewarn "${EROOT}etc/env.d/00basic is now ${EROOT}etc/env.d/50baselayout"
+		ewarn "Please migrate your changes."
 	fi
 
 	for x in ${REPLACING_VERSIONS}; do
