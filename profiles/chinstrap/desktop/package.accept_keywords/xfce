@@ -12,3 +12,4 @@ xfce-base/exo ~*
 # required by @world (argument)
 =xfce-base/garcon-0.6.1 ~*
 
+=xfce-base/libxfce4util-4.13.1 ~*
