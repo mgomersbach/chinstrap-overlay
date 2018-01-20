@@ -1,19 +1,13 @@
 node {
-    // Clean workspace before doing anything
-    deleteDir()
-
-    try {
-        stage ('Clone') {
-            checkout scm
-        }
-        stage ('Tests') {
-            parallel 'repoman': {
-                sh "repoman -d -e y --mode full"
-            }
-        }
-    } catch (err) {
-        currentBuild.result = 'FAILED'
-        throw err
+  stage("Main build") {
+    checkout scm
+    docker.image('chinstrap/overlay-docker').inside('--user root:root') {
+      stage("Build") {
+        sh '/build.sh -v -d -o chinstrap -p chinstrap:chinstrap/default/linux/amd64 -u https://home.gomersbach.nl/repositories.xml'
+      }
     }
+    // Clean up workspace
+    step([$class: 'WsCleanup'])
+  }
 }
 
