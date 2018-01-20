@@ -1,3 +1,5 @@
+*app-crypt/certbot-nginx
 *net-analyzer/goaccess
 *net-fs/samba
 *sys-apps/logwatch
+*www-servers/nginx
