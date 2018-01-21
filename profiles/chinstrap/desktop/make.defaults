@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 
 USE="bluetooth cairo consolekit cups dbus dri drm evdev egl gimp glamor gphoto2
-gstreamer gtk gtk3 introspection -kde libinput libnotify mono nsplugin opengl pm-utils 
+gstreamer gtk gtk3 introspection java -kde libinput libnotify mono nsplugin opengl pm-utils 
 policykit qt5 rdp tslib udisks vnc vte X xcb xft -xinerama xscreensaver xv zeroconf"
 
 INPUT_DEVICES="evdev libinput keyboard mouse synaptics vmmouse"

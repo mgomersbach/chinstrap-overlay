@@ -1,0 +1,2 @@
+# pulls in java, which pulls in desktop
+dev-libs/cyrus-sasl -java
