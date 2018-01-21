@@ -5,17 +5,14 @@
 *media-gfx/geeqie
 *media-sound/asoundconf
 *media-sound/volumeicon
-*media-sound/qastools
 *media-video/mpv
 *net-firewall/ufw-frontends
 *net-fs/autofs
-*lxde-base/lxrandr
 *x11-apps/xdm
-*x11-apps/xrandr
-*x11-base/xorg-drivers
+*x11-base/xorg-server
 *x11-base/xorg-x11
 *x11-misc/xdotool
-*x11-misc/lightdm
+*x11-misc/lightdm-gtk-greeter
 *x11-misc/qt5ct
 *x11-misc/redshift
 *x11-libs/gksu
@@ -24,7 +21,6 @@
 *x11-themes/numix-icon-theme
 *x11-themes/numix-solarized
 *x11-themes/qtstyleplugins
-*xfce-base/thunar
 *xfce-base/xfce4-meta
 *xfce-extra/thunar-archive-plugin
 *xfce-extra/thunar-media-tags-plugin

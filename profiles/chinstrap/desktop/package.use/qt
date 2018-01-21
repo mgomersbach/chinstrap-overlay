@@ -1,2 +1,16 @@
 # needed for pyqt
 dev-qt/qtwebkit printsupport
+
+# Widget support
+dev-qt/qtdeclarative widgets
+dev-qt/qtmultimedia widgets qml
+# and multimedia
+dev-qt/qtwebkit multimedia qml
+# and gui and network
+dev-python/PyQt5 widgets gui multimedia network sql sensors xmlpatterns webkit
+
+dev-qt/linguist-tools qml
+dev-qt/qtbluetooth qml
+dev-qt/qtsensors qml
+
+dev-qt/qtgui gif

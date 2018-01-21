@@ -1,5 +1,4 @@
-# Copyright 2004-2017 Gentoo Foundation.
+# Copyright 2004-2018 Gentoo Foundation.
 # Distributed under the terms of the GNU General Public License v2
 
-USE="acl cacert clamav clamd clamdtop iptables ldap openssl sasl
-secure-messaging shadow tpm unconfined"
+USE="acl clamav clamd clamdtop sasl unconfined"

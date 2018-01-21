@@ -1,16 +1,9 @@
-# Copyright 2004-2016 Gentoo Foundation.
+# Copyright 2004-2018 Gentoo Foundation.
 # Distributed under the terms of the GNU General Public License v2
-# $Header:
 
-USE="a52 aac aacplus aalib airplay alsa alsa amr apng asf audiofile bidi bluray
-bmp cdda cddb cdio cdparanoia cdrdao cdrom cec corefonts cpudetection css
-dc1394 dirac dts dv dvb dvd encode exif faac faad ffmpeg ffmpegsource
-fftw flac fpx gd gif graphicsmagick gsm gstreamer hdri iec61883 ieee1394
-imagemagick jbig jp2k jpeg jpeg2k ladspa lame lcms libass libcaca
-libsamplerate libsoxr mad matroska melt midi mjpeg mms mng mp3
-mp4 mpeg mpeg2 mplayer mpi musepack ogg openal openexr opengl opus
-orc pango pdf png pnm portaudio postproc postscript ppm psd q32 q64 q8
-quicktime -radio raw rtmp rtsp sdl sdl2 smpeg sound sox speex subtitle
-subtitles svc svg swfdec system-libvpx tga theora tiff timidity toolame
-transcode truetype tslib tsmuxer twolame upnp-av vcd vcdx vorbis vpx wav
-webkit webm webp x264 x265 xft xmp xpm xvid zvbi"
+USE="a52 aac aalib alsa cdda cddb css dts dv dvb dvd encode exif 
+ffmpeg fftw flac gd gif gsm iec61883 ieee1394 imagemagick jbig jpeg 
+jpeg2k ladspa lame lcms libass libsamplerate mms mng mp3 mp4 mpeg ogg 
+openal openexr opengl opus orc pango pdf png pnm portaudio postproc 
+postscript quicktime -radio raw sdl speex svg theora tiff truetype v4l 
+vcd vdpau vorbis webp x264 x265 xmp xpm"

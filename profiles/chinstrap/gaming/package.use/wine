@@ -1,5 +1,5 @@
 media-libs/mesa d3d9
-app-emulation/wine-any prelink d3d9 staging
+app-emulation/wine-any prelink d3d9 staging xcomposite
 virtual/wine d3d9 staging
 
 # required by app-emulation/wine-any-2.9

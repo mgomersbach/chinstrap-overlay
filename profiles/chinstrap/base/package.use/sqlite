@@ -1,2 +1,6 @@
 # make sure stuff gets deleted
 dev-db/sqlite secure-delete
+
+# use system sqlite
+dev-perl/DBD-SQLite system-sqlite
+

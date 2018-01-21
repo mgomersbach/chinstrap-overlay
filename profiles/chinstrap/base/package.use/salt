@@ -1,2 +1,2 @@
 # include portage integration
-app-admin/salt portage
+app-admin/salt portage libcloud timelib

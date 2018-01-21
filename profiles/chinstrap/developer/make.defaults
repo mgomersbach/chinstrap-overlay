@@ -1,9 +1,0 @@
-# Copyright 2004-2017 Gentoo Foundation.
-# Distributed under the terms of the GNU General Public License v2
-
-USE="api bash client ctypes-python cvs debugger declarative dediprog
-designer developer development devhelp devtools dot doxysearch git
-gitchangebar graph introspection java jde lapack libopts llvm
-mono pch pcre perl php plugins python qml ruby script
-scripttools sdk sql static-analyzer stubgen swig tools
-udis86 vte xmlpatterns"

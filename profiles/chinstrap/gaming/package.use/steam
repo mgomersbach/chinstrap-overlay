@@ -3,3 +3,5 @@ media-libs/mesa -openssl nettle
 
 # as it is needed just for its libs not its func
 net-misc/networkmanager -wifi -wext -dhclient -ppp
+
+gnome-extra/zenity webkit

@@ -1,9 +1,18 @@
 *app-admin/keepass
 *app-arch/rar
 *app-arch/unrar
+*app-editors/nano
 *app-emulation/virt-manager
+*app-portage/repoman
 *app-text/qpdfview
 *dev-java/oracle-jdk-bin
+*dev-util/strace
+*dev-php/PHP_CodeSniffer
+*dev-php/PEAR-PHP_Beautifier
+*dev-python/pip
+*dev-python/virtualenv
+*dev-ruby/sass
+*dev-vcs/tig
 *media-gfx/xsane
 *net-fs/davfs2
 *net-im/pidgin
@@ -14,6 +23,8 @@
 *net-p2p/syncthing-gtk
 *sci-calculators/galculator
 *sys-apps/gsmartcontrol
+*sys-devel/gdb
+*sys-process/lsof
 *x11-misc/synergy
 *x11-plugins/pidgin-led-notification
 *x11-plugins/pidgin-libnotify

@@ -1,2 +1,4 @@
 # needed for mpv
 >=media-libs/jpeg-9b static-libs
+
+media-video/mpv bluray

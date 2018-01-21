@@ -3,7 +3,6 @@ dev-db/mariadb O3.conf
 dev-db/sqlite O3.conf
 dev-lang/php O3.conf
 dev-lang/python O3.conf
-dev-lang/ruby O3.conf nodistcc.conf
 media-libs/libvpx O3.conf
 media-video/ffmpeg O3.conf
 sys-libs/talloc O3.conf
@@ -21,7 +20,6 @@ mail-filter/procmail nodistcc.conf
 media-gfx/graphviz nodistcc.conf
 media-gfx/splashutils nodistcc.conf
 media-libs/libvpx nodistcc.conf
-media-tv/xawtv nodistcc.conf nativecflags.conf
 media-video/ffmpeg nodistcc.conf
 net-libs/libproxy nodistcc.conf
 sys-apps/groff nodistcc.conf
@@ -46,7 +44,7 @@ sys-libs/ntdb nodistcc.conf
 # native cflags
 app-emulation/spice nativecflags.conf
 games-emulation/fceux nativecflags.conf
-sys-cluster/openmpi nativecflags.conf noinlinef.conf
+sys-cluster/openmpi nativecflags.conf
 
 # wno-error
 app-emulation/open-vm-tools wnoerror.conf
@@ -66,23 +64,3 @@ dev-qt/qtwebkit notmpfs.conf
 dev-lang/mono notmpfs.conf
 www-client/chromium notmpfs.conf
 www-client/firefox notmpfs.conf
-
-# No inline for gcc5
-net-libs/libiscsi noinline.conf
-net-analyzer/bwm-ng noinline.conf
-sys-fs/mdadm noinline.conf
-media-sound/timidity++ noinline.conf
-media-libs/libaacplus noinline.conf
-net-fs/nfs-utils noinline.conf
-sys-process/audit noinline.conf
-
-net-analyzer/net-snmp noinlinef.conf
-games-emulation/pcsxr noinlinef.conf
-games-emulation/pcsx2 noinlinef.conf
-games-emulation/mednafen noinlinef.conf
-media-gfx/exiv2 noinlinef.conf
-media-libs/gegl noinlinef.conf
-sys-apps/smartmontools noinlinef.conf
-
-# doesnt add them by itself
-dev-libs/libcec libtinfo.conf
