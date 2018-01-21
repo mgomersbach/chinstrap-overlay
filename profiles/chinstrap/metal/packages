@@ -1,7 +1,6 @@
 *app-emulation/libvirt
 *app-emulation/qemu
 *app-laptop/laptop-mode-tools
-*net-wireless/rfkill
 *net-wireless/wireless-tools
 *net-wireless/wpa_supplicant
 *sys-apps/dmidecode
