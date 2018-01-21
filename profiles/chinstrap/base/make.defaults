@@ -15,8 +15,8 @@ NODESKTOPUSE="-cairo -cups -dbus -dri -dri3 -egl
 -emerald -firefox -g3dvl -gles -gles2 -gtk -gtk3 -gtkstyle
 -icons -infinality -introspection -joystick -kde
 -nsplugin -openvg -osmesa -pango -pcre -pixbuf -pixman
--qt3support -qt4 -qt5 -sna -system-cairo
--thunar -v4l -v4l2 -vaapi -vdpau -vlc -volume -wxwidgets -X -xcb
+-qt3support -qt4 -qt5 -sna -system-cairo -thunar -v4l -v4l2 -vaapi 
+-vdpau -vlc -volume -webstart -wxwidgets -X -xcb
 -xcomposite -xorg -xrandr -xrender -xscreensaver -xv -xvmc -zeroconf"
 
 NOMEDIAUSE="-a52 -aac -alsa -bluetooth -cdda -cdr -dts -dvd -dvdr
