@@ -1,12 +1,12 @@
 # Copyright 2004-2018 Gentoo Foundation.
 # Distributed under the terms of the GNU General Public License v2
 
-USE="cgi dedicated memcached pdo -apache2"
+USE="cgi dedicated memcached mysql pdo -apache2"
 
 NGINX_MODULES_HTTP="access auth_basic auth_pam auth_ldap autoindex browser charset
 empty_gif fancyindex fastcgi flv geoip gunzip gzip headers_more limit_conn
-limit_req map memcached mp4 naxsi proxy referer rewrite scgi spdy
-split_clients ssi stub_status upload_progress upstream_ip_hash userid
+limit_req map memcached mp4 naxsi proxy python referer rewrite ruby scgi spdy
+split_clients ssi stub_status tcl upload_progress upstream_ip_hash userid
 uwsgi lua metrics perl upstream_check"
 
 NGINX_MODULES_MAIL="imap pop3 smtp"

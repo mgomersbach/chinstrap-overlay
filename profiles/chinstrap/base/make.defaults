@@ -27,8 +27,8 @@ NOMEDIAUSE="-a52 -aac -alsa -bluetooth -cdda -cdr -dts -dvd -dvdr
 USE="${NOSYSTEMD} ${NODESKTOPUSE} ${NOMEDIAUSE} acl acpi aio asm audit bash-completion
 -berkdb bidi -bindist bzip2 caps client curl -debug device-mapper fuse fontconfig -geolocation 
 git gmp -gnutls gold gpm graphite gssapi gzip hwdb http2 icu iconv inotify iptables ipv6 lto 
-lz4 lzma lzo maildir mdadm mpi nfs ncurses nls ntp openmp openssl pam perl pch pcre pgo prelink 
-python readline ruby samba sftp sqlite ssh ssl spell sync-plugin-portage syslog systemtap tcl threads 
+lz4 lzma lzo maildir mdadm mpi nfs ncurses nls ntp openmp openssl pam pch pcre pgo prelink 
+readline samba sftp sqlite ssh ssl spell sync-plugin-portage syslog systemtap threads 
 tools udev upnp zlib zsh-completion"
 
 FEATURES="buildpkg clean-logs compressdebug distcc distcc-pump
