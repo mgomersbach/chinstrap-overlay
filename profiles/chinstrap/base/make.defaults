@@ -21,7 +21,7 @@ NODESKTOPUSE="-cairo -cups -dbus -dri -dri3 -egl
 
 NOMEDIAUSE="-a52 -aac -alsa -bluetooth -cdda -cdr -dts -dvd -dvdr
 -encode -exif -flac -gif -jpeg -lcms -mad -mms -mng -mp3 -mp4 -mpeg -ogg
--opencl -opengl -orc -pdf -png -ppds -sdl -svg -tiff -truetype -vorbis
+-opencl -opengl -orc -pdf -png -ppds -sdl -sdl2 -svg -tiff -truetype -vorbis
 -x264 -xvid"
 
 USE="${NOSYSTEMD} ${NODESKTOPUSE} ${NOMEDIAUSE} acl acpi aio asm audit bash-completion

@@ -1,0 +1,2 @@
+# no need for that fancy stuff
+app-emulation/qemu -sdl -sdl2
