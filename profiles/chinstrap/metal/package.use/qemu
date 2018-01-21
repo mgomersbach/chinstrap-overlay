@@ -7,5 +7,4 @@
 # required by @world (argument)
 >=sys-process/audit-2.6.4 python
 
-# virgl pulls in mesa egl otherwise
-app-emulation/qemu sdl2 spice usbredir virtfs
+app-emulation/qemu spice usbredir virtfs
