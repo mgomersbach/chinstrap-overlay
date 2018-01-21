@@ -3,6 +3,9 @@
 
 EAPI=6
 
+# Please report bugs/suggestions on: https://github.com/anyc/steam-overlay
+# or come to #gentoo-gamerlay in freenode IRC
+
 inherit eutils gnome2-utils linux-info prefix udev xdg
 
 DESCRIPTION="Installer, launcher and supplementary files for Valve's Steam client"
@@ -26,6 +29,7 @@ RDEPEND="
 			)
 
 		steamruntime? (
+			virtual/opengl[abi_x86_32]
 			x11-libs/libX11[abi_x86_32]
 			x11-libs/libXau[abi_x86_32]
 			x11-libs/libxcb[abi_x86_32]
@@ -78,6 +82,9 @@ src_prepare() {
 		-e "s:@@DEBIAN_COMPAT@@:${EPREFIX}/usr/$(get_libdir)/debiancompat$(use amd64 && echo "\\:${EPREFIX}/usr/$(ABI=x86 get_libdir)/debiancompat"):g" \
 		-e "s:@@STEAM_RUNTIME@@:$(usex steamruntime 1 0):g" \
 		steam || die
+
+	# use steam launcher version as release number as it is a bit more helpful than the baselayout version
+	sed -i -e "s,export DISTRIB_RELEASE=\"2.2\",export DISTRIB_RELEASE=\"${PVR}\"," steam || die
 
 	# Still need EPREFIX in the DEBIAN_COMPAT sed replacement because
 	# the regular expression used by hprefixify doesn't match here.

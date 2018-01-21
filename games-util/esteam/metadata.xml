@@ -2,9 +2,7 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<maintainer type="person">
-		<email>markgomersbach@gmail.com</email>
+		<email>chewi@gentoo.org</email>
+		<name>James Le Cuirot</name>
 	</maintainer>
-        <use>
-             	<flag name="fuse">Add support for fuse.</flag>
-        </use>
 </pkgmetadata>
