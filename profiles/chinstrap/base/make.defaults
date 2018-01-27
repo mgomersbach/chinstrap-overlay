@@ -31,7 +31,7 @@ lz4 lzma lzo maildir mdadm mpi nfs ncurses nls ntp openmp openssl pam pch pcre p
 readline samba sftp sqlite ssh ssl spell sync-plugin-portage syslog systemtap threads 
 tools udev upnp zlib zsh-completion"
 
-FEATURES="buildpkg clean-logs compressdebug distcc distcc-pump
+FEATURES="buildpkg clean-logs compressdebug distcc
 parallel-fetch parallel-install"
 
 EMERGE_DEFAULT_OPTS="--keep-going -bg --binpkg-respect-use=y 
