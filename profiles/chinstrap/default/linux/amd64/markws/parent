@@ -2,7 +2,8 @@
 ../../../../metal
 ../../../../dockerhost
 ../../../../server
+../../../../buildhelper
 ../../../../media
 ../../../../desktop
-../../../../workstation
 ../../../../gaming
+../../../../workstation
