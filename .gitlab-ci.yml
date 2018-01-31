@@ -1,7 +1,13 @@
 stages:
   - check
+  - build
 
 Repoman:
   stage: check
   script:
     - repoman -x -p
+
+Build1:
+  stage: build
+  script:
+    -  docker run chinstrap/overlay-docker /build.sh -v -d -o chinstrap -p chinstrap:chinstrap/default/linux/amd64 -u https://home.gomersbach.nl/repositories.xml
