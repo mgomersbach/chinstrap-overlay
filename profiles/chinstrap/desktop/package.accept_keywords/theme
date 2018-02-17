@@ -1,2 +1,5 @@
 =x11-themes/numix-solarized-9999 **
 =x11-themes/qtstyleplugins-9999 **
+
+# Old inkscape does not want to build
+media-gfx/inkscape ~*
