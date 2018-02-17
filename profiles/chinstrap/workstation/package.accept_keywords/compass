@@ -1,0 +1,6 @@
+# required by compass (argument)
+dev-ruby/chunky_png ~*
+dev-ruby/compass-core ~*
+dev-ruby/compass ~*
+dev-ruby/compass-import-once ~*
+
