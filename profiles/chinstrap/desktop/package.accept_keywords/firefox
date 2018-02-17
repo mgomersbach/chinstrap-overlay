@@ -1,18 +1,5 @@
+# required by www-client/firefox ~*
+virtual/rust ~*
+dev-util/cargo ~*
+dev-lang/rust ~*
 media-gfx/graphite2 ~*
-
-# required by www-client/firefox-58.0::gentoo
-# required by @selected
-# required by @world (argument)
-=virtual/rust-1.23.0 ~amd64
-# required by dev-lang/rust-1.23.0-r1::gentoo[-extended]
-# required by virtual/rust-1.23.0::gentoo
-# required by www-client/firefox-58.0::gentoo
-# required by @selected
-# required by @world (argument)
-=dev-util/cargo-0.24.0 ~amd64
-# required by virtual/rust-1.23.0::gentoo
-# required by www-client/firefox-58.0::gentoo
-# required by @selected
-# required by @world (argument)
-=dev-lang/rust-1.23.0-r1 ~amd64
-
