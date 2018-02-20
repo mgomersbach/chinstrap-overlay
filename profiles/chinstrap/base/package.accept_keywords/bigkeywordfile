@@ -51,7 +51,6 @@ sys-devel/binutils ~*
 sys-devel/binutils-config ~*
 sys-devel/clang ~*
 sys-devel/crossdev ~*
-sys-devel/distcc **
 sys-devel/prelink ~*
 sys-fs/btrfs-progs ~*
 sys-fs/e2fsprogs ~*
