@@ -1,0 +1,6 @@
+# required by net-libs/libtorrent-rasterbar-1.1.5-r1::gentoo
+# required by net-p2p/qbittorrent-4.0.3::gentoo
+# required by @selected
+# required by @world (argument)
+dev-libs/boost python
+
