@@ -1,0 +1,6 @@
+# required by games-misc/opengfx-0.5.4::gentoo
+# required by games-simulation/openttd-1.7.1-r1::gentoo[openmedia]
+# required by @selected
+# required by @world (argument)
+games-util/nml ~*
+
