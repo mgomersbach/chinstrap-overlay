@@ -1,7 +1,7 @@
 # Copyright 2004-2018 Gentoo Foundation.
 # Distributed under the terms of the GNU General Public License v2
 
-USE="cgi dedicated memcached mysql pdo -apache2"
+USE="cgi dedicated ldap memcached mysql pdo sasl -apache2"
 
 NGINX_MODULES_HTTP="access auth_basic auth_pam auth_ldap autoindex browser charset
 empty_gif fancyindex fastcgi flv geoip gunzip gzip headers_more limit_conn
