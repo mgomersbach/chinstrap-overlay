@@ -1,0 +1,2 @@
+# For windows mounts
+net-fs/autofs ldap sasl
