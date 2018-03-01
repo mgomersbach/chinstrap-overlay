@@ -1,0 +1,5 @@
+# required by app-admin/salt-2017.7.4::gentoo
+# required by @system
+# required by @world (argument)
+dev-python/pyasn1 ~*
+
