@@ -29,7 +29,7 @@
 *sys-fs/btrfs-progs
 *sys-fs/dosfstools
 *sys-fs/xfsprogs
-*sys-kernel/genkernel-next
+*sys-kernel/genkernel
 *sys-kernel/gentoo-sources
 *sys-process/cronie
 *www-client/links
