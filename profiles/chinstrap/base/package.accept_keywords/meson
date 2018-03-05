@@ -1,0 +1,2 @@
+# prevent build failures with combined -I${includedir} -I/usr/include/ usage
+dev-util/meson ~*
