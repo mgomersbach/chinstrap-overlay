@@ -17,6 +17,8 @@
 *app-shells/zsh
 *app-shells/zsh-completions
 *dev-util/systemtap
+*media-gfx/grub2-solarized
+*media-gfx/splash-themes-livedvd
 *net-firewall/ufw
 *net-fs/nfs-utils
 *net-misc/bridge-utils

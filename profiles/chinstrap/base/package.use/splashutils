@@ -1,1 +1,13 @@
-media-gfx/splashutils fbcondecor
+media-gfx/splashutils fbcondecor png
+sys-power/suspend fbsplash
+app-arch/xz-utils static-libs
+media-libs/libmng static-libs
+virtual/jpeg:0 static-libs
+media-libs/libjpeg-turbo static-libs
+app-arch/bzip2 static-libs
+sys-libs/zlib static-libs minizip
+media-libs/libpng static-libs
+sys-libs/gpm static-libs
+media-libs/freetype static-libs
+sys-fs/eudev static-libs
+

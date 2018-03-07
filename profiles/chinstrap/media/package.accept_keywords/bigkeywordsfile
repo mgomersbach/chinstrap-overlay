@@ -8,8 +8,6 @@ media-gfx/exact-image ~*
 media-gfx/k3d ~*
 media-gfx/nomacs ~*
 media-gfx/psftools ~*
-media-gfx/splash-themes-livedvd ~*
-media-gfx/splashutils ~*
 media-libs/a52dec ~*
 media-libs/alsa-lib ~*
 media-libs/audiofile ~*

@@ -6,10 +6,10 @@ EAPI=6
 if [ "${PV}" = "9999" ]; then
 	inherit git-r3
 	EGIT_REPO_URI="https://git.gomersbach.nl/mgomersbach/updateworld.git"
-	KEYWORDS="~*"
+	KEYWORDS="~amd64"
 else
 	SRC_URI="https://git.gomersbach.nl/mgomersbach/updateworld/repository/${PV}/archive.tar.gz -> ${P}.tar.gz"
-	KEYWORDS="*"
+	KEYWORDS="amd64"
 fi
 
 DESCRIPTION="Small bashscript to automatically update @world"
@@ -19,16 +19,7 @@ LICENSE="WTFPL-2"
 SLOT="0"
 
 DEPEND=""
-RDEPEND="sys-libs/glibc
-sys-apps/grep
-sys-apps/coreutils
-app-admin/eselect
-sys-devel/gcc
-sys-devel/binutils
-sys-apps/kbd
-app-portage/eix
-app-portage/gentoolkit
-"
+RDEPEND="app-portage/gentoolkit"
 
 src_install() {
 	exeinto /usr/bin

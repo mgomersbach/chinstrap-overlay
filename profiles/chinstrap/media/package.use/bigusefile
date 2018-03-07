@@ -16,7 +16,6 @@ gnome-extra/gnome-media twolame
 mail-client/thunderbird system-jpeg
 media-gfx/graphicsmagick fpx q32
 media-gfx/imagemagick fpx hdri lqr q32 q64 q8 q16
-media-gfx/splashutils fbcondecor
 media-libs/avidemux amr vpx
 media-libs/avidemux-core amr system-ffmpeg
 media-libs/avidemux-plugins amr faac faad twolame vpx
@@ -75,9 +74,7 @@ net-misc/asterisk-moh-opsound wav
 net-misc/curl rtmp
 net-misc/ps3mediaserver transcode tsmuxer multiuser
 net-misc/rygel transcode
-sys-apps/tuxonice-userui fbsplash
 sys-cluster/cinder volume
-sys-power/suspend fbsplash
 www-apps/ampache transcode
 www-client/firefox system-jpeg webm
 www-client/seamonkey system-jpeg
