@@ -3,3 +3,13 @@ dev-libs/libusb ~*
 dev-libs/libpcre ~*
 sys-apps/dtc ~*
 net-libs/rpcsvc-proto ~*
+# required by app-emulation/libvirt-4.1.0::gentoo[qemu]
+# required by @system
+# required by @world (argument)
+sys-firmware/ipxe ~*
+# required by app-emulation/qemu-2.11.1-r52::gentoo[pin-upstream-blobs,qemu_softmmu_targets_x86_64,qemu_softmmu_targets_i386]
+# required by app-emulation/libvirt-4.1.0::gentoo[qemu]
+# required by @system
+# required by @world (argument)
+sys-firmware/sgabios ~*
+
