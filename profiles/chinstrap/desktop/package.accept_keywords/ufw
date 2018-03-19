@@ -1,0 +1,6 @@
+# required by dev-python/pygtk-2.24.0-r4::gentoo
+# required by net-firewall/ufw-frontends-0.3.2-r5::gentoo
+# required by @system
+# required by @world (argument)
+dev-python/pycairo ~*
+
