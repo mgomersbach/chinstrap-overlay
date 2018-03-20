@@ -1,16 +1,17 @@
-# needed for pyqt
-dev-qt/qtwebkit printsupport
+# PyQt
+dev-python/PyQt5 widgets gui multimedia network sql sensors xmlpatterns webchannel webengine webkit websockets x11extras
 
 # Widget support
 dev-qt/qtdeclarative widgets
+dev-qt/qtwebengine widgets
 dev-qt/qtmultimedia widgets qml
-# and multimedia
-dev-qt/qtwebkit multimedia qml
-# and gui and network
-dev-python/PyQt5 widgets gui multimedia network sql sensors xmlpatterns webkit
+
+# Multimedia
+dev-qt/qtwebkit multimedia qml printsupport
 
 dev-qt/linguist-tools qml
 dev-qt/qtbluetooth qml
 dev-qt/qtsensors qml
-
+dev-qt/qtwebchannel qml
+dev-qt/qtwebsockets qml
 dev-qt/qtgui gif

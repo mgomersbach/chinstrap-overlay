@@ -50,6 +50,7 @@ dev-qt/qttest ~*
 dev-qt/qttranslations ~*
 dev-qt/qtwayland ~*
 dev-qt/qtwebchannel ~*
+dev-qt/qtwebengine ~*
 dev-qt/qtwebkit ~*
 dev-qt/qtwebsockets ~*
 dev-qt/qtwidgets ~*
