@@ -1,5 +1,0 @@
-media-tv/kodi gles
-media-libs/mesa gles1 gles2
-media-libs/mesa gles2
-x11-apps/mesa-progs gles2
-x11-libs/cairo gles2
