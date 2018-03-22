@@ -7,7 +7,6 @@ app-emulation/open-vm-tools ~*
 app-emulation/qemu ~*
 app-emulation/spice-protocol ~*
 app-emulation/vagrant ~*
-app-emulation/virt-manager **
 sys-block/thin-provisioning-tools ~*
 sys-firmware/seabios ~*
 sys-firmware/edk2-ovmf ~*

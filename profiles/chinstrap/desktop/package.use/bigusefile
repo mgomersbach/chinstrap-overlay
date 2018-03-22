@@ -1,5 +1,4 @@
 app-emulation/spice-vdagent consolekit
-app-emulation/virt-manager spice
 app-emulation/virt-viewer spice
 app-crypt/pinentry gnome-keyring -qt4
 app-misc/networkmanager consolekit
