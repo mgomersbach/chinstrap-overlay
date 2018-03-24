@@ -1,11 +1,9 @@
+app-emulation/virt-manager spice
+
 # required by virt-manager (argument)
 net-libs/gtk-vnc python
-# required by virt-manager (argument)
 app-emulation/libvirt-glib python
-
-# Add Motion Jpeg support
 net-misc/spice-gtk mpjeg
-
-app-emulation/virt-manager spice
 app-emulation/virt-viewer spice
 net-misc/vinagre spice
+dev-libs/libxml2 python
