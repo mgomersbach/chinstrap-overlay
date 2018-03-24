@@ -98,10 +98,9 @@ src_prepare() {
 
 	#epatch "${FILESDIR}/${P}-bzip2.patch"
 	epatch "${FILESDIR}/${P}-multi-keyboard.patch"
-        epatch "${FILESDIR}/libmng2-lcms2.patch"
+	epatch "${FILESDIR}/libmng2-lcms2.patch"
 	# Bug #557126
 	epatch "${FILESDIR}/${P}-no-la.patch"
-
 
 	if ! tc-is-cross-compiler && \
 	   has_version "sys-devel/gcc:$(gcc-version)[vanilla]" ; then
