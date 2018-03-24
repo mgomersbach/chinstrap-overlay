@@ -1,2 +1,2 @@
 dev-util/geany -gtk3
-dev-util/geany-plugins debugger enchant
+dev-util/geany-plugins debugger enchant -gtk3
