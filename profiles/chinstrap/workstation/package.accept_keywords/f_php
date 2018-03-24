@@ -1,3 +1,5 @@
+# required by dev-php/PHP_CodeSniffer (argument)
+dev-php/PHP_CodeSniffer ~*
+
 # required by dev-php/PEAR-PHP_Beautifier (argument)
 =dev-php/PEAR-PHP_Beautifier-0.1.15-r2 ~amd64
-

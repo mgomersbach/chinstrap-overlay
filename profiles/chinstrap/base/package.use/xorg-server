@@ -1,0 +1,2 @@
+# By default support xvfb on xorg-server
+x11-base/xorg-server xvfb

@@ -1,3 +1,0 @@
-# required by media-gfx/blender-2.79-r1::gentoo[openimageio]
-# required by blender (argument)
-media-libs/openimageio ~*

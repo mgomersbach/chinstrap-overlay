@@ -1,1 +1,8 @@
+www-client/chromium ~*
+
 dev-libs/re2 ~*
+
+# required by www-client/chromium-47.0.2526.58::gentoo
+# required by @selected
+# required by @world (argument)
+x11-libs/pango ~*

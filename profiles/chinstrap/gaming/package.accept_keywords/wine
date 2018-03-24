@@ -1,21 +1,9 @@
 # required by wine-any (argument)
 app-emulation/wine-any ~*
-# required by app-emulation/wine-any
-# required by wine-any (argument)
+app-emulation/winetricks ~*
 app-eselect/eselect-wine ~*
-# required by app-emulation/wine-any
 app-emulation/wine-mono ~*
-
-# required by app-emulation/wine-any
-# required by wine-any (argument)
 app-emulation/wine-gecko ~*
-# required by app-emulation/wine-any
-# required by wine-any (argument)
 app-emulation/wine-desktop-common ~*
-
-# required by app-emulation/wine-any
-# required by @selected
-# required by @world (argument)
 dev-util/patchbin ~*
-
 virtual/wine ~*

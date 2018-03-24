@@ -1,0 +1,5 @@
+sys-devel/llvm clang
+sys-devel/gcc go
+dev-devel/clang static-analyzer
+dev-lang/rust clang
+sys-libs/compiler-rt clang

@@ -1,6 +1,9 @@
 media-libs/mesa ~*
+
+app-eselect/eselect-opengl ~*
+app-crypt/rhash ~*
+dev-libs/libclc ~*
 dev-util/cmake ~*
 sys-devel/clang-runtime ~*
 sys-libs/libomp ~*
-app-crypt/rhash ~*
-
+x11-libs/libxshmfence ~*

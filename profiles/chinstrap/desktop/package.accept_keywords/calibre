@@ -1,3 +1,5 @@
+app-text/calibre ~*
+
 virtual/podofo-build ~*
 dev-python/pygments ~*
 dev-python/apsw ~*

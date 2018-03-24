@@ -1,4 +1,8 @@
+net-libs/nodejs ~*
+
 # required by net-libs/nodejs-8.5.0::gentoo
 # required by @selected
 # required by @world (argument)
 =net-libs/nghttp2-1.25.0 ~*
+
+dev-libs/libuv ~*

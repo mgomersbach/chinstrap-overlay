@@ -1,7 +1,3 @@
 app-editors/atom ~*
 app-eselect/eselect-electron ~*
-dev-libs/libuv ~*
 dev-util/electron ~*
-dev-util/sysdig ~*
-net-libs/nodejs ~*
-sys-devel/gdb ~*

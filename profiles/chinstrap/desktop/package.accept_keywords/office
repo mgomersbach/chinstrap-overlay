@@ -1,0 +1,4 @@
+
+# required by app-office/libreoffice
+app-text/libwps ~*
+x11-proto/randrproto ~*

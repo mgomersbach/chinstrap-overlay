@@ -1,9 +1,11 @@
 # Copyright 2004-2018 Gentoo Foundation.
 # Distributed under the terms of the GNU General Public License v2
 
-USE="bluetooth cairo consolekit cups dbus dri drm evdev gimp glamor gphoto2
-gstreamer gtk gtk3 introspection java -kde libinput libnotify mono nsplugin opengl pm-utils 
-policykit qt5 rdp tslib udisks vnc vte X xcb xft -xinerama xscreensaver xv zeroconf"
+USE="bluetooth cairo consolekit cups dbus dri drm evdev gimp glamor
+gnome-keyring gphoto2 gstreamer gtk gtk3 introspection java -kde
+libinput libnotify mono nsplugin opengl pm-utils policykit qt5 rdp sna
+tslib udisks uxa vnc vte X xcb xft -xinerama xscreensaver xv xvmc
+zeroconf"
 
 INPUT_DEVICES="evdev libinput keyboard mouse synaptics vmmouse"
 

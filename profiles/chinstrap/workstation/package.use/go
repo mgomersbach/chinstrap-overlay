@@ -1,2 +1,0 @@
-#  Build the GCC Go language frontend.
-sys-devel/gcc go

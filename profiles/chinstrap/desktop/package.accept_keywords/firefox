@@ -1,3 +1,5 @@
+www-client/firefox **
+
 # required by www-client/firefox ~*
 virtual/rust ~*
 dev-util/cargo ~*

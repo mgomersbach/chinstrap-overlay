@@ -1,4 +1,4 @@
-# required by sys-devel/llvm-5.0.0::gentoo
-# required by sys-devel/llvmgold-5::gentoo
-sys-devel/llvm-common ~*
+sys-devel/llvm ~*
 
+# required by sys-devel/llvm
+sys-devel/llvm-common ~*

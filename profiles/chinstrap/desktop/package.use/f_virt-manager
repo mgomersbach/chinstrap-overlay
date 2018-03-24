@@ -7,3 +7,5 @@ app-emulation/libvirt-glib python
 net-misc/spice-gtk mpjeg
 
 app-emulation/virt-manager spice
+app-emulation/virt-viewer spice
+net-misc/vinagre spice

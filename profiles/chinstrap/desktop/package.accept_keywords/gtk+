@@ -1,2 +1,13 @@
+x11-libs/gtk+ ~*
+
+dev-util/gdbus-codegen ~*
+dev-libs/atk ~*
+dev-libs/glib ~*
+dev-libs/gobject-introspection ~*
+dev-libs/gobject-introspection-common ~*
+gnome-base/dconf ~*
 x11-themes/gtk-engines-adwaita ~*
 x11-themes/gnome-themes-standard ~*
+
+# needed by pycairo
+x11-libs/xpyb ~*

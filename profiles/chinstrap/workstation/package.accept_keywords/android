@@ -1,5 +1,0 @@
-# required by android-ndk (argument)
-dev-util/android-sdk-update-manager ~*
-# required by android-ndk (argument)
-dev-util/android-ndk ~*
-

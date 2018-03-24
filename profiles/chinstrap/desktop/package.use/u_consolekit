@@ -1,0 +1,5 @@
+app-misc/networkmanager consolekit
+lxde-base/lxdm consolekit
+sys-auth/pambase consolekit
+xfce-base/xfce4-session consolekit
+x11-apps/xdm consolekit

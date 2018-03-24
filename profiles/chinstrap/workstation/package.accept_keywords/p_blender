@@ -1,0 +1,3 @@
+# required by media-gfx/blender [openimageio]
+# required by blender
+media-libs/openimageio ~*
