@@ -3,7 +3,7 @@
 
 USE="a52 aac aalib alsa cdda cddb css dts dv dvb dvd encode exif 
 ffmpeg fftw flac gd gif gsm iec61883 ieee1394 imagemagick jbig jpeg 
-jpeg2k ladspa lame lcms libass libsamplerate mms mng mp3 mp4 mpeg ogg 
-openal openexr opus orc pango pdf png pnm portaudio postproc 
-postscript quicktime -radio raw sdl speex svg theora tiff truetype v4l 
-vcd vdpau vorbis webp x264 x265 xmp xpm"
+jpeg2k ladspa lame lcms libass libsamplerate libsoxr mms mng mp3 mp4
+mpeg ogg openal openexr opus orc pango pdf png pnm portaudio postproc 
+postscript quicktime -radio raw sdl speex soxr svg theora tiff truetype
+v4l vcd vdpau vorbis webp x264 x265 xmp xpm"
