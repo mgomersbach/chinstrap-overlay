@@ -1,0 +1,6 @@
+# required by media-sound/audacious-3.9::gentoo
+# required by audacious (argument)
+media-plugins/audacious-plugins ~*
+# required by media-plugins/audacious-plugins-3.9-r1::gentoo
+media-sound/audacious ~*
+

@@ -1,0 +1,3 @@
+# Exactly one-of
+media-sound/audacious -gtk -gtk3
+media-plugins/audacious-plugins -gtk -gtk3 -libnotify
