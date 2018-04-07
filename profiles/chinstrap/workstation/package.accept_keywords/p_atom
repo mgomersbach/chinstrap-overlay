@@ -1,3 +1,4 @@
 app-editors/atom ~*
 app-eselect/eselect-electron ~*
 dev-util/electron ~*
+net-libs/http-parser ~*
