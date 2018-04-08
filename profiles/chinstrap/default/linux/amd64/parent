@@ -1,4 +1,4 @@
-gentoo:default/linux/amd64/17.0/selinux
+gentoo:default/linux/amd64/17.1/selinux
 ../../../arch/amd64
 ../../../base
 ../../../admin
