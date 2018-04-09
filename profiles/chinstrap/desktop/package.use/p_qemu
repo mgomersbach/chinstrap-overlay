@@ -1,1 +1,1 @@
-app-emulation/qemu sdl2
+app-emulation/qemu sdl2 virgl

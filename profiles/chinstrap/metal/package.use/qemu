@@ -7,4 +7,4 @@
 # required by @world (argument)
 >=sys-process/audit-2.6.4 python
 
-app-emulation/qemu spice usbredir virtfs
+app-emulation/qemu spice usbredir virtfs aio alsa xfs iscsi python

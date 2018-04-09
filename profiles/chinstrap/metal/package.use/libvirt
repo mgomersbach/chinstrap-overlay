@@ -1,1 +1,1 @@
-app-emulation/libvirt parted
+app-emulation/libvirt parted iscsi qemu lvm pcap
