@@ -7,3 +7,4 @@ dev-python/pyasn1 ~*
 # required by dev-python/pynacl (argument)
 dev-libs/libsodium ~*
 
+dev-python/yappi ~*
