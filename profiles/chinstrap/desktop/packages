@@ -1,6 +1,7 @@
 *app-arch/file-roller
 *app-crypt/seahorse
 *gnome-extra/gucharmap
+*mail-client/thunderbird
 *media-fonts/fira-code
 *media-gfx/geeqie
 *media-sound/asoundconf
@@ -8,6 +9,7 @@
 *media-video/mpv
 *net-firewall/ufw-frontends
 *net-fs/autofs
+*www-client/firefox
 *x11-apps/xdm
 *x11-base/xorg-server
 *x11-base/xorg-x11
@@ -30,3 +32,4 @@
 *xfce-extra/xfce4-linelight-plugin
 *xfce-extra/xfce4-screenshooter
 *xfce-extra/xfce4-taskmanager
+
