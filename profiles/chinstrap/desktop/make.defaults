@@ -3,9 +3,9 @@
 
 USE="bluetooth cairo consolekit cups dbus dri drm evdev gimp glamor
 gnome-keyring gphoto2 gstreamer gtk gtk3 introspection java -kde
-libinput libnotify mono nsplugin opengl pm-utils policykit pulseaudio
-qt5 qtmedia rdp sna tray tslib udisks uxa vnc vte X xcb xft -xinerama
-xscreensaver xv xrandr xvmc zeroconf"
+libinput libnotify mono nsplugin opengl osmesa pm-utils policykit
+pulseaudio qt5 qtmedia rdp sna tray tslib udisks uxa vnc vte X xcb
+xft -xinerama xscreensaver xv xrandr xvmc zeroconf"
 
 INPUT_DEVICES="evdev libinput keyboard mouse synaptics vmmouse"
 
