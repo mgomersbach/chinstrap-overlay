@@ -29,6 +29,7 @@ dev-util/colm ~*
 dev-util/strace ~*
 dev-lang/python:2.7 ~*
 dev-lang/python:3.5 ~*
+dev-lang/python:3.6 ~*
 media-gfx/ufraw ~*
 =app-text/aspell-0.60.7_rc1 ~*
 =dev-libs/libpcre-8.41-r1 ~*
