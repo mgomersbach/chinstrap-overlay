@@ -6,8 +6,10 @@
 *media-gfx/geeqie
 *media-sound/asoundconf
 *media-sound/volumeicon
+*media-sound/pavucontrol
 *media-video/mpv
 *net-firewall/ufw-frontends
+*net-wireless/blueberry
 *net-fs/autofs
 *www-client/firefox
 *x11-apps/xdm
