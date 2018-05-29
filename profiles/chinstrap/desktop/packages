@@ -4,13 +4,11 @@
 *mail-client/thunderbird
 *media-fonts/fira-code
 *media-gfx/geeqie
-*media-sound/asoundconf
-*media-sound/volumeicon
 *media-sound/pavucontrol
 *media-video/mpv
 *net-firewall/ufw-frontends
-*net-wireless/blueberry
 *net-fs/autofs
+*net-wireless/blueman
 *www-client/firefox
 *x11-apps/xdm
 *x11-base/xorg-server
@@ -33,6 +31,7 @@
 *xfce-extra/thunar-vcs-plugin
 *xfce-extra/xfce4-gvfs-mount
 *xfce-extra/xfce4-linelight-plugin
+*xfce-extra/xfce4-pulseaudio-plugin
 *xfce-extra/xfce4-screenshooter
 *xfce-extra/xfce4-taskmanager
 
