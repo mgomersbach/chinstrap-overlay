@@ -13,6 +13,7 @@ dev-util/systemtap ~*
 # version 1 has eselect bug
 dev-util/shadowman ~*
 sys-libs/glibc ~*
+net-libs/rpcsvc-proto ~*
 
 #pulls in old glibc
 net-libs/libnsl ~*

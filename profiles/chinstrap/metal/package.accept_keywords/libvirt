@@ -2,7 +2,6 @@
 dev-libs/libusb ~*
 dev-libs/libpcre ~*
 sys-apps/dtc ~*
-net-libs/rpcsvc-proto ~*
 # required by app-emulation/libvirt-4.1.0::gentoo[qemu]
 # required by @system
 # required by @world (argument)
