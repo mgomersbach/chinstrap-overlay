@@ -30,7 +30,7 @@ x11-drivers/xf86-video-vesa ~*
 x11-drivers/xf86-video-virtualbox ~*
 x11-drivers/xf86-video-vmware ~*
 x11-base/xorg-drivers ~*
-x11-libs/libdrm **
+x11-libs/libdrm ~*
 x11-libs/libva-vdpau-driver ~*
 x11-libs/libvdpau ~*
 x11-libs/libxcb ~*
