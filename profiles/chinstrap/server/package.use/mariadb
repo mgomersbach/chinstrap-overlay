@@ -1,1 +1,1 @@
-dev-db/mariadb server community extraengine innodb-lz4 innodb-lzo innodb-snappy xml
+dev-db/mariadb server community extraengine galera innodb-lz4 innodb-lzo innodb-snappy sst-xtrabackup xml
