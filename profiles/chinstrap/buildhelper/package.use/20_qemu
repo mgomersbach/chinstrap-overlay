@@ -1,0 +1,2 @@
+# Pulls in a lot deps for just a buildhelper
+app-emulation/qemu -sdl -sdl2

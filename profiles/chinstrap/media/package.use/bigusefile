@@ -13,7 +13,6 @@ games-fps/eduke32 vpx
 games-fps/lsdldoom net
 games-strategy/liquidwar6
 gnome-extra/gnome-media twolame
-mail-client/thunderbird system-jpeg
 media-gfx/graphicsmagick fpx q32
 media-gfx/imagemagick fpx hdri lqr q32 q64 q8 q16
 media-libs/avidemux amr vpx

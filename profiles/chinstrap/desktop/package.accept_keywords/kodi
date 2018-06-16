@@ -1,15 +1,8 @@
-# required by media-video/vlc-2.2.4-r1::gentoo[libass]
-# required by app-office/libreoffice-5.2.3.3-r1::gentoo[vlc]
-# required by @system
-# required by @world (argument)
+# required by media-video/vlc [libass]
 media-libs/libass ~*
-# required by media-tv/kodi-17.0_rc2::gentoo
-# required by @selected
-# required by @world (argument)
+
+# required by media-tv/kodi
 media-libs/taglib ~*
 
-# required by media-tv/kodi-17.0_rc3-r3::gentoo[airplay]
-# required by @selected
-# required by @world (argument)
+# required by media-tv/kodi [airplay]
 net-libs/shairplay ~*
-

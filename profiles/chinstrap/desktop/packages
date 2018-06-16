@@ -1,5 +1,4 @@
 *app-arch/file-roller
-*app-crypt/seahorse
 *gnome-extra/gucharmap
 *mail-client/thunderbird
 *media-fonts/fira-code
@@ -20,7 +19,6 @@
 *x11-misc/vdpauinfo
 *x11-libs/gksu
 *x11-terms/rxvt-unicode
-*x11-themes/gtk-chtheme
 *x11-themes/numix-icon-theme
 *x11-themes/numix-solarized
 *x11-themes/qtstyleplugins
@@ -30,8 +28,6 @@
 *xfce-extra/thunar-shares-plugin
 *xfce-extra/thunar-vcs-plugin
 *xfce-extra/xfce4-gvfs-mount
-*xfce-extra/xfce4-linelight-plugin
 *xfce-extra/xfce4-pulseaudio-plugin
 *xfce-extra/xfce4-screenshooter
 *xfce-extra/xfce4-taskmanager
-

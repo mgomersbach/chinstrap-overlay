@@ -1,7 +1,7 @@
 x11-base/xorg-server ~*
 
-# required by x11-base/xorg-server ~*
 dev-libs/libevdev ~*
+dev-libs/libinput ~*
 x11-base/xorg-drivers ~*
 x11-base/xorg-proto ~*
 x11-drivers/xf86-input-evdev ~*
@@ -34,9 +34,11 @@ x11-libs/libdrm ~*
 x11-libs/libva-vdpau-driver ~*
 x11-libs/libvdpau ~*
 x11-libs/libxcb ~*
+x11-libs/libxshmfence ~*
 x11-libs/libXcomposite ~*
 x11-libs/libXdamage ~*
 x11-libs/xtrans ~*
+x11-misc/lightdm-gtk-greeter ~*
 x11-proto/xproto ~*
 x11-proto/xf86bigfontproto ~*
 x11-proto/videoproto ~*

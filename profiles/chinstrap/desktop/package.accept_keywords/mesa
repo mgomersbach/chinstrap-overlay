@@ -1,7 +1,3 @@
 media-libs/mesa ~*
-
 app-eselect/eselect-opengl ~*
-app-crypt/rhash ~*
 dev-libs/libclc ~*
-sys-libs/libomp ~*
-x11-libs/libxshmfence ~*

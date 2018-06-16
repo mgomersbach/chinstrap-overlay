@@ -5,3 +5,4 @@ virtual/rust ~*
 dev-util/cargo ~*
 dev-lang/rust ~*
 media-gfx/graphite2 ~*
+dev-lang/spidermonkey ~*

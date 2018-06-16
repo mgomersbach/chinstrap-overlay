@@ -1,10 +1,6 @@
 # required by app-admin/salt-2017.7.4::gentoo
-# required by @system
-# required by @world (argument)
 dev-python/pyasn1 ~*
+dev-python/yappi ~*
 
 # required by dev-python/pynacl-1.1.2::gentoo
-# required by dev-python/pynacl (argument)
 dev-libs/libsodium ~*
-
-dev-python/yappi ~*

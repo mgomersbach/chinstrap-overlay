@@ -1,4 +1,0 @@
-sys-devel/llvm ~*
-
-# required by sys-devel/llvm
-sys-devel/llvm-common ~*

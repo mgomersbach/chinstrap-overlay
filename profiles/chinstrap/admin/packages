@@ -2,7 +2,6 @@
 *app-admin/logrotate
 *app-admin/salt
 *app-emulation/virt-what
-*app-forensics/chkrootkit
 *app-misc/mc
 *app-misc/screen
 *app-portage/eix
@@ -14,7 +13,6 @@
 *net-analyzer/traceroute
 *net-dns/bind-tools
 *net-misc/telnet-bsd
-*sys-apps/logwatch
 *sys-fs/ncdu
 *sys-process/htop
 *sys-process/iotop

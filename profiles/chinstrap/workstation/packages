@@ -26,8 +26,6 @@
 *sys-apps/gsmartcontrol
 *sys-devel/gdb
 *sys-process/lsof
-*x11-misc/synergy
-*x11-plugins/pidgin-led-notification
 *x11-plugins/pidgin-libnotify
 *x11-plugins/purple-libnotify-plus
 *x11-plugins/purple-plugin_pack

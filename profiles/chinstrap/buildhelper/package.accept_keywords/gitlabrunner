@@ -1,9 +1,4 @@
-# required by dev-util/gitlab-ci-multi-runner (argument)
-=dev-util/gitlab-ci-multi-runner-9.5.0 ~amd64
-# required by dev-util/gitlab-ci-multi-runner-9.5.0::chinstrap
-# required by dev-util/gitlab-ci-multi-runner (argument)
-=dev-go/go-bindata-0_pre20151023 ~amd64
-# required by dev-util/gitlab-ci-multi-runner-9.5.0::chinstrap
-# required by dev-util/gitlab-ci-multi-runner (argument)
-=dev-go/gox-0_pre20160725 ~amd64
-
+# No stable version in portage
+dev-util/gitlab-ci-multi-runner ~*
+dev-go/go-bindata ~*
+dev-go/gox ~*

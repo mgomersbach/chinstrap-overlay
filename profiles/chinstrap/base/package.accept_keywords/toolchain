@@ -1,14 +1,18 @@
+app-crypt/rhash ~*
+app-vim/llvm-vim ~*
 dev-util/cmake ~*
+dev-util/systemtap ~*
 sys-devel/clang ~*
 sys-devel/clang-common ~*
 sys-devel/clang-runtime ~*
-sys-devel/llvmgold ~*
-sys-libs/compiler-rt-sanitizers ~*
-app-vim/llvm-vim ~*
-sys-libs/compiler-rt ~*
-sys-devel/gcc-config ~*
 sys-devel/gcc ~*
-dev-util/systemtap ~*
+sys-devel/gcc-config ~*
+sys-devel/llvm ~*
+sys-devel/llvm-common ~*
+sys-devel/llvmgold ~*
+sys-libs/compiler-rt ~*
+sys-libs/compiler-rt-sanitizers ~*
+sys-libs/libomp ~*
 
 # version 1 has eselect bug
 dev-util/shadowman ~*

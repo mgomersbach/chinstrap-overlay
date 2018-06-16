@@ -1,5 +1,6 @@
 dev-libs/double-conversion ~*
 
+dev-python/PyQt5 ~*
 # required by dev-python/PyQt5 ~*
 dev-python/sip ~*
 
@@ -67,8 +68,6 @@ dev-qt/qtxmlpatterns ~*
 # required by sec-policy/selinux-alsa-2.20180114-r1::gentoo
 # required by media-sound/alsa-utils-1.1.2::gentoo
 # required by sys-power/pm-utils-1.4.1-r7::gentoo[alsa]
-# required by @system
-# required by @world (argument)
 dev-libs/fribidi ~*
 # required by media-libs/harfbuzz-1.7.6::gentoo[fontconfig]
 # required by dev-qt/qtwebengine-5.9.4::gentoo

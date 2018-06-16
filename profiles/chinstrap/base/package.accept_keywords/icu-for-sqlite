@@ -1,3 +1,0 @@
-# required by dev-db/sqlite-3.21.0::gentoo[icu]
-# required by mail-client/thunderbird-52.5.0::gentoo[system-sqlite]
-=dev-libs/icu-60.1 ~*

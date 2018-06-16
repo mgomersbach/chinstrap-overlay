@@ -1,7 +1,0 @@
-# required by x11-drivers/xf86-input-libinput
-# required by xfce-base/xfce4-settings
-# required by xfce-base/xfce4-meta
-# required by @system
-# required by @world (argument)
-dev-libs/libinput ~*
-
