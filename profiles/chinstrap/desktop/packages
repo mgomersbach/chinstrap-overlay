@@ -23,10 +23,6 @@
 *x11-themes/numix-solarized
 *x11-themes/qtstyleplugins
 *xfce-base/xfce4-meta
-*xfce-extra/thunar-archive-plugin
-*xfce-extra/thunar-media-tags-plugin
-*xfce-extra/thunar-shares-plugin
-*xfce-extra/thunar-vcs-plugin
 *xfce-extra/xfce4-gvfs-mount
 *xfce-extra/xfce4-pulseaudio-plugin
 *xfce-extra/xfce4-screenshooter
