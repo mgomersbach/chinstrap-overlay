@@ -1,3 +1,4 @@
 *app-crypt/certbot-nginx
 *net-analyzer/goaccess
+*net-dns/pdns-recursor
 *www-servers/nginx
