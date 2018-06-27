@@ -1,2 +1,5 @@
 # needed for sst-xtrabackup on mariadb
 dev-db/percona-xtrabackup-bin ~*
+
+# Not yet stable?
+dev-db/mydumper ~*
