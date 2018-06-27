@@ -28,6 +28,7 @@
 *sys-apps/ifplugd
 *sys-apps/mlocate
 *sys-apps/pv
+*sys-apps/rng-tools
 *sys-apps/updateworld
 *sys-fs/btrfs-progs
 *sys-fs/dosfstools
