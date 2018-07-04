@@ -1,0 +1,8 @@
+# required by app-crypt/acme-0.20.0::gentoo
+# required by app-crypt/certbot-0.20.0::gentoo
+# required by app-crypt/certbot-nginx-0.20.0::gentoo
+# required by @system
+# required by @world (argument)
+#=dev-python/requests-2.18.4 ~amd64
+dev-python/requests ~*
+
