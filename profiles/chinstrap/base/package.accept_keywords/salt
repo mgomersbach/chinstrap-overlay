@@ -1,0 +1,16 @@
+# required by dev-python/twisted-16.6.0-r3::gentoo[crypt]
+# required by www-servers/tornado-4.5.1::gentoo
+# required by app-admin/salt-2017.7.3::gentoo
+# required by @system
+# required by @world (argument)
+=dev-python/pyopenssl-17.5.0 ~*
+# required by dev-python/pyopenssl-17.5.0::gentoo
+# required by dev-python/twisted-16.6.0-r3::gentoo[crypt]
+# required by www-servers/tornado-4.5.1::gentoo
+# required by app-admin/salt-2017.7.3::gentoo
+# required by @system
+# required by @world (argument)
+=dev-python/cryptography-2.1.4 ~*
+
+=dev-python/pycryptodome-3.4.7 ~*
+
