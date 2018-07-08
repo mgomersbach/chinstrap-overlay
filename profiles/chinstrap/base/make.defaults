@@ -25,7 +25,7 @@ NOMEDIAUSE="-a52 -aac -alsa -bluetooth -cdda -cdr -dts -dvd -dvdr
 -x264 -xvid"
 
 USE="${NOSYSTEMD} ${NODESKTOPUSE} ${NOMEDIAUSE} acl acpi aio asm audit
-bash-completion -berkdb bidi -bindist bzip2 caps client curl -debug
+bash-completion -berkdb bidi -bindist bzip2 brotli caps client curl -debug
 device-mapper expat fuse fontconfig -geolocation git gmp -gnutls gold gpm
 graphite gssapi gzip hwdb http2 icu iconv inotify iptables ipv6 lto lz4
 lzma lzo maildir mdadm mpi nfs ncurses nls ntp openmp openssl pam pch
