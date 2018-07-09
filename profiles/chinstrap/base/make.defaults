@@ -24,7 +24,9 @@ NOMEDIAUSE="-a52 -aac -alsa -bluetooth -cdda -cdr -dts -dvd -dvdr
 -opencl -opengl -orc -pdf -png -ppds -sdl -sdl2 -svg -tiff -truetype -vorbis
 -x264 -xvid"
 
-USE="${NOSYSTEMD} ${NODESKTOPUSE} ${NOMEDIAUSE} acl acpi aio asm audit
+NOOLDPHP="-php_targets_php5-6 -php_targets_php7-0"
+
+USE="${NOSYSTEMD} ${NODESKTOPUSE} ${NOMEDIAUSE} ${NOOLDPHP} acl acpi aio asm audit
 bash-completion -berkdb bidi -bindist bzip2 brotli caps client curl -debug
 device-mapper expat fuse fontconfig -geolocation git gmp -gnutls gold gpm
 graphite gssapi gzip hwdb http2 icu iconv inotify iptables ipv6 lto lz4
@@ -52,3 +54,4 @@ PORT_LOGDIR="/var/log/portage/perpackage"
 I_KNOW_WHAT_I_AM_DOING=1
 
 PYTHON_TARGETS="python2_7 python3_5 python3_6"
+PHP_TARGETS="php7-1"
