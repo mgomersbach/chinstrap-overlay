@@ -4,3 +4,10 @@ virtual/wine d3d9 staging
 
 # required by app-emulation/wine-any-2.9
 >=net-fs/samba-3.0.25 winbind
+
+# required by
+# app-emulation/wine-any-3.11::gentoo[udisks]
+# sys-fs/udisks-2.7.4-r1::gentoo[gptfdisk]
+# sys-apps/gptfdisk-1.0.1::gentoo[ncurses,-static]
+sys-libs/ncurses static-libs
+dev-libs/popt static-libs
