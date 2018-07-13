@@ -39,3 +39,5 @@ media-gfx/ufraw ~*
 =app-text/aspell-0.60.7_rc1 ~*
 =dev-libs/libpcre-8.41-r1 ~*
 
+# stable doesn't work with glibc 2.27
+sys-devel/make ~*
