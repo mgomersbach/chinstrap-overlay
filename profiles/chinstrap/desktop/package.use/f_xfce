@@ -6,3 +6,6 @@ xfce-base/xfdesktop thunar
 
 # Add xcomposite support by default
 xfce-base/xfwm4 xcomposite
+
+# Add power management to xfce settings
+xfce-base/xfce4-settings upower

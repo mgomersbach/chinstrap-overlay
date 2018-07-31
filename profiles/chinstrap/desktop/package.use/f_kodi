@@ -1,4 +1,4 @@
-media-tv/kodi cec bluray airplay
+media-tv/kodi cec bluray airplay upower
 
 # for airplay
 app-pda/libplist python
