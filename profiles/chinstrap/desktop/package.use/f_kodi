@@ -1,6 +1,5 @@
 media-tv/kodi cec bluray airplay
 
-# required by media-tv/kodi-9999::gentoo[airplay]
-# required by media-tv/kodi:0 (argument)
->=app-pda/libplist-2.0.0 python
+# for airplay
+app-pda/libplist python
 

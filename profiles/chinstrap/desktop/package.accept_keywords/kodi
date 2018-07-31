@@ -1,8 +1,0 @@
-# required by media-video/vlc [libass]
-media-libs/libass ~*
-
-# required by media-tv/kodi
-media-libs/taglib ~*
-
-# required by media-tv/kodi [airplay]
-net-libs/shairplay ~*

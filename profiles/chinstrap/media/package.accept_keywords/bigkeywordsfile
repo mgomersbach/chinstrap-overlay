@@ -83,7 +83,6 @@ media-sound/mpg123 ~*
 media-sound/musepack-tools ~*
 media-sound/twolame ~*
 media-sound/wavpack ~*
-media-tv/kodi ~*
 media-video/ffmpeg ~*
 media-video/mpv
 media-video/vlc ~*
