@@ -1,5 +1,3 @@
-# required by app-admin/salt-2017.7.2::gentoo[portage]
-# required by @selected
-# required by @world (argument)
-=sys-apps/portage-2.3.16 ~*
+# required by app-admin/salt-2017.7.3::gentoo[portage]
+sys-apps/portage ~*
 
