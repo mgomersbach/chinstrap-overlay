@@ -1,0 +1,2 @@
+# Does not want to build because of missing jar file
+media-libs/libjpeg-turbo -javac
