@@ -9,6 +9,8 @@ xft -xinerama xscreensaver xv xrandr xvmc zeroconf"
 
 INPUT_DEVICES="evdev libinput keyboard mouse synaptics vmmouse"
 
+VIDEO_CARDS="amdgpu fbdev intel mouveau qxl radeon radeonsi vesa virtualbox vmware"
+
 XFCE_PLUGINS="battery brightness clock power trash"
 
 CAMERAS="ptp2"
