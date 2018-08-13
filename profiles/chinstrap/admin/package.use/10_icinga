@@ -1,1 +1,6 @@
+net-analyzer/icinga2 nano-syntax mail
+net-analyzer/monitoring-plugins dns fping game snmp
+net-analyzer/net-snmp python netlink
+net-analyzer/pnp4nagios -nagios icinga
+net-analyzer/rrdtool perl python graph
 www-apps/icingaweb2 nginx
