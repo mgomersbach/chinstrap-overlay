@@ -5,6 +5,7 @@ dev-util/systemtap ~*
 sys-devel/clang ~*
 sys-devel/clang-common ~*
 sys-devel/clang-runtime ~*
+sys-devel/distcc ~*
 sys-devel/gcc ~*
 sys-devel/gcc-config ~*
 sys-devel/llvm ~*
