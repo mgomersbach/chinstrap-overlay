@@ -1,0 +1,4 @@
+# need for packages in admin in desktop ie. icingaweb2 and libreoffice
+dev-util/glib-utils ~*
+dev-libs/glib ~*
+
