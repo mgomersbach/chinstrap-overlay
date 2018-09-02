@@ -66,3 +66,7 @@ x11-proto/presentproto ~*
 x11-proto/xcb-proto ~*
 x11-proto/xextproto ~*
 x11-proto/xf86driproto ~*
+
+# required by dev-libs/libwacom-0.30::gentoo
+=dev-util/glib-utils-2.56.2 ~*
+
