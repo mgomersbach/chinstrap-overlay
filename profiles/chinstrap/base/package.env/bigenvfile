@@ -13,6 +13,19 @@ app-emulation/spice nativecflags.conf
 games-emulation/fceux nativecflags.conf
 sys-cluster/openmpi nativecflags.conf
 
+# no distcc
+dev-python/numpy nodistcc.conf
+sys-devel/llvm nodistcc.conf
+app-emulation/libvirt nodistcc.conf
+dev-util/cmake nodistcc.conf
+app-emulation/qemu nodistcc.conf
+net-fs/samba nodistcc.conf
+media-gfx/exiv2 nodistcc.conf
+media-libs/taglib nodistcc.conf
+media-video/ffmpeg nodistcc.conf
+net-libs/webkit-gtk nodistcc.conf
+dev-qt/qtwebengine nodistcc.conf
+
 # wno-error
 app-emulation/open-vm-tools wnoerror.conf
 app-emulation/open-vm-tools-kmod wnoerror.conf
