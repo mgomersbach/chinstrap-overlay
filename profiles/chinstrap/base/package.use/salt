@@ -1,5 +1,5 @@
 # include portage integration
-app-admin/salt portage libcloud timelib
+app-admin/salt portage
 
 # needed for libvirt support in salt
 sys-cluster/openmpi fortran
