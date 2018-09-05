@@ -1,0 +1,2 @@
+# stable hangs on boot till urandom is available
+net-misc/chrony ~*
