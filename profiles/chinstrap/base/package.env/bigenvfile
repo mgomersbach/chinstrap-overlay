@@ -25,6 +25,18 @@ media-libs/taglib nodistcc.conf
 media-video/ffmpeg nodistcc.conf
 net-libs/webkit-gtk nodistcc.conf
 dev-qt/qtwebengine nodistcc.conf
+sys-libs/talloc nodistcc.conf
+sys-libs/tdb nodistcc.conf
+sts-libs/tevent nodistcc.conf
+dev-libs/boost nodistcc.conf
+sys-libs/ldb nodistcc.conf
+dev-python/pcryptodome nodistcc.conf
+dev-db/mysql-connector-c nodistcc.conf
+
+# no ccache
+sys-boot/syslinux noccache.conf
+sys-fs/e2fsprogs noccache.conf
+dev-python/pyzmq noccache.conf
 
 # wno-error
 app-emulation/open-vm-tools wnoerror.conf

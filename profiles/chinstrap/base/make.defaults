@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 
 # Portage stuff
-CFLAGS="-march=x86-64 -mtune=generic -O2 -msse -msse2 -msse3 -mcx16 -msahf -mpopcnt -mfxsr -pipe -frecord-gcc-switches"
+CFLAGS="-march=x86-64 -mtune=generic -msse -msse2 -msse3 -mcx16 -msahf -mpopcnt -mfxsr -pipe -O2 -frecord-gcc-switches -fstack-protector-strong"
 CXXFLAGS="${CFLAGS}"
 
 CPU_FLAGS_X86="mmx mmxext popcnt sse sse2 sse3"
