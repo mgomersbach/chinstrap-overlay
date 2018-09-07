@@ -36,6 +36,8 @@ dev-qt/qtcore nodistcc.conf
 net-libs/rabbitmq-c nodistcc.conf
 dev-lang/rust nodistcc.conf
 media-gfx/graphviz nodistcc.conf
+www-client/firefox nodistcc.conf
+mail-client/thunderbird nodistcc.conf
 
 # no ccache
 sys-boot/syslinux noccache.conf
