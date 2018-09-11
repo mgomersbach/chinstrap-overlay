@@ -15,3 +15,6 @@ dev-qt/qtsensors qml
 dev-qt/qtwebchannel qml
 dev-qt/qtwebsockets qml
 dev-qt/qtgui gif
+
+# required by dev-qt/qtwebengine-5.11.1
+sys-libs/zlib minizip

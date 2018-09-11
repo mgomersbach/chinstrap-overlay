@@ -1,1 +1,0 @@
-dev-libs/klibc custom-cflags

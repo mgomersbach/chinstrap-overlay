@@ -5,7 +5,6 @@
 *app-emulation/virt-manager
 *app-portage/repoman
 *app-text/qpdfview
-*dev-java/oracle-jdk-bin
 *dev-util/strace
 *dev-php/PHP_CodeSniffer
 *dev-php/PEAR-PHP_Beautifier

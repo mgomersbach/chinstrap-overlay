@@ -8,7 +8,6 @@ media-video/ffmpeg O3.conf
 sys-libs/talloc O3.conf
 
 # native cflags
-dev-libs/klibc nativecflags.conf
 app-emulation/spice nativecflags.conf
 games-emulation/fceux nativecflags.conf
 sys-cluster/openmpi nativecflags.conf

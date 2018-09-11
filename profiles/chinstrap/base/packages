@@ -19,7 +19,6 @@
 *dev-util/systemtap
 *dev-lang/python:3.6
 *media-gfx/grub2-solarized
-*media-gfx/splash-themes-livedvd
 *net-firewall/ufw
 *net-fs/nfs-utils
 *net-misc/bridge-utils
@@ -33,7 +32,7 @@
 *sys-fs/btrfs-progs
 *sys-fs/dosfstools
 *sys-fs/xfsprogs
-*sys-kernel/genkernel
+*sys-kernel/genkernel-next
 *sys-kernel/gentoo-sources
 *sys-process/cronie
 *www-client/links

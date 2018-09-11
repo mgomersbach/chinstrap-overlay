@@ -1,0 +1,4 @@
+media-libs/harfbuzz truetype
+sys-boot/plymouth pango
+sys-kernel/genkernel-next plymouth
+x11-libs/libdrm libkms
