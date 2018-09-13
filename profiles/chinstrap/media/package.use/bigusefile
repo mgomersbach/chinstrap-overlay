@@ -22,7 +22,6 @@ media-libs/evas bmp ppm tga
 media-libs/freetype auto-hinter
 media-libs/gst-plugins-ffmpeg -bindist
 media-libs/gst-plugins-meta vpx
-media-libs/lcms static-libs
 media-libs/libbluray aacs
 media-libs/libcaca -doc
 media-libs/libgnome twolame
