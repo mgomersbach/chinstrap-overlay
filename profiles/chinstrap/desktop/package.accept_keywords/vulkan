@@ -1,0 +1,11 @@
+
+# required by media-libs/vulkan-loader-1.1.77.0::gentoo
+# required by app-emulation/wine-any-3.15::gentoo[vulkan]
+# required by @system
+# required by @world (argument)
+dev-util/vulkan-headers ~*
+# required by app-emulation/wine-any-3.15::gentoo[vulkan]
+# required by @system
+# required by @world (argument)
+media-libs/vulkan-loader ~*
+

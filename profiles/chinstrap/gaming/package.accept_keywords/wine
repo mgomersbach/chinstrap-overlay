@@ -7,3 +7,14 @@ app-emulation/wine-gecko ~*
 app-emulation/wine-desktop-common ~*
 dev-util/patchbin ~*
 virtual/wine ~*
+
+# required by app-emulation/vkd3d-1.0::gentoo
+# required by app-emulation/wine-any-3.16::gentoo[vkd3d]
+# required by @system
+# required by @world (argument)
+dev-util/spirv-headers ~*
+# required by app-emulation/wine-any-3.16::gentoo[vkd3d]
+# required by @system
+# required by @world (argument)
+app-emulation/vkd3d ~*
+
