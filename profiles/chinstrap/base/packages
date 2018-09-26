@@ -10,6 +10,7 @@
 *app-editors/nano
 *app-eselect/eselect-repository
 *app-misc/resolve-march-native
+*app-portage/smart-live-rebuild
 *app-shells/bash-completion
 *app-shells/gentoo-bashcomp
 *app-shells/gentoo-zsh-completions
