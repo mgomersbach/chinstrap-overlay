@@ -17,6 +17,7 @@
 *x11-misc/qt5ct
 *x11-misc/redshift
 *x11-misc/vdpauinfo
+*x11-misc/wmctrl
 *x11-libs/gksu
 *x11-terms/rxvt-unicode
 *x11-themes/numix-icon-theme
