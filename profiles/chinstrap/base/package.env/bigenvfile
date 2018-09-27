@@ -42,6 +42,7 @@ mail-client/thunderbird nodistcc.conf
 sys-boot/syslinux noccache.conf
 sys-fs/e2fsprogs noccache.conf
 dev-python/pyzmq noccache.conf
+dev-util/electron noccache.conf
 
 # wno-error
 app-emulation/open-vm-tools wnoerror.conf
