@@ -26,6 +26,7 @@
 *sys-devel/gdb
 *sys-process/lsof
 *x11-plugins/pidgin-libnotify
+*x11-plugins/pidgin-telegram
 *x11-plugins/purple-libnotify-plus
 *x11-plugins/purple-plugin_pack
 *x11-themes/geany-themes
