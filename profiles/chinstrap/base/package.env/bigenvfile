@@ -1,11 +1,13 @@
 # -O3 CFLAGS
-dev-db/mariadb O3.conf
-dev-db/sqlite O3.conf
-dev-lang/php O3.conf
-dev-lang/python O3.conf
-media-libs/libvpx O3.conf
-media-video/ffmpeg O3.conf
-sys-libs/talloc O3.conf
+dev-db/* O3.conf
+dev-db/* O3.conf
+dev-lang/* O3.conf
+dev-python/* O3.conf
+media-gfx/* O3.conf
+media-libs/* O3.conf
+media-video/* O3.conf
+sys-devel/* O3.conf
+sys-libs/* O3.conf
 
 # native cflags
 app-emulation/spice nativecflags.conf
