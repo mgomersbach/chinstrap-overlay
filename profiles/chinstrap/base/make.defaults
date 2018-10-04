@@ -41,7 +41,7 @@ EMERGE_DEFAULT_OPTS="--keep-going -bg --binpkg-respect-use=y
 --binpkg-changed-deps=y --with-bdeps=y"
 DISTDIR="/media/distfiles"
 PKGDIR="/media/packages"
-ABI_X86="64 32"
+ABI_X86="64"
 
 # Misc stuff
 GRUB_PLATFORMS="pc emu efi-64"
