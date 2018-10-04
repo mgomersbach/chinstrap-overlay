@@ -42,3 +42,6 @@ media-gfx/ufraw ~*
 
 # stable doesn't work with glibc 2.27
 sys-devel/make ~*
+
+# Needed for unmasked rust with cargo
+virtual/cargo ~*
