@@ -1,7 +1,0 @@
-stages:
-  - check
-
-Repoman:
-  stage: check
-  script:
-    - repoman -x -p

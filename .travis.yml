@@ -1,0 +1,13 @@
+sudo: required
+language: python
+python:
+    - pypy
+env:
+    - PORTAGE_VER="2.3.51" OVERLAY_NAME="chinstrap-overlay"
+before_install:
+    - sudo apt-get -qq update
+    - pip install lxml pyyaml
+before_script: ./.travis/setup_repoman.sh
+script:
+  - cd /var/db/repos/${OVERLAY_NAME}
+  - /tmp/portage/portage-${PORTAGE_VER}/repoman/bin/repoman --experimental-repository-modules=y -dx full
