@@ -9,7 +9,7 @@ before_install:
     - pip install lxml pyyaml
 before_script:
   - chmod a+rwx .travis/setup_repoman.sh
-  - sudo ./.travis/setup_repoman.sh
+  - ./.travis/setup_repoman.sh
 script:
-  - cd /var/db/repos/${OVERLAY_NAME}
+  - cd /var/db/repos/chinstrap-overlay
   - /tmp/portage/portage-${PORTAGE_VER}/repoman/bin/repoman --experimental-repository-modules=y -dx full
