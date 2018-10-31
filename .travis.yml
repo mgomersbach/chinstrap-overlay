@@ -7,7 +7,9 @@ env:
 before_install:
     - sudo apt-get -qq update
     - pip install lxml pyyaml
-before_script: ./.travis/setup_repoman.sh
+before_script:
+  - chmod a+rwx .travis/setup_repoman.sh
+  - ./.travis/setup_repoman.sh
 script:
   - cd /var/db/repos/${OVERLAY_NAME}
   - /tmp/portage/portage-${PORTAGE_VER}/repoman/bin/repoman --experimental-repository-modules=y -dx full
