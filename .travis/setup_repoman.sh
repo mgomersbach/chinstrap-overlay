@@ -17,5 +17,7 @@ mkdir -p /usr/portage/metadata/{dtd,xml-schema} || echo "Could not create metada
 wget -O /usr/portage/metadata/dtd/metadata.dtd https://www.gentoo.org/dtd/metadata.dtd || echo "Could not download dtd"
 wget -O /usr/portage/metadata/xml-schema/metadata.xsd https://www.gentoo.org/xml-schema/metadata.xsd || echo "Could not download xsd"
 
+ln -s /var/db/repos/${OVERLAY_NAME}/profiles/chinstrap/default/linux/amd64 /etc/portage/make.profile
+
 mkdir /tmp/portage && cd /tmp/portage
 wget -qO - "https://gitweb.gentoo.org/proj/portage.git/snapshot/portage-${PORTAGE_VER}.tar.gz" | tar xz
