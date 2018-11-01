@@ -2,7 +2,7 @@
 
 set -euo pipefail
 
-sudo mkdir /var/db/repos
+sudo mkdir -p /var/db/repos
 sudo chmod a+rwX /etc/passwd /etc/group /etc /usr /var/db/repos
 echo "portage:x:250:250:portage:/var/tmp/portage:/bin/false" >> /etc/passwd
 echo "portage::250:portage,travis" >> /etc/group
