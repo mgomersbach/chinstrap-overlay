@@ -12,8 +12,8 @@ app-eselect/eselect-java ~*
 app-misc/resolve-march-native ~*
 app-portage/gentoolkit ~*
 app-portage/ufed ~*
-app-shells/bash-completion **
-app-shells/gentoo-bashcomp **
+app-shells/bash-completion ~*
+app-shells/gentoo-bashcomp ~*
 app-shells/oh-my-zsh ~*
 app-shells/zsh-completions ~*
 dev-dotnet/libgdiplus ~*
