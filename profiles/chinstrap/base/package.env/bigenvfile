@@ -28,7 +28,7 @@ net-libs/webkit-gtk nodistcc.conf
 dev-qt/qtwebengine nodistcc.conf
 sys-libs/talloc nodistcc.conf
 sys-libs/tdb nodistcc.conf
-sts-libs/tevent nodistcc.conf
+sys-libs/tevent nodistcc.conf
 dev-libs/boost nodistcc.conf
 sys-libs/ldb nodistcc.conf
 dev-python/pcryptodome nodistcc.conf
