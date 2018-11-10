@@ -2,7 +2,10 @@
 [![Helmet](chinstrap.png)](https://github.com/mgomersbach/chinstrap-overlay)
 > Helmet not included
 
-[![Repoman Status](https://travis-ci.com/mgomersbach/chinstrap-overlay.png?branch=master)](https://travis-ci.com/mgomersbach/chinstrap-overlay) Repoman
+[![Repoman Status](https://travis-ci.com/mgomersbach/chinstrap-overlay.png?branch=master)](https://travis-ci.com/mgomersbach/chinstrap-overlay)
+[![Join the chat at https://gitter.im/chinstrap-overlay/Lobby](https://badges.gitter.im/chinstrap-overlay/Lobby.png)](https://gitter.im/chinstrap-overlay/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![Chat on freenode](https://img.shields.io/badge/chat-on%20freenode-red.png)](irc://freenode/chinstrap)
+
 
 This overlay provides a Gentoo based install with too many unmasked versions.
 It's a set of tools and settings (Saltstack) gathered over the years.
