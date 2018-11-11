@@ -17,6 +17,9 @@ script:
   -dx full"
 notifications:
   irc: chat.freenode.net#chinstrap
+    on_success: change
+    on_failure: always
+    on_start: never
   webhooks:
     urls:
     - https://webhooks.gitter.im/e/e0fcbaebbd46fb3d51c1
@@ -25,3 +28,6 @@ notifications:
     on_start: never
   slack:
     secure: STjFDwl6kvWziXCWLzN57lU7UXvPCtz+cY+iGOLUujDQ+MSQ5CIQgoaMFxGRRTsPudWUzWjy13OZY46sX9tBQZIE0A9RLf65GkrKtj04rfBmcJrlgbYIYWYoLQCjoo3yF/t9IYc4PKa+Ug74/ak8KDzJVOXsf+7Nbo0IKTmpvE6HydMgaW+a7USZ5ow01QomQTl3liiNYYTgSpLfCY8BAJljI3s7NuY5oGFttwtr4GyYCiP2HvQB0k0/ZWfc+vhvT9anZ8yTAOT4JWcxSNwLoXFg7tXH/KLTr1CKXRCrP2oqU+y0gbAIwuFrhP9ZxAi0FoR0tG3rxE6NFg9cCkf/0HYgBIRonr7o3whnkpv0KC/vNoQHJH6yt9l8X0AVCqaN/6mID0lzhk5F6CyQGwpwQg6WNUON/LVg10YzTIhudRWGQAQici3gg1pWFUYoPbXs3ro9tc/mxmOLDpjLnvqDybu3tm1MJn+BGBVueHcc0x5Kyd8KumU5FZ2yjdPODLlm+aIm77hNL/PcQcRdAe/n45Ob26FQiosYeScBx3TijJ2jqDRHVjMqP/vVibwWMy+NB2F+AxfWIzn2Hpy5Zxn65NBsoUzh2TzHibGmrWnarb6igYWuCXDk/N7oMOXtkJGHCB1+kF5w3wqUwAEQw6jN8obKvqL2E+vftihtjSlPoe8=
+    on_success: change
+    on_failure: always
+    on_start: never
