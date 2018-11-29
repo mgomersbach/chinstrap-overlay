@@ -175,3 +175,6 @@ x11-libs/libXxf86vm abi_x86_32
 
 # required by net-libs/gnutls-3.5.19::gentoo[idn]
 >=net-dns/libidn2-2.0.5 abi_x86_32
+
+# required by media-video/ffmpeg-3.4.5::gentoo[fdk]
+>=media-libs/fdk-aac-2.0.0 abi_x86_32
