@@ -45,3 +45,9 @@ sys-devel/make ~*
 
 # Needed for unmasked rust with cargo
 virtual/cargo ~*
+
+# required by sys-libs/glibc-2.28-r2::gentoo
+# required by sys-devel/gcc-8.2.0-r4::gentoo
+>=net-dns/libidn2-2.0.5 ~*
+
+
