@@ -70,3 +70,7 @@ x11-libs/libXScrnSaver abi_x86_32
 x11-libs/libXtst abi_x86_32
 x11-libs/pango abi_x86_32
 x11-misc/virtualgl abi_x86_32
+
+# required by x11-libs/gdk-pixbuf-2.36.12::gentoo[jpeg2k]
+>=media-libs/jasper-2.0.14 abi_x86_32
+
