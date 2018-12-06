@@ -1,0 +1,3 @@
+# required by media-libs/graphene (argument) ffmpeg4
+media-libs/graphene ~*
+
