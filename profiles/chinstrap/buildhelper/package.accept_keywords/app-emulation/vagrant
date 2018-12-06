@@ -1,0 +1,19 @@
+# required by app-emulation/vagrant-2.2.2::gentoo[ruby_targets_ruby24]
+# required by vagrant (argument)
+=dev-ruby/net-ssh-5.0.2 ~*
+# required by app-emulation/vagrant-2.2.2::gentoo[ruby_targets_ruby24]
+# required by vagrant (argument)
+=dev-ruby/i18n-1.1.1 ~*
+# required by app-emulation/vagrant-2.2.2::gentoo[ruby_targets_ruby24]
+# required by vagrant (argument)
+=dev-ruby/hashicorp-checkpoint-0.1.5 ~*
+# required by app-emulation/vagrant-2.2.2::gentoo[ruby_targets_ruby24]
+# required by vagrant (argument)
+=dev-ruby/ed25519-1.2.4 ~*
+# required by app-emulation/vagrant-2.2.2::gentoo[ruby_targets_ruby24]
+# required by vagrant (argument)
+=dev-ruby/rubyzip-1.2.2 ~*
+# required by app-emulation/vagrant-2.2.2::gentoo[ruby_targets_ruby23]
+# required by vagrant (argument)
+=dev-ruby/vagrant_cloud-2.0.1 ~*
+
