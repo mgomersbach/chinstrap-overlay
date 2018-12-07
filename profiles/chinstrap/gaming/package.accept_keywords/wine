@@ -20,3 +20,4 @@ app-emulation/vkd3d ~*
 
 media-libs/gstreamer ~*
 media-libs/gst-plugins-base ~*
+media-libs/gst-plugins-libav ~*
