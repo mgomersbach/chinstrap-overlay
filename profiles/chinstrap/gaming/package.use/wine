@@ -180,5 +180,5 @@ x11-libs/libXxf86vm abi_x86_32
 media-libs/fdk-aac abi_x86_32
 
 >=media-libs/libepoxy-1.5.3 abi_x86_32
-media-libs/gst-plugins-libav abi_x86_32
+media-plugins/gst-plugins-libav abi_x86_32
 media-libs/graphene abi_x86_32
