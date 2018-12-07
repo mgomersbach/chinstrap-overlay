@@ -18,3 +18,5 @@ dev-util/spirv-headers ~*
 # required by @world (argument)
 app-emulation/vkd3d ~*
 
+media-libs/gstreamer ~*
+media-libs/gst-plugins-base ~*
