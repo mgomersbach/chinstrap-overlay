@@ -15,6 +15,6 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 RDEPEND="
-    dev-libs/libmcrypt
+dev-libs/libmcrypt
 "
 DEPEND="${RDEPEND}"
