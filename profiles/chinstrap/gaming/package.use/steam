@@ -74,3 +74,8 @@ x11-misc/virtualgl abi_x86_32
 # required by x11-libs/gdk-pixbuf-2.36.12::gentoo[jpeg2k]
 >=media-libs/jasper-2.0.14 abi_x86_32
 
+# required by x11-libs/gtk+-3.24.1::gentoo[X]
+app-accessibility/at-spi2-atk abi_x86_32
+# required by app-accessibility/at-spi2-atk-2.26.2::gentoo
+app-accessibility/at-spi2-core abi_x86_32
+

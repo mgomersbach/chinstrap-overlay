@@ -22,4 +22,3 @@ DEPEND="${PYTHON_DEPS}
 >=dev-python/attrs-17.4.0
 >=dev-python/appdirs-1.4.3"
 RDEPEND="${DEPEND}"
-
