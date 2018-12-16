@@ -9,3 +9,18 @@ dev-util/vulkan-headers ~*
 # required by @world (argument)
 media-libs/vulkan-loader ~*
 
+# required by media-video/mpv-0.29.1::gentoo[vulkan]
+# required by @selected
+# required by @world (argument)
+media-libs/shaderc ~*
+# required by media-libs/shaderc-2017.2::gentoo
+# required by media-video/mpv-0.29.1::gentoo[vulkan]
+# required by @selected
+# required by @world (argument)
+dev-util/glslang ~*
+# required by media-libs/shaderc-2017.2::gentoo
+# required by media-video/mpv-0.29.1::gentoo[vulkan]
+# required by @selected
+# required by @world (argument)
+dev-util/spirv-tools ~*
+
