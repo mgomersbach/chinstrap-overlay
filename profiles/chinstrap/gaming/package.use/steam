@@ -79,3 +79,6 @@ app-accessibility/at-spi2-atk abi_x86_32
 # required by app-accessibility/at-spi2-atk-2.26.2::gentoo
 app-accessibility/at-spi2-core abi_x86_32
 
+# required by net-misc/curl-7.62.0::gentoo[brotli]
+app-arch/brotli abi_x86_32
+
