@@ -4,3 +4,9 @@ dev-python/yappi ~*
 
 # required by dev-python/pynacl-1.1.2::gentoo
 dev-libs/libsodium ~*
+
+# required by dev-python/python-ldap-3.1.0::gentoo
+dev-python/pyasn1-modules ~*
+# required by app-admin/salt-2018.3.3::gentoo[ldap]
+dev-python/python-ldap ~*
+
