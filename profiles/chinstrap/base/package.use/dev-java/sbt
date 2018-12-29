@@ -1,0 +1,2 @@
+# Does not want to build without binary useflag
+dev-java/sbt binary
