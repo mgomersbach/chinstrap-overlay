@@ -1,1 +1,3 @@
+# Prevent >=nodejs 10 which depends on too new openssl
 >=dev-libs/openssl-1.1
+>=net-libs/nodejs-10
