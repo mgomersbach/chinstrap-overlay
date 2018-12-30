@@ -7,9 +7,9 @@ libinput libnotify mono nsplugin opengl osmesa pm-utils policykit
 pulseaudio qt5 qtmedia rdp sna tray tslib udisks uxa vnc vte X xcb
 xft -xinerama xscreensaver xv xrandr xvmc zeroconf"
 
-INPUT_DEVICES="evdev libinput keyboard mouse synaptics vmmouse"
+INPUT_DEVICES="libinput synaptics vmmouse"
 
-VIDEO_CARDS="amdgpu fbdev intel mouveau qxl radeon radeonsi vesa virtualbox vmware"
+VIDEO_CARDS="amdgpu fbdev intel nouveau qxl radeon radeonsi vesa virtualbox vmware"
 
 XFCE_PLUGINS="battery brightness clock power trash"
 
