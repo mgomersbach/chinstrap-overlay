@@ -56,3 +56,6 @@ PYTHON_TARGETS="python2_7 python3_6"
 PYTHON_SINGLE_TARGET="python3_6"
 
 PHP_TARGETS="php7-2"
+
+L10N="en nl"
+LINGUAS="en nl"
