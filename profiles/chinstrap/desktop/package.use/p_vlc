@@ -1,2 +1,7 @@
 # pulls in old freerdp and causes circ dep
 media-video/vlc -freerdp -rdp
+
+# required by media-video/vlc-3.0.3-r1::gentoo[bidi]
+# required by vlc (argument)
+>=media-libs/freetype-2.9.1-r4 harfbuzz
+
