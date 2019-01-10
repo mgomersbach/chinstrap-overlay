@@ -249,3 +249,11 @@ media-libs/graphene abi_x86_32
 # required by @world (argument)
 >=media-plugins/gst-plugins-cdparanoia-1.14.4 abi_x86_32
 
+# required by net-fs/samba-4.8.6-r2::gentoo
+# required by gnome-base/gvfs-1.34.2.1-r2::gentoo[samba]
+# required by xfce-base/thunar-1.8.2::gentoo[udisks]
+# required by xfce-extra/thunar-media-tags-plugin-0.3.0::gentoo
+# required by @selected
+# required by @world (argument)
+>=dev-python/subunit-1.2.0-r1 abi_x86_32
+
