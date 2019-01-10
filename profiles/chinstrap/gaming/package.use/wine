@@ -182,3 +182,70 @@ media-libs/fdk-aac abi_x86_32
 >=media-libs/libepoxy-1.5.3 abi_x86_32
 media-plugins/gst-plugins-libav abi_x86_32
 media-libs/graphene abi_x86_32
+# required by media-plugins/gst-plugins-meta-1.14.3::gentoo[dvd,a52]
+# required by app-emulation/wine-any-3.21::gentoo[gstreamer]
+# required by @selected
+# required by @world (argument)
+>=media-plugins/gst-plugins-a52dec-1.14.3 abi_x86_32
+# required by media-plugins/gst-plugins-meta-1.14.3::gentoo[dv]
+# required by app-emulation/wine-any-3.21::gentoo[gstreamer]
+# required by @selected
+# required by @world (argument)
+>=media-plugins/gst-plugins-dv-1.14.4 abi_x86_32
+# required by media-plugins/gst-plugins-meta-1.14.3::gentoo[dvb]
+# required by app-emulation/wine-any-3.21::gentoo[gstreamer]
+# required by @selected
+# required by @world (argument)
+>=media-plugins/gst-plugins-dvb-1.14.3 abi_x86_32
+# required by media-plugins/gst-plugins-dvdread-1.14.3::gentoo
+# required by media-plugins/gst-plugins-meta-1.14.3::gentoo[dvd]
+# required by app-emulation/wine-any-3.21::gentoo[gstreamer]
+# required by @selected
+# required by @world (argument)
+>=media-libs/gst-plugins-ugly-1.14.3 abi_x86_32
+# required by media-plugins/gst-plugins-meta-1.14.3::gentoo[dvd]
+# required by app-emulation/wine-any-3.21::gentoo[gstreamer]
+# required by @selected
+# required by @world (argument)
+>=media-plugins/gst-plugins-dvdread-1.14.3 abi_x86_32
+# required by media-plugins/gst-plugins-meta-1.14.3::gentoo[dvd,mpeg,vcd]
+# required by app-emulation/wine-any-3.21::gentoo[gstreamer]
+# required by @selected
+# required by @world (argument)
+>=media-plugins/gst-plugins-mpeg2dec-1.14.3 abi_x86_32
+# required by media-plugins/gst-plugins-meta-1.14.3::gentoo[flac]
+# required by app-emulation/wine-any-3.21::gentoo[gstreamer]
+# required by @selected
+# required by @world (argument)
+>=media-plugins/gst-plugins-flac-1.14.4 abi_x86_32
+# required by media-plugins/gst-plugins-meta-1.14.3::gentoo[mp3]
+# required by app-emulation/wine-any-3.21::gentoo[gstreamer]
+# required by @selected
+# required by @world (argument)
+>=media-plugins/gst-plugins-mpg123-1.14.4 abi_x86_32
+# required by media-plugins/gst-plugins-meta-1.14.3::gentoo[pulseaudio]
+# required by app-emulation/wine-any-3.21::gentoo[gstreamer]
+# required by @selected
+# required by @world (argument)
+>=media-plugins/gst-plugins-pulse-1.14.4 abi_x86_32
+# required by media-plugins/gst-plugins-meta-1.14.3::gentoo[v4l]
+# required by app-emulation/wine-any-3.21::gentoo[gstreamer]
+# required by @selected
+# required by @world (argument)
+>=media-plugins/gst-plugins-v4l2-1.14.4 abi_x86_32
+# required by media-plugins/gst-plugins-meta-1.14.3::gentoo[vpx]
+# required by app-emulation/wine-any-3.21::gentoo[gstreamer]
+# required by @selected
+# required by @world (argument)
+>=media-plugins/gst-plugins-vpx-1.14.4 abi_x86_32
+# required by media-plugins/gst-plugins-meta-1.14.3::gentoo[x264]
+# required by app-emulation/wine-any-3.21::gentoo[gstreamer]
+# required by @selected
+# required by @world (argument)
+>=media-plugins/gst-plugins-x264-1.14.3 abi_x86_32
+# required by media-plugins/gst-plugins-meta-1.14.3::gentoo[cdda]
+# required by app-emulation/wine-any-3.21::gentoo[gstreamer]
+# required by @selected
+# required by @world (argument)
+>=media-plugins/gst-plugins-cdparanoia-1.14.4 abi_x86_32
+

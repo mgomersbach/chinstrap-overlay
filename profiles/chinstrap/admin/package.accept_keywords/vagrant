@@ -1,0 +1,9 @@
+# required by app-emulation/vagrant-2.2.3::gentoo[ruby_targets_ruby24]
+# required by @selected
+# required by @world (argument)
+=dev-ruby/vagrant_cloud-2.0.2 ~amd64
+# required by app-emulation/vagrant-2.2.3::gentoo[ruby_targets_ruby24]
+# required by @selected
+# required by @world (argument)
+=dev-ruby/net-ssh-5.1.0 ~amd64
+
