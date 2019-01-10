@@ -82,3 +82,30 @@ app-accessibility/at-spi2-core abi_x86_32
 # required by net-misc/curl-7.62.0::gentoo[brotli]
 app-arch/brotli abi_x86_32
 
+# required by virtual/glu-9.0-r2::gentoo
+# required by media-libs/freeglut-3.0.0::gentoo
+# required by media-libs/libwebp-1.0.0::gentoo
+# required by net-libs/webkit-gtk-2.22.2::gentoo
+# required by gnome-extra/zenity-3.24.0::gentoo
+# required by games-util/steam-launcher-1.0.0.54-r4::chinstrap
+# required by @system
+# required by @world (argument)
+>=media-libs/glu-9.0.0-r1 abi_x86_32
+
+# required by dev-libs/glib-2.56.2::gentoo
+# required by dev-libs/glib (argument)
+>=dev-libs/libpcre-8.42 abi_x86_32
+
+# required by sys-apps/hwloc-2.0.2::gentoo[pci]
+# required by sys-apps/hwloc (argument)
+>=x11-libs/libpciaccess-0.14 abi_x86_32
+
+# required by x11-libs/gtk+-3.24.1::gentoo
+# required by xfce-extra/xfce4-notifyd-0.4.3-r1::gentoo
+# required by virtual/notification-daemon-0::gentoo[-kde,-gnome]
+# required by x11-libs/libnotify-0.7.7-r1::gentoo
+# required by xfce-extra/xfce4-pulseaudio-plugin-0.4.1::gentoo[libnotify]
+# required by @selected
+# required by @world (argument)
+>=media-libs/libepoxy-1.5.3 abi_x86_32
+
