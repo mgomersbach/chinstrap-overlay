@@ -19,7 +19,7 @@ LICENSE="GPL-2"
 SLOT="0"
 
 DEPEND=""
-RDEPEND="aya-apps/coreutils"
+RDEPEND="sys-apps/coreutils"
 
 src_install() {
 	exeinto /usr/bin
