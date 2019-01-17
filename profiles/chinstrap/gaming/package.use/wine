@@ -319,3 +319,9 @@ media-libs/graphene abi_x86_32
 # required by @world (argument)
 >=media-libs/vulkan-loader-1.1.92.1 abi_x86_32
 
+# required by net-libs/gnutls-3.5.19::gentoo
+# required by app-emulation/wine-any-3.21::gentoo[ssl]
+# required by @selected
+# required by @world (argument)
+>=dev-libs/libunistring-0.9.10 abi_x86_32
+
