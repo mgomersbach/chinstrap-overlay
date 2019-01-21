@@ -109,3 +109,9 @@ app-arch/brotli abi_x86_32
 # required by @world (argument)
 >=media-libs/libepoxy-1.5.3 abi_x86_32
 
+# required by x11-libs/cairo-1.16.0-r2::gentoo
+# required by www-client/google-chrome-unstable-73.0.3673.0::gentoo
+# required by @selected
+# required by @world (argument)
+>=x11-libs/pixman-0.36.0 abi_x86_32
+
