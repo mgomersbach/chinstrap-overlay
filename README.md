@@ -50,3 +50,4 @@ $ salt-call state.highstate
 Mark Gomersbach – markgomersbach@gmail.com
 
 Distributed under the GPLv2 license. See ``LICENSE`` for more information.
+
