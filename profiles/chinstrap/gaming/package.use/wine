@@ -1,5 +1,5 @@
 media-libs/mesa d3d9
-app-emulation/wine-any prelink d3d9 staging xcomposite -gssapi
+app-emulation/wine-any prelink dos d3d9 staging themes xcomposite -gssapi
 virtual/wine d3d9 staging
 
 # required by app-emulation/wine-any-2.9
@@ -315,13 +315,11 @@ media-libs/graphene abi_x86_32
 >=media-libs/x265-2.9 abi_x86_32
 
 # required by app-emulation/wine-any-3.21::gentoo[vulkan]
-# required by @selected
-# required by @world (argument)
 >=media-libs/vulkan-loader-1.1.92.1 abi_x86_32
 
 # required by net-libs/gnutls-3.5.19::gentoo
 # required by app-emulation/wine-any-3.21::gentoo[ssl]
-# required by @selected
-# required by @world (argument)
 >=dev-libs/libunistring-0.9.10 abi_x86_32
 
+# required by media-libs/mesa-18.3.2::gentoo[opencl,gallium]
+>=dev-libs/ocl-icd-2.2.12 abi_x86_32
