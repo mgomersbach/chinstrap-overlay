@@ -18,6 +18,7 @@ dev-libs/glib:2 abi_x86_32
 dev-libs/libappindicator:2 abi_x86_32
 >=dev-libs/libffi-3.2.1 abi_x86_32
 dev-libs/libgcrypt abi_x86_32
+dev-libs/libgpg-error abi_x86_32
 >=dev-libs/libusb-1.0.22 abi_x86_32
 dev-libs/nettle abi_x86_32
 dev-libs/nspr abi_x86_32
