@@ -9,7 +9,7 @@ inherit pax-utils
 # or come to #gentoo-gamerlay in freenode IRC
 
 DESCRIPTION="Meta package for Valve's native Steam client"
-HOMEPAGE="https://steampowered.com"
+HOMEPAGE="http://steampowered.com"
 LICENSE="metapackage"
 
 SLOT="0"
@@ -67,6 +67,7 @@ RDEPEND="
 			x11-libs/gtk+:2[abi_x86_32,cups]
 			x11-libs/libICE[abi_x86_32]
 			x11-libs/libSM[abi_x86_32]
+			x11-libs/libvdpau[abi_x86_32]
 			x11-libs/libX11[abi_x86_32]
 			x11-libs/libXScrnSaver[abi_x86_32]
 			x11-libs/libXcomposite[abi_x86_32]
@@ -81,7 +82,7 @@ RDEPEND="
 			x11-libs/libXtst[abi_x86_32]
 			x11-libs/pango[abi_x86_32]
 
-			x11-libs/libva[abi_x86_32]
+			=x11-libs/libva-1*[abi_x86_32]
 			trayicon? ( dev-libs/libappindicator:2[abi_x86_32] )
 			pulseaudio? ( media-sound/pulseaudio[abi_x86_32,caps] )
 			!pulseaudio? ( media-sound/apulse[abi_x86_32] )
@@ -123,15 +124,13 @@ pkg_postinst() {
 	if ! use steamfonts; then
 		elog "If the Steam client shows no or misaligned text, then"
 		elog "please enable the steamfonts use flag."
+		elog ""
 	fi
 
 	if ! use pulseaudio; then
 		ewarn "You have disabled pulseaudio which is not supported."
-		ewarn "You have to use media-sound/apulse instead to start"
-		ewarn "steam. Please add '/usr/lib32/apulse' to your"
-		ewarn "LD_LIBRARY_PATH environment variable or start steam"
-		ewarn "with:"
-		ewarn "# LD_LIBRARY_PATH=/usr/lib32/apulse steam"
+		ewarn "If you are experiencing sound problems, you can try if"
+		ewarn "media-sound/apulse works for you."
 		ewarn ""
 	fi
 
