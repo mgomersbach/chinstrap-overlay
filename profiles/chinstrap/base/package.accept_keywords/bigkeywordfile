@@ -38,16 +38,11 @@ net-analyzer/goaccess ~*
 net-misc/netifrc ~*
 sys-apps/baselayout-java ~*
 sys-apps/hwids ~*
-sys-apps/kmod ~*
 sys-apps/openrc ~*
 sys-apps/util-linux ~*
 sys-block/thin-provisioning-tools ~*
 sys-block/zram-init ~*
 sys-boot/grub:2 ~*
-sys-cluster/openmpi ~*
-sys-devel/binutils ~*
-sys-devel/binutils-config ~*
-sys-devel/clang ~*
 sys-devel/crossdev ~*
 sys-devel/prelink ~*
 sys-fs/btrfs-progs ~*

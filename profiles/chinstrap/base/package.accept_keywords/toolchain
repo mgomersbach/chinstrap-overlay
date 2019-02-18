@@ -2,6 +2,9 @@ app-crypt/rhash ~*
 app-vim/llvm-vim ~*
 dev-util/cmake ~*
 dev-util/systemtap ~*
+sys-cluster/openmpi ~*
+sys-devel/binutils ~*
+sys-devel/binutils-config ~*
 sys-devel/clang ~*
 sys-devel/clang-common ~*
 sys-devel/clang-runtime ~*
@@ -33,7 +36,6 @@ dev-util/colm ~*
 #wont build with new toolchain
 dev-util/strace ~*
 dev-lang/python:2.7 ~*
-dev-lang/python:3.5 ~*
 dev-lang/python:3.6 ~*
 media-gfx/ufraw ~*
 =app-text/aspell-0.60.7_rc1 ~*
