@@ -86,7 +86,6 @@ media-sound/wavpack ~*
 media-video/ffmpeg ~*
 media-video/mpv
 media-video/vlc ~*
-media-video/x264-encoder **
 sys-libs/libavc1394 ~*
 sys-libs/libraw1394 ~*
 virtual/ffmpeg ~*

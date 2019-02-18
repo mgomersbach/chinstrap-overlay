@@ -61,7 +61,6 @@ media-video/mpv bluray cdio postproc
 media-video/transcode mjpeg postproc
 media-video/vlc bluray dc1394 dirac faad fbosd fdk live rtsp twolame vcdx vpx zvbi -rdp
 media-video/winki mjpeg
-media-video/x264-encoder avs ffmpegsource
 net-analyzer/snort ppm
 net-libs/opal wav
 net-libs/ptlib shmvideo wav
