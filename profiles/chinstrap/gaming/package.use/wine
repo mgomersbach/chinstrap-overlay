@@ -323,3 +323,6 @@ media-libs/graphene abi_x86_32
 
 # required by media-libs/mesa-18.3.2::gentoo[opencl,gallium]
 >=dev-libs/ocl-icd-2.2.12 abi_x86_32
+
+# required by app-emulation/wine-any-4.0::gentoo[gstreamer]
+>=media-libs/x264-0.0.20190214 abi_x86_32
