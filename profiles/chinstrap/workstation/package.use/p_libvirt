@@ -1,0 +1,6 @@
+app-emulation/libvirt virt-network
+
+# required by app-emulation/libvirt-5.0.0::gentoo[virt-network]
+# required by libvirt (argument)
+>=net-dns/dnsmasq-2.80 script
+
