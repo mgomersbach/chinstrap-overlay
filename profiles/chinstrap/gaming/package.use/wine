@@ -327,3 +327,6 @@ media-libs/graphene abi_x86_32
 # required by app-emulation/wine-any-4.0::gentoo[gstreamer]
 >=media-libs/x264-0.0.20170701 abi_x86_32
 
+# required by media-video/ffmpeg-4.1.1::gentoo[encode,twolame]
+>=media-sound/twolame-0.3.13-r2 abi_x86_32
+
