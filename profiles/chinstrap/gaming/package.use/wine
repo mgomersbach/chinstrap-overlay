@@ -330,3 +330,7 @@ media-libs/graphene abi_x86_32
 # required by media-video/ffmpeg-4.1.1::gentoo[encode,twolame]
 >=media-sound/twolame-0.3.13-r2 abi_x86_32
 
+# required by media-sound/pulseaudio-12.2::gentoo[asyncns]
+# required by www-client/firefox-65.0.2::gentoo[pulseaudio]
+>=net-libs/libasyncns-0.8-r4 abi_x86_32
+
