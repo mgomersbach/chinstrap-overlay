@@ -4,7 +4,7 @@ python:
 - pypy
 env:
   global:
-  - PORTAGE_VER="2.3.60" OVERLAY_NAME="chinstrap-overlay"
+  - PORTAGE_VER="2.3.59-r1" OVERLAY_NAME="chinstrap-overlay"
 before_install:
   - sudo apt-get -qq update
   - pip install lxml pyyaml
