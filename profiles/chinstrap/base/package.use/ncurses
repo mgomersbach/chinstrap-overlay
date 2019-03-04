@@ -1,2 +1,3 @@
 # remove gpm in base to prevent circular dep
 sys-libs/ncurses tinfo -gpm
+app-antivirus/clamav -clamdtop
