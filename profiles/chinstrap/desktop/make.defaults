@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 
 USE="bluetooth cairo cups dbus dri drm -consolekit egl elogind vdev gbm gimp
-glamor gnome-keyring gphoto2 gstreamer gtk gtk3 introspection java -kde
+glamor gnome-keyring gphoto2 gstreamer gtk gtk3 introspection -kde
 kms libinput libkms libnotify mono nsplugin opengl osmesa pm-utils policykit
 pulseaudio qt5 qtmedia rdp sna tray tslib udisks uxa vnc vte vulkan X xcb
 xft -xinerama xscreensaver xv xrandr xvmc zeroconf"
