@@ -115,3 +115,6 @@ app-arch/brotli abi_x86_32
 # required by net-misc/curl (argument)
 >=net-libs/libssh2-1.8.0-r1 abi_x86_32
 
+# required by x11-libs/pango-1.42.4-r1::gentoo[X]
+>=x11-libs/libXft-2.3.3 abi_x86_32
+
