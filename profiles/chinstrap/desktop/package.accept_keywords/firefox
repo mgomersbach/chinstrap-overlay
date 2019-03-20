@@ -7,3 +7,13 @@ dev-lang/rust ~*
 media-gfx/graphite2 ~*
 dev-lang/spidermonkey ~*
 dev-util/cbindgen ~*
+
+# required by www-client/firefox-66.0-r1::gentoo[system-av1]
+# required by @selected
+# required by @world (argument)
+=media-libs/dav1d-0.2.1 ~amd64
+# required by www-client/firefox-66.0-r1::gentoo[system-av1]
+# required by @selected
+# required by @world (argument)
+=media-libs/libaom-1.0.0-r1 ~amd64
+
