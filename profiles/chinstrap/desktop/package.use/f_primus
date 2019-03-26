@@ -1,0 +1,4 @@
+# required by x11-misc/primus-0.2::gentoo
+# required by x11-misc/primus (argument)
+>=x11-drivers/nvidia-drivers-418.43 compat
+
