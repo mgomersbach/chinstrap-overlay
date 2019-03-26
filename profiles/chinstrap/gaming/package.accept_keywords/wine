@@ -21,3 +21,7 @@ app-emulation/vkd3d ~*
 media-libs/gstreamer ~*
 media-libs/gst-plugins-base ~*
 media-libs/gst-plugins-libav ~*
+# required by media-video/ffmpeg-4.1.2::gentoo[video_cards_nvidia]
+# required by app-emulation/wine-any-4.1::gentoo[ffmpeg]
+=media-libs/nv-codec-headers-8.1.24.2 ~amd64
+
