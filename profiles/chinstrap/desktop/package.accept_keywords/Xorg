@@ -70,3 +70,6 @@ x11-proto/xf86driproto ~*
 # required by dev-libs/libwacom-0.30::gentoo
 =dev-util/glib-utils-2.56.2 ~*
 
+# required by x11-misc/primus
+=x11-misc/primus-0.2 ~*
+

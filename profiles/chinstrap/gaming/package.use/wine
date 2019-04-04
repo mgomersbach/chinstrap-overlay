@@ -334,3 +334,10 @@ media-libs/graphene abi_x86_32
 # required by www-client/firefox-65.0.2::gentoo[pulseaudio]
 >=net-libs/libasyncns-0.8-r4 abi_x86_32
 
+# required by dev-python/subunit-1.2.0-r1::gentoo
+# required by net-fs/samba-4.8.6-r2::gentoo
+>=dev-libs/check-0.12.0 abi_x86_32
+
+# required by media-video/ffmpeg-4.1.2::gentoo[video_cards_nvidia]
+# required by app-emulation/wine-any-4.1::gentoo[ffmpeg]
+>=media-libs/nv-codec-headers-8.1.24.2 abi_x86_32
