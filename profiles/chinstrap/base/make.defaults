@@ -59,3 +59,5 @@ PHP_TARGETS="php7-2"
 
 L10N="en nl"
 LINGUAS="en nl"
+
+POSTGRES_TARGETS="postgres11"
