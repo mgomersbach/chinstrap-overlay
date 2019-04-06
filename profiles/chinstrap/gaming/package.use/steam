@@ -123,3 +123,6 @@ media-libs/sdl2-mixer abi_x86_32
 
 # required by media-libs/sdl2-mixer-2.0.4::gentoo[mp3,mad]
 media-libs/libmad abi_x86_32
+
+# Also get old school texture compression in 32bit env
+media-libs/libtxc_dxtn
