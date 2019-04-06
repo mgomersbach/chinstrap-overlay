@@ -125,4 +125,4 @@ media-libs/sdl2-mixer abi_x86_32
 media-libs/libmad abi_x86_32
 
 # Also get old school texture compression in 32bit env
-media-libs/libtxc_dxtn
+media-libs/libtxc_dxtn abi_x86_32
