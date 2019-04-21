@@ -1,0 +1,9 @@
+# required by games-emulation/libretro-meta-1-r4::abendbrot[desmume]
+# required by games-emulation/retroarch-1.6.7::abendbrot[cores]
+# required by retroarch (argument)
+games-emulation/desmume-libretro ~*
+# required by games-emulation/libretro-meta-1-r4::abendbrot[ppsspp]
+# required by games-emulation/retroarch-1.6.7::abendbrot[cores]
+# required by retroarch (argument)
+games-emulation/ppsspp-libretro ~*
+
