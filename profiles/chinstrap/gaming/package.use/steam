@@ -6,6 +6,9 @@ net-misc/networkmanager -wifi -wext -dhclient -ppp
 
 gnome-extra/zenity webkit
 
+# Required for bluetooth useflag
+net-misc/networkmanager modemmanager
+
 # Non-steam runtimerequirements
 app-arch/bzip2 abi_x86_32
 app-arch/xz-utils abi_x86_32
