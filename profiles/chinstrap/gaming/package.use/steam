@@ -9,6 +9,11 @@ gnome-extra/zenity webkit
 # Required for bluetooth useflag
 net-misc/networkmanager modemmanager
 
+# required by net-misc/networkmanager-1.16.0::gentoo
+net-libs/libndp abi_x86_32
+
+
+
 # Non-steam runtimerequirements
 app-arch/bzip2 abi_x86_32
 app-arch/xz-utils abi_x86_32
