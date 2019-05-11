@@ -1,0 +1,2 @@
+# Add mount useflag to grub for os-prober
+sys-boot/grub mount
