@@ -1,0 +1,5 @@
+# required by media-sound/teamspeak-client-3.2.5::gentoo
+>=dev-qt/qtgui-5.12.3-r1 accessibility
+>=dev-qt/qtwebengine-5.12.3 geolocation
+
+
