@@ -1,2 +1,2 @@
 # Too many blockers still
->=sys-libs/glibc-2.29
+>=sys-libs/glibc-2.29-r3
