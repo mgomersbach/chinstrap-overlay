@@ -1,2 +1,2 @@
-# needs gtk useflag and we don't want that
-net-dns/avahi -utils howl-compat mdnsresponder-compat
+# utils needs gtk useflag and we don't want that, we use gtk3 now
+net-dns/avahi -utils -gtk howl-compat mdnsresponder-compat
