@@ -1,0 +1,5 @@
+# required by minikube
+sys-cluster/minikube ~*
+# required by minikube
+sys-cluster/kubectl ~*
+
