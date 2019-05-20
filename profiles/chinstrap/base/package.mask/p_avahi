@@ -1,0 +1,2 @@
+# Disabling in profiles does not help, masking here
+net-dns/avahi -gtk
