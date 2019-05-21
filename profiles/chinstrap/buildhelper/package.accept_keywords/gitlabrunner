@@ -1,4 +1,0 @@
-# No stable version in portage
-dev-util/gitlab-ci-multi-runner ~*
-dev-go/go-bindata ~*
-dev-go/gox ~*
