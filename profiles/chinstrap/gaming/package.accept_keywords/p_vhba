@@ -1,0 +1,2 @@
+# Stable 20190302 does not wan't to build with current kernel 5.1.3
+sys-fs/vhba ~*
