@@ -1,2 +1,4 @@
+media-fonts/nerd-fonts **
+media-fonts/fira-mono ~*
 media-fonts/fira-code **
 x11-libs/libXft ~*
