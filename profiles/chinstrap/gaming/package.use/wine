@@ -341,3 +341,28 @@ media-libs/graphene abi_x86_32
 # required by media-video/ffmpeg-4.1.2::gentoo[video_cards_nvidia]
 # required by app-emulation/wine-any-4.1::gentoo[ffmpeg]
 >=media-libs/nv-codec-headers-8.1.24.2 abi_x86_32
+
+# required by app-emulation/wine-any-4.1::gentoo[gecko]
+>=app-emulation/wine-gecko-2.47-r1 abi_x86_32
+
+# required by media-libs/libsdl-1.2.15-r9::gentoo[sound]
+>=media-libs/audiofile-0.3.6-r3 abi_x86_32
+
+# required by media-video/mjpegtools-2.1.0-r4::gentoo[dv]
+>=media-libs/libdv-1.0.0-r3 abi_x86_32
+
+# required by media-libs/libquicktime-1.2.4-r3::gentoo[aac,encode]
+>=media-libs/faac-1.29.9.2 abi_x86_32
+
+# required by media-plugins/gst-plugins-mpeg2dec-1.14.3::gentoo
+>=media-libs/libmpeg2-0.5.1-r2 abi_x86_32
+
+# required by media-plugins/gst-plugins-dts-1.14.3::gentoo
+>=media-libs/libdca-0.0.5-r3 abi_x86_32
+
+# required by media-plugins/gst-plugins-a52dec-1.14.3::gentoo
+>=media-libs/a52dec-0.7.4-r7 abi_x86_32
+
+# required by media-plugins/gst-plugins-cdparanoia-1.14.4::gentoo
+>=media-sound/cdparanoia-3.10.2-r6 abi_x86_32
+
