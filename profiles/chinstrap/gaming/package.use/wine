@@ -366,3 +366,6 @@ media-libs/graphene abi_x86_32
 # required by media-plugins/gst-plugins-cdparanoia-1.14.4::gentoo
 >=media-sound/cdparanoia-3.10.2-r6 abi_x86_32
 
+# required by media-libs/libsdl-1.2.15-r9::gentoo[sound]
+>=media-libs/audiofile-0.3.6-r3 abi_x86_32
+
