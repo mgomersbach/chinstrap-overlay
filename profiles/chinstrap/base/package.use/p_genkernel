@@ -1,4 +1,10 @@
+# sabayon
 media-libs/harfbuzz truetype
 sys-boot/plymouth pango
 sys-kernel/genkernel-next plymouth
 x11-libs/libdrm libkms
+
+# Upstream
+sys-kernel/genkernel cryptsetup
+# required by sys-kernel/genkernel-3.5.3.3::gentoo
+>=sys-apps/util-linux-2.34-r1 static-libs
