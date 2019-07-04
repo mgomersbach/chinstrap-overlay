@@ -1,6 +1,4 @@
 # -O3 CFLAGS
-dev-db/* O3.conf
-dev-db/* O3.conf
 dev-lang/* O3.conf
 dev-python/* O3.conf
 media-gfx/* O3.conf
