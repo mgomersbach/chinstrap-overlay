@@ -8,7 +8,7 @@ if [ "${PV}" = "9999" ]; then
 	EGIT_REPO_URI="https://git.gomersbach.nl/mgomersbach/updateworld.git"
 	KEYWORDS="~amd64"
 else
-	SRC_URI="https://git.gomersbach.nl/mgomersbach/updateworld/repository/${PV}/archive.tar.gz -> ${P}.tar.gz"
+	SRC_URI="https://git.gomersbach.nl/mgomersbach/updateworld/-/archive/${PV}/${P}.tar.gz -> ${P}.tar.gz"
 	KEYWORDS="amd64"
 fi
 
@@ -19,7 +19,11 @@ LICENSE="WTFPL-2"
 SLOT="0"
 
 DEPEND=""
-RDEPEND="app-portage/gentoolkit"
+RDEPEND="
+app-admin/eclean-kernel
+app-admin/salt
+app-portage/gentoolkit
+sys-kernel/genkernel"
 
 src_install() {
 	exeinto /usr/bin
