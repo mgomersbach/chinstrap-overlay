@@ -1,3 +1,0 @@
-# for openrc systems
-sys-boot/plymouth **
-sys-boot/plymouth-openrc-plugin ~*
