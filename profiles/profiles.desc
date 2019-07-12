@@ -1,5 +1,9 @@
-amd64	chinstrap/default/linux/amd64	stable
-amd64	chinstrap/default/linux/amd64/buildhelper	stable
-amd64	chinstrap/default/linux/amd64/server	stable
-amd64	chinstrap/default/linux/amd64/desktop	stable
-amd64	chinstrap/default/linux/amd64/markws	stable
+amd64	chinstrap/default/linux/amd64/stable	stable
+amd64	chinstrap/default/linux/amd64/stable/server	stable
+amd64	chinstrap/default/linux/amd64/stable/desktop	stable
+amd64	chinstrap/default/linux/amd64/stable/markws	stable
+
+amd64	chinstrap/default/linux/amd64/dev	dev
+amd64	chinstrap/default/linux/amd64/dev/server	dev
+amd64	chinstrap/default/linux/amd64/dev/desktop	dev
+amd64	chinstrap/default/linux/amd64/dev/markws	dev

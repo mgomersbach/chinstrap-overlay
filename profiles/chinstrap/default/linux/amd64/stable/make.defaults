@@ -1,0 +1,11 @@
+# Copyright 2004-2019 Gentoo Foundation.
+# Distributed under the terms of the GNU General Public License v2
+
+FEATURES="buildpkg clean-logs compressdebug parallel-fetch parallel-install"
+
+EMERGE_DEFAULT_OPTS="-bg --binpkg-respect-use=y
+--binpkg-changed-deps=y --with-bdeps=y"
+
+ABI_X86="64"
+
+POLICY_TYPES="targeted"
