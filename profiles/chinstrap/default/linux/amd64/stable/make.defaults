@@ -3,6 +3,8 @@
 
 FEATURES="buildpkg clean-logs compressdebug parallel-fetch parallel-install"
 
+USE="unconfined"
+
 EMERGE_DEFAULT_OPTS="-bg --binpkg-respect-use=y
 --binpkg-changed-deps=y --with-bdeps=y"
 
