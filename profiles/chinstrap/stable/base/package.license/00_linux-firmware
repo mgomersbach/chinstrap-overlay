@@ -1,0 +1,2 @@
+# required by linux-firmware
+sys-kernel/linux-firmware linux-fw-redistributable no-source-code

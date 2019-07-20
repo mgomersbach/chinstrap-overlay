@@ -1,0 +1,2 @@
+# required by sys-kernel/genkernel-3.5.3.3::gentoo
+>=sys-apps/util-linux-2.33.2 static-libs

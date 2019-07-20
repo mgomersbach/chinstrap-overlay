@@ -1,0 +1,2 @@
+# one of openssl or gnutls
+>=app-admin/rsyslog-8.1904.0 openssl
