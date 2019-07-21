@@ -1,0 +1,3 @@
+# required by dev-util/itstool-2.0.2::gentoo
+# required by app-arch/file-roller-3.30.1::gentoo
+>=dev-libs/libxml2-2.9.9-r1 python

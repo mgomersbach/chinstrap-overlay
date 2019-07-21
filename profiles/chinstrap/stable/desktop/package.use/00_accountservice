@@ -1,0 +1,3 @@
+# one of consolekit elogind systemd
+sys-apps/accountsservice elogind
+sys-auth/polkit elogind

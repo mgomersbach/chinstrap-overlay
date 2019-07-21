@@ -1,0 +1,3 @@
+# needed for sys-cluster/minikube-1.0.1::gentoo
+>=sys-cluster/minikube-1.0.1 ~amd64
+>=sys-cluster/kubectl-1.15.0 ~amd64

@@ -1,0 +1,2 @@
+# required by net-wireless/blueman (argument)
+=net-wireless/blueman-2.1 ~amd64

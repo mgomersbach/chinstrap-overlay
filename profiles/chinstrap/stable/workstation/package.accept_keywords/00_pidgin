@@ -1,0 +1,4 @@
+# needed for pidgin
+>=net-im/slack-libpurple-9999 **
+>=x11-plugins/pidgin-skypeweb-1.5 ~amd64
+>=x11-plugins/pidgin-telegram-1.4.1 ~amd64

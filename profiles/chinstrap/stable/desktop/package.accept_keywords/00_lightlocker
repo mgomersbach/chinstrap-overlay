@@ -1,0 +1,2 @@
+# required by x11-misc/light-locker (argument)
+>=x11-misc/light-locker-1.9.0-r2 ~amd64

@@ -1,0 +1,4 @@
+# required by x11-libs/gtk+-3.24.8::gentoo
+# required by x11-themes/adwaita-icon-theme-3.30.1::gentoo
+>=x11-libs/cairo-1.16.0-r3 X
+>=dev-cpp/cairomm-1.12.0-r1 X

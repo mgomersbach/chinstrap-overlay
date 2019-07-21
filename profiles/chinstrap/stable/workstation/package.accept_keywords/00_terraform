@@ -1,0 +1,2 @@
+# needed by app-admin/terraform
+>=app-admin/terraform-0.12.3 ~amd64

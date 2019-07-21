@@ -1,0 +1,7 @@
+# required by xfce-extra/thunar-volman-0.8.1-r1::gentoo
+# required by xfce-extra/thunar-volman (argument)
+>=xfce-base/thunar-1.6.16 udisks
+# required by xfce-base/thunar-1.6.16::gentoo[udisks]
+# required by xfce-extra/thunar-volman-0.8.1-r1::gentoo
+# required by xfce-extra/thunar-volman (argument)
+>=gnome-base/gvfs-1.38.2 udisks

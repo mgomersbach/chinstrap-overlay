@@ -1,0 +1,12 @@
+# required by dev-qt/qtgui-5.12.3-r1::gentoo[xcb]
+# required by dev-qt/qtwidgets-5.12.3::gentoo
+# required by app-admin/keepassxc-2.3.4-r1::gentoo
+>=x11-libs/libxcb-1.13.1 xkb
+# required by dev-qt/qtgui-5.12.3-r1::gentoo[xcb]
+# required by dev-qt/qtwidgets-5.12.3::gentoo
+# required by app-admin/keepassxc-2.3.4-r1::gentoo
+>=x11-libs/libxkbcommon-0.8.4 X
+# required by dev-qt/qtcore-5.12.3::gentoo
+# required by dev-qt/qtdbus-5.12.3::gentoo
+# required by app-admin/keepassxc-2.3.4-r1::gentoo
+>=dev-libs/libpcre2-10.32 pcre16

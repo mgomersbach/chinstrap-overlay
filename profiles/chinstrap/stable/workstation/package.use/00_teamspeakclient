@@ -1,0 +1,7 @@
+media-sound/teamspeak-client alsa pulseaudio
+>=dev-qt/qtgui-5.12.3-r1 accessibility
+>=dev-qt/qtwebengine-5.12.3 widgets geolocation
+>=dev-qt/qtwebchannel-5.12.3 qml
+>=dev-libs/libxml2-2.9.9-r1 icu
+>=media-libs/libvpx-1.5.0 svc
+>=sys-libs/zlib-1.2.11-r2 minizip

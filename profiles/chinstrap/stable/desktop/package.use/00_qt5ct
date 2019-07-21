@@ -1,0 +1,3 @@
+# required by x11-misc/qt5ct-0.35::gentoo[dbus]
+# required by x11-misc/qt5ct (argument)
+>=dev-qt/qtgui-5.12.3-r1 dbus

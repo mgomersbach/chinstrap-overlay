@@ -1,0 +1,4 @@
+# required by mail-client/thunderbird-60.7.2::gentoo
+>=media-libs/libpng-1.6.37 apng
+>=dev-lang/python-2.7.15:2.7 sqlite
+>=dev-lang/python-3.6.5 sqlite

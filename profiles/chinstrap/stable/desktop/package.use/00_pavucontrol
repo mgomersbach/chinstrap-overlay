@@ -1,0 +1,5 @@
+# required by media-sound/pavucontrol-4.0::gentoo
+>=dev-cpp/gtkmm-3.24.1 X
+# required by media-sound/pulseaudio-12.2-r1::gentoo[alsa-plugin,alsa]
+# required by media-sound/pavucontrol-4.0::gentoo
+>=media-plugins/alsa-plugins-1.1.8 pulseaudio

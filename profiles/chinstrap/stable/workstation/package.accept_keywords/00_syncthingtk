@@ -1,0 +1,2 @@
+# needed by net-p2p/syncthing-gtk::gentoo
+>=net-p2p/syncthing-gtk-0.9.3 ~amd64

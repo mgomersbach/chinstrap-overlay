@@ -1,0 +1,3 @@
+# required by media-gfx/inkscape-0.92.4::gentoo
+# required by x11-themes/numix-solarized-9999::chinstrap
+>=app-text/poppler-0.77.0 cairo

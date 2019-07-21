@@ -1,0 +1,2 @@
+# needed by app-emulation/wine-vanilla-4.12.1::gentoo
+>=app-emulation/wine-vanilla-4.12.1 ~amd64
