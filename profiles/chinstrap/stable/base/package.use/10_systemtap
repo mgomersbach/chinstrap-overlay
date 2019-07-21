@@ -1,0 +1,3 @@
+sys-devel/gcc systemtap
+sys-lib/glibc systemtap
+dev-libs/glib systemtap

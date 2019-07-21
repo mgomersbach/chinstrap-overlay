@@ -1,0 +1,4 @@
+# required by sys-apps/policycoreutils-2.8::gentoo[audit]
+# required by sys-apps/openrc-0.41.2::gentoo
+# required by net-misc/netifrc-0.5.1::gentoo
+>=sys-process/audit-2.8.4 python
