@@ -1,2 +1,4 @@
 # needed by app-emulation/wine-vanilla-4.12.1::gentoo
 >=app-emulation/wine-vanilla-4.12.1 ~amd64
+>=app-emulation/wine-mono-4.9.0 ~amd64
+>=app-emulation/faudio-19.06 ~amd64
