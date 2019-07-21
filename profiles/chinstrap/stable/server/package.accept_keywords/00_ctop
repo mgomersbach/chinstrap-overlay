@@ -1,0 +1,2 @@
+# required by sys-process/ctop-0.5.1::gentoo
+>=sys-process/ctop-0.5.1 ~amd64

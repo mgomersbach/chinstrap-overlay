@@ -1,0 +1,2 @@
+# required by app-emulation/docker-machine-0.13.0::gentoo
+>=app-emulation/docker-machine-0.13.0 ~amd64

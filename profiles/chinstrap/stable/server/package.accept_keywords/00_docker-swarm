@@ -1,0 +1,2 @@
+# required by app-emulation/docker-swarm-1.2.5::gentoo
+>=app-emulation/docker-swarm-1.2.5 ~amd64
