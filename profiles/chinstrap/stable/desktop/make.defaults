@@ -1,7 +1,7 @@
 # Copyright 2004-2019 Gentoo Foundation.
 # Distributed under the terms of the GNU General Public License v2
 
-USE="bluetooth cairo cups dbus dri egl elogind evdev gbm gimp
+USE="alsa bluetooth cairo cups dbus dri egl elogind evdev gbm gimp
 gnome-keyring gphoto2 gstreamer gtk gtk3 introspection
 kms libinput libkms libnotify nsplugin opengl policykit
 pulseaudio qt5 udisks vnc vte vulkan X xcb
