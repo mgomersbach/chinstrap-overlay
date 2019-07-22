@@ -1,0 +1,34 @@
+# required by dev-python/matplotlib-2.2.2-r1::gentoo[qt5]
+# required by dev-python/networkx-2.2::gentoo
+# required by app-admin/setools-4.1.1::gentoo
+# required by sys-apps/policycoreutils-2.8::gentoo
+# required by sec-policy/selinux-gnome-2.20180701-r1::gentoo
+# required by gnome-base/gnome-keyring-3.28.2::gentoo
+# required by app-crypt/libsecret-0.18.8::gentoo
+# required by app-crypt/pinentry-1.1.0-r2::gentoo[gnome-keyring]
+# required by app-crypt/gnupg-2.2.17::gentoo
+# required by app-portage/gemato-14.1::gentoo[gpg]
+# required by sys-apps/portage-2.3.66-r1::gentoo[rsync-verify,-build]
+# required by app-portage/gentoolkit-0.4.2-r1::gentoo
+# required by sys-apps/updateworld-0.1::chinstrap
+# required by @selected
+# required by @world (argument)
+>=dev-python/PyQt5-5.12.2 widgets gui
+# required by dev-python/cairocffi-0.8.0::gentoo
+# required by dev-python/matplotlib-2.2.2-r1::gentoo[cairo]
+# required by dev-python/networkx-2.2::gentoo
+# required by app-admin/setools-4.1.1::gentoo
+# required by sys-apps/policycoreutils-2.8::gentoo
+# required by sec-policy/selinux-gnome-2.20180701-r1::gentoo
+# required by gnome-base/gnome-keyring-3.28.2::gentoo
+# required by app-crypt/libsecret-0.18.8::gentoo
+# required by app-crypt/pinentry-1.1.0-r2::gentoo[gnome-keyring]
+# required by app-crypt/gnupg-2.2.17::gentoo
+# required by app-portage/gemato-14.1::gentoo[gpg]
+# required by sys-apps/portage-2.3.66-r1::gentoo[rsync-verify,-build]
+# required by app-portage/gentoolkit-0.4.2-r1::gentoo
+# required by sys-apps/updateworld-0.1::chinstrap
+# required by @selected
+# required by @world (argument)
+>=x11-libs/gdk-pixbuf-2.38.1 jpeg
+

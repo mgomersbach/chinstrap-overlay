@@ -1,0 +1,16 @@
+# Copyright 2004-2019 Gentoo Foundation.
+# Distributed under the terms of the GNU General Public License v2
+
+USE="bluetooth cairo cups dbus dri egl elogind evdev gbm gimp
+gnome-keyring gphoto2 gstreamer gtk gtk3 introspection
+kms libinput libkms libnotify nsplugin opengl policykit
+pulseaudio qt5 udisks vnc vte vulkan X xcb
+xft xv xrandr xvmc zeroconf"
+
+INPUT_DEVICES="libinput synaptics vmmouse wacom"
+
+INPUT_DEVICES="libinput synaptics vmmouse wacom"
+
+VIDEO_CARDS="amdgpu fbdev intel nouveau radeon radeonsi vesa i965 qxl virtualbox vmware"
+
+CAMERAS="canon directory pentax ptp2"

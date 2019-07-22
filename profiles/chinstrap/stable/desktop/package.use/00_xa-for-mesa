@@ -1,0 +1,3 @@
+# Required for vmware support
+>=media-libs/mesa-19.0.8 xa
+

@@ -1,4 +1,0 @@
-# required by x11-misc/xscreensaver-5.42::gentoo
-# required by xfce-base/xfce4-session-4.12.1-r2::gentoo[xscreensaver]
-# required by xfce-base/xfce4-meta-4.12-r1::gentoo
->=x11-libs/gdk-pixbuf-2.38.1 X
