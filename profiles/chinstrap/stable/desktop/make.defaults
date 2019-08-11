@@ -12,3 +12,5 @@ INPUT_DEVICES="libinput synaptics vmmouse wacom"
 VIDEO_CARDS="amdgpu fbdev intel nouveau radeon radeonsi vesa i965 qxl virtualbox vmware"
 
 CAMERAS="canon directory pentax ptp2"
+
+SANE_BACKENDS="canon epson epson2 hp lexmark sharp xerox_mfp"
