@@ -52,14 +52,14 @@ media-video/arista faac
 media-video/avidemux amr vpx
 media-video/chaplin transcode
 media-video/dvdrip subtitles
-media-video/ffmpeg aacplus amr -bindist bluray cdio cpudetection dirac faac fdk iec61883 libsoxr twolame vpx zvbi rtmp css pvr webserver
+media-video/ffmpeg aacplus amr -bindist bluray cdio cpudetection dirac faac fdk libsoxr twolame vpx zvbi rtmp css pvr webserver
 media-video/handbrake fdk
 media-video/libav aac amr cdio cpudetection dirac faac fdk vpx rtmp
 media-video/mplayer2 bluray cdio cpudetection faad pnm postproc
 media-video/mplayer bl bluray cdio cpudetection faac faad live pnm twolame xvmc rtmp tga toolame
 media-video/mpv bluray cdio postproc
 media-video/transcode mjpeg postproc
-media-video/vlc bluray dc1394 dirac faad fbosd fdk live rtsp twolame vcdx vpx zvbi -rdp
+media-video/vlc bluray dirac faad fbosd fdk live rtsp twolame vcdx vpx zvbi -rdp
 media-video/winki mjpeg
 net-analyzer/snort ppm
 net-libs/opal wav
