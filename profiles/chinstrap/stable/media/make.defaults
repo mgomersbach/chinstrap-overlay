@@ -1,0 +1,8 @@
+# Copyright 2004-2019 Gentoo Foundation.
+# Distributed under the terms of the GNU General Public License v2
+
+USE="a52 aac alsa cdda cddb css cue dts dv dvb dvd encode exif ffmpeg
+fftw flac gif gsm jpeg ladspa lame lcms libass libsamplerate libsoxr
+mms mp3 mp4 mpeg ogg openal openexr opus orc pdf png portaudio postproc 
+postscript raw sdl speex sox soxr svg theora tiff truetype v4l vdpau vaapi
+vorbis webp x264 x265"
