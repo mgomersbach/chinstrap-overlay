@@ -1,3 +1,0 @@
-# Prevent >=nodejs 10 which depends on too new openssl. And r200 portage can not deal with???
->=dev-libs/openssl-1.0.2r-r200
->=net-libs/nodejs-10
