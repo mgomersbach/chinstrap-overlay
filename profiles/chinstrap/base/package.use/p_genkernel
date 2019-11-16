@@ -2,3 +2,7 @@
 sys-kernel/genkernel cryptsetup
 # required by sys-kernel/genkernel-3.5.3.3::gentoo
 >=sys-apps/util-linux-2.34-r1 static-libs
+
+# sshd in genkernel
+net-misc/dropbear   static minimal -pam -zlib -shadow
+dev-libs/libtommath   static-libs
