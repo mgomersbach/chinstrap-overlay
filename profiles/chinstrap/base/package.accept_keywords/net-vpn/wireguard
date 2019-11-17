@@ -1,0 +1,2 @@
+# required by wireguard (argument)
+>=net-vpn/wireguard-0.0.20191012 ~amd64
