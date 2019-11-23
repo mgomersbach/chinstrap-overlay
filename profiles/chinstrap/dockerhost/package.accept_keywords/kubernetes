@@ -4,4 +4,3 @@ sys-cluster/minikube ~*
 sys-cluster/kubectl ~*
 # required by kubeadm
 sys-cluster/kubeadm ~*
-
