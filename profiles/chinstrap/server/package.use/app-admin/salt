@@ -1,0 +1,3 @@
+# Add salt-cloud support
+# Gentoo salt depends on old python lib for mysql
+app-admin/salt libcloud -mysql
