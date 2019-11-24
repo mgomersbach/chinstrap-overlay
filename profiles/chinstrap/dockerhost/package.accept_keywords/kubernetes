@@ -8,3 +8,4 @@ sys-cluster/kubeadm ~*
 # for app-emulation/docker-compose -> dev-python/jsonschema
 dev-python/importlib_metadata ~*
 dev-python/rfc3986-validator ~*
+dev-python/rfc3339-validator ~*
