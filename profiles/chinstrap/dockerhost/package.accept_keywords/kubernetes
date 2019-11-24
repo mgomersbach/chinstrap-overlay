@@ -4,3 +4,6 @@ sys-cluster/minikube ~*
 sys-cluster/kubectl ~*
 # required by kubeadm
 sys-cluster/kubeadm ~*
+
+# for app-emulation/docker-compose -> dev-python/jsonschema
+dev-python/importlib_metadata ~*
