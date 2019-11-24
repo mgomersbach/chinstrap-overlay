@@ -3,3 +3,6 @@ media-gfx/gimp ~*
 media-libs/libmypaint ~*
 media-gfx/mypaint-brushes ~*
 media-libs/gegl ~*
+
+# for gegl
+media-libs/libnsgif ~*
