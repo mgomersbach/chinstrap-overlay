@@ -1,2 +1,3 @@
 # Needed for mpv
 media-libs/libplacebo ~*
+dev-util/spirv-headers ~*
