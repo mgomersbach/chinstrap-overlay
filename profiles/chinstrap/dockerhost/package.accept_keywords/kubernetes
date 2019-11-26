@@ -9,3 +9,4 @@ sys-cluster/kubeadm ~*
 dev-python/importlib_metadata ~*
 dev-python/rfc3986-validator ~*
 dev-python/rfc3339-validator ~*
+dev-python/zipp ~*
