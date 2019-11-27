@@ -6,7 +6,7 @@ USE="cgi dedicated ldap memcached mysql pdo sasl -apache2"
 NGINX_MODULES_HTTP="access auth_basic auth_pam auth_ldap autoindex brotli 
 browser charset empty_gif fancyindex fastcgi flv geoip gunzip gzip headers_more 
 limit_conn limit_req map memcached mp4 naxsi proxy python referer realip rewrite 
-ruby scgi spdy split_clients ssi stub_status tcl upload_progress 
+ruby scgi split_clients ssi stub_status tcl upload_progress 
 upstream_ip_hash userid uwsgi lua metrics perl upstream_check
 vhost_traffic_status"
 
