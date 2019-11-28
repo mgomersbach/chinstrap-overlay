@@ -64,3 +64,8 @@ dev-php/symfony-config ~*
 # required by dev-php/composer-1.3.1::gentoo
 # required by composer (argument)
 dev-php/symfony-process ~*
+
+# required by dev-php/composer-1.9.1::gentoo
+# required by composer (argument)
+=dev-php/xdebug-handler-1.3.1 ~amd64
+
