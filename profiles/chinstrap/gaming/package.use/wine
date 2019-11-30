@@ -358,3 +358,4 @@ media-libs/graphene abi_x86_32
 
 # TODO: split up
 app-emulation/wine-vanilla kerberos dos opencl vkd3d xcomposite
+virtual/wine abi_x86_32
