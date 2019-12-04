@@ -1,1 +1,4 @@
 media-gfx/imagemagick fpx hdri graphviz
+
+# without useflag it depends on old version of imagemagick
+media-gfx/inkscape graphicsmagick

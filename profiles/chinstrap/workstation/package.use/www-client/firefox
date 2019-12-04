@@ -1,0 +1,2 @@
+# Needed for scripted testing through firefox
+www-client/firefox geckodriver
