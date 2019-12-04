@@ -1,0 +1,2 @@
+# dev-java/oracle-jdk-bin[nsplugin] blocks dev-java/icedtea-web
+dev-java/oracle-jdk-bin -nsplugin
