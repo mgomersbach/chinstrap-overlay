@@ -1,0 +1,2 @@
+# gtk-sharp does not want to build
+net-dns/avahi -mono
