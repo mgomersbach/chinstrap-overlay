@@ -1,0 +1,3 @@
+# nflogging and netlink management
+net-firewall/iptables conntrack netlink pcap
+app-admin/ulogd json pcap nfacct
