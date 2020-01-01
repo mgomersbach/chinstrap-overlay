@@ -39,8 +39,6 @@ FEATURES="buildpkg clean-logs compressdebug parallel-fetch parallel-install"
 
 EMERGE_DEFAULT_OPTS="--keep-going -bg --binpkg-respect-use=y
 --binpkg-changed-deps=y --with-bdeps=y"
-DISTDIR="/media/distfiles"
-PKGDIR="/media/packages"
 ABI_X86="64"
 
 # Misc stuff
