@@ -1,3 +1,7 @@
 # Add v4 and idmap support
 net-fs/nfs-utils nfsv4 nfsv41 nfsidmap
 
+# required by net-nds/rpcbind-1.2.5-r1::gentoo
+# required by net-fs/nfs-utils-2.4.2-r1::gentoo
+# required by app-emulation/libvirt-5.8.0::gentoo[nfs]
+>=sys-fs/quota-4.04-r3 rpc
