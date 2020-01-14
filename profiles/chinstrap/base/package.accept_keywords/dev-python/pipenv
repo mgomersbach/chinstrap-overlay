@@ -2,3 +2,4 @@
 dev-python/pipenv ~*
 dev-python/parver ~*
 dev-python/invoke ~*
+dev-python/arpeggio ~*
