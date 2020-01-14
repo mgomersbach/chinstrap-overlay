@@ -1,0 +1,3 @@
+# Masked as unstable in portage
+dev-python/pipenv ~*
+dev-python/parver ~*
