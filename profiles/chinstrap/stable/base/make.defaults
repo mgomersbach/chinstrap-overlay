@@ -1,9 +1,7 @@
 # Copyright 2004-2019 Gentoo Foundation.
 # Distributed under the terms of the GNU General Public License v2
 
-EMERGE_DEFAULT_OPTS="-b"
-
 POLICY_TYPES="targeted"
 
-USE=" unconfined audit bidi -bindist caps expat gmp gpm icu lz4 lzma
+USE="unconfined audit bidi -bindist caps expat gmp gpm icu lz4 lzma
 lzo mpi nls openmp openssl spell syslog threads udev"

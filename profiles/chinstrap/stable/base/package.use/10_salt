@@ -1,0 +1,6 @@
+# required by dev-python/pyzmq-17.1.0::gentoo
+# required by app-admin/salt-2019.2.2::gentoo[zeromq]
+# required by @selected
+# required by @world (argument)
+>=net-libs/zeromq-4.3.2 drafts
+
