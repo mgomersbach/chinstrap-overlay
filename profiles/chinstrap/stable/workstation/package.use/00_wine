@@ -59,3 +59,44 @@
 >=sys-libs/libsepol-2.8 abi_x86_32
 >=dev-libs/libpcre-8.42 abi_x86_32
 >=media-libs/libsdl2-2.0.9 abi_x86_32
+
+# required by media-plugins/gst-plugins-meta-1.14.3
+# required by app-emulation/wine-vanilla-4.21::gentoo[gstreamer]
+>=media-libs/libexif-0.6.21-r3 abi_x86_32
+>=media-plugins/gst-plugins-a52dec-1.14.3 abi_x86_32
+>=media-plugins/gst-plugins-faad-1.14.5 abi_x86_32
+>=media-plugins/gst-plugins-dts-1.14.5 abi_x86_32
+>=media-plugins/gst-plugins-dv-1.14.5 abi_x86_32
+>=media-plugins/gst-plugins-dvb-1.14.5 abi_x86_32
+>=media-libs/gst-plugins-bad-1.14.5 abi_x86_32
+>=media-libs/gst-plugins-ugly-1.14.3 abi_x86_32
+>=media-plugins/gst-plugins-dvdread-1.14.3 abi_x86_32
+>=media-plugins/gst-plugins-mpeg2dec-1.14.3 abi_x86_32
+>=media-plugins/gst-plugins-resindvd-1.14.5 abi_x86_32
+>=media-plugins/gst-plugins-libav-1.14.4.4.1.3_p20190329 abi_x86_32
+>=media-plugins/gst-plugins-flac-1.14.5 abi_x86_32
+>=media-plugins/gst-plugins-lame-1.14.5 abi_x86_32
+>=media-plugins/gst-plugins-assrender-1.14.5 abi_x86_32
+>=media-plugins/gst-plugins-libmms-1.14.5 abi_x86_32
+>=media-plugins/gst-plugins-mpg123-1.14.5 abi_x86_32
+>=media-plugins/gst-plugins-opus-1.14.5 abi_x86_32
+>=media-plugins/gst-plugins-v4l2-1.14.5 abi_x86_32
+>=media-plugins/gst-plugins-vaapi-1.14.5 abi_x86_32
+>=media-plugins/gst-plugins-x264-1.14.3 abi_x86_32
+>=media-libs/x264-0.0.20190214 abi_x86_32
+>=media-libs/opus-1.3 abi_x86_32
+>=media-libs/libmms-0.6.4 abi_x86_32
+>=media-libs/libass-0.14.0 abi_x86_32
+>=media-sound/lame-3.100-r2 abi_x86_32
+>=media-video/ffmpeg-4.1.3 abi_x86_32
+>=media-libs/x265-2.8 abi_x86_32
+>=media-libs/soxr-0.1.3-r1 abi_x86_32
+>=media-libs/ladspa-sdk-1.13-r2 abi_x86_32
+>=media-libs/libdvdnav-6.0.0 abi_x86_32
+>=media-libs/libdvdread-6.0.0 abi_x86_32
+>=media-libs/libmpeg2-0.5.1-r2 abi_x86_32
+>=media-libs/libdv-1.0.0-r4 abi_x86_32
+>=media-libs/libdca-0.0.5-r3 abi_x86_32
+>=media-libs/faad2-2.9.0 abi_x86_32
+>=media-libs/a52dec-0.7.4-r7 abi_x86_32
+
