@@ -50,8 +50,8 @@ PORT_LOGDIR="/var/log/portage/perpackage"
 
 I_KNOW_WHAT_I_AM_DOING=1
 
-PYTHON_TARGETS="python2_7 python3_7"
-PYTHON_SINGLE_TARGET="python3_7"
+PYTHON_TARGETS="python2_7 python3_6 python3_7"
+PYTHON_SINGLE_TARGET="python3_6"
 
 PHP_TARGETS="php7-3"
 
