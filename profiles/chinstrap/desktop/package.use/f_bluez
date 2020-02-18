@@ -1,2 +1,2 @@
 # Make bluetooth work again!
-net-wireless/bluez python_single_target_python3_6 experimental deprecated extra-tools test-programs
+net-wireless/bluez python_single_target_python2_7 experimental deprecated extra-tools test-programs
