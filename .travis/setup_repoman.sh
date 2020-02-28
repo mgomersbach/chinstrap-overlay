@@ -10,9 +10,9 @@ echo "portage::250:portage,travis" >> /etc/group
 mkdir -p /etc/portage/repos.conf /var/db/repos/${OVERLAY_NAME} || echo "Could not copy repo config"
 mv * /var/db/repos/${OVERLAY_NAME}/ || echo "Could not move repo"
 mv .git /var/db/repos/${OVERLAY_NAME}/ || echo "Could not move .git"
-git clone --depth 1 https://git.gomersbach.nl/mgomersbach/gentoo-mirror.git /usr/portage/ || echo "Could not clone portage"
 cp .travis/gentoo.conf /etc/portage/repos.conf/ || echo "Could not copy gentoo repo config"
 cp .travis/${OVERLAY_NAME}.conf /etc/portage/repos.conf/ || echo "Could not copy overlay repo config"
+emerge --sync
 mkdir -p /usr/portage/metadata/{dtd,xml-schema} || echo "Could not create metadata folders"
 wget -O /usr/portage/metadata/dtd/metadata.dtd https://www.gentoo.org/dtd/metadata.dtd || echo "Could not download dtd"
 wget -O /usr/portage/metadata/xml-schema/metadata.xsd https://www.gentoo.org/xml-schema/metadata.xsd || echo "Could not download xsd"
