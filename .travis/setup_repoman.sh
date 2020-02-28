@@ -7,9 +7,11 @@ sudo chmod a+rwX /etc/passwd /etc/group /etc /usr /var/db/repos
 echo "portage:x:250:250:portage:/var/tmp/portage:/bin/false" >> /etc/passwd
 echo "portage::250:portage,travis" >> /etc/group
 
-mkdir -p /etc/portage/repos.conf /var/db/repos/${OVERLAY_NAME} || echo "Could not copy repo config"
-mv * /var/db/repos/${OVERLAY_NAME}/ || echo "Could not move repo"
-mv .git /var/db/repos/${OVERLAY_NAME}/ || echo "Could not move .git"
+mkdir -p /etc/portage/repos.conf /var/db/repos/${OVERLAY_NAME} /var/db/repos/gentoo || echo "Could not create dirs"
+cp -r  * /var/db/repos/${OVERLAY_NAME}/ || echo "Could not move repo"
+
+wget -qO - "https://gitweb.gentoo.org/proj/portage.git/snapshot/portage-${PORTAGE_VER}.tar.gz" | tar xz --strip-components=1 -C /usr/portage
+
 cp .travis/gentoo.conf /etc/portage/repos.conf/ || echo "Could not copy gentoo repo config"
 cp .travis/${OVERLAY_NAME}.conf /etc/portage/repos.conf/ || echo "Could not copy overlay repo config"
 
@@ -20,4 +22,4 @@ wget -O /usr/portage/metadata/xml-schema/metadata.xsd https://www.gentoo.org/xml
 ln -s /var/db/repos/${OVERLAY_NAME}/profiles/chinstrap/default/linux/amd64 /etc/portage/make.profile
 
 mkdir -p /tmp/portage/portage && cd /tmp/portage
-wget -qO - "https://gitweb.gentoo.org/proj/portage.git/snapshot/portage-${PORTAGE_VER}.tar.gz" | tar xz --strip-components=1 -C /tmp/portage/portage
+ln -s /usr/portage /tmp/portage/portage
