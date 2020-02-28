@@ -13,7 +13,7 @@ before_script:
   - "./.travis/setup_repoman.sh"
 script:
   - cd /var/db/repos/chinstrap-overlay
-  - "/tmp/portage/portage-${PORTAGE_VER}/repoman/bin/repoman --experimental-repository-modules=y -dx full"
+  - "/tmp/portage/portage/repoman/bin/repoman --experimental-repository-modules=y -dx full"
 notifications:
   irc: chat.freenode.net#chinstrap
   webhooks:
