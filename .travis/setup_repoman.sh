@@ -19,5 +19,5 @@ wget -O /usr/portage/metadata/xml-schema/metadata.xsd https://www.gentoo.org/xml
 
 ln -s /var/db/repos/${OVERLAY_NAME}/profiles/chinstrap/default/linux/amd64 /etc/portage/make.profile
 
-mkdir /tmp/portage && cd /tmp/portage
+mkdir -p /tmp/portage/portage && cd /tmp/portage
 wget -qO - "https://gitweb.gentoo.org/proj/portage.git/snapshot/portage-${PORTAGE_VER}.tar.gz" | tar xz --strip-components=1 -C /tmp/portage/portage
