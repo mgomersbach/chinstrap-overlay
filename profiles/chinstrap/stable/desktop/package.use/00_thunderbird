@@ -1,3 +1,6 @@
+# Clang seems more stable for mozilla family now
+mail-client/thunderbird clang
+
 # required by mail-client/thunderbird-60.7.2::gentoo
 >=media-libs/libpng-1.6.37 apng
 >=dev-lang/python-2.7.15:2.7 sqlite
