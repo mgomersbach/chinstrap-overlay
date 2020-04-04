@@ -26,7 +26,6 @@ install:
 before_script:
   - chmod a+rwx .travis/setup_repoman.sh
   - "sudo ./.travis/setup_repoman.sh"
-  - ln -s /var/db/repos/${OVERLAY_NAME}/profiles/chinstrap/default/linux/amd64 /etc/portage/make.profile
 
 script:
   - cd /var/db/repos/chinstrap-overlay

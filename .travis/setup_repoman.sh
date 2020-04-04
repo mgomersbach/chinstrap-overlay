@@ -18,3 +18,4 @@ cp .travis/${OVERLAY_NAME}.conf /etc/portage/repos.conf/ || echo "Could not copy
 mkdir -p /usr/portage/metadata/{dtd,xml-schema} || echo "Could not create metadata folders"
 wget -O /usr/portage/metadata/dtd/metadata.dtd https://www.gentoo.org/dtd/metadata.dtd || echo "Could not download dtd"
 wget -O /usr/portage/metadata/xml-schema/metadata.xsd https://www.gentoo.org/xml-schema/metadata.xsd || echo "Could not download xsd"
+ln -s /var/db/repos/gentoo/profiles/default/linux/amd64 /etc/portage/make.profile
