@@ -2,8 +2,8 @@
 
 set -euo pipefail
 
-sudo mkdir -p /etc/portage/repos.conf /var/db/repos/${OVERLAY_NAME} /var/db/repos/gentoo /usr/portage /var/cache/distfiles || echo "Could not create dirs"
-sudo chmod a+rwX /etc/passwd /etc/group /etc /usr /var/db/repos /var /var/cache
+mkdir -p /etc/portage/repos.conf /var/db/repos/${OVERLAY_NAME} /var/db/repos/gentoo /usr/portage /var/cache/distfiles || echo "Could not create dirs"
+chmod a+rwX /etc/passwd /etc/group /etc /usr /var/db/repos /var /var/cache
 echo "portage:x:250:250:portage:/var/tmp/portage:/bin/false" >> /etc/passwd
 echo "portage::250:portage,travis" >> /etc/group
  
