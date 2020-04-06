@@ -5,6 +5,9 @@ sys-cluster/kubectl ~*
 # required by kubeadm
 sys-cluster/kubeadm ~*
 
+# Not in Gentoo stable
+sys-cluster/kubelet ~*
+
 # for app-emulation/docker-compose -> dev-python/jsonschema
 dev-python/importlib_metadata ~*
 dev-python/rfc3986-validator ~*
