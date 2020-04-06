@@ -1,2 +1,0 @@
-# Seems to want to download sources in ebuild
->=sys-cluster/kubeadm-1.15.5
