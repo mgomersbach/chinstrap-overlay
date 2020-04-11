@@ -232,3 +232,10 @@ media-libs/libmad abi_x86_32
 # required by media-sound/pulseaudio-13.0::gentoo[alsa-plugin,alsa]
 # required by media-libs/openal-1.20.0::gentoo[pulseaudio]
 >=dev-db/lmdb-0.9.23 abi_x86_32
+
+# required by dev-libs/boost-1.72.0-r1::gentoo
+# required by dev-libs/liborcus-0.14.1-r1::gentoo
+# required by app-office/libreoffice-6.3.4.2-r1::gentoo
+# required by @selected
+# required by @world (argument)
+>=virtual/mpi-2.0-r4 -abi_x86_32
