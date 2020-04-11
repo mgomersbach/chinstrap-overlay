@@ -17,3 +17,6 @@ xfce-extra/thunar-volman ~*
 xfce-extra/xfce4-notifyd ~*
 xfce-extra/xfce4-weather-plugin ~*
 xfce-extra/xfce4-xkb-plugin ~*
+
+# required for thunar
+sys-fs/fuse ~*
