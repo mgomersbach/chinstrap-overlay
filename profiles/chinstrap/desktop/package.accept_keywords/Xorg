@@ -73,3 +73,5 @@ x11-proto/xf86driproto ~*
 # required by x11-misc/primus
 =x11-misc/primus-0.2 ~*
 
+# required by x11-misc/lightdm-gtk-greeter
+gnome-base/gsettings-desktop-schemas ~*
