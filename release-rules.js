@@ -7,6 +7,7 @@ module.exports = [
   // {type: 'build', release: 'patch'},
   // {type: 'chore', release: 'patch'},
   // {type: 'ci', release: 'patch'},
+  { type: "bump", release: "patch"},
   { type: "docs", release: "patch" },
   { type: "feat", release: "minor" },
   { type: "fix", release: "patch" },
