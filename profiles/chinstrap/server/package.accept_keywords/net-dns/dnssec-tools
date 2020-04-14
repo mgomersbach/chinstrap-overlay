@@ -1,0 +1,2 @@
+# Required for bind salt formula and not in stable tree yet
+net-dns/dnssec-tools ~*
