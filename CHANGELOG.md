@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.0.3](https://github.com/mgomersbach/chinstrap-overlay/compare/1.0.2...1.0.3) (2020-04-24)
+
+
+### Bug Fixes
+
+* **oracle-jdk:** deprecated JVM ([f9ebcce](https://github.com/mgomersbach/chinstrap-overlay/commit/f9ebccecc61a535ababaf11f2c5961546e0f6ebe))
+* **oracle-jdk:** deprecated JVM ([f235918](https://github.com/mgomersbach/chinstrap-overlay/commit/f235918c3ed2d74b3ff02a1bef2a2bf79cac14b2))
+
 ## [1.0.2](https://github.com/mgomersbach/chinstrap-overlay/compare/1.0.1...1.0.2) (2020-04-14)
 
 ## [1.0.1](https://github.com/mgomersbach/chinstrap-overlay/compare/1.0.0...1.0.1) (2020-04-14)
