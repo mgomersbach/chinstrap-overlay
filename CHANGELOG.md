@@ -1,5 +1,13 @@
 # Changelog
 
+# [1.1.0](https://github.com/mgomersbach/chinstrap-overlay/compare/1.0.3...1.1.0) (2020-04-25)
+
+
+### Features
+
+* **obs:** add support for obs-studio ([5e992ce](https://github.com/mgomersbach/chinstrap-overlay/commit/5e992cebf1d68c32588eb33b12bd2ef9911c55f4))
+* **obs:** add support for obs-studio ([9768a59](https://github.com/mgomersbach/chinstrap-overlay/commit/9768a5927241464394761f32f42b504a0505ed44))
+
 ## [1.0.3](https://github.com/mgomersbach/chinstrap-overlay/compare/1.0.2...1.0.3) (2020-04-24)
 
 
