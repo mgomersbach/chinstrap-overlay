@@ -7,7 +7,7 @@ NGINX_MODULES_HTTP="access addition auth_basic auth_pam auth_ldap autoindex brot
 browser charset empty_gif fancyindex fastcgi flv geoip gunzip gzip headers_more
 limit_conn limit_req map memcached mp4 naxsi proxy python referer realip rewrite
 ruby scgi split_clients ssi stub_status tcl upload_progress
-upstream_ip_hash userid uwsgi lua metrics perl upstream_check
+upstream_ip_hash userid uwsgi metrics upstream_check
 vhost_traffic_status"
 
 NGINX_MODULES_MAIL="imap pop3 smtp"
