@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.1](https://github.com/mgomersbach/chinstrap-overlay/compare/1.1.0...1.1.1) (2020-08-17)
+
+
+### Bug Fixes
+
+* **pecl-mcrypt:** upstream is updated ([1f13949](https://github.com/mgomersbach/chinstrap-overlay/commit/1f13949b643026c0ae09c0fae426efcbcf20bea8))
+
 # [1.1.0](https://github.com/mgomersbach/chinstrap-overlay/compare/1.0.3...1.1.0) (2020-04-25)
 
 
