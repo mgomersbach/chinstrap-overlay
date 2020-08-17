@@ -1,2 +1,2 @@
 # Add default useflags for mpi
-sys-cluster/openmpi mpi-threads numa
+sys-cluster/openmpi mpi-threads numa cxx
