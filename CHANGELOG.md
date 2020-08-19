@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.1.2](https://github.com/mgomersbach/chinstrap-overlay/compare/1.1.1...1.1.2) (2020-08-19)
+
+
+### Bug Fixes
+
+* **profile:** add keywords for gcc10 fix ([e3a086b](https://github.com/mgomersbach/chinstrap-overlay/commit/e3a086b71afb36d9f8a14104f89b1aafcca3162a))
+* **profile:** add keywords for gcc10 fix ([a6fdf87](https://github.com/mgomersbach/chinstrap-overlay/commit/a6fdf878b340fd79fa59064664030ebecff71c00))
+
 ## [1.1.1](https://github.com/mgomersbach/chinstrap-overlay/compare/1.1.0...1.1.1) (2020-08-17)
 
 
