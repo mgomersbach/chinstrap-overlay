@@ -1,0 +1,6 @@
+# Upstream "stable" won't build with gcc 10
+net-fs/davfs2 ~*
+app-admin/logrotate ~*
+sys-process/audit ~*
+sys-block/open-iscsi ~*
+net-analyzer/iftop ~*
