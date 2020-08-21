@@ -1,5 +1,7 @@
 # Changelog
 
+## [1.1.3](https://github.com/mgomersbach/chinstrap-overlay/compare/1.1.2...1.1.3) (2020-08-21)
+
 ## [1.1.2](https://github.com/mgomersbach/chinstrap-overlay/compare/1.1.1...1.1.2) (2020-08-19)
 
 
