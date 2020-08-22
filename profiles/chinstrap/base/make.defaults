@@ -31,7 +31,7 @@ graphite gssapi gzip hwdb http2 icu iconv inotify iptables ipv6 lto lz4
 lzma lzo maildir mdadm mpi nfs ncurses nls ntp openmp openssl pam pch
 pcre pcre16 pcre32 pgo prelink readline samba sftp sqlite ssh ssl spell
 sync-plugin-portage syslog systemtap threads tools udev upnp zlib
-zsh-completion"
+zsh-completion zstd"
 
 FEATURES="buildpkg clean-logs compressdebug parallel-fetch parallel-install"
 

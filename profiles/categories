@@ -1,8 +1,6 @@
 app-shells
-dev-util
-games-util
-media-fonts
-media-sound
-net-p2p
+games-emulation
+media-gfx
+net-im
 sys-apps
 x11-themes

@@ -9,4 +9,3 @@ dev-libs/libsodium ~*
 dev-python/pyasn1-modules ~*
 # required by app-admin/salt-2018.3.3::gentoo[ldap]
 dev-python/python-ldap ~*
-

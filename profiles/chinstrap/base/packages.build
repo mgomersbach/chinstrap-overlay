@@ -1,6 +1,0 @@
-# Packages in this file are built in order.
-app-arch/lbzip2
-app-arch/xz-utils
-sys-apps/sandbox
-sys-apps/which
-dev-lang/python:2.7
