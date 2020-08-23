@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.4](https://github.com/mgomersbach/chinstrap-overlay/compare/1.1.3...1.1.4) (2020-08-23)
+
+
+### Bug Fixes
+
+* **profile:** move vdpau and vaapi to desktop ([909c85f](https://github.com/mgomersbach/chinstrap-overlay/commit/909c85fe157514e55a6fe1baf1f444a685f3df46))
+
 ## [1.1.3](https://github.com/mgomersbach/chinstrap-overlay/compare/1.1.2...1.1.3) (2020-08-21)
 
 ## [1.1.2](https://github.com/mgomersbach/chinstrap-overlay/compare/1.1.1...1.1.2) (2020-08-19)
