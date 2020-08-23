@@ -6,4 +6,4 @@ exif ffmpeg fftw flac gd gif gsm imagemagick jbig jpeg
 jpeg2k ladspa lame lcms libass libsamplerate libsoxr mms mng mp3 mp4
 mpeg ogg openal openexr opus orc pango pdf png pnm portaudio postproc
 postscript quicktime -radio raw speex sox soxr svg theora tiff
-truetype v4l vcd vdpau vaapi vorbis webp x264 x265 xmp xpm"
+truetype v4l vcd vorbis webp x264 x265 xmp xpm"
