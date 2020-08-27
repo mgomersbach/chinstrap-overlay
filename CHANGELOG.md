@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.5](https://github.com/mgomersbach/chinstrap-overlay/compare/1.1.4...1.1.5) (2020-08-27)
+
+
+### Bug Fixes
+
+* **server:** mask pdf useflag to prevent X deps ([aaf5569](https://github.com/mgomersbach/chinstrap-overlay/commit/aaf5569d7f495fc2cadb873d6228f678e2889868))
+
 ## [1.1.4](https://github.com/mgomersbach/chinstrap-overlay/compare/1.1.3...1.1.4) (2020-08-23)
 
 
