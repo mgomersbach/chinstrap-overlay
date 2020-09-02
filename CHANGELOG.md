@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.1.6](https://github.com/mgomersbach/chinstrap-overlay/compare/1.1.5...1.1.6) (2020-09-02)
+
+
+### Bug Fixes
+
+* **qtstyleplugins:** add patches to build with new QT ([6267cbf](https://github.com/mgomersbach/chinstrap-overlay/commit/6267cbf5105f82bd0d15ecd5b62f2cd49660ec6d))
+* **qtstyleplugins:** add patches to build with new QT ([a63fe00](https://github.com/mgomersbach/chinstrap-overlay/commit/a63fe00a656f8c132ba9017a20917a642dd31d05))
+
 ## [1.1.5](https://github.com/mgomersbach/chinstrap-overlay/compare/1.1.4...1.1.5) (2020-08-27)
 
 
