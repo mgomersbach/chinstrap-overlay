@@ -20,6 +20,11 @@ DEPEND="
 	x11-libs/libX11"
 RDEPEND="${DEPEND}"
 
+PATCHES=(
+	"${FILESDIR}/0001-fix-build-against-Qt-5.15.patch"
+	"${FILESDIR}/0002-fix-gtk2-background.patch"
+)
+
 src_configure() {
 	eqmake5
 }
