@@ -9,3 +9,6 @@ xfce-base/xfwm4 xcomposite
 
 # Add power management to xfce settings
 xfce-base/xfce4-settings upower
+
+# tools useflag needs python for thunar-media-tags-plugin
+dev-libs/libbytesize python
