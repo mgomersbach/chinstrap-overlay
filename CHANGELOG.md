@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.7](https://github.com/mgomersbach/chinstrap-overlay/compare/1.1.6...1.1.7) (2020-09-02)
+
+
+### Bug Fixes
+
+* **ebuild:** keyword xfce4-power-manager for gcc10 ([4d88d99](https://github.com/mgomersbach/chinstrap-overlay/commit/4d88d99bd9061a21f7dbfee176a3a6a70b99b82e))
+
 ## [1.1.6](https://github.com/mgomersbach/chinstrap-overlay/compare/1.1.5...1.1.6) (2020-09-02)
 
 
