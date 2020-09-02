@@ -21,3 +21,6 @@ xfce-extra/xfce4-xkb-plugin ~*
 # required for thunar
 sys-fs/fuse ~*
 sys-fs/fuse-common ~*
+
+# GCC 10
+xfce-extra/xfce4-power-manager ~*
