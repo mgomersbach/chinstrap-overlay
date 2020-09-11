@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.8](https://github.com/mgomersbach/chinstrap-overlay/compare/1.1.7...1.1.8) (2020-09-02)
+
+
+### Bug Fixes
+
+* **useflag:** add python on libbytesize for media tags in thunar ([81385f4](https://github.com/mgomersbach/chinstrap-overlay/commit/81385f41705df5080f3ab7949f9881b2fb9e5045))
+
 ## [1.1.7](https://github.com/mgomersbach/chinstrap-overlay/compare/1.1.6...1.1.7) (2020-09-02)
 
 
