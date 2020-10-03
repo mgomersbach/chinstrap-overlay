@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.1.10](https://github.com/mgomersbach/chinstrap-overlay/compare/1.1.9...1.1.10) (2020-10-03)
+
+
+### Bug Fixes
+
+* **purple:** remove purple plugin pack useflag reference ([038a56f](https://github.com/mgomersbach/chinstrap-overlay/commit/038a56f52b7b77c3b1960ed3e3608a5d00c9306e))
+* **python34:** remove old python reference ([0489eed](https://github.com/mgomersbach/chinstrap-overlay/commit/0489eed8df84a093d3b0a0c36030d8ae8e453bb1))
+
 ## [1.1.9](https://github.com/mgomersbach/chinstrap-overlay/compare/1.1.8...1.1.9) (2020-09-12)
 
 ## [1.1.8](https://github.com/mgomersbach/chinstrap-overlay/compare/1.1.7...1.1.8) (2020-09-02)
