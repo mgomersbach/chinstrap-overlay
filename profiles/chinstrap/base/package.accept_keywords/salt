@@ -14,3 +14,4 @@
 
 =dev-python/pycryptodome-3.4.7 ~*
 
+=dev-python/msgpack-1.0.0 ~*
