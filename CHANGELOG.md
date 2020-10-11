@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.11](https://github.com/mgomersbach/chinstrap-overlay/compare/1.1.10...1.1.11) (2020-10-11)
+
+
+### Bug Fixes
+
+* **salt:** add keyword for msgpack dep ([9f39475](https://github.com/mgomersbach/chinstrap-overlay/commit/9f39475579e794f62ed7681488dd1a932b9146dc))
+
 ## [1.1.10](https://github.com/mgomersbach/chinstrap-overlay/compare/1.1.9...1.1.10) (2020-10-03)
 
 
