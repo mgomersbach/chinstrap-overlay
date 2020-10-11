@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.12](https://github.com/mgomersbach/chinstrap-overlay/compare/1.1.11...1.1.12) (2020-10-11)
+
+
+### Bug Fixes
+
+* **salt:** add keyword on pycryptodomex dep ([336d14a](https://github.com/mgomersbach/chinstrap-overlay/commit/336d14a60966e20494ec983f4ce9cd4db72cfda0))
+
 ## [1.1.11](https://github.com/mgomersbach/chinstrap-overlay/compare/1.1.10...1.1.11) (2020-10-11)
 
 
