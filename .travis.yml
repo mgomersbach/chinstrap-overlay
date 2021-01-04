@@ -3,7 +3,7 @@ sudo: required
 language: python
 
 python:
-  - pypy
+  - pypy3
 
 cache:
   directories:
@@ -14,7 +14,7 @@ env:
     - REPOMAN_FLAGS=--include-profiles=default/linux/amd64/17.1/selinux
     - REPOMAN_FLAGS=--include-profiles=chinstrap:chinstrap/default/linux/amd64
   global:
-    - PORTAGE_VER=2.3.88
+    - PORTAGE_VER=3.0.12
     - OVERLAY_NAME=chinstrap-overlay
 
 before_install:
