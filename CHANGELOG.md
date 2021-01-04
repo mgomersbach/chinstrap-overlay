@@ -1,5 +1,15 @@
 # Changelog
 
+## [1.1.14](https://github.com/mgomersbach/chinstrap-overlay/compare/1.1.13...1.1.14) (2021-01-04)
+
+
+### Bug Fixes
+
+* **ebuilds:** update ebuilds to EAPI 7 ([0b07e9a](https://github.com/mgomersbach/chinstrap-overlay/commit/0b07e9a22c9449b7a860e3c890f30fe7b9235081))
+* **ebuilds:** with new test env as well ([e7b55ef](https://github.com/mgomersbach/chinstrap-overlay/commit/e7b55efe9247b86d33a56fea7101c6ace184d442))
+* **repoman:** add arch in iuse for repoman ([07e84cb](https://github.com/mgomersbach/chinstrap-overlay/commit/07e84cbf7c0ba28c8b3844f722b541343412b6f6))
+* **repoman:** keywords and manifests ([2632edb](https://github.com/mgomersbach/chinstrap-overlay/commit/2632edbc8b070cc2ff76e12606a2df71f9b49dae))
+
 ## [1.1.13](https://github.com/mgomersbach/chinstrap-overlay/compare/1.1.12...1.1.13) (2021-01-04)
 
 
