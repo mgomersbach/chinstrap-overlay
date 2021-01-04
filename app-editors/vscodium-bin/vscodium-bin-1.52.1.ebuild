@@ -7,6 +7,8 @@ inherit desktop pax-utils xdg
 
 MY_PN="${PN/-bin}"
 
+IUSE="amd64 arm arm64"
+
 DESCRIPTION="Free/Libre Open Source Software Binaries of VSCode"
 HOMEPAGE="https://vscodium.com"
 
