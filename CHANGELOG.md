@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.13](https://github.com/mgomersbach/chinstrap-overlay/compare/1.1.12...1.1.13) (2021-01-04)
+
+
+### Bug Fixes
+
+* **CI:** move py version ([eee959e](https://github.com/mgomersbach/chinstrap-overlay/commit/eee959ec1fd8bfe4f9126ddade93cb67c6b76237))
+
 ## [1.1.12](https://github.com/mgomersbach/chinstrap-overlay/compare/1.1.11...1.1.12) (2020-10-11)
 
 
