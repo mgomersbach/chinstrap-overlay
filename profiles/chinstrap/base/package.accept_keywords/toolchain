@@ -1,5 +1,6 @@
 app-crypt/rhash ~*
 app-vim/llvm-vim ~*
+dev-libs/isl ~*
 dev-util/cmake ~*
 dev-util/systemtap ~*
 sys-cluster/openmpi ~*
@@ -14,6 +15,7 @@ sys-devel/gcc-config ~*
 sys-devel/llvm ~*
 sys-devel/llvm-common ~*
 sys-devel/llvmgold ~*
+sys-devel/make ~*
 sys-libs/compiler-rt ~*
 sys-libs/compiler-rt-sanitizers ~*
 sys-libs/libomp ~*
@@ -22,32 +24,8 @@ sys-libs/libomp ~*
 dev-util/shadowman ~*
 net-libs/rpcsvc-proto ~*
 
-#pulls in old glibc
+# pulls in old glibc
 net-libs/libnsl ~*
-
-# dont pull in old llvm
-dev-python/numba ~*
-dev-util/ragel ~*
-dev-util/colm ~*
-=sys-libs/libcap-2.25 ~*
-=app-text/djvu-3.5.27 ~*
-=media-gfx/geeqie-1.3 ~*
-
-#wont build with new toolchain
-dev-util/strace ~*
-dev-lang/python:2.7 ~*
-dev-lang/python:3.6 ~*
-media-gfx/ufraw ~*
-=app-text/aspell-0.60.7_rc1 ~*
-=dev-libs/libpcre-8.41-r1 ~*
-
-# stable doesn't work with glibc 2.27
-sys-devel/make ~*
 
 # Needed for unmasked rust with cargo
 virtual/cargo ~*
-
-# required by sys-devel/gcc-8.2.0-r4::gentoo
->=net-dns/libidn2-2.0.5 ~*
-
-
