@@ -3,11 +3,7 @@
 <pkgmetadata>
 	<maintainer type="person">
 		<email>markgomersbach@gmail.com</email>
+		<name>Mark Gomersbach</name>
+		<description>The icon theme from Pop!_OS</description>
 	</maintainer>
-	<use>
-		<flag name="blue">Build with blue highlights</flag>
-		<flag name="green">Build with green highlights</flag>
-		<flag name="dark">Build dark theme</flag>
-		<flag name="light">Build light theme</flag>
-	</use>
 </pkgmetadata>

@@ -1,7 +1,7 @@
-# Copyright 1999-2019 Gentoo Foundation
+# Copyright 1999-2020 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=6
+EAPI=7
 
 inherit autotools flag-o-matic git-r3
 
@@ -11,13 +11,18 @@ EGIT_REPO_URI="https://github.com/joncampbell123/dosbox-x.git"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="~amd64 ~arm ~ppc64 ~x86"
+KEYWORDS="~amd64 ~x86"
 IUSE="alsa debug glide hardened ffmpeg opengl"
+
+PATCHES=(
+	"${FILESDIR}/${P}-repair-zlib-macro-namespace.patch"
+)
 
 DEPEND="alsa? ( media-libs/alsa-lib )
 	ffmpeg? ( media-video/ffmpeg )
 	opengl? ( virtual/glu virtual/opengl )
 	debug? ( sys-libs/ncurses:0 )
+	dev-games/physfs
 	media-libs/libpng:0=
 	media-libs/libsdl[joystick,video,X]
 	media-libs/sdl-net
