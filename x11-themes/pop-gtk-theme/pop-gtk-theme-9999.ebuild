@@ -1,4 +1,4 @@
-# Copyright 1999-2021 Gentoo Foundation
+# Copyright 1999-2020 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=7
@@ -30,12 +30,7 @@ DEPEND="
 	>=x11-themes/gtk-engines-murrine-0.98.1
 	>=dev-libs/glib-2.48
 	>=gnome-base/librsvg-2.40.13
-	dev-libs/libxml2
-	media-fonts/fira-code
-	media-fonts/fira-mono
-	media-fonts/fira-sans
-	media-fonts/roboto
-	x11-themes/pop-icon-theme"
+	dev-libs/libxml2"
 RDEPEND="${DEPEND}"
 BDEPEND="
 	>=dev-lang/sassc-3.3.2
