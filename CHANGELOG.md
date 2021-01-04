@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.1.15](https://github.com/mgomersbach/chinstrap-overlay/compare/1.1.14...1.1.15) (2021-01-04)
+
+
+### Bug Fixes
+
+* **ci:** use fixed env ([8aed659](https://github.com/mgomersbach/chinstrap-overlay/commit/8aed659892a7ebf86230d4d881870c57784fdf29))
+* **profile:** add isl to toolchain keywords ([6b61766](https://github.com/mgomersbach/chinstrap-overlay/commit/6b61766c1eab31497dff1fc34c99ba09fbc73bbd))
+
 ## [1.1.14](https://github.com/mgomersbach/chinstrap-overlay/compare/1.1.13...1.1.14) (2021-01-04)
 
 
