@@ -3,7 +3,7 @@
 
 USE="bluetooth cairo cups dbus dri drm egl elogind vdev gbm gimp
 glamor gnome-keyring gphoto2 gstreamer gtk gtk3 introspection -kde
-kms libinput libkms libnotify mono nsplugin opengl osmesa pm-utils policykit
+kms libinput libkms libnotify mono nsplugin opengl osmesa policykit
 pulseaudio qt5 qtmedia rdp sdl sdl2 sna tray tslib udisks uxa vdpau vaapi vnc
 vte vulkan X xcb xft -xinerama xv xrandr xvmc zeroconf"
 
