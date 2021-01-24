@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.1.16](https://github.com/mgomersbach/chinstrap-overlay/compare/1.1.15...1.1.16) (2021-01-24)
+
+
+### Bug Fixes
+
+* **glibc:** bump version ([6ab16cb](https://github.com/mgomersbach/chinstrap-overlay/commit/6ab16cb97da6b961824449b643244028e39a7807))
+* **pmutils:** functionality is integrated into other components ([07d4a69](https://github.com/mgomersbach/chinstrap-overlay/commit/07d4a690bdb7bda14ddd2caa2680fd8f3726187a))
+
 ## [1.1.15](https://github.com/mgomersbach/chinstrap-overlay/compare/1.1.14...1.1.15) (2021-01-04)
 
 
