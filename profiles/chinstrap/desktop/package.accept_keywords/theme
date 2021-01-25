@@ -1,6 +1,6 @@
-=x11-themes/numix-icon-theme-9999 **
-=x11-themes/numix-solarized-9999 **
 =x11-themes/qtstyleplugins-9999 **
+x11-themes/pop-gtk-theme ~*
+x11-themes/pop-icon-theme **
 
 # Old inkscape does not want to build
 media-gfx/inkscape ~*
