@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.17](https://github.com/mgomersbach/chinstrap-overlay/compare/1.1.16...1.1.17) (2021-01-25)
+
+
+### Bug Fixes
+
+* **ui:** switch to more human friendly pop theme ([5dd3363](https://github.com/mgomersbach/chinstrap-overlay/commit/5dd336318ecf2c411e16a81c5f98abd8b9ac59c7))
+
 ## [1.1.16](https://github.com/mgomersbach/chinstrap-overlay/compare/1.1.15...1.1.16) (2021-01-24)
 
 
