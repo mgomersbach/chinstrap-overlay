@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.19](https://github.com/mgomersbach/chinstrap-overlay/compare/1.1.18...1.1.19) (2021-04-28)
+
+
+### Bug Fixes
+
+* **portage:** remove local mirror as upstream ([42524ed](https://github.com/mgomersbach/chinstrap-overlay/commit/42524ed8e3fcc9b795534d8de9fdde555095c1ca))
+
 ## [1.1.18](https://github.com/mgomersbach/chinstrap-overlay/compare/1.1.17...1.1.18) (2021-04-27)
 
 
