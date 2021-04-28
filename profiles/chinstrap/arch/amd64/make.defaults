@@ -2,4 +2,3 @@
 # Distributed under the terms of the GNU General Public License v2
 
 PORTAGE_BINHOST="https://chinstrap.hexnet.nl/binpkgs/chinstrap/default/linux/amd64/base/"
-GENTOO_MIRRORS="https://gentoo.hexnet.nl/mirror/"
