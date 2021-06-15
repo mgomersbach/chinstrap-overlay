@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.20](https://github.com/mgomersbach/chinstrap-overlay/compare/1.1.19...1.1.20) (2021-06-15)
+
+
+### Bug Fixes
+
+* **tc:** update glibc to upstream stable ([7eb00a3](https://github.com/mgomersbach/chinstrap-overlay/commit/7eb00a304e7cf4e26860fb03f033f89181d3d0ca))
+
 ## [1.1.19](https://github.com/mgomersbach/chinstrap-overlay/compare/1.1.18...1.1.19) (2021-04-28)
 
 
