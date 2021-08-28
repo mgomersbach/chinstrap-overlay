@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.1.21](https://github.com/mgomersbach/chinstrap-overlay/compare/1.1.20...1.1.21) (2021-08-28)
+
+
+### Bug Fixes
+
+* **gentoolkit:** unmask charset_normalizer for gentoolkit ([9def042](https://github.com/mgomersbach/chinstrap-overlay/commit/9def04249655ec3913fd20a6dc11c3e358ad1cfe))
+* **lapack:** need lapack on numpy for setools ([9086ab0](https://github.com/mgomersbach/chinstrap-overlay/commit/9086ab07fe1bf7134dd119a37133b2e889e7cdf5))
+
 ## [1.1.20](https://github.com/mgomersbach/chinstrap-overlay/compare/1.1.19...1.1.20) (2021-06-15)
 
 
