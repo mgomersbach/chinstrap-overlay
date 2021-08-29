@@ -1,0 +1,2 @@
+# meson build issue on stable
+app-accessibility/at-spi2-atk ~*
