@@ -1,0 +1,5 @@
+app-emulation/podman ~*
+app-emulation/conmon ~*
+sys-fs/fuse-overlayfs ~*
+app-emulation/skopeo ~*
+app-emulation/buildah ~*
