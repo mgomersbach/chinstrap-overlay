@@ -1,0 +1,2 @@
+# does not build with lto on 11 yet
+net-libs/nodejs -lto
