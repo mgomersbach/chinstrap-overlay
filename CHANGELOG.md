@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.1.22](https://github.com/mgomersbach/chinstrap-overlay/compare/1.1.21...1.1.22) (2021-08-29)
+
+
+### Bug Fixes
+
+* **at-spi2-atk:** stable does not compile with meson ([bc53cb2](https://github.com/mgomersbach/chinstrap-overlay/commit/bc53cb2fa4e361858072b314cc865e216cafb3a9))
+* **nodejs:** does not build on gcc 11 with lto ([8db7048](https://github.com/mgomersbach/chinstrap-overlay/commit/8db70482fe98159823fcd70465114ffc18ea6d9b))
+* **profile:** deprecate docker support ([32d742a](https://github.com/mgomersbach/chinstrap-overlay/commit/32d742add62563c46b7001ba2332cc56652667ce))
+
 ## [1.1.21](https://github.com/mgomersbach/chinstrap-overlay/compare/1.1.20...1.1.21) (2021-08-28)
 
 
