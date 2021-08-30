@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.23](https://github.com/mgomersbach/chinstrap-overlay/compare/1.1.22...1.1.23) (2021-08-30)
+
+
+### Bug Fixes
+
+* **docker:** podman alternative for docker-compose ([1fe3783](https://github.com/mgomersbach/chinstrap-overlay/commit/1fe378363e0a3e257a08c6ea6acea2f5929e3a54))
+
 ## [1.1.22](https://github.com/mgomersbach/chinstrap-overlay/compare/1.1.21...1.1.22) (2021-08-29)
 
 
