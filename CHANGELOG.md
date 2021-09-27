@@ -1,5 +1,16 @@
 # Changelog
 
+## [1.1.24](https://github.com/mgomersbach/chinstrap-overlay/compare/1.1.23...1.1.24) (2021-09-27)
+
+
+### Bug Fixes
+
+* **mariadb:** add sst-mariabackup useflag ([9f9798f](https://github.com/mgomersbach/chinstrap-overlay/commit/9f9798faf9b51a8f2d868fc2ff77f934b5f3566c))
+* **openrc:** remove keyword for openrc ([c6af3f4](https://github.com/mgomersbach/chinstrap-overlay/commit/c6af3f49a1b166459ec17d12457357490d6fb3e9))
+* **php:** add curl and json useflag ([54e460e](https://github.com/mgomersbach/chinstrap-overlay/commit/54e460e4d2ba105fbd9ef4d5634007662090c44a))
+* **php:** move keywords ([85a5072](https://github.com/mgomersbach/chinstrap-overlay/commit/85a5072e11175d54ef1975eec0f1cd40247ff88d))
+* **rtmpdump:** add keyword on rtmpdump ([2c6cc74](https://github.com/mgomersbach/chinstrap-overlay/commit/2c6cc74a73b3ac6e5c0bce861bc5ccd10a733793))
+
 ## [1.1.23](https://github.com/mgomersbach/chinstrap-overlay/compare/1.1.22...1.1.23) (2021-08-30)
 
 
