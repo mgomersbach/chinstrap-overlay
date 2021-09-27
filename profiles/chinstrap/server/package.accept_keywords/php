@@ -11,3 +11,4 @@ dev-php/pecl-uploadprogress **
 
 # for pdlib in nextcloud for face recognition
 sci-libs/dlib ~*
+sci-libs/mkl ~*
