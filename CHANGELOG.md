@@ -1,5 +1,30 @@
 # Changelog
 
+## [1.1.25](https://github.com/mgomersbach/chinstrap-overlay/compare/1.1.24...1.1.25) (2021-09-27)
+
+
+### Bug Fixes
+
+* **amavisd-new:** add keyword on ncompress ([742fe07](https://github.com/mgomersbach/chinstrap-overlay/commit/742fe0783a428f4dfa65acc18b6a9a6888697dda))
+* **composer:** move composer keywords ([4603154](https://github.com/mgomersbach/chinstrap-overlay/commit/460315421bae436cbf557e7b205feeed8c1517aa))
+* **composer:** move keywords to server profile ([045e0ba](https://github.com/mgomersbach/chinstrap-overlay/commit/045e0baf251de3f092e245044e06e2ed74c6dff5))
+* **dlib:** add keyword for nextcloud ([7c2b295](https://github.com/mgomersbach/chinstrap-overlay/commit/7c2b2957b96a65c42c4ddd8287539b5da48b38e7))
+* **dnssec-tools:** simplify keywords ([f10ae81](https://github.com/mgomersbach/chinstrap-overlay/commit/f10ae8150094ee7d2d392c6e59fd3d08d8b31cb7))
+* **exporters:** no stable tagged version in portage ([b24b76d](https://github.com/mgomersbach/chinstrap-overlay/commit/b24b76d99ada9e285806c6bc91c3300cce599458))
+* **grafana-bin:** add keyword ([98f6cef](https://github.com/mgomersbach/chinstrap-overlay/commit/98f6cef2f44a655b0bed8c7f1711bcc8dbbf5f75))
+* **icedtea:** add keyword ([f514406](https://github.com/mgomersbach/chinstrap-overlay/commit/f5144066615e4de170eda90a52ea09787333491d))
+* **libcrypt:** add static-libs useflag for dropbear ([41658d4](https://github.com/mgomersbach/chinstrap-overlay/commit/41658d4d4dfbeb481b32a07d863bc11b629f8595))
+* **lutris:** add keyword ([a70dbc2](https://github.com/mgomersbach/chinstrap-overlay/commit/a70dbc2a9b38584f59a37c6c76132c6dea3c977b))
+* **mkl:** add keyword for dlib ([3247628](https://github.com/mgomersbach/chinstrap-overlay/commit/3247628afda1819e7583873a4c86358eeef90c91))
+* **mupen64plus:** add keyword on PySDL2 ([30ce31e](https://github.com/mgomersbach/chinstrap-overlay/commit/30ce31edfc05198655abe0364df448f655214fe3))
+* **openshot:** add useflags and keywords ([6566206](https://github.com/mgomersbach/chinstrap-overlay/commit/656620659511da17e3ebeaf49c15c1b80f59a19e))
+* **podman-compose:** add keyword ([f30158f](https://github.com/mgomersbach/chinstrap-overlay/commit/f30158f9bf37a5d0129a7a4251a87807f40f95fb))
+* **sunxi-tools:** add keyword ([f9e71aa](https://github.com/mgomersbach/chinstrap-overlay/commit/f9e71aa6993247047aa7d14f2cad222cafe9b546))
+* **u-boot-tools:** add keyword ([053e7c9](https://github.com/mgomersbach/chinstrap-overlay/commit/053e7c9038c309179371e21c3601ee9cb06e9306))
+* **wireguard:** add keyword on wireguard-tools ([d4f6282](https://github.com/mgomersbach/chinstrap-overlay/commit/d4f62820780b8fef9c2d21b91b2db83689092006))
+* **wireguard:** add keyword wireguard modules ([9003eb7](https://github.com/mgomersbach/chinstrap-overlay/commit/9003eb7d4947f953317f046dd247e57398badec7))
+* **xfce:** simplify xfce keyword profile ([47b869b](https://github.com/mgomersbach/chinstrap-overlay/commit/47b869b14828023718274c250f19f08269c3b3b8))
+
 ## [1.1.24](https://github.com/mgomersbach/chinstrap-overlay/compare/1.1.23...1.1.24) (2021-09-27)
 
 
