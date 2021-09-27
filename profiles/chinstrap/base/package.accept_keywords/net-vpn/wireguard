@@ -1,2 +1,3 @@
-# required by wireguard (argument)
->=net-vpn/wireguard-0.0.20191012 ~amd64
+# required by wireguard
+net-vpn/wireguard
+net-vpn/wireguard-tools ~*
