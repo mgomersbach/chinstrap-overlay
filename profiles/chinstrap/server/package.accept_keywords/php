@@ -5,3 +5,6 @@ dev-php/PEAR-Archive_Tar ~*
 dev-php/PEAR-XML_Util ~*
 dev-php/PEAR-PEAR ~*
 
+dev-php/pecl-memcache **
+dev-php/pecl-memcached **
+dev-php/pecl-uploadprogress **

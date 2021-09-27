@@ -1,8 +1,6 @@
 dev-db/mariadb ~*
 dev-db/mysqltuner ~*
-dev-php/pecl-memcache **
-dev-php/pecl-memcached **
-dev-php/pecl-uploadprogress **
+
 dev-python/snakeoil ~*
 dev-python/nagiosplugin ~*
 net-misc/apt-cacher-ng ~*

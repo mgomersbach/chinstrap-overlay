@@ -1,4 +1,4 @@
-dev-lang/php gd fpm ftp intl exif enchant bcmath spell imap mysqli zip mhash mysql mysqli opcache pdo phar soap sockets tidy xml xmlreader xmlrpc xmlwriter xslt -xpm
+dev-lang/php curl gd fpm ftp intl exif enchant bcmath spell imap json mysqli zip mhash mysql mysqli opcache pdo phar soap sockets tidy xml xmlreader xmlrpc xmlwriter xslt -xpm
 app-eselect/eselect-php fpm
 dev-php/PEAR-MDB2 mysql mysqli
 

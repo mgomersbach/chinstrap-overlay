@@ -82,7 +82,8 @@ media-sound/musepack-tools ~*
 media-sound/twolame ~*
 media-sound/wavpack ~*
 media-video/ffmpeg ~*
-media-video/mpv
+media-video/mpv ~*
+media-video/rtmpdump ~*
 media-video/vlc ~*
 virtual/ffmpeg ~*
 virtual/glu ~*
