@@ -1,0 +1,5 @@
+# required by composer (argument)
+dev-php/json-schema ~*
+dev-php/composer ~*
+dev-php/psr-log ~*
+dev-php/xdebug-handler ~*

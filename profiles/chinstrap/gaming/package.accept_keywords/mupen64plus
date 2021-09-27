@@ -20,3 +20,5 @@ games-emulation/mupen64plus-rsp-hle ~*
 # required by games-emulation/mupen64plus-2.5::gentoo[audio-sdl]
 # required by mupen64plus (argument)
 games-emulation/mupen64plus-audio-sdl ~*
+
+dev-python/PySDL2 ~*

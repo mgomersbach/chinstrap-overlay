@@ -1,12 +1,3 @@
-# required by net-dns/dnssec-tools-2.2::gentoo
-# required by dnssec-tools (argument)
-=dev-perl/Getopt-GUI-Long-0.930.0-r2 ~*
-
-# required by dev-perl/Net-DNS-SEC-1.30.0::gentoo
-# required by dev-perl/Net-DNS-1.100.0::gentoo[-minimal]
-# required by net-dns/dnssec-tools-2.2-r1::gentoo
 # required by net-dns/dnssec-tools (argument)
-=dev-perl/Crypt-OpenSSL-Bignum-0.90.0 ~*
-# required by net-dns/dnssec-tools (argument)
-=net-dns/dnssec-tools-2.2-r1 ~*
-
+dev-perl/Getopt-GUI-Long ~*
+net-dns/dnssec-tools ~*

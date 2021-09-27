@@ -8,3 +8,7 @@ dev-php/PEAR-PEAR ~*
 dev-php/pecl-memcache **
 dev-php/pecl-memcached **
 dev-php/pecl-uploadprogress **
+
+# for pdlib in nextcloud for face recognition
+sci-libs/dlib ~*
+sci-libs/mkl ~*
