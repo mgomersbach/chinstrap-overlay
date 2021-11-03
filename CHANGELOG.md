@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.26](https://github.com/mgomersbach/chinstrap-overlay/compare/1.1.25...1.1.26) (2021-11-03)
+
+
+### Bug Fixes
+
+* **glibc:** remove mask as its no longer keyworded ([98d5e22](https://github.com/mgomersbach/chinstrap-overlay/commit/98d5e2235489bc486cdf3ecdf42b87a3e785043d))
+
 ## [1.1.25](https://github.com/mgomersbach/chinstrap-overlay/compare/1.1.24...1.1.25) (2021-09-27)
 
 
