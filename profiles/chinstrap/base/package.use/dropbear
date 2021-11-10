@@ -1,2 +1,3 @@
 # needed for dropbear
 virtual/libcrypt static-libs
+sys-libs/libxcrypt static-libs

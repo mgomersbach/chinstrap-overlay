@@ -9,6 +9,6 @@ app-metrics/bind_exporter ~amd64
 # required by app-metrics/mysqld_exporter (argument)
 app-metrics/mysqld_exporter ~amd64
 # required by app-metrics/nginx-vts-exporter (argument)
->=app-metrics/nginx-vts-exporter ~amd64
+app-metrics/nginx-vts-exporter ~amd64
 # required by app-metrics/postfix_exporter (argument)
->=app-metrics/postfix_exporter ~amd64
+app-metrics/postfix_exporter ~amd64
