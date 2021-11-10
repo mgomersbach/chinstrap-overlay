@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.1.27](https://github.com/mgomersbach/chinstrap-overlay/compare/1.1.26...1.1.27) (2021-11-10)
+
+
+### Bug Fixes
+
+* **dropbear:** add useflag to libxcrypt ([f2d6fba](https://github.com/mgomersbach/chinstrap-overlay/commit/f2d6fba6aee17f453006e53668f72056b8e82afe))
+* **keywords:** repair non working wildcards ([461a014](https://github.com/mgomersbach/chinstrap-overlay/commit/461a014a8d782158ad9c8e47d211b40742691312))
+
 ## [1.1.26](https://github.com/mgomersbach/chinstrap-overlay/compare/1.1.25...1.1.26) (2021-11-03)
 
 
