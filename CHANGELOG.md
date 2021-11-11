@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.28](https://github.com/mgomersbach/chinstrap-overlay/compare/1.1.27...1.1.28) (2021-11-11)
+
+
+### Bug Fixes
+
+* **keyword:** add keyword to pyqt5 dependency ([23b4477](https://github.com/mgomersbach/chinstrap-overlay/commit/23b44771e81e31ed12d9cc64d6b62b8f72ca5980))
+
 ## [1.1.27](https://github.com/mgomersbach/chinstrap-overlay/compare/1.1.26...1.1.27) (2021-11-10)
 
 
