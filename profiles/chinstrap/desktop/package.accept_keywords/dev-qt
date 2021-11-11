@@ -4,6 +4,7 @@ dev-python/PyQt5 ~*
 # required by dev-python/PyQt5 ~*
 dev-python/sip ~*
 dev-python/PyQt5-sip ~*
+dev-python/PyQt-builder ~*
 
 dev-qt/assistant ~*
 dev-qt/qtbluetooth ~*
