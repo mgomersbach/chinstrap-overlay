@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.30](https://github.com/mgomersbach/chinstrap-overlay/compare/1.1.29...1.1.30) (2021-11-14)
+
+
+### Bug Fixes
+
+* **libvirt:** add script useflag on dnsmasq ([a3422a4](https://github.com/mgomersbach/chinstrap-overlay/commit/a3422a41056aedfb03be8f3349abbd33482cc744))
+
 ## [1.1.29](https://github.com/mgomersbach/chinstrap-overlay/compare/1.1.28...1.1.29) (2021-11-14)
 
 
