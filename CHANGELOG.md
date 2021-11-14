@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.29](https://github.com/mgomersbach/chinstrap-overlay/compare/1.1.28...1.1.29) (2021-11-14)
+
+
+### Bug Fixes
+
+* **salt:**  does not play nice with jinja3 yet ([d480fa7](https://github.com/mgomersbach/chinstrap-overlay/commit/d480fa750aa4462a337ecb8804a133ca53ea96c6))
+
 ## [1.1.28](https://github.com/mgomersbach/chinstrap-overlay/compare/1.1.27...1.1.28) (2021-11-11)
 
 
