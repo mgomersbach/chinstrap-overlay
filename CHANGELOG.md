@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.31](https://github.com/mgomersbach/chinstrap-overlay/compare/1.1.30...1.1.31) (2021-11-15)
+
+
+### Bug Fixes
+
+* **ci:** add bump ([6063130](https://github.com/mgomersbach/chinstrap-overlay/commit/6063130b999dc36d0ddfd06e8547603e350528de))
+
 ## [1.1.30](https://github.com/mgomersbach/chinstrap-overlay/compare/1.1.29...1.1.30) (2021-11-14)
 
 
