@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.33](https://github.com/mgomersbach/chinstrap-overlay/compare/1.1.32...1.1.33) (2021-11-15)
+
+
+### Bug Fixes
+
+* **ebuild:** use same upstream for experimental ([6cac5f9](https://github.com/mgomersbach/chinstrap-overlay/commit/6cac5f996e70d8e612a2e60353e7520b5ed1f06c))
+
 ## [1.1.32](https://github.com/mgomersbach/chinstrap-overlay/compare/1.1.31...1.1.32) (2021-11-15)
 
 
