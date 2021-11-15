@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.34](https://github.com/mgomersbach/chinstrap-overlay/compare/1.1.33...1.1.34) (2021-11-15)
+
+
+### Bug Fixes
+
+* **pipewire:** add keyword on wireplumber ([cd35e97](https://github.com/mgomersbach/chinstrap-overlay/commit/cd35e975df5b33d35eda86015ef8f52ed04bc59b))
+
 ## [1.1.33](https://github.com/mgomersbach/chinstrap-overlay/compare/1.1.32...1.1.33) (2021-11-15)
 
 
