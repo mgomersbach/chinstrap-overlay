@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.32](https://github.com/mgomersbach/chinstrap-overlay/compare/1.1.31...1.1.32) (2021-11-15)
+
+
+### Version Bump
+
+* **updateworld:** version with building without merging ([aee273c](https://github.com/mgomersbach/chinstrap-overlay/commit/aee273cee57d5288b84b17f0d6831c7c87f9f172))
+
 ## [1.1.31](https://github.com/mgomersbach/chinstrap-overlay/compare/1.1.30...1.1.31) (2021-11-15)
 
 
