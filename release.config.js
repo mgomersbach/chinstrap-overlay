@@ -47,6 +47,8 @@ module.exports = {
           commit.type = `Performance Improvements`;
         } else if (commit.type === `revert`) {
           commit.type = `Reverts`;
+        } else if (commit.type === `bump`) {
+          commit.type = `Version Bump`;
         } else if (commit.type === `docs`) {
           commit.type = `Documentation`;
         } else if (commit.type === `style`) {
