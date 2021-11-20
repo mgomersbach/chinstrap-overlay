@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.35](https://github.com/mgomersbach/chinstrap-overlay/compare/1.1.34...1.1.35) (2021-11-20)
+
+
+### Bug Fixes
+
+* **libvirt:** add useflags to dnsmasq and add metal to server profile ([d0eed2e](https://github.com/mgomersbach/chinstrap-overlay/commit/d0eed2e0498e08407ac287be8b2349069f038224))
+
 ## [1.1.34](https://github.com/mgomersbach/chinstrap-overlay/compare/1.1.33...1.1.34) (2021-11-15)
 
 
