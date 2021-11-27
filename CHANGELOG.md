@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.1.36](https://github.com/mgomersbach/chinstrap-overlay/compare/1.1.35...1.1.36) (2021-11-27)
+
+
+### Bug Fixes
+
+* **keyword:** keyword nomad in server profile ([cff1f5a](https://github.com/mgomersbach/chinstrap-overlay/commit/cff1f5a37bf56269d21638373c6dfc34402161b2))
+
+
+### Code Refactoring
+
+* **profiles:** move to non-selinux default ([f3673ce](https://github.com/mgomersbach/chinstrap-overlay/commit/f3673ce294096e84164e4a7e2e3996d367936e37))
+
 ## [1.1.35](https://github.com/mgomersbach/chinstrap-overlay/compare/1.1.34...1.1.35) (2021-11-20)
 
 
