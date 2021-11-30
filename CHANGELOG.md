@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.37](https://github.com/mgomersbach/chinstrap-overlay/compare/1.1.36...1.1.37) (2021-11-30)
+
+
+### Bug Fixes
+
+* **selinux:** last step before removing selinux profiles ([7175de3](https://github.com/mgomersbach/chinstrap-overlay/commit/7175de36eb068678a6c306a6845bf602f7045cab))
+
 ## [1.1.36](https://github.com/mgomersbach/chinstrap-overlay/compare/1.1.35...1.1.36) (2021-11-27)
 
 
