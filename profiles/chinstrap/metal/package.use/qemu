@@ -1,10 +1,1 @@
-# required by sys-apps/policycoreutils-2.6-r1::gentoo[audit]
-# required by sec-policy/selinux-sasl-2.20170204-r2::gentoo
-# required by dev-libs/cyrus-sasl-2.1.26-r9::gentoo
-# required by app-emulation/spice-0.12.7-r1::gentoo[sasl]
-# required by app-emulation/qemu-2.8.0-r9::gentoo[-static,spice]
-# required by @system
-# required by @world (argument)
->=sys-process/audit-2.6.4 python
-
 app-emulation/qemu spice usbredir virtfs aio alsa xfs iscsi python

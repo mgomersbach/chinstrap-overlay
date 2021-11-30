@@ -9,8 +9,6 @@ CPU_FLAGS_X86="3dnow 3dnowext aes avx avx2 f16c fma3 mmx mmxext pclmul popcnt ss
 
 ACCEPT_LICENSE="*"
 
-NOSYSTEMD="-gnome -modemmanager -networkmanager -pulseaudio -systemd -geoloc"
-
 NODESKTOPUSE="-cairo -cups -dbus -dri -dri3 -egl
 -emerald -firefox -g3dvl -gles -gles2 -gtk -gtk3 -gtkstyle
 -icons -infinality -introspection -joystick -kde
@@ -24,7 +22,7 @@ NOMEDIAUSE="-a52 -aac -alsa -bluetooth -cdda -cdr -dts -dvd -dvdr
 -opencl -opengl -orc -pdf -png -ppds -sdl -sdl2 -svg -tiff -truetype -vorbis
 -x264 -xvid"
 
-USE="${NOSYSTEMD} ${NODESKTOPUSE} ${NOMEDIAUSE} acl acpi aio asm audit
+USE="${NODESKTOPUSE} ${NOMEDIAUSE} acl acpi aio asm audit
 bash-completion -berkdb bidi -bindist bzip2 brotli caps client -consolekit curl
 -debug device-mapper expat fuse fontconfig -geolocation git gmp -gnutls gold gpm
 graphite gssapi gzip hwdb http2 icu iconv inotify iptables ipv6 lto lz4
@@ -33,7 +31,8 @@ pcre pcre16 pcre32 pgo prelink readline samba sftp sqlite ssh ssl spell
 sync-plugin-portage syslog systemtap threads tools udev upnp zlib
 zsh-completion zstd"
 
-FEATURES="buildpkg clean-logs compressdebug parallel-fetch parallel-install"
+FEATURES="buildpkg clean-logs compressdebug parallel-fetch parallel-install
+          binpkg-multi-instance"
 
 EMERGE_DEFAULT_OPTS="--keep-going -bg --binpkg-respect-use=y
 --binpkg-changed-deps=y --with-bdeps=y"
@@ -42,13 +41,9 @@ ABI_X86="64"
 # Misc stuff
 GRUB_PLATFORMS="pc emu efi-64"
 
-POLICY_TYPES="targeted"
-
 PORT_LOGDIR="/var/log/portage/perpackage"
 
 I_KNOW_WHAT_I_AM_DOING=1
 
 L10N="en"
 LINGUAS="en"
-
-POSTGRES_TARGETS="postgres12"

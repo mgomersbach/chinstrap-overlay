@@ -274,9 +274,6 @@ media-libs/graphene abi_x86_32
 # required by media-video/ffmpeg-3.4.4::gentoo[twolame,encode]
 # required by dev-qt/qtwebengine-5.11.2::gentoo[system-ffmpeg]
 # required by dev-python/PyQt5-5.10.1-r1::gentoo[webengine]
-# required by app-admin/setools-4.1.1::gentoo[X]
-# required by sys-apps/selinux-python-2.8::gentoo
-# required by sys-apps/policycoreutils-2.8::gentoo
 # required by sys-apps/openrc-0.39.1::gentoo
 # required by net-misc/netifrc-0.6.1::gentoo
 >=media-libs/libsndfile-1.0.28-r4 abi_x86_32
@@ -284,9 +281,6 @@ media-libs/graphene abi_x86_32
 # required by media-video/ffmpeg-3.4.4::gentoo[theora,encode]
 # required by dev-qt/qtwebengine-5.11.2::gentoo[system-ffmpeg]
 # required by dev-python/PyQt5-5.10.1-r1::gentoo[webengine]
-# required by app-admin/setools-4.1.1::gentoo[X]
-# required by sys-apps/selinux-python-2.8::gentoo
-# required by sys-apps/policycoreutils-2.8::gentoo
 # required by sys-apps/openrc-0.39.1::gentoo
 # required by net-misc/netifrc-0.6.1::gentoo
 >=media-libs/libtheora-1.1.1-r2 abi_x86_32
@@ -294,9 +288,6 @@ media-libs/graphene abi_x86_32
 # required by media-video/ffmpeg-3.4.4::gentoo[encode,x265]
 # required by dev-qt/qtwebengine-5.11.2::gentoo[system-ffmpeg]
 # required by dev-python/PyQt5-5.10.1-r1::gentoo[webengine]
-# required by app-admin/setools-4.1.1::gentoo[X]
-# required by sys-apps/selinux-python-2.8::gentoo
-# required by sys-apps/policycoreutils-2.8::gentoo
 # required by sys-apps/openrc-0.39.1::gentoo
 # required by net-misc/netifrc-0.6.1::gentoo
 >=media-libs/x265-2.9 abi_x86_32
@@ -357,7 +348,7 @@ media-libs/graphene abi_x86_32
 >=media-libs/audiofile-0.3.6-r3 abi_x86_32
 
 # TODO: split up
-app-emulation/wine-vanilla dos kerberos mono opencl vkd3d xcomposite 
+app-emulation/wine-vanilla dos kerberos mono opencl vkd3d xcomposite
 virtual/wine abi_x86_32
 
 net-fs/samba winbind

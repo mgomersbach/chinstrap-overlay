@@ -11,10 +11,10 @@ cache:
 
 env:
   jobs:
-    - REPOMAN_FLAGS=--include-profiles=default/linux/amd64/17.1/selinux
+    - REPOMAN_FLAGS=--include-profiles=default/linux/amd64/17.1
     - REPOMAN_FLAGS=--include-profiles=chinstrap:chinstrap/default/linux/amd64
   global:
-    - PORTAGE_VER=3.0.12
+    - PORTAGE_VER=3.0.28
     - OVERLAY_NAME=chinstrap-overlay
 
 before_install:
