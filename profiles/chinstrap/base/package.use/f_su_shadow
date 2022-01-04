@@ -1,0 +1,2 @@
+# clashed with su from shadow
+sys-apps/util-linux -su
