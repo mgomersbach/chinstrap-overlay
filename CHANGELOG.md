@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.1.38](https://github.com/mgomersbach/chinstrap-overlay/compare/1.1.37...1.1.38) (2022-01-04)
+
+
+### Bug Fixes
+
+* **ci:** update ci versions ([d1b9e37](https://github.com/mgomersbach/chinstrap-overlay/commit/d1b9e372082c4b45247a38c8eb397c232f35b383))
+* **su:** util-linux could provide su but should not ([8d7f3b8](https://github.com/mgomersbach/chinstrap-overlay/commit/8d7f3b8793117cf05e11f1c856b26470e85fa690))
+
 ## [1.1.37](https://github.com/mgomersbach/chinstrap-overlay/compare/1.1.36...1.1.37) (2021-11-30)
 
 
