@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.39](https://github.com/mgomersbach/chinstrap-overlay/compare/1.1.38...1.1.39) (2022-02-01)
+
+
+### Bug Fixes
+
+* **su:** upstream made second booboo on small thing like su ([169bfbc](https://github.com/mgomersbach/chinstrap-overlay/commit/169bfbc810de6f85545df28cf9f871551035ab63))
+
 ## [1.1.38](https://github.com/mgomersbach/chinstrap-overlay/compare/1.1.37...1.1.38) (2022-01-04)
 
 
