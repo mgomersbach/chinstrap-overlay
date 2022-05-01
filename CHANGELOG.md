@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.40](https://github.com/mgomersbach/chinstrap-overlay/compare/1.1.39...1.1.40) (2022-05-01)
+
+
+### Bug Fixes
+
+* **salt:** mask version with conflicting jinja ([848657d](https://github.com/mgomersbach/chinstrap-overlay/commit/848657db263fc00ebce65ff0c681001528087346))
+
 ## [1.1.39](https://github.com/mgomersbach/chinstrap-overlay/compare/1.1.38...1.1.39) (2022-02-01)
 
 
