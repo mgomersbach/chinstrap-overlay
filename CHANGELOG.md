@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.42](https://github.com/mgomersbach/chinstrap-overlay/compare/1.1.41...1.1.42) (2022-05-01)
+
+
+### Bug Fixes
+
+* **qemu:** add gnutls useflag for vnc ([ae1fd14](https://github.com/mgomersbach/chinstrap-overlay/commit/ae1fd141f19c563ef77fbb922091aab099b2b085))
+
 ## [1.1.41](https://github.com/mgomersbach/chinstrap-overlay/compare/1.1.40...1.1.41) (2022-05-01)
 
 
