@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.41](https://github.com/mgomersbach/chinstrap-overlay/compare/1.1.40...1.1.41) (2022-05-01)
+
+
+### Bug Fixes
+
+* **nginx:** remove naxsi as it is broken ([8c39f53](https://github.com/mgomersbach/chinstrap-overlay/commit/8c39f538d14e8489c072ede6ad7cf368061b0c4a))
+
 ## [1.1.40](https://github.com/mgomersbach/chinstrap-overlay/compare/1.1.39...1.1.40) (2022-05-01)
 
 
