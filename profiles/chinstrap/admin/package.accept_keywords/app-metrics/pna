@@ -12,3 +12,5 @@ app-metrics/mysqld_exporter ~amd64
 app-metrics/nginx-vts-exporter ~amd64
 # required by app-metrics/postfix_exporter (argument)
 app-metrics/postfix_exporter ~amd64
+# required by app-metrics/blackbox_exporter (argument)
+app-metrics/blackbox_exporter ~amd64
