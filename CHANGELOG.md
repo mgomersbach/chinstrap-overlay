@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.43](https://github.com/mgomersbach/chinstrap-overlay/compare/1.1.42...1.1.43) (2022-05-09)
+
+
+### Bug Fixes
+
+* **salt:** mask incompatible version ([f596b91](https://github.com/mgomersbach/chinstrap-overlay/commit/f596b916ce37d7f3a8f2551ab4ba9f42e1da9a1b))
+
 ## [1.1.42](https://github.com/mgomersbach/chinstrap-overlay/compare/1.1.41...1.1.42) (2022-05-01)
 
 
