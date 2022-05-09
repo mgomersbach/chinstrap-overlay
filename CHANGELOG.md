@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.44](https://github.com/mgomersbach/chinstrap-overlay/compare/1.1.43...1.1.44) (2022-05-09)
+
+
+### Bug Fixes
+
+* **blockers:** keyword ctop and blackbox_exporter ([58fb877](https://github.com/mgomersbach/chinstrap-overlay/commit/58fb877b12bde961310af55d69a3f3953afdae5c))
+
 ## [1.1.43](https://github.com/mgomersbach/chinstrap-overlay/compare/1.1.42...1.1.43) (2022-05-09)
 
 
