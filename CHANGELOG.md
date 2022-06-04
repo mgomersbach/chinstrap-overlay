@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.45](https://github.com/mgomersbach/chinstrap-overlay/compare/1.1.44...1.1.45) (2022-06-04)
+
+
+### Bug Fixes
+
+* **geany:** remove after switch to vscode ([293f028](https://github.com/mgomersbach/chinstrap-overlay/commit/293f028d15922fe89693518a72ca8fa3f8f4ae30))
+
 ## [1.1.44](https://github.com/mgomersbach/chinstrap-overlay/compare/1.1.43...1.1.44) (2022-05-09)
 
 
