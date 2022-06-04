@@ -1,5 +1,0 @@
-dev-util/geany -gtk3
-
-# cant use gtk3 as it denies debugger, multiterm and python
-# cant use markdown as it needs gtk3
-dev-util/geany-plugins debugger enchant -gtk3 -markdown
