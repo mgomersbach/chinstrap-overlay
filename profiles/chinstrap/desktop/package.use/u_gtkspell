@@ -1,5 +1,4 @@
 app-i18n/poedit gtkspell
-dev-util/geany-plugins gtkspell
 net-im/pidgin gtkspell
 media-gfx/inkscape gtkspell
 dev-vcs/gitg gtkspell
