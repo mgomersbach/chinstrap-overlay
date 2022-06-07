@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.1.46](https://github.com/mgomersbach/chinstrap-overlay/compare/1.1.45...1.1.46) (2022-06-07)
+
+
+### Bug Fixes
+
+* **32bit:** add abi_x86_32 to pkgs in game profile ([d154ead](https://github.com/mgomersbach/chinstrap-overlay/commit/d154ead3cd24a788fa3aa44b17abdd7fcb938a23))
+* **sphinx:** remove odd dependencies on sphinx ([cb7f226](https://github.com/mgomersbach/chinstrap-overlay/commit/cb7f226c6d794bed0841697c2ad5f14b4997614f))
+
 ## [1.1.45](https://github.com/mgomersbach/chinstrap-overlay/compare/1.1.44...1.1.45) (2022-06-04)
 
 
