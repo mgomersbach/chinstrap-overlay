@@ -28,6 +28,10 @@ dev-libs/libappindicator:2 abi_x86_32
 dev-libs/libgcrypt abi_x86_32
 dev-libs/libgpg-error abi_x86_32
 dev-libs/libgudev abi_x86_32
+sys-fs/udev abi_x86_32
+sys-libs/e2fsprogs-libs abi_x86_32
+sys-fs/e2fsprogs abi_x86_32
+sys-apps/systemd-utils abi_x86_32
 >=dev-libs/libusb-1.0.22 abi_x86_32
 >=dev-libs/libusb-compat-0.1.5-r2 abi_x86_32
 dev-libs/nettle abi_x86_32

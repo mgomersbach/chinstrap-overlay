@@ -1,1 +1,1 @@
-app-emulation/qemu gnutls spice usbredir virtfs aio alsa xfs iscsi python
+app-emulation/qemu gnutls spice usbredir virtfs aio alsa xfs iscsi python -doc
