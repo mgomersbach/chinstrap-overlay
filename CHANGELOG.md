@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.47](https://github.com/mgomersbach/chinstrap-overlay/compare/1.1.46...1.1.47) (2022-07-09)
+
+
+### Bug Fixes
+
+* **xfdashboard:** add gles2 useflag for xfdashboard ([309559b](https://github.com/mgomersbach/chinstrap-overlay/commit/309559b4982a0bdbb914e0670ef3f0aeeda581bb))
+
 ## [1.1.46](https://github.com/mgomersbach/chinstrap-overlay/compare/1.1.45...1.1.46) (2022-06-07)
 
 
