@@ -12,3 +12,7 @@ xfce-base/xfce4-settings upower
 
 # tools useflag needs python for thunar-media-tags-plugin
 dev-libs/libbytesize python
+
+# Set gles2 useflag for xfdashboard
+media-libs/cogl gles2
+media-libs/mesa gles2
