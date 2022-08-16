@@ -12,7 +12,8 @@ net-misc/networkmanager modemmanager
 # required by net-misc/networkmanager-1.16.0::gentoo
 net-libs/libndp abi_x86_32
 
-
+# https://github.com/ValveSoftware/Source-1-Games/issues/3885
+sys-libs/glibc stack-realign
 
 # Non-steam runtimerequirements
 app-arch/bzip2 abi_x86_32
