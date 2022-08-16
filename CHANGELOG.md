@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.48](https://github.com/mgomersbach/chinstrap-overlay/compare/1.1.47...1.1.48) (2022-08-16)
+
+
+### Bug Fixes
+
+* **steam:** set stack-realign for some 32bit sse games ([824259b](https://github.com/mgomersbach/chinstrap-overlay/commit/824259ba6f6e27606018c72d2604f26c4fdd8a9f))
+
 ## [1.1.47](https://github.com/mgomersbach/chinstrap-overlay/compare/1.1.46...1.1.47) (2022-07-09)
 
 
