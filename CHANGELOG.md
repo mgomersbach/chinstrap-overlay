@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.49](https://github.com/mgomersbach/chinstrap-overlay/compare/1.1.48...1.1.49) (2022-09-13)
+
+
+### Bug Fixes
+
+* **firefox:** dont force clang as firefox always lags behind ([a976308](https://github.com/mgomersbach/chinstrap-overlay/commit/a97630820e304896b375edc89dd70367ce0c0a90))
+
 ## [1.1.48](https://github.com/mgomersbach/chinstrap-overlay/compare/1.1.47...1.1.48) (2022-08-16)
 
 
