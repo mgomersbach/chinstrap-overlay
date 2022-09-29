@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.50](https://github.com/mgomersbach/chinstrap-overlay/compare/1.1.49...1.1.50) (2022-09-29)
+
+
+### Bug Fixes
+
+* **cgi:** move cgi useflag to pkg ([0acf790](https://github.com/mgomersbach/chinstrap-overlay/commit/0acf79085349eaddedacd7e116f3938b1a212135))
+
 ## [1.1.49](https://github.com/mgomersbach/chinstrap-overlay/compare/1.1.48...1.1.49) (2022-09-13)
 
 
