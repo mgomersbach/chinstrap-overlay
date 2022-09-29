@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.51](https://github.com/mgomersbach/chinstrap-overlay/compare/1.1.50...1.1.51) (2022-09-29)
+
+
+### Bug Fixes
+
+* **poppler:** jpeg2k is old and does not play nicely ([24a3cce](https://github.com/mgomersbach/chinstrap-overlay/commit/24a3cce5800140debbb682f1e62615216ed86f67))
+
 ## [1.1.50](https://github.com/mgomersbach/chinstrap-overlay/compare/1.1.49...1.1.50) (2022-09-29)
 
 
