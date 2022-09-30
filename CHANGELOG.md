@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.52](https://github.com/mgomersbach/chinstrap-overlay/compare/1.1.51...1.1.52) (2022-09-30)
+
+
+### Bug Fixes
+
+* **qemu:** add bin dependencies ([3646988](https://github.com/mgomersbach/chinstrap-overlay/commit/3646988c787ec69fd6b0670e3be160b246191bd3))
+
 ## [1.1.51](https://github.com/mgomersbach/chinstrap-overlay/compare/1.1.50...1.1.51) (2022-09-29)
 
 
