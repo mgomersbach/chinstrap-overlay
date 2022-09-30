@@ -1,3 +1,0 @@
-# needs a too new jinja
->=app-admin/salt-3003.4-r1
->=dev-python/jinja-3
