@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.53](https://github.com/mgomersbach/chinstrap-overlay/compare/1.1.52...1.1.53) (2022-09-30)
+
+
+### Bug Fixes
+
+* **salt:** jinja matured ([bca2dd2](https://github.com/mgomersbach/chinstrap-overlay/commit/bca2dd24473df09fc9b01bfb67d1469d98e1119c))
+
 ## [1.1.52](https://github.com/mgomersbach/chinstrap-overlay/compare/1.1.51...1.1.52) (2022-09-30)
 
 
