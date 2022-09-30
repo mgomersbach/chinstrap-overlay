@@ -1,13 +1,6 @@
 app-admin/cgmanager ~*
-app-emulation/libvirt ~*
-app-emulation/spice ~*
-dev-python/libvirt-python ~*
-app-emulation/libvirt-glib ~*
 app-emulation/open-vm-tools ~*
-app-emulation/qemu ~*
 app-emulation/spice-protocol ~*
 app-emulation/vagrant ~*
 sys-block/thin-provisioning-tools ~*
-sys-firmware/seabios ~*
-sys-firmware/edk2-ovmf ~*
 virtual/libusb ~*

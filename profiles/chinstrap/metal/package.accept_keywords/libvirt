@@ -12,3 +12,7 @@ sys-firmware/ipxe ~*
 # required by @world (argument)
 sys-firmware/sgabios ~*
 
+app-emulation/libvirt ~*
+app-emulation/spice ~*
+dev-python/libvirt-python ~*
+app-emulation/libvirt-glib ~*
