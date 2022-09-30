@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.54](https://github.com/mgomersbach/chinstrap-overlay/compare/1.1.53...1.1.54) (2022-09-30)
+
+
+### Bug Fixes
+
+* **salt:** add python useflag on brotli for salt ([3c454ef](https://github.com/mgomersbach/chinstrap-overlay/commit/3c454ef9da8a3c550accc202e4082b8995755786))
+
 ## [1.1.53](https://github.com/mgomersbach/chinstrap-overlay/compare/1.1.52...1.1.53) (2022-09-30)
 
 
