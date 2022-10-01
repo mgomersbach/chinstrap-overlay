@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.1.55](https://github.com/mgomersbach/chinstrap-overlay/compare/1.1.54...1.1.55) (2022-10-01)
+
+
+### Bug Fixes
+
+* **hwloc:** remove mask ([3584988](https://github.com/mgomersbach/chinstrap-overlay/commit/35849887f87fd208483f5ff2cd6aef9aaa8087f7))
+* **salt:** add keyword for dependency for salt ([8ddf61a](https://github.com/mgomersbach/chinstrap-overlay/commit/8ddf61a5a3f2165d5aa58494cd152d32d5e01dec))
+
 ## [1.1.54](https://github.com/mgomersbach/chinstrap-overlay/compare/1.1.53...1.1.54) (2022-09-30)
 
 
