@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.56](https://github.com/mgomersbach/chinstrap-overlay/compare/1.1.55...1.1.56) (2022-10-01)
+
+
+### Bug Fixes
+
+* **salt:** move keyword to correct file ([b1acf62](https://github.com/mgomersbach/chinstrap-overlay/commit/b1acf6264d4359d2118e9e6d37fc3f7218c29308))
+
 ## [1.1.55](https://github.com/mgomersbach/chinstrap-overlay/compare/1.1.54...1.1.55) (2022-10-01)
 
 
