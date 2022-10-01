@@ -7,3 +7,6 @@ app-admin/salt -mysql
 
 # required by app-admin/salt-3005::gentoo[libcloud]
 app-arch/brotli python
+
+# salt 3005
+dev-python/hatch-fancy-pypi-readme ~*
