@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.57](https://github.com/mgomersbach/chinstrap-overlay/compare/1.1.56...1.1.57) (2022-10-02)
+
+
+### Bug Fixes
+
+* **python:** set python set explicitly ([7732006](https://github.com/mgomersbach/chinstrap-overlay/commit/773200669b656d39c8e5b2392fe0d44392bd890c))
+
 ## [1.1.56](https://github.com/mgomersbach/chinstrap-overlay/compare/1.1.55...1.1.56) (2022-10-01)
 
 
