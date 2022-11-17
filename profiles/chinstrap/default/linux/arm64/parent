@@ -1,4 +1,4 @@
-gentoo:default/linux/arm64/17.1
+gentoo:default/linux/arm64/17.0
 ../../../arch/arm64
 ../../../base
 ../../../admin
