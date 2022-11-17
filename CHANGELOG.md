@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.2](https://github.com/mgomersbach/chinstrap-overlay/compare/1.2.1...1.2.2) (2022-11-17)
+
+
+### Bug Fixes
+
+* **profile:** arm64 still on 17 ([0f65c9e](https://github.com/mgomersbach/chinstrap-overlay/commit/0f65c9ed087baf3cacf79e91c0cc8d1ba770a3a5))
+
 ## [1.2.1](https://github.com/mgomersbach/chinstrap-overlay/compare/1.2.0...1.2.1) (2022-11-17)
 
 
