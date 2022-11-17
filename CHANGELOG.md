@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.1](https://github.com/mgomersbach/chinstrap-overlay/compare/1.2.0...1.2.1) (2022-11-17)
+
+
+### Bug Fixes
+
+* **subprofiles:** add subprofiles for arm64 ([d59e808](https://github.com/mgomersbach/chinstrap-overlay/commit/d59e808304823da0e4aa8a6cb79d7d033577f7eb))
+
 # [1.2.0](https://github.com/mgomersbach/chinstrap-overlay/compare/1.1.57...1.2.0) (2022-11-17)
 
 
