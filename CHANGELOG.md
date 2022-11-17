@@ -1,5 +1,12 @@
 # Changelog
 
+# [1.2.0](https://github.com/mgomersbach/chinstrap-overlay/compare/1.1.57...1.2.0) (2022-11-17)
+
+
+### Features
+
+* **arch:** add arm64 profiles ([c834410](https://github.com/mgomersbach/chinstrap-overlay/commit/c8344104ab6452198c76836b04eaf2f134869d06))
+
 ## [1.1.57](https://github.com/mgomersbach/chinstrap-overlay/compare/1.1.56...1.1.57) (2022-10-02)
 
 
