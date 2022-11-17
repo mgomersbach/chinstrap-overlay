@@ -9,3 +9,9 @@ amd64	chinstrap/default/linux/selinuxamd64/buildhelper	stable
 amd64	chinstrap/default/linux/selinuxamd64/server	stable
 amd64	chinstrap/default/linux/selinuxamd64/desktop	stable
 amd64	chinstrap/default/linux/selinuxamd64/markws	stable
+
+arm64	chinstrap/default/linux/amd64	stable
+arm64	chinstrap/default/linux/amd64/buildhelper	stable
+arm64	chinstrap/default/linux/amd64/server	stable
+arm64	chinstrap/default/linux/amd64/desktop	stable
+arm64	chinstrap/default/linux/amd64/markws	stable
