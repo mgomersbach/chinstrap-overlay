@@ -1,12 +1,6 @@
 # Copyright 2004-2021 Gentoo Foundation.
 # Distributed under the terms of the GNU General Public License v2
 
-# Portage stuff
-CFLAGS="-march=x86-64 -mtune=generic -mmmx -msse -msse2 -msse3 -mcx16 -msahf -mpopcnt -mfxsr -pipe -O2 -frecord-gcc-switches -fstack-protector-strong -ftree-vectorize -ftree-loop-distribute-patterns"
-CXXFLAGS="${CFLAGS}"
-
-CPU_FLAGS_X86="3dnow 3dnowext aes avx avx2 f16c fma3 mmx mmxext pclmul popcnt sse sse2 sse3 sse4_1 sse4_2 sse4a ssse3"
-
 ACCEPT_LICENSE="*"
 
 NODESKTOPUSE="-cairo -cups -dbus -dri -dri3 -egl
