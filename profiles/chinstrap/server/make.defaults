@@ -1,4 +1,4 @@
-# Copyright 2004-2021 Gentoo Foundation.
+# Copyright 2004-2022 Gentoo Foundation.
 # Distributed under the terms of the GNU General Public License v2
 
 USE="dedicated ldap memcached mysql pdo sasl -apache2"
