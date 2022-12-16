@@ -1,4 +1,0 @@
-# Copyright 2004-2021 Gentoo Foundation.
-# Distributed under the terms of the GNU General Public License v2
-
-PORTAGE_BINHOST="https://chinstrap.hexnet.nl/binpkgs/chinstrap/default/linux/amd64/desktop https://chinstrap.hexnet.nl/binpkgs/chinstrap/default/linux/amd64/base"

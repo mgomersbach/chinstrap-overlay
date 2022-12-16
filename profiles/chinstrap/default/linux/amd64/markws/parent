@@ -1,9 +1,9 @@
 ..
-../../../../metal
-../../../../podmanhost
-../../../../server
-../../../../buildhelper
-../../../../media
-../../../../desktop
-../../../../gaming
-../../../../workstation
+../..
+../../../../../metal
+../../../../../podmanhost
+../../../../../server
+../../../../../media
+../../../../../desktop
+../../../../../gaming
+../../../../../workstation
