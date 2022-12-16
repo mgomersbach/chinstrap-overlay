@@ -1,5 +1,20 @@
 # Changelog
 
+# [1.3.0](https://github.com/mgomersbach/chinstrap-overlay/compare/1.2.2...1.3.0) (2022-12-16)
+
+
+### Bug Fixes
+
+* **cflags:** remove from base profile ([ba9942e](https://github.com/mgomersbach/chinstrap-overlay/commit/ba9942e78ab701a2cbe18cc715aaf92b584fa056))
+* **profile:** markws profile without buildhelper ([82f234c](https://github.com/mgomersbach/chinstrap-overlay/commit/82f234c20298f75490dbb5195e3749c7ebed7261))
+* **profiles:** remove buildhelper and update binpkg urls ([510799c](https://github.com/mgomersbach/chinstrap-overlay/commit/510799c0617ea639608d5292015287d69130300c))
+* **profiles:** remove selinux and add symlinks ([2ffeb7a](https://github.com/mgomersbach/chinstrap-overlay/commit/2ffeb7a767d54d929366f20eab9b940e11bc62f2))
+
+
+### Features
+
+* **cflags:** add mfpath both as default ([ed659b1](https://github.com/mgomersbach/chinstrap-overlay/commit/ed659b1761f72afefdc474f49bcddba9db9cb019))
+
 ## [1.2.2](https://github.com/mgomersbach/chinstrap-overlay/compare/1.2.1...1.2.2) (2022-11-17)
 
 
