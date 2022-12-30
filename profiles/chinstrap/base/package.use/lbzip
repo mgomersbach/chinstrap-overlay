@@ -1,1 +1,1 @@
-app-arch/lbzip2 symlink
+app-alternatives/bzip2 -reference lbzip2
