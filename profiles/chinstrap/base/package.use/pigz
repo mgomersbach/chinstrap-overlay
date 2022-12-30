@@ -1,1 +1,1 @@
-app-arch/pigz symlink
+app-alternatives/gzip -reference pigz
