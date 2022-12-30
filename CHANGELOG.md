@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.1](https://github.com/mgomersbach/chinstrap-overlay/compare/1.3.0...1.3.1) (2022-12-30)
+
+
+### Bug Fixes
+
+* **alternatives:** remove symlink and add on pkg ([b709442](https://github.com/mgomersbach/chinstrap-overlay/commit/b7094422cf84e85a88a01f3db43524f03b6de53a))
+
 # [1.3.0](https://github.com/mgomersbach/chinstrap-overlay/compare/1.2.2...1.3.0) (2022-12-16)
 
 
