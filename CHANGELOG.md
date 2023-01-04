@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.2](https://github.com/mgomersbach/chinstrap-overlay/compare/1.3.1...1.3.2) (2023-01-04)
+
+
+### Bug Fixes
+
+* **python:** upstream stable has moved ([bc58313](https://github.com/mgomersbach/chinstrap-overlay/commit/bc58313a177ad9a2da086154b2265d5625cf7b91))
+
 ## [1.3.1](https://github.com/mgomersbach/chinstrap-overlay/compare/1.3.0...1.3.1) (2022-12-30)
 
 
