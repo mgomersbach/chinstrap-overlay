@@ -7,4 +7,4 @@ CXXFLAGS="${CFLAGS}"
 
 CPU_FLAGS_X86="3dnow 3dnowext mmx mmxext sse sse2"
 
-PORTAGE_BINHOST="https://chinstrap.hexnet.nl/binpkgs/chinstrap/default/linux/amd64/base/x86-64/"
+PORTAGE_BINHOST="https://chinstrap.hexnet.nl/binpkgs/chinstrap/default/linux/amd64/x86-64/base/"
