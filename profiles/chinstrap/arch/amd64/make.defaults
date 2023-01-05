@@ -1,16 +1,6 @@
 # Copyright 2004-2023 Gentoo Foundation.
 # Distributed under the terms of the GNU General Public License v2
 
-CXXFLAGS="${CFLAGS}"
-FCFLAGS="${CFLAGS}"
-FFLAGS="${CFLAGS}"
-
-CGO_CFLAGS="${COMMON_FLAGS}"
-CGO_CXXFLAGS="${COMMON_FLAGS}"
-CGO_FFLAGS="${COMMON_FLAGS}"
-GCO_FCFLAGS="${COMMON_FLAGS}"
-CGO_LDFLAGS="${LDFLAGS}"
-
 RUSTFLAGS="${RUSTFLAGS} -C opt-level=3 -C strip=symbols"
 
 USE="${CPU_FLAGS_X86}"
