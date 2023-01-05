@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.7](https://github.com/mgomersbach/chinstrap-overlay/compare/1.3.6...1.3.7) (2023-01-05)
+
+
+### Bug Fixes
+
+* **cflags:** move cflag derivates ([6ae6386](https://github.com/mgomersbach/chinstrap-overlay/commit/6ae638680e5774336c014a055f09d46c06e33d37))
+
 ## [1.3.6](https://github.com/mgomersbach/chinstrap-overlay/compare/1.3.5...1.3.6) (2023-01-05)
 
 
