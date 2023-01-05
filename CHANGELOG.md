@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.11](https://github.com/mgomersbach/chinstrap-overlay/compare/1.3.10...1.3.11) (2023-01-05)
+
+
+### Bug Fixes
+
+* **libvirt:** remove lvm useflag ([e375e01](https://github.com/mgomersbach/chinstrap-overlay/commit/e375e01d9fa2b9457fa29c0d324691784cabe2a6))
+
 ## [1.3.10](https://github.com/mgomersbach/chinstrap-overlay/compare/1.3.9...1.3.10) (2023-01-05)
 
 
