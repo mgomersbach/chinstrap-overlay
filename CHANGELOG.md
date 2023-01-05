@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.8](https://github.com/mgomersbach/chinstrap-overlay/compare/1.3.7...1.3.8) (2023-01-05)
+
+
+### Bug Fixes
+
+* **binpkg:** max compress for write-once-read-many ([eea5bf6](https://github.com/mgomersbach/chinstrap-overlay/commit/eea5bf66ea2b370547fb1e8ce70e5422e4183f1c))
+
 ## [1.3.7](https://github.com/mgomersbach/chinstrap-overlay/compare/1.3.6...1.3.7) (2023-01-05)
 
 
