@@ -3,6 +3,15 @@
 
 # Portage stuff
 CFLAGS="-march=x86-64 -mtune=generic -mmmx -msse -msse2 -pipe -mfpmath=both -O2 -frecord-gcc-switches -fstack-protector-strong -ftree-vectorize -ftree-loop-distribute-patterns"
+CXXFLAGS="${CFLAGS}"
+FCFLAGS="${CFLAGS}"
+FFLAGS="${CFLAGS}"
+
+CGO_CFLAGS="${CFLAGS}"
+CGO_CXXFLAGS="${CFLAGS}"
+CGO_FFLAGS="${CFLAGS}"
+GCO_FCFLAGS="${CFLAGS}"
+CGO_LDFLAGS="${LDFLAGS}"
 
 RUSTFLAGS="-C target-cpu=x86-64"
 
