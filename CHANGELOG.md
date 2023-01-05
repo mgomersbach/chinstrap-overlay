@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.6](https://github.com/mgomersbach/chinstrap-overlay/compare/1.3.5...1.3.6) (2023-01-05)
+
+
+### Bug Fixes
+
+* **binhost:** fix base binhost url ([c522216](https://github.com/mgomersbach/chinstrap-overlay/commit/c5222165a7c289fb813d250b4546b25d86f18b82))
+
 ## [1.3.5](https://github.com/mgomersbach/chinstrap-overlay/compare/1.3.4...1.3.5) (2023-01-05)
 
 
