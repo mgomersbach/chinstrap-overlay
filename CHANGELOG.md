@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.9](https://github.com/mgomersbach/chinstrap-overlay/compare/1.3.8...1.3.9) (2023-01-05)
+
+
+### Bug Fixes
+
+* **flags:** add golang and  rust flags ([bd91d52](https://github.com/mgomersbach/chinstrap-overlay/commit/bd91d52898ae5dcaee8a131580e9b87fd4b0e1aa))
+
 ## [1.3.8](https://github.com/mgomersbach/chinstrap-overlay/compare/1.3.7...1.3.8) (2023-01-05)
 
 
