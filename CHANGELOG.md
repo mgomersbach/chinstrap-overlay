@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.5](https://github.com/mgomersbach/chinstrap-overlay/compare/1.3.4...1.3.5) (2023-01-05)
+
+
+### Bug Fixes
+
+* **binhost:** missed quote ([bf62926](https://github.com/mgomersbach/chinstrap-overlay/commit/bf629269015db9f82e257e46f340498a04bb5692))
+
 ## [1.3.4](https://github.com/mgomersbach/chinstrap-overlay/compare/1.3.3...1.3.4) (2023-01-05)
 
 
