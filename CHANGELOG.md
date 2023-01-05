@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.10](https://github.com/mgomersbach/chinstrap-overlay/compare/1.3.9...1.3.10) (2023-01-05)
+
+
+### Bug Fixes
+
+* **cflags:** inherit in parent ([57bc4af](https://github.com/mgomersbach/chinstrap-overlay/commit/57bc4af65aa37e394756e3917dcde04d680267b3))
+
 ## [1.3.9](https://github.com/mgomersbach/chinstrap-overlay/compare/1.3.8...1.3.9) (2023-01-05)
 
 
