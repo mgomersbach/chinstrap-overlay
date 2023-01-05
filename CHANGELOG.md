@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.3](https://github.com/mgomersbach/chinstrap-overlay/compare/1.3.2...1.3.3) (2023-01-05)
+
+
+### Bug Fixes
+
+* **binhost:** correct arm64 upstream and x86_64 ([e490f4a](https://github.com/mgomersbach/chinstrap-overlay/commit/e490f4ac2fcddac657a7d970080256db6bc55d52))
+
 ## [1.3.2](https://github.com/mgomersbach/chinstrap-overlay/compare/1.3.1...1.3.2) (2023-01-04)
 
 
