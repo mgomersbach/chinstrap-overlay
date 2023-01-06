@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.16](https://github.com/mgomersbach/chinstrap-overlay/compare/1.3.15...1.3.16) (2023-01-06)
+
+
+### Bug Fixes
+
+* **cgo:** typo in cgo flags name ([294ffe4](https://github.com/mgomersbach/chinstrap-overlay/commit/294ffe4a0e52c349a8d40d41b61a34f8b870f5ff))
+
 ## [1.3.15](https://github.com/mgomersbach/chinstrap-overlay/compare/1.3.14...1.3.15) (2023-01-06)
 
 
