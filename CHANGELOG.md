@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.18](https://github.com/mgomersbach/chinstrap-overlay/compare/1.3.17...1.3.18) (2023-01-06)
+
+
+### Bug Fixes
+
+* **nginx:** add nginx useflag on mime-types ([30df15c](https://github.com/mgomersbach/chinstrap-overlay/commit/30df15c87c4f1a93fd297d3af830684c8b652841))
+
 ## [1.3.17](https://github.com/mgomersbach/chinstrap-overlay/compare/1.3.16...1.3.17) (2023-01-06)
 
 
