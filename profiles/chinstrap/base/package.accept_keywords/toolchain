@@ -14,6 +14,7 @@ sys-devel/gcc ~*
 sys-devel/gcc-config ~*
 sys-devel/llvm ~*
 sys-devel/llvm-common ~*
+sys-devel/llvm-toolchain-symlinks ~*
 sys-devel/llvmgold ~*
 sys-devel/make ~*
 sys-libs/compiler-rt ~*
