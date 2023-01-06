@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.12](https://github.com/mgomersbach/chinstrap-overlay/compare/1.3.11...1.3.12) (2023-01-06)
+
+
+### Bug Fixes
+
+* **profiles:** fix order of vars ([77d91d4](https://github.com/mgomersbach/chinstrap-overlay/commit/77d91d49094f6a7fad6d3fd94923a1203a57a695))
+
 ## [1.3.11](https://github.com/mgomersbach/chinstrap-overlay/compare/1.3.10...1.3.11) (2023-01-05)
 
 
