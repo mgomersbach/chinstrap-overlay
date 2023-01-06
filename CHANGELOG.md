@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.15](https://github.com/mgomersbach/chinstrap-overlay/compare/1.3.14...1.3.15) (2023-01-06)
+
+
+### Bug Fixes
+
+* **tcltk:** keep them in tandem ([6682fe5](https://github.com/mgomersbach/chinstrap-overlay/commit/6682fe55cf9c894e113d7a0df9b47b735960e515))
+
 ## [1.3.14](https://github.com/mgomersbach/chinstrap-overlay/compare/1.3.13...1.3.14) (2023-01-06)
 
 
