@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.17](https://github.com/mgomersbach/chinstrap-overlay/compare/1.3.16...1.3.17) (2023-01-06)
+
+
+### Bug Fixes
+
+* **pipewire:** add pipewire global useflag in media profile ([775cf99](https://github.com/mgomersbach/chinstrap-overlay/commit/775cf9914e955275e65a2e8e1748e895e8ca1188))
+
 ## [1.3.16](https://github.com/mgomersbach/chinstrap-overlay/compare/1.3.15...1.3.16) (2023-01-06)
 
 
