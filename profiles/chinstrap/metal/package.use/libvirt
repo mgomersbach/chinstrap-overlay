@@ -1,2 +1,3 @@
-app-emulation/libvirt parted iscsi qemu pcap
+app-emulation/libvirt lvm parted iscsi qemu pcap
 net-dns/dnsmasq script conntrack dhcp-tools id lua tftp
+sys-fs/lvm2 lvm
