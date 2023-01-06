@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.14](https://github.com/mgomersbach/chinstrap-overlay/compare/1.3.13...1.3.14) (2023-01-06)
+
+
+### Bug Fixes
+
+* **cflags:** remove dumb O3 ([b9b4589](https://github.com/mgomersbach/chinstrap-overlay/commit/b9b4589c2e6c77903f634556656948710bbd7365))
+
 ## [1.3.13](https://github.com/mgomersbach/chinstrap-overlay/compare/1.3.12...1.3.13) (2023-01-06)
 
 
