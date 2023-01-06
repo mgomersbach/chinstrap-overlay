@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.13](https://github.com/mgomersbach/chinstrap-overlay/compare/1.3.12...1.3.13) (2023-01-06)
+
+
+### Bug Fixes
+
+* **libvirt:** readd lvm ([5b95a65](https://github.com/mgomersbach/chinstrap-overlay/commit/5b95a65b2c037088e20afdaaa3c0bd554b911dd3))
+
 ## [1.3.12](https://github.com/mgomersbach/chinstrap-overlay/compare/1.3.11...1.3.12) (2023-01-06)
 
 
