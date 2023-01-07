@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.3.19](https://github.com/mgomersbach/chinstrap-overlay/compare/1.3.18...1.3.19) (2023-01-07)
+
+
+### Bug Fixes
+
+* **llvm:** add keyword to llvm-toolchain-symlinks in toolchain ([e5030e1](https://github.com/mgomersbach/chinstrap-overlay/commit/e5030e1818189a0d1e7026e36f8165545baad434))
+* **lvm:** add thin ([22729bc](https://github.com/mgomersbach/chinstrap-overlay/commit/22729bcb0d9e20c7d9f485fd88ef2735e50a1b32))
+
 ## [1.3.18](https://github.com/mgomersbach/chinstrap-overlay/compare/1.3.17...1.3.18) (2023-01-06)
 
 
