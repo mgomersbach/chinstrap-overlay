@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.20](https://github.com/mgomersbach/chinstrap-overlay/compare/1.3.19...1.3.20) (2023-01-08)
+
+
+### Bug Fixes
+
+* **cups:** add lcms useflag to poppler ([f8ba4ab](https://github.com/mgomersbach/chinstrap-overlay/commit/f8ba4abc5cf188d2d50e4840d6b13bf6e1b54be7))
+
 ## [1.3.19](https://github.com/mgomersbach/chinstrap-overlay/compare/1.3.18...1.3.19) (2023-01-07)
 
 
