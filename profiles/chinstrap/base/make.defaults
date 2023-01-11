@@ -26,7 +26,7 @@ sync-plugin-portage syslog systemtap threads tools udev upnp zlib
 zsh-completion zstd"
 
 FEATURES="buildpkg clean-logs compressdebug parallel-fetch parallel-install
-          binpkg-multi-instance"
+          binpkg-multi-instance pkgdir-index-trusted"
 
 EMERGE_DEFAULT_OPTS="--keep-going -bg --binpkg-respect-use=y
 --binpkg-changed-deps=y --with-bdeps=y"
