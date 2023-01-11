@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.22](https://github.com/mgomersbach/chinstrap-overlay/compare/1.3.21...1.3.22) (2023-01-11)
+
+
+### Bug Fixes
+
+* **binpkgs:** update binpkg urls ([4f2e0ad](https://github.com/mgomersbach/chinstrap-overlay/commit/4f2e0ad7e0d305cf5463b57626c8851813b32953))
+
 ## [1.3.21](https://github.com/mgomersbach/chinstrap-overlay/compare/1.3.20...1.3.21) (2023-01-08)
 
 
