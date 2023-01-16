@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.25](https://github.com/mgomersbach/chinstrap-overlay/compare/1.3.24...1.3.25) (2023-01-16)
+
+
+### Bug Fixes
+
+* **binutils:** remove binutils-libs keyword too ([f61f1ca](https://github.com/mgomersbach/chinstrap-overlay/commit/f61f1ca1a95eb14b9eb3e5bf0073c5913977138e))
+
 ## [1.3.24](https://github.com/mgomersbach/chinstrap-overlay/compare/1.3.23...1.3.24) (2023-01-16)
 
 
