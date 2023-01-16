@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.23](https://github.com/mgomersbach/chinstrap-overlay/compare/1.3.22...1.3.23) (2023-01-16)
+
+
+### Bug Fixes
+
+* **binutils:** 2.40 has errors, so reverting to stable ([930cb55](https://github.com/mgomersbach/chinstrap-overlay/commit/930cb5557607ad4045ad4579b3472c907af8d7ae))
+
 ## [1.3.22](https://github.com/mgomersbach/chinstrap-overlay/compare/1.3.21...1.3.22) (2023-01-11)
 
 
