@@ -4,13 +4,11 @@ dev-libs/isl ~*
 dev-util/cmake ~*
 dev-util/systemtap ~*
 sys-cluster/openmpi ~*
-sys-devel/binutils ~*
-sys-devel/binutils-config ~*
 sys-devel/clang ~*
 sys-devel/clang-common ~*
 sys-devel/clang-runtime ~*
 sys-devel/distcc ~*
-sys-devel/gcc ~*
+sys-devel/gcc:13 ~*
 sys-devel/gcc-config ~*
 sys-devel/llvm ~*
 sys-devel/llvm-common ~*
