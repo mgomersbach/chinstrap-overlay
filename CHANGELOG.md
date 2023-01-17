@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.26](https://github.com/mgomersbach/chinstrap-overlay/compare/1.3.25...1.3.26) (2023-01-17)
+
+
+### Bug Fixes
+
+* **qt:** move wildcard to simpler format for qt ([341339c](https://github.com/mgomersbach/chinstrap-overlay/commit/341339c59a1aab0b19fa468d5862b034cb2caec9))
+
 ## [1.3.25](https://github.com/mgomersbach/chinstrap-overlay/compare/1.3.24...1.3.25) (2023-01-16)
 
 
