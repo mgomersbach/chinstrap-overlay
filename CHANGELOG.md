@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.27](https://github.com/mgomersbach/chinstrap-overlay/compare/1.3.26...1.3.27) (2023-01-17)
+
+
+### Bug Fixes
+
+* **eapi:** move to eapi 8 ([15215d8](https://github.com/mgomersbach/chinstrap-overlay/commit/15215d829c8bdaa1c4c2e8c351008910aabcd2d1))
+
 ## [1.3.26](https://github.com/mgomersbach/chinstrap-overlay/compare/1.3.25...1.3.26) (2023-01-17)
 
 
