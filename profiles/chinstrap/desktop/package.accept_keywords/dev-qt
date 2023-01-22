@@ -6,8 +6,6 @@ dev-python/sip ~*
 dev-python/PyQt5-sip ~*
 dev-python/PyQt-builder ~*
 
-dev-qt/* ~*
-
 # required by x11-libs/pango-1.42.0::gentoo
 # required by dev-qt/qtwidgets-5.9.4-r1::gentoo[gtk]
 # required by dev-qt/qtwebengine-5.9.4::gentoo[widgets]
