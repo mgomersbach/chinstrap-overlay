@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.28](https://github.com/mgomersbach/chinstrap-overlay/compare/1.3.27...1.3.28) (2023-01-22)
+
+
+### Bug Fixes
+
+* **keyword:** syntax not supported in profile but is locally ([fdb345f](https://github.com/mgomersbach/chinstrap-overlay/commit/fdb345f4e1835eadd0202a7f415c1d96bedeee00))
+
 ## [1.3.27](https://github.com/mgomersbach/chinstrap-overlay/compare/1.3.26...1.3.27) (2023-01-17)
 
 
