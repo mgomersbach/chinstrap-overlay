@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.29](https://github.com/mgomersbach/chinstrap-overlay/compare/1.3.28...1.3.29) (2023-01-25)
+
+
+### Bug Fixes
+
+* **profile:** update media profile and add jack support ([9da58bf](https://github.com/mgomersbach/chinstrap-overlay/commit/9da58bf143356b9bf741038784976168f9184ee7))
+
 ## [1.3.28](https://github.com/mgomersbach/chinstrap-overlay/compare/1.3.27...1.3.28) (2023-01-22)
 
 
