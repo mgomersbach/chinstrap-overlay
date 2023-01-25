@@ -352,3 +352,6 @@ app-emulation/wine-vanilla dos kerberos mono opencl vkd3d xcomposite
 virtual/wine abi_x86_32
 
 net-fs/samba winbind
+
+# lv2
+media-libs/lv2 abi_x86_32
