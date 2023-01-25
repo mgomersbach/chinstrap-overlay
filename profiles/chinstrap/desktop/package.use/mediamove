@@ -1,0 +1,7 @@
+media-libs/mesa llvm xa
+media-sound/audacity libsoxr twolame
+media-video/mpv bluray cdio postproc
+media-video/vlc bluray dirac faad fbosd fdk live rtsp twolame vcdx vpx zvbi -rdp
+x11-terms/rxvt-unicode pixbuf
+www-client/firefox system-jpeg webm
+x11-wm/xpra vpx

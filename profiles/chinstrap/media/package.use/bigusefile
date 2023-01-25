@@ -1,82 +1,15 @@
-app-cdr/disc-cover cdrom
-dev-java/icedtea alsa
-dev-libs/DirectFB bmp mpeg2 mpeg3 pnm swfdec
-dev-libs/efl -xcb
-dev-libs/libburn cdio
-dev-libs/libisoburn cdio
-dev-libs/weston fbdev
-dev-python/translate-toolkit subtitles
-games-arcade/slimevolley net
-games-board/freedoko net
-games-emulation/pcsxr cdio
-games-fps/eduke32 vpx
-games-fps/lsdldoom net
-games-strategy/liquidwar6
-gnome-extra/gnome-media twolame
 media-gfx/imagemagick fpx hdri lqr q32 q64 q8 q16 cxx
-media-libs/avidemux amr vpx
-media-libs/avidemux-core amr system-ffmpeg
-media-libs/avidemux-plugins amr faac faad twolame vpx
-media-libs/evas bmp ppm tga
 media-libs/freetype auto-hinter
 media-libs/gst-plugins-ffmpeg -bindist
 media-libs/gst-plugins-meta vpx
 media-libs/libbluray aacs
-media-libs/libcaca -doc
-media-libs/libgnome twolame
 media-libs/libpng apng
 media-libs/libvpx postproc
-media-libs/libwebp experimental
-media-libs/mediastreamer amr
-media-libs/mesa g3dvl gallium gbm llvm llvm-shared-libs r600-llvm-compiler shared-glapi xa xvmc
-media-libs/mlt melt swfdec
+media-libs/mlt melt
 media-libs/sdl2-mixer wav
 media-libs/sdl-mixer wav
-media-libs/waffle gbm
-media-libs/xine-lib bluray xvmc
-media-plugins/kipi-plugins mjpeg
-media-sound/audacity libsoxr twolame
-media-sound/cmus cdio
-media-sound/darkice aacplus twolame
-media-sound/jack-audio-connection-kit cpudetection
 media-sound/mpd faad twolame cdio
-media-sound/mpfc wav
-media-sound/rubyripper wav cdrdao
 media-sound/sox twolame amr
-media-sound/xwax alsa
-media-tv/mythtv bluray
-media-tv/xawtv zvbi
-media-tv/xbmc bluray rtmp
-media-video/arista faac
-media-video/avidemux amr vpx
-media-video/chaplin transcode
-media-video/dvdrip subtitles
-media-video/ffmpeg aacplus amr -bindist bluray cdio cpudetection dirac faac fdk libsoxr twolame vpx zvbi rtmp css pvr webserver
-media-video/handbrake fdk
-media-video/libav aac amr cdio cpudetection dirac faac fdk vpx rtmp
-media-video/mplayer2 bluray cdio cpudetection faad pnm postproc
-media-video/mplayer bl bluray cdio cpudetection faac faad live pnm twolame xvmc rtmp tga toolame
-media-video/mpv bluray cdio postproc
-media-video/transcode mjpeg postproc
-media-video/vlc bluray dirac faad fbosd fdk live rtsp twolame vcdx vpx zvbi -rdp
-media-video/winki mjpeg
-net-analyzer/snort ppm
-net-libs/opal wav
-net-libs/ptlib shmvideo wav
-net-libs/qxmpp vpx
-net-misc/asterisk-core-sounds wav
-net-misc/asterisk-extr-sounds wav
-net-misc/asterisk-moh-opsound wav
+media-video/ffmpeg amr -bindist bluray cdio cpudetection fdk libsoxr twolame vpx zvbi rtmp
 net-misc/curl rtmp
-net-misc/ps3mediaserver transcode tsmuxer multiuser
-net-misc/rygel transcode
-sys-cluster/cinder volume
-www-apps/ampache transcode
-www-client/firefox system-jpeg webm
-www-client/seamonkey system-jpeg
-www-plugins/lightspark rtmp
 www-servers/nginx rtmp
-x11-libs/cairo gallium
-x11-terms/rxvt-unicode pixbuf
-x11-wm/xpra vpx
-
