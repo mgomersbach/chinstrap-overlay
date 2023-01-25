@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.30](https://github.com/mgomersbach/chinstrap-overlay/compare/1.3.29...1.3.30) (2023-01-25)
+
+
+### Bug Fixes
+
+* **32bit:** add abi_x86_32 on lv2 in gaming profile ([2ae6c45](https://github.com/mgomersbach/chinstrap-overlay/commit/2ae6c45985e3839b7315c63788a2d453a247513e))
+
 ## [1.3.29](https://github.com/mgomersbach/chinstrap-overlay/compare/1.3.28...1.3.29) (2023-01-25)
 
 
