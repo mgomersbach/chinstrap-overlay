@@ -1,21 +1,21 @@
 amd64	chinstrap/default/linux/amd64/x86-64	stable
 amd64	chinstrap/default/linux/amd64/x86-64/server	stable
 amd64	chinstrap/default/linux/amd64/x86-64/desktop	stable
-amd64	chinstrap/default/linux/amd64/x86-64/markws	stable
+amd64	chinstrap/default/linux/amd64/x86-64/workstation	stable
 amd64	chinstrap/default/linux/amd64/x86-64-v2	stable
 amd64	chinstrap/default/linux/amd64/x86-64-v2/server	stable
 amd64	chinstrap/default/linux/amd64/x86-64-v2/desktop	stable
-amd64	chinstrap/default/linux/amd64/x86-64-v2/markws	stable
+amd64	chinstrap/default/linux/amd64/x86-64-v2/workstation	stable
 amd64	chinstrap/default/linux/amd64/x86-64-v3	stable
 amd64	chinstrap/default/linux/amd64/x86-64-v3/server	stable
 amd64	chinstrap/default/linux/amd64/x86-64-v3/desktop	stable
-amd64	chinstrap/default/linux/amd64/x86-64-v3/markws	stable
+amd64	chinstrap/default/linux/amd64/x86-64-v3/workstation	stable
 amd64	chinstrap/default/linux/amd64/x86-64-v4	stable
 amd64	chinstrap/default/linux/amd64/x86-64-v4/server	stable
 amd64	chinstrap/default/linux/amd64/x86-64-v4/desktop	stable
-amd64	chinstrap/default/linux/amd64/x86-64-v4/markws	stable
+amd64	chinstrap/default/linux/amd64/x86-64-v4/workstation	stable
 
 arm64	chinstrap/default/linux/arm64	stable
 arm64	chinstrap/default/linux/arm64/server	stable
 arm64	chinstrap/default/linux/arm64/desktop	stable
-arm64	chinstrap/default/linux/arm64/markws	stable
+arm64	chinstrap/default/linux/arm64/workstation	stable
