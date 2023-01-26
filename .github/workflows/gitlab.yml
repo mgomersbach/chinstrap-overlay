@@ -1,5 +1,9 @@
 name: trigger gitlab job
-on: [push]
+on:
+  push:
+    branches:
+      - master
+
 jobs:
 
   build:
