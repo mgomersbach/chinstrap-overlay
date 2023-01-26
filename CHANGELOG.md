@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.31](https://github.com/mgomersbach/chinstrap-overlay/compare/1.3.30...1.3.31) (2023-01-26)
+
+
+### Bug Fixes
+
+* **profile:** move markws to workstation ([ea26ec1](https://github.com/mgomersbach/chinstrap-overlay/commit/ea26ec1c2b5e0ce2990a09a392d3d0f5c5a33a10))
+
 ## [1.3.30](https://github.com/mgomersbach/chinstrap-overlay/compare/1.3.29...1.3.30) (2023-01-25)
 
 
