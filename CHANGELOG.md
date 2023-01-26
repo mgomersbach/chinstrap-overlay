@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.3.32](https://github.com/mgomersbach/chinstrap-overlay/compare/1.3.31...1.3.32) (2023-01-26)
+
+
+### Bug Fixes
+
+* **ci:** add gitlab build hook ([a007b0b](https://github.com/mgomersbach/chinstrap-overlay/commit/a007b0be093974cdc52c95a0f1f0082a765cb056))
+* **ci:** set host instead of url in action ([79b1ebc](https://github.com/mgomersbach/chinstrap-overlay/commit/79b1ebceb84bde92261b505229fe82de09864be8))
+
 ## [1.3.31](https://github.com/mgomersbach/chinstrap-overlay/compare/1.3.30...1.3.31) (2023-01-26)
 
 
