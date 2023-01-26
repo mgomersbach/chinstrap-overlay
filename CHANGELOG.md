@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.34](https://github.com/mgomersbach/chinstrap-overlay/compare/1.3.33...1.3.34) (2023-01-26)
+
+
+### Bug Fixes
+
+* **profile:** add needed 32bit flags in gaming profile for pipewire ([81bcdc8](https://github.com/mgomersbach/chinstrap-overlay/commit/81bcdc877e6e6c8fdeb30e247b22de883a3b1383))
+
 ## [1.3.33](https://github.com/mgomersbach/chinstrap-overlay/compare/1.3.32...1.3.33) (2023-01-26)
 
 
