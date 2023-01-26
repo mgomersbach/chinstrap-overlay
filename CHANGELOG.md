@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.33](https://github.com/mgomersbach/chinstrap-overlay/compare/1.3.32...1.3.33) (2023-01-26)
+
+
+### Bug Fixes
+
+* **profile:** fix symlinks in workstation profile ([899687c](https://github.com/mgomersbach/chinstrap-overlay/commit/899687c0705cfd073ecb5739847e01d776c724ff))
+
 ## [1.3.32](https://github.com/mgomersbach/chinstrap-overlay/compare/1.3.31...1.3.32) (2023-01-26)
 
 
