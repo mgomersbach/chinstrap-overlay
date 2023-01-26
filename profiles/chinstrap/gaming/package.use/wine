@@ -301,6 +301,7 @@ media-libs/graphene abi_x86_32
 
 # required by media-libs/mesa-18.3.2::gentoo[opencl,gallium]
 >=dev-libs/ocl-icd-2.2.12 abi_x86_32
+media-libs/libva abi_x86_32
 
 # required by app-emulation/wine-any-4.0::gentoo[gstreamer]
 >=media-libs/x264-0.0.20170701 abi_x86_32
@@ -359,3 +360,9 @@ media-libs/lilv abi_x86_32
 dev-libs/serd abi_x86_32
 dev-libs/sord abi_x86_32
 media-libs/sratom abi_x86_32
+
+# pipewire
+sys-cluster/mpich abi_x86_32
+sys-libs/libunwind abi_x86_32
+virtual/rust abi_x86_32
+dev-lang/rust abi_x86_32
