@@ -1,1 +1,1 @@
-media-video/pipewire jack-sdk echo-cancel pipewire-alsa sound-server
+media-video/pipewire jack-sdk echo-cancel pipewire-alsa sound-server extra
