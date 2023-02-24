@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.35](https://github.com/mgomersbach/chinstrap-overlay/compare/1.3.34...1.3.35) (2023-02-24)
+
+
+### Bug Fixes
+
+* **pipewire:** add extra useflag for ffmpeg on pipewire ([9d15f71](https://github.com/mgomersbach/chinstrap-overlay/commit/9d15f7112e8364f9ef7702e84cb52b6878ae4e2b))
+
 ## [1.3.34](https://github.com/mgomersbach/chinstrap-overlay/compare/1.3.33...1.3.34) (2023-01-26)
 
 
