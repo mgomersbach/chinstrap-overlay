@@ -246,3 +246,7 @@ media-libs/libmad abi_x86_32
 # required by dev-python/PyQt5-5.14.1-r1::gentoo[bluetooth]
 # required by @preserved-rebuild (argument)
 >=virtual/libcrypt-1 abi_x86_32
+
+media-libs/dav1d abi_x86_32
+sys-libs/liburing abi_x86_32
+dev-libs/libudfread abi_x86_32
