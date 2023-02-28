@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.36](https://github.com/mgomersbach/chinstrap-overlay/compare/1.3.35...1.3.36) (2023-02-28)
+
+
+### Bug Fixes
+
+* **32bit:** add 32bit useflags in profile ([663a389](https://github.com/mgomersbach/chinstrap-overlay/commit/663a38993d6e1f3ba89fc750bd5d6f012a967dad))
+
 ## [1.3.35](https://github.com/mgomersbach/chinstrap-overlay/compare/1.3.34...1.3.35) (2023-02-24)
 
 
