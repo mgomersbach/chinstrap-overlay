@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.37](https://github.com/mgomersbach/chinstrap-overlay/compare/1.3.36...1.3.37) (2023-05-02)
+
+
+### Version Bump
+
+* **python:** python 3.9 no longer needed ([ba7c2d9](https://github.com/mgomersbach/chinstrap-overlay/commit/ba7c2d93eecbae08ad980069b897ba89ae32b62d))
+
 ## [1.3.36](https://github.com/mgomersbach/chinstrap-overlay/compare/1.3.35...1.3.36) (2023-02-28)
 
 
