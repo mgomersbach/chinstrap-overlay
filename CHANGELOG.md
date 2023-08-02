@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.38](https://github.com/mgomersbach/chinstrap-overlay/compare/1.3.37...1.3.38) (2023-08-02)
+
+
+### Bug Fixes
+
+* **pdlib:** add pdlib ebuild and keyword for face recogniztion ([6664002](https://github.com/mgomersbach/chinstrap-overlay/commit/666400294f85c8d2a7becf21a3544cf98823bbd8))
+
 ## [1.3.37](https://github.com/mgomersbach/chinstrap-overlay/compare/1.3.36...1.3.37) (2023-05-02)
 
 
