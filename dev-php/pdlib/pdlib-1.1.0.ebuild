@@ -20,7 +20,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 
 DEPEND="
-    >=dev-libs/dlib-24.2
+    >=sci-libs/dlib-19.24
     "
 
 src_prepare() {
