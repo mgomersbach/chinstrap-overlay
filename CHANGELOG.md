@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.39](https://github.com/mgomersbach/chinstrap-overlay/compare/1.3.38...1.3.39) (2023-08-02)
+
+
+### Bug Fixes
+
+* **pdlib:** correct package name for dlib dep ([47878ae](https://github.com/mgomersbach/chinstrap-overlay/commit/47878ae964fdba0be9f4609dadb9d2a259ed7266))
+
 ## [1.3.38](https://github.com/mgomersbach/chinstrap-overlay/compare/1.3.37...1.3.38) (2023-08-02)
 
 
