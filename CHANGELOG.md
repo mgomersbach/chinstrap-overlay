@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.40](https://github.com/mgomersbach/chinstrap-overlay/compare/1.3.39...1.3.40) (2023-08-23)
+
+
+### Bug Fixes
+
+* **gluster:** remove keyword ([ce39a4d](https://github.com/mgomersbach/chinstrap-overlay/commit/ce39a4dd53251cd3767ee83b25c284a57510795a))
+
 ## [1.3.39](https://github.com/mgomersbach/chinstrap-overlay/compare/1.3.38...1.3.39) (2023-08-02)
 
 
