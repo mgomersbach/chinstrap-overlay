@@ -44,3 +44,5 @@ LINGUAS="en"
 
 PYTHON_TARGETS="python3_11 python3_10"
 PYTHON_SINGLE_TARGET="python3_10"
+
+PHP_TARGETS="php8-1 php8-2"
