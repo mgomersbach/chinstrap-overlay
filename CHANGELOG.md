@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.41](https://github.com/mgomersbach/chinstrap-overlay/compare/1.3.40...1.3.41) (2023-08-25)
+
+
+### Bug Fixes
+
+* **libvirt:** remove parted useflag ([a4cecd6](https://github.com/mgomersbach/chinstrap-overlay/commit/a4cecd604fe13b35028e261d8a3a384c177d85d8))
+
 ## [1.3.40](https://github.com/mgomersbach/chinstrap-overlay/compare/1.3.39...1.3.40) (2023-08-23)
 
 
