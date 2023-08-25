@@ -26,7 +26,7 @@ sync-plugin-portage syslog systemtap threads tools udev upnp zlib
 zsh-completion zstd"
 
 FEATURES="buildpkg clean-logs compressdebug parallel-fetch parallel-install
-          binpkg-multi-instance"
+          binpkg-multi-instance pkgdir-index-trusted"
 
 EMERGE_DEFAULT_OPTS="--keep-going -bg --binpkg-respect-use=y
 --binpkg-changed-deps=y --with-bdeps=y"
@@ -42,5 +42,5 @@ I_KNOW_WHAT_I_AM_DOING=1
 L10N="en"
 LINGUAS="en"
 
-PYTHON_TARGETS="python3_11 python3_10 python3_9"
+PYTHON_TARGETS="python3_11 python3_10"
 PYTHON_SINGLE_TARGET="python3_10"

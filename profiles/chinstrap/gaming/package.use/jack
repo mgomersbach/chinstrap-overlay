@@ -1,0 +1,3 @@
+# jack
+media-plugins/gst-plugins-jack abi_x86_32
+virtual/jack abi_x86_32

@@ -1,5 +1,210 @@
 # Changelog
 
+## [1.3.40](https://github.com/mgomersbach/chinstrap-overlay/compare/1.3.39...1.3.40) (2023-08-23)
+
+
+### Bug Fixes
+
+* **gluster:** remove keyword ([ce39a4d](https://github.com/mgomersbach/chinstrap-overlay/commit/ce39a4dd53251cd3767ee83b25c284a57510795a))
+
+## [1.3.39](https://github.com/mgomersbach/chinstrap-overlay/compare/1.3.38...1.3.39) (2023-08-02)
+
+
+### Bug Fixes
+
+* **pdlib:** correct package name for dlib dep ([47878ae](https://github.com/mgomersbach/chinstrap-overlay/commit/47878ae964fdba0be9f4609dadb9d2a259ed7266))
+
+## [1.3.38](https://github.com/mgomersbach/chinstrap-overlay/compare/1.3.37...1.3.38) (2023-08-02)
+
+
+### Bug Fixes
+
+* **pdlib:** add pdlib ebuild and keyword for face recogniztion ([6664002](https://github.com/mgomersbach/chinstrap-overlay/commit/666400294f85c8d2a7becf21a3544cf98823bbd8))
+
+## [1.3.37](https://github.com/mgomersbach/chinstrap-overlay/compare/1.3.36...1.3.37) (2023-05-02)
+
+
+### Version Bump
+
+* **python:** python 3.9 no longer needed ([ba7c2d9](https://github.com/mgomersbach/chinstrap-overlay/commit/ba7c2d93eecbae08ad980069b897ba89ae32b62d))
+
+## [1.3.36](https://github.com/mgomersbach/chinstrap-overlay/compare/1.3.35...1.3.36) (2023-02-28)
+
+
+### Bug Fixes
+
+* **32bit:** add 32bit useflags in profile ([663a389](https://github.com/mgomersbach/chinstrap-overlay/commit/663a38993d6e1f3ba89fc750bd5d6f012a967dad))
+
+## [1.3.35](https://github.com/mgomersbach/chinstrap-overlay/compare/1.3.34...1.3.35) (2023-02-24)
+
+
+### Bug Fixes
+
+* **pipewire:** add extra useflag for ffmpeg on pipewire ([9d15f71](https://github.com/mgomersbach/chinstrap-overlay/commit/9d15f7112e8364f9ef7702e84cb52b6878ae4e2b))
+
+## [1.3.34](https://github.com/mgomersbach/chinstrap-overlay/compare/1.3.33...1.3.34) (2023-01-26)
+
+
+### Bug Fixes
+
+* **profile:** add needed 32bit flags in gaming profile for pipewire ([81bcdc8](https://github.com/mgomersbach/chinstrap-overlay/commit/81bcdc877e6e6c8fdeb30e247b22de883a3b1383))
+
+## [1.3.33](https://github.com/mgomersbach/chinstrap-overlay/compare/1.3.32...1.3.33) (2023-01-26)
+
+
+### Bug Fixes
+
+* **profile:** fix symlinks in workstation profile ([899687c](https://github.com/mgomersbach/chinstrap-overlay/commit/899687c0705cfd073ecb5739847e01d776c724ff))
+
+## [1.3.32](https://github.com/mgomersbach/chinstrap-overlay/compare/1.3.31...1.3.32) (2023-01-26)
+
+
+### Bug Fixes
+
+* **ci:** add gitlab build hook ([a007b0b](https://github.com/mgomersbach/chinstrap-overlay/commit/a007b0be093974cdc52c95a0f1f0082a765cb056))
+* **ci:** set host instead of url in action ([79b1ebc](https://github.com/mgomersbach/chinstrap-overlay/commit/79b1ebceb84bde92261b505229fe82de09864be8))
+
+## [1.3.31](https://github.com/mgomersbach/chinstrap-overlay/compare/1.3.30...1.3.31) (2023-01-26)
+
+
+### Bug Fixes
+
+* **profile:** move markws to workstation ([ea26ec1](https://github.com/mgomersbach/chinstrap-overlay/commit/ea26ec1c2b5e0ce2990a09a392d3d0f5c5a33a10))
+
+## [1.3.30](https://github.com/mgomersbach/chinstrap-overlay/compare/1.3.29...1.3.30) (2023-01-25)
+
+
+### Bug Fixes
+
+* **32bit:** add abi_x86_32 on lv2 in gaming profile ([2ae6c45](https://github.com/mgomersbach/chinstrap-overlay/commit/2ae6c45985e3839b7315c63788a2d453a247513e))
+
+## [1.3.29](https://github.com/mgomersbach/chinstrap-overlay/compare/1.3.28...1.3.29) (2023-01-25)
+
+
+### Bug Fixes
+
+* **profile:** update media profile and add jack support ([9da58bf](https://github.com/mgomersbach/chinstrap-overlay/commit/9da58bf143356b9bf741038784976168f9184ee7))
+
+## [1.3.28](https://github.com/mgomersbach/chinstrap-overlay/compare/1.3.27...1.3.28) (2023-01-22)
+
+
+### Bug Fixes
+
+* **keyword:** syntax not supported in profile but is locally ([fdb345f](https://github.com/mgomersbach/chinstrap-overlay/commit/fdb345f4e1835eadd0202a7f415c1d96bedeee00))
+
+## [1.3.27](https://github.com/mgomersbach/chinstrap-overlay/compare/1.3.26...1.3.27) (2023-01-17)
+
+
+### Bug Fixes
+
+* **eapi:** move to eapi 8 ([15215d8](https://github.com/mgomersbach/chinstrap-overlay/commit/15215d829c8bdaa1c4c2e8c351008910aabcd2d1))
+
+## [1.3.26](https://github.com/mgomersbach/chinstrap-overlay/compare/1.3.25...1.3.26) (2023-01-17)
+
+
+### Bug Fixes
+
+* **qt:** move wildcard to simpler format for qt ([341339c](https://github.com/mgomersbach/chinstrap-overlay/commit/341339c59a1aab0b19fa468d5862b034cb2caec9))
+
+## [1.3.25](https://github.com/mgomersbach/chinstrap-overlay/compare/1.3.24...1.3.25) (2023-01-16)
+
+
+### Bug Fixes
+
+* **binutils:** remove binutils-libs keyword too ([f61f1ca](https://github.com/mgomersbach/chinstrap-overlay/commit/f61f1ca1a95eb14b9eb3e5bf0073c5913977138e))
+
+## [1.3.24](https://github.com/mgomersbach/chinstrap-overlay/compare/1.3.23...1.3.24) (2023-01-16)
+
+
+### Bug Fixes
+
+* **binutils:** 2.40 has errors, so reverting to stable ([1ef8cec](https://github.com/mgomersbach/chinstrap-overlay/commit/1ef8cecf76b326f8b84022e9761130b188ca8fa0))
+
+## [1.3.23](https://github.com/mgomersbach/chinstrap-overlay/compare/1.3.22...1.3.23) (2023-01-16)
+
+
+### Bug Fixes
+
+* **binutils:** 2.40 has errors, so reverting to stable ([930cb55](https://github.com/mgomersbach/chinstrap-overlay/commit/930cb5557607ad4045ad4579b3472c907af8d7ae))
+
+## [1.3.22](https://github.com/mgomersbach/chinstrap-overlay/compare/1.3.21...1.3.22) (2023-01-11)
+
+
+### Bug Fixes
+
+* **binpkgs:** update binpkg urls ([4f2e0ad](https://github.com/mgomersbach/chinstrap-overlay/commit/4f2e0ad7e0d305cf5463b57626c8851813b32953))
+
+## [1.3.21](https://github.com/mgomersbach/chinstrap-overlay/compare/1.3.20...1.3.21) (2023-01-08)
+
+
+### Bug Fixes
+
+* **pidgin:** telegram ebuild is no longer provided ([8676f4b](https://github.com/mgomersbach/chinstrap-overlay/commit/8676f4b133a105c9d71182f701eb8553e9c42c67))
+
+## [1.3.20](https://github.com/mgomersbach/chinstrap-overlay/compare/1.3.19...1.3.20) (2023-01-08)
+
+
+### Bug Fixes
+
+* **cups:** add lcms useflag to poppler ([f8ba4ab](https://github.com/mgomersbach/chinstrap-overlay/commit/f8ba4abc5cf188d2d50e4840d6b13bf6e1b54be7))
+
+## [1.3.19](https://github.com/mgomersbach/chinstrap-overlay/compare/1.3.18...1.3.19) (2023-01-07)
+
+
+### Bug Fixes
+
+* **llvm:** add keyword to llvm-toolchain-symlinks in toolchain ([e5030e1](https://github.com/mgomersbach/chinstrap-overlay/commit/e5030e1818189a0d1e7026e36f8165545baad434))
+* **lvm:** add thin ([22729bc](https://github.com/mgomersbach/chinstrap-overlay/commit/22729bcb0d9e20c7d9f485fd88ef2735e50a1b32))
+
+## [1.3.18](https://github.com/mgomersbach/chinstrap-overlay/compare/1.3.17...1.3.18) (2023-01-06)
+
+
+### Bug Fixes
+
+* **nginx:** add nginx useflag on mime-types ([30df15c](https://github.com/mgomersbach/chinstrap-overlay/commit/30df15c87c4f1a93fd297d3af830684c8b652841))
+
+## [1.3.17](https://github.com/mgomersbach/chinstrap-overlay/compare/1.3.16...1.3.17) (2023-01-06)
+
+
+### Bug Fixes
+
+* **pipewire:** add pipewire global useflag in media profile ([775cf99](https://github.com/mgomersbach/chinstrap-overlay/commit/775cf9914e955275e65a2e8e1748e895e8ca1188))
+
+## [1.3.16](https://github.com/mgomersbach/chinstrap-overlay/compare/1.3.15...1.3.16) (2023-01-06)
+
+
+### Bug Fixes
+
+* **cgo:** typo in cgo flags name ([294ffe4](https://github.com/mgomersbach/chinstrap-overlay/commit/294ffe4a0e52c349a8d40d41b61a34f8b870f5ff))
+
+## [1.3.15](https://github.com/mgomersbach/chinstrap-overlay/compare/1.3.14...1.3.15) (2023-01-06)
+
+
+### Bug Fixes
+
+* **tcltk:** keep them in tandem ([6682fe5](https://github.com/mgomersbach/chinstrap-overlay/commit/6682fe55cf9c894e113d7a0df9b47b735960e515))
+
+## [1.3.14](https://github.com/mgomersbach/chinstrap-overlay/compare/1.3.13...1.3.14) (2023-01-06)
+
+
+### Bug Fixes
+
+* **cflags:** remove dumb O3 ([b9b4589](https://github.com/mgomersbach/chinstrap-overlay/commit/b9b4589c2e6c77903f634556656948710bbd7365))
+
+## [1.3.13](https://github.com/mgomersbach/chinstrap-overlay/compare/1.3.12...1.3.13) (2023-01-06)
+
+
+### Bug Fixes
+
+* **libvirt:** readd lvm ([5b95a65](https://github.com/mgomersbach/chinstrap-overlay/commit/5b95a65b2c037088e20afdaaa3c0bd554b911dd3))
+
+## [1.3.12](https://github.com/mgomersbach/chinstrap-overlay/compare/1.3.11...1.3.12) (2023-01-06)
+
+
+### Bug Fixes
+
+* **profiles:** fix order of vars ([77d91d4](https://github.com/mgomersbach/chinstrap-overlay/commit/77d91d49094f6a7fad6d3fd94923a1203a57a695))
+
 ## [1.3.11](https://github.com/mgomersbach/chinstrap-overlay/compare/1.3.10...1.3.11) (2023-01-05)
 
 

@@ -10,11 +10,11 @@ FFLAGS="${CFLAGS}"
 CGO_CFLAGS="${CFLAGS}"
 CGO_CXXFLAGS="${CFLAGS}"
 CGO_FFLAGS="${CFLAGS}"
-GCO_FCFLAGS="${CFLAGS}"
+CGO_FCFLAGS="${CFLAGS}"
 CGO_LDFLAGS="${LDFLAGS}"
 
-RUSTFLAGS="-C target-cpu=x86-64-v2"
+RUSTFLAGS="-C target-cpu=x86-64-v2 ${RUSTFLAGS}"
 
 CPU_FLAGS_X86="3dnow 3dnowext f16c mmx mmxext pclmul popcnt sse sse2 sse3 sse4_1 sse4_2 ssse3"
 
-PORTAGE_BINHOST="https://chinstrap.hexnet.nl/binpkgs/chinstrap/default/linux/amd64/x86-64-v2/base/"
+PORTAGE_BINHOST="https://chinstrap.hexnet.nl/binpkgs/chinstrap/default/linux/amd64/x86-64-v2/base"

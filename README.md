@@ -33,7 +33,7 @@ Available profile symlink targets:
   [58]  chinstrap:chinstrap/default/linux/amd64/buildhelper (stable)
   [59]  chinstrap:chinstrap/default/linux/amd64/server (stable)
   [60]  chinstrap:chinstrap/default/linux/amd64/desktop (stable)
-  [61]  chinstrap:chinstrap/default/linux/amd64/markws (stable)
+  [61]  chinstrap:chinstrap/default/linux/amd64/workstation (stable)
 ...
 $ eselect profile set 57
 $ source /etc/profile && env-update
