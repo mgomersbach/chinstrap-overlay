@@ -13,3 +13,4 @@ dev-php/pecl-uploadprogress **
 dev-php/pdlib ~*
 sci-libs/dlib ~*
 sci-libs/mkl ~*
+dev-lang/php ~*
