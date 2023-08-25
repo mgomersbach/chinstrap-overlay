@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.42](https://github.com/mgomersbach/chinstrap-overlay/compare/1.3.41...1.3.42) (2023-08-25)
+
+
+### Bug Fixes
+
+* **flags:** catch up on new install ([f8451de](https://github.com/mgomersbach/chinstrap-overlay/commit/f8451dea827ad35a9603a0738997b92ae5a5a880))
+
 ## [1.3.41](https://github.com/mgomersbach/chinstrap-overlay/compare/1.3.40...1.3.41) (2023-08-25)
 
 
