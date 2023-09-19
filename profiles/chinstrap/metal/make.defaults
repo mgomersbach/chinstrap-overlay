@@ -1,7 +1,7 @@
 # Copyright 2004-2022 Gentoo Foundation.
 # Distributed under the terms of the GNU General Public License v2
 
-USE="iscsi libvirt lm_sensors usb -virt-network"
+USE="iscsi libvirt lm-sensors usb -virt-network"
 
 QEMU_SOFTMMU_TARGETS="x86_64 i386 aarch64 arm"
 QEMU_USER_TARGETS="aarch64 arm i386 x86_64"

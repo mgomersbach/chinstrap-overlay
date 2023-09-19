@@ -19,14 +19,14 @@ NOMEDIAUSE="-a52 -aac -alsa -bluetooth -cdda -cdr -dts -dvd -dvdr
 USE="${NODESKTOPUSE} ${NOMEDIAUSE} acl acpi aio asm audit
 bash-completion -berkdb bidi -bindist bzip2 brotli caps client -consolekit curl
 -debug device-mapper expat fuse fontconfig -geolocation git gmp -gnutls gold gpm
-graphite gssapi gzip hwdb http2 icu iconv inotify iptables ipv6 lto lz4
-lzma lzo maildir mdadm mpi nfs ncurses nls ntp openmp openssl pam pch
+graphite gssapi http2 icu iconv inotify iptables ipv6 lto lz4
+lzma lzo maildir mpi nfs ncurses nls ntp openmp openssl pam pch
 pcre pcre16 pcre32 pgo prelink readline samba sftp sqlite ssh ssl spell
-sync-plugin-portage syslog systemtap threads tools udev upnp zlib
-zsh-completion zstd"
+syslog systemtap threads tools udev upnp zlib zstd"
 
 FEATURES="buildpkg clean-logs compressdebug parallel-fetch parallel-install
-          binpkg-multi-instance pkgdir-index-trusted"
+          binpkg-multi-instance pkgdir-index-trusted downgrade-backup
+          unmerge-backup"
 
 EMERGE_DEFAULT_OPTS="--keep-going -bg --binpkg-respect-use=y
 --binpkg-changed-deps=y --with-bdeps=y"

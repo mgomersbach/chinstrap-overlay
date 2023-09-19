@@ -3,7 +3,7 @@ app-eselect/eselect-php fpm
 dev-php/PEAR-MDB2 mysql mysqli
 
 # Prevent full X pull
-gnome-base/librsvg -tools
+gnome-base/librsvg -tools -vala
 
 # pecl-imagick doesn't deal well with openmp
 media-gfx/imagemagick -openmp
