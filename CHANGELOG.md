@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.43](https://github.com/mgomersbach/chinstrap-overlay/compare/1.3.42...1.3.43) (2023-09-19)
+
+
+### Bug Fixes
+
+* **eapi:** straighten eapi versions and useflag cleanup ([94b312e](https://github.com/mgomersbach/chinstrap-overlay/commit/94b312e74847a803dc44c2fbd58c94d99b06499b))
+
 ## [1.3.42](https://github.com/mgomersbach/chinstrap-overlay/compare/1.3.41...1.3.42) (2023-08-25)
 
 
