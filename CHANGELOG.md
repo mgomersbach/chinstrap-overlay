@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.44](https://github.com/mgomersbach/chinstrap-overlay/compare/1.3.43...1.3.44) (2023-09-20)
+
+
+### Bug Fixes
+
+* **ebuild:** update ebuild for eapi 8 ([5db17b3](https://github.com/mgomersbach/chinstrap-overlay/commit/5db17b35fa82becb1e8385c95e22a92e725bacae))
+
 ## [1.3.43](https://github.com/mgomersbach/chinstrap-overlay/compare/1.3.42...1.3.43) (2023-09-19)
 
 
