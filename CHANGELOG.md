@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.45](https://github.com/mgomersbach/chinstrap-overlay/compare/1.3.44...1.3.45) (2023-09-28)
+
+
+### Bug Fixes
+
+* **lldpd:** add missing useflags for lldpd ([f4f96de](https://github.com/mgomersbach/chinstrap-overlay/commit/f4f96dee41abbb0fc9fd45f1580e66a77752d058))
+
 ## [1.3.44](https://github.com/mgomersbach/chinstrap-overlay/compare/1.3.43...1.3.44) (2023-09-20)
 
 
