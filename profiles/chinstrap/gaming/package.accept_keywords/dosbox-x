@@ -1,2 +1,5 @@
 # From this overlay
 games-emulation/dosbox-x ~*
+
+# openglide
+media-libs/openglide ~*
