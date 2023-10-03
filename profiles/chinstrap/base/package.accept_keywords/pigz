@@ -1,0 +1,2 @@
+# 2.7-r1 couldn't unpack tar files anymore, breaking portage.
+=app-arch/pigz-2.7-r2 ~amd64
