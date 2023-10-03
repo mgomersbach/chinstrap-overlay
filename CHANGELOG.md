@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.3.46](https://github.com/mgomersbach/chinstrap-overlay/compare/1.3.45...1.3.46) (2023-10-03)
+
+
+### Bug Fixes
+
+* **dosboox-x:** keyword openglide ([ae633b2](https://github.com/mgomersbach/chinstrap-overlay/commit/ae633b29f43ff3d1393a89cccfe939390ce55cb0))
+* **pigz:** keyword to zlib compat version ([13584a4](https://github.com/mgomersbach/chinstrap-overlay/commit/13584a4a367de3198df53cc330f37dffc776b65b))
+
 ## [1.3.45](https://github.com/mgomersbach/chinstrap-overlay/compare/1.3.44...1.3.45) (2023-09-28)
 
 
