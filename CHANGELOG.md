@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.47](https://github.com/mgomersbach/chinstrap-overlay/compare/1.3.46...1.3.47) (2023-11-22)
+
+
+### Bug Fixes
+
+* **podman-compose:** pypi mirror upstream replaced with github ([677b4fd](https://github.com/mgomersbach/chinstrap-overlay/commit/677b4fde5a6201655a0d7ee82708b64ac41e2163))
+
 ## [1.3.46](https://github.com/mgomersbach/chinstrap-overlay/compare/1.3.45...1.3.46) (2023-10-03)
 
 
