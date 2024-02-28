@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.48](https://github.com/mgomersbach/chinstrap-overlay/compare/1.3.47...1.3.48) (2024-02-28)
+
+
+### Bug Fixes
+
+* **salt:** unblock higher version for test ([3f1e9a2](https://github.com/mgomersbach/chinstrap-overlay/commit/3f1e9a2ec9b02fa4ef05c6832eb3fc996e731a71))
+
 ## [1.3.47](https://github.com/mgomersbach/chinstrap-overlay/compare/1.3.46...1.3.47) (2023-11-22)
 
 
