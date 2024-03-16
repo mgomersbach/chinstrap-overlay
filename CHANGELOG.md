@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.49](https://github.com/mgomersbach/chinstrap-overlay/compare/1.3.48...1.3.49) (2024-03-16)
+
+
+### Bug Fixes
+
+* **php:** add sysvipc useflag ([6fda5ff](https://github.com/mgomersbach/chinstrap-overlay/commit/6fda5ff6b1dce9a30fbdeb00bf70cc8a808cf433))
+
 ## [1.3.48](https://github.com/mgomersbach/chinstrap-overlay/compare/1.3.47...1.3.48) (2024-02-28)
 
 
