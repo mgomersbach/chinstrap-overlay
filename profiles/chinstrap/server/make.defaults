@@ -4,12 +4,12 @@
 USE="ldap memcached mysql pdo sasl -apache2"
 
 NGINX_MODULES_HTTP="access addition auth_basic auth_pam auth_ldap autoindex brotli
-browser charset empty_gif fancyindex fastcgi flv geoip gunzip gzip headers_more
-limit_conn limit_req map memcached mp4 proxy python referer realip rewrite
+browser charset empty_gif fancyindex fastcgi flv geoip geoip2 gunzip gzip headers_more
+http3 limit_conn limit_req map memcached mp4 proxy python referer realip rewrite
 ruby scgi split_clients ssi stub_status tcl upload_progress
 upstream_ip_hash userid uwsgi metrics upstream_check
 vhost_traffic_status"
 
 NGINX_MODULES_MAIL="imap pop3 smtp"
 
-NGINX_MODULES_STREAM="geo geoip limit_conn map realip"
+NGINX_MODULES_STREAM="geo geoip geoip2 limit_conn map realip"
