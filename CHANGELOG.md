@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.50](https://github.com/mgomersbach/chinstrap-overlay/compare/1.3.49...1.3.50) (2024-03-21)
+
+
+### Bug Fixes
+
+* **nginx:** add geoip2 useflag for vts ([e308216](https://github.com/mgomersbach/chinstrap-overlay/commit/e3082169cc01f8da9acc4c53149b498d923d7a34))
+
 ## [1.3.49](https://github.com/mgomersbach/chinstrap-overlay/compare/1.3.48...1.3.49) (2024-03-16)
 
 
