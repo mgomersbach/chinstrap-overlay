@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.51](https://github.com/mgomersbach/chinstrap-overlay/compare/1.3.50...1.3.51) (2024-03-21)
+
+
+### Bug Fixes
+
+* **biguse:** remove a old bigusefile ([94e21b7](https://github.com/mgomersbach/chinstrap-overlay/commit/94e21b7031d3088cce4feed99cf7288e22030a36))
+
 ## [1.3.50](https://github.com/mgomersbach/chinstrap-overlay/compare/1.3.49...1.3.50) (2024-03-21)
 
 
