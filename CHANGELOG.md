@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.55](https://github.com/mgomersbach/chinstrap-overlay/compare/1.3.54...1.3.55) (2024-03-30)
+
+
+### Bug Fixes
+
+* **podman:** add keywords for podman dependencies ([5e30a9d](https://github.com/mgomersbach/chinstrap-overlay/commit/5e30a9d6e4740244ec45049396ed71e144a6051d))
+
 ## [1.3.54](https://github.com/mgomersbach/chinstrap-overlay/compare/1.3.53...1.3.54) (2024-03-30)
 
 
