@@ -6,7 +6,7 @@ app-arch/lrzip ~*
 app-arch/lzlib ~*
 app-arch/plzip ~*
 app-arch/xz-utils ~*
-app-emulation/docker ~*
+app-containers/docker ~*
 app-emulation/open-vm-tools ~*
 app-eselect/eselect-java ~*
 app-misc/resolve-march-native ~*

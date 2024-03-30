@@ -2,11 +2,10 @@ sys-libs/libseccomp ~*
 dev-go/blackfriday ~*
 dev-go/sanitized-anchor-name ~*
 dev-go/go-md2man ~*
-app-emulation/docker-machine ~*
-app-emulation/docker-swarm ~*
-app-emulation/docker-compose ~*
+app-containers/docker-machine ~*
+app-containers/docker-swarm ~*
+app-containers/docker-compose ~*
 dev-python/jsonschema ~*
-app-emulation/docker-compose ~*
 dev-python/dockerpty ~*
 dev-python/functools32 ~*
 dev-python/strict-rfc3339 ~*
@@ -15,4 +14,3 @@ dev-python/docker-py ~*
 dev-python/webcolors ~*
 dev-python/texttable ~*
 dev-python/vcversioner ~*
-

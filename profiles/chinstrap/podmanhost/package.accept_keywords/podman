@@ -1,5 +1,6 @@
-app-emulation/podman ~*
-app-emulation/conmon ~*
+app-containers/aardvark-dns ~*
+app-containers/buildah ~*
+app-containers/conmon ~*
+app-containers/podman ~*
+app-containers/skopeo ~*
 sys-fs/fuse-overlayfs ~*
-app-emulation/skopeo ~*
-app-emulation/buildah ~*
