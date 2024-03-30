@@ -1,4 +1,4 @@
-app-emulation/docker device-mapper
+app-containers/docker device-mapper
 app-emulation/ganeti kvm
 app-emulation/virtualbox extensions
 gnome-extra/gnome-boxes usbredir

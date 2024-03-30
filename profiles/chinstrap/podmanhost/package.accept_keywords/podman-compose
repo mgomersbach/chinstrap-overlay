@@ -1,1 +1,1 @@
-app-emulation/podman-compose ~*
+app-containers/podman-compose ~*
