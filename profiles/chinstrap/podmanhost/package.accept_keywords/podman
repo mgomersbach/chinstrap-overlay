@@ -1,6 +1,8 @@
 app-containers/aardvark-dns ~*
 app-containers/buildah ~*
 app-containers/conmon ~*
+app-containers/containers-common ~*
+app-containers/crun ~*
 app-containers/podman ~*
 app-containers/skopeo ~*
 sys-fs/fuse-overlayfs ~*
