@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.52](https://github.com/mgomersbach/chinstrap-overlay/compare/1.3.51...1.3.52) (2024-03-30)
+
+
+### Bug Fixes
+
+* **bind:** add xml useflag for exporter ([9778409](https://github.com/mgomersbach/chinstrap-overlay/commit/9778409d0c9a92e30a1357502b030b0278ecc348))
+
 ## [1.3.51](https://github.com/mgomersbach/chinstrap-overlay/compare/1.3.50...1.3.51) (2024-03-21)
 
 
