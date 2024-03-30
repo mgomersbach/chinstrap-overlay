@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.56](https://github.com/mgomersbach/chinstrap-overlay/compare/1.3.55...1.3.56) (2024-03-30)
+
+
+### Bug Fixes
+
+* **podman:** more deps keywording ([9169b52](https://github.com/mgomersbach/chinstrap-overlay/commit/9169b52fb3df7cf2e61a01b4365520429e2ad016))
+
 ## [1.3.55](https://github.com/mgomersbach/chinstrap-overlay/compare/1.3.54...1.3.55) (2024-03-30)
 
 
