@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.54](https://github.com/mgomersbach/chinstrap-overlay/compare/1.3.53...1.3.54) (2024-03-30)
+
+
+### Bug Fixes
+
+* **category:** adjust containers category name move ([4afeaf2](https://github.com/mgomersbach/chinstrap-overlay/commit/4afeaf2f2252543f56fc42e5463b5a00db6ec818))
+
 ## [1.3.53](https://github.com/mgomersbach/chinstrap-overlay/compare/1.3.52...1.3.53) (2024-03-30)
 
 
