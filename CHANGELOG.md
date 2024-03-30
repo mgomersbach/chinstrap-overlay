@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.53](https://github.com/mgomersbach/chinstrap-overlay/compare/1.3.52...1.3.53) (2024-03-30)
+
+
+### Bug Fixes
+
+* **ids:** add use and keywords for suricata and snort ([67a2b97](https://github.com/mgomersbach/chinstrap-overlay/commit/67a2b972955e4ddc8224fe2304920127c0abe6bf))
+
 ## [1.3.52](https://github.com/mgomersbach/chinstrap-overlay/compare/1.3.51...1.3.52) (2024-03-30)
 
 
