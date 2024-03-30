@@ -1,4 +1,4 @@
-net-dns/bind -mysql -ldap geoip json python dlz
+net-dns/bind -mysql -ldap geoip json python dlz xml
 # required by x11-libs/pango-1.40.6::gentoo
 # required by gnome-base/librsvg-2.40.18::gentoo
 # required by media-gfx/graphviz-2.38.0-r1::gentoo[svg]
