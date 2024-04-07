@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.57](https://github.com/mgomersbach/chinstrap-overlay/compare/1.3.56...1.3.57) (2024-04-07)
+
+
+### Bug Fixes
+
+* **suricata:** add control socket and lua support ([320e354](https://github.com/mgomersbach/chinstrap-overlay/commit/320e354abd77491b5e65fea77038b4cf7e949013))
+
 ## [1.3.56](https://github.com/mgomersbach/chinstrap-overlay/compare/1.3.55...1.3.56) (2024-03-30)
 
 
