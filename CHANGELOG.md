@@ -1,5 +1,12 @@
 # Changelog
 
+# [1.4.0](https://github.com/mgomersbach/chinstrap-overlay/compare/1.3.57...1.4.0) (2024-04-13)
+
+
+### Features
+
+* **profile:** switch default profile on arm64 ([0b78d48](https://github.com/mgomersbach/chinstrap-overlay/commit/0b78d483219ca39e76cc0880385ca7117b3f62ab))
+
 ## [1.3.57](https://github.com/mgomersbach/chinstrap-overlay/compare/1.3.56...1.3.57) (2024-04-07)
 
 
