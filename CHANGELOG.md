@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.1](https://github.com/mgomersbach/chinstrap-overlay/compare/1.4.0...1.4.1) (2024-04-14)
+
+
+### Bug Fixes
+
+* **python:** align PYTHON_SINGLE_TARGET with upstream and add 12 ([3e658d7](https://github.com/mgomersbach/chinstrap-overlay/commit/3e658d7c5302edc30bc9160bb95ba02580da1f7d))
+
 # [1.4.0](https://github.com/mgomersbach/chinstrap-overlay/compare/1.3.57...1.4.0) (2024-04-13)
 
 
