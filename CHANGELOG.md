@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.2](https://github.com/mgomersbach/chinstrap-overlay/compare/1.4.1...1.4.2) (2024-05-16)
+
+
+### Bug Fixes
+
+* **pipewire:** add keyword as dep of qemu ([b911f43](https://github.com/mgomersbach/chinstrap-overlay/commit/b911f43f83e4db2869b16f1c33d2ac719c1faf58))
+
 ## [1.4.1](https://github.com/mgomersbach/chinstrap-overlay/compare/1.4.0...1.4.1) (2024-04-14)
 
 
