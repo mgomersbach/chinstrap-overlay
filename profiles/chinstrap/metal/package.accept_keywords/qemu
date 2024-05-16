@@ -3,3 +3,4 @@ sys-firmware/seabios ~*
 sys-firmware/edk2-ovmf ~*
 sys-firmware/seabios-bin ~*
 sys-firmware/edk2-ovmf-bin ~*
+media-video/pipewire ~*
