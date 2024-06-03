@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.3](https://github.com/mgomersbach/chinstrap-overlay/compare/1.4.2...1.4.3) (2024-06-03)
+
+
+### Bug Fixes
+
+* **profile:** Move to profile 23.0 step 1 of 2 with split-usr ([6849f05](https://github.com/mgomersbach/chinstrap-overlay/commit/6849f050487a904440a94212c02c5ee25ba1e171))
+
 ## [1.4.2](https://github.com/mgomersbach/chinstrap-overlay/compare/1.4.1...1.4.2) (2024-05-16)
 
 
