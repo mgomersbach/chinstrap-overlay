@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.4](https://github.com/mgomersbach/chinstrap-overlay/compare/1.4.3...1.4.4) (2024-06-14)
+
+
+### Bug Fixes
+
+* **profile:** second step in move ([2b75cc7](https://github.com/mgomersbach/chinstrap-overlay/commit/2b75cc73082ebf5e8d5eb4e1afd16dade0878037))
+
 ## [1.4.3](https://github.com/mgomersbach/chinstrap-overlay/compare/1.4.2...1.4.3) (2024-06-03)
 
 
