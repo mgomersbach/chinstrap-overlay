@@ -1,5 +1,4 @@
-media-tv/kodi cec bluray airplay upower
+media-tv/kodi cec bluray airplay upower webserver udf mariadb -mysql -gbm -wayland
 
 # for airplay
 app-pda/libplist python
-

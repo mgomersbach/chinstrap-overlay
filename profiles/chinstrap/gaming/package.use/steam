@@ -250,3 +250,10 @@ media-libs/libmad abi_x86_32
 media-libs/dav1d abi_x86_32
 sys-libs/liburing abi_x86_32
 dev-libs/libudfread abi_x86_32
+
+net-libs/libpsl abi_x86_32
+media-sound/mpg123-base abi_x86_32
+dev-libs/zix abi_x86_32
+sys-apps/lm-sensors abi_x86_32
+app-crypt/p11-kit abi_x86_32
+dev-lang/rust-bin abi_x86_32
