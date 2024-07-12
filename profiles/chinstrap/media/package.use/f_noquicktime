@@ -1,0 +1,2 @@
+# causes to stick to old ffmpeg builds for entire system
+media-video/mjpegtools -quicktime

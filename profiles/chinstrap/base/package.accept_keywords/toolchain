@@ -8,8 +8,10 @@ sys-devel/clang ~*
 sys-devel/clang-common ~*
 sys-devel/clang-runtime ~*
 sys-devel/distcc ~*
-sys-devel/gcc:13 ~*
 sys-devel/gcc-config ~*
+sys-devel/gcc:13 ~*
+sys-devel/lld ~*
+sys-devel/lld-toolchain-symlinks ~*
 sys-devel/llvm ~*
 sys-devel/llvm-common ~*
 sys-devel/llvm-toolchain-symlinks ~*

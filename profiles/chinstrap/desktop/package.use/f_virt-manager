@@ -1,4 +1,4 @@
-app-emulation/virt-manager spice
+app-emulation/virt-manager spice gui
 
 # required by virt-manager (argument)
 net-libs/gtk-vnc python

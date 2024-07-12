@@ -2,4 +2,5 @@ sys-libs/libudev-compat **
 
 # required by games-util/steam-launcher
 games-util/steam-client-meta ~*
+games-util/esteam ~*
 dev-libs/libusb ~*
