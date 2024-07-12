@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.5](https://github.com/mgomersbach/chinstrap-overlay/compare/1.4.4...1.4.5) (2024-07-12)
+
+
+### Bug Fixes
+
+* **profile:** Update keywords and useflags for kodi machines ([2812851](https://github.com/mgomersbach/chinstrap-overlay/commit/2812851cd26f0a0bfc64cc8ad12cb53b46566bc3))
+
 ## [1.4.4](https://github.com/mgomersbach/chinstrap-overlay/compare/1.4.3...1.4.4) (2024-06-14)
 
 
