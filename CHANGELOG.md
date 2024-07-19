@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.6](https://github.com/mgomersbach/chinstrap-overlay/compare/1.4.5...1.4.6) (2024-07-19)
+
+
+### Bug Fixes
+
+* **plymouth-openrc:** move keyword ([815c1b3](https://github.com/mgomersbach/chinstrap-overlay/commit/815c1b3e52f29e05648a4c719eddc423e43f7168))
+
 ## [1.4.5](https://github.com/mgomersbach/chinstrap-overlay/compare/1.4.4...1.4.5) (2024-07-12)
 
 
