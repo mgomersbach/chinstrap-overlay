@@ -1,1 +1,2 @@
 www-client/firefox hwaccel openh264 system-harfbuzz system-icu system-jpeg system-libevent system-libvpx system-png system-sqlite webm
+net-libs/ngtcp2 gnutls
