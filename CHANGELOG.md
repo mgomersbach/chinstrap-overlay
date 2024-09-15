@@ -1,5 +1,21 @@
 # Changelog
 
+## [1.4.7](https://github.com/mgomersbach/chinstrap-overlay/compare/1.4.6...1.4.7) (2024-09-15)
+
+
+### Bug Fixes
+
+* **esteam:** keyword game-device-udev-rules ([048c797](https://github.com/mgomersbach/chinstrap-overlay/commit/048c79728390da7a2a66543a35b1dbf19d6bc1a4))
+* **firefox:** add system-png useflag ([4641a47](https://github.com/mgomersbach/chinstrap-overlay/commit/4641a478d774e68778889e5b34ea4a36a5828e52))
+* **firefox:** remove pgo mask ([51be466](https://github.com/mgomersbach/chinstrap-overlay/commit/51be466f6eea1fe4b1434eafedd5f9f3be80e5b1))
+* **lldpd:** keyword lldpd ([18a342b](https://github.com/mgomersbach/chinstrap-overlay/commit/18a342b452bcfc516c0671530ac96e06e4a06ca5))
+* **mpv:** add useflags for mpv ([5e26ead](https://github.com/mgomersbach/chinstrap-overlay/commit/5e26ead444f60710681caaa8440ddfae3a1e3420))
+* **repo:** move firefox useflags ([69a30cc](https://github.com/mgomersbach/chinstrap-overlay/commit/69a30cc7e477bcfa0ac562737c85fe1a1a96d3a6))
+* **repo:** move ngtcp useflag change to firefox file ([4c7c8ce](https://github.com/mgomersbach/chinstrap-overlay/commit/4c7c8ced491d9a9adbb48935e67adf946ea79bdc))
+* **repo:** move useflags to their according files ([03a8eaa](https://github.com/mgomersbach/chinstrap-overlay/commit/03a8eaaafe9fe8877430242aabeb32f915d16b2f))
+* **salt:** keyword backports-ssl-match-hostname ([c870765](https://github.com/mgomersbach/chinstrap-overlay/commit/c870765e071a07bbf1f4921b2561b3ec05267866))
+* **samba:** add kerberos useflag for cyrus-sasl ([5571c12](https://github.com/mgomersbach/chinstrap-overlay/commit/5571c1291b2cfea886911c0470030499ed2d8a12))
+
 ## [1.4.6](https://github.com/mgomersbach/chinstrap-overlay/compare/1.4.5...1.4.6) (2024-07-19)
 
 
