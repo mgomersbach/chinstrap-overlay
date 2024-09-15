@@ -1,1 +1,1 @@
-www-client/firefox system-harfbuzz system-libevent system-icu system-jpeg system-libvpx system-sqlite hwaccel
+www-client/firefox hwaccel openh264 system-harfbuzz system-icu system-jpeg system-libevent system-libvpx system-sqlite webm
