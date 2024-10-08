@@ -1,2 +1,5 @@
 # Build the playable game when combined with the server profile
 games-simulation/openttd -dedicated
+
+# for dev-libs/icu-layoutex
+dev-libs/icu-le-hb abi_x86_32

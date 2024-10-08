@@ -9,8 +9,9 @@ gnome-extra/zenity webkit
 # Required for bluetooth useflag
 net-misc/networkmanager modemmanager
 
-# required by net-misc/networkmanager-1.16.0::gentoo
-net-libs/libndp abi_x86_32
+# runtime and vr
+games-util/steam-launcher steamruntime steamvr
+x11-base/xwayland libei
 
 # https://github.com/ValveSoftware/Source-1-Games/issues/3885
 sys-libs/glibc stack-realign
@@ -86,6 +87,9 @@ x11-libs/libXtst abi_x86_32
 x11-libs/pango abi_x86_32
 x11-misc/virtualgl abi_x86_32
 
+# required by net-misc/networkmanager-1.16.0::gentoo
+net-libs/libndp abi_x86_32
+
 # required by x11-libs/gdk-pixbuf-2.36.12::gentoo[jpeg2k]
 >=media-libs/jasper-2.0.14 abi_x86_32
 
@@ -134,6 +138,10 @@ app-arch/brotli abi_x86_32
 
 # Required for some games
 media-libs/sdl2-mixer abi_x86_32
+
+# and for sdl2-mixer
+media-plugins/cmt-plugins abi_x86_32
+media-sound/fluidsynth abi_x86_32
 
 # required by media-libs/sdl2-mixer-2.0.4::gentoo[mp3,mad]
 media-libs/libmad abi_x86_32
@@ -262,3 +270,14 @@ dev-libs/zix abi_x86_32
 sys-apps/lm-sensors abi_x86_32
 app-crypt/p11-kit abi_x86_32
 dev-lang/rust-bin abi_x86_32
+
+# for amd pro and vulkan support
+media-libs/amdgpu-pro-vulkan abi_x86_32
+dev-util/spirv-tools abi_x86_32
+dev-util/volk abi_x86_32
+dev-util/glslang abi_x86_32
+media-libs/glfw abi_x86_32
+dev-util/vulkan-tools abi_x86_32
+media-libs/shaderc abi_x86_32
+media-libs/amdvlk-bin abi_x86_32
+dev-libs/amdgpu-pro-opencl abi_x86_32

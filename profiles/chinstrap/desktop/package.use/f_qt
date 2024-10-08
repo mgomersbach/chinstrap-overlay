@@ -18,3 +18,7 @@ dev-qt/qtgui gif
 
 # required by dev-qt/qtwebengine-5.11.1
 sys-libs/zlib minizip
+
+# one-of fixes
+net-p2p/transmission -qt5
+media-libs/opencv -qt5 -gtk3
