@@ -30,3 +30,5 @@ dev-util/spirv-tools ~*
 # required by @world (argument)
 =dev-util/spirv-headers-1.3.4_pre20190302 ~amd64
 
+# for latest amdgpu pro
+media-libs/amdvlk-bin ~*
