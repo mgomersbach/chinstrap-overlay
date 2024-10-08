@@ -1,6 +1,11 @@
-# required by games-misc/opengfx-0.5.4::gentoo
-# required by games-simulation/openttd-1.7.1-r1::gentoo[openmedia]
-# required by @selected
-# required by @world (argument)
-games-util/nml ~*
+# no stable version in portage
+games-simulation/openttd ~*
 
+# deps
+games-util/nml ~*
+games-misc/openmsx ~*
+games-misc/opensfx ~*
+games-misc/opengfx ~*
+games-util/grfcodec ~*
+games-util/catcodec ~*
+dev-libs/icu-layoutex ~*
