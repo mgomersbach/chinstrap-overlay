@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.9](https://github.com/mgomersbach/chinstrap-overlay/compare/1.4.8...1.4.9) (2024-10-08)
+
+
+### Bug Fixes
+
+* **mysql:** keep mariadb version as current ([d775a8f](https://github.com/mgomersbach/chinstrap-overlay/commit/d775a8fa4398905fbad8166f0a703d20ac6ab6a3))
+
 ## [1.4.8](https://github.com/mgomersbach/chinstrap-overlay/compare/1.4.7...1.4.8) (2024-10-08)
 
 
