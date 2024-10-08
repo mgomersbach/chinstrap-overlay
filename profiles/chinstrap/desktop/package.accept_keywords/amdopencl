@@ -1,0 +1,11 @@
+dev-libs/amdgpu-pro-opencl ~*
+dev-libs/rocm-opencl-runtime ~*
+dev-libs/rocr-runtime ~*
+dev-util/clinfo ~*
+dev-util/rocm-smi ~*
+dev-util/rocminfo ~*
+dev-libs/roct-thunk-interface ~*
+dev-libs/rocm-device-libs ~*
+dev-build/rocm-cmake ~*
+dev-libs/rocm-comgr ~*
+dev-util/hipcc ~*

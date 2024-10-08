@@ -1,0 +1,2 @@
+# when using amd opencl, mesa must be built without internal opencl support
+media-libs/mesa -opencl
