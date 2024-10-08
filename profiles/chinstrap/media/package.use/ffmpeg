@@ -1,2 +1,2 @@
-media-video/ffmpeg amr -bindist bluray cdio cpudetection dav1d fdk gsm libass libsoxr lv2 postproc twolame rtmp vpx xvid zvbi network
+media-video/ffmpeg amr -bindist bluray cdio chromium dav1d fdk gsm librtmp libass libsoxr lv2 postproc twolame theora vpx vmaf xvid zvbi zimg srt svt-av1 network
 media-libs/libbluray aacs
