@@ -1,3 +1,2 @@
 # needed for mp3 useflag
-media-libs/sdl-mixer mad
-media-libs/sdl2-mixer mad
+media-libs/sdl2-mixer mad wav

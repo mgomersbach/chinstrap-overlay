@@ -1,2 +1,2 @@
 # Enable spatial-svc support (experimental)
-media-libs/libvpx svc
+media-libs/libvpx svc postproc
