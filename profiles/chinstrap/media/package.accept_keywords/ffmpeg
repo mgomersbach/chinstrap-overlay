@@ -1,3 +1,5 @@
 # required by media-libs/graphene (argument) ffmpeg4
 media-libs/graphene ~*
 
+# required for amd acceleration
+media-libs/libvmaf ~*
