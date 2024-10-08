@@ -17,3 +17,5 @@ dev-util/cbindgen ~*
 # required by @world (argument)
 =media-libs/libaom-1.0.0-r1 ~amd64
 
+media-libs/libvpx ~*
+dev-libs/nss ~*
