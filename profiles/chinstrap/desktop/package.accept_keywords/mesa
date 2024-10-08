@@ -1,3 +1,4 @@
 media-libs/mesa ~*
 app-eselect/eselect-opengl ~*
 dev-libs/libclc ~*
+sys-devel/clang-toolchain-symlinks ~*
