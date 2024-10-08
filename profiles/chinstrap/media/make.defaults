@@ -1,9 +1,9 @@
 # Copyright 2004-2022 Gentoo Foundation.
 # Distributed under the terms of the GNU General Public License v2
 
-USE="a52 aac aalib alsa cdda cddb css dav1d dts dv dvb dvd encode
-exif ffmpeg fftw flac gd gif gsm imagemagick jack jbig jpeg
-jpeg2k ladspa lame lcms libass libsamplerate libsoxr lv2 mms mng mp3
-mpeg ogg openal openexr opus orc pango pdf pipewire png portaudio
-postproc postscript quicktime -radio raw speex svg theora tiff
-truetype v4l vcd vorbis webp x264 x265 xmp xpm"
+USE="alsa cdda dvb dvd encode
+exif ffmpeg flac gif jack jpeg
+jpeg2k ladspa lcms libsamplerate mp3
+ogg openal openexr opus orc pango pdf pipewire png portaudio
+postscript -radio raw speex svg tiff
+truetype v4l vorbis webp x264 x265 xpm"

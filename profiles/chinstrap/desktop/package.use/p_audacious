@@ -1,3 +1,4 @@
 # Exactly one-of
 media-sound/audacious -gtk -gtk3
-media-plugins/audacious-plugins -gtk -gtk3 -libnotify
+media-plugins/audacious-plugins -gtk -gtk3 -libnotify aac lame mms
+dev-libs/libcdio cddb

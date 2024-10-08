@@ -1,7 +1,0 @@
-# wno-error
-app-emulation/open-vm-tools wnoerror.conf
-app-emulation/open-vm-tools-kmod wnoerror.conf
-
-# No parallel
-net-print/cups-filters makeoptsj1.conf
-mail-filter/razor makeoptsj1.conf
