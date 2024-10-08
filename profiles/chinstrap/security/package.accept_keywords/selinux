@@ -1,4 +1,0 @@
-# required by sys-apps/policycoreutils-2.9::gentoo
-# required by @system
-# required by @world (argument)
-=app-admin/setools-4.2.2 ~amd64
