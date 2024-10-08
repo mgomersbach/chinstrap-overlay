@@ -1,1 +1,1 @@
-x11-terms/rxvt-unicode blink fading-colors 256-color pixbuf unicode3 focused-urgency font-styles mousewheel perl xft wcwidth
+x11-terms/rxvt-unicode blink fading-colors 256-color pixbuf unicode3 focused-urgency font-styles mousewheel perl xft wcwidth 24-bit-color gdk-pixbuf wide-glyphs

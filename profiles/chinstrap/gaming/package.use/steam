@@ -135,6 +135,9 @@ app-arch/brotli abi_x86_32
 # Required for some games
 media-libs/sdl2-mixer abi_x86_32
 
+# and fluidsynth
+media-plugins/cmt-plugins abi_x86_32
+
 # required by media-libs/sdl2-mixer-2.0.4::gentoo[mp3,mad]
 media-libs/libmad abi_x86_32
 
@@ -262,3 +265,12 @@ dev-libs/zix abi_x86_32
 sys-apps/lm-sensors abi_x86_32
 app-crypt/p11-kit abi_x86_32
 dev-lang/rust-bin abi_x86_32
+
+# for amd pro and vulkan support
+media-libs/amdgpu-pro-vulkan abi_x86_32
+dev-util/spirv-tools abi_x86_32
+dev-util/volk abi_x86_32
+dev-util/glslang abi_x86_32
+media-libs/glfw abi_x86_32
+dev-util/vulkan-tools abi_x86_32
+media-libs/shaderc abi_x86_32

@@ -3,3 +3,4 @@ sys-devel/gcc go
 dev-devel/clang static-analyzer
 dev-lang/rust clang cargo
 sys-libs/compiler-rt clang
+virtual/rust profiler rustfmt

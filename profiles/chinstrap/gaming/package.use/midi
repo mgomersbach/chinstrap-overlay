@@ -1,4 +1,0 @@
-media-libs/sdl2-mixer midi timidity fluidsynth
-media-libs/sdl-mixer midi timidity fluidsynth
-games-emulation/dosbox-x alsa-midi
-dev-python/pygame midi

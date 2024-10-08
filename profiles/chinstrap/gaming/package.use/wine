@@ -349,7 +349,8 @@ media-libs/libva abi_x86_32
 >=media-libs/audiofile-0.3.6-r3 abi_x86_32
 
 # TODO: split up
-app-emulation/wine-vanilla dos kerberos mono opencl vkd3d xcomposite
+app-emulation/wine-vanilla custom-cflags dos kerberos mono opencl xcomposite
+app-emulation/wine-proton custom-cflags mono xcomposite
 virtual/wine abi_x86_32
 
 net-fs/samba winbind
