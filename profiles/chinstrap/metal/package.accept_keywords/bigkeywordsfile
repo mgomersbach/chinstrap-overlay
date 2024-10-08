@@ -1,6 +1,0 @@
-app-admin/cgmanager ~*
-app-emulation/open-vm-tools ~*
-app-emulation/spice-protocol ~*
-app-emulation/vagrant ~*
-sys-block/thin-provisioning-tools ~*
-virtual/libusb ~*
