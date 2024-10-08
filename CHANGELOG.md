@@ -1,5 +1,21 @@
 # Changelog
 
+## [1.4.10](https://github.com/mgomersbach/chinstrap-overlay/compare/1.4.9...1.4.10) (2024-10-08)
+
+
+### Bug Fixes
+
+* **abi_x86_32:** add useflags for 32 bit compat in game profile ([ade4c9c](https://github.com/mgomersbach/chinstrap-overlay/commit/ade4c9cff5e0ce27d0541ab6368eff9fec494980))
+* **amdvlk:** keyword amdvlk-bin as no stable version is in portage ([419dcd3](https://github.com/mgomersbach/chinstrap-overlay/commit/419dcd3a07f22ac1ddf0e15eb3bb98d4d3308380))
+* **crt:** accept keyword for cool-retro-term as no stable version is in portage ([b1ebfd6](https://github.com/mgomersbach/chinstrap-overlay/commit/b1ebfd671add6409cc037000ede9b8830a670285))
+* **firefox:** vpx and nss keyworded for use in firefox ([4985f22](https://github.com/mgomersbach/chinstrap-overlay/commit/4985f22cca2943a5f183090e9f6f557ee39b2c8b))
+* **games:** keywords for packages without stable version in portage ([254605f](https://github.com/mgomersbach/chinstrap-overlay/commit/254605f41e5a42059505493313ae5ded41d309a1))
+* **obs:** keyword qr-code-generator as dep for obs ([a8312ff](https://github.com/mgomersbach/chinstrap-overlay/commit/a8312ff96b15ca463fe0dbc9b6316da2190b3387))
+* **opencl:** apply useflags and keywords for rocm opencl ([abf3cc4](https://github.com/mgomersbach/chinstrap-overlay/commit/abf3cc40378572a6c8a43f714259ceae182a8a76))
+* **shotcut:** accept keyword as there is no stable version in portage ([a26116e](https://github.com/mgomersbach/chinstrap-overlay/commit/a26116e1edc0a12b06630f92458bcbb160350051))
+* **steam:** add appropriate use flags and keywords for steam and launcher ([fe3dc11](https://github.com/mgomersbach/chinstrap-overlay/commit/fe3dc114252ea6461fb9f71165648842bc5ac860))
+* **toolchain:** useflags and keywords for example rust ([9a7033c](https://github.com/mgomersbach/chinstrap-overlay/commit/9a7033c2570868c23dd64ac88f711c698c5675a9))
+
 ## [1.4.9](https://github.com/mgomersbach/chinstrap-overlay/compare/1.4.8...1.4.9) (2024-10-08)
 
 
