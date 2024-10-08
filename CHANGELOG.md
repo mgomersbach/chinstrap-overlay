@@ -1,5 +1,27 @@
 # Changelog
 
+## [1.4.8](https://github.com/mgomersbach/chinstrap-overlay/compare/1.4.7...1.4.8) (2024-10-08)
+
+
+### Bug Fixes
+
+* **ebuilds:** remove outdated ebuilds ([6ac3840](https://github.com/mgomersbach/chinstrap-overlay/commit/6ac384080ca9aed92b600d2a3e142f35cf44c7e8))
+* **ffmpeg:** add amf useflag in desktop profile ([ac7f299](https://github.com/mgomersbach/chinstrap-overlay/commit/ac7f299aeb3339608a31fcd81108330529028e33))
+* **ffmpeg:** add keyword for libvmaf ([304f5ce](https://github.com/mgomersbach/chinstrap-overlay/commit/304f5ce02ccd692c1f7925061d3b4f46351ef51e))
+* **ffmpeg:** add missing useflags ([e5f1fd8](https://github.com/mgomersbach/chinstrap-overlay/commit/e5f1fd8a40ee618c894f763f07231e7a84c0c3c4))
+* **gd:** move gd useflag to not build on glibc ([dbc27e8](https://github.com/mgomersbach/chinstrap-overlay/commit/dbc27e800b92a8d4ec5529d7bbad92aaf2b24f18))
+* **mask:** remove debuginfod workaround ([c675910](https://github.com/mgomersbach/chinstrap-overlay/commit/c6759109867c0d4422c93b94aab34e113e9e21ab))
+* **profile:** media profile removal bigusefile ([90f1c12](https://github.com/mgomersbach/chinstrap-overlay/commit/90f1c12dafd42ef751608731632a0bdc08e88975))
+* **profile:** remove bigkeywords  file from media profile ([8043013](https://github.com/mgomersbach/chinstrap-overlay/commit/80430131d214c02499d0e88155b16919fae1ed2c))
+* **profile:** remove bigkeywords file from gaming profile ([6f97bcb](https://github.com/mgomersbach/chinstrap-overlay/commit/6f97bcb8a96b9141b4be932ab6ebbfb3c81176eb))
+* **profile:** remove bigkeywords file from server profile ([3006ed2](https://github.com/mgomersbach/chinstrap-overlay/commit/3006ed29b7a6eeb44e6c949961bcaefee2723200))
+* **profile:** remove bigkeywordsfile from metal profile ([76880bc](https://github.com/mgomersbach/chinstrap-overlay/commit/76880bc45a406ec25ec6be6828d78d8a537200f6))
+* **profile:** remove bigkeywordsfile in base profile ([ee4873d](https://github.com/mgomersbach/chinstrap-overlay/commit/ee4873d7ae33540a7e6f32cfd2174d94721750a4))
+* **profile:** remove bigunmaskfile from metal profile ([847cd7e](https://github.com/mgomersbach/chinstrap-overlay/commit/847cd7ea716d505cdde4b052e6f7d842fecd1b0d))
+* **profile:** remove bigusefile from metal profile ([8be5252](https://github.com/mgomersbach/chinstrap-overlay/commit/8be52523ceca4196e929824aa6eeab70e7a5f1cd))
+* **profile:** remove bigusefile from security profile ([abc017f](https://github.com/mgomersbach/chinstrap-overlay/commit/abc017f412f3ab7dc03b554d7dc24a05c6064c25))
+* **profile:** remove selinux reference in security profile ([f8a908f](https://github.com/mgomersbach/chinstrap-overlay/commit/f8a908fc2417e2766f99b1f1fe817c9e48de3870))
+
 ## [1.4.7](https://github.com/mgomersbach/chinstrap-overlay/compare/1.4.6...1.4.7) (2024-09-15)
 
 
