@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.4.11](https://github.com/mgomersbach/chinstrap-overlay/compare/1.4.10...1.4.11) (2024-10-14)
+
+
+### Bug Fixes
+
+* **binpkg:** set gpkg format with zstd compression ([9889d44](https://github.com/mgomersbach/chinstrap-overlay/commit/9889d4480c0c44f9d38d49745c03057e736e0cc1))
+* **redis:** enable stats on allocator ([139575c](https://github.com/mgomersbach/chinstrap-overlay/commit/139575c466b2a17ce3eeb480cbdd8f194364efd4))
+* **sssd:** allow auth against a active directory ([0bc70a3](https://github.com/mgomersbach/chinstrap-overlay/commit/0bc70a38ce13654137beb9065f1409cb8618c9c7))
+
 ## [1.4.10](https://github.com/mgomersbach/chinstrap-overlay/compare/1.4.9...1.4.10) (2024-10-08)
 
 
