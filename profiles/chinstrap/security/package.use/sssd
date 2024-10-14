@@ -2,3 +2,4 @@ app-admin/sudo sssd
 sys-auth/pambase sssd
 net-nds/openldap experimental
 sys-auth/sssd sudo
+net-fs/samba winbind

@@ -42,5 +42,11 @@ I_KNOW_WHAT_I_AM_DOING=1
 L10N="en"
 LINGUAS="en"
 
-PYTHON_TARGETS="python3_12 python3_11 python3_10"
+RUSTFLAGS="-C opt-level=3 -C strip=symbols"
+
+PYTHON_TARGETS="python3_12 python3_11"
 PYTHON_SINGLE_TARGET="python3_11"
+
+BINPKG_FORMAT="gpkg"
+BINPKG_COMPRESS="zstd"
+BINPKG_COMPRESS_FLAGS="-9"
