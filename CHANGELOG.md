@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.12](https://github.com/mgomersbach/chinstrap-overlay/compare/1.4.11...1.4.12) (2024-10-20)
+
+
+### Bug Fixes
+
+* **updateworld:** remove salt dependency ([15c8d84](https://github.com/mgomersbach/chinstrap-overlay/commit/15c8d842eee936104414d2a74145386ef93dd83d))
+
 ## [1.4.11](https://github.com/mgomersbach/chinstrap-overlay/compare/1.4.10...1.4.11) (2024-10-14)
 
 
