@@ -21,7 +21,6 @@ SLOT="0"
 DEPEND=""
 RDEPEND="
 app-admin/eclean-kernel
-app-admin/salt
 app-portage/gentoolkit
 sys-kernel/genkernel"
 
