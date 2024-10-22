@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.4.13](https://github.com/mgomersbach/chinstrap-overlay/compare/1.4.12...1.4.13) (2024-10-22)
+
+
+### Bug Fixes
+
+* **openldap:** add sasl useflag ([1d9c0f1](https://github.com/mgomersbach/chinstrap-overlay/commit/1d9c0f1da155e612b5d85922c1522463dded9600))
+* **portage:** allow distfiles download via aria2 ([1d13407](https://github.com/mgomersbach/chinstrap-overlay/commit/1d134076e984639696705e4c7189edd0f0231985))
+
 ## [1.4.12](https://github.com/mgomersbach/chinstrap-overlay/compare/1.4.11...1.4.12) (2024-10-20)
 
 
