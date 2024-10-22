@@ -1,0 +1,2 @@
+# allow for parallel fetch from multiple mirrors in portage via aria2
+app-portage/fetchcommandwrapper ~*
