@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.14](https://github.com/mgomersbach/chinstrap-overlay/compare/1.4.13...1.4.14) (2024-10-24)
+
+
+### Bug Fixes
+
+* **python:** with salt out of the way, move over to newer python 3.12 as default ([6659ad2](https://github.com/mgomersbach/chinstrap-overlay/commit/6659ad2f0aff2e4c96d69bf637a7b6c6efcba527))
+
 ## [1.4.13](https://github.com/mgomersbach/chinstrap-overlay/compare/1.4.12...1.4.13) (2024-10-22)
 
 
