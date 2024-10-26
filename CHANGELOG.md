@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.15](https://github.com/mgomersbach/chinstrap-overlay/compare/1.4.14...1.4.15) (2024-10-26)
+
+
+### Bug Fixes
+
+* **mesa:** keyword mesa dependency for intel ([ba72b41](https://github.com/mgomersbach/chinstrap-overlay/commit/ba72b41e299f87b65bf7fb026da35a5278f30535))
+
 ## [1.4.14](https://github.com/mgomersbach/chinstrap-overlay/compare/1.4.13...1.4.14) (2024-10-24)
 
 
