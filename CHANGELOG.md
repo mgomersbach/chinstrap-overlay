@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.16](https://github.com/mgomersbach/chinstrap-overlay/compare/1.4.15...1.4.16) (2024-10-30)
+
+
+### Bug Fixes
+
+* **dracut:** move useflag to profile ([bb0a9b8](https://github.com/mgomersbach/chinstrap-overlay/commit/bb0a9b8d803729bf02d0e246b2c97d3b44717660))
+
 ## [1.4.15](https://github.com/mgomersbach/chinstrap-overlay/compare/1.4.14...1.4.15) (2024-10-26)
 
 
