@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.17](https://github.com/mgomersbach/chinstrap-overlay/compare/1.4.16...1.4.17) (2024-11-01)
+
+
+### Bug Fixes
+
+* **fetchcommandwrapper:** allow aria2 as fetcher ([428e488](https://github.com/mgomersbach/chinstrap-overlay/commit/428e488c3797b998ccbf7c11004ad31f35e5f918))
+
 ## [1.4.16](https://github.com/mgomersbach/chinstrap-overlay/compare/1.4.15...1.4.16) (2024-10-30)
 
 
