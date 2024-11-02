@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.18](https://github.com/mgomersbach/chinstrap-overlay/compare/1.4.17...1.4.18) (2024-11-02)
+
+
+### Bug Fixes
+
+* **python:** python 3.13 with pgo has test failures in containers ([08e25ba](https://github.com/mgomersbach/chinstrap-overlay/commit/08e25bad0413c6cb1a6dad0e4a48f3c756ac7761))
+
 ## [1.4.17](https://github.com/mgomersbach/chinstrap-overlay/compare/1.4.16...1.4.17) (2024-11-01)
 
 
