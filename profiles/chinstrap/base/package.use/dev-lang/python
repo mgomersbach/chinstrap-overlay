@@ -1,0 +1,2 @@
+# gives test errors during build
+>=dev-lang/python-3.13 -pgo
