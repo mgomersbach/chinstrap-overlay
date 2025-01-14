@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.19](https://github.com/mgomersbach/chinstrap-overlay/compare/1.4.18...1.4.19) (2025-01-14)
+
+
+### Bug Fixes
+
+* **ebuild:** updateworld ebuild update ([d82517a](https://github.com/mgomersbach/chinstrap-overlay/commit/d82517a4e95c3f3f8bc425c8d23963ee78301406))
+
 ## [1.4.18](https://github.com/mgomersbach/chinstrap-overlay/compare/1.4.17...1.4.18) (2024-11-02)
 
 
