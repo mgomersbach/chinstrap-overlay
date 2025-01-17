@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.20](https://github.com/mgomersbach/chinstrap-overlay/compare/1.4.19...1.4.20) (2025-01-17)
+
+
+### Bug Fixes
+
+* **salt:** remove mask and update to last version ([1d42a23](https://github.com/mgomersbach/chinstrap-overlay/commit/1d42a2380e99492d8c67d03b17277cb89ab731f9))
+
 ## [1.4.19](https://github.com/mgomersbach/chinstrap-overlay/compare/1.4.18...1.4.19) (2025-01-14)
 
 
