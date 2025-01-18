@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.21](https://github.com/mgomersbach/chinstrap-overlay/compare/1.4.20...1.4.21) (2025-01-18)
+
+
+### Bug Fixes
+
+* **dosbox:** update ebuild from guru overlay ([b08edd2](https://github.com/mgomersbach/chinstrap-overlay/commit/b08edd2921583b642caf66da3da3bfee961d2175))
+
 ## [1.4.20](https://github.com/mgomersbach/chinstrap-overlay/compare/1.4.19...1.4.20) (2025-01-17)
 
 
