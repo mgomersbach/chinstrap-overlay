@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.22](https://github.com/mgomersbach/chinstrap-overlay/compare/1.4.21...1.4.22) (2025-03-27)
+
+
+### Bug Fixes
+
+* **ebuild:** add ebuilds for mcp-proxy ([10b3718](https://github.com/mgomersbach/chinstrap-overlay/commit/10b3718a79a27663584b846d9b4f8d2a1e999cbc))
+
 ## [1.4.21](https://github.com/mgomersbach/chinstrap-overlay/compare/1.4.20...1.4.21) (2025-01-18)
 
 
