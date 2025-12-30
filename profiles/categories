@@ -1,9 +1,8 @@
-app-editors
-app-emulation
 app-shells
 dev-php
+dev-python
 games-emulation
 media-gfx
-net-im
+net-proxy
 sys-apps
 x11-themes

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>markgomersbach@gmail.com</email>
+	</maintainer>
+	<longdescription>
+		Custom Portage package sets for Chinstrap overlay.
+		Provides @tc set for toolchain packages.
+	</longdescription>
+	<upstream>
+		<remote-id type="github">mgomersbach/chinstrap-overlay</remote-id>
+	</upstream>
+</pkgmetadata>
