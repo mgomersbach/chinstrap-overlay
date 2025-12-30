@@ -1,19 +1,18 @@
-name: trigger gitlab job
+name: Trigger GitLab Pipeline
+
 on:
   push:
-    branches:
-      - master
+    branches: [master]
 
 jobs:
-
-  build:
-    name: Build
+  trigger:
+    name: Trigger GitLab CI
     runs-on: ubuntu-latest
     steps:
-    - name: trigger Job
-      uses: appleboy/gitlab-ci-action@master
-      with:
-        host: "https://git.gomersbach.nl"
-        token: ${{ secrets.GITLABTOKEN }}
-        project_id: 62
-        ref: master
+      - name: Trigger GitLab pipeline
+        uses: ghcr.io/appleboy/gitlab-ci-action@v1.3.0
+        with:
+          host: "https://git.gomersbach.nl"
+          token: ${{ secrets.GITLABTOKEN }}
+          project_id: 62
+          ref: master
