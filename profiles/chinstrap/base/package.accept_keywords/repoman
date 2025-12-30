@@ -1,4 +1,0 @@
-# required by app-portage/repoman-2.3.6::gentoo
-# required by @system
-# required by @world (argument)
-=dev-python/lxml-4.1.1 ~*
