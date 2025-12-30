@@ -1,16 +1,5 @@
 app-metrics/prometheus ~*
-app-metrics/alertmanager ~*
 app-metrics/node_exporter ~*
 
-# required by app-metrics/process-exporter (argument)
-app-metrics/process-exporter ~amd64
-# required by app-metrics/bind_exporter (argument)
-app-metrics/bind_exporter ~amd64
-# required by app-metrics/mysqld_exporter (argument)
-app-metrics/mysqld_exporter ~amd64
 # required by app-metrics/nginx-vts-exporter (argument)
 app-metrics/nginx-vts-exporter ~amd64
-# required by app-metrics/postfix_exporter (argument)
-app-metrics/postfix_exporter ~amd64
-# required by app-metrics/blackbox_exporter (argument)
-app-metrics/blackbox_exporter ~amd64

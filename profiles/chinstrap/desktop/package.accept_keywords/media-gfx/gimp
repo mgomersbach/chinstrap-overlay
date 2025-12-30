@@ -6,4 +6,4 @@ media-libs/gegl ~*
 
 # for gegl
 media-libs/libnsgif ~*
-dev-util/netsurf-buildsystem ~*
+dev-build/netsurf-buildsystem ~*

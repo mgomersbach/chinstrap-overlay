@@ -1,2 +1,2 @@
 # Needed for rootless podman
-app-emulation/slirp4netns ~*
+app-containers/slirp4netns ~*

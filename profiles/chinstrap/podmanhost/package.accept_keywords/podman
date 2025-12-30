@@ -7,6 +7,5 @@ app-containers/containers-storage ~*
 app-containers/crun ~*
 app-containers/netavark ~*
 app-containers/podman ~*
-app-containers/skopeo ~*
 net-misc/passt ~*
 sys-fs/fuse-overlayfs ~*

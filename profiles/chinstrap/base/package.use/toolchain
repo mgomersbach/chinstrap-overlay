@@ -1,6 +1,5 @@
-sys-devel/llvm clang
+llvm-core/llvm clang
 sys-devel/gcc go
-dev-devel/clang static-analyzer
 dev-lang/rust clang cargo profiler rustfmt
-sys-libs/compiler-rt clang
+llvm-runtimes/compiler-rt clang
 virtual/rust profiler rustfmt

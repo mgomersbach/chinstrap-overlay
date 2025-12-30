@@ -1,4 +1,0 @@
-# required by media-video/vlc-2.2.4::gentoo[mtp]
-# required by media-video/vlc:0/5-8 (argument)
-=media-libs/libmtp-1.1.12 ~amd64
-

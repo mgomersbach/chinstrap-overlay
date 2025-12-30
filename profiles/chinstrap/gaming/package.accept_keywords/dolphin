@@ -1,4 +1,0 @@
-# required by games-emulation/dolphin-9999::gentoo
-# required by games-emulation/dolphin (argument)
-=net-libs/enet-1.3.13 ~*
-

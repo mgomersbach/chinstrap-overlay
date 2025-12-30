@@ -1,4 +1,3 @@
-# include portage integration and remove deprecated dev-python/mysql-python dep
 app-admin/salt portage -mysql -drafts
 net-libs/zeromq -drafts
 

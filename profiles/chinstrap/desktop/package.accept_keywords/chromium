@@ -1,4 +1,3 @@
-www-client/chromium ~*
 
 dev-libs/re2 ~*
 x11-libs/pango ~*

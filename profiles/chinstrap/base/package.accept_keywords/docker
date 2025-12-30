@@ -1,16 +1,6 @@
 sys-libs/libseccomp ~*
-dev-go/blackfriday ~*
-dev-go/sanitized-anchor-name ~*
 dev-go/go-md2man ~*
-app-containers/docker-machine ~*
-app-containers/docker-swarm ~*
-app-containers/docker-compose ~*
 dev-python/jsonschema ~*
-dev-python/dockerpty ~*
-dev-python/functools32 ~*
 dev-python/strict-rfc3339 ~*
 dev-python/websocket-client ~*
-dev-python/docker-py ~*
 dev-python/webcolors ~*
-dev-python/texttable ~*
-dev-python/vcversioner ~*
