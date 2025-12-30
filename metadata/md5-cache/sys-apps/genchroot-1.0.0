@@ -1,0 +1,10 @@
+DEFINED_PHASES=install
+DESCRIPTION=Small bashscript to aid in chroots
+EAPI=7
+HOMEPAGE=https://github.com/mgomersbach/genchroot
+KEYWORDS=amd64
+LICENSE=GPL-2
+RDEPEND=sys-apps/coreutils
+SLOT=0
+SRC_URI=https://github.com/mgomersbach/genchroot/archive/1.0.0.tar.gz -> genchroot-1.0.0.tar.gz
+_md5_=291c97f9dc732a97f052b22205425c26

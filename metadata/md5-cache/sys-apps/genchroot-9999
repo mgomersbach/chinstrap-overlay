@@ -1,0 +1,12 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=install unpack
+DESCRIPTION=Small bashscript to aid in chroots
+EAPI=7
+HOMEPAGE=https://github.com/mgomersbach/genchroot
+INHERIT=git-r3
+LICENSE=GPL-2
+PROPERTIES=live
+RDEPEND=sys-apps/coreutils
+SLOT=0
+_eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81
+_md5_=bb68b10bd4fa03e3ef20f0172ed0b859
