@@ -1,6 +1,5 @@
 dev-lang/php -xpm bcmath cgi curl enchant exif fileinfo fpm ftp gd imap intl json mhash mysql mysqli opcache pcntl pdo phar soap sockets spell sysvipc tidy xml xmlreader xmlrpc xmlwriter xslt zip
 app-eselect/eselect-php fpm
-dev-php/PEAR-MDB2 mysql mysqli
 
 # Prevent full X pull
 gnome-base/librsvg -tools -vala

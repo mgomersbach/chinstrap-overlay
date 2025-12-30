@@ -1,7 +1,6 @@
 mail-client/thunderbird ~*
 
 # required by mail-client/thunderbird [crypt]
-x11-plugins/enigmail ~*
 
 # required by dev-db/sqlite [icu]
 # required by mail-client/thunderbird [system-sqlite]

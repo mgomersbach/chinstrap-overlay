@@ -1,25 +1,22 @@
 app-crypt/rhash ~*
-app-vim/llvm-vim ~*
 dev-libs/isl ~*
-dev-util/cmake ~*
-dev-util/systemtap ~*
-sys-cluster/openmpi ~*
-sys-devel/clang ~*
-sys-devel/clang-common ~*
-sys-devel/clang-runtime ~*
+dev-build/cmake ~*
+dev-debug/systemtap ~*
+llvm-core/clang ~*
+llvm-core/clang-common ~*
+llvm-runtimes/clang-runtime ~*
 sys-devel/distcc ~*
 sys-devel/gcc-config ~*
-sys-devel/gcc:13 ~*
-sys-devel/lld ~*
-sys-devel/lld-toolchain-symlinks ~*
-sys-devel/llvm ~*
-sys-devel/llvm-common ~*
-sys-devel/llvm-toolchain-symlinks ~*
-sys-devel/llvmgold ~*
-sys-devel/make ~*
-sys-libs/compiler-rt ~*
-sys-libs/compiler-rt-sanitizers ~*
-sys-libs/libomp ~*
+llvm-core/lld ~*
+llvm-core/lld-toolchain-symlinks ~*
+llvm-core/llvm ~*
+llvm-core/llvm-common ~*
+llvm-core/llvm-toolchain-symlinks ~*
+llvm-core/llvmgold ~*
+dev-build/make ~*
+llvm-runtimes/compiler-rt ~*
+llvm-runtimes/compiler-rt-sanitizers ~*
+llvm-runtimes/openmp ~*
 
 # version 1 has eselect bug
 dev-util/shadowman ~*
@@ -29,4 +26,3 @@ net-libs/rpcsvc-proto ~*
 net-libs/libnsl ~*
 
 # Needed for unmasked rust with cargo
-virtual/cargo ~*

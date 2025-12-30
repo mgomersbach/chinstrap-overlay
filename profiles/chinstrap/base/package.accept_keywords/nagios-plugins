@@ -1,2 +1,1 @@
 # stable doenst build with new mysql https://github.com/gentoo/gentoo/pull/5876/commits/dad08686ab22c8e9d540473ed1d62be0ddb07248
-net-analyzer/nagios-plugins ~*

@@ -1,10 +1,5 @@
-app-text/calibre ~*
 
-virtual/podofo-build ~*
 dev-python/pygments ~*
-dev-python/apsw ~*
 dev-libs/dbus-glib ~*
 dev-python/python-dateutil ~*
-app-text/podofo ~*
 dev-python/dbus-python ~*
-dev-python/html5-parser ~*

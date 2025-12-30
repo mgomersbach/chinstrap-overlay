@@ -8,4 +8,3 @@ games-misc/opensfx ~*
 games-misc/opengfx ~*
 games-util/grfcodec ~*
 games-util/catcodec ~*
-dev-libs/icu-layoutex ~*

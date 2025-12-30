@@ -1,3 +1,2 @@
 # Needed for ffmpeg >=4 support
->=media-plugins/gst-plugins-libav-1.14.4.4.1_p20181115 ~*
 media-libs/gegl ~*

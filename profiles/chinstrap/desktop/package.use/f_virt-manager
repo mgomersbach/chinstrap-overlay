@@ -5,5 +5,4 @@ net-libs/gtk-vnc python
 app-emulation/libvirt-glib python
 net-misc/spice-gtk mpjeg
 app-emulation/virt-viewer spice
-net-misc/vinagre spice
 dev-libs/libxml2 python

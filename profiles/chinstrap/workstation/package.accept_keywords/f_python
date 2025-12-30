@@ -1,7 +1,3 @@
-dev-python/yapf ~*
-dev-python/typed-ast ~*
-dev-python/mypy_extensions ~*
+dev-python/mypy-extensions ~*
 dev-python/mypy ~*
-dev-python/pylama ~*
-dev-python/pep257 ~*
 

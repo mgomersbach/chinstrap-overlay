@@ -1,2 +1,2 @@
 # Have gold for lto available
-sys-devel/llvm gold
+llvm-core/llvm gold

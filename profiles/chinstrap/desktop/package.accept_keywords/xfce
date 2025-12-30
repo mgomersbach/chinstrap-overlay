@@ -13,15 +13,13 @@ xfce-extra/thunar-archive-plugin ~*
 xfce-extra/thunar-media-tags-plugin ~*
 xfce-extra/thunar-shares-plugin ~*
 xfce-extra/thunar-vcs-plugin ~*
-xfce-extra/thunar-volman ~*
+xfce-base/thunar-volman ~*
 xfce-extra/xfce4-notifyd ~*
 xfce-extra/xfce4-panel-profiles ~*
-xfce-extra/xfce4-weather-plugin ~*
-xfce-extra/xfce4-xkb-plugin ~*
 
 # required for thunar
 sys-fs/fuse ~*
 sys-fs/fuse-common ~*
 
 # GCC 10
-xfce-extra/xfce4-power-manager ~*
+xfce-base/xfce4-power-manager ~*

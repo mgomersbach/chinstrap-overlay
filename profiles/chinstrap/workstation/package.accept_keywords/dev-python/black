@@ -2,8 +2,6 @@ dev-python/black **
 
 # required by dev-python/black-9999::local
 # required by black (argument)
->=dev-python/attrs-18.1.0 ~amd64
 # required by dev-python/black-9999::local
 # required by black (argument)
->=dev-python/toml-0.9.6 ~amd64
 

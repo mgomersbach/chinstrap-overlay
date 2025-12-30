@@ -1,20 +1,14 @@
 dev-libs/double-conversion ~*
 
-dev-python/PyQt5 ~*
-# required by dev-python/PyQt5 ~*
 dev-python/sip ~*
-dev-python/PyQt5-sip ~*
-dev-python/PyQt-builder ~*
 
 # required by x11-libs/pango-1.42.0::gentoo
 # required by dev-qt/qtwidgets-5.9.4-r1::gentoo[gtk]
 # required by dev-qt/qtwebengine-5.9.4::gentoo[widgets]
-# required by dev-python/PyQt5-5.10.1::gentoo[webengine]
 # required by media-sound/alsa-utils-1.1.2::gentoo
 dev-libs/fribidi ~*
 # required by media-libs/harfbuzz-1.7.6::gentoo[fontconfig]
 # required by dev-qt/qtwebengine-5.9.4::gentoo
-# required by dev-python/PyQt5-5.10.1::gentoo[webengine]
 # required by media-sound/alsa-utils-1.1.2::gentoo
 # required by @system
 # required by @world (argument)

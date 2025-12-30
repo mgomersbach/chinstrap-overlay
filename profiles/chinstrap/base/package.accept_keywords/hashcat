@@ -1,5 +1,3 @@
 # required by hashcat (argument)
-app-crypt/hashcat ~*
-app-arch/lzma ~*
 
 

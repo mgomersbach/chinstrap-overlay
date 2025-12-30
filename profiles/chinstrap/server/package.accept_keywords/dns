@@ -1,3 +1,0 @@
-# required by net-dns/dnssec-tools (argument)
-dev-perl/Getopt-GUI-Long ~*
-net-dns/dnssec-tools ~*

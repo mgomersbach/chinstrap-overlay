@@ -1,5 +1,4 @@
 # PyQt
-dev-python/PyQt5 widgets gui multimedia network printsupport sql sensors xmlpatterns webchannel webengine webkit websockets x11extras
 
 # Widget support
 dev-qt/qtdeclarative widgets
@@ -7,10 +6,8 @@ dev-qt/qtwebengine widgets
 dev-qt/qtmultimedia widgets qml
 
 # Multimedia
-dev-qt/qtwebkit multimedia qml printsupport -gstreamer
 
 dev-qt/linguist-tools qml
-dev-qt/qtbluetooth qml
 dev-qt/qtsensors qml
 dev-qt/qtwebchannel qml
 dev-qt/qtwebsockets qml

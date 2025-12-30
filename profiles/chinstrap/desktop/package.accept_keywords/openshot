@@ -1,5 +1,0 @@
-# required by media-libs/libopenshot
-net-libs/cppzmq ~*
-media-libs/libopenshot ~*
-media-libs/libopenshot-audio ~*
-media-video/openshot ~*

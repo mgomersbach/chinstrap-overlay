@@ -1,4 +1,3 @@
-dev-libs/amdgpu-pro-opencl ~*
 dev-libs/rocm-opencl-runtime ~*
 dev-libs/rocr-runtime ~*
 dev-util/clinfo ~*

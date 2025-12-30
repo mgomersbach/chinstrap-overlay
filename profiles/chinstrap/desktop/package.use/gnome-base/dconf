@@ -1,2 +1,2 @@
 # no dconf available that supports this
->=dev-util/meson-0.52.0
+>=dev-build/meson-0.52.0

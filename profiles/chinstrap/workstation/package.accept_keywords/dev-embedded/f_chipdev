@@ -1,3 +1,1 @@
 # needed for chip development
-dev-embedded/u-boot-tools ~*
-dev-embedded/sunxi-tools ~*
