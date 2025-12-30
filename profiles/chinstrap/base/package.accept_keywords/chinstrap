@@ -1,2 +1,2 @@
 # Use latest version by default
-sys-apps/updateworld ~*
+sys-apps/updateworld **
