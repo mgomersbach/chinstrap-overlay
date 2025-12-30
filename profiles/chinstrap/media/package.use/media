@@ -1,0 +1,24 @@
+# moved from make.defaults
+games-emulation/fceux x265
+media-libs/libheif x265
+media-libs/libsdl2 pipewire
+media-libs/libsdl3 pipewire
+media-libs/openal pipewire
+media-plugins/audacious-plugins pipewire
+media-sound/fluidsynth pipewire
+media-sound/mpd pipewire
+media-video/ffmpeg x265
+media-video/mpv pipewire
+media-video/obs-studio pipewire
+
+# pango support
+media-gfx/imagemagick pango
+media-libs/cogl pango
+media-libs/gst-plugins-base pango
+sys-boot/plymouth pango
+
+# desktop integration
+app-emulation/qemu pipewire
+dev-qt/qtmultimedia pipewire
+gui-apps/waybar pipewire
+gui-wm/gamescope pipewire

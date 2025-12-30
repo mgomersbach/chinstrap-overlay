@@ -3,26 +3,27 @@
 
 ACCEPT_LICENSE="*"
 
-NODESKTOPUSE="-cairo -cups -dbus -dri -dri3 -egl
--emerald -firefox -g3dvl -gles -gles2 -gtk -gtk3 -gtkstyle
--icons -infinality -introspection -kde
--nsplugin -openvg -osmesa -pango -pcre -pixbuf -pixman
--qt3support -qt4 -qt5 -sna -system-cairo -thunar -v4l -v4l2 -vaapi
--vdpau -vlc -volume -webstart -wxwidgets -X -xcb
--xcomposite -xorg -xrandr -xrender -xscreensaver -xv -xvmc -zeroconf"
+# Disable desktop-related flags for minimal/server systems
+NODESKTOPUSE="-cairo -cups -dbus -dri -egl
+-gles2 -gtk -introspection -kde
+-nsplugin -pcre -qt5 -v4l -vaapi
+-vdpau -wxwidgets -X -xcb
+-xcomposite -xscreensaver -xv -zeroconf"
 
+# Disable media-related flags for minimal/server systems
 NOMEDIAUSE="-a52 -aac -alsa -bluetooth -cdda -cdr -dts -dvd -dvdr
 -encode -exif -flac -gif -jpeg -lcms -mad -mms -mng -mp3 -mp4 -mpeg -ogg
--opencl -opengl -orc -pdf -png -ppds -sdl -sdl2 -svg -tiff -truetype -vorbis
+-opencl -opengl -orc -pdf -png -ppds -sdl -svg -tiff -truetype -vorbis
 -x264 -xvid"
 
-USE="${NODESKTOPUSE} ${NOMEDIAUSE} acl acpi aio asm audit
-bash-completion -berkdb bidi -bindist bzip2 brotli caps client -consolekit curl
--debug device-mapper expat fuse fontconfig -geolocation git gmp -gnutls gold gpm
-graphite gssapi http2 icu iconv inotify iptables ipv6 lto lz4
-lzma lzo maildir mpi nfs ncurses nls ntp openmp openssl pam pch
-pcre pcre16 pcre32 pgo prelink readline samba sftp sqlite ssh ssl spell
-syslog systemtap threads tools udev upnp zlib zstd"
+# Global USE flags (package-local flags moved to package.use)
+USE="${NODESKTOPUSE} ${NOMEDIAUSE} acl acpi asm audit
+bash-completion -berkdb bidi -bindist bzip2 brotli caps curl
+-debug expat fontconfig -geolocation git gmp -gnutls gpm
+http2 icu iconv inotify ipv6 lto lz4
+lzma lzo maildir mpi ncurses nls openmp pam pch
+pcre readline samba sqlite ssl spell
+syslog threads udev upnp zlib zstd"
 
 FEATURES="buildpkg clean-logs compressdebug parallel-fetch parallel-install
           binpkg-multi-instance pkgdir-index-trusted downgrade-backup

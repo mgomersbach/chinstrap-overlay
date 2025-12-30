@@ -1,0 +1,3 @@
+# moved from make.defaults
+dev-qt/qtbase gssapi
+dev-qt/qtnetwork gssapi

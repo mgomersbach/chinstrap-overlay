@@ -1,0 +1,12 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=install unpack
+DESCRIPTION=Small bashscript to automatically update @world
+EAPI=8
+HOMEPAGE=https://github.com/mgomersbach/updateworld
+INHERIT=git-r3
+LICENSE=WTFPL-2
+PROPERTIES=live
+RDEPEND=app-admin/eclean-kernel app-portage/gentoolkit sys-kernel/dracut
+SLOT=0
+_eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81
+_md5_=cf0684688e8f88df93f90f22715b1084

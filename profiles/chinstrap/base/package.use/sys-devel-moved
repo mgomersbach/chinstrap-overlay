@@ -1,0 +1,4 @@
+# profile guided optimization and graphite
+sys-devel/binutils pgo
+sys-devel/distcc gssapi
+sys-devel/gcc graphite pgo systemtap

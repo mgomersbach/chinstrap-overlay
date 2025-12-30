@@ -1,0 +1,3 @@
+# moved from make.defaults
+dev-qt/qtbase libinput tslib
+dev-qt/qtgui libinput tslib

@@ -1,0 +1,12 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=install postinst prepare unpack
+DESCRIPTION=A ready-to-use zsh configuration with plugins
+EAPI=8
+HOMEPAGE=https://github.com/robbyrussell/oh-my-zsh
+INHERIT=git-r3 readme.gentoo-r1
+LICENSE=ZSH
+PROPERTIES=live live
+RDEPEND=app-shells/zsh
+SLOT=0
+_eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81	readme.gentoo-r1	b045f3acf546393ab6b3170781875358
+_md5_=f6eec3ce3d1655fb57de95023ad16740

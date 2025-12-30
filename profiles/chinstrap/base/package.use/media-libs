@@ -1,0 +1,8 @@
+# moved from make.defaults
+media-libs/cogl pango
+media-libs/gegl sdl2
+media-libs/gst-plugins-base pango
+media-libs/harfbuzz graphite
+media-libs/libde265 tools
+media-libs/lilv tools
+media-libs/qhull tools

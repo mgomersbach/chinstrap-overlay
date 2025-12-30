@@ -1,12 +1,17 @@
 extends:
-  - '@commitlint/config-lerna-scopes'
   - '@commitlint/config-conventional'
 rules:
+  # Allow any case in subject (for package names, etc.)
   subject-case:
     - 0
     - always
-    - 'sentence-case'
+    - sentence-case
   header-case:
     - 0
     - always
-    - 'sentence-case'
+    - sentence-case
+  # Allow longer bodies for detailed commit messages
+  body-max-line-length:
+    - 0
+    - always
+    - 200
