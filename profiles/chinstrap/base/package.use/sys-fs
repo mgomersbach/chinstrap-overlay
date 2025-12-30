@@ -1,0 +1,5 @@
+# moved from make.defaults
+sys-fs/cryptsetup ssh
+sys-fs/e2fsprogs fuse tools
+sys-fs/ntfs3g fuse
+sys-fs/squashfs-tools-ng tools

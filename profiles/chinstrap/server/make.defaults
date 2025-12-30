@@ -1,7 +1,8 @@
 # Copyright 2004-2022 Gentoo Foundation.
 # Distributed under the terms of the GNU General Public License v2
 
-USE="ldap memcached mysql pdo sasl -apache2"
+# Global server USE flags (pdo moved to package.use)
+USE="ldap memcached mysql sasl -apache2"
 
 NGINX_MODULES_HTTP="access addition auth_basic auth_pam auth_ldap autoindex brotli
 browser charset empty_gif fancyindex fastcgi flv geoip geoip2 gunzip gzip headers_more

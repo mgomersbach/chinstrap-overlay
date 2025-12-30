@@ -1,0 +1,4 @@
+# moved from make.defaults
+sys-libs/glibc systemtap
+sys-libs/libblockdev device-mapper tools
+sys-libs/libcap tools

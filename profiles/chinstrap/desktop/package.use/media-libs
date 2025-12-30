@@ -1,0 +1,5 @@
+# moved from make.defaults
+media-libs/cogl kms
+media-libs/gst-plugins-base gbm
+media-libs/libsdl2 kms
+media-libs/libsdl3 kms

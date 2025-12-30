@@ -3,22 +3,15 @@
 
 EAPI=7
 
-if [ "${PV}" = "9999" ]; then
-	inherit git-r3
-	EGIT_REPO_URI="https://github.com/mgomersbach/genchroot.git"
-	KEYWORDS="~amd64"
-else
-	SRC_URI="https://github.com/mgomersbach/genchroot/archive/${PV}.tar.gz -> ${P}.tar.gz"
-	KEYWORDS="amd64"
-fi
+inherit git-r3
 
 DESCRIPTION="Small bashscript to aid in chroots"
 HOMEPAGE="https://github.com/mgomersbach/genchroot"
+EGIT_REPO_URI="https://github.com/mgomersbach/genchroot.git"
 
 LICENSE="GPL-2"
 SLOT="0"
 
-DEPEND=""
 RDEPEND="sys-apps/coreutils"
 
 src_install() {

@@ -9,11 +9,9 @@ DESCRIPTION="Pop_Icons is the icon theme for Pop!_OS."
 HOMEPAGE="https://github.com/pop-os/icon-theme"
 if [[ ${PV} == 9999 ]]; then
 	inherit git-r3
-	SRC_URI=""
-	EGIT_REPO_URI="${HOMEPAGE}.git"
-	KEYWORDS=""
+	EGIT_REPO_URI="https://github.com/pop-os/icon-theme.git"
 else
-	SRC_URI="${HOMEPAGE}/archive/v${PV}/v${PV}.tar.gz -> ${P}.tar.gz"
+	SRC_URI="https://github.com/pop-os/icon-theme/archive/v${PV}/v${PV}.tar.gz -> ${P}.tar.gz"
 	KEYWORDS="~amd64 ~arm ~arm64 ~x86"
 fi
 

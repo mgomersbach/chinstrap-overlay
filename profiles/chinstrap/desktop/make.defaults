@@ -1,11 +1,12 @@
 # Copyright 2004-2022 Gentoo Foundation.
 # Distributed under the terms of the GNU General Public License v2
 
-USE="bluetooth cairo cups dbus dri drm egl elogind gbm
-gnome-keyring gphoto2 gstreamer gtk gtk3 introspection -kde
-kms libinput libnotify mono opengl osmesa policykit
-pulseaudio qt5 sdl sdl2 tslib udisks vdpau vaapi vnc
-vte vulkan X xcb xft -xinerama xv zeroconf"
+# Global desktop USE flags (package-local flags moved to package.use)
+USE="bluetooth cairo cups dbus dri egl elogind
+gnome-keyring gphoto2 gstreamer gtk introspection -kde
+libnotify mono opengl policykit
+pulseaudio qt5 sdl udisks vdpau vaapi vnc
+vulkan X xcb xft -xinerama xv zeroconf"
 
 INPUT_DEVICES="libinput synaptics vmmouse"
 

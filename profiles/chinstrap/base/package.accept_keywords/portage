@@ -1,5 +1,2 @@
 # required by app-admin/salt-2017.7.3::gentoo[portage]
 sys-apps/portage ~*
-
-# required for keyworded portage
-app-portage/repoman ~*

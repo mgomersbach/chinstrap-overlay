@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>markgomersbach@gmail.com</email>
+	</maintainer>
+	<use>
+		<flag name="dynrec">Enable dynamic recompilation for faster emulation</flag>
+		<flag name="fluidsynth">Enable FluidSynth for MIDI playback</flag>
+		<flag name="fpu">Enable FPU emulation support</flag>
+		<flag name="freetype">Enable FreeType font rendering</flag>
+		<flag name="midi">Enable ALSA MIDI support</flag>
+		<flag name="mt-32">Enable MT-32 emulation via munt</flag>
+		<flag name="printer">Enable printer emulation support</flag>
+		<flag name="screenshots">Enable screenshot functionality</flag>
+		<flag name="slirp">Enable libslirp for network emulation</flag>
+		<flag name="unaligned">Enable unaligned memory access optimization</flag>
+		<flag name="xbrz">Enable xBRZ graphics scaler</flag>
+	</use>
+	<upstream>
+		<remote-id type="github">joncampbell123/dosbox-x</remote-id>
+	</upstream>
+</pkgmetadata>

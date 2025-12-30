@@ -1,0 +1,10 @@
+DEFINED_PHASES=install
+DESCRIPTION=Grub2 GFX theme Steam Big Picture
+EAPI=7
+HOMEPAGE=https://github.com/mgomersbach/grub2-solarized
+KEYWORDS=~amd64 ~x86
+LICENSE=AFL-2.1
+RESTRICT=bindist mirror
+SLOT=0
+SRC_URI=https://github.com/mgomersbach/grub2-solarized/archive/master.tar.gz -> grub2-solarized-9999.tar.gz
+_md5_=e8aee5e6067d9d071687b689960315c9
