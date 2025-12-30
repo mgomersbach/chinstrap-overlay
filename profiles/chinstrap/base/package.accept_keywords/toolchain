@@ -26,3 +26,4 @@ net-libs/rpcsvc-proto ~*
 net-libs/libnsl ~*
 
 # Needed for unmasked rust with cargo
+dev-lang/rust-bin ~*
