@@ -82,6 +82,7 @@ media-sound/gsm abi_x86_32
 >=media-sound/mpg123-1.5.0 abi_x86_32
 media-sound/pulseaudio-daemon abi_x86_32
 media-video/ffmpeg abi_x86_32
+dev-libs/libcdio-paranoia abi_x86_32
 >=media-video/mjpegtools-2.1.0-r3 abi_x86_32
 >=net-dns/avahi-0.7-r1 abi_x86_32
 net-fs/samba abi_x86_32
@@ -331,3 +332,6 @@ sys-cluster/mpich abi_x86_32
 sys-libs/libunwind abi_x86_32
 virtual/rust abi_x86_32
 dev-lang/rust abi_x86_32
+
+# fluidsynth
+sys-libs/readline abi_x86_32
