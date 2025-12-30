@@ -1,0 +1,2 @@
+# moved from make.defaults
+gui-libs/wlroots drm libinput

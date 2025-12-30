@@ -1,0 +1,3 @@
+# moved from make.defaults
+media-video/ffmpeg drm
+media-video/mpv drm

@@ -1,0 +1,12 @@
+# moved from make.defaults
+dev-libs/boost tools
+dev-libs/botan tools
+dev-libs/glib systemtap
+dev-libs/libbytesize tools
+dev-libs/libgit2 gssapi ssh
+dev-libs/libpcre pcre16 pcre32
+dev-libs/libpcre2 pcre16 pcre32
+dev-libs/libzip tools
+dev-libs/ncnn tools
+dev-libs/serd tools
+dev-libs/sord tools
