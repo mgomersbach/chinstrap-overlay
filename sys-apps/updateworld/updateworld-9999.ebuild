@@ -3,26 +3,20 @@
 
 EAPI=8
 
-if [ "${PV}" = "9999" ]; then
-	inherit git-r3
-	EGIT_REPO_URI="https://github.com/mgomersbach/updateworld.git"
-	KEYWORDS="~amd64"
-else
-	SRC_URI="https://github.com/mgomersbach/updateworld/archive/${PV}.tar.gz -> ${P}.tar.gz"
-	KEYWORDS="amd64"
-fi
+inherit git-r3
 
 DESCRIPTION="Small bashscript to automatically update @world"
 HOMEPAGE="https://github.com/mgomersbach/updateworld"
+EGIT_REPO_URI="https://github.com/mgomersbach/updateworld.git"
 
 LICENSE="WTFPL-2"
 SLOT="0"
 
-DEPEND=""
 RDEPEND="
-app-admin/eclean-kernel
-app-portage/gentoolkit
-sys-kernel/dracut"
+	app-admin/eclean-kernel
+	app-portage/gentoolkit
+	sys-kernel/dracut
+"
 
 src_install() {
 	exeinto /usr/bin

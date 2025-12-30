@@ -5,6 +5,7 @@
 		<email>markgomersbach@gmail.com</email>
 	</maintainer>
 	<upstream>
-		<remote-id type="github">mgomersbach/updateworld</remote-id>
+		<remote-id type="github">florimondmanca/httpx-sse</remote-id>
+		<remote-id type="pypi">httpx-sse</remote-id>
 	</upstream>
 </pkgmetadata>
