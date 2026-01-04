@@ -1,5 +1,5 @@
 # moved from make.defaults
-app-emulation/libvirt iscsi virt-network
+app-emulation/libvirt iscsi virt-network libvirtd
 app-emulation/qemu iscsi
 dev-debug/systemtap libvirt
 sys-kernel/installkernel dracut

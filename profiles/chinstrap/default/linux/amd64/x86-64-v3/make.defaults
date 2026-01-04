@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 
 # Portage stuff
-CFLAGS="-march=x86-64-v3 -mtune=generic -mmmx -msse -msse2 -msse3 -mcx16 -msahf -mpopcnt -mfxsr -mavx -mavx2 -mbmi -mbmi2 -mf16c -mfma -mabm -mmovbe -mxsave -mfpmath=both -pipe -O2 -frecord-gcc-switches -fstack-protector-strong -ftree-vectorize -ftree-loop-distribute-patterns"
+CFLAGS="-march=x86-64-v3 -mtune=generic -mmmx -msse -msse2 -msse3 -mcx16 -msahf -mpopcnt -mfxsr -mavx -mavx2 -mbmi -mbmi2 -mf16c -mfma -mabm -mmovbe -mxsave -pipe -O2 -frecord-gcc-switches -fstack-protector-strong -ftree-vectorize -ftree-loop-distribute-patterns"
 CXXFLAGS="${CFLAGS}"
 FCFLAGS="${CFLAGS}"
 FFLAGS="${CFLAGS}"
