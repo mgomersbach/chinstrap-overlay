@@ -1,2 +1,2 @@
 # moved from make.defaults
-net-fs/samba client
+net-fs/samba client python
