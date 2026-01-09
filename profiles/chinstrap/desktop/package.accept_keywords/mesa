@@ -1,2 +1,3 @@
 media-libs/mesa ~*
 llvm-core/clang-toolchain-symlinks ~*
+dev-util/mesa_clc ~*
