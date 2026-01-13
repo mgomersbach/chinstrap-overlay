@@ -17,6 +17,7 @@ dev-build/make ~*
 llvm-runtimes/compiler-rt ~*
 llvm-runtimes/compiler-rt-sanitizers ~*
 llvm-runtimes/openmp ~*
+dev-libs/nspr ~*
 
 # version 1 has eselect bug
 dev-util/shadowman ~*
