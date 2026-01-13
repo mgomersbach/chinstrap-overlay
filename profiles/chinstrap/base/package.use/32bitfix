@@ -1,0 +1,2 @@
+llvm-runtimes/openmp -abi_x86_32
+llvm-runtimes/clang-runtime -abi_x86_32
