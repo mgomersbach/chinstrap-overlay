@@ -6,5 +6,5 @@ USE="alsa cdda dvb dvd encode
 exif ffmpeg flac gif jack jpeg
 jpeg2k ladspa lcms libsamplerate mp3
 ogg openal openexr opus orc pdf png portaudio
-postscript raw speex svg tiff
+postscript raw speex tiff
 truetype v4l vorbis webp x264 xpm"

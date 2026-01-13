@@ -5,7 +5,7 @@
 USE="bluetooth cairo cups dbus dri egl elogind
 gnome-keyring gphoto2 gstreamer gtk introspection -kde
 libnotify mono opengl policykit
-pulseaudio qt5 sdl udisks vdpau vaapi vnc
+pulseaudio qt5 sdl svg udisks vdpau vaapi vnc
 vulkan X xcb xft -xinerama xv zeroconf"
 
 INPUT_DEVICES="libinput synaptics vmmouse"
