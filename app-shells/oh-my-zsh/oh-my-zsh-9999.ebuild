@@ -1,4 +1,4 @@
-# Copyright 1999-2020 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -7,7 +7,7 @@ EGIT_REPO_URI="https://github.com/robbyrussell/${PN}.git"
 inherit git-r3 readme.gentoo-r1
 
 DESCRIPTION="A ready-to-use zsh configuration with plugins"
-HOMEPAGE="https://github.com/robbyrussell/oh-my-zsh"
+HOMEPAGE="https://github.com/ohmyzsh/ohmyzsh"
 
 LICENSE="ZSH"
 SLOT="0"

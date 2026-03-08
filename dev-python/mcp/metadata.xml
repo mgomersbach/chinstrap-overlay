@@ -4,6 +4,11 @@
 	<maintainer type="person">
 		<email>markgomersbach@gmail.com</email>
 	</maintainer>
+	<use>
+		<flag name="cli">Enable command-line interface support via typer</flag>
+		<flag name="rich">Enable rich text output support</flag>
+		<flag name="ws">Enable WebSocket transport support</flag>
+	</use>
 	<upstream>
 		<remote-id type="github">modelcontextprotocol/python-sdk</remote-id>
 		<remote-id type="pypi">mcp</remote-id>
