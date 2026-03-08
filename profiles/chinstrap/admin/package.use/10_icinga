@@ -1,4 +1,4 @@
-net-analyzer/icinga2 nano-syntax mail
+net-analyzer/icinga2 mail
 net-analyzer/monitoring-plugins dns fping game snmp
 net-analyzer/net-snmp python netlink
 net-analyzer/pnp4nagios -nagios icinga

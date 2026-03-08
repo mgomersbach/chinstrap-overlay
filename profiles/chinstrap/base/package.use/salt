@@ -1,4 +1,4 @@
-app-admin/salt portage -mysql -drafts
+app-admin/salt portage
 net-libs/zeromq -drafts
 
 # needed for libvirt support in salt

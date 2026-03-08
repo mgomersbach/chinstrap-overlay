@@ -1,2 +1,1 @@
-# needed for mp3 useflag
-media-libs/sdl2-mixer mad wav midi timidity fluidsynth
+media-libs/sdl2-mixer wav midi timidity fluidsynth
