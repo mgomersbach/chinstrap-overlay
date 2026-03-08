@@ -1,4 +1,3 @@
 # moved from make.defaults
 media-video/ffmpeg openssl ssh
 media-video/mpv tools
-media-video/rtmpdump tools

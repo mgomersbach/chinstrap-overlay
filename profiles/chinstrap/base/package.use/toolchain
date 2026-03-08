@@ -1,3 +1,1 @@
 sys-devel/gcc go
-dev-lang/rust rustfmt
-llvm-runtimes/compiler-rt clang

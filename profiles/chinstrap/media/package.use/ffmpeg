@@ -1,2 +1,2 @@
-media-video/ffmpeg amr bluray cdio chromium dav1d fdk gsm libass libsoxr lv2 postproc twolame theora vpx vmaf xvid zvbi zimg srt svt-av1
+media-video/ffmpeg amr bluray cdio chromium fdk gsm libsoxr lv2 twolame theora vpx vmaf xvid zvbi zimg srt svt-av1
 media-libs/libbluray aacs

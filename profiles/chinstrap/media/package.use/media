@@ -13,9 +13,6 @@ media-video/obs-studio pipewire
 
 # pango support
 media-gfx/imagemagick pango
-media-libs/cogl pango
-media-libs/gst-plugins-base pango
-sys-boot/plymouth pango
 
 # desktop integration
 app-emulation/qemu pipewire

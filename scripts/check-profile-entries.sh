@@ -27,6 +27,7 @@ ISSUES=0
 declare -A CACHE_PKG_EXISTS
 declare -A CACHE_PKG_STABLE
 declare -A CACHE_PKG_IUSE
+declare -A CACHE_PKG_IUSE_DEFAULTS
 
 find_overlay_root() {
   local dir="$1"
@@ -137,9 +138,22 @@ pkg_get_iuse() {
     all_iuse="$all_iuse $iuse"
   done < <(list_cache_files "$catpkg")
 
+  local defaults
+  defaults=$(echo "$all_iuse" | tr ' ' '\n' | grep '^+' | sed 's/^+//' | sort -u | tr '\n' ' ')
+  CACHE_PKG_IUSE_DEFAULTS[$catpkg]="$defaults"
+
   all_iuse=$(echo "$all_iuse" | tr ' ' '\n' | sed 's/^[+-]//' | sort -u | tr '\n' ' ')
   CACHE_PKG_IUSE[$catpkg]="$all_iuse"
   echo "$all_iuse"
+}
+
+pkg_get_iuse_defaults() {
+  local catpkg="$1"
+
+  if [[ -z ${CACHE_PKG_IUSE[$catpkg]+x} ]]; then
+    pkg_get_iuse "$catpkg" >/dev/null
+  fi
+  echo "${CACHE_PKG_IUSE_DEFAULTS[$catpkg]}"
 }
 
 read_entries() {
@@ -228,6 +242,24 @@ check_use_entry() {
   if [[ -n $bad_flags ]]; then
     ewarn "${HILITE}${rel_file}${NORMAL}: ${atom}: unknown USE flag(s):${bad_flags}"
     ISSUES=$((ISSUES + 1))
+  fi
+
+  # Check for redundant flags (enabling a flag that's already on by default)
+  local defaults
+  defaults=$(pkg_get_iuse_defaults "$catpkg")
+  if [[ -n $defaults ]]; then
+    local redundant_flags=""
+    for flag in $flags; do
+      # Only check positive flags (not negated with -)
+      [[ "$flag" == -* ]] && continue
+      if echo " $defaults " | grep -q " ${flag} "; then
+        redundant_flags="${redundant_flags} ${flag}"
+      fi
+    done
+    if [[ -n $redundant_flags ]]; then
+      ewarn "${HILITE}${rel_file}${NORMAL}: ${atom}: redundant USE flag(s) (enabled by default):${redundant_flags}"
+      ISSUES=$((ISSUES + 1))
+    fi
   fi
 }
 

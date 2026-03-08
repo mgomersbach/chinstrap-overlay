@@ -1,6 +1,6 @@
 # moved from make.defaults
-net-libs/gnutls openssl tools
+net-libs/gnutls tools
 net-libs/libsoup gssapi
 net-libs/libsrtp openssl
-net-libs/libssh gssapi sftp
+net-libs/libssh gssapi
 net-libs/libwebsockets client

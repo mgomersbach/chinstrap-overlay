@@ -1,8 +1,6 @@
 # PyQt
 
 # Widget support
-dev-qt/qtdeclarative widgets
-dev-qt/qtwebengine widgets
 dev-qt/qtmultimedia widgets qml
 
 # Multimedia

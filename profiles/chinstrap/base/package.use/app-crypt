@@ -1,4 +1,3 @@
 # moved from make.defaults
 app-crypt/gnupg tools
 app-crypt/swtpm fuse
-app-crypt/tpm2-tss openssl
