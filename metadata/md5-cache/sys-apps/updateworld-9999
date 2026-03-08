@@ -9,4 +9,4 @@ PROPERTIES=live
 RDEPEND=app-admin/eclean-kernel app-portage/gentoolkit sys-kernel/dracut
 SLOT=0
 _eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81
-_md5_=cf0684688e8f88df93f90f22715b1084
+_md5_=cb8e306c825a677d8e39e51537c726f8

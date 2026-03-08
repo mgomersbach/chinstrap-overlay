@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Trigger GitLab pipeline
-        uses: ghcr.io/appleboy/gitlab-ci-action@v1.3.0
+        uses: appleboy/gitlab-ci-action@master
         with:
           host: "https://git.gomersbach.nl"
           token: ${{ secrets.GITLABTOKEN }}

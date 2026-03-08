@@ -7,4 +7,4 @@ LICENSE=AFL-2.1
 RESTRICT=bindist mirror
 SLOT=0
 SRC_URI=https://github.com/mgomersbach/grub2-solarized/archive/master.tar.gz -> grub2-solarized-9999.tar.gz
-_md5_=e8aee5e6067d9d071687b689960315c9
+_md5_=064f987a1f880ea5bcef123eaaaf205b
