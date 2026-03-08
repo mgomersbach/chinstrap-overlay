@@ -201,9 +201,13 @@ check_keywords_entry() {
     fi
   fi
 
-  if [[ $atom == [=\<\>~]* ]] && pkg_has_stable "$catpkg"; then
-    ewarn "${HILITE}${rel_file}${NORMAL}: ${atom}: stable version available in gentoo"
-    ISSUES=$((ISSUES + 1))
+  if pkg_has_stable "$catpkg"; then
+    if [[ $atom == [=\<\>~]* ]]; then
+      ewarn "${HILITE}${rel_file}${NORMAL}: ${atom}: stable version available in gentoo"
+      ISSUES=$((ISSUES + 1))
+    elif [[ $CHECK_ALL_STABLE == true ]]; then
+      einfo "${HILITE}${rel_file}${NORMAL}: ${atom}: stable version available in gentoo"
+    fi
   fi
 }
 
@@ -311,15 +315,21 @@ OVERLAY_ROOT=$(find_overlay_root "$SCRIPT_DIR") || {
 PROFILES_DIR="${OVERLAY_ROOT}/profiles"
 
 FILTER_PROFILE=""
+CHECK_ALL_STABLE=false
 while [[ $# -gt 0 ]]; do
   case "$1" in
   --profile)
     FILTER_PROFILE="$2"
     shift 2
     ;;
+  --check-stable)
+    CHECK_ALL_STABLE=true
+    shift
+    ;;
   --help | -h)
-    echo "Usage: $0 [--profile <name>]"
+    echo "Usage: $0 [--profile <name>] [--check-stable]"
     echo "  --profile <name>  Only check profiles matching <name>"
+    echo "  --check-stable    Report all keywords where a stable version exists"
     exit 0
     ;;
   *)
