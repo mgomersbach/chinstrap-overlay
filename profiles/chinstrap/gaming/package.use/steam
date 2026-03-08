@@ -1,6 +1,3 @@
-# https://github.com/anyc/steam-overlay/issues/178
-media-libs/mesa -openssl nettle
-
 # as it is needed just for its libs not its func
 net-misc/networkmanager -wifi -wext -dhclient -ppp
 
@@ -10,7 +7,6 @@ gnome-extra/zenity webkit
 net-misc/networkmanager modemmanager
 
 # runtime and vr
-games-util/steam-launcher steamruntime steamvr
 x11-base/xwayland libei
 
 # https://github.com/ValveSoftware/Source-1-Games/issues/3885
@@ -25,7 +21,6 @@ dev-libs/dbus-glib abi_x86_32
 dev-libs/elfutils abi_x86_32
 dev-libs/expat abi_x86_32
 dev-libs/glib:2 abi_x86_32
-dev-libs/libappindicator:2 abi_x86_32
 >=dev-libs/libffi-3.2.1 abi_x86_32
 dev-libs/libgcrypt abi_x86_32
 dev-libs/libgpg-error abi_x86_32
@@ -48,7 +43,6 @@ media-libs/mesa abi_x86_32
 media-libs/libdisplay-info abi_x86_32
 media-libs/openal abi_x86_32
 media-sound/apulse abi_x86_32
-media-sound/pulseaudio-daemon abi_x86_32
 >=net-libs/nghttp2-1.33.0 abi_x86_32
 net-misc/curl abi_x86_32
 net-libs/nghttp3 abi_x86_32
@@ -88,9 +82,6 @@ x11-misc/virtualgl abi_x86_32
 
 # required by net-misc/networkmanager-1.16.0::gentoo
 net-libs/libndp abi_x86_32
-
-# required by x11-libs/gdk-pixbuf-2.36.12::gentoo[jpeg2k]
->=media-libs/jasper-2.0.14 abi_x86_32
 
 # required by x11-libs/gtk+-3.24.1::gentoo[X]
 app-accessibility/at-spi2-atk abi_x86_32
@@ -156,9 +147,6 @@ media-libs/libmad abi_x86_32
 >=dev-libs/libpthread-stubs-0.4-r1 abi_x86_32
 >=x11-libs/libXau-1.0.8-r1 abi_x86_32
 >=x11-libs/libXdmcp-1.1.2-r2 abi_x86_32
-
-# required by net-libs/nghttp2-1.38.0::gentoo[cxx]
->=net-libs/http-parser-2.9.2 abi_x86_32
 
 # required by sys-libs/libcap-2.26-r2::gentoo[pam]
 >=sys-libs/pam-0-r1 abi_x86_32
@@ -269,7 +257,6 @@ dev-lang/rust-bin abi_x86_32
 # for amd pro and vulkan support
 media-libs/amdgpu-pro-vulkan abi_x86_32
 dev-util/spirv-tools abi_x86_32
-sci-libs/volk abi_x86_32
 dev-util/glslang abi_x86_32
 media-libs/glfw abi_x86_32
 dev-util/vulkan-tools abi_x86_32

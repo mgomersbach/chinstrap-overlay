@@ -1,5 +1,4 @@
-# pulls in old freerdp and causes circ dep
-media-video/vlc -freerdp bluray dirac faad fbosd fdk live rtsp twolame vcdx vpx zvbi -rdp
+media-video/vlc bluray faad fdk live twolame vpx zvbi
 
 # required by media-video/vlc-3.0.3-r1::gentoo[bidi]
 # required by vlc (argument)

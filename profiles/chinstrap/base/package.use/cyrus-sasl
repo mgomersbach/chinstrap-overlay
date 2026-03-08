@@ -1,2 +1,1 @@
-# pulls in java, which pulls in desktop
-dev-libs/cyrus-sasl -java kerberos
+dev-libs/cyrus-sasl kerberos

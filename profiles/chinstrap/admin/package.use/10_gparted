@@ -1,2 +1,0 @@
-# Support major filesystems
-sys-block/gparted fat hfs ntfs xfs

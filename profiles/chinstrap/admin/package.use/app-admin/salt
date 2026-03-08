@@ -1,5 +1,2 @@
-# Gentoo salt depends on old python lib for mysql
-app-admin/salt -mysql
-
 # required by app-admin/salt-3005::gentoo[libcloud]
 app-arch/brotli python
