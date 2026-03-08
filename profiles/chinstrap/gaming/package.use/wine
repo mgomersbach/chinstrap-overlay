@@ -281,8 +281,6 @@ dev-libs/opencl-icd-loader abi_x86_32
 # required by net-fs/samba-4.8.6-r2::gentoo
 >=dev-libs/check-0.12.0 abi_x86_32
 
->=app-emulation/wine-gecko-2.47-r1 abi_x86_32
-
 # required by media-libs/libsdl-1.2.15-r9::gentoo[sound]
 >=media-libs/audiofile-0.3.6-r3 abi_x86_32
 
@@ -308,9 +306,8 @@ dev-libs/opencl-icd-loader abi_x86_32
 >=media-libs/audiofile-0.3.6-r3 abi_x86_32
 
 # TODO: split up
-app-emulation/wine-vanilla custom-cflags dos kerberos mono opencl xcomposite
-app-emulation/wine-proton custom-cflags mono xcomposite
-virtual/wine abi_x86_32
+app-emulation/wine-vanilla custom-cflags dos kerberos opencl
+app-emulation/wine-proton custom-cflags
 
 net-fs/samba winbind
 

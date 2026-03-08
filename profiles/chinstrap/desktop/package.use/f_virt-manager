@@ -1,5 +1,1 @@
 app-emulation/virt-manager gui
-
-# required by virt-manager (argument)
-app-emulation/virt-viewer spice
-dev-libs/libxml2 python

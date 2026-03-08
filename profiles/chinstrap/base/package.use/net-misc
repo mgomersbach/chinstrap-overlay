@@ -1,4 +1,3 @@
 # moved from make.defaults
 net-misc/aria2 ssh
-net-misc/curl openssl ssh
-net-misc/gsasl client
+net-misc/curl ssh

@@ -1,2 +1,2 @@
 # Exclude system-libvpx until upstream's fix for blocker lands in portage
-mail-client/thunderbird system-icu system-jpeg -system-libvpx clang
+mail-client/thunderbird -system-libvpx

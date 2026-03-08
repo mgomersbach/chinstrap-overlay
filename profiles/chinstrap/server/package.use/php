@@ -1,4 +1,4 @@
-dev-lang/php -xpm bcmath cgi curl enchant exif fileinfo fpm ftp gd imap intl mhash mysql mysqli opcache pcntl pdo phar soap sockets spell sysvipc tidy xml xmlreader xmlwriter xslt zip
+dev-lang/php -xpm bcmath cgi curl enchant exif fpm ftp gd imap intl mhash mysql mysqli pcntl pdo soap sockets spell sysvipc tidy xmlreader xmlwriter xslt zip
 app-eselect/eselect-php fpm
 
 # Prevent full X pull

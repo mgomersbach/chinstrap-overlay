@@ -3,9 +3,6 @@ net-misc/networkmanager -wifi -wext -dhclient -ppp
 
 gnome-extra/zenity webkit
 
-# Required for bluetooth useflag
-net-misc/networkmanager modemmanager
-
 # runtime and vr
 x11-base/xwayland libei
 
