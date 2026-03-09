@@ -1,0 +1,15 @@
+# Additional 32-bit multilib dependencies
+dev-libs/json-c abi_x86_32
+dev-libs/wayland abi_x86_32
+dev-util/kcov abi_x86_32
+dev-util/vulkan-utility-libraries abi_x86_32
+gui-libs/libdecor abi_x86_32
+media-libs/kvazaar abi_x86_32
+media-libs/libaom abi_x86_32
+media-libs/libde265 abi_x86_32
+media-libs/libheif abi_x86_32
+media-libs/libsdl3 abi_x86_32
+media-libs/opusfile abi_x86_32
+media-libs/vulkan-layers abi_x86_32
+sys-auth/nss-mdns abi_x86_32
+x11-libs/libxkbcommon abi_x86_32

@@ -1,0 +1,2 @@
+sys-apps/kmod pkcs7
+sys-firmware/edk2-bin -secureboot

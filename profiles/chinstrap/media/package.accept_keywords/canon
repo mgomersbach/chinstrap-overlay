@@ -1,0 +1,10 @@
+# Photography / Image processing
+dev-python/altair ~amd64
+dev-python/canon_cr3 **
+dev-python/eel ~amd64
+dev-python/imutils ~amd64
+dev-python/pydeck ~amd64
+dev-python/pympler ~amd64
+dev-python/streamlit ~amd64
+dev-python/whichcraft ~amd64
+media-video/upscayl ~amd64

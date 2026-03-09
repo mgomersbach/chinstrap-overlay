@@ -1,1 +1,5 @@
 dev-db/mariadb extraengine galera innodb-lz4 innodb-lzo innodb-snappy sst-rsync xml sst-mariabackup
+
+# MariaDB related
+dev-perl/DBD-MariaDB -mysql
+sci-libs/gdal -mysql

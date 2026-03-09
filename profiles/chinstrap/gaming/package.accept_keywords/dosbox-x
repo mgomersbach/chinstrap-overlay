@@ -3,3 +3,4 @@ games-emulation/dosbox-x ~*
 
 # openglide
 media-libs/openglide ~*
+games-emulation/dosbox-staging ~amd64

@@ -3,3 +3,8 @@ sys-libs/libudev-compat **
 # required by games-util/steam-launcher
 dev-libs/libusb ~*
 games-util/game-device-udev-rules ~*
+
+# Gamescope
+gui-wm/gamescope ~amd64
+media-libs/vkroots ~amd64
+games-util/gamemode ~amd64

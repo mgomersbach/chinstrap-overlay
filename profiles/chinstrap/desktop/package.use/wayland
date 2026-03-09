@@ -1,0 +1,3 @@
+gui-apps/swaybg gdk-pixbuf
+gui-libs/wlroots x11-backend
+gui-wm/sway tray wallpapers
