@@ -5,6 +5,10 @@ dev-debug/systemtap ~*
 llvm-core/clang ~*
 llvm-core/clang-common ~*
 llvm-runtimes/clang-runtime ~*
+llvm-core/clang-linker-config ~*
+llvm-runtimes/clang-rtlib-config ~*
+llvm-runtimes/clang-unwindlib-config ~*
+llvm-runtimes/clang-stdlib-config ~*
 sys-devel/distcc ~*
 sys-devel/gcc-config ~*
 llvm-core/lld ~*
