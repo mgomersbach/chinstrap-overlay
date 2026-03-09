@@ -1,5 +1,6 @@
 # Hyprland compositor ecosystem
-app-misc/nwg-* ~amd64
+app-misc/nwg-look ~amd64
+app-misc/nwg-shell-wallpapers ~amd64
 dev-cpp/glaze ~amd64
 dev-cpp/sdbus-c++ ~amd64
 dev-libs/hyprgraphics ~amd64
@@ -17,7 +18,20 @@ gui-apps/hyprshade ~amd64
 gui-apps/hyprsunset ~amd64
 gui-apps/hyprswitch ~amd64
 gui-apps/hyprsysteminfo ~amd64
-gui-apps/nwg* ~amd64
+gui-apps/nwg ~amd64
+gui-apps/nwg-bar ~amd64
+gui-apps/nwg-clipman ~amd64
+gui-apps/nwg-displays ~amd64
+gui-apps/nwg-dock ~amd64
+gui-apps/nwg-dock-hyprland ~amd64
+gui-apps/nwg-drawer ~amd64
+gui-apps/nwg-hello ~amd64
+gui-apps/nwg-icon-picker ~amd64
+gui-apps/nwg-launchers ~amd64
+gui-apps/nwg-menu ~amd64
+gui-apps/nwg-panel ~amd64
+gui-apps/nwg-shell ~amd64
+gui-apps/nwg-shell-config ~amd64
 gui-apps/wlr-randr ~amd64
 gui-libs/aquamarine ~amd64
 gui-libs/gtk4-layer-shell ~amd64
