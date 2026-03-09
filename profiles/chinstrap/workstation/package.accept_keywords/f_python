@@ -1,3 +1,7 @@
-dev-python/mypy-extensions ~*
+dev-python/future ~amd64
+dev-python/librt ~amd64
 dev-python/mypy ~*
+dev-python/mypy-extensions ~*
+dev-python/nuitka ~amd64
+dev-python/numpy ~amd64
 

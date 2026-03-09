@@ -1,0 +1,6 @@
+# Photogrammetry
+sci-libs/dlib python
+
+# Trimesh / MPI
+sys-cluster/mpich fortran
+virtual/mpi fortran

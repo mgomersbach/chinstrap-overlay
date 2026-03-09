@@ -1,2 +1,2 @@
 # Add mount useflag to grub for os-prober
-sys-boot/grub mount
+sys-boot/grub grub_platforms_efi-32 mount

@@ -1,0 +1,11 @@
+# Language servers
+dev-util/bash-language-server ~amd64
+dev-util/yaml-language-server ~amd64
+
+# System tools
+dev-perl/Graph-Easy ~amd64
+dev-util/catalyst ~amd64
+dev-util/vmtouch ~amd64
+
+# Zig
+=dev-zig/zls-0.15.0 ~amd64
