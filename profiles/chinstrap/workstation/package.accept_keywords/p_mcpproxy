@@ -1,1 +1,8 @@
+dev-python/dunamai ~amd64
+dev-python/httpx-sse ~amd64
+dev-python/pydantic-settings ~amd64
+dev-python/returns ~amd64
+dev-python/sse-starlette ~amd64
 dev-python/starlette ~*
+dev-python/textual ~amd64
+dev-python/uv-dynamic-versioning ~amd64

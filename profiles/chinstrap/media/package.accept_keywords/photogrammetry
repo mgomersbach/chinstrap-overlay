@@ -1,0 +1,11 @@
+# Photogrammetry pipeline
+dev-libs/vcglib ~amd64
+dev-python/imageio ~amd64
+dev-python/lazy-loader ~amd64
+dev-python/scikit-image ~amd64
+dev-python/tifffile ~amd64
+media-libs/poselib ~amd64
+
+# Depth sensors
+media-libs/libfreenect **
+media-libs/libuvc ~amd64

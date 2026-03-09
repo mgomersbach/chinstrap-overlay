@@ -1,1 +1,7 @@
+dev-util/glslang ~amd64
+dev-util/spirv-headers ~amd64
+dev-util/spirv-tools ~amd64
+dev-util/vulkan-headers ~amd64
 dev-util/vulkan-tools ~amd64
+media-libs/shaderc ~amd64
+media-libs/vulkan-loader ~amd64

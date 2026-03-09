@@ -1,0 +1,16 @@
+# Ollama
+app-misc/ollama **
+dev-python/psutil ~amd64
+sci-libs/clblast ~amd64
+
+# llama.cpp
+sci-misc/llama-cpp ~amd64
+
+# PyTorch
+dev-cpp/frugally-deep ~amd64
+dev-cpp/functional-plus ~amd64
+dev-libs/half ~amd64
+dev-libs/libnop ~amd64
+dev-libs/nccl **
+dev-python/cppheaderparser ~amd64
+dev-python/protobuf ~amd64
