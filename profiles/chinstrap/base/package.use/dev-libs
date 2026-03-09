@@ -6,5 +6,6 @@ dev-libs/libbytesize tools
 dev-libs/libgit2 gssapi
 dev-libs/libpcre pcre16 pcre32
 dev-libs/libzip tools
+dev-libs/libxml2 python
 dev-libs/ncnn tools
 dev-libs/sord tools

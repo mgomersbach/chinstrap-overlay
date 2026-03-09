@@ -1,0 +1,6 @@
+games-util/steamtinkerlaunch **
+media-gfx/vr-video-player **
+dev-util/reshade-shaders ~amd64
+games-engines/boxtron ~amd64
+gnome-extra/yad ~amd64
+media-libs/iir1 ~amd64
