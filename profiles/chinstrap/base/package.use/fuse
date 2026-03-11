@@ -1,0 +1,2 @@
+# also enable it with /sys/module/fuse/parameters/enable_uring
+sys-fs/fuse io-uring
