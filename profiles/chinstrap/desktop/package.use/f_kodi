@@ -1,1 +1,2 @@
-media-tv/kodi cec bluray airplay webserver udf mariadb -mysql -gbm -wayland
+media-tv/kodi nfs pipewire cec bluray airplay webserver udf mariadb -mysql -gbm -wayland
+media-video/ffmpeg-compat ssh x265
