@@ -12,3 +12,6 @@ media-libs/cogl gles2
 
 # XApp integration
 x11-libs/xapp xfce
+
+# xfce-meta default settings for desktop profile
+xfce-base/xfce4-meta archive image media remote-fs search upower
