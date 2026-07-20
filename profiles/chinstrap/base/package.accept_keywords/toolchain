@@ -20,7 +20,9 @@ llvm-core/llvmgold ~*
 dev-build/make ~*
 llvm-runtimes/compiler-rt ~*
 llvm-runtimes/compiler-rt-sanitizers ~*
+llvm-runtimes/offload ~*
 llvm-runtimes/openmp ~*
+llvm-runtimes/openmp-amdgcn-amd-amdhsa ~*
 dev-libs/nspr ~*
 
 # version 1 has eselect bug

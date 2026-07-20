@@ -3,3 +3,18 @@ app-metrics/node_exporter ~*
 
 # required by app-metrics/nginx-vts-exporter (argument)
 app-metrics/nginx-vts-exporter ~amd64
+app-metrics/chrony_exporter ~amd64
+app-metrics/consul_exporter ~amd64
+app-metrics/memcached_exporter ~amd64
+app-metrics/mongodb_exporter ~amd64
+app-metrics/mysqld_exporter ~amd64
+app-metrics/nftables-exporter ~amd64
+app-metrics/portage-exporter ~amd64
+app-metrics/postfix_exporter ~amd64
+app-metrics/postgres_exporter ~amd64
+app-metrics/process-exporter ~amd64
+app-metrics/prometheus-lvm-exporter ~amd64
+app-metrics/prometheus-podman-exporter ~amd64
+app-metrics/rabbitmq_exporter ~amd64
+app-metrics/redis_exporter ~amd64
+app-metrics/smartctl_exporter ~amd64
