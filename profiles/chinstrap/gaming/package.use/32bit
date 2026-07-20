@@ -13,3 +13,6 @@ media-libs/opusfile abi_x86_32
 media-libs/vulkan-layers abi_x86_32
 sys-auth/nss-mdns abi_x86_32
 x11-libs/libxkbcommon abi_x86_32
+# curl[abi_x86_32] -> http3 via ngtcp2; gnutls[abi_x86_32] -> leancrypto
+dev-libs/leancrypto abi_x86_32
+net-libs/ngtcp2 abi_x86_32
