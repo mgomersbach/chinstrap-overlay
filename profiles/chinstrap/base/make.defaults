@@ -19,7 +19,7 @@ NOMEDIAUSE="-a52 -aac -alsa -bluetooth -cdda -cdr -dts -dvd -dvdr
 # Global USE flags (package-local flags moved to package.use)
 USE="${NODESKTOPUSE} ${NOMEDIAUSE} acl acpi asm audit
 bash-completion -berkdb bidi -bindist bzip2 brotli caps curl
--debug expat fontconfig -geolocation git gmp -gnutls gpm
+custom-cflags -debug expat fontconfig -geolocation git gmp -gnutls gpm
 http2 icu iconv inotify ipv6 lto lz4
 lzma lzo maildir mpi ncurses nls openmp pam pch
 pcre readline samba sqlite ssl spell
@@ -45,8 +45,8 @@ LINGUAS="en"
 
 RUSTFLAGS="-C opt-level=3 -C strip=symbols"
 
-PYTHON_TARGETS="python3_12 python3_13 python3_14"
-PYTHON_SINGLE_TARGET="python3_13"
+PYTHON_TARGETS="python3_13 python3_14"
+PYTHON_SINGLE_TARGET="python3_14"
 
 BINPKG_FORMAT="gpkg"
 BINPKG_COMPRESS="zstd"

@@ -306,8 +306,7 @@ dev-libs/opencl-icd-loader abi_x86_32
 >=media-libs/audiofile-0.3.6-r3 abi_x86_32
 
 # TODO: split up
-app-emulation/wine-vanilla custom-cflags dos kerberos opencl
-app-emulation/wine-proton custom-cflags
+app-emulation/wine-vanilla dos kerberos opencl
 
 net-fs/samba winbind
 
