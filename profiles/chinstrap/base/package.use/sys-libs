@@ -2,3 +2,4 @@
 sys-libs/glibc systemtap
 sys-libs/libblockdev device-mapper
 sys-libs/libcap tools
+sys-libs/gdbm berkdb

@@ -1,0 +1,2 @@
+# app-metrics/nftables-exporter reads `nft -j` output
+net-firewall/nftables json
