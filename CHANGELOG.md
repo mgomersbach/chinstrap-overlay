@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.5.2](https://github.com/mgomersbach/chinstrap-overlay/compare/1.5.1...1.5.2) (2026-07-26)
+
+
+### Bug Fixes
+
+* **lua:** set 5.1 and jit targets for legacy ebuilds ([abdc9f3](https://github.com/mgomersbach/chinstrap-overlay/commit/abdc9f3638495df3cb34585e9a2975d4b3ee3c76))
+
 ## [1.5.1](https://github.com/mgomersbach/chinstrap-overlay/compare/1.5.0...1.5.1) (2026-07-26)
 
 
