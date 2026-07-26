@@ -1,5 +1,72 @@
 # Changelog
 
+# [1.5.0](https://github.com/mgomersbach/chinstrap-overlay/compare/1.4.22...1.5.0) (2026-07-26)
+
+
+### Bug Fixes
+
+* **32bit:** reapply 32bit useflag ([12357c5](https://github.com/mgomersbach/chinstrap-overlay/commit/12357c59b88663d7fb45c18002059f1fdfc05f84))
+* **aalib:** no version ([d2dd468](https://github.com/mgomersbach/chinstrap-overlay/commit/d2dd4683f79fc7f18ba9e31763f643bbf6b87991))
+* **ABI:** prevent 32bit ABI outside gaming profile ([6bf994c](https://github.com/mgomersbach/chinstrap-overlay/commit/6bf994c4513212eb6f2fbba4d35dddb6f82e98e9))
+* **cflags:** remove old fpmath ([ec6775d](https://github.com/mgomersbach/chinstrap-overlay/commit/ec6775d6ff95826ea161799a3f10b20b74902c5e))
+* **cflags:** remove old fpmath ([94353d5](https://github.com/mgomersbach/chinstrap-overlay/commit/94353d5ce3116a009d70121986cdfef29f140df9))
+* **ci:** hide gha to check current branch instead of only main ([81e69f8](https://github.com/mgomersbach/chinstrap-overlay/commit/81e69f82c6bb24293a521ac657a679c9f0cd9118))
+* **ci:** new var name for token ([5c4f7ec](https://github.com/mgomersbach/chinstrap-overlay/commit/5c4f7ece0998a09d1382e00866f633c2698468da))
+* **ci:** pretend master for canary ([ca5f672](https://github.com/mgomersbach/chinstrap-overlay/commit/ca5f6726f1bd506de1bd4a6a3d2a1c990f6865a1))
+* **ci:** stringify commit ([ebebf44](https://github.com/mgomersbach/chinstrap-overlay/commit/ebebf44c4649bf29b1b34e5fa577b179cf461b37))
+* **ci:** update commit lint checkout version to v7 ([f2aa1a1](https://github.com/mgomersbach/chinstrap-overlay/commit/f2aa1a18eb810519ff1b63c04a40248ecbfb6a76))
+* **ci:** use correct variable name for token ([ae08374](https://github.com/mgomersbach/chinstrap-overlay/commit/ae0837431ddde74e63fd77b8a395a85dedb15af7))
+* **desktop:** add  proper useflag and keywords for current stack ([a1fa11d](https://github.com/mgomersbach/chinstrap-overlay/commit/a1fa11da130cc65a49eda670a3fdbca52eeb022b))
+* **ebuilds:** hygienic fixes thanks to pkgcheck ([054530c](https://github.com/mgomersbach/chinstrap-overlay/commit/054530c4bc25fbfbf9f2d5143f1116917d2a9538))
+* **ebuilds:** refresh ebuilds per current date ([9eb8ce8](https://github.com/mgomersbach/chinstrap-overlay/commit/9eb8ce8453c6c53f279404edcff6c7ece1eeaf2e))
+* **ebuilds:** refresh ebuilds, EAPI changes and CI ([9cc0da6](https://github.com/mgomersbach/chinstrap-overlay/commit/9cc0da6488beaefdf77956abb063883dca57f6b1))
+* **ebuilds:** refresh ebuilds, EAPI changes and CI ([c6df89f](https://github.com/mgomersbach/chinstrap-overlay/commit/c6df89fc875f89781b46738d5302ebc10e698024))
+* **ebuilds:** shadow dlib with cmake toggles passed to python wheel build ([d639f92](https://github.com/mgomersbach/chinstrap-overlay/commit/d639f92609ad02c8cb065503ce7a84f6b013c753))
+* **ebuilds:** stricter pkgcheck run and old kanidm removal ([5499c14](https://github.com/mgomersbach/chinstrap-overlay/commit/5499c1461b5963c267685e307a31f03cb1f07f21))
+* **ebuilds:** update ebuild per current date ([e27ee7c](https://github.com/mgomersbach/chinstrap-overlay/commit/e27ee7c1abee440e5e22d3c59af13c562aa033dd))
+* **ffmpeg:** remove buggy librtmp ([6dd7ac3](https://github.com/mgomersbach/chinstrap-overlay/commit/6dd7ac3e3bfc0b6d9b4f63bf90708e2241cbdcc6))
+* **flags:** move profile flags to appropriate place ([d5ffc09](https://github.com/mgomersbach/chinstrap-overlay/commit/d5ffc09b25a73cb9d82a56d9ebf92add94caecd2))
+* **fuse:** add io_uring useflag for buffered user space filesystems ([d8969d5](https://github.com/mgomersbach/chinstrap-overlay/commit/d8969d5e6ec8786663fcffcadbb8e93e093d0d66))
+* **keywords:** keywords needed encountered during fresh install ([6dcd616](https://github.com/mgomersbach/chinstrap-overlay/commit/6dcd61604433e382802421ba49f11b5e752300ab))
+* **keywords:** removal outdated keywords ([1786980](https://github.com/mgomersbach/chinstrap-overlay/commit/1786980d318cc4c0277f51799d11d6eb0f2f4d3e))
+* **keywords:** removal outdated keywords ([e5ccd9c](https://github.com/mgomersbach/chinstrap-overlay/commit/e5ccd9cd3fd403ff6d155746f11fdf3d1096ffd0))
+* **kodi:** add pipewire useflag ([0005e7e](https://github.com/mgomersbach/chinstrap-overlay/commit/0005e7e5cdd2d33e8edb9593ef55385ff365e651))
+* **libvirt:** virt-network useflag needs libvirtd useflag enabled ([8c491c8](https://github.com/mgomersbach/chinstrap-overlay/commit/8c491c88c59aeb51eadbfcd17e6e25c0d3f0f4a3))
+* **mesa:** accept keyword for mesa_clc for mesa ([97bf39c](https://github.com/mgomersbach/chinstrap-overlay/commit/97bf39cb100393f8c09f15108707595a38f73bb7))
+* **nspr:** need keyworded nspr for systemtap ([57fa3ec](https://github.com/mgomersbach/chinstrap-overlay/commit/57fa3ec0ec7d38e3b8788641d55d919fd62f58aa))
+* **profile:** move custom-cflags useflag to base profile now that cflags are simplified ([e239ba8](https://github.com/mgomersbach/chinstrap-overlay/commit/e239ba891849b3df0ec1e3d74260f4204193610a))
+* **profiles:** remove old useflag and keywords ([bb0c3f7](https://github.com/mgomersbach/chinstrap-overlay/commit/bb0c3f782a4542bfe703321ff8b711985c8d28b8))
+* **python:** move on single target python ([5322806](https://github.com/mgomersbach/chinstrap-overlay/commit/5322806fa2bfc6f60c80b5d412bbeb2994711252))
+* **qemu:** re-add gnutls for vnc ([c56201f](https://github.com/mgomersbach/chinstrap-overlay/commit/c56201f876701fc20e4ac22323e19d8ae1503d76))
+* **readd:** readd useflags and keywords for workstation profile ([a7396dc](https://github.com/mgomersbach/chinstrap-overlay/commit/a7396dc36c0bd60c5de79e8920973a11a7a39b65))
+* **repoman:** repoman is no more, just pkgcheck now ([77b1625](https://github.com/mgomersbach/chinstrap-overlay/commit/77b1625aea2951c163a5a61c733a859ee3e638c0))
+* **rust-bin:** rust-bin unmasked ([d79a13f](https://github.com/mgomersbach/chinstrap-overlay/commit/d79a13f11b255c3aa50a12c829bd4cab0407ae66))
+* **samba:** das needs python on samba ([fedc4d8](https://github.com/mgomersbach/chinstrap-overlay/commit/fedc4d86814c24de2fbdce731ab8380e4d43c870))
+* **steam:** 32bit dependencies added ([5fe7aca](https://github.com/mgomersbach/chinstrap-overlay/commit/5fe7aca01186eb838b5b7d20a3cfdf97323e2686))
+* **svg:** move svg useflag to prevent desktop dependencies of ffmpeg ([960c144](https://github.com/mgomersbach/chinstrap-overlay/commit/960c1442cd43442b9b4df52f1cd618b7317dd51f))
+* **tc:** add missing keywords for llvm-runtimes ([f922a9e](https://github.com/mgomersbach/chinstrap-overlay/commit/f922a9e59cf2a8b0ac555eea5404696794dbdc4f))
+* **updateworld:** use live rebuild version ([91f7e28](https://github.com/mgomersbach/chinstrap-overlay/commit/91f7e2896e1954c7adb45dfc89ecbf48c614e8f3))
+* **useflag:** readd gnutls on ngtcp2 for curl ([b6e8289](https://github.com/mgomersbach/chinstrap-overlay/commit/b6e8289bc7ec62ed0a2e336aea13a59416d4ac7b))
+* **useflags:** remove redundant useflags ([fdf9d00](https://github.com/mgomersbach/chinstrap-overlay/commit/fdf9d00f4095d1766f701af022deb3bd21de63d4))
+* **useflags:** useflags needed encountered during fresh install ([829f506](https://github.com/mgomersbach/chinstrap-overlay/commit/829f5063da0117881a4e1bc702c6aa032a3cc43a))
+* **wildcard:** wildcards only work locally ([3a108bc](https://github.com/mgomersbach/chinstrap-overlay/commit/3a108bc7823256b1f20640510e832f030aed5691))
+
+
+### Features
+
+* **ebuilds:** add coral edge tpu stack ([666257e](https://github.com/mgomersbach/chinstrap-overlay/commit/666257e8c1dba95dc1ad34cb25365137ed9423b9))
+* **ebuilds:** add crowdsec and firewall bouncer ([c1afa51](https://github.com/mgomersbach/chinstrap-overlay/commit/c1afa515502c7d24758fceaa45cf31d23ce2d12a))
+* **ebuilds:** add grafana, loki and alloy monitoring stack ([440bfa5](https://github.com/mgomersbach/chinstrap-overlay/commit/440bfa5d136095233860d1177e9a04e620923137))
+* **ebuilds:** add kanidm auth stack ([7823798](https://github.com/mgomersbach/chinstrap-overlay/commit/78237985ced5e28c2d81dbbb286ff671cf04d6a3))
+* **ebuilds:** add patroni postgres HA stack ([8c294d4](https://github.com/mgomersbach/chinstrap-overlay/commit/8c294d43152c6d037afa9be4d434070af435c7c7))
+* **ebuilds:** add zigbee2mqtt with nodejs eclasses ([e40c0a2](https://github.com/mgomersbach/chinstrap-overlay/commit/e40c0a249bc0bd930ef52028cf85cf700ee9db59))
+
+
+### Maintenance
+
+* **ci:** add release dry run ([85d0de8](https://github.com/mgomersbach/chinstrap-overlay/commit/85d0de8a4b1b311d8eee5a2e88525210caf5a282))
+* **metadata:** register new package categories ([e1cee5e](https://github.com/mgomersbach/chinstrap-overlay/commit/e1cee5eb0a1e061735faf78c346d9fdbbaa0480b))
+
 ## [1.4.22](https://github.com/mgomersbach/chinstrap-overlay/compare/1.4.21...1.4.22) (2025-03-27)
 
 
