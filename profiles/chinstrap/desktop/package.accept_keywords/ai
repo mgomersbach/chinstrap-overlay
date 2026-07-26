@@ -1,8 +1,3 @@
-# Ollama
-app-misc/ollama **
-dev-python/psutil ~amd64
-sci-libs/clblast ~amd64
-
 # llama.cpp
 sci-misc/llama-cpp ~amd64
 
@@ -11,6 +6,18 @@ dev-cpp/frugally-deep ~amd64
 dev-cpp/functional-plus ~amd64
 dev-libs/half ~amd64
 dev-libs/libnop ~amd64
-dev-libs/nccl **
 dev-python/cppheaderparser ~amd64
 dev-python/protobuf ~amd64
+
+
+# Coral TPU
+sys-kernel/gasket-driver **
+sci-libs/libedgetpu **
+sci-libs/litert ~*
+dev-python/ai-edge-litert ~*
+
+# build deps still in use on the zennodes
+dev-python/scipy ~*
+dev-cpp/abseil-cpp ~*
+dev-libs/flatbuffers ~*
+dev-build/bazelisk ~*
