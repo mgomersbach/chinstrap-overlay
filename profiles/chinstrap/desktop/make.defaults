@@ -2,11 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 
 # Global desktop USE flags (package-local flags moved to package.use)
-USE="bluetooth cairo cups dbus dri egl elogind
-gnome-keyring gphoto2 gstreamer gtk introspection -kde
-libnotify mono opengl policykit
-pulseaudio qt5 sdl svg udisks vdpau vaapi vnc
-vulkan X xcb xft -xinerama xv zeroconf heif hwaccel opencl qml qt6 wayland"
+USE="bluetooth cairo cups dbus dri egl elogind gnome-keyring gphoto2 gstreamer gtk introspection -kde libnotify mono opengl policykit pulseaudio qt5 sdl svg udisks vdpau vaapi vnc vulkan X xcb xft -xinerama xv zeroconf heif opencl qt6 wayland"
 
 INPUT_DEVICES="libinput synaptics vmmouse"
 

@@ -17,7 +17,7 @@ NOMEDIAUSE="-a52 -aac -alsa -bluetooth -cdda -cdr -dts -dvd -dvdr
 -x264 -xvid"
 
 # Global USE flags (package-local flags moved to package.use)
-USE="${NODESKTOPUSE} ${NOMEDIAUSE} acl acpi asm audit bash-completion -berkdb bidi -bindist bzip2 brotli caps curl custom-cflags -debug expat fontconfig -geolocation git gmp -gnutls gpm http2 icu iconv inotify ipv6 lto lz4 lzma lzo maildir mpi ncurses nls openmp pam pch pcre readline samba sqlite ssl spell syslog threads udev upnp zlib zstd hwloc"
+USE="${NODESKTOPUSE} ${NOMEDIAUSE} acl acpi asm audit bash-completion -berkdb bidi -bindist bzip2 brotli caps curl custom-cflags -debug expat fontconfig -geolocation git gmp -gnutls gpm http2 icu iconv inotify ipv6 lto lz4 lzma lzo maildir mpi ncurses nls openmp pam pch pcre readline samba sqlite ssl spell syslog threads udev upnp zlib zstd"
 
 FEATURES="buildpkg clean-logs compressdebug parallel-fetch parallel-install
           binpkg-multi-instance pkgdir-index-trusted downgrade-backup

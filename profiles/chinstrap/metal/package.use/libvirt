@@ -2,3 +2,4 @@ app-emulation/libvirt iscsi pcap
 net-dns/dnsmasq script conntrack dhcp-tools id lua tftp
 sys-fs/lvm2 lvm thin
 net-libs/gnutls pkcs11
+app-emulation/libvirt numa

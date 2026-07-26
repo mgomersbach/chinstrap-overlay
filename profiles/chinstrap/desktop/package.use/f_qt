@@ -14,3 +14,12 @@ sys-libs/zlib minizip
 
 # one-of fixes
 media-libs/opencv -gtk3
+dev-python/pyqt6 qml
+dev-python/pyside qml
+dev-qt/qt3d qml
+dev-qt/qt5compat qml
+dev-qt/qtcharts qml
+dev-qt/qttools qml
+dev-qt/qtwayland qml
+kde-frameworks/kconfig qml
+kde-frameworks/sonnet qml
