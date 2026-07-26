@@ -32,6 +32,9 @@ module.exports = {
       // Bug: https://github.com/conventional-changelog/conventional-changelog/issues/317
       // Fix: https://github.com/conventional-changelog/conventional-changelog/pull/410
       transform: (commit, context) => {
+        // newer conventional-changelog passes frozen commit objects;
+        // work on a copy instead of mutating in place
+        commit = JSON.parse(JSON.stringify(commit));
         const issues = [];
 
         commit.notes.forEach((note) => {
