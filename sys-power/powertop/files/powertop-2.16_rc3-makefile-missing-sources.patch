@@ -1,0 +1,52 @@
+--- a/src/Makefile.am	2026-07-26 19:33:20.143024996 +0200
++++ b/src/Makefile.am	2026-07-26 19:33:27.704016586 +0200
+@@ -14,6 +14,8 @@
+ 	lib.cpp \
+ 	lib.h \
+ 	main.cpp \
++	gpu-tab.cpp \
++	gpu-tab.h \
+ 	powertop.css \
+ 	\
+ 	calibrate/calibrate.cpp \
+@@ -33,6 +35,9 @@
+ 	cpu/intel_cpus.cpp \
+ 	cpu/intel_cpus.h \
+ 	cpu/intel_gpu.cpp \
++	cpu/xe_gpu.cpp \
++	cpu/frequency.cpp \
++	cpu/frequency.h \
+ 	cpu/rapl/rapl_interface.cpp \
+ 	cpu/rapl/rapl_interface.h \
+ 	devices/ahci.cpp \
+@@ -45,10 +50,13 @@
+ 	devices/devfreq.h \
+ 	devices/device.cpp \
+ 	devices/device.h \
++	devices/device_manager.cpp \
+ 	devices/gpu_rapl_device.cpp \
+ 	devices/gpu_rapl_device.h \
+ 	devices/i915-gpu.cpp \
+ 	devices/i915-gpu.h \
++	devices/xe-gpu.cpp \
++	devices/xe-gpu.h \
+ 	devices/network.cpp \
+ 	devices/network.h \
+ 	devices/rfkill.cpp \
+@@ -67,6 +75,7 @@
+ 	measurement/extech.h \
+ 	measurement/measurement.cpp \
+ 	measurement/measurement.h \
++	measurement/measurement_manager.cpp \
+ 	measurement/sysfs.cpp \
+ 	measurement/sysfs.h \
+ 	measurement/opal-sensors.cpp \
+@@ -98,6 +107,8 @@
+ 	report/report-formatter-base.cpp \
+ 	report/report-formatter-base.h \
+ 	report/report-formatter-csv.cpp \
++	report/report-formatter-md.cpp \
++	report/report-formatter-md.h \
+ 	report/report-formatter-csv.h \
+ 	report/report-formatter-html.cpp \
+ 	report/report-formatter-html.h \
