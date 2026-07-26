@@ -1,0 +1,3 @@
+app-misc/zigbee2mqtt ~*
+acct-user/zigbee2mqtt ~*
+acct-group/zigbee2mqtt ~*
