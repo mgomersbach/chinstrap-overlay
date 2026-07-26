@@ -1,0 +1,17 @@
+# /etc/conf.d/patroni — extra config for the patroni openrc service.
+
+# Path to the patroni YAML config (default /etc/patroni/patroni.yml).
+#PATRONI_CONFIG=/etc/patroni/patroni.yml
+
+# Unix user/group patroni (and the postgres process it spawns) runs as.
+# Default postgres:postgres; both are created by dev-db/postgresql.
+#PATRONI_USER=postgres
+#PATRONI_GROUP=postgres
+
+# Extra args passed to the patroni binary.
+PATRONI_OPTS=""
+
+# Directories the init script creates if missing.
+#PATRONI_PIDDIR=/run/patroni
+#PATRONI_LOGDIR=/var/log/patroni
+#PATRONI_PG_RUNDIR=/run/postgresql

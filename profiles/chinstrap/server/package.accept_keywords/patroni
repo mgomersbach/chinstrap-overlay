@@ -1,0 +1,3 @@
+dev-python/patroni ~*
+dev-python/python-consul ~*
+dev-python/ydiff ~*
