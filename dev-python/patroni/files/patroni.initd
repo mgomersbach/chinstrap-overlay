@@ -1,0 +1,56 @@
+#!/sbin/openrc-run
+# Copyright 2026 Gentoo Authors
+# Distributed under the terms of the GNU General Public License v2
+
+name="patroni"
+description="PostgreSQL HA controller (Patroni)"
+description_reload="Reload configuration"
+
+: ${PATRONI_CONFIG:=/etc/patroni/patroni.yml}
+: ${PATRONI_USER:=postgres}
+: ${PATRONI_GROUP:=postgres}
+: ${PATRONI_PIDDIR:=/run/patroni}
+: ${PATRONI_LOGDIR:=/var/log/patroni}
+: ${PATRONI_PG_RUNDIR:=/run/postgresql}
+
+command="/usr/bin/patroni"
+command_args="${PATRONI_OPTS} ${PATRONI_CONFIG}"
+command_user="${PATRONI_USER}:${PATRONI_GROUP}"
+command_background=true
+pidfile="${PATRONI_PIDDIR}/patroni.pid"
+output_log="${PATRONI_LOGDIR}/patroni.log"
+error_log="${PATRONI_LOGDIR}/patroni.log"
+
+extra_started_commands="reload"
+
+depend() {
+	need net
+	# DCS dependency: patroni typically needs consul or etcd reachable
+	# at startup. The local agent service name is used when present;
+	# absent services degrade to "before" semantics so the init still
+	# runs but starts a few seconds early on a host without that DCS.
+	use consul etcd
+	# Don't ever auto-start postgresql-* alongside patroni; patroni
+	# manages the postgres process itself.
+	before postgresql-9.6 postgresql-10 postgresql-11 postgresql-12 \
+		postgresql-13 postgresql-14 postgresql-15 postgresql-16 \
+		postgresql-17 postgresql-18
+}
+
+start_pre() {
+	checkpath -d -m 0755 -o "${PATRONI_USER}:${PATRONI_GROUP}" \
+		"${PATRONI_PIDDIR}" || return 1
+	checkpath -d -m 0750 -o "${PATRONI_USER}:${PATRONI_GROUP}" \
+		"${PATRONI_LOGDIR}" || return 1
+	# Postgres unix socket dir. Normally postgresql-*'s openrc init
+	# creates this; with patroni managing postgres directly that init
+	# isn't enabled, so create it here.
+	checkpath -d -m 0775 -o "${PATRONI_USER}:${PATRONI_GROUP}" \
+		"${PATRONI_PG_RUNDIR}" || return 1
+}
+
+reload() {
+	ebegin "Reloading patroni"
+	start-stop-daemon --signal HUP --pidfile "${pidfile}"
+	eend $?
+}
