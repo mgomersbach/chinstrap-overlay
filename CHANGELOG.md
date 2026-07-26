@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.5.1](https://github.com/mgomersbach/chinstrap-overlay/compare/1.5.0...1.5.1) (2026-07-26)
+
+
+### Bug Fixes
+
+* **lua:** upgrade to 5.4 as default and jit where needed ([ec6335c](https://github.com/mgomersbach/chinstrap-overlay/commit/ec6335c246e939374ce6330538ef7d6b5e0ee11f))
+* **powertop:** upstream doesnt depend o libtracefs when needed ([c321e0d](https://github.com/mgomersbach/chinstrap-overlay/commit/c321e0d3b3bb48a57afbf4b59a539b1830ad7b89))
+* **python:** move to 3.14 default ([ac371f7](https://github.com/mgomersbach/chinstrap-overlay/commit/ac371f7d2a34ff179659a0386a5357b2e82caf62))
+
 # [1.5.0](https://github.com/mgomersbach/chinstrap-overlay/compare/1.4.22...1.5.0) (2026-07-26)
 
 
