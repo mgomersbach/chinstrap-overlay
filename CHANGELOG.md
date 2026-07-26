@@ -1,5 +1,24 @@
 # Changelog
 
+## [1.5.3](https://github.com/mgomersbach/chinstrap-overlay/compare/1.5.2...1.5.3) (2026-07-26)
+
+
+### Bug Fixes
+
+* **ebuild:** add nomad-driver-podman ([55141c8](https://github.com/mgomersbach/chinstrap-overlay/commit/55141c89c36e50032d03e1be7504e33995e259c4))
+* **keepassxc:** only unmasked version supports qt6 for now ([2a23fea](https://github.com/mgomersbach/chinstrap-overlay/commit/2a23fea95b201193f02080deba318a220d0fb0dc))
+* **keyword:** add keyword for mkl for pdlib ([270af24](https://github.com/mgomersbach/chinstrap-overlay/commit/270af24f302331e8ff286a9b8ca5c6c365e5befd))
+* **mesa:** enable opencl by default to support opencl everywhere, compatible rocm user can mask the useflag locally ([d72f3f2](https://github.com/mgomersbach/chinstrap-overlay/commit/d72f3f277b007ae39c33ade2cbbca84ebc469d9c))
+* **powertop:** fix missing sources and gettext fixes ([f9a0e1c](https://github.com/mgomersbach/chinstrap-overlay/commit/f9a0e1c0eafe5b4ae0c95ff61351cfc069874b8f))
+* **profile:** move hwloc to base and others ([fdc9e97](https://github.com/mgomersbach/chinstrap-overlay/commit/fdc9e97759703714f3bd6766a89a74097fcc49ef))
+* **sets:** new syntax allows sets again ([19f7082](https://github.com/mgomersbach/chinstrap-overlay/commit/19f70829428e9d2f806c5cb2a683f5a640256f90))
+* **useflag:** set py313 for boxtron for steamtinkerlaunch ([290ee0c](https://github.com/mgomersbach/chinstrap-overlay/commit/290ee0c0c9310ce7847c97894ad476caa0721b9e))
+
+
+### Maintenance
+
+* **pkgcheck:** apply some pkgcheck fixes ([f6eb8f6](https://github.com/mgomersbach/chinstrap-overlay/commit/f6eb8f6cb6e2be8983bd96248492a0d8be6bf5d2))
+
 ## [1.5.2](https://github.com/mgomersbach/chinstrap-overlay/compare/1.5.1...1.5.2) (2026-07-26)
 
 
