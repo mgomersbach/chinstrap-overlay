@@ -1,0 +1,17 @@
+#!/sbin/openrc-run
+
+command=/usr/bin/crowdsec-firewall-bouncer
+command_args="-c /etc/crowdsec/crowdsec-firewall-bouncer.yaml"
+name="crowdsec-firewall-bouncer"
+description="Crowdsec firewall bouncer"
+command_background="yes"
+pidfile="/run/${RC_SVCNAME}/${RC_SVCNAME}.pid"
+
+depend() {
+    need net
+    after crowdsec
+}
+
+start_pre() {
+    checkpath --directory --owner root:root --mode 0755 /run/${RC_SVCNAME}
+}
