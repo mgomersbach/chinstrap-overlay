@@ -1,0 +1,4 @@
+# headless libreoffice document conversion
+dev-libs/xmlsec nss
+media-video/ffmpeg X
+app-text/xmlto text

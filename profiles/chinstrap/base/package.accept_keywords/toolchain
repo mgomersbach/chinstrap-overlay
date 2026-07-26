@@ -34,3 +34,12 @@ net-libs/libnsl ~*
 
 # Needed for unmasked rust with cargo
 dev-lang/rust-bin ~*
+llvm-core/clang-toolchain-symlinks ~*
+llvm-runtimes/flang-rt ~*
+llvm-runtimes/libatomic-stub ~*
+llvm-runtimes/libcxx ~*
+llvm-runtimes/libcxxabi ~*
+llvm-runtimes/libgcc ~*
+llvm-runtimes/libunwind ~*
+llvm-runtimes/openmp-nvptx64-nvidia-cuda ~*
+llvm-runtimes/openmp-spirv64-intel ~*

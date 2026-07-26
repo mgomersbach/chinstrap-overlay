@@ -9,3 +9,4 @@ app-containers/netavark ~*
 app-containers/podman ~*
 net-misc/passt ~*
 sys-fs/fuse-overlayfs ~*
+app-containers/container-libs ~*

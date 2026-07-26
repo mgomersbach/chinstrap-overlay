@@ -1,11 +1,10 @@
 # PyQt
 
 # Widget support
-dev-qt/qtmultimedia widgets qml
+dev-qt/qtmultimedia qml
 
 # Multimedia
 
-dev-qt/linguist-tools qml
 dev-qt/qtsensors qml
 dev-qt/qtwebchannel qml
 dev-qt/qtwebsockets qml

@@ -1,0 +1,4 @@
+# plymouth splash X chain
+x11-libs/cairo X
+x11-libs/pango X
+media-libs/libglvnd X

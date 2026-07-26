@@ -1,4 +1,5 @@
 app-admin/sudo sssd
 sys-auth/pambase sssd
-net-nds/openldap experimental sasl
+net-nds/openldap experimental sasl gnutls smbkrb5passwd
 net-fs/samba winbind
+sys-auth/sssd nfsv4

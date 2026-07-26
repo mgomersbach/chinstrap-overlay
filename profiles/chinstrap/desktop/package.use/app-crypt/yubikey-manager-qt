@@ -1,3 +1,0 @@
-# required by app-crypt/yubikey-manager-qt-1.1.2::gentoo
-# required by yubikey-manager-qt (argument)
->=dev-qt/qtquickcontrols2-5.12.3 widgets

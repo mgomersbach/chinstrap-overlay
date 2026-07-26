@@ -1,0 +1,4 @@
+# pxe/tftp netboot
+sys-firmware/ipxe iso lkrn uefi32 uefi64 undi vmware
+# abi_x86_32 builds the ia32 UEFI boot binaries for 32bit netboot clients (no system multilib)
+sys-boot/syslinux abi_x86_32

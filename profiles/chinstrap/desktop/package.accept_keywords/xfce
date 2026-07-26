@@ -24,3 +24,6 @@ sys-fs/fuse-common ~*
 # GCC 10
 xfce-base/xfce4-power-manager ~*
 xfce-base/libxfce4windowing ~amd64
+xfce-base/xfwm4 ~*
+dev-build/xfce4-dev-tools ~*
+sys-apps/xdg-desktop-portal ~*

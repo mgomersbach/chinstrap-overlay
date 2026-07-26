@@ -6,3 +6,7 @@
 #=dev-python/requests-2.18.4 ~amd64
 dev-python/requests ~*
 
+app-crypt/acme ~*
+app-crypt/certbot ~*
+app-crypt/certbot-nginx ~*
+app-crypt/acme-sh ~*

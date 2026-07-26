@@ -5,3 +5,4 @@ mail-client/thunderbird ~*
 # required by dev-db/sqlite [icu]
 # required by mail-client/thunderbird [system-sqlite]
 dev-libs/icu ~*
+mail-client/thunderbird-l10n ~*

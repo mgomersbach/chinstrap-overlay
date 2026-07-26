@@ -8,3 +8,6 @@ dev-libs/libuv ~*
 dev-libs/openssl ~*
 net-dns/c-ares ~*
 
+# http3 chain (nodejs, curl, librewolf)
+net-libs/nghttp3 ~*
+net-libs/ngtcp2 ~*
