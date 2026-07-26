@@ -1,0 +1,11 @@
+--- a/src/devices/xe-gpu.cpp	2026-07-26 19:37:42.053270600 +0200
++++ b/src/devices/xe-gpu.cpp	2026-07-26 19:37:42.064742221 +0200
+@@ -232,7 +232,7 @@
+ 				if (pt_access(fan_path, R_OK) != 0)
+ 					break;
+ 				const std::string label =
+-					std::format(_("Xe GPU Fan {}"), n);
++					pt_format(_("Xe GPU Fan {}"), n);
+ 				all_devices.push_back(
+ 					new xe_fan_device(fan_path, label));
+ 			}

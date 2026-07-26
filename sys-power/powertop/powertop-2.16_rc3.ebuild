@@ -8,8 +8,10 @@ EGIT_REPO_URI="https://github.com/fenrus75/powertop.git"
 if [[ ${PV} == "9999" ]] ; then
 	GIT_ECLASS="git-r3"
 else
-	SRC_URI="https://github.com/fenrus75/${PN}/archive/v${PV}.tar.gz -> ${P}.tar.gz"
-	KEYWORDS="~amd64 ~arm ~arm64 ~ppc ~sparc ~x86"
+	MY_PV=${PV/_rc/-rc}
+	SRC_URI="https://github.com/fenrus75/${PN}/archive/v${MY_PV}.tar.gz -> ${P}.tar.gz"
+	S="${WORKDIR}/${PN}-${MY_PV}"
+	KEYWORDS="~amd64 ~arm64"
 fi
 
 inherit autotools flag-o-matic ${GIT_ECLASS} linux-info
@@ -100,13 +102,20 @@ pkg_setup() {
 src_prepare() {
 	default
 
+	# new 2.16 sources missing from the autotools build (undefined
+	# references at link time otherwise)
+	eapply "${FILESDIR}/${P}-makefile-missing-sources.patch"
+
+	# std::format needs a constant format string; gettext() is runtime
+	eapply "${FILESDIR}/${P}-xe-gpu-gettext-format.patch"
+	eapply "${FILESDIR}/${P}-gettext-format.patch"
+
 	eautoreconf
 }
 
 src_configure() {
-	# upstream git uses std::format (C++20) but configure still passes
-	# -std=c++11; our CXXFLAGS come later on the command line so the last
-	# -std wins
+	# uses std::format (C++20) but configure still passes -std=c++11;
+	# our CXXFLAGS come later on the command line so the last -std wins
 	append-cxxflags -std=gnu++20
 
 	export ac_cv_search_delwin=$(usex unicode -lncursesw -lncurses)
