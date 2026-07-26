@@ -15,5 +15,6 @@ sci-libs
 sys-apps
 sys-auth
 sys-kernel
+sys-power
 www-apps
 x11-themes
