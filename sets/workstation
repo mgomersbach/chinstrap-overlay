@@ -1,0 +1,7 @@
+dev-python/pip
+dev-python/virtualenv
+dev-vcs/tig
+net-misc/x11-ssh-askpass
+net-misc/freerdp
+# move sys-devel/gdb dev-debug/gdb
+dev-debug/gdb
