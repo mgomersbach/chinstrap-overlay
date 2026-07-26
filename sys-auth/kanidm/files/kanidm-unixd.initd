@@ -1,0 +1,29 @@
+#!/sbin/openrc-run
+# Copyright 2026 Gentoo Authors
+# Distributed under the terms of the GNU General Public License v2
+
+command="/usr/sbin/kanidm_unixd"
+command_user="kanidm:kanidm"
+command_background="yes"
+pidfile="/run/kanidm-unixd.pid"
+output_log="/var/log/kanidm/kanidm-unixd.log"
+error_log="/var/log/kanidm/kanidm-unixd.log"
+
+depend() {
+	need net
+	before sshd
+	use dns logger ntpd chronyd
+}
+
+start_pre() {
+	checkpath -d -m 0750 -o kanidm:kanidm /var/log/kanidm
+	checkpath -d -m 0750 -o kanidm:kanidm /var/lib/kanidm-unixd
+	checkpath -d -m 0750 -o kanidm:kanidm /var/cache/kanidm-unixd
+	checkpath -d -m 0755 -o kanidm:kanidm /run/kanidm-unixd
+}
+
+# NOTE: do NOT auto-start kanidm-unixd-tasks from here. tasks has
+# `need kanidm-unixd`, so starting it from unixd's start_post (before
+# unixd is marked "started") deadlocks — tasks waits for unixd, unixd's
+# start_post waits for tasks. Ordering is handled by tasks' `need` at
+# boot and by whoever starts the pair (the ansible role starts both).

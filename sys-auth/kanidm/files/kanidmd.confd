@@ -1,0 +1,5 @@
+# /etc/conf.d/kanidmd
+#
+# Path to the kanidmd server configuration file.
+# Default: /etc/kanidm/server.toml
+#KANIDMD_CONFIG="/etc/kanidm/server.toml"
