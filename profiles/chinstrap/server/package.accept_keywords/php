@@ -4,3 +4,4 @@
 sci-libs/dlib ~*
 dev-lang/php ~*
 dev-php/pdlib ~*
+sci-libs/mkl ~*
