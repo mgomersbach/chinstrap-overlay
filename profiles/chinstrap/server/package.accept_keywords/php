@@ -3,3 +3,4 @@
 # for pdlib in nextcloud for face recognition
 sci-libs/dlib ~*
 dev-lang/php ~*
+dev-php/pdlib ~*
