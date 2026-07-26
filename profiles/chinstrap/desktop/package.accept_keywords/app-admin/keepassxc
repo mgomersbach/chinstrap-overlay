@@ -1,0 +1,2 @@
+# no stable keepassxc in gentoo since the qt6 migration (2.8 prereleases only)
+app-admin/keepassxc ~*
