@@ -1,2 +1,3 @@
 # Exclude system-libvpx until upstream's fix for blocker lands in portage
 mail-client/thunderbird -system-libvpx
+mail-client/thunderbird hwaccel

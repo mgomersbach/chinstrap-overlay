@@ -1,1 +1,2 @@
 app-emulation/qemu gnutls plugins sdl-image spice usbredir virgl virtfs alsa iscsi python -doc
+app-emulation/qemu numa

@@ -1,2 +1,4 @@
 # prevent nvidia-drivers pull
 sys-apps/hwloc -gl
+llvm-runtimes/openmp hwloc
+sys-process/htop hwloc
