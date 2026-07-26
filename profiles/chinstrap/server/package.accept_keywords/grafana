@@ -1,1 +1,6 @@
 # No stable tagged version in portage
+www-apps/grafana ~*
+app-admin/loki ~*
+acct-user/loki ~*
+app-metrics/alloy ~*
+acct-user/alloy ~*
