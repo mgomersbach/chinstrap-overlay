@@ -1,2 +1,6 @@
 net-wireless/gnuradio soapy network grc
 net-wireless/sdrpp -portaudio
+
+# gnuradio stack not yet python3.14-capable; keep on 3.13 until upstream catches up
+net-wireless/gnuradio python_single_target_python3_13
+sci-libs/volk python_single_target_python3_13
