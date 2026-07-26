@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 
 # Global hardware/virtualization USE flags (package-local flags moved to package.use)
-USE="lm-sensors usb"
+USE="lm-sensors usb numa"
 
 QEMU_SOFTMMU_TARGETS="x86_64 i386 aarch64 arm"
 QEMU_USER_TARGETS="aarch64 arm i386 x86_64"
