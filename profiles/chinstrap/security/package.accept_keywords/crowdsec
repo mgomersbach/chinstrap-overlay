@@ -1,0 +1,4 @@
+net-analyzer/crowdsec ~*
+net-analyzer/cs-firewall-bouncer ~*
+acct-user/crowdsec ~*
+acct-group/crowdsec ~*
