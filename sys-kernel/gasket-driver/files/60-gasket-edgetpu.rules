@@ -1,0 +1,7 @@
+# Coral Edge TPU access rules
+# PCIe device nodes from gasket/apex kernel modules.
+SUBSYSTEM=="apex", KERNEL=="apex_*", MODE="0660", GROUP="plugdev", TAG+="uaccess"
+
+# USB Edge TPU (runtime and DFU IDs).
+SUBSYSTEM=="usb", ATTRS{idVendor}=="1a6e", ATTRS{idProduct}=="089a", MODE="0660", GROUP="plugdev", TAG+="uaccess"
+SUBSYSTEM=="usb", ATTRS{idVendor}=="18d1", ATTRS{idProduct}=="9302", MODE="0660", GROUP="plugdev", TAG+="uaccess"
