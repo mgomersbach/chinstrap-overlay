@@ -9,11 +9,14 @@ DESCRIPTION="User space library and tools for the Coral Edge TPU"
 HOMEPAGE="https://github.com/google-coral/libedgetpu"
 TF_VERSION="2.21.0"
 LITERT_VERSION="2.1.3"
+LITERT_URI="https://github.com/google-ai-edge/LiteRT"
 SRC_URI="
-	https://github.com/mgomersbach/libedgetpu/archive/refs/heads/combined-patches.tar.gz -> libedgetpu-16.0-combined-patches.tar.gz
-	!litert? ( https://github.com/tensorflow/tensorflow/archive/refs/tags/v${TF_VERSION}.tar.gz -> tensorflow-${TF_VERSION}.tar.gz )
-	litert? ( https://github.com/google-ai-edge/LiteRT/archive/refs/tags/v${LITERT_VERSION}.tar.gz -> litert-${LITERT_VERSION}.tar.gz )
+	https://github.com/mgomersbach/libedgetpu/archive/combined-patches.tar.gz -> ${P}-combined-patches.tar.gz
+	!litert? ( https://github.com/tensorflow/tensorflow/archive/v${TF_VERSION}.tar.gz -> tensorflow-${TF_VERSION}.tar.gz )
+	litert? ( ${LITERT_URI}/archive/v${LITERT_VERSION}.tar.gz -> litert-${LITERT_VERSION}.tar.gz )
 "
+
+S="${WORKDIR}/libedgetpu-combined-patches"
 
 LICENSE="Apache-2.0"
 SLOT="0"
@@ -29,8 +32,6 @@ RDEPEND="${DEPEND}"
 BDEPEND="
 	virtual/pkgconfig
 "
-
-S="${WORKDIR}/libedgetpu-combined-patches"
 
 _get_tfroot() {
 	if use litert; then
@@ -56,19 +57,22 @@ src_prepare() {
 	# Relax TensorFlow/LiteRT flatbuffers version pins in generated headers.
 	while IFS= read -r -d '' f; do
 		if grep -q '^[[:space:]]*static_assert(FLATBUFFERS_VERSION_MAJOR' "${f}"; then
-			sed -i '/static_assert(FLATBUFFERS_VERSION_MAJOR/,/Non-compatible flatbuffers version included/ s/^/\/\//' "${f}" || die
+			sed -i '/static_assert(FLATBUFFERS_VERSION_MAJOR/,/version included/ s|^|//|' \
+				"${f}" || die
 		fi
 	done < <(find "${tfroot}" -type f -name '*_generated.h' -print0)
 
 	# Some toolchains require explicit cstdint include in these headers.
-	grep -q '<cstdint>' driver/usb/usb_device_interface.h || \
-		sed -i 's/#include "port\/statusor.h"/#include "port\/statusor.h"\n#include <cstdint>/' driver/usb/usb_device_interface.h || die
-	grep -q '<cstdint>' driver/usb/usb_ml_commands.h || \
-		sed -i 's/#include "driver\/usb\/usb_standard_commands.h"/#include "driver\/usb\/usb_standard_commands.h"\n#include <cstdint>/' driver/usb/usb_ml_commands.h || die
-	grep -q '<cstdint>' driver/usb/usb_standard_commands.h || \
-		sed -i 's#// Copyright 2019 Google LLC#// Copyright 2019 Google LLC\n#include <cstdint>#' driver/usb/usb_standard_commands.h || die
-	grep -q '<cstdint>' driver/usb/usb_io_request.h || \
-		sed -i 's/#include "driver\/usb\/usb_ml_commands.h"/#include "driver\/usb\/usb_ml_commands.h"\n#include <cstdint>/' driver/usb/usb_io_request.h || die
+	local hdr anchor
+	while read -r hdr anchor; do
+		grep -q '<cstdint>' "${hdr}" ||
+			sed -i "s|${anchor}|${anchor}\n#include <cstdint>|" "${hdr}" || die
+	done <<-EOF
+		driver/usb/usb_device_interface.h #include "port/statusor.h"
+		driver/usb/usb_ml_commands.h #include "driver/usb/usb_standard_commands.h"
+		driver/usb/usb_standard_commands.h // Copyright 2019 Google LLC
+		driver/usb/usb_io_request.h #include "driver/usb/usb_ml_commands.h"
+		EOF
 
 	# Ensure we don't force gold linker.
 	sed -i 's|-fuse-ld=gold||g' makefile_build/Makefile || die

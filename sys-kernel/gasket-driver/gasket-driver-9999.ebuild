@@ -31,7 +31,7 @@ src_prepare() {
 
 src_compile() {
 	local modargs=( KVERSION="${KV_FULL}" )
-	local modlist=( gasket=drivers/pci/pcie:${S}/src apex=drivers/pci/pcie:${S}/src )
+	local modlist=( gasket=drivers/pci/pcie:"${S}"/src apex=drivers/pci/pcie:"${S}"/src )
 
 	linux-mod-r1_src_compile
 }

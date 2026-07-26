@@ -5,7 +5,7 @@ EAPI=8
 
 inherit go-module
 
-DESCRIPTION="Like Prometheus, but for logs."
+DESCRIPTION="Like Prometheus, but for logs"
 HOMEPAGE="https://grafana.com/loki/"
 SRC_URI="https://github.com/grafana/loki/archive/v${PV}.tar.gz -> ${P}.tar.gz"
 
