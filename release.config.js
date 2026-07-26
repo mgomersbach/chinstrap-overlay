@@ -52,6 +52,8 @@ module.exports = {
           commit.type = `Reverts`;
         } else if (commit.type === `bump`) {
           commit.type = `Version Bump`;
+        } else if (commit.type === `keyword`) {
+          commit.type = `Keywords`;
         } else if (commit.type === `docs`) {
           commit.type = `Documentation`;
         } else if (commit.type === `style`) {
@@ -62,8 +64,8 @@ module.exports = {
           commit.type = `Tests`;
         } else if (commit.type === `build`) {
           commit.type = `Build System`;
-          // } else if (commit.type === `chore`) {
-          //     commit.type = `Maintenance`
+        } else if (commit.type === `chore`) {
+          commit.type = `Maintenance`;
         } else if (commit.type === `ci`) {
           commit.type = `Continuous Integration`;
         } else {
