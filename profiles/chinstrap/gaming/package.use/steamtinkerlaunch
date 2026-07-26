@@ -1,2 +1,4 @@
 games-util/vkbasalt reshade-shaders
 media-libs/vulkan-loader layers
+# localrepo boxtron caps at python3.13
+games-engines/boxtron python_single_target_python3_13
