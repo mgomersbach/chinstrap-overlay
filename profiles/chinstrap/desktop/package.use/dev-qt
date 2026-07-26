@@ -1,3 +1,2 @@
 # moved from make.defaults
 dev-qt/qtbase libproxy tslib
-dev-qt/qtgui tslib

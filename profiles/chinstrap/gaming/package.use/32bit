@@ -16,3 +16,7 @@ x11-libs/libxkbcommon abi_x86_32
 # curl[abi_x86_32] -> http3 via ngtcp2; gnutls[abi_x86_32] -> leancrypto
 dev-libs/leancrypto abi_x86_32
 net-libs/ngtcp2 abi_x86_32
+
+# 32bit mesa/rocm toolchain
+llvm-core/llvm abi_x86_32
+llvm-core/clang abi_x86_32

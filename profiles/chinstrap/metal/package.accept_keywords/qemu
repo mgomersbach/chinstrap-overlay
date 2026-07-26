@@ -2,3 +2,4 @@ app-emulation/qemu ~*
 sys-firmware/edk2-bin ~*
 sys-firmware/edk2-bin ~*
 media-video/pipewire ~*
+sys-firmware/seabios-bin ~*

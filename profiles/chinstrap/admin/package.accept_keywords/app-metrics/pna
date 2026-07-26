@@ -18,3 +18,5 @@ app-metrics/prometheus-podman-exporter ~amd64
 app-metrics/rabbitmq_exporter ~amd64
 app-metrics/redis_exporter ~amd64
 app-metrics/smartctl_exporter ~amd64
+app-metrics/vault_exporter ~*
+dev-util/promu ~*

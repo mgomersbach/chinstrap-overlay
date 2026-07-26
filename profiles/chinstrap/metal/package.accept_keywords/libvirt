@@ -16,3 +16,4 @@ app-emulation/libvirt ~*
 app-emulation/spice ~*
 dev-python/libvirt-python ~*
 app-emulation/libvirt-glib ~*
+app-emulation/virtiofsd ~*

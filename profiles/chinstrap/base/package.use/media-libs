@@ -3,3 +3,4 @@ media-libs/gegl sdl2
 media-libs/libde265 tools
 media-libs/lilv tools
 media-libs/qhull tools
+media-libs/freetype harfbuzz

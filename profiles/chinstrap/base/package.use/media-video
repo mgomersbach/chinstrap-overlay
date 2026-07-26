@@ -1,3 +1,6 @@
 # moved from make.defaults
 media-video/ffmpeg openssl ssh
 media-video/mpv tools
+
+# librtmp blocked by gmp useflag fleet-wide
+media-video/ffmpeg -librtmp

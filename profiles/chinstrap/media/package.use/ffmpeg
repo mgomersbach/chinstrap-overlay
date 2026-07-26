@@ -1,2 +1,3 @@
 media-video/ffmpeg amr bluray cdio chromium fdk gsm libsoxr lv2 twolame theora vpx vmaf xvid zvbi zimg srt svt-av1
 media-libs/libbluray aacs
+media-video/ffmpeg lame

@@ -3,3 +3,5 @@
 # use latest mariadb
 
 # Not yet stable?
+dev-db/percona-xtrabackup ~*
+dev-db/mariadb ~*

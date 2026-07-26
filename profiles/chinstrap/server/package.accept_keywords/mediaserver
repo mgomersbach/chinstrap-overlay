@@ -1,0 +1,4 @@
+www-apps/jellyfin-bin ~*
+media-video/jellyfin-web-bin ~*
+www-apps/radarr-bin ~*
+www-apps/jackett-bin ~*

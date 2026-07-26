@@ -9,3 +9,4 @@ dev-util/cbindgen ~*
 
 media-libs/libvpx ~*
 dev-libs/nss ~*
+media-libs/libpng ~*

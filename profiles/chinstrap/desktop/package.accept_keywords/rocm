@@ -1,6 +1,7 @@
 # ROCm compute stack
 dev-build/rocm-cmake ~amd64
 dev-libs/hipother ~amd64
+dev-libs/hiprt ~amd64
 dev-libs/rccl ~amd64
 dev-libs/rocdbgapi ~amd64
 dev-libs/rocm-comgr ~amd64

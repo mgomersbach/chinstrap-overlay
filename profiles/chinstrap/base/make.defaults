@@ -48,6 +48,10 @@ RUSTFLAGS="-C opt-level=3 -C strip=symbols"
 PYTHON_TARGETS="python3_13 python3_14"
 PYTHON_SINGLE_TARGET="python3_14"
 
+# fleet lua level; luajit-only pkgs (gimp, snort, openresty, mpv) self-default/forced
+LUA_SINGLE_TARGET="lua5-4"
+LUA_TARGETS="lua5-4"
+
 BINPKG_FORMAT="gpkg"
 BINPKG_COMPRESS="zstd"
 BINPKG_COMPRESS_FLAGS="-9"

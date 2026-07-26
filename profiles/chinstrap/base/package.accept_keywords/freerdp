@@ -1,1 +1,5 @@
 # stable doesnt want to build because of "missing" gstreamer bug
+media-libs/libsdl3 ~*
+media-libs/sdl3-ttf ~*
+media-libs/sdl3-image ~*
+media-libs/sdl3-mixer ~*
