@@ -44,6 +44,9 @@ jobs:
         with:
           dry_run: true
           ci: false
+          # hide the GHA env so semantic-release uses the checked-out master
+          # instead of bailing out on the refs/pull/N/merge ref
+          unset_gha_env: true
           extra_plugins: |
             @semantic-release/changelog@6
             @semantic-release/git@10
