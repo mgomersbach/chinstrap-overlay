@@ -6,4 +6,5 @@ EAPI=8
 inherit acct-group
 
 DESCRIPTION="group for crowdsec"
+KEYWORDS="amd64 arm64"
 ACCT_GROUP_ID=399

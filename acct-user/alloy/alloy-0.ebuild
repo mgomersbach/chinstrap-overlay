@@ -6,6 +6,7 @@ EAPI=8
 inherit acct-user
 
 DESCRIPTION="${PN} program user"
+KEYWORDS="amd64 arm64"
 ACCT_USER_ID=-1
 ACCT_USER_GROUPS=( "grafana" )
 

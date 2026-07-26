@@ -6,6 +6,7 @@ EAPI=8
 inherit acct-user
 
 DESCRIPTION="user for crowdsec"
+KEYWORDS="amd64 arm64"
 ACCT_USER_ID=399
 ACCT_USER_GROUPS=( crowdsec )
 ACCT_USER_HOME=/var/lib/crowdsec

@@ -14,7 +14,6 @@
 	<use>
 		<flag name="consul">Use Consul as the distributed configuration store</flag>
 		<flag name="aws">Enable AWS-specific tooling (callbacks, EBS snapshots)</flag>
-		<flag name="psycopg3">Use psycopg 3.x instead of psycopg 2.x</flag>
 	</use>
 	<upstream>
 		<remote-id type="github">patroni/patroni</remote-id>

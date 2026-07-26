@@ -18,7 +18,7 @@ LICENSE="MIT"
 SLOT="0"
 KEYWORDS="~amd64 ~arm64"
 
-IUSE="+consul +psycopg3 aws"
+IUSE="+consul aws"
 
 RDEPEND="
 	dev-db/postgresql:*
@@ -30,8 +30,7 @@ RDEPEND="
 	dev-python/six[${PYTHON_USEDEP}]
 	dev-python/urllib3[${PYTHON_USEDEP}]
 	dev-python/ydiff[${PYTHON_USEDEP}]
-	psycopg3? ( dev-python/psycopg[${PYTHON_USEDEP}] )
-	!psycopg3? ( dev-python/psycopg:2[${PYTHON_USEDEP}] )
+	dev-python/psycopg[${PYTHON_USEDEP}]
 	consul? ( dev-python/python-consul[${PYTHON_USEDEP}] )
 	aws? ( dev-python/boto3[${PYTHON_USEDEP}] )
 "

@@ -6,3 +6,4 @@ EAPI=8
 inherit acct-group
 
 ACCT_GROUP_ID=313
+KEYWORDS="amd64 arm64"

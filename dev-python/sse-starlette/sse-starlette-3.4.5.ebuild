@@ -10,7 +10,7 @@ inherit distutils-r1
 
 DESCRIPTION="SSE plugin for Starlette"
 HOMEPAGE="https://github.com/sysid/sse-starlette"
-SRC_URI="https://github.com/sysid/sse-starlette/archive/refs/tags/v${PV}.tar.gz -> ${P}.tar.gz"
+SRC_URI="https://github.com/sysid/sse-starlette/archive/refs/tags/v${PV}.tar.gz -> ${P}.gh.tar.gz"
 
 LICENSE="BSD"
 SLOT="0"

@@ -5,7 +5,7 @@ EAPI=8
 
 inherit meson
 
-DESCRIPTION="Pop_Icons is the icon theme for Pop!_OS."
+DESCRIPTION="Pop_Icons is the icon theme for Pop!_OS"
 HOMEPAGE="https://github.com/pop-os/icon-theme"
 if [[ ${PV} == 9999 ]]; then
 	inherit git-r3
