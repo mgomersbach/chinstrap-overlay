@@ -3,3 +3,5 @@ sys-auth/pambase sssd
 net-nds/openldap experimental sasl gnutls smbkrb5passwd
 net-fs/samba winbind
 sys-auth/sssd nfsv4
+app-crypt/mit-krb5 openldap
+dev-libs/cyrus-sasl openldap

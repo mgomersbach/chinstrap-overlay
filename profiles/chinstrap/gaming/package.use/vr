@@ -1,3 +1,4 @@
 app-misc/opentrack -neuralnet -wine -openmp -opencv
 dev-qt/qtbase accessibility
 dev-qt/qtdeclarative accessibility
+games-util/steam-launcher steamvr
