@@ -4,7 +4,6 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{12..14} )
-PYPI_PN="ai-edge-litert"
 
 inherit pypi python-single-r1
 
@@ -13,13 +12,13 @@ HOMEPAGE="https://github.com/google-ai-edge/LiteRT https://pypi.org/project/ai-e
 
 SRC_URI="
 	python_single_target_python3_12? (
-		$(pypi_wheel_url --unpack "${PYPI_PN}" "${PV}" "cp312" "cp312-manylinux_2_27_x86_64")
+		$(pypi_wheel_url --unpack "${PN}" "${PV}" "cp312" "cp312-manylinux_2_27_x86_64")
 	)
 	python_single_target_python3_13? (
-		$(pypi_wheel_url --unpack "${PYPI_PN}" "${PV}" "cp313" "cp313-manylinux_2_27_x86_64")
+		$(pypi_wheel_url --unpack "${PN}" "${PV}" "cp313" "cp313-manylinux_2_27_x86_64")
 	)
 	python_single_target_python3_14? (
-		$(pypi_wheel_url --unpack "${PYPI_PN}" "${PV}" "cp314" "cp314-manylinux_2_27_x86_64")
+		$(pypi_wheel_url --unpack "${PN}" "${PV}" "cp314" "cp314-manylinux_2_27_x86_64")
 	)
 "
 S="${WORKDIR}"
