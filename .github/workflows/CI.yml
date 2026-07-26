@@ -29,15 +29,17 @@ jobs:
       issues: write
       pull-requests: write
     steps:
-      # dry-run against master itself: on pull_request refs semantic-release
-      # bails out before verifying push credentials, which is the failure
-      # mode this canary exists to catch
       - name: Checkout
         uses: actions/checkout@v7
         with:
-          ref: master
           fetch-depth: 0
           persist-credentials: false
+
+      # semantic-release only runs on the configured release branch; turn the
+      # PR merge commit into a local master so the dry run validates the
+      # to-be-merged state (config included) with real credential checks
+      - name: Simulate merged master
+        run: git checkout -B master
 
       - name: Semantic Release dry run
         uses: cycjimmy/semantic-release-action@v6
