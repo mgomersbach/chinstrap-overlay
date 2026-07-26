@@ -15,6 +15,7 @@ KEYWORDS="~amd64"
 
 #IUSE=""
 
+# upstream publishes no vendor tarball; go fetches modules during build
 RESTRICT="strip network-sandbox"
 
 RDEPEND="acct-group/grafana

@@ -3,7 +3,7 @@
 
 EAPI=8
 
-PYTHON_COMPAT=( python3_{12..13} )
+PYTHON_COMPAT=( python3_{12..14} )
 PYPI_PN="ai-edge-litert"
 
 inherit pypi python-single-r1
@@ -12,9 +12,17 @@ DESCRIPTION="LiteRT Python runtime (includes interpreter and delegate loader API
 HOMEPAGE="https://github.com/google-ai-edge/LiteRT https://pypi.org/project/ai-edge-litert/"
 
 SRC_URI="
-	python_single_target_python3_12? ( $(pypi_wheel_url --unpack "${PYPI_PN}" "${PV}" "cp312" "cp312-manylinux_2_27_x86_64") )
-	python_single_target_python3_13? ( $(pypi_wheel_url --unpack "${PYPI_PN}" "${PV}" "cp313" "cp313-manylinux_2_27_x86_64") )
+	python_single_target_python3_12? (
+		$(pypi_wheel_url --unpack "${PYPI_PN}" "${PV}" "cp312" "cp312-manylinux_2_27_x86_64")
+	)
+	python_single_target_python3_13? (
+		$(pypi_wheel_url --unpack "${PYPI_PN}" "${PV}" "cp313" "cp313-manylinux_2_27_x86_64")
+	)
+	python_single_target_python3_14? (
+		$(pypi_wheel_url --unpack "${PYPI_PN}" "${PV}" "cp314" "cp314-manylinux_2_27_x86_64")
+	)
 "
+S="${WORKDIR}"
 
 LICENSE="Apache-2.0"
 SLOT="0"
@@ -28,8 +36,6 @@ RDEPEND="
 BDEPEND="
 	app-arch/unzip
 "
-
-S="${WORKDIR}"
 
 QA_PREBUILT="
 	usr/lib*/python*/site-packages/ai_edge_litert/*.so

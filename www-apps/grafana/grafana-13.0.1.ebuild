@@ -7,19 +7,22 @@ inherit go-module systemd
 
 MY_PV=${PV/_beta/-beta}
 MY_PV=${MY_PV/_p/+security-}
-S=${WORKDIR}/${PN}-${MY_PV/+/-}
 
 DESCRIPTION="The tool for beautiful monitoring and metric analytics & dashboards"
 HOMEPAGE="https://grafana.com"
 SRC_URI="https://github.com/grafana/grafana/archive/v${MY_PV}.tar.gz -> ${P}.tar.gz"
+S=${WORKDIR}/${PN}-${MY_PV/+/-}
 
 LICENSE="AGPL-3"
 SLOT="0"
 KEYWORDS="~amd64"
-RESTRICT="strip network-sandbox"
 IUSE="systemd"
+# yarn fetches the frontend node_modules during build; upstream ships no
+# offline bundle, so the network sandbox must stay open
+RESTRICT="strip network-sandbox"
 
-DEPEND="!www-apps/grafana-bin
+RDEPEND="!www-apps/grafana-bin"
+DEPEND="
 	acct-group/grafana
 	acct-user/grafana
 	media-libs/fontconfig

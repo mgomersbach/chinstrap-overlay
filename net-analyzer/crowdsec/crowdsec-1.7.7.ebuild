@@ -11,27 +11,25 @@ HOMEPAGE="https://www.crowdsec.net"
 SRC_URI="https://github.com/crowdsecurity/crowdsec/archive/refs/tags/v${PV}.tar.gz -> ${P}.tar.gz"
 SRC_URI+=" https://github.com/crowdsecurity/crowdsec/releases/download/v${PV}/vendor.tgz -> ${P}-vendor.tar.gz"
 
-RESTRICT="mirror"
-
 LICENSE="MIT"
 SLOT="0"
 KEYWORDS="~amd64 ~arm64"
 IUSE="hardened"
+RESTRICT="mirror"
 
 DEPEND="
-        dev-libs/re2
+	dev-libs/re2
 	>=dev-lang/go-1.23.6
 "
 RDEPEND="${DEPEND}"
-
 
 src_prepare() {
 	eapply_user
 }
 
 src_unpack() {
-    default
-    mv "${WORKDIR}/vendor" "${WORKDIR}/crowdsec-${PV}/"
+	default
+	mv "${WORKDIR}/vendor" "${WORKDIR}/crowdsec-${PV}/"
 }
 
 src_compile() {

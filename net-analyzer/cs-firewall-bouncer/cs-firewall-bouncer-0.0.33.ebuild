@@ -11,12 +11,11 @@ HOMEPAGE="https://www.crowdsec.net"
 SRC_URI="https://github.com/crowdsecurity/cs-firewall-bouncer/archive/refs/tags/v${PV}.tar.gz -> ${P}.tar.gz"
 SRC_URI+=" https://github.com/crowdsecurity/cs-firewall-bouncer/releases/download/v${PV}/vendor.tgz -> ${P}-vendor.tar.gz"
 
-RESTRICT="mirror"
-
 LICENSE="MIT"
 SLOT="0"
 KEYWORDS="~amd64"
 IUSE="hardened nftables"
+RESTRICT="mirror"
 
 DEPEND="
 	nftables? ( net-firewall/nftables[json] )
@@ -25,12 +24,11 @@ RDEPEND="${DEPEND}"
 
 src_prepare() {
 	eapply_user
-
 }
 
 src_unpack() {
-    default
-    mv "${WORKDIR}/vendor" "${WORKDIR}/cs-firewall-bouncer-${PV}/"
+	default
+	mv "${WORKDIR}/vendor" "${WORKDIR}/cs-firewall-bouncer-${PV}/"
 }
 
 src_compile() {

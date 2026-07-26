@@ -12,4 +12,7 @@
 	<use>
 		<flag name="systemd">Install systemd service file</flag>
 	</use>
+	<upstream>
+		<remote-id type="github">grafana/grafana</remote-id>
+	</upstream>
 </pkgmetadata>

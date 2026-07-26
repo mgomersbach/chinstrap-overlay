@@ -5,12 +5,11 @@ EAPI=8
 
 DESCRIPTION="Meta package for running Edge TPU models via LiteRT + libedgetpu"
 HOMEPAGE="https://github.com/google-ai-edge/LiteRT https://github.com/google-coral/libedgetpu"
+S="${WORKDIR}"
 
 LICENSE="metapackage"
 SLOT="0"
 KEYWORDS="~amd64"
-
-S="${WORKDIR}"
 
 RDEPEND="
 	sci-libs/libedgetpu
