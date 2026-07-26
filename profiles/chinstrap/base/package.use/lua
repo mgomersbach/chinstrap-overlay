@@ -1,0 +1,9 @@
+# luajit-only packages lose their IUSE default under LUA_SINGLE_TARGET="-*"
+media-gfx/gimp lua_single_target_luajit
+net-analyzer/snort lua_single_target_luajit
+dev-lua/lua-resty-core lua_single_target_luajit
+dev-lua/lua-resty-lrucache lua_single_target_luajit
+www-nginx/ngx-lua-module lua_single_target_luajit
+www-nginx/ngx-lua-upstream lua_single_target_luajit
+# dep of the openresty stack, needs the luajit target alongside lua5-4
+dev-lua/LuaBitOp lua_targets_luajit
