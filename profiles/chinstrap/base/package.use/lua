@@ -1,6 +1,10 @@
 # luajit-only packages lose their IUSE default under LUA_SINGLE_TARGET="-*"
 media-gfx/gimp lua_single_target_luajit
 net-analyzer/snort lua_single_target_luajit
+games-emulation/fceux lua_single_target_luajit
+dev-libs/efl lua_single_target_luajit
+media-video/obs-studio lua_single_target_luajit
+media-video/vlc lua_single_target_lua5-1
 dev-lua/lua-resty-core lua_single_target_luajit
 dev-lua/lua-resty-lrucache lua_single_target_luajit
 www-nginx/ngx-lua-module lua_single_target_luajit
