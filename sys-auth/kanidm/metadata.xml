@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<!-- maintainer-needed -->
+	<longdescription>
+		Kanidm is a simple, secure and fast modern identity management
+		platform built in Rust. It provides OAuth2/OIDC SSO, WebAuthn,
+		RADIUS, Linux PAM/NSS integration, SSH key distribution, and a
+		read-only LDAPS gateway.
+	</longdescription>
+	<upstream>
+		<remote-id type="github">kanidm/kanidm</remote-id>
+	</upstream>
+	<use>
+		<flag name="server">Build and install the kanidmd server daemon</flag>
+		<flag name="client">Build and install the kanidm CLI client</flag>
+		<flag name="unixd">Build and install kanidm_unixd local resolver and helper tools</flag>
+		<flag name="nss">Build and install the NSS module (libnss_kanidm.so.2)</flag>
+		<flag name="pam">Build and install the PAM module (pam_kanidm.so)</flag>
+		<flag name="tpm">Enable TPM-backed HSM key storage in the unix resolver (requires app-crypt/tpm2-tss)</flag>
+		<flag name="python">Install the pykanidm Python client library (kanidm + kanidm_openapi_client modules) for integration scripts</flag>
+	</use>
+</pkgmetadata>

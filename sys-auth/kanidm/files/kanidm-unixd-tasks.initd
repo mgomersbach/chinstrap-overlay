@@ -1,0 +1,20 @@
+#!/sbin/openrc-run
+# Copyright 2026 Gentoo Authors
+# Distributed under the terms of the GNU General Public License v2
+
+command="/usr/sbin/kanidm_unixd_tasks"
+# tasks helper runs as root: it creates user home directories and writes
+# privileged files on behalf of kanidm_unixd.
+command_user="root:root"
+command_background="yes"
+pidfile="/run/kanidm-unixd-tasks.pid"
+output_log="/var/log/kanidm/kanidm-unixd-tasks.log"
+error_log="/var/log/kanidm/kanidm-unixd-tasks.log"
+
+depend() {
+	need kanidm-unixd
+}
+
+start_pre() {
+	checkpath -d -m 0750 -o kanidm:kanidm /var/log/kanidm
+}

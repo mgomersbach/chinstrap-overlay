@@ -1,0 +1,8 @@
+# /etc/conf.d/kanidm-unixd
+#
+# kanidm_unixd reads /etc/kanidm/unixd and /etc/kanidm/config.
+# Override the HSM PIN file path if using an external HSM:
+#KANIDM_HSM_PIN_PATH="/etc/kanidm/kanidm-unixd-hsm-pin"
+#
+# Path to a service account token (alternative to per-user re-auth):
+#KANIDM_SERVICE_ACCOUNT_TOKEN_PATH="/etc/kanidm/unixd-token"

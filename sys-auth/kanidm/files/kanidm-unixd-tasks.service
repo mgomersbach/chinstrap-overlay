@@ -1,0 +1,27 @@
+[Unit]
+Description=Kanidm Local Client Resolver Tasks (privileged helper)
+After=kanidm-unixd.service
+BindsTo=kanidm-unixd.service
+
+[Service]
+Type=simple
+# Runs as root because it manages user home directory creation, ssh key files,
+# and other privileged operations on behalf of kanidm_unixd.
+User=root
+ExecStart=/usr/sbin/kanidm_unixd_tasks
+
+Restart=always
+RestartSec=30
+
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectHostname=true
+ProtectClock=true
+ProtectKernelTunables=true
+ProtectKernelModules=true
+ProtectKernelLogs=true
+ProtectControlGroups=true
+MemoryDenyWriteExecute=true
+
+[Install]
+WantedBy=multi-user.target

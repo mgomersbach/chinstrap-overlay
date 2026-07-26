@@ -1,0 +1,48 @@
+[Unit]
+Description=Kanidm Local Client Resolver
+After=chrony.service ntpd.service network-online.target suspend.target
+Before=systemd-user-sessions.service sshd.service nss-user-lookup.target
+Wants=nss-user-lookup.target
+Conflicts=nscd.service
+Upholds=kanidm-unixd-tasks.service
+
+[Service]
+Type=notify
+User=kanidm
+Group=kanidm
+SupplementaryGroups=tss
+UMask=0027
+CacheDirectory=kanidm-unixd
+RuntimeDirectory=kanidm-unixd
+StateDirectory=kanidm-unixd
+
+LimitNOFILE=65536
+
+ExecStart=/usr/sbin/kanidm_unixd
+
+# If you wish to setup an external HSM pin you should set:
+# LoadCredential=hsmpin:/etc/kanidm/kanidm-unixd-hsm-pin
+# Environment=KANIDM_HSM_PIN_PATH=%d/hsmpin
+
+# If you use a service account token, you can provide it with:
+# LoadCredential=unixd_token:/etc/kanidm/unixd-token
+# Environment=KANIDM_SERVICE_ACCOUNT_TOKEN_PATH=%d/unixd_token
+
+Restart=always
+RestartSec=30
+
+NoNewPrivileges=true
+PrivateTmp=true
+# Disabled to allow tpmrm0 access for tpm binding when USE=tpm
+PrivateDevices=false
+DeviceAllow=/dev/tpmrm0 rw
+ProtectHostname=true
+ProtectClock=true
+ProtectKernelTunables=true
+ProtectKernelModules=true
+ProtectKernelLogs=true
+ProtectControlGroups=true
+MemoryDenyWriteExecute=true
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,8 @@
+# fleet auth (USE flags managed per-role by ansible)
+sys-auth/kanidm ~*
+acct-user/kanidm ~*
+acct-group/kanidm ~*
+# kanidm[python] deps
+dev-python/aiohttp-retry ~*
+dev-python/authlib ~*
+dev-python/toml ~*

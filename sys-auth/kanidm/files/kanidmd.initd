@@ -1,0 +1,25 @@
+#!/sbin/openrc-run
+# Copyright 2026 Gentoo Authors
+# Distributed under the terms of the GNU General Public License v2
+
+command="/usr/sbin/kanidmd"
+command_args="server -c ${KANIDMD_CONFIG:-/etc/kanidm/server.toml}"
+command_user="kanidm:kanidm"
+command_background="yes"
+pidfile="/run/kanidmd.pid"
+output_log="/var/log/kanidm/kanidmd.log"
+error_log="/var/log/kanidm/kanidmd.log"
+
+# kanidmd binds privileged ports (443/636) by default; grant net_bind_service.
+capabilities="^cap_net_bind_service"
+
+depend() {
+	need net
+	use dns logger ntpd chronyd
+}
+
+start_pre() {
+	checkpath -d -m 0750 -o kanidm:kanidm /var/log/kanidm
+	checkpath -d -m 0750 -o kanidm:kanidm /var/lib/kanidm
+	checkpath -d -m 0755 -o kanidm:kanidm /run/kanidmd
+}
