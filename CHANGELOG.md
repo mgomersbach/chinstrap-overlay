@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.5.6](https://github.com/mgomersbach/chinstrap-overlay/compare/1.5.5...1.5.6) (2026-07-27)
+
+
+### Bug Fixes
+
+* **llamacpp:** add init, config and user for ggml-rpc ([48e7d2f](https://github.com/mgomersbach/chinstrap-overlay/commit/48e7d2fdfd4b9e19e6fb30dc44c9c6389eea78e1))
+
 ## [1.5.5](https://github.com/mgomersbach/chinstrap-overlay/compare/1.5.4...1.5.5) (2026-07-27)
 
 
