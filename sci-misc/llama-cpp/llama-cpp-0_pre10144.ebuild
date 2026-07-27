@@ -5,7 +5,7 @@ EAPI=8
 
 ROCM_VERSION="7.1"
 
-inherit cmake cuda rocm linux-info
+inherit cmake cuda flag-o-matic rocm linux-info
 
 TINY_LLAMAS_COMMIT="99dd1a73db5a37100bd4ae633f4cfce6560e1567"
 
@@ -100,8 +100,10 @@ src_prepare() {
 }
 
 src_configure() {
-	# proper release build: no asserts/debug overhead
+	# proper release build; the cmake eclass strips per-buildtype flags so
+	# Release alone does not define NDEBUG on Gentoo
 	local CMAKE_BUILD_TYPE="Release"
+	append-cppflags -DNDEBUG
 	local mycmakeargs=(
 		-DLLAMA_BUILD_TESTS=OFF
 		-DLLAMA_BUILD_EXAMPLES=$(usex examples)
