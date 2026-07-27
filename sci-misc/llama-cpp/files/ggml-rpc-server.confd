@@ -1,0 +1,27 @@
+# /etc/conf.d/ggml-rpc-server
+
+# WARNING: the ggml RPC protocol has no authentication or encryption.
+# Only bind to interfaces on a trusted network.
+#
+# NOTE: the RPC backend forwards ALL ops without checking remote support
+# (upstream TODO), so clients forcing features the remote backend lacks
+# (e.g. -fa on with unusual model shapes) crash the server; it is
+# restarted automatically by supervise-daemon.
+GGML_RPC_HOST="127.0.0.1"
+GGML_RPC_PORT="50052"
+
+# Number of CPU threads (empty = ggml default)
+#GGML_RPC_THREADS=""
+
+# Comma-separated device list, e.g. "ROCm0" or "Vulkan0".
+# STRONGLY recommended to pin ONE device: on multi-backend builds an empty
+# value exposes the same physical GPU through several backends at once
+# (ROCm + Vulkan), which crashes the server during model load.
+#GGML_RPC_DEVICES="ROCm0"
+
+# Enable the local file cache (stored under /var/cache/ggml-rpc-server)
+GGML_RPC_CACHE="no"
+
+# User to run as; the default ggml-rpc user is a member of video/render
+# for GPU access.
+#GGML_RPC_USER="ggml-rpc:ggml-rpc"

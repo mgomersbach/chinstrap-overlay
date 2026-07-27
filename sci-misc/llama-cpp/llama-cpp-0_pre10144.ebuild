@@ -42,9 +42,6 @@ REQUIRED_USE="
 		blis
 		flexiblas
 	)
-	wmma? (
-		rocm
-	)
 "
 
 # openssl is required for TLS in the bundled http client (hf downloads)
@@ -72,6 +69,8 @@ DEPEND="${CDEPEND}
 	)
 "
 RDEPEND="${CDEPEND}
+	acct-group/ggml-rpc
+	acct-user/ggml-rpc
 	dev-python/numpy
 	opencl? ( dev-libs/opencl-icd-loader )
 	vulkan? ( media-libs/vulkan-loader )
@@ -165,4 +164,7 @@ src_install() {
 
 	# avoid clashing with whisper.cpp
 	rm -rf "${ED}/usr/include"
+
+	newinitd "${FILESDIR}/ggml-rpc-server.initd" ggml-rpc-server
+	newconfd "${FILESDIR}/ggml-rpc-server.confd" ggml-rpc-server
 }

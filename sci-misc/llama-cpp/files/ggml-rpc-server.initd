@@ -1,0 +1,27 @@
+#!/sbin/openrc-run
+# Distributed under the terms of the GNU General Public License v2
+
+name="ggml-rpc-server"
+description="llama.cpp RPC backend server"
+
+command="/usr/bin/ggml-rpc-server"
+command_args="-H ${GGML_RPC_HOST:-127.0.0.1} -p ${GGML_RPC_PORT:-50052}"
+command_user="${GGML_RPC_USER:-ggml-rpc:ggml-rpc}"
+supervisor="supervise-daemon"
+output_log="/var/log/${RC_SVCNAME}.log"
+error_log="/var/log/${RC_SVCNAME}.log"
+
+depend() {
+	need net
+}
+
+start_pre() {
+	[ -n "${GGML_RPC_THREADS}" ] && command_args="${command_args} -t ${GGML_RPC_THREADS}"
+	[ -n "${GGML_RPC_DEVICES}" ] && command_args="${command_args} -d ${GGML_RPC_DEVICES}"
+	if yesno "${GGML_RPC_CACHE:-no}"; then
+		export XDG_CACHE_HOME="/var/cache/${RC_SVCNAME}"
+		checkpath -d -o "${command_user}" "${XDG_CACHE_HOME}" || return 1
+		command_args="${command_args} -c"
+	fi
+	checkpath -f -o "${command_user}" "${output_log}"
+}

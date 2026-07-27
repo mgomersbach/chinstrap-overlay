@@ -1,0 +1,9 @@
+DEFINED_PHASES=install postinst preinst prerm pretend
+DESCRIPTION=User for ggml-rpc-server
+EAPI=8
+INHERIT=acct-user
+KEYWORDS=amd64 arm64
+RDEPEND=acct-group/ggml-rpc acct-group/video acct-group/render
+SLOT=0
+_eclasses_=user-info	d7c261c6f7c2392145e8789913f1bf7e	acct-user	1b9e4658c5fbc274cbc9b660590e8c2e
+_md5_=ff559dc5dfa793bd2b718320a0cae60e
