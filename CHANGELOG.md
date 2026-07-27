@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.5.5](https://github.com/mgomersbach/chinstrap-overlay/compare/1.5.4...1.5.5) (2026-07-27)
+
+
+### Bug Fixes
+
+* **llama:** update ebuild to not debug ([4481045](https://github.com/mgomersbach/chinstrap-overlay/commit/448104538c1fe68eb8d44eb47c6c28f075856c95))
+
 ## [1.5.4](https://github.com/mgomersbach/chinstrap-overlay/compare/1.5.3...1.5.4) (2026-07-27)
 
 
