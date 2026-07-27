@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.5.4](https://github.com/mgomersbach/chinstrap-overlay/compare/1.5.3...1.5.4) (2026-07-27)
+
+
+### Bug Fixes
+
+* **llama-cpp:** add bumped version without debug symbols and with hf fix ([4cadba9](https://github.com/mgomersbach/chinstrap-overlay/commit/4cadba954d6a584ba030ec7e6f6279a49fd5f4cd))
+
 ## [1.5.3](https://github.com/mgomersbach/chinstrap-overlay/compare/1.5.2...1.5.3) (2026-07-26)
 
 
