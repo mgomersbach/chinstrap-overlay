@@ -1,0 +1,9 @@
+DEFINED_PHASES=install
+DESCRIPTION=Visual Computing Lab's C++ library for 3D processing (header-only)
+EAPI=8
+HOMEPAGE=https://github.com/cnr-isti-vclab/vcglib
+KEYWORDS=~amd64
+LICENSE=GPL-3
+SLOT=0
+SRC_URI=https://github.com/cnr-isti-vclab/vcglib/archive/refs/tags/2023.12.tar.gz -> vcglib-2023.12.tar.gz
+_md5_=362d6234e464743ee4169e19d9354f48
