@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <!-- maintainer-needed -->
+  <use>
+    <flag name="tui">build and install the systeroid-tui terminal UI binary</flag>
+    <flag name="clipboard">enable clipboard support in the TUI (requires X or Wayland)</flag>
+  </use>
+  <upstream>
+    <remote-id type="github">orhun/systeroid</remote-id>
+  </upstream>
+</pkgmetadata>
