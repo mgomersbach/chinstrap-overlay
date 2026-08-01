@@ -1,0 +1,18 @@
+[Unit]
+Description=VictoriaLogs vlagent log collector/shipper
+After=network.target
+
+[Service]
+Type=simple
+EnvironmentFile=-/etc/conf.d/vlagent
+ExecStart=/usr/bin/vlagent $VLAGENT_OPTS
+User=victoria-logs
+Group=victoria-logs
+Environment="HOME=/var/lib/victoria-logs"
+StandardOutput=append:/var/log/victoria-logs/vlagent.log
+StandardError=append:/var/log/victoria-logs/vlagent.log
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target

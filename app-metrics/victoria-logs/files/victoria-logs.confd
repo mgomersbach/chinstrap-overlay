@@ -1,0 +1,14 @@
+# /etc/conf.d/victoria-logs
+
+# Extra command-line flags for victoria-logs.
+# Full list: victoria-logs --help, or
+# https://docs.victoriametrics.com/victorialogs/#list-of-command-line-flags
+#
+# Defaults: HTTP API on :9428, data in /var/lib/victoria-logs/data,
+# 7 days retention.
+#
+#VICTORIA_LOGS_OPTS="-retentionPeriod=30d -httpListenAddr=:9428"
+
+# Where the log database is stored (-storageDataPath). The directory
+# must be writable by the victoria-logs user.
+#VICTORIA_LOGS_DATADIR="/var/lib/victoria-logs/data"

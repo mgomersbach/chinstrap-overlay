@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<!-- maintainer-needed -->
+	<use>
+		<flag name="cli">Build vlogscli, the interactive LogsQL query client</flag>
+		<flag name="utils">Build vlagent, the log collection and shipping agent</flag>
+	</use>
+	<upstream>
+		<remote-id type="github">VictoriaMetrics/VictoriaLogs</remote-id>
+		<bugs-to>https://github.com/VictoriaMetrics/VictoriaLogs/issues</bugs-to>
+		<doc lang="en">https://docs.victoriametrics.com/victorialogs/</doc>
+	</upstream>
+</pkgmetadata>
