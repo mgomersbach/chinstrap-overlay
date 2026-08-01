@@ -1,0 +1,319 @@
+# Copyright 2024 Gentoo Authors
+# Distributed under the terms of the GNU General Public License v2
+
+EAPI=8
+
+DISTUTILS_EXT=1
+DISTUTILS_USE_PEP517=maturin
+PYTHON_COMPAT=( python3_{13..14} )
+
+CRATES="
+	addr2line@0.24.2
+	adler2@2.0.0
+	aho-corasick@1.1.3
+	autocfg@1.4.0
+	aws-lc-rs@1.13.1
+	aws-lc-sys@0.29.0
+	backtrace@0.3.75
+	base64@0.13.1
+	base64@0.22.1
+	bincode@2.0.1
+	bincode_derive@2.0.1
+	bindgen@0.69.5
+	bitflags@1.3.2
+	bitflags@2.9.1
+	bumpalo@3.17.0
+	byteorder@1.5.0
+	bytes@1.10.1
+	cc@1.2.23
+	cexpr@0.6.0
+	cfg-if@1.0.0
+	cfg_aliases@0.2.1
+	clang-sys@1.8.1
+	cmake@0.1.54
+	console@0.15.11
+	crc32fast@1.4.2
+	crossbeam-deque@0.8.6
+	crossbeam-epoch@0.9.18
+	crossbeam-utils@0.8.21
+	darling@0.20.11
+	darling_core@0.20.11
+	darling_macro@0.20.11
+	derive_builder@0.20.2
+	derive_builder_core@0.20.2
+	derive_builder_macro@0.20.2
+	dirs-sys@0.4.1
+	dirs@5.0.1
+	displaydoc@0.2.5
+	dunce@1.0.5
+	either@1.15.0
+	encode_unicode@1.0.0
+	equivalent@1.0.2
+	errno@0.3.12
+	esaxx-rs@0.1.10
+	flate2@1.1.1
+	fnv@1.0.7
+	form_urlencoded@1.2.1
+	fs_extra@1.3.0
+	futures-channel@0.3.31
+	futures-core@0.3.31
+	futures-io@0.3.31
+	futures-macro@0.3.31
+	futures-sink@0.3.31
+	futures-task@0.3.31
+	futures-util@0.3.31
+	getrandom@0.2.16
+	getrandom@0.3.3
+	gimli@0.31.1
+	glob@0.3.2
+	hashbrown@0.15.3
+	heck@0.5.0
+	hf-hub@0.4.1
+	home@0.5.11
+	http-body-util@0.1.3
+	http-body@1.0.1
+	http@1.3.1
+	httparse@1.10.1
+	hyper-rustls@0.27.5
+	hyper-util@0.1.11
+	hyper@1.6.0
+	icu_collections@2.0.0
+	icu_locale_core@2.0.0
+	icu_normalizer@2.0.0
+	icu_normalizer_data@2.0.0
+	icu_properties@2.0.0
+	icu_properties_data@2.0.0
+	icu_provider@2.0.0
+	ident_case@1.0.1
+	idna@1.0.3
+	idna_adapter@1.2.1
+	indexmap@2.9.0
+	indicatif@0.17.11
+	indoc@2.0.6
+	ipnet@2.11.0
+	itertools@0.11.0
+	itertools@0.12.1
+	itertools@0.13.0
+	itoa@1.0.15
+	jobserver@0.1.33
+	js-sys@0.3.77
+	lazy_static@1.5.0
+	lazycell@1.3.0
+	libc@0.2.172
+	libloading@0.8.7
+	libredox@0.1.3
+	linux-raw-sys@0.4.15
+	litemap@0.8.0
+	log@0.4.27
+	lru-slab@0.1.2
+	macro_rules_attribute-proc_macro@0.2.0
+	macro_rules_attribute@0.2.0
+	memchr@2.7.4
+	memoffset@0.9.1
+	mime@0.3.17
+	minimal-lexical@0.2.1
+	miniz_oxide@0.8.8
+	mio@1.0.3
+	monostate-impl@0.1.14
+	monostate@0.1.14
+	nom@7.1.3
+	number_prefix@0.4.0
+	object@0.36.7
+	once_cell@1.21.3
+	onig@6.4.0
+	onig_sys@69.8.1
+	option-ext@0.2.0
+	paste@1.0.15
+	percent-encoding@2.3.1
+	pin-project-lite@0.2.16
+	pin-utils@0.1.0
+	pkg-config@0.3.32
+	portable-atomic@1.11.0
+	potential_utf@0.1.2
+	ppv-lite86@0.2.21
+	prettyplease@0.2.32
+	proc-macro2@1.0.95
+	pyo3-build-config@0.23.5
+	pyo3-ffi@0.23.5
+	pyo3-macros-backend@0.23.5
+	pyo3-macros@0.23.5
+	pyo3@0.23.5
+	quinn-proto@0.11.12
+	quinn-udp@0.5.12
+	quinn@0.11.8
+	quote@1.0.40
+	r-efi@5.2.0
+	rand@0.8.5
+	rand@0.9.1
+	rand_chacha@0.3.1
+	rand_chacha@0.9.0
+	rand_core@0.6.4
+	rand_core@0.9.3
+	rayon-cond@0.3.0
+	rayon-core@1.12.1
+	rayon@1.10.0
+	redox_users@0.4.6
+	regex-automata@0.4.9
+	regex-syntax@0.8.5
+	regex@1.11.1
+	reqwest@0.12.15
+	ring@0.17.14
+	rustc-demangle@0.1.24
+	rustc-hash@1.1.0
+	rustc-hash@2.1.1
+	rustix@0.38.44
+	rustls-pemfile@2.2.0
+	rustls-pki-types@1.12.0
+	rustls-webpki@0.103.3
+	rustls@0.23.27
+	rustversion@1.0.20
+	ryu@1.0.20
+	serde-pyobject@0.5.0
+	serde@1.0.219
+	serde_derive@1.0.219
+	serde_json@1.0.140
+	serde_urlencoded@0.7.1
+	shlex@1.3.0
+	slab@0.4.9
+	smallvec@1.15.0
+	socket2@0.5.9
+	socks@0.3.4
+	spm_precompiled@0.1.4
+	stable_deref_trait@1.2.0
+	strsim@0.11.1
+	subtle@2.6.1
+	syn@2.0.101
+	sync_wrapper@1.0.2
+	synstructure@0.13.2
+	target-lexicon@0.12.16
+	thiserror-impl@1.0.69
+	thiserror-impl@2.0.12
+	thiserror@1.0.69
+	thiserror@2.0.12
+	tinystr@0.8.1
+	tinyvec@1.9.0
+	tinyvec_macros@0.1.1
+	tokenizers@0.21.1
+	tokio-rustls@0.26.2
+	tokio-util@0.7.15
+	tokio@1.45.0
+	tower-layer@0.3.3
+	tower-service@0.3.3
+	tower@0.5.2
+	tracing-core@0.1.33
+	tracing@0.1.41
+	try-lock@0.2.5
+	unicode-ident@1.0.18
+	unicode-normalization-alignments@0.1.12
+	unicode-segmentation@1.12.0
+	unicode-width@0.2.0
+	unicode_categories@0.1.1
+	unindent@0.2.4
+	untrusted@0.9.0
+	unty@0.0.4
+	ureq@2.12.1
+	url@2.5.4
+	utf8_iter@1.0.4
+	virtue@0.0.18
+	want@0.3.1
+	wasi@0.11.0+wasi-snapshot-preview1
+	wasi@0.14.2+wasi-0.2.4
+	wasm-bindgen-backend@0.2.100
+	wasm-bindgen-futures@0.4.50
+	wasm-bindgen-macro-support@0.2.100
+	wasm-bindgen-macro@0.2.100
+	wasm-bindgen-shared@0.2.100
+	wasm-bindgen@0.2.100
+	wasm-streams@0.4.2
+	web-sys@0.3.77
+	web-time@1.1.0
+	webpki-roots@0.26.11
+	webpki-roots@1.0.0
+	which@4.4.2
+	winapi-i686-pc-windows-gnu@0.4.0
+	winapi-x86_64-pc-windows-gnu@0.4.0
+	winapi@0.3.9
+	windows-link@0.1.1
+	windows-registry@0.4.0
+	windows-result@0.3.3
+	windows-strings@0.3.1
+	windows-sys@0.48.0
+	windows-sys@0.52.0
+	windows-sys@0.59.0
+	windows-targets@0.48.5
+	windows-targets@0.52.6
+	windows-targets@0.53.0
+	windows_aarch64_gnullvm@0.48.5
+	windows_aarch64_gnullvm@0.52.6
+	windows_aarch64_gnullvm@0.53.0
+	windows_aarch64_msvc@0.48.5
+	windows_aarch64_msvc@0.52.6
+	windows_aarch64_msvc@0.53.0
+	windows_i686_gnu@0.48.5
+	windows_i686_gnu@0.52.6
+	windows_i686_gnu@0.53.0
+	windows_i686_gnullvm@0.52.6
+	windows_i686_gnullvm@0.53.0
+	windows_i686_msvc@0.48.5
+	windows_i686_msvc@0.52.6
+	windows_i686_msvc@0.53.0
+	windows_x86_64_gnu@0.48.5
+	windows_x86_64_gnu@0.52.6
+	windows_x86_64_gnu@0.53.0
+	windows_x86_64_gnullvm@0.48.5
+	windows_x86_64_gnullvm@0.52.6
+	windows_x86_64_gnullvm@0.53.0
+	windows_x86_64_msvc@0.48.5
+	windows_x86_64_msvc@0.52.6
+	windows_x86_64_msvc@0.53.0
+	wit-bindgen-rt@0.39.0
+	writeable@0.6.1
+	yoke-derive@0.8.0
+	yoke@0.8.0
+	zerocopy-derive@0.8.25
+	zerocopy@0.8.25
+	zerofrom-derive@0.1.6
+	zerofrom@0.1.6
+	zeroize@1.8.1
+	zerotrie@0.2.2
+	zerovec-derive@0.11.1
+	zerovec@0.11.2
+"
+
+inherit cargo distutils-r1 pypi
+
+DESCRIPTION="Structured generation core library (Rust-powered)"
+HOMEPAGE="
+	https://github.com/dottxt-ai/outlines-core
+	https://pypi.org/project/outlines-core/
+"
+SRC_URI+="
+	${CARGO_CRATE_URIS}
+"
+# pypi eclass normalizes S automatically (hyphens -> underscores)
+
+LICENSE="Apache-2.0"
+# Dependent crate licenses
+LICENSE+=" Apache-2.0 BSD ISC MIT MPL-2.0 Unicode-3.0"
+SLOT="0"
+KEYWORDS="~amd64"
+RESTRICT="test"
+
+RDEPEND="
+	dev-libs/oniguruma:=
+"
+DEPEND="${RDEPEND}"
+BDEPEND="
+	${RUST_DEPEND}
+	>=dev-util/maturin-1.0.0[${PYTHON_USEDEP}]
+	dev-libs/oniguruma
+"
+
+QA_FLAGS_IGNORED="usr/lib.*/py.*/site-packages/outlines_core/.*\.so"
+
+src_prepare() {
+	distutils-r1_src_prepare
+	export UNSAFE_PYO3_SKIP_VERSION_CHECK=1
+	# Use system oniguruma to avoid GCC 15 incompatibility with bundled version
+	export RUSTONIG_SYSTEM_LIBONIG=1
+}

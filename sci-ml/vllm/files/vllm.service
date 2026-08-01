@@ -1,0 +1,42 @@
+[Unit]
+Description=vLLM inference server
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+Environment="VLLM_HOST=127.0.0.1" "VLLM_PORT=8000" "VLLM_EXTRA_OPTS="
+EnvironmentFile=-/etc/conf.d/vllm
+ExecStart=/usr/bin/vllm serve ${VLLM_MODEL} \
+    --host ${VLLM_HOST} \
+    --port ${VLLM_PORT} \
+    ${VLLM_EXTRA_OPTS}
+User=vllm
+Group=vllm
+Restart=on-failure
+RestartSec=10
+
+# Model cache directory
+StateDirectory=vllm
+CacheDirectory=vllm
+
+# Logging
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=vllm
+
+# GPU access
+SupplementaryGroups=video render
+
+# Sandboxing
+ProtectHome=true
+ProtectSystem=strict
+ReadWritePaths=/var/lib/vllm /var/cache/vllm
+PrivateTmp=true
+ProtectKernelTunables=true
+ProtectKernelModules=true
+ProtectControlGroups=true
+NoNewPrivileges=true
+
+[Install]
+WantedBy=multi-user.target

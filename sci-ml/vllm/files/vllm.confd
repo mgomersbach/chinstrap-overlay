@@ -1,0 +1,25 @@
+# /etc/conf.d/vllm: config file for /etc/init.d/vllm
+
+# Model to serve (required)
+# Can be a HuggingFace model ID or a local path
+#VLLM_MODEL="mistralai/Mistral-7B-Instruct-v0.3"
+
+# User and group to run as
+#VLLM_USER="vllm"
+#VLLM_GROUP="vllm"
+
+# Listen address and port
+#VLLM_HOST="127.0.0.1"
+#VLLM_PORT="8000"
+
+# Log file location
+#VLLM_LOG="/var/log/vllm/vllm.log"
+
+# Extra options passed to 'vllm serve'
+# See 'vllm serve --help' for all options.
+# Examples:
+#   --max-model-len 4096
+#   --tensor-parallel-size 2
+#   --gpu-memory-utilization 0.9
+#   --chat-template /path/to/template.jinja
+#VLLM_EXTRA_OPTS=""

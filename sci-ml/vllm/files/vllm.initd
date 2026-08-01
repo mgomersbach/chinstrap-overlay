@@ -1,0 +1,38 @@
+#!/sbin/openrc-run
+# Copyright 2025-2026 Gentoo Authors
+# Distributed under the terms of the GNU General Public License v2
+
+: ${VLLM_USER:=vllm}
+: ${VLLM_GROUP:=vllm}
+: ${VLLM_MODEL:=}
+: ${VLLM_HOST:=127.0.0.1}
+: ${VLLM_PORT:=8000}
+: ${VLLM_EXTRA_OPTS:=}
+: ${VLLM_LOG:=/var/log/vllm/vllm.log}
+
+description="vLLM inference server"
+command="/usr/bin/vllm"
+command_args="serve ${VLLM_MODEL}
+	--host ${VLLM_HOST}
+	--port ${VLLM_PORT}
+	${VLLM_EXTRA_OPTS}"
+command_user="${VLLM_USER}:${VLLM_GROUP}"
+command_background="yes"
+pidfile="/run/vllm.pid"
+output_log="${VLLM_LOG}"
+error_log="${VLLM_LOG}"
+
+depend() {
+	need localmount
+	after net
+}
+
+start_pre() {
+	if [ -z "${VLLM_MODEL}" ]; then
+		eerror "VLLM_MODEL must be set in /etc/conf.d/vllm"
+		return 1
+	fi
+	checkpath -q -d -o "${command_user}" /run/vllm
+	checkpath -q -d -o "${command_user}" "${VLLM_LOG%/*}"
+	checkpath -q -f -o "${command_user}" "${VLLM_LOG}"
+}

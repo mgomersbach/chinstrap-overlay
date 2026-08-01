@@ -1,0 +1,44 @@
+Skip the experimental Rust frontend when setuptools-rust is absent.
+
+The Rust frontend (vllm-rs, _rust_tool_parser) is opt-in at runtime via
+VLLM_USE_RUST_FRONTEND=1 and upstream already builds it with
+optional=True. Building it would require vendoring ~600 crates for a
+feature the Python frontend fully covers, so make the setuptools-rust
+imports optional and return no Rust extensions when it is missing.
+
+--- a/setup.py	2026-07-30 15:56:11.426074621 +0200
++++ b/setup.py	2026-07-30 15:56:11.870105909 +0200
+@@ -18,7 +18,10 @@
+ from packaging.version import Version, parse
+ from setuptools import Extension, setup
+ from setuptools.command.build_ext import build_ext
+-from setuptools_rust.build import build_rust
++try:
++    from setuptools_rust.build import build_rust
++except ImportError:
++    build_rust = object
+ from setuptools_scm import get_version
+ from torch.utils.cpp_extension import CUDA_HOME, ROCM_HOME
+ 
+--- a/tools/build_rust.py	2026-07-30 15:56:11.596381331 +0200
++++ b/tools/build_rust.py	2026-07-30 15:56:11.870273988 +0200
+@@ -10,12 +10,17 @@
+ from pathlib import Path
+ 
+ from setuptools import setup
+-from setuptools_rust import Binding, RustExtension
++try:
++    from setuptools_rust import Binding, RustExtension
++except ImportError:
++    Binding = RustExtension = None
+ 
+ ROOT_DIR = Path(__file__).resolve().parents[1]
+ 
+ 
+-def rust_extensions(*, optional: bool = False) -> list[RustExtension]:
++def rust_extensions(*, optional: bool = False) -> list:
++    if RustExtension is None:
++        return []
+     return [
+         RustExtension(
+             target="vllm.vllm-rs",

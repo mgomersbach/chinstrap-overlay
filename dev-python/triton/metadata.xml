@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Triton is a language and compiler for writing highly efficient custom
+		Deep-Learning primitives. This package builds Triton from source
+		against the system LLVM/MLIR.
+	</longdescription>
+	<upstream>
+		<remote-id type="github">triton-lang/triton</remote-id>
+	</upstream>
+</pkgmetadata>
