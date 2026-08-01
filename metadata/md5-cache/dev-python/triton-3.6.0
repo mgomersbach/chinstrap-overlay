@@ -1,0 +1,17 @@
+BDEPEND=>=dev-build/cmake-3.20 dev-build/ninja python_single_target_python3_13? ( >=dev-python/pybind11-2.13.1[python_targets_python3_13(-)] >=dev-python/setuptools-40.8.0[python_targets_python3_13(-)] ) python_single_target_python3_14? ( >=dev-python/pybind11-2.13.1[python_targets_python3_14(-)] >=dev-python/setuptools-40.8.0[python_targets_python3_14(-)] ) python_single_target_python3_13? ( dev-lang/python:3.13 ) python_single_target_python3_14? ( dev-lang/python:3.14 ) python_single_target_python3_13? ( >=dev-python/gpep517-16[python_targets_python3_13(-)] dev-python/setuptools[python_targets_python3_13(-)] ) python_single_target_python3_14? ( >=dev-python/gpep517-16[python_targets_python3_14(-)] dev-python/setuptools[python_targets_python3_14(-)] )
+DEFINED_PHASES=compile configure install prepare setup test
+DEPEND=python_single_target_python3_13? ( dev-lang/python:3.13 ) python_single_target_python3_14? ( dev-lang/python:3.14 ) >=dev-util/hip-6.3:= llvm_slot_22? ( llvm-core/llvm:22[llvm_targets_AMDGPU,llvm_targets_NVPTX] llvm-core/mlir:22 llvm-core/lld:22 ) dev-cpp/nlohmann_json python_single_target_python3_13? ( dev-lang/python:3.13 ) python_single_target_python3_14? ( dev-lang/python:3.14 )
+DESCRIPTION=Triton language and compiler for deep learning primitives
+EAPI=8
+HOMEPAGE=https://github.com/triton-lang/triton
+INHERIT=distutils-r1 llvm-r2 multiprocessing
+IUSE=python_single_target_python3_13 python_single_target_python3_14 debug +llvm_slot_22
+KEYWORDS=~amd64
+LICENSE=MIT
+RDEPEND=python_single_target_python3_13? ( dev-lang/python:3.13 ) python_single_target_python3_14? ( dev-lang/python:3.14 ) >=dev-util/hip-6.3:= python_single_target_python3_13? ( dev-lang/python:3.13 ) python_single_target_python3_14? ( dev-lang/python:3.14 )
+REQUIRED_USE=^^ ( python_single_target_python3_13 python_single_target_python3_14 ) ^^ ( python_single_target_python3_13 python_single_target_python3_14 ) ^^ ( llvm_slot_22 )
+RESTRICT=test
+SLOT=0
+SRC_URI=https://github.com/triton-lang/triton/archive/refs/tags/v3.6.0.tar.gz -> triton-3.6.0.tar.gz
+_eclasses_=eapi9-pipestatus	d2c134036ac31c3085aebc9147f572bd	toolchain-funcs	58a918e3a42d0156f010dcfd43725be5	flag-o-matic	fd3558f73f6503093adee69adf41020d	out-of-source-utils	8e5093bd27b7f541a1913271f25d633a	multibuild	83db098a835f71feb71761f72a694aa2	multilib	fc812e8eb2170022c28272d80a1f9e77	multiprocessing	45d0620f25c2f063ad6276ecd9ed9399	ninja-utils	d063ea1900a793f93eb095010d6d9156	python-utils-r1	18a01bee4e486884d7457cfacde74099	python-single-r1	47d8ac9be330c9366112b78fd4f8ce57	distutils-r1	8b4cb6626db7331e3187d652f4bbf9d4	llvm-utils	e7edb4086e31c8537574b263d899f826	llvm-r2	56f5637f85225a4b5312d9055a7727d8
+_md5_=9a33ffa92274a862bd95444cabcf86b3

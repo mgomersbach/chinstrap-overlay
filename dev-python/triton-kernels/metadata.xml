@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Triton kernel implementations for ML model acceleration on ROCm GPUs,
+		built from the upstream triton source tree.
+	</longdescription>
+	<upstream>
+		<remote-id type="github">triton-lang/triton</remote-id>
+	</upstream>
+</pkgmetadata>

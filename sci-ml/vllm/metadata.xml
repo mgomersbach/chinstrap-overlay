@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription lang="en">
+		vLLM is a fast and easy-to-use library for LLM inference and serving.
+		It features high throughput via PagedAttention, continuous batching,
+		optimized CUDA kernels (FlashAttention, FlashInfer), and support for
+		a wide variety of model architectures and quantization methods.
+	</longdescription>
+	<upstream>
+		<remote-id type="github">vllm-project/vllm</remote-id>
+		<bugs-to>https://github.com/vllm-project/vllm/issues</bugs-to>
+		<doc lang="en">https://docs.vllm.ai/en/latest/</doc>
+	</upstream>
+	<use>
+		<flag name="cuda">Build with NVIDIA CUDA GPU support</flag>
+		<flag name="grpc">Enable gRPC serving endpoint (alternative to HTTP API)</flag>
+		<flag name="rocm">Enable ROCm GPU support</flag>
+	</use>
+</pkgmetadata>
