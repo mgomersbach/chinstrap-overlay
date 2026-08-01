@@ -1,0 +1,14 @@
+# /etc/conf.d/vlagent
+
+# Command-line flags for vlagent — the VictoriaLogs edge log collector/shipper.
+# Full list: vlagent --help, or
+# https://docs.victoriametrics.com/victorialogs/vlagent/
+#
+# Ship to one or more VictoriaLogs instances with -remoteWrite.url (repeat the
+# flag per target). vlagent keeps an independent on-disk buffer per URL under
+# -remoteWrite.tmpDataPath and replays it when a target comes back, so a store
+# restart never loses logs. Bound each buffer with -remoteWrite.maxDiskUsagePerURL
+# so a long outage can't fill the disk. The buffer dir must be writable by the
+# victoria-logs user. -httpListenAddr exposes vlagent's own /metrics + /targets.
+#
+#VLAGENT_OPTS="-remoteWrite.url=http://zennode1.home:9428 -remoteWrite.url=http://zennode2.home:9428 -remoteWrite.url=http://zennode3.home:9428 -remoteWrite.tmpDataPath=/var/lib/victoria-logs/vlagent -remoteWrite.maxDiskUsagePerURL=1GiB -httpListenAddr=:9429"

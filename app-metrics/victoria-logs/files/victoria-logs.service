@@ -1,0 +1,19 @@
+[Unit]
+Description=VictoriaLogs log database
+After=network.target
+
+[Service]
+Type=simple
+Environment="VICTORIA_LOGS_DATADIR=/var/lib/victoria-logs/data"
+EnvironmentFile=-/etc/conf.d/victoria-logs
+ExecStart=/usr/bin/victoria-logs -storageDataPath=${VICTORIA_LOGS_DATADIR} $VICTORIA_LOGS_OPTS
+User=victoria-logs
+Group=victoria-logs
+Environment="HOME=/var/lib/victoria-logs"
+StandardOutput=append:/var/log/victoria-logs/victoria-logs.log
+StandardError=append:/var/log/victoria-logs/victoria-logs.log
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,22 @@
+#!/sbin/openrc-run
+command="/usr/bin/${RC_SVCNAME}"
+command_args="${VLAGENT_OPTS}"
+command_user="victoria-logs:victoria-logs"
+command_background="yes"
+pidfile="/run/${RC_SVCNAME}.pid"
+output_log="/var/log/victoria-logs/${RC_SVCNAME}.log"
+error_log="/var/log/victoria-logs/${RC_SVCNAME}.log"
+
+# start-stop-daemon doesn't set HOME from the target user; force it here
+# AFTER /etc/conf.d is auto-sourced by OpenRC so conf.d can't clobber it.
+HOME="/var/lib/victoria-logs"
+export HOME
+
+depend() {
+	need net
+	use dns logger
+}
+
+start_pre() {
+	checkpath -d -m 0755 -o victoria-logs:victoria-logs /var/log/victoria-logs
+}
