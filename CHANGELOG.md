@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.5.7](https://github.com/mgomersbach/chinstrap-overlay/compare/1.5.6...1.5.7) (2026-08-01)
+
+
+### Bug Fixes
+
+* **ebuilds:** add ghidra 12.1.2 and systeroid ([7b00b8a](https://github.com/mgomersbach/chinstrap-overlay/commit/7b00b8aa5ea6d44e32a86e0118ce5f29ce643d02))
+* **ebuilds:** add photogrammetry libraries ([c8058f1](https://github.com/mgomersbach/chinstrap-overlay/commit/c8058f1301a1cd9b78fa36d9e9c26efec1ae5c38))
+* **ebuilds:** add pynetbox for netbox inventory tooling ([527f77c](https://github.com/mgomersbach/chinstrap-overlay/commit/527f77c420afa0e199aa96a51de42db90c353e01))
+* **ebuilds:** add victoria-logs with service accounts ([4149db8](https://github.com/mgomersbach/chinstrap-overlay/commit/4149db81aa3c3ae3ee3256b3c714e541ac4b1592))
+* **ebuilds:** add vllm serving stack with python3.14 support ([d132cd5](https://github.com/mgomersbach/chinstrap-overlay/commit/d132cd5fa7118093c8cca2bff2c600282ac00b17))
+* **ebuilds:** add winegui 4.1.0 and sweethome3d-bin ([71a0af7](https://github.com/mgomersbach/chinstrap-overlay/commit/71a0af7b3fc0ffb9c9a7c7c3f802a62ccab14156))
+
 ## [1.5.6](https://github.com/mgomersbach/chinstrap-overlay/compare/1.5.5...1.5.6) (2026-07-27)
 
 
