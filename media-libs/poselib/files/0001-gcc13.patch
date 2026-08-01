@@ -1,0 +1,25 @@
+From b68bca76f43c32d874dea489dc985d87eb9d40a1 Mon Sep 17 00:00:00 2001
+From: Mark Shachkov <markshachkov@gmail.com>
+Date: Tue, 17 Oct 2023 19:53:13 +0200
+Subject: [PATCH] Disable -Warray-bounds for bundle.cc due to false positive on
+ GCC>=12
+
+---
+ PoseLib/robust/bundle.cc | 4 ++++
+ 1 file changed, 4 insertions(+)
+
+diff --git a/PoseLib/robust/bundle.cc b/PoseLib/robust/bundle.cc
+index 5e223a10..9992f20b 100644
+--- a/PoseLib/robust/bundle.cc
++++ b/PoseLib/robust/bundle.cc
+@@ -26,6 +26,10 @@
+ // (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+ // SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+ 
++#if __GNUC__ >= 12
++#pragma GCC diagnostic ignored "-Warray-bounds"
++#endif
++
+ #include "bundle.h"
+ 
+ #include "PoseLib/robust/jacobian_impl.h"

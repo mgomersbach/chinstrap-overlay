@@ -6,3 +6,6 @@ dev-python/tifffile ~amd64
 
 # Depth sensors
 media-libs/libuvc ~amd64
+media-libs/r3d ~*
+sci-libs/vkfft ~*
+dev-python/pyseq ~*
