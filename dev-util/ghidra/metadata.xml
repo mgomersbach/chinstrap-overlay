@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>markgomersbach@gmail.com</email>
+		<name>Mark Gomersbach</name>
+	</maintainer>
+	<upstream>
+		<remote-id type="github">NationalSecurityAgency/ghidra</remote-id>
+		<remote-id type="github">pxb1988/dex2jar</remote-id>
+		<remote-id type="sourceforge">yajsw</remote-id>
+	</upstream>
+</pkgmetadata>

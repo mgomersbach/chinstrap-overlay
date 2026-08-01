@@ -9,3 +9,5 @@ dev-util/vmtouch ~amd64
 
 # Zig
 =dev-zig/zls-0.15.0 ~amd64
+dev-util/ghidra ~*
+sys-apps/systeroid ~*
