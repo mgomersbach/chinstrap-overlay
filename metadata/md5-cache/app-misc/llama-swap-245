@@ -1,0 +1,15 @@
+BDEPEND=virtual/pkgconfig
+DEFINED_PHASES=install postinst
+DESCRIPTION=Model swapping proxy for llama.cpp and other OpenAI-compatible servers
+EAPI=8
+HOMEPAGE=https://github.com/mostlygeek/llama-swap
+INHERIT=systemd
+IUSE=systemd
+KEYWORDS=-* ~amd64
+LICENSE=MIT
+RDEPEND=acct-group/llama-swap acct-user/llama-swap
+RESTRICT=strip
+SLOT=0
+SRC_URI=https://github.com/mostlygeek/llama-swap/releases/download/v245/llama-swap_245_linux_amd64.tar.gz -> llama-swap-245-linux-amd64.tar.gz
+_eclasses_=toolchain-funcs	58a918e3a42d0156f010dcfd43725be5	systemd	a964c0cbe818b5729da1dbfcee5be861
+_md5_=a6c6fc1da6b9847fd8c10e5000f0132a

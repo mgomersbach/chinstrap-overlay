@@ -1,0 +1,15 @@
+# llama-swap model definitions.
+# Docs: https://github.com/mostlygeek/llama-swap/wiki/Configuration
+#
+# Example:
+#
+# models:
+#   "qwen3":
+#     cmd: |
+#       /usr/bin/llama-server --port ${PORT}
+#       -m /var/lib/llama-swap/models/qwen3.gguf
+#
+# The daemon runs as the llama-swap user; model files must be readable
+# by it. ${PORT} is filled in by llama-swap.
+
+models: {}

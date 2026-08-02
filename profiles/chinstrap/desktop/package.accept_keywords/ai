@@ -1,5 +1,8 @@
 # llama.cpp
 sci-misc/llama-cpp ~amd64
+app-misc/llama-swap ~amd64
+acct-user/llama-swap ~*
+acct-group/llama-swap ~*
 
 # PyTorch
 dev-cpp/frugally-deep ~amd64
