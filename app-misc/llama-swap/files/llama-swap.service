@@ -1,0 +1,19 @@
+[Unit]
+Description=llama-swap model swapping proxy
+After=network.target
+
+[Service]
+Type=simple
+Environment="LLAMA_SWAP_CONFIG=/etc/llama-swap/config.yaml"
+EnvironmentFile=-/etc/conf.d/llama-swap
+ExecStart=/usr/bin/llama-swap -config ${LLAMA_SWAP_CONFIG} $LLAMA_SWAP_OPTS
+User=llama-swap
+Group=llama-swap
+Environment="HOME=/var/lib/llama-swap"
+StandardOutput=append:/var/log/llama-swap/llama-swap.log
+StandardError=append:/var/log/llama-swap/llama-swap.log
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target

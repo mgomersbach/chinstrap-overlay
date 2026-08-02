@@ -1,0 +1,11 @@
+# /etc/conf.d/llama-swap
+
+# Extra command-line flags for llama-swap.
+# Full list: llama-swap -h
+#
+# Defaults: listen on :8080, config from /etc/llama-swap/config.yaml.
+#
+#LLAMA_SWAP_OPTS="-listen :8080 -watch-config"
+
+# Path to the model definitions file (-config).
+#LLAMA_SWAP_CONFIG="/etc/llama-swap/config.yaml"
