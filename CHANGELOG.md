@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.5.8](https://github.com/mgomersbach/chinstrap-overlay/compare/1.5.7...1.5.8) (2026-08-02)
+
+
+### Bug Fixes
+
+* **ebuild:** add llama-swap ([8cbdcb3](https://github.com/mgomersbach/chinstrap-overlay/commit/8cbdcb3fe84be831f62cd9da7a4d483a74bc6a0a))
+
 ## [1.5.7](https://github.com/mgomersbach/chinstrap-overlay/compare/1.5.6...1.5.7) (2026-08-01)
 
 
