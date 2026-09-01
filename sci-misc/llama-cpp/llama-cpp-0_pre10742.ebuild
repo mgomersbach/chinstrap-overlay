@@ -1,4 +1,4 @@
-# Copyright 2026 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -17,7 +17,8 @@ if [[ ${PV} == *9999* ]]; then
 	EGIT_REPO_URI="https://github.com/ggml-org/llama.cpp.git"
 else
 	MY_PV="b${PV#0_pre}"
-	SRC_URI="https://github.com/ggml-org/llama.cpp/archive/refs/tags/${MY_PV}.tar.gz -> ${P}.tar.gz"
+	SRC_URI="https://github.com/ggml-org/llama.cpp/archive/refs/tags/${MY_PV}.tar.gz -> ${P}.tar.gz
+		ui? ( https://github.com/ggml-org/llama.cpp/releases/download/${MY_PV}/llama-${MY_PV}-ui.tar.gz )"
 	S="${WORKDIR}/llama.cpp-${MY_PV}"
 	KEYWORDS="~amd64"
 fi
@@ -34,7 +35,7 @@ SLOT="0"
 CPU_FLAGS_X86=( avx avx2 f16c )
 
 # wwma USE explained here: https://github.com/ggml-org/llama.cpp/blob/master/docs/build.md#hip
-IUSE="openblas +openmp blis rocm cuda opencl +openssl vulkan flexiblas wmma examples"
+IUSE="openblas +openmp blis rocm cuda opencl +openssl vulkan flexiblas wmma examples +ui"
 
 REQUIRED_USE="
 	?? (
@@ -91,6 +92,9 @@ pkg_setup() {
 src_prepare() {
 	use cuda && cuda_src_prepare
 	cmake_src_prepare
+	if use ui; then
+		mv "${WORKDIR}/llama-${MY_PV}" tools/ui/dist || die
+	fi
 	if use examples; then
 		mkdir -p "${BUILD_DIR}/tinyllamas" || die
 		cp "${DISTDIR}/ggml-org_models_tinyllamas_stories15M-q4_0-${TINY_LLAMAS_COMMIT}.gguf" \
@@ -99,14 +103,14 @@ src_prepare() {
 }
 
 src_configure() {
-	# proper release build; the cmake eclass strips per-buildtype flags so
-	# Release alone does not define NDEBUG on Gentoo
 	local CMAKE_BUILD_TYPE="Release"
 	append-cppflags -DNDEBUG
 	local mycmakeargs=(
 		-DLLAMA_BUILD_TESTS=OFF
 		-DLLAMA_BUILD_EXAMPLES=$(usex examples)
 		-DLLAMA_BUILD_SERVER=ON
+		-DLLAMA_BUILD_UI=OFF
+		-DLLAMA_USE_PREBUILT_UI=OFF
 		-DCMAKE_SKIP_BUILD_RPATH=ON
 		-DGGML_NATIVE=0	# don't set march
 		-DGGML_RPC=ON
@@ -118,7 +122,6 @@ src_configure() {
 		-DGGML_OPENMP=$(usex openmp)
 		-DGGML_VULKAN=$(usex vulkan)
 
-		# avoid clashing with whisper.cpp
 		-DCMAKE_INSTALL_LIBDIR="${EPREFIX}/usr/$(get_libdir)/llama.cpp"
 		-DCMAKE_INSTALL_RPATH="${EPREFIX}/usr/$(get_libdir)/llama.cpp"
 	)
@@ -143,7 +146,6 @@ src_configure() {
 
 	if use cuda; then
 		local -x CUDAHOSTCXX="$(cuda_gccdir)"
-		# tries to recreate dev symlinks
 		cuda_add_sandbox
 		addpredict "/dev/char/"
 	fi
@@ -162,7 +164,6 @@ src_configure() {
 src_install() {
 	cmake_src_install
 
-	# avoid clashing with whisper.cpp
 	rm -rf "${ED}/usr/include"
 
 	newinitd "${FILESDIR}/ggml-rpc-server.initd" ggml-rpc-server

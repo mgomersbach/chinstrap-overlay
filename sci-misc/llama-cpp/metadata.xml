@@ -13,6 +13,7 @@
 		<flag name="openblas">Build an OpenBLAS backend</flag>
 		<flag name="opencl">Build an OpenCL backend, so far only works on Adreno and Intel GPUs</flag>
 		<flag name="openssl">Use openssl to support HTTPS</flag>
+		<flag name="ui">Install the prebuilt llama-server web UI from the matching upstream release</flag>
 	</use>
 	<upstream>
 		<remote-id type="github">ggml-org/llama.cpp</remote-id>
