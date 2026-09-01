@@ -1,0 +1,24 @@
+#!/sbin/openrc-run
+# Distributed under the terms of the GNU General Public License v2
+
+name="oauth2-proxy"
+description="OAuth2 authenticating reverse proxy"
+
+command="/usr/bin/oauth2-proxy"
+command_args="--config ${OAUTH2_PROXY_CONFIG:-/etc/oauth2-proxy/oauth2-proxy.cfg} ${OAUTH2_PROXY_OPTS}"
+command_user="${OAUTH2_PROXY_USER:-oauth2-proxy:oauth2-proxy}"
+supervisor="supervise-daemon"
+output_log="/var/log/${RC_SVCNAME}.log"
+error_log="/var/log/${RC_SVCNAME}.log"
+
+depend() {
+	need net
+}
+
+start_pre() {
+	if [ ! -f "${OAUTH2_PROXY_CONFIG:-/etc/oauth2-proxy/oauth2-proxy.cfg}" ]; then
+		eerror "Missing config: ${OAUTH2_PROXY_CONFIG:-/etc/oauth2-proxy/oauth2-proxy.cfg}"
+		return 1
+	fi
+	checkpath -f -o "${command_user}" "${output_log}"
+}

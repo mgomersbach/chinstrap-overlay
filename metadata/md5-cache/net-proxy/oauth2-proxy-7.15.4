@@ -1,0 +1,14 @@
+BDEPEND=>=dev-lang/go-1.26.0 >=dev-lang/go-1.24.11:= app-arch/unzip virtual/pkgconfig
+DEFINED_PHASES=compile install postinst unpack
+DESCRIPTION=Reverse proxy that provides authentication with Google, Azure, OIDC and more
+EAPI=8
+HOMEPAGE=https://oauth2-proxy.github.io/oauth2-proxy/
+INHERIT=go-module systemd
+KEYWORDS=~amd64 ~arm64
+LICENSE=MIT
+RDEPEND=acct-group/oauth2-proxy acct-user/oauth2-proxy
+RESTRICT=strip network-sandbox
+SLOT=0
+SRC_URI=https://github.com/oauth2-proxy/oauth2-proxy/archive/refs/tags/v7.15.4.tar.gz -> oauth2-proxy-7.15.4.tar.gz
+_eclasses_=toolchain-funcs	58a918e3a42d0156f010dcfd43725be5	flag-o-matic	fd3558f73f6503093adee69adf41020d	multiprocessing	45d0620f25c2f063ad6276ecd9ed9399	sysroot	4c36abaf94ebd3ab32f8abea9a444121	go-env	fca4e820393c2eac25a944be8bdf6a3a	go-module	3d4b6f3f29b3ebdeb708785b3cb1743b	systemd	a964c0cbe818b5729da1dbfcee5be861
+_md5_=8e4fcb09845e7f2172dd138e49c3c599
