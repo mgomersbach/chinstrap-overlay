@@ -1,4 +1,4 @@
-# Copyright 1999-2023 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -17,8 +17,6 @@ LICENSE="AGPL-3"
 SLOT="0"
 KEYWORDS="~amd64"
 IUSE="systemd"
-# yarn fetches the frontend node_modules during build; upstream ships no
-# offline bundle, so the network sandbox must stay open
 RESTRICT="strip network-sandbox"
 
 RDEPEND="!www-apps/grafana-bin"
@@ -29,8 +27,6 @@ DEPEND="
 	<net-libs/nodejs-25.0.0[icu]
 	sys-apps/yarn"
 BDEPEND="virtual/pkgconfig"
-
-# QA_PRESTRIPPED="usr/bin/grafana-*"
 
 src_prepare() {
 	eapply_user
