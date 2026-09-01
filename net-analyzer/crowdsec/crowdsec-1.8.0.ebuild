@@ -1,4 +1,4 @@
-# Copyright 2023 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -81,7 +81,7 @@ src_install() {
 	doins cmd/notification-http/http.yaml
 	doins cmd/notification-email/email.yaml
 
-	# crowdsec db location
+	# DB
 	keepdir /var/lib/crowdsec/data
 
 	systemd_dounit "${FILESDIR}/${PN}.service"
