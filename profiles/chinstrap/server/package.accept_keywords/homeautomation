@@ -1,3 +1,9 @@
 app-misc/zigbee2mqtt ~*
 acct-user/zigbee2mqtt ~*
 acct-group/zigbee2mqtt ~*
+
+dev-python/wyoming ~*
+dev-python/wyoming-satellite ~*
+dev-python/wyoming-openwakeword ~*
+dev-python/pyring-buffer ~*
+dev-python/pyopen-wakeword ~*
