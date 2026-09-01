@@ -1,5 +1,21 @@
 # Changelog
 
+## [1.5.9](https://github.com/mgomersbach/chinstrap-overlay/compare/1.5.8...1.5.9) (2026-09-01)
+
+
+### Bug Fixes
+
+* **ebuilds:** add oauth2-proxy with service accounts ([76dfc64](https://github.com/mgomersbach/chinstrap-overlay/commit/76dfc64a4fa4c0b97f93b0aeb523a642f38fa8ee))
+* **ebuilds:** add pgvector for postgres vector search ([9ba2bf5](https://github.com/mgomersbach/chinstrap-overlay/commit/9ba2bf55b0ce14a8dcd68780ace61f04bf66cb73))
+* **ebuilds:** add wyoming voice assistant ([c21135d](https://github.com/mgomersbach/chinstrap-overlay/commit/c21135d24cb6192c07c2c2b075759e95ea4973d8))
+* **ebuilds:** update crowdsec 1.8.0 and cs-firewall-bouncer 0.0.36 ([972f47e](https://github.com/mgomersbach/chinstrap-overlay/commit/972f47e297e12d41eec06bdb5915ee1b14b9bcc1))
+* **ebuilds:** update ghidra 12.1.3 and dosbox-x 2026.08.31 ([6d679a7](https://github.com/mgomersbach/chinstrap-overlay/commit/6d679a71f68b28530f497eac795ab23684944c05))
+* **ebuilds:** update kanidm to 1.11.1 ([c794b81](https://github.com/mgomersbach/chinstrap-overlay/commit/c794b81945276c452889cebe90ec35ba8bd02ce1))
+* **ebuilds:** update llama-cpp to b10742 with prebuilt webui ([c744f28](https://github.com/mgomersbach/chinstrap-overlay/commit/c744f28e45641af392ae8cbce3cd2b9e8a167ed7))
+* **ebuilds:** update llama-swap to 252 ([6dc7a2f](https://github.com/mgomersbach/chinstrap-overlay/commit/6dc7a2fd5698b5a488c0073e3c2d1bcb4bd007dd))
+* **ebuilds:** update loki, alloy and grafana within go 1.26.4 ([7096eeb](https://github.com/mgomersbach/chinstrap-overlay/commit/7096eeb3907dad9b3ff85339b5db04a13952ba23))
+* **ebuilds:** update zigbee2mqtt to 2.13.0 ([794d4f7](https://github.com/mgomersbach/chinstrap-overlay/commit/794d4f7496729d445191c102296524ed75e55437))
+
 ## [1.5.8](https://github.com/mgomersbach/chinstrap-overlay/compare/1.5.7...1.5.8) (2026-08-02)
 
 
