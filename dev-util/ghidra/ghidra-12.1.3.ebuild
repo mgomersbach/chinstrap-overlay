@@ -1,19 +1,18 @@
-# Copyright 2025-2026 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
 PYTHON_COMPAT=( python3_{11..14} )
 inherit java-pkg-2 desktop python-single-r1
 
-GRADLE_DEP_VER="20260606"
+GRADLE_DEP_VER="20260923"
 # Ghidra/application.properties
 GRADLE_VER="8.5"
 
 # ./gradle/support/fetchDependencies.gradle
-# Pinned to 11.4 because the ghidra-data tag at that point matches the
-# distfile hashes we already have for FIDB / sarif jars; bumping it would
-# only force a refetch with no functional change.
-RELEASE_VERSION="11.4"
+# ghidra-data tag for FIDB / sarif / dbgmodel assets; identical content since
+# Ghidra_11.4, so tracking PV costs no refetch.
+RELEASE_VERSION="${PV}"
 
 DESCRIPTION="A software reverse engineering framework"
 HOMEPAGE="https://ghidra-sre.org/"

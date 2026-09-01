@@ -1,4 +1,4 @@
-# Copyright 2022-2026 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -17,15 +17,10 @@ fi
 DESCRIPTION="Complete, accurate DOS emulator forked from DOSBox"
 HOMEPAGE="https://dosbox-x.com/"
 
-# Stay consistent with games-emulation/dosbox::gentoo even though source file
-# headers specify the GPL version to be "either version 2 of the License, or
-# (at your option) any later version."  The same header is used in both the
-# DOSBox source tree and the DOSBox-X source tree.
 LICENSE="GPL-2"
 SLOT="0"
 
 IUSE="X debug ffmpeg fluidsynth opengl png slirp truetype"
-# Unit tests are only available in debug builds
 RESTRICT="!debug? ( test )"
 
 BDEPEND="
@@ -33,21 +28,6 @@ BDEPEND="
 	sys-libs/libcap
 "
 
-# Unconditionally pulling in automagically-enabled optional dependencies:
-# - dev-lang/duktape
-# - media-libs/alsa-lib
-# - media-libs/sdl2-net
-# - net-libs/libpcap
-#
-# With media-libs/libsdl2[-X,wayland], this package does work on a Wayland
-# desktop, but (at least on GNOME) the program does not launch in a movable
-# and resizable window; whereas with media-libs/libsdl2[X], it does.  Thus,
-# unconditionally require media-libs/libsdl2[X] for better user experience.
-#
-# DOSBox-X works with multiple audio backends of SDL 2 but requires at least
-# one available backend (https://bugs.gentoo.org/901303).  Unconditionally
-# depending on media-libs/libsdl2[alsa] to satisfy this requirement since
-# this ebuild already unconditionally pulls in media-libs/alsa-lib.
 COMMON_DEPEND="
 	dev-lang/duktape:=
 	media-libs/alsa-lib
@@ -73,11 +53,6 @@ DEPEND="
 	${COMMON_DEPEND}
 "
 
-# DOSBox-X can still run normally without any of these dependencies --
-# it just cannot show a file dialog.  However, upon the initial launch,
-# DOSBox-X will try to show a file dialog to let the user choose the
-# working directory; without one of these dependencies, the user would
-# see nothing when they launch DOSBox-X for the first time.
 FILE_DIALOG_DEPEND="
 	|| (
 		gnome-extra/zenity
@@ -104,9 +79,6 @@ pkg_pretend() {
 src_prepare() {
 	default
 
-	# https://bugs.gentoo.org/887669
-	# Mask lines touching '-O*', and avoid creating an empty command
-	# list as a result to not break 'if', 'for', or functions
 	sed -i -E -e 's/((C|CXX)FLAGS=.*-O)/: \1/' configure.ac ||
 		die "Failed to stop configure.ac from touching '-O*' compiler flags"
 
@@ -115,22 +87,7 @@ src_prepare() {
 
 src_configure() {
 	local myconf=(
-		# Always use SDL 2, even though the package provides the option to
-		# build with SDL 1.x, because this package is expected to be built
-		# with the bundled, heavily-modified version of SDL 1.x if that
-		# branch is used.  Compiler errors are likely to occur if the
-		# bundled version of SDL 1.x is not used.  Bundled dependencies
-		# should be avoided on Gentoo, so SDL 2 is more preferable.
 		--enable-sdl2
-
-		# Explicitly enable ALSA MIDI support, same as default.  As of
-		# v2022.08.0, even when it is disabled, media-libs/alsa-lib will
-		# still be automagically linked if it is present in the build
-		# environment (presumably for other components of this package),
-		# so the dependency cannot be made optional by disabling this
-		# option.  Plus, disabling this option has no observable effect
-		# on build time, build size, or the program's functionality, as
-		# 'mididevice=alsa' still works with '--disable-alsa-midi'.
 		--enable-alsa-midi
 
 		$(use_enable debug '' heavy)
@@ -162,15 +119,8 @@ src_test() {
 pkg_preinst() {
 	xdg_pkg_preinst
 
-	# Returns whether or not the USE flag specified with the first positional
-	# argument is newly enabled for this installation of the package.
 	newuse() {
 		local flag="${1}"
-
-		# The 'has_version' call tests if any USE flags are newly enabled.
-		# It is to extract information about any existing copy of this
-		# package installed on the system, which is why it should be made
-		# before the new copy of this package just built is merged.
 		use "${flag}" && ! has_version "${CATEGORY}/${PN}[${flag}]"
 	}
 
