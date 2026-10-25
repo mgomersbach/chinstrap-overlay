@@ -1,0 +1,13 @@
+Without assimp, r3d_model.c gets NULL and strncmp() from nowhere.
+
+--- a/src/r3d_model.c
++++ b/src/r3d_model.c
+@@ -11,6 +11,8 @@
+ #include <r3d/r3d_model.h>
+ #include <r3d/r3d_mesh.h>
+ #include <r3d_config.h>
++#include <stddef.h>
++#include <string.h>
+ 
+ #ifdef R3D_SUPPORT_ASSIMP
+ #   include "./importer/r3d_importer_internal.h"

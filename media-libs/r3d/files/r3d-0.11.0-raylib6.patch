@@ -1,0 +1,16 @@
+--- a/src/r3d_cubemap.c
++++ b/src/r3d_cubemap.c
+@@ -17,6 +17,13 @@
+ #include "./modules/r3d_render.h"
+ #include "./r3d_core_state.h"
+ 
++#if RAYLIB_VERSION_MAJOR >= 6
++// raylib 6 redesigned ImageDraw(); the old call is ImageDrawImagePro()
++// with a zero origin and rotation
++#define ImageDraw(dst, src, srcRec, dstRec, tint) \
++    ImageDrawImagePro(dst, src, srcRec, dstRec, (Vector2){0}, 0.0f, tint)
++#endif
++
+ // ========================================
+ // INTERNAL SHARED FUNCTIONS
+ // ========================================

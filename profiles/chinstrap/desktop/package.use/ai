@@ -5,7 +5,6 @@ dev-util/nvidia-cuda-toolkit profiler
 sci-libs/flann -mpi
 sci-libs/hdf5 unsupported
 sci-libs/miopen composable-kernel rocblas roctracer
-sci-ml/caffe2 distributed memefficient onednn
 sci-ml/pytorch distributed memefficient onednn
 virtual/mpi romio
 
