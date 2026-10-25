@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.5.10](https://github.com/mgomersbach/chinstrap-overlay/compare/1.5.9...1.5.10) (2026-10-25)
+
+
+### Bug Fixes
+
+* **ebuilds:** bump versions and removal of those that are now upstream ([13da7be](https://github.com/mgomersbach/chinstrap-overlay/commit/13da7beb17883fff16a5af9cb789f15a7fad77a6))
+
 ## [1.5.9](https://github.com/mgomersbach/chinstrap-overlay/compare/1.5.8...1.5.9) (2026-09-01)
 
 
