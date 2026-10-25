@@ -1,0 +1,16 @@
+BDEPEND=virtual/pkgconfig doc? ( app-text/doxygen ) app-alternatives/ninja >=dev-build/cmake-3.28.5
+DEFINED_PHASES=compile configure install postinst postrm preinst prepare test
+DEPEND=>=dev-cpp/gtkmm-4.10:4.0 >=dev-cpp/nlohmann_json-3.10
+DESCRIPTION=WineGUI is a user-friendly WINE graphical interface
+EAPI=8
+HOMEPAGE=https://winegui.melroy.org/
+IDEPEND=dev-util/desktop-file-utils x11-misc/shared-mime-info
+INHERIT=cmake gnome2-utils xdg
+IUSE=doc
+KEYWORDS=~amd64
+LICENSE=AGPL-3+
+RDEPEND=>=dev-cpp/gtkmm-4.10:4.0 virtual/wine app-emulation/winetricks
+SLOT=0
+SRC_URI=https://github.com/winegui/WineGUI/archive/refs/tags/v4.5.1.tar.gz -> winegui-4.5.1.tar.gz
+_eclasses_=toolchain-funcs	58a918e3a42d0156f010dcfd43725be5	flag-o-matic	fd3558f73f6503093adee69adf41020d	multiprocessing	45d0620f25c2f063ad6276ecd9ed9399	ninja-utils	d063ea1900a793f93eb095010d6d9156	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	cmake	3530055400d05e64deaba3042af30af6	gnome2-utils	a8cf148ec7f5ae0b1f1d33ae5f7f9e88	xdg	3ef49a87c52c8b77c476351195dfe575
+_md5_=93533dbf84c4bcbd1a29fdeee16dc6aa

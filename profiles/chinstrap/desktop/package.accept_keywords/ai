@@ -34,7 +34,6 @@ dev-python/compressed-tensors ~*
 dev-python/conch-triton-kernels ~*
 dev-python/depyf ~*
 dev-python/einops ~*
-dev-python/huggingface-hub ~*
 dev-python/interegular ~*
 dev-python/llguidance ~*
 dev-python/llvmlite ~*
@@ -42,7 +41,7 @@ dev-python/lm-format-enforcer ~*
 dev-python/mistral-common ~*
 dev-python/model-hosting-container-standards ~*
 dev-python/numba ~*
-dev-python/openai-harmony ~*
+dev-python/oss-harmony ~*
 dev-python/opentelemetry-exporter-otlp ~*
 dev-python/outlines-core ~*
 dev-python/partial-json-parser ~*
@@ -57,6 +56,11 @@ dev-python/opentelemetry-proto ~*
 dev-python/opentelemetry-exporter-otlp-proto-common ~*
 dev-python/opentelemetry-exporter-otlp-proto-grpc ~*
 dev-python/opentelemetry-exporter-otlp-proto-http ~*
+dev-python/opentelemetry-exporter-otlp-common ~*
+dev-python/opentelemetry-exporter-http-transport ~*
+dev-python/opentelemetry-api ~*
+dev-python/opentelemetry-sdk ~*
+dev-python/opentelemetry-semantic-conventions ~*
 dev-python/anthropic ~*
 dev-python/openai ~*
 dev-python/opentelemetry-semantic-conventions-ai ~*
@@ -66,3 +70,17 @@ sci-ml/torchaudio ~*
 dev-python/jiter ~*
 dev-python/docstring-parser ~*
 sci-ml/tokenizers ~*
+dev-python/apache-tvm-ffi ~*
+dev-python/mcp ~*
+dev-python/mcp-types ~*
+dev-python/sse-starlette ~*
+dev-python/fastapi ~*
+sci-ml/huggingface_hub ~*
+sci-ml/hf_xet ~*
+sci-ml/safetensors ~*
+sci-ml/sentencepiece ~*
+sci-ml/pytorch ~*
+sci-ml/torchvision ~*
+sci-libs/aotriton-bin ~*
+media-libs/opencv ~*
+llvm-core/mlir ~*

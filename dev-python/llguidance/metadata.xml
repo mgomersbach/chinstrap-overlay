@@ -3,6 +3,6 @@
 <pkgmetadata>
 	<upstream>
 		<remote-id type="pypi">llguidance</remote-id>
-		<remote-id type="github">microsoft/llguidance</remote-id>
+		<remote-id type="github">guidance-ai/llguidance</remote-id>
 	</upstream>
 </pkgmetadata>

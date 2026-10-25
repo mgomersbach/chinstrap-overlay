@@ -11,7 +11,7 @@ EGIT_REPO_URI="https://github.com/mgomersbach/libedgetpu.git"
 EGIT_BRANCH="combined-patches"
 
 TF_VERSION="2.21.0"
-LITERT_VERSION="2.1.3"
+LITERT_VERSION="2.3.0"
 LITERT_URI="https://github.com/google-ai-edge/LiteRT"
 SRC_URI="
 	!litert? ( https://github.com/tensorflow/tensorflow/archive/v${TF_VERSION}.tar.gz -> tensorflow-${TF_VERSION}.tar.gz )
@@ -52,9 +52,14 @@ _get_tfroot() {
 src_prepare() {
 	default
 
+	# System abseil-cpp is built as C++20 (std::*_ordering in absl/types/compare.h).
+	sed -i 's/-std=c++17/-std=c++20/' makefile_build/Makefile || die
+
 	local tfroot=$(_get_tfroot)
 
 	if use litert; then
+		# LiteRT >= 2.3 ships a stub tensorflow/lite/tools/BUILD; replace it with the alias.
+		[[ -L "${tfroot}/tensorflow/lite" ]] || rm -rf "${tfroot}/tensorflow/lite" || die
 		mkdir -p "${tfroot}/tensorflow" || die
 		[[ -e "${tfroot}/tensorflow/lite" ]] || ln -s ../tflite "${tfroot}/tensorflow/lite" || die
 	fi
